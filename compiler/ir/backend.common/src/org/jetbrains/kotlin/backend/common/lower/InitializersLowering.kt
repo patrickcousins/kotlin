@@ -41,8 +41,7 @@ class InitializersLowering(
     val context: CommonBackendContext,
     val declarationOrigin: IrDeclarationOrigin,
     private val clinitNeeded: Boolean
-) :
-    ClassLoweringPass {
+) : ClassLoweringPass {
     override fun lower(irClass: IrClass) {
         val classInitializersBuilder = ClassInitializersBuilder(irClass)
         irClass.acceptChildrenVoid(classInitializersBuilder)
