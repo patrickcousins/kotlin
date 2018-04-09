@@ -9,16 +9,13 @@ import org.jetbrains.kotlin.backend.common.CommonBackendContext
 import org.jetbrains.kotlin.backend.common.ReflectionTypes
 import org.jetbrains.kotlin.backend.common.ir.Ir
 import org.jetbrains.kotlin.backend.common.ir.Symbols
-import org.jetbrains.kotlin.builtins.KotlinBuiltIns
 import org.jetbrains.kotlin.descriptors.*
 import org.jetbrains.kotlin.descriptors.annotations.Annotations
 import org.jetbrains.kotlin.descriptors.impl.SimpleFunctionDescriptorImpl
 import org.jetbrains.kotlin.descriptors.impl.TypeParameterDescriptorImpl
 import org.jetbrains.kotlin.incremental.components.NoLookupLocation
 import org.jetbrains.kotlin.ir.IrElement
-import org.jetbrains.kotlin.ir.UNDEFINED_OFFSET
 import org.jetbrains.kotlin.ir.declarations.*
-import org.jetbrains.kotlin.ir.declarations.impl.IrFunctionImpl
 import org.jetbrains.kotlin.ir.descriptors.IrBuiltIns
 import org.jetbrains.kotlin.ir.symbols.IrClassSymbol
 import org.jetbrains.kotlin.ir.symbols.IrConstructorSymbol
@@ -35,7 +32,7 @@ class JsIrBackendContext(
     val module: ModuleDescriptor,
     override val irBuiltIns: IrBuiltIns,
     irModuleFragment: IrModuleFragment,
-    val symbolTable: SymbolTable
+    symbolTable: SymbolTable
 ) : CommonBackendContext {
     override val builtIns = module.builtIns
     override val sharedVariablesManager = JsSharedVariablesManager(builtIns)
@@ -90,9 +87,16 @@ class JsIrBackendContext(
         override fun shouldGenerateHandlerParameterForDefaultBodyFun() = true
     }
 
-    private val OBJECT_CREATE_INTRINSIC_NAME = "Object.create"
+    data class SecondaryCtorPair(val delegate: IrSimpleFunctionSymbol, val stub: IrSimpleFunctionSymbol)
+
+    val secondaryConstructorsMap = mutableMapOf<IrConstructorSymbol, SecondaryCtorPair>()
+
+    private val OBJECT_CREATE_INTRINSIC_NAME = "Object\$create"
 
     private val stubBuilder = DeclarationStubGenerator(symbolTable, JsLoweredDeclarationOrigin.JS_INTRINSICS_STUB)
+
+    val objectCreate: IrSimpleFunction = defineObjectCreateIntrinsic()
+
     private fun defineObjectCreateIntrinsic(): IrSimpleFunction {
 
         val typeParam = TypeParameterDescriptorImpl.createWithDefaultBound(
@@ -119,12 +123,6 @@ class JsIrBackendContext(
 
         return stubBuilder.generateFunctionStub(desc)
     }
-
-    val objectCreate: IrSimpleFunction = defineObjectCreateIntrinsic()
-
-    data class ConstructorsPair(val delegate: IrSimpleFunctionSymbol, val stub: IrSimpleFunctionSymbol)
-
-    val secondaryConstructorsMap = mutableMapOf<IrConstructorSymbol, ConstructorsPair>()
 
     private fun find(memberScope: MemberScope, className: String): ClassDescriptor {
         return find(memberScope, Name.identifier(className))

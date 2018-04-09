@@ -23,7 +23,7 @@ class JsGenerationContext {
 
     val currentBlock: JsBlock
     val currentScope: JsScope
-    var currentFunction: IrFunction? = null
+    val currentFunction: IrFunction?
     val parent: JsGenerationContext?
     val staticContext: JsStaticContext
     private val program: JsProgram
@@ -35,6 +35,7 @@ class JsGenerationContext {
         this.staticContext = JsStaticContext(rootScope, program.globalBlock, SimpleNameGenerator(), backendContext)
         this.currentScope = rootScope
         this.currentBlock = program.globalBlock
+        this.currentFunction = null
     }
 
     constructor(parent: JsGenerationContext, block: JsBlock, scope: JsScope, func: IrFunction?) {

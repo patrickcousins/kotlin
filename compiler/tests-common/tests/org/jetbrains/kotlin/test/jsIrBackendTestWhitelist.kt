@@ -15,5 +15,10 @@ val JS_IR_BACKEND_TEST_WHITELIST = listOf(
     "js/js.translator/testData/box/expression/identifierClash/useVariableOfNameOfFunction.kt",
     "js/js.translator/testData/box/expression/stringClass/stringConstant.kt",
     "js/js.translator/testData/box/expression/when/empty.kt",
-    "js/js.translator/testData/box/simple/notBoolean.kt"
+    "js/js.translator/testData/box/simple/notBoolean.kt",
+    "js/js.translator/testData/box/simple/primCtorDelegation1.kt",
+    "js/js.translator/testData/box/simple/secCtorDelegation1.kt",
+    "js/js.translator/testData/box/simple/secCtorDelegation2.kt",
+    "js/js.translator/testData/box/simple/secCtorDelegation3.kt",
+    "js/js.translator/testData/box/simple/secCtorDelegation4.kt"
 ).map { File(it) }

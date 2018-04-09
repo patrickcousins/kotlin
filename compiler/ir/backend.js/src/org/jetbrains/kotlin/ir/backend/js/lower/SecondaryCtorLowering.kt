@@ -41,68 +41,13 @@ import org.jetbrains.kotlin.ir.visitors.transformChildrenVoid
 import org.jetbrains.kotlin.name.Name
 
 class SecondaryCtorLowering(val context: JsIrBackendContext) : IrElementTransformerVoid(), FileLoweringPass {
-    val oldCtorToNewMap = mutableMapOf<IrConstructorSymbol, JsIrBackendContext.ConstructorsPair>()
+
+    private val oldCtorToNewMap = mutableMapOf<IrConstructorSymbol, JsIrBackendContext.SecondaryCtorPair>()
+    private val SYNTHETIC_THIS_NAME = "\$this"
 
     override fun lower(irFile: IrFile) {
         irFile.accept(this, null)
         context.secondaryConstructorsMap.putAll(oldCtorToNewMap)
-    }
-
-    class CallsiteRedirectionTransformer(val context: JsIrBackendContext) : IrElementTransformer<IrFunction?> {
-
-        override fun visitFunction(declaration: IrFunction, data: IrFunction?): IrStatement = super.visitFunction(declaration, declaration)
-
-        override fun visitCall(expression: IrCall, ownerFunc: IrFunction?): IrElement {
-            val target = expression.symbol.owner as IrFunction
-
-            if (target is IrConstructor) {
-                if (!target.descriptor.isPrimary) {
-                    return redirectCall(expression, context.secondaryConstructorsMap[target.symbol]!!.stub)
-                }
-            }
-
-            return expression
-        }
-
-        override fun visitDelegatingConstructorCall(expression: IrDelegatingConstructorCall, ownerFunc: IrFunction?): IrElement {
-            val target = expression.symbol.owner
-            if (target.descriptor.isPrimary) {
-                // nothing to do here
-                return expression
-            }
-
-            val fromPrimary = ownerFunc!! is IrConstructor
-            val newCall = redirectCall(expression, context.secondaryConstructorsMap[target.symbol]!!.delegate)
-
-            val readThis = if (fromPrimary) {
-                IrGetValueImpl(
-                    expression.startOffset,
-                    expression.endOffset,
-                    IrValueParameterSymbolImpl(LazyClassReceiverParameterDescriptor(target.descriptor.containingDeclaration))
-                )
-            } else {
-                IrGetValueImpl(expression.startOffset, expression.endOffset, ownerFunc.valueParameters.last().symbol)
-            }
-
-            newCall.putValueArgument(expression.valueArgumentsCount, readThis)
-
-            return newCall
-        }
-
-        private fun redirectCall(
-            call: IrFunctionAccessExpression,
-            newTarget: IrSimpleFunctionSymbol
-        ): IrCallImpl {
-            val newCall = IrCallImpl(call.startOffset, call.endOffset, newTarget)
-
-            newCall.copyTypeArgumentsFrom(call)
-
-            for (i in 0 until call.valueArgumentsCount) {
-                newCall.putValueArgument(i, call.getValueArgument(i))
-            }
-
-            return newCall
-        }
     }
 
     override fun visitFile(irFile: IrFile): IrFile {
@@ -133,7 +78,7 @@ class SecondaryCtorLowering(val context: JsIrBackendContext) : IrElementTransfor
                 val newStubConstructor = createStubCtor(declaration, newDelegateConstructor, constructorName)
 
                 oldCtorToNewMap[declaration.symbol] =
-                        JsIrBackendContext.ConstructorsPair(newDelegateConstructor.symbol, newStubConstructor.symbol)
+                        JsIrBackendContext.SecondaryCtorPair(newDelegateConstructor.symbol, newStubConstructor.symbol)
 
                 oldConstructors += declaration
                 newConstructors += newDelegateConstructor
@@ -166,8 +111,6 @@ class SecondaryCtorLowering(val context: JsIrBackendContext) : IrElementTransfor
                 expression
             }
     }
-
-    private val SYNTHETIC_THIS_NAME = "\$this"
 
     private fun createCtorDeligate(declaration: IrConstructor, name: String): IrSimpleFunction {
         val actualName = "${name}_delegate"
@@ -303,4 +246,60 @@ class SecondaryCtorLowering(val context: JsIrBackendContext) : IrElementTransfor
     }
 
 
+    class CallsiteRedirectionTransformer(val context: JsIrBackendContext) : IrElementTransformer<IrFunction?> {
+
+        override fun visitFunction(declaration: IrFunction, data: IrFunction?): IrStatement = super.visitFunction(declaration, declaration)
+
+        override fun visitCall(expression: IrCall, ownerFunc: IrFunction?): IrElement {
+            val target = expression.symbol.owner as IrFunction
+
+            if (target is IrConstructor) {
+                if (!target.descriptor.isPrimary) {
+                    return redirectCall(expression, context.secondaryConstructorsMap[target.symbol]!!.stub)
+                }
+            }
+
+            return expression
+        }
+
+        override fun visitDelegatingConstructorCall(expression: IrDelegatingConstructorCall, ownerFunc: IrFunction?): IrElement {
+            val target = expression.symbol.owner
+            if (target.descriptor.isPrimary) {
+                // nothing to do here
+                return expression
+            }
+
+            val fromPrimary = ownerFunc!! is IrConstructor
+            val newCall = redirectCall(expression, context.secondaryConstructorsMap[target.symbol]!!.delegate)
+
+            val readThis = if (fromPrimary) {
+                IrGetValueImpl(
+                    expression.startOffset,
+                    expression.endOffset,
+                    IrValueParameterSymbolImpl(LazyClassReceiverParameterDescriptor(target.descriptor.containingDeclaration))
+                )
+            } else {
+                IrGetValueImpl(expression.startOffset, expression.endOffset, ownerFunc.valueParameters.last().symbol)
+            }
+
+            newCall.putValueArgument(expression.valueArgumentsCount, readThis)
+
+            return newCall
+        }
+
+        private fun redirectCall(
+            call: IrFunctionAccessExpression,
+            newTarget: IrSimpleFunctionSymbol
+        ): IrCallImpl {
+            val newCall = IrCallImpl(call.startOffset, call.endOffset, newTarget)
+
+            newCall.copyTypeArgumentsFrom(call)
+
+            for (i in 0 until call.valueArgumentsCount) {
+                newCall.putValueArgument(i, call.getValueArgument(i))
+            }
+
+            return newCall
+        }
+    }
 }

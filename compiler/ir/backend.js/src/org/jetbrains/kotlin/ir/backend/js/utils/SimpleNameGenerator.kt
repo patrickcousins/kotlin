@@ -50,7 +50,7 @@ class SimpleNameGenerator : NameGenerator {
             }
 
         }
-        return@getOrPut scope.declareName(sanitizeName(nameBuilder.toString()))
+        scope.declareName(sanitizeName(nameBuilder.toString()))
     })
 
     private fun sanitizeName(name: String): String {
