@@ -151,7 +151,7 @@ public class MutableClassDescriptor extends ClassDescriptorBase {
 
     public void createTypeConstructor() {
         assert typeConstructor == null : typeConstructor;
-        this.typeConstructor = new ClassTypeConstructorImpl(this, typeParameters, supertypes);
+        this.typeConstructor = new ClassTypeConstructorImpl(this, typeParameters, supertypes, LockBasedStorageManager.NO_LOCKS);
         for (FunctionDescriptor functionDescriptor : getConstructors()) {
             ((ClassConstructorDescriptorImpl) functionDescriptor).setReturnType(getDefaultType());
         }
