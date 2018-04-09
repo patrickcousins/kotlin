@@ -178,14 +178,17 @@ class FunctionReader(
         override fun toString() = text.substring(offset)
     }
 
-    private val emptyFunctionWrapper = FunctionWithWrapperHandle()
+    private val emptyFunctionWrapper = FunctionWithWrapper(JsFunction(object : JsScope("") {}, ""), null)
 
-    private val functionCache = object : SLRUCache<CallableDescriptor, FunctionWithWrapperHandle>(50, 50) {
-        override fun createValue(descriptor: CallableDescriptor): FunctionWithWrapperHandle =
+    private val functionCache = object : SLRUCache<CallableDescriptor, FunctionWithWrapper>(50, 50) {
+        override fun createValue(descriptor: CallableDescriptor): FunctionWithWrapper =
             readFunction(descriptor) ?: emptyFunctionWrapper
     }
 
-    operator fun get(descriptor: CallableDescriptor): FunctionWithWrapper? = functionCache.get(descriptor) as? FunctionWithWrapper
+    operator fun get(descriptor: CallableDescriptor): FunctionWithWrapper? {
+        val existed = functionCache.get(descriptor)
+        return if (existed == emptyFunctionWrapper) null else existed
+    }
 
     private fun readFunction(descriptor: CallableDescriptor): FunctionWithWrapper? {
         val moduleName = getModuleName(descriptor)

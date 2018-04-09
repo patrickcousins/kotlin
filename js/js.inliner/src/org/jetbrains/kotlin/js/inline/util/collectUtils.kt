@@ -200,8 +200,7 @@ fun collectNamedFunctionsAndMetadata(scope: JsNode): Map<JsName, Pair<FunctionWi
     return namedFunctions
 }
 
-open class FunctionWithWrapperHandle
-data class FunctionWithWrapper(val function: JsFunction, val wrapperBody: JsBlock?) : FunctionWithWrapperHandle()
+data class FunctionWithWrapper(val function: JsFunction, val wrapperBody: JsBlock?)
 
 fun collectAccessors(scope: JsNode): Map<String, FunctionWithWrapper> {
     val accessors = hashMapOf<String, FunctionWithWrapper>()
