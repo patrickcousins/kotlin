@@ -73,13 +73,7 @@ abstract class FunctionContext(private val functionReader: FunctionReader, priva
 
         val descriptor = call.descriptor
         if (descriptor != null) {
-            val moduleName = getModuleName(descriptor)
-            val currentModuleName = config.moduleId
-            if (moduleName != currentModuleName) {
-                return lookUpFunctionExternal(descriptor)
-            }
             return lookUpFunctionDirect(descriptor) ?: lookUpFunctionIndirect(call) ?: lookUpFunctionExternal(descriptor)
-
         }
 
         return lookUpFunctionIndirect(call)
