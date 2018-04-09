@@ -43,7 +43,6 @@ import org.jetbrains.kotlin.name.Name
 class SecondaryCtorLowering(val context: JsIrBackendContext) : IrElementTransformerVoid(), FileLoweringPass {
 
     private val oldCtorToNewMap = mutableMapOf<IrConstructorSymbol, JsIrBackendContext.SecondaryCtorPair>()
-    private val SYNTHETIC_THIS_NAME = "\$this"
 
     override fun lower(irFile: IrFile) {
         irFile.accept(this, null)
@@ -121,7 +120,7 @@ class SecondaryCtorLowering(val context: JsIrBackendContext) : IrElementTransfor
             null,
             declaration.descriptor.valueParameters.size,
             Annotations.EMPTY,
-            Name.identifier(SYNTHETIC_THIS_NAME),
+            Name.identifier("\$this"),
             declaration.descriptor.returnType,
             false,
             false,

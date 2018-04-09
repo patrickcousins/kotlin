@@ -91,8 +91,6 @@ class JsIrBackendContext(
 
     val secondaryConstructorsMap = mutableMapOf<IrConstructorSymbol, SecondaryCtorPair>()
 
-    private val OBJECT_CREATE_INTRINSIC_NAME = "Object\$create"
-
     private val stubBuilder = DeclarationStubGenerator(symbolTable, JsLoweredDeclarationOrigin.JS_INTRINSICS_STUB)
 
     val objectCreate: IrSimpleFunction = defineObjectCreateIntrinsic()
@@ -113,7 +111,7 @@ class JsIrBackendContext(
         val desc = SimpleFunctionDescriptorImpl.create(
             module,
             Annotations.EMPTY,
-            Name.identifier(OBJECT_CREATE_INTRINSIC_NAME),
+            Name.identifier("Object\$create"),
             CallableMemberDescriptor.Kind.SYNTHESIZED,
             SourceElement.NO_SOURCE
         ).apply {
