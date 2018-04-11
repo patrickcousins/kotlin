@@ -41,7 +41,7 @@ sealed class MultiTargetPlatform : Comparable<MultiTargetPlatform> {
 }
 
 fun ModuleDescriptor.getMultiTargetPlatform(): MultiTargetPlatform? =
-        module.getCapability(MultiTargetPlatform.CAPABILITY)
+        getCapability(MultiTargetPlatform.CAPABILITY)
 
 fun MemberDescriptor.getMultiTargetPlatform(): String? =
         (module.getMultiTargetPlatform() as? MultiTargetPlatform.Specific)?.platform
