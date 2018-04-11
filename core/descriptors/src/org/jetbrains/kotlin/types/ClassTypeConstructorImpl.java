@@ -31,7 +31,7 @@ import java.util.List;
 public class ClassTypeConstructorImpl extends AbstractClassTypeConstructor implements TypeConstructor {
     private final ClassDescriptor classDescriptor;
     private final List<TypeParameterDescriptor> parameters;
-    private final Collection<KotlinType> supertypes;
+    private final List<KotlinType> supertypes;
 
     public ClassTypeConstructorImpl(
             @NotNull ClassDescriptor classDescriptor,
@@ -41,7 +41,7 @@ public class ClassTypeConstructorImpl extends AbstractClassTypeConstructor imple
         super(LockBasedStorageManager.NO_LOCKS);
         this.classDescriptor = classDescriptor;
         this.parameters = Collections.unmodifiableList(new ArrayList<TypeParameterDescriptor>(parameters));
-        this.supertypes = Collections.unmodifiableCollection(supertypes);
+        this.supertypes = Collections.unmodifiableList(new ArrayList<KotlinType>(supertypes));
     }
 
     @Override
@@ -68,8 +68,14 @@ public class ClassTypeConstructorImpl extends AbstractClassTypeConstructor imple
 
     @NotNull
     @Override
-    protected Collection<KotlinType> computeSupertypes() {
+    public List<KotlinType> getSupertypes() {
         return supertypes;
+    }
+
+    @NotNull
+    @Override
+    protected Collection<KotlinType> computeSupertypes() {
+        throw new IllegalStateException("Don't call computeSupertypes on ClassTypeConstructorImpl: use 'getSupertypes' instead");
     }
 
     @NotNull
