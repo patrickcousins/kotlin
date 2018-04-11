@@ -60,11 +60,13 @@ abstract class AbstractTypeConstructor(storageManager: StorageManager) : TypeCon
             supertypes.supertypesWithoutCycles = (resultWithoutCycles as? List<KotlinType>) ?: resultWithoutCycles.toList()
         })
 
-    private fun TypeConstructor.computeNeighbours(useCompanions: Boolean): Collection<KotlinType> =
-        (this as? AbstractTypeConstructor)?.let { abstractClassifierDescriptor ->
-            abstractClassifierDescriptor.supertypes().allSupertypes +
-                    abstractClassifierDescriptor.getAdditionalNeighboursInSupertypeGraph(useCompanions)
-        } ?: supertypes
+    private fun TypeConstructor.computeNeighbours(useCompanions: Boolean): Collection<KotlinType> {
+        return when (this) {
+            is UnsafeClassTypeConstructor -> supertypes
+            is AbstractTypeConstructor -> supertypes().allSupertypes + getAdditionalNeighboursInSupertypeGraph(useCompanions)
+            else -> supertypes
+        }
+    }
 
     protected abstract fun computeSupertypes(): Collection<KotlinType>
     protected abstract val supertypeLoopChecker: SupertypeLoopChecker

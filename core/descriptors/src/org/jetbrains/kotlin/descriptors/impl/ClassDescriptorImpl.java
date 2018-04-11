@@ -15,6 +15,7 @@ import org.jetbrains.kotlin.storage.LockBasedStorageManager;
 import org.jetbrains.kotlin.types.ClassTypeConstructorImpl;
 import org.jetbrains.kotlin.types.KotlinType;
 import org.jetbrains.kotlin.types.TypeConstructor;
+import org.jetbrains.kotlin.types.UnsafeClassTypeConstructor;
 
 import java.util.Collection;
 import java.util.Collections;
@@ -44,7 +45,7 @@ public class ClassDescriptorImpl extends ClassDescriptorBase {
         this.modality = modality;
         this.kind = kind;
 
-        this.typeConstructor = new ClassTypeConstructorImpl(this, Collections.<TypeParameterDescriptor>emptyList(), supertypes);
+        this.typeConstructor = new UnsafeClassTypeConstructor(this, Collections.<TypeParameterDescriptor>emptyList(), supertypes);
     }
 
     public final void initialize(
