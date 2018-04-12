@@ -97,6 +97,13 @@ object JavaToKotlinClassMap : PlatformToKotlinClassMap {
             addKotlinToJava(FqName(kFun + i), ClassId.topLevel(FqName(kFun)))
         }
 
+        val kFunction = FunctionClassDescriptor.Kind.KFunction
+        val kFun = kFunction.packageFqName.toString() + "." + kFunction.classNamePrefix
+        for (i in listOf(30, 31)) {
+            add(ClassId.topLevel(FqName("kotlin.jvm.functions.FunctionN")), KotlinBuiltIns.getFunctionClassId(i))
+            addKotlinToJava(FqName(kFun + i), ClassId.topLevel(FqName(kFun)))
+        }
+
         addKotlinToJava(FQ_NAMES.nothing.toSafe(), classId(Void::class.java))
     }
 

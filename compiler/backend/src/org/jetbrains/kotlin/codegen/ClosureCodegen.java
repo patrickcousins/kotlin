@@ -12,6 +12,7 @@ import kotlin.Unit;
 import kotlin.collections.CollectionsKt;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import org.jetbrains.kotlin.builtins.functions.FunctionInvokeDescriptor;
 import org.jetbrains.kotlin.codegen.binding.CalculatedClosure;
 import org.jetbrains.kotlin.codegen.binding.CodegenBinding;
 import org.jetbrains.kotlin.codegen.context.ClosureContext;
@@ -199,7 +200,9 @@ public class ClosureCodegen extends MemberCodegen<KtElement> {
                 typeMapper.mapAsmMethod(erasedInterfaceFunction),
                 erasedInterfaceFunction.getReturnType(),
                 typeMapper.mapAsmMethod(funDescriptor),
-                funDescriptor.getReturnType()
+                funDescriptor.getReturnType(),
+                erasedInterfaceFunction instanceof FunctionInvokeDescriptor &&
+                ((FunctionInvokeDescriptor) erasedInterfaceFunction).hasBigArity()
         );
 
         //TODO: rewrite cause ugly hack
@@ -270,7 +273,8 @@ public class ClosureCodegen extends MemberCodegen<KtElement> {
             @NotNull Method bridge,
             @Nullable KotlinType bridgeReturnType,
             @NotNull Method delegate,
-            @Nullable KotlinType delegateReturnType
+            @Nullable KotlinType delegateReturnType,
+            boolean isVarargInvoke
     ) {
         if (bridge.equals(delegate)) return;
 
@@ -296,11 +300,20 @@ public class ClosureCodegen extends MemberCodegen<KtElement> {
 
         int slot = 1;
         for (int i = 0; i < calleeParameters.size(); i++) {
-            Type type = myParameterTypes[i];
             ParameterDescriptor calleeParameter = calleeParameters.get(i);
             KotlinType parameterType = calleeParameter.getType();
-            StackValue.local(slot, type, parameterType).put(typeMapper.mapType(calleeParameter), parameterType, iv);
-            slot += type.getSize();
+            StackValue value;
+            if (isVarargInvoke) {
+                value = StackValue.arrayElement(
+                        OBJECT_TYPE, null, StackValue.local(1, myParameterTypes[0], parameterType), StackValue.constant(i, Type.INT_TYPE)
+                );
+            }
+            else {
+                Type type = myParameterTypes[i];
+                value = StackValue.local(slot, type, parameterType);
+                slot += type.getSize();
+            }
+            value.put(typeMapper.mapType(calleeParameter), parameterType, iv);
         }
 
         iv.invokevirtual(asmType.getInternalName(), delegate.getName(), delegate.getDescriptor(), false);
