@@ -27,44 +27,37 @@ public class AnnotationParameterTestGenerated extends AbstractAnnotationParamete
 
     @TestMetadata("byte.kt")
     public void testByte() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/byte.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/byte.kt", this::doTest);
     }
 
     @TestMetadata("char.kt")
     public void testChar() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/char.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/char.kt", this::doTest);
     }
 
     @TestMetadata("double.kt")
     public void testDouble() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/double.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/double.kt", this::doTest);
     }
 
     @TestMetadata("float.kt")
     public void testFloat() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/float.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/float.kt", this::doTest);
     }
 
     @TestMetadata("int.kt")
     public void testInt() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/int.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/int.kt", this::doTest);
     }
 
     @TestMetadata("long.kt")
     public void testLong() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/long.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/long.kt", this::doTest);
     }
 
     @TestMetadata("short.kt")
     public void testShort() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/short.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/short.kt", this::doTest);
     }
 
     @TestMetadata("compiler/testData/resolveAnnotations/parameters/expressions")
@@ -77,206 +70,172 @@ public class AnnotationParameterTestGenerated extends AbstractAnnotationParamete
 
         @TestMetadata("andAnd.kt")
         public void testAndAnd() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/andAnd.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/andAnd.kt", this::doTest);
         }
 
         @TestMetadata("boolean.kt")
         public void testBoolean() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/boolean.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/boolean.kt", this::doTest);
         }
 
         @TestMetadata("char.kt")
         public void testChar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/char.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/char.kt", this::doTest);
         }
 
         @TestMetadata("compositeCallBinary.kt")
         public void testCompositeCallBinary() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/compositeCallBinary.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/compositeCallBinary.kt", this::doTest);
         }
 
         @TestMetadata("divide.kt")
         public void testDivide() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/divide.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/divide.kt", this::doTest);
         }
 
         @TestMetadata("double.kt")
         public void testDouble() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/double.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/double.kt", this::doTest);
         }
 
         @TestMetadata("eqeq.kt")
         public void testEqeq() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/eqeq.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/eqeq.kt", this::doTest);
         }
 
         @TestMetadata("escapedString.kt")
         public void testEscapedString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/escapedString.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/escapedString.kt", this::doTest);
         }
 
         @TestMetadata("float.kt")
         public void testFloat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/float.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/float.kt", this::doTest);
         }
 
         @TestMetadata("gt.kt")
         public void testGt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/gt.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/gt.kt", this::doTest);
         }
 
         @TestMetadata("gteq.kt")
         public void testGteq() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/gteq.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/gteq.kt", this::doTest);
         }
 
         @TestMetadata("intrincics.kt")
         public void testIntrincics() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/intrincics.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/intrincics.kt", this::doTest);
         }
 
         @TestMetadata("labeled.kt")
         public void testLabeled() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/labeled.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/labeled.kt", this::doTest);
         }
 
         @TestMetadata("long.kt")
         public void testLong() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/long.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/long.kt", this::doTest);
         }
 
         @TestMetadata("lt.kt")
         public void testLt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/lt.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/lt.kt", this::doTest);
         }
 
         @TestMetadata("lteq.kt")
         public void testLteq() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/lteq.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/lteq.kt", this::doTest);
         }
 
         @TestMetadata("maxValue.kt")
         public void testMaxValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/maxValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/maxValue.kt", this::doTest);
         }
 
         @TestMetadata("maxValueByte.kt")
         public void testMaxValueByte() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/maxValueByte.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/maxValueByte.kt", this::doTest);
         }
 
         @TestMetadata("maxValueInt.kt")
         public void testMaxValueInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/maxValueInt.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/maxValueInt.kt", this::doTest);
         }
 
         @TestMetadata("miltiply.kt")
         public void testMiltiply() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/miltiply.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/miltiply.kt", this::doTest);
         }
 
         @TestMetadata("minus.kt")
         public void testMinus() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/minus.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/minus.kt", this::doTest);
         }
 
         @TestMetadata("mod.kt")
         public void testMod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/mod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/mod.kt", this::doTest);
         }
 
         @TestMetadata("multilineString.kt")
         public void testMultilineString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/multilineString.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/multilineString.kt", this::doTest);
         }
 
         @TestMetadata("not.kt")
         public void testNot() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/not.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/not.kt", this::doTest);
         }
 
         @TestMetadata("noteq.kt")
         public void testNoteq() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/noteq.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/noteq.kt", this::doTest);
         }
 
         @TestMetadata("orOr.kt")
         public void testOrOr() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/orOr.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/orOr.kt", this::doTest);
         }
 
         @TestMetadata("paranthesized.kt")
         public void testParanthesized() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/paranthesized.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/paranthesized.kt", this::doTest);
         }
 
         @TestMetadata("plus.kt")
         public void testPlus() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/plus.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/plus.kt", this::doTest);
         }
 
         @TestMetadata("simpleCallBinary.kt")
         public void testSimpleCallBinary() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/simpleCallBinary.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/simpleCallBinary.kt", this::doTest);
         }
 
         @TestMetadata("stringPlusInt.kt")
         public void testStringPlusInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/stringPlusInt.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/stringPlusInt.kt", this::doTest);
         }
 
         @TestMetadata("stringTemplate.kt")
         public void testStringTemplate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/stringTemplate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/stringTemplate.kt", this::doTest);
         }
 
         @TestMetadata("strings.kt")
         public void testStrings() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/strings.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/strings.kt", this::doTest);
         }
 
         @TestMetadata("unaryMinus.kt")
         public void testUnaryMinus() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/unaryMinus.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/unaryMinus.kt", this::doTest);
         }
 
         @TestMetadata("unaryPlus.kt")
         public void testUnaryPlus() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolveAnnotations/parameters/expressions/unaryPlus.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolveAnnotations/parameters/expressions/unaryPlus.kt", this::doTest);
         }
     }
 }

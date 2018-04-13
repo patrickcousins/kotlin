@@ -27,49 +27,41 @@ public class KDocTypingTestGenerated extends AbstractKDocTypingTest {
 
     @TestMetadata("closingBracketNotInLink.kt")
     public void testClosingBracketNotInLink() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/typing/closingBracketNotInLink.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingBracketNotInLink.kt", this::doTest);
     }
 
     @TestMetadata("closingBracketOvertype.kt")
     public void testClosingBracketOvertype() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/typing/closingBracketOvertype.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingBracketOvertype.kt", this::doTest);
     }
 
     @TestMetadata("closingBracketOvertypeEmpty.kt")
     public void testClosingBracketOvertypeEmpty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/typing/closingBracketOvertypeEmpty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingBracketOvertypeEmpty.kt", this::doTest);
     }
 
     @TestMetadata("closingBracketRefLinkOvertype.kt")
     public void testClosingBracketRefLinkOvertype() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/typing/closingBracketRefLinkOvertype.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingBracketRefLinkOvertype.kt", this::doTest);
     }
 
     @TestMetadata("closingParenOvertype.kt")
     public void testClosingParenOvertype() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/typing/closingParenOvertype.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/typing/closingParenOvertype.kt", this::doTest);
     }
 
     @TestMetadata("openingBracket.kt")
     public void testOpeningBracket() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/typing/openingBracket.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/typing/openingBracket.kt", this::doTest);
     }
 
     @TestMetadata("openingBracketRefLink.kt")
     public void testOpeningBracketRefLink() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/typing/openingBracketRefLink.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/typing/openingBracketRefLink.kt", this::doTest);
     }
 
     @TestMetadata("openingParen.kt")
     public void testOpeningParen() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/typing/openingParen.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/typing/openingParen.kt", this::doTest);
     }
 }

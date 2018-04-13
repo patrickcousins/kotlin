@@ -35,110 +35,92 @@ public class TypeBindingTestGenerated extends AbstractTypeBindingTest {
 
         @TestMetadata("conflictingProjection.kt")
         public void testConflictingProjection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/conflictingProjection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/conflictingProjection.kt", this::doTest);
         }
 
         @TestMetadata("conflictingProjection2.kt")
         public void testConflictingProjection2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/conflictingProjection2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/conflictingProjection2.kt", this::doTest);
         }
 
         @TestMetadata("errorPair.kt")
         public void testErrorPair() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/errorPair.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/errorPair.kt", this::doTest);
         }
 
         @TestMetadata("errorWithProjection.kt")
         public void testErrorWithProjection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/errorWithProjection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/errorWithProjection.kt", this::doTest);
         }
 
         @TestMetadata("functionType.kt")
         public void testFunctionType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/functionType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/functionType.kt", this::doTest);
         }
 
         @TestMetadata("functionType2.kt")
         public void testFunctionType2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/functionType2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/functionType2.kt", this::doTest);
         }
 
         @TestMetadata("functionType3.kt")
         public void testFunctionType3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/functionType3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/functionType3.kt", this::doTest);
         }
 
         @TestMetadata("inProjection.kt")
         public void testInProjection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/inProjection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/inProjection.kt", this::doTest);
         }
 
         @TestMetadata("int.kt")
         public void testInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/int.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/int.kt", this::doTest);
         }
 
         @TestMetadata("list0.kt")
         public void testList0() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/list0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/list0.kt", this::doTest);
         }
 
         @TestMetadata("list2.kt")
         public void testList2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/list2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/list2.kt", this::doTest);
         }
 
         @TestMetadata("nullableType.kt")
         public void testNullableType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/nullableType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/nullableType.kt", this::doTest);
         }
 
         @TestMetadata("outProjection.kt")
         public void testOutProjection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/outProjection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/outProjection.kt", this::doTest);
         }
 
         @TestMetadata("pair.kt")
         public void testPair() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/pair.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/pair.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/simple.kt", this::doTest);
         }
 
         @TestMetadata("star.kt")
         public void testStar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/star.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/star.kt", this::doTest);
         }
 
         @TestMetadata("typeWithBracket.kt")
         public void testTypeWithBracket() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/typeWithBracket.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/typeWithBracket.kt", this::doTest);
         }
 
         @TestMetadata("unresolvedType.kt")
         public void testUnresolvedType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/explicit/unresolvedType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/explicit/unresolvedType.kt", this::doTest);
         }
     }
 
@@ -152,110 +134,92 @@ public class TypeBindingTestGenerated extends AbstractTypeBindingTest {
 
         @TestMetadata("conflictingProjection.kt")
         public void testConflictingProjection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/conflictingProjection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/conflictingProjection.kt", this::doTest);
         }
 
         @TestMetadata("conflictingProjection2.kt")
         public void testConflictingProjection2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/conflictingProjection2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/conflictingProjection2.kt", this::doTest);
         }
 
         @TestMetadata("errorPair.kt")
         public void testErrorPair() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/errorPair.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/errorPair.kt", this::doTest);
         }
 
         @TestMetadata("errorWithProjection.kt")
         public void testErrorWithProjection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/errorWithProjection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/errorWithProjection.kt", this::doTest);
         }
 
         @TestMetadata("functionType.kt")
         public void testFunctionType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/functionType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/functionType.kt", this::doTest);
         }
 
         @TestMetadata("functionType2.kt")
         public void testFunctionType2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/functionType2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/functionType2.kt", this::doTest);
         }
 
         @TestMetadata("functionType3.kt")
         public void testFunctionType3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/functionType3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/functionType3.kt", this::doTest);
         }
 
         @TestMetadata("inProjection.kt")
         public void testInProjection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/inProjection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/inProjection.kt", this::doTest);
         }
 
         @TestMetadata("int.kt")
         public void testInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/int.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/int.kt", this::doTest);
         }
 
         @TestMetadata("list0.kt")
         public void testList0() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/list0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/list0.kt", this::doTest);
         }
 
         @TestMetadata("list2.kt")
         public void testList2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/list2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/list2.kt", this::doTest);
         }
 
         @TestMetadata("nullableType.kt")
         public void testNullableType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/nullableType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/nullableType.kt", this::doTest);
         }
 
         @TestMetadata("outProjection.kt")
         public void testOutProjection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/outProjection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/outProjection.kt", this::doTest);
         }
 
         @TestMetadata("pair.kt")
         public void testPair() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/pair.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/pair.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/simple.kt", this::doTest);
         }
 
         @TestMetadata("star.kt")
         public void testStar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/star.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/star.kt", this::doTest);
         }
 
         @TestMetadata("typeWithBracket.kt")
         public void testTypeWithBracket() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/typeWithBracket.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/typeWithBracket.kt", this::doTest);
         }
 
         @TestMetadata("unresolvedType.kt")
         public void testUnresolvedType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/type/binding/implicit/unresolvedType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/type/binding/implicit/unresolvedType.kt", this::doTest);
         }
     }
 }

@@ -23,20 +23,17 @@ import java.util.regex.Pattern;
 public class KotlinGotoSuperMultiModuleTestGenerated extends AbstractKotlinGotoSuperMultiModuleTest {
     @TestMetadata("actualClass")
     public void testActualClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/multiModule/actualClass/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/multiModule/actualClass/", this::doTest);
     }
 
     @TestMetadata("actualFunction")
     public void testActualFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/multiModule/actualFunction/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/multiModule/actualFunction/", this::doTest);
     }
 
     @TestMetadata("actualProperty")
     public void testActualProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/multiModule/actualProperty/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/multiModule/actualProperty/", this::doTest);
     }
 
     public void testAllFilesPresentInMultiModule() throws Exception {

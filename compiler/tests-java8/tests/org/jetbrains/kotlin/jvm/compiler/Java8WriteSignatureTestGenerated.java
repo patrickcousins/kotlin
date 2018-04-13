@@ -27,7 +27,6 @@ public class Java8WriteSignatureTestGenerated extends AbstractJava8WriteSignatur
 
     @TestMetadata("mutableMapRemove.kt")
     public void testMutableMapRemove() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/writeSignature/mutableMapRemove.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/writeSignature/mutableMapRemove.kt", this::doTest);
     }
 }

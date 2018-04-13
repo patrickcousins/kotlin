@@ -27,439 +27,302 @@ public class JsLegacyPrimitiveArraysBoxTestGenerated extends AbstractJsLegacyPri
 
     @TestMetadata("arrayConstructorsSimple.kt")
     public void testArrayConstructorsSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/arrayConstructorsSimple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/arrayConstructorsSimple.kt", this::doTest);
     }
 
     @TestMetadata("arrayGetAssignMultiIndex.kt")
     public void testArrayGetAssignMultiIndex() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/arrayGetAssignMultiIndex.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/arrayGetAssignMultiIndex.kt", this::doTest);
     }
 
     @TestMetadata("arrayGetMultiIndex.kt")
     public void testArrayGetMultiIndex() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/arrayGetMultiIndex.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/arrayGetMultiIndex.kt", this::doTest);
     }
 
     @TestMetadata("arrayInstanceOf.kt")
     public void testArrayInstanceOf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/arrayInstanceOf.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/arrayInstanceOf.kt", this::doTest);
     }
 
     @TestMetadata("arrayPlusAssign.kt")
     public void testArrayPlusAssign() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/arrayPlusAssign.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/arrayPlusAssign.kt", this::doTest);
     }
 
     @TestMetadata("arraysAreCloneable.kt")
     public void testArraysAreCloneable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/arraysAreCloneable.kt");
-        if (KotlinTestUtils.RUN_IGNORED_TESTS_AS_REGULAR) {
-            doTest(fileName);
-            return;
-        }
-        try {
-            doTest(fileName);
-        }
-        catch (Throwable ignore) {
-            ignore.printStackTrace();
-            return;
-        }
-        throw new AssertionError("Looks like this test can be unmuted. Remove IGNORE_BACKEND directive or add it to whitelist for that.");
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/arraysAreCloneable.kt", this::doTest);
     }
 
     @TestMetadata("cloneArray.kt")
     public void testCloneArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/cloneArray.kt");
-        if (KotlinTestUtils.RUN_IGNORED_TESTS_AS_REGULAR) {
-            doTest(fileName);
-            return;
-        }
-        try {
-            doTest(fileName);
-        }
-        catch (Throwable ignore) {
-            ignore.printStackTrace();
-            return;
-        }
-        throw new AssertionError("Looks like this test can be unmuted. Remove IGNORE_BACKEND directive or add it to whitelist for that.");
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/cloneArray.kt", this::doTest);
     }
 
     @TestMetadata("clonePrimitiveArrays.kt")
     public void testClonePrimitiveArrays() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/clonePrimitiveArrays.kt");
-        if (KotlinTestUtils.RUN_IGNORED_TESTS_AS_REGULAR) {
-            doTest(fileName);
-            return;
-        }
-        try {
-            doTest(fileName);
-        }
-        catch (Throwable ignore) {
-            ignore.printStackTrace();
-            return;
-        }
-        throw new AssertionError("Looks like this test can be unmuted. Remove IGNORE_BACKEND directive or add it to whitelist for that.");
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/clonePrimitiveArrays.kt", this::doTest);
     }
 
     @TestMetadata("collectionAssignGetMultiIndex.kt")
     public void testCollectionAssignGetMultiIndex() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/collectionAssignGetMultiIndex.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/collectionAssignGetMultiIndex.kt", this::doTest);
     }
 
     @TestMetadata("collectionGetMultiIndex.kt")
     public void testCollectionGetMultiIndex() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/collectionGetMultiIndex.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/collectionGetMultiIndex.kt", this::doTest);
     }
 
     @TestMetadata("forEachBooleanArray.kt")
     public void testForEachBooleanArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/forEachBooleanArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/forEachBooleanArray.kt", this::doTest);
     }
 
     @TestMetadata("forEachByteArray.kt")
     public void testForEachByteArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/forEachByteArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/forEachByteArray.kt", this::doTest);
     }
 
     @TestMetadata("forEachCharArray.kt")
     public void testForEachCharArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/forEachCharArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/forEachCharArray.kt", this::doTest);
     }
 
     @TestMetadata("forEachDoubleArray.kt")
     public void testForEachDoubleArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/forEachDoubleArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/forEachDoubleArray.kt", this::doTest);
     }
 
     @TestMetadata("forEachFloatArray.kt")
     public void testForEachFloatArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/forEachFloatArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/forEachFloatArray.kt", this::doTest);
     }
 
     @TestMetadata("forEachIntArray.kt")
     public void testForEachIntArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/forEachIntArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/forEachIntArray.kt", this::doTest);
     }
 
     @TestMetadata("forEachLongArray.kt")
     public void testForEachLongArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/forEachLongArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/forEachLongArray.kt", this::doTest);
     }
 
     @TestMetadata("forEachShortArray.kt")
     public void testForEachShortArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/forEachShortArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/forEachShortArray.kt", this::doTest);
     }
 
     @TestMetadata("genericArrayInObjectLiteralConstructor.kt")
     public void testGenericArrayInObjectLiteralConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/genericArrayInObjectLiteralConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/genericArrayInObjectLiteralConstructor.kt", this::doTest);
     }
 
     @TestMetadata("hashMap.kt")
     public void testHashMap() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/hashMap.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/hashMap.kt", this::doTest);
     }
 
     @TestMetadata("inProjectionAsParameter.kt")
     public void testInProjectionAsParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/inProjectionAsParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/inProjectionAsParameter.kt", this::doTest);
     }
 
     @TestMetadata("inProjectionOfArray.kt")
     public void testInProjectionOfArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/inProjectionOfArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/inProjectionOfArray.kt", this::doTest);
     }
 
     @TestMetadata("inProjectionOfList.kt")
     public void testInProjectionOfList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/inProjectionOfList.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/inProjectionOfList.kt", this::doTest);
     }
 
     @TestMetadata("indices.kt")
     public void testIndices() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/indices.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/indices.kt", this::doTest);
     }
 
     @TestMetadata("indicesChar.kt")
     public void testIndicesChar() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/indicesChar.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/indicesChar.kt", this::doTest);
     }
 
     @TestMetadata("iterator.kt")
     public void testIterator() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iterator.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iterator.kt", this::doTest);
     }
 
     @TestMetadata("iteratorBooleanArray.kt")
     public void testIteratorBooleanArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorBooleanArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorBooleanArray.kt", this::doTest);
     }
 
     @TestMetadata("iteratorByteArray.kt")
     public void testIteratorByteArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorByteArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorByteArray.kt", this::doTest);
     }
 
     @TestMetadata("iteratorByteArrayNextByte.kt")
     public void testIteratorByteArrayNextByte() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorByteArrayNextByte.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorByteArrayNextByte.kt", this::doTest);
     }
 
     @TestMetadata("iteratorCharArray.kt")
     public void testIteratorCharArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorCharArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorCharArray.kt", this::doTest);
     }
 
     @TestMetadata("iteratorDoubleArray.kt")
     public void testIteratorDoubleArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorDoubleArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorDoubleArray.kt", this::doTest);
     }
 
     @TestMetadata("iteratorFloatArray.kt")
     public void testIteratorFloatArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorFloatArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorFloatArray.kt", this::doTest);
     }
 
     @TestMetadata("iteratorIntArray.kt")
     public void testIteratorIntArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorIntArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorIntArray.kt", this::doTest);
     }
 
     @TestMetadata("iteratorLongArray.kt")
     public void testIteratorLongArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorLongArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorLongArray.kt", this::doTest);
     }
 
     @TestMetadata("iteratorLongArrayNextLong.kt")
     public void testIteratorLongArrayNextLong() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorLongArrayNextLong.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorLongArrayNextLong.kt", this::doTest);
     }
 
     @TestMetadata("iteratorShortArray.kt")
     public void testIteratorShortArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/iteratorShortArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/iteratorShortArray.kt", this::doTest);
     }
 
     @TestMetadata("kt1291.kt")
     public void testKt1291() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt1291.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt1291.kt", this::doTest);
     }
 
     @TestMetadata("kt17134.kt")
     public void testKt17134() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt17134.kt");
-        if (KotlinTestUtils.RUN_IGNORED_TESTS_AS_REGULAR) {
-            doTest(fileName);
-            return;
-        }
-        try {
-            doTest(fileName);
-        }
-        catch (Throwable ignore) {
-            ignore.printStackTrace();
-            return;
-        }
-        throw new AssertionError("Looks like this test can be unmuted. Remove IGNORE_BACKEND directive or add it to whitelist for that.");
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt17134.kt", this::doTest);
     }
 
     @TestMetadata("kt238.kt")
     public void testKt238() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt238.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt238.kt", this::doTest);
     }
 
     @TestMetadata("kt2997.kt")
     public void testKt2997() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt2997.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt2997.kt", this::doTest);
     }
 
     @TestMetadata("kt33.kt")
     public void testKt33() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt33.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt33.kt", this::doTest);
     }
 
     @TestMetadata("kt3771.kt")
     public void testKt3771() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt3771.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt3771.kt", this::doTest);
     }
 
     @TestMetadata("kt4118.kt")
     public void testKt4118() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt4118.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt4118.kt", this::doTest);
     }
 
     @TestMetadata("kt4348.kt")
     public void testKt4348() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt4348.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt4348.kt", this::doTest);
     }
 
     @TestMetadata("kt4357.kt")
     public void testKt4357() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt4357.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt4357.kt", this::doTest);
     }
 
     @TestMetadata("kt503.kt")
     public void testKt503() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt503.kt");
-        if (KotlinTestUtils.RUN_IGNORED_TESTS_AS_REGULAR) {
-            doTest(fileName);
-            return;
-        }
-        try {
-            doTest(fileName);
-        }
-        catch (Throwable ignore) {
-            ignore.printStackTrace();
-            return;
-        }
-        throw new AssertionError("Looks like this test can be unmuted. Remove IGNORE_BACKEND directive or add it to whitelist for that.");
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt503.kt", this::doTest);
     }
 
     @TestMetadata("kt594.kt")
     public void testKt594() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt594.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt594.kt", this::doTest);
     }
 
     @TestMetadata("kt602.kt")
     public void testKt602() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt602.kt");
-        if (KotlinTestUtils.RUN_IGNORED_TESTS_AS_REGULAR) {
-            doTest(fileName);
-            return;
-        }
-        try {
-            doTest(fileName);
-        }
-        catch (Throwable ignore) {
-            ignore.printStackTrace();
-            return;
-        }
-        throw new AssertionError("Looks like this test can be unmuted. Remove IGNORE_BACKEND directive or add it to whitelist for that.");
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt602.kt", this::doTest);
     }
 
     @TestMetadata("kt7009.kt")
     public void testKt7009() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt7009.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt7009.kt", this::doTest);
     }
 
     @TestMetadata("kt7288.kt")
     public void testKt7288() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt7288.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt7288.kt", this::doTest);
     }
 
     @TestMetadata("kt7338.kt")
     public void testKt7338() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt7338.kt");
-        if (KotlinTestUtils.RUN_IGNORED_TESTS_AS_REGULAR) {
-            doTest(fileName);
-            return;
-        }
-        try {
-            doTest(fileName);
-        }
-        catch (Throwable ignore) {
-            ignore.printStackTrace();
-            return;
-        }
-        throw new AssertionError("Looks like this test can be unmuted. Remove IGNORE_BACKEND directive or add it to whitelist for that.");
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt7338.kt", this::doTest);
     }
 
     @TestMetadata("kt779.kt")
     public void testKt779() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt779.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt779.kt", this::doTest);
     }
 
     @TestMetadata("kt945.kt")
     public void testKt945() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt945.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt945.kt", this::doTest);
     }
 
     @TestMetadata("kt950.kt")
     public void testKt950() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/kt950.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/kt950.kt", this::doTest);
     }
 
     @TestMetadata("longAsIndex.kt")
     public void testLongAsIndex() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/longAsIndex.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/longAsIndex.kt", this::doTest);
     }
 
     @TestMetadata("multiArrayConstructors.kt")
     public void testMultiArrayConstructors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiArrayConstructors.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiArrayConstructors.kt", this::doTest);
     }
 
     @TestMetadata("nonLocalReturnArrayConstructor.kt")
     public void testNonLocalReturnArrayConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/nonLocalReturnArrayConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/nonLocalReturnArrayConstructor.kt", this::doTest);
     }
 
     @TestMetadata("nonNullArray.kt")
     public void testNonNullArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/nonNullArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/nonNullArray.kt", this::doTest);
     }
 
     @TestMetadata("primitiveArrays.kt")
     public void testPrimitiveArrays() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/primitiveArrays.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/primitiveArrays.kt", this::doTest);
     }
 
     @TestMetadata("stdlib.kt")
     public void testStdlib() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/stdlib.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/stdlib.kt", this::doTest);
     }
 
     @TestMetadata("compiler/testData/codegen/box/arrays/multiDecl")
@@ -472,50 +335,42 @@ public class JsLegacyPrimitiveArraysBoxTestGenerated extends AbstractJsLegacyPri
 
         @TestMetadata("kt15560.kt")
         public void testKt15560() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/kt15560.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/kt15560.kt", this::doTest);
         }
 
         @TestMetadata("kt15568.kt")
         public void testKt15568() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/kt15568.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/kt15568.kt", this::doTest);
         }
 
         @TestMetadata("kt15575.kt")
         public void testKt15575() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/kt15575.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/kt15575.kt", this::doTest);
         }
 
         @TestMetadata("MultiDeclFor.kt")
         public void testMultiDeclFor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclFor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclFor.kt", this::doTest);
         }
 
         @TestMetadata("MultiDeclForComponentExtensions.kt")
         public void testMultiDeclForComponentExtensions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclForComponentExtensions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclForComponentExtensions.kt", this::doTest);
         }
 
         @TestMetadata("MultiDeclForComponentMemberExtensions.kt")
         public void testMultiDeclForComponentMemberExtensions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclForComponentMemberExtensions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclForComponentMemberExtensions.kt", this::doTest);
         }
 
         @TestMetadata("MultiDeclForComponentMemberExtensionsInExtensionFunction.kt")
         public void testMultiDeclForComponentMemberExtensionsInExtensionFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclForComponentMemberExtensionsInExtensionFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclForComponentMemberExtensionsInExtensionFunction.kt", this::doTest);
         }
 
         @TestMetadata("MultiDeclForValCaptured.kt")
         public void testMultiDeclForValCaptured() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclForValCaptured.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/MultiDeclForValCaptured.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/codegen/box/arrays/multiDecl/int")
@@ -528,26 +383,22 @@ public class JsLegacyPrimitiveArraysBoxTestGenerated extends AbstractJsLegacyPri
 
             @TestMetadata("MultiDeclForComponentExtensions.kt")
             public void testMultiDeclForComponentExtensions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/int/MultiDeclForComponentExtensions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/int/MultiDeclForComponentExtensions.kt", this::doTest);
             }
 
             @TestMetadata("MultiDeclForComponentExtensionsValCaptured.kt")
             public void testMultiDeclForComponentExtensionsValCaptured() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/int/MultiDeclForComponentExtensionsValCaptured.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/int/MultiDeclForComponentExtensionsValCaptured.kt", this::doTest);
             }
 
             @TestMetadata("MultiDeclForComponentMemberExtensions.kt")
             public void testMultiDeclForComponentMemberExtensions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/int/MultiDeclForComponentMemberExtensions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/int/MultiDeclForComponentMemberExtensions.kt", this::doTest);
             }
 
             @TestMetadata("MultiDeclForComponentMemberExtensionsInExtensionFunction.kt")
             public void testMultiDeclForComponentMemberExtensionsInExtensionFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/int/MultiDeclForComponentMemberExtensionsInExtensionFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/int/MultiDeclForComponentMemberExtensionsInExtensionFunction.kt", this::doTest);
             }
         }
 
@@ -561,26 +412,22 @@ public class JsLegacyPrimitiveArraysBoxTestGenerated extends AbstractJsLegacyPri
 
             @TestMetadata("MultiDeclForComponentExtensions.kt")
             public void testMultiDeclForComponentExtensions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/long/MultiDeclForComponentExtensions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/long/MultiDeclForComponentExtensions.kt", this::doTest);
             }
 
             @TestMetadata("MultiDeclForComponentExtensionsValCaptured.kt")
             public void testMultiDeclForComponentExtensionsValCaptured() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/long/MultiDeclForComponentExtensionsValCaptured.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/long/MultiDeclForComponentExtensionsValCaptured.kt", this::doTest);
             }
 
             @TestMetadata("MultiDeclForComponentMemberExtensions.kt")
             public void testMultiDeclForComponentMemberExtensions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/long/MultiDeclForComponentMemberExtensions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/long/MultiDeclForComponentMemberExtensions.kt", this::doTest);
             }
 
             @TestMetadata("MultiDeclForComponentMemberExtensionsInExtensionFunction.kt")
             public void testMultiDeclForComponentMemberExtensionsInExtensionFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/box/arrays/multiDecl/long/MultiDeclForComponentMemberExtensionsInExtensionFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/box/arrays/multiDecl/long/MultiDeclForComponentMemberExtensionsInExtensionFunction.kt", this::doTest);
             }
         }
     }

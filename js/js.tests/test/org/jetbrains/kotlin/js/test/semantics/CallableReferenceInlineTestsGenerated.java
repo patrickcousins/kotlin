@@ -27,68 +27,57 @@ public class CallableReferenceInlineTestsGenerated extends AbstractCallableRefer
 
     @TestMetadata("classLevel.kt")
     public void testClassLevel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/classLevel.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/classLevel.kt", this::doTest);
     }
 
     @TestMetadata("classLevel2.kt")
     public void testClassLevel2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/classLevel2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/classLevel2.kt", this::doTest);
     }
 
     @TestMetadata("constructor.kt")
     public void testConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/constructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/constructor.kt", this::doTest);
     }
 
     @TestMetadata("intrinsic.kt")
     public void testIntrinsic() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/intrinsic.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/intrinsic.kt", this::doTest);
     }
 
     @TestMetadata("kt15449.kt")
     public void testKt15449() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/kt15449.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/kt15449.kt", this::doTest);
     }
 
     @TestMetadata("kt16411.kt")
     public void testKt16411() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/kt16411.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/kt16411.kt", this::doTest);
     }
 
     @TestMetadata("propertyIntrinsic.kt")
     public void testPropertyIntrinsic() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/propertyIntrinsic.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/propertyIntrinsic.kt", this::doTest);
     }
 
     @TestMetadata("propertyReference.kt")
     public void testPropertyReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/propertyReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/propertyReference.kt", this::doTest);
     }
 
     @TestMetadata("topLevel.kt")
     public void testTopLevel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/topLevel.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/topLevel.kt", this::doTest);
     }
 
     @TestMetadata("topLevelExtension.kt")
     public void testTopLevelExtension() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/topLevelExtension.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/topLevelExtension.kt", this::doTest);
     }
 
     @TestMetadata("topLevelProperty.kt")
     public void testTopLevelProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/topLevelProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/topLevelProperty.kt", this::doTest);
     }
 
     @TestMetadata("compiler/testData/codegen/boxInline/callableReference/bound")
@@ -101,98 +90,82 @@ public class CallableReferenceInlineTestsGenerated extends AbstractCallableRefer
 
         @TestMetadata("classProperty.kt")
         public void testClassProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/classProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/classProperty.kt", this::doTest);
         }
 
         @TestMetadata("emptyLhsFunction.kt")
         public void testEmptyLhsFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/emptyLhsFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/emptyLhsFunction.kt", this::doTest);
         }
 
         @TestMetadata("expression.kt")
         public void testExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/expression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/expression.kt", this::doTest);
         }
 
         @TestMetadata("extensionReceiver.kt")
         public void testExtensionReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/extensionReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/extensionReceiver.kt", this::doTest);
         }
 
         @TestMetadata("filter.kt")
         public void testFilter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/filter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/filter.kt", this::doTest);
         }
 
         @TestMetadata("intrinsic.kt")
         public void testIntrinsic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/intrinsic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/intrinsic.kt", this::doTest);
         }
 
         @TestMetadata("kt18728.kt")
         public void testKt18728() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/kt18728.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/kt18728.kt", this::doTest);
         }
 
         @TestMetadata("kt18728_2.kt")
         public void testKt18728_2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/kt18728_2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/kt18728_2.kt", this::doTest);
         }
 
         @TestMetadata("kt18728_3.kt")
         public void testKt18728_3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/kt18728_3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/kt18728_3.kt", this::doTest);
         }
 
         @TestMetadata("kt18728_4.kt")
         public void testKt18728_4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/kt18728_4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/kt18728_4.kt", this::doTest);
         }
 
         @TestMetadata("map.kt")
         public void testMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/map.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/map.kt", this::doTest);
         }
 
         @TestMetadata("mixed.kt")
         public void testMixed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/mixed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/mixed.kt", this::doTest);
         }
 
         @TestMetadata("objectProperty.kt")
         public void testObjectProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/objectProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/objectProperty.kt", this::doTest);
         }
 
         @TestMetadata("propertyImportedFromObject.kt")
         public void testPropertyImportedFromObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/propertyImportedFromObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/propertyImportedFromObject.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/simple.kt", this::doTest);
         }
 
         @TestMetadata("topLevelExtensionProperty.kt")
         public void testTopLevelExtensionProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/callableReference/bound/topLevelExtensionProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/callableReference/bound/topLevelExtensionProperty.kt", this::doTest);
         }
     }
 }

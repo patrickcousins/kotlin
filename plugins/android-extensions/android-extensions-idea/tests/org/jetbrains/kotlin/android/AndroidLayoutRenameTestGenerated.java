@@ -27,7 +27,6 @@ public class AndroidLayoutRenameTestGenerated extends AbstractAndroidLayoutRenam
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/renameLayout/simple/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/renameLayout/simple/", this::doTest);
     }
 }

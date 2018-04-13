@@ -27,31 +27,26 @@ public class BeforeExtractFunctionInsertionTestGenerated extends AbstractBeforeE
 
     @TestMetadata("emptyImportDirective.kt")
     public void testEmptyImportDirective() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/insertBeforeExtractFunction/emptyImportDirective.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/emptyImportDirective.kt", this::doTest);
     }
 
     @TestMetadata("emptyImportDirective2.kt")
     public void testEmptyImportDirective2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/insertBeforeExtractFunction/emptyImportDirective2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/emptyImportDirective2.kt", this::doTest);
     }
 
     @TestMetadata("emptyPackageDirective.kt")
     public void testEmptyPackageDirective() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/insertBeforeExtractFunction/emptyPackageDirective.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/emptyPackageDirective.kt", this::doTest);
     }
 
     @TestMetadata("emptyPackageDirective2.kt")
     public void testEmptyPackageDirective2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/insertBeforeExtractFunction/emptyPackageDirective2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/emptyPackageDirective2.kt", this::doTest);
     }
 
     @TestMetadata("manyImports.kt")
     public void testManyImports() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/insertBeforeExtractFunction/manyImports.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/insertBeforeExtractFunction/manyImports.kt", this::doTest);
     }
 }

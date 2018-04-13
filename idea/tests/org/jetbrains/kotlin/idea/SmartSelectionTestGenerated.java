@@ -27,91 +27,76 @@ public class SmartSelectionTestGenerated extends AbstractSmartSelectionTest {
 
     @TestMetadata("commentsAndExtraSpaces.kt")
     public void testCommentsAndExtraSpaces() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/commentsAndExtraSpaces.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/commentsAndExtraSpaces.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("labelledStatement.kt")
     public void testLabelledStatement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/labelledStatement.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/labelledStatement.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("labelledThis.kt")
     public void testLabelledThis() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/labelledThis.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/labelledThis.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("lambdaCalls.kt")
     public void testLambdaCalls() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/lambdaCalls.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/lambdaCalls.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("multilineCalls.kt")
     public void testMultilineCalls() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/multilineCalls.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/multilineCalls.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("multilineOperations.kt")
     public void testMultilineOperations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/multilineOperations.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/multilineOperations.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("objectLiteral.kt")
     public void testObjectLiteral() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/objectLiteral.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/objectLiteral.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("parenthesized.kt")
     public void testParenthesized() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/parenthesized.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/parenthesized.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/simple.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/simple.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("superExpression.kt")
     public void testSuperExpression() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/superExpression.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/superExpression.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("superExpressionWithLabel.kt")
     public void testSuperExpressionWithLabel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/superExpressionWithLabel.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/superExpressionWithLabel.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("superExpressionWithLabelAndType.kt")
     public void testSuperExpressionWithLabelAndType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/superExpressionWithLabelAndType.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/superExpressionWithLabelAndType.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("superExpressionWithType.kt")
     public void testSuperExpressionWithType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/superExpressionWithType.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/superExpressionWithType.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("typeInSuperExpression.kt")
     public void testTypeInSuperExpression() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/typeInSuperExpression.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/typeInSuperExpression.kt", this::doTestSmartSelection);
     }
 
     @TestMetadata("typeInSuperExpressionWithLabel.kt")
     public void testTypeInSuperExpressionWithLabel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/smartSelection/typeInSuperExpressionWithLabel.kt");
-        doTestSmartSelection(fileName);
+        KotlinTestUtils.runTest("idea/testData/smartSelection/typeInSuperExpressionWithLabel.kt", this::doTestSmartSelection);
     }
 }

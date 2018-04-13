@@ -27,43 +27,36 @@ public class MultiFileHighlightingTestGenerated extends AbstractMultiFileHighlig
 
     @TestMetadata("annotatedParameter.kt")
     public void testAnnotatedParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileHighlighting/annotatedParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileHighlighting/annotatedParameter.kt", this::doTest);
     }
 
     @TestMetadata("copyResolveBeforeParams.kt")
     public void testCopyResolveBeforeParams() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileHighlighting/copyResolveBeforeParams.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileHighlighting/copyResolveBeforeParams.kt", this::doTest);
     }
 
     @TestMetadata("delegatesReference.kt")
     public void testDelegatesReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileHighlighting/delegatesReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileHighlighting/delegatesReference.kt", this::doTest);
     }
 
     @TestMetadata("enumReference.kt")
     public void testEnumReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileHighlighting/enumReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileHighlighting/enumReference.kt", this::doTest);
     }
 
     @TestMetadata("missingDependencyClass.kt")
     public void testMissingDependencyClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileHighlighting/missingDependencyClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileHighlighting/missingDependencyClass.kt", this::doTest);
     }
 
     @TestMetadata("referencesFunWithUnspecifiedType.kt")
     public void testReferencesFunWithUnspecifiedType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileHighlighting/referencesFunWithUnspecifiedType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileHighlighting/referencesFunWithUnspecifiedType.kt", this::doTest);
     }
 
     @TestMetadata("topLevelMembersReference.kt")
     public void testTopLevelMembersReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileHighlighting/topLevelMembersReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileHighlighting/topLevelMembersReference.kt", this::doTest);
     }
 }

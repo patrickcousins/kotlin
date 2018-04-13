@@ -27,61 +27,51 @@ public class CompletionIncrementalResolveTestGenerated extends AbstractCompletio
 
     @TestMetadata("codeAboveChanged.kt")
     public void testCodeAboveChanged() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/codeAboveChanged.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/codeAboveChanged.kt", this::doTest);
     }
 
     @TestMetadata("codeAboveChanged2.kt")
     public void testCodeAboveChanged2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/codeAboveChanged2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/codeAboveChanged2.kt", this::doTest);
     }
 
     @TestMetadata("dataFlowInfoFromPrevStatement.kt")
     public void testDataFlowInfoFromPrevStatement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/dataFlowInfoFromPrevStatement.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/dataFlowInfoFromPrevStatement.kt", this::doTest);
     }
 
     @TestMetadata("dataFlowInfoFromSameStatement.kt")
     public void testDataFlowInfoFromSameStatement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/dataFlowInfoFromSameStatement.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/dataFlowInfoFromSameStatement.kt", this::doTest);
     }
 
     @TestMetadata("doNotAnalyzeComplexStatement.kt")
     public void testDoNotAnalyzeComplexStatement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/doNotAnalyzeComplexStatement.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/doNotAnalyzeComplexStatement.kt", this::doTest);
     }
 
     @TestMetadata("noDataFlowFromOldStatement.kt")
     public void testNoDataFlowFromOldStatement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/noDataFlowFromOldStatement.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/noDataFlowFromOldStatement.kt", this::doTest);
     }
 
     @TestMetadata("noPrevStatement.kt")
     public void testNoPrevStatement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/noPrevStatement.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/noPrevStatement.kt", this::doTest);
     }
 
     @TestMetadata("outOfBlockModification.kt")
     public void testOutOfBlockModification() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/outOfBlockModification.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/outOfBlockModification.kt", this::doTest);
     }
 
     @TestMetadata("prevStatementNotResolved.kt")
     public void testPrevStatementNotResolved() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/prevStatementNotResolved.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/prevStatementNotResolved.kt", this::doTest);
     }
 
     @TestMetadata("sameStatement.kt")
     public void testSameStatement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/incrementalResolve/sameStatement.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/incrementalResolve/sameStatement.kt", this::doTest);
     }
 }

@@ -35,14 +35,12 @@ public class AndroidLintQuickfixTestGenerated extends AbstractAndroidLintQuickfi
 
         @TestMetadata("nullableType.kt")
         public void testNullableType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/findViewById/nullableType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/findViewById/nullableType.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/findViewById/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/findViewById/simple.kt", this::doTest);
         }
     }
 
@@ -56,14 +54,12 @@ public class AndroidLintQuickfixTestGenerated extends AbstractAndroidLintQuickfi
 
         @TestMetadata("missingCreator.kt")
         public void testMissingCreator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/parcelable/missingCreator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/parcelable/missingCreator.kt", this::doTest);
         }
 
         @TestMetadata("noImplementation.kt")
         public void testNoImplementation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/parcelable/noImplementation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/parcelable/noImplementation.kt", this::doTest);
         }
     }
 
@@ -77,62 +73,52 @@ public class AndroidLintQuickfixTestGenerated extends AbstractAndroidLintQuickfi
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/annotation.kt", this::doTest);
         }
 
         @TestMetadata("companion.kt")
         public void testCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/companion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/companion.kt", this::doTest);
         }
 
         @TestMetadata("defaultParameter.kt")
         public void testDefaultParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/defaultParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/defaultParameter.kt", this::doTest);
         }
 
         @TestMetadata("extend.kt")
         public void testExtend() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/extend.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/extend.kt", this::doTest);
         }
 
         @TestMetadata("functionLiteral.kt")
         public void testFunctionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/functionLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/functionLiteral.kt", this::doTest);
         }
 
         @TestMetadata("inlinedConstant.kt")
         public void testInlinedConstant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/inlinedConstant.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/inlinedConstant.kt", this::doTest);
         }
 
         @TestMetadata("method.kt")
         public void testMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/method.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/method.kt", this::doTest);
         }
 
         @TestMetadata("property.kt")
         public void testProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/property.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/property.kt", this::doTest);
         }
 
         @TestMetadata("topLevelProperty.kt")
         public void testTopLevelProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/topLevelProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/topLevelProperty.kt", this::doTest);
         }
 
         @TestMetadata("when.kt")
         public void testWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/requiresApi/when.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/requiresApi/when.kt", this::doTest);
         }
     }
 
@@ -142,14 +128,12 @@ public class AndroidLintQuickfixTestGenerated extends AbstractAndroidLintQuickfi
     public static class SuppressLint extends AbstractAndroidLintQuickfixTest {
         @TestMetadata("activityMethod.kt")
         public void testActivityMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/suppressLint/activityMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/suppressLint/activityMethod.kt", this::doTest);
         }
 
         @TestMetadata("addToExistingAnnotation.kt")
         public void testAddToExistingAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/suppressLint/addToExistingAnnotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/suppressLint/addToExistingAnnotation.kt", this::doTest);
         }
 
         public void testAllFilesPresentInSuppressLint() throws Exception {
@@ -158,44 +142,37 @@ public class AndroidLintQuickfixTestGenerated extends AbstractAndroidLintQuickfi
 
         @TestMetadata("constructorParameter.kt")
         public void testConstructorParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/suppressLint/constructorParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/suppressLint/constructorParameter.kt", this::doTest);
         }
 
         @TestMetadata("destructuringDeclaration.kt")
         public void testDestructuringDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/suppressLint/destructuringDeclaration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/suppressLint/destructuringDeclaration.kt", this::doTest);
         }
 
         @TestMetadata("lambdaArgument.kt")
         public void testLambdaArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/suppressLint/lambdaArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/suppressLint/lambdaArgument.kt", this::doTest);
         }
 
         @TestMetadata("lambdaArgumentProperty.kt")
         public void testLambdaArgumentProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/suppressLint/lambdaArgumentProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/suppressLint/lambdaArgumentProperty.kt", this::doTest);
         }
 
         @TestMetadata("methodParameter.kt")
         public void testMethodParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/suppressLint/methodParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/suppressLint/methodParameter.kt", this::doTest);
         }
 
         @TestMetadata("propertyWithLambda.kt")
         public void testPropertyWithLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/suppressLint/propertyWithLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/suppressLint/propertyWithLambda.kt", this::doTest);
         }
 
         @TestMetadata("simpleProperty.kt")
         public void testSimpleProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/suppressLint/simpleProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/suppressLint/simpleProperty.kt", this::doTest);
         }
     }
 
@@ -209,62 +186,52 @@ public class AndroidLintQuickfixTestGenerated extends AbstractAndroidLintQuickfi
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/annotation.kt", this::doTest);
         }
 
         @TestMetadata("companion.kt")
         public void testCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/companion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/companion.kt", this::doTest);
         }
 
         @TestMetadata("defaultParameter.kt")
         public void testDefaultParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/defaultParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/defaultParameter.kt", this::doTest);
         }
 
         @TestMetadata("extend.kt")
         public void testExtend() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/extend.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/extend.kt", this::doTest);
         }
 
         @TestMetadata("functionLiteral.kt")
         public void testFunctionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/functionLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/functionLiteral.kt", this::doTest);
         }
 
         @TestMetadata("inlinedConstant.kt")
         public void testInlinedConstant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/inlinedConstant.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/inlinedConstant.kt", this::doTest);
         }
 
         @TestMetadata("method.kt")
         public void testMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/method.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/method.kt", this::doTest);
         }
 
         @TestMetadata("property.kt")
         public void testProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/property.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/property.kt", this::doTest);
         }
 
         @TestMetadata("topLevelProperty.kt")
         public void testTopLevelProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/topLevelProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/topLevelProperty.kt", this::doTest);
         }
 
         @TestMetadata("when.kt")
         public void testWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetApi/when.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetApi/when.kt", this::doTest);
         }
     }
 
@@ -278,68 +245,57 @@ public class AndroidLintQuickfixTestGenerated extends AbstractAndroidLintQuickfi
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/annotation.kt", this::doTest);
         }
 
         @TestMetadata("defaultParameter.kt")
         public void testDefaultParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/defaultParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/defaultParameter.kt", this::doTest);
         }
 
         @TestMetadata("destructuringDeclaration.kt")
         public void testDestructuringDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/destructuringDeclaration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/destructuringDeclaration.kt", this::doTest);
         }
 
         @TestMetadata("expressionBody.kt")
         public void testExpressionBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/expressionBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/expressionBody.kt", this::doTest);
         }
 
         @TestMetadata("functionLiteral.kt")
         public void testFunctionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/functionLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/functionLiteral.kt", this::doTest);
         }
 
         @TestMetadata("getterWIthExpressionBody.kt")
         public void testGetterWIthExpressionBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/getterWIthExpressionBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/getterWIthExpressionBody.kt", this::doTest);
         }
 
         @TestMetadata("if.kt")
         public void testIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/if.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/if.kt", this::doTest);
         }
 
         @TestMetadata("ifWithBlock.kt")
         public void testIfWithBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/ifWithBlock.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/ifWithBlock.kt", this::doTest);
         }
 
         @TestMetadata("inlinedConstant.kt")
         public void testInlinedConstant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/inlinedConstant.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/inlinedConstant.kt", this::doTest);
         }
 
         @TestMetadata("method.kt")
         public void testMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/method.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/method.kt", this::doTest);
         }
 
         @TestMetadata("when.kt")
         public void testWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lintQuickfix/targetVersionCheck/when.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/lintQuickfix/targetVersionCheck/when.kt", this::doTest);
         }
     }
 }

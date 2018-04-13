@@ -35,26 +35,22 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
         @TestMetadata("conflictingConstraints.constraints")
         public void testConflictingConstraints() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/checkStatus/conflictingConstraints.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/checkStatus/conflictingConstraints.constraints", this::doTest);
         }
 
         @TestMetadata("successful.constraints")
         public void testSuccessful() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/checkStatus/successful.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/checkStatus/successful.constraints", this::doTest);
         }
 
         @TestMetadata("typeConstructorMismatch.constraints")
         public void testTypeConstructorMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/checkStatus/typeConstructorMismatch.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/checkStatus/typeConstructorMismatch.constraints", this::doTest);
         }
 
         @TestMetadata("unknownParameters.constraints")
         public void testUnknownParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/checkStatus/unknownParameters.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/checkStatus/unknownParameters.constraints", this::doTest);
         }
     }
 
@@ -68,26 +64,22 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
         @TestMetadata("contradiction.constraints")
         public void testContradiction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/computeValues/contradiction.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/computeValues/contradiction.constraints", this::doTest);
         }
 
         @TestMetadata("subTypeOfUpperBounds.constraints")
         public void testSubTypeOfUpperBounds() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/computeValues/subTypeOfUpperBounds.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/computeValues/subTypeOfUpperBounds.constraints", this::doTest);
         }
 
         @TestMetadata("superTypeOfLowerBounds1.constraints")
         public void testSuperTypeOfLowerBounds1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/computeValues/superTypeOfLowerBounds1.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/computeValues/superTypeOfLowerBounds1.constraints", this::doTest);
         }
 
         @TestMetadata("superTypeOfLowerBounds2.constraints")
         public void testSuperTypeOfLowerBounds2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/computeValues/superTypeOfLowerBounds2.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/computeValues/superTypeOfLowerBounds2.constraints", this::doTest);
         }
     }
 
@@ -101,50 +93,42 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
         @TestMetadata("byteOverflow.constraints")
         public void testByteOverflow() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/integerValueTypes/byteOverflow.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/integerValueTypes/byteOverflow.constraints", this::doTest);
         }
 
         @TestMetadata("defaultLong.constraints")
         public void testDefaultLong() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/integerValueTypes/defaultLong.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/integerValueTypes/defaultLong.constraints", this::doTest);
         }
 
         @TestMetadata("numberAndAny.constraints")
         public void testNumberAndAny() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/integerValueTypes/numberAndAny.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/integerValueTypes/numberAndAny.constraints", this::doTest);
         }
 
         @TestMetadata("numberAndString.constraints")
         public void testNumberAndString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/integerValueTypes/numberAndString.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/integerValueTypes/numberAndString.constraints", this::doTest);
         }
 
         @TestMetadata("severalNumbers.constraints")
         public void testSeveralNumbers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/integerValueTypes/severalNumbers.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/integerValueTypes/severalNumbers.constraints", this::doTest);
         }
 
         @TestMetadata("simpleByte.constraints")
         public void testSimpleByte() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/integerValueTypes/simpleByte.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/integerValueTypes/simpleByte.constraints", this::doTest);
         }
 
         @TestMetadata("simpleInt.constraints")
         public void testSimpleInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/integerValueTypes/simpleInt.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/integerValueTypes/simpleInt.constraints", this::doTest);
         }
 
         @TestMetadata("simpleShort.constraints")
         public void testSimpleShort() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/integerValueTypes/simpleShort.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/integerValueTypes/simpleShort.constraints", this::doTest);
         }
     }
 
@@ -158,38 +142,32 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
         @TestMetadata("simpleDependency.constraints")
         public void testSimpleDependency() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/simpleDependency.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/simpleDependency.constraints", this::doTest);
         }
 
         @TestMetadata("simpleEquality.constraints")
         public void testSimpleEquality() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/simpleEquality.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/simpleEquality.constraints", this::doTest);
         }
 
         @TestMetadata("simpleEquality1.constraints")
         public void testSimpleEquality1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/simpleEquality1.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/simpleEquality1.constraints", this::doTest);
         }
 
         @TestMetadata("simpleReversedDependency.constraints")
         public void testSimpleReversedDependency() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/simpleReversedDependency.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/simpleReversedDependency.constraints", this::doTest);
         }
 
         @TestMetadata("simpleSubtype.constraints")
         public void testSimpleSubtype() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/simpleSubtype.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/simpleSubtype.constraints", this::doTest);
         }
 
         @TestMetadata("simpleSubtype1.constraints")
         public void testSimpleSubtype1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/simpleSubtype1.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/simpleSubtype1.constraints", this::doTest);
         }
 
         @TestMetadata("compiler/testData/constraintSystem/severalVariables/direct")
@@ -210,56 +188,47 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
                 @TestMetadata("varEqDepEq.constraints")
                 public void testVarEqDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varEqDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varEqDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSub.constraints")
                 public void testVarEqDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varEqDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varEqDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSuper.constraints")
                 public void testVarEqDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varEqDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varEqDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepEq.constraints")
                 public void testVarSubDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSubDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSubDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSub.constraints")
                 public void testVarSubDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSubDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSubDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSuper.constraints")
                 public void testVarSubDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSubDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSubDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepEq.constraints")
                 public void testVarSuperDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSuperDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSuperDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSub.constraints")
                 public void testVarSuperDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSuperDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSuperDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSuper.constraints")
                 public void testVarSuperDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSuperDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/contravariant/varSuperDepSuper.constraints", this::doTest);
                 }
             }
 
@@ -273,56 +242,47 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
                 @TestMetadata("varEqDepEq.constraints")
                 public void testVarEqDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/covariant/varEqDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/covariant/varEqDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSub.constraints")
                 public void testVarEqDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/covariant/varEqDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/covariant/varEqDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSuper.constraints")
                 public void testVarEqDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/covariant/varEqDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/covariant/varEqDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepEq.constraints")
                 public void testVarSubDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSubDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSubDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSub.constraints")
                 public void testVarSubDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSubDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSubDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSuper.constraints")
                 public void testVarSubDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSubDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSubDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepEq.constraints")
                 public void testVarSuperDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSuperDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSuperDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSub.constraints")
                 public void testVarSuperDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSuperDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSuperDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSuper.constraints")
                 public void testVarSuperDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSuperDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/covariant/varSuperDepSuper.constraints", this::doTest);
                 }
             }
 
@@ -336,56 +296,47 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
                 @TestMetadata("varEqDepEq.constraints")
                 public void testVarEqDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/invariant/varEqDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/invariant/varEqDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSub.constraints")
                 public void testVarEqDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/invariant/varEqDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/invariant/varEqDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSuper.constraints")
                 public void testVarEqDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/invariant/varEqDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/invariant/varEqDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepEq.constraints")
                 public void testVarSubDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSubDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSubDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSub.constraints")
                 public void testVarSubDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSubDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSubDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSuper.constraints")
                 public void testVarSubDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSubDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSubDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepEq.constraints")
                 public void testVarSuperDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSuperDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSuperDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSub.constraints")
                 public void testVarSuperDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSuperDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSuperDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSuper.constraints")
                 public void testVarSuperDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSuperDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/direct/invariant/varSuperDepSuper.constraints", this::doTest);
                 }
             }
         }
@@ -400,20 +351,17 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
             @TestMetadata("interdependency1.constraints")
             public void testInterdependency1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/interdependency/interdependency1.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/interdependency/interdependency1.constraints", this::doTest);
             }
 
             @TestMetadata("interdependency2.constraints")
             public void testInterdependency2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/interdependency/interdependency2.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/interdependency/interdependency2.constraints", this::doTest);
             }
 
             @TestMetadata("interdependency3.constraints")
             public void testInterdependency3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/interdependency/interdependency3.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/interdependency/interdependency3.constraints", this::doTest);
             }
         }
 
@@ -435,56 +383,47 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
                 @TestMetadata("varEqDepEq.constraints")
                 public void testVarEqDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varEqDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varEqDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSub.constraints")
                 public void testVarEqDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varEqDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varEqDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSuper.constraints")
                 public void testVarEqDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varEqDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varEqDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepEq.constraints")
                 public void testVarSubDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSubDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSubDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSub.constraints")
                 public void testVarSubDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSubDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSubDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSuper.constraints")
                 public void testVarSubDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSubDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSubDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepEq.constraints")
                 public void testVarSuperDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSuperDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSuperDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSub.constraints")
                 public void testVarSuperDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSuperDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSuperDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSuper.constraints")
                 public void testVarSuperDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSuperDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/contravariant/varSuperDepSuper.constraints", this::doTest);
                 }
             }
 
@@ -498,56 +437,47 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
                 @TestMetadata("varEqDepEq.constraints")
                 public void testVarEqDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varEqDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varEqDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSub.constraints")
                 public void testVarEqDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varEqDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varEqDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSuper.constraints")
                 public void testVarEqDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varEqDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varEqDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepEq.constraints")
                 public void testVarSubDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSubDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSubDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSub.constraints")
                 public void testVarSubDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSubDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSubDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSuper.constraints")
                 public void testVarSubDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSubDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSubDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepEq.constraints")
                 public void testVarSuperDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSuperDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSuperDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSub.constraints")
                 public void testVarSuperDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSuperDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSuperDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSuper.constraints")
                 public void testVarSuperDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSuperDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/covariant/varSuperDepSuper.constraints", this::doTest);
                 }
             }
 
@@ -561,56 +491,47 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
                 @TestMetadata("varEqDepEq.constraints")
                 public void testVarEqDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varEqDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varEqDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSub.constraints")
                 public void testVarEqDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varEqDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varEqDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSuper.constraints")
                 public void testVarEqDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varEqDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varEqDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepEq.constraints")
                 public void testVarSubDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSubDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSubDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSub.constraints")
                 public void testVarSubDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSubDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSubDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSuper.constraints")
                 public void testVarSubDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSubDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSubDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepEq.constraints")
                 public void testVarSuperDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSuperDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSuperDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSub.constraints")
                 public void testVarSuperDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSuperDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSuperDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSuper.constraints")
                 public void testVarSuperDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSuperDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/nullable/invariant/varSuperDepSuper.constraints", this::doTest);
                 }
             }
         }
@@ -625,74 +546,62 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
             @TestMetadata("constraintForNullables.constraints")
             public void testConstraintForNullables() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/constraintForNullables.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/constraintForNullables.constraints", this::doTest);
             }
 
             @TestMetadata("nestedConsumer.constraints")
             public void testNestedConsumer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/nestedConsumer.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/nestedConsumer.constraints", this::doTest);
             }
 
             @TestMetadata("nestedConsumer1.constraints")
             public void testNestedConsumer1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/nestedConsumer1.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/nestedConsumer1.constraints", this::doTest);
             }
 
             @TestMetadata("nestedInvConsumer.constraints")
             public void testNestedInvConsumer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/nestedInvConsumer.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/nestedInvConsumer.constraints", this::doTest);
             }
 
             @TestMetadata("nestedInvProducer.constraints")
             public void testNestedInvProducer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/nestedInvProducer.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/nestedInvProducer.constraints", this::doTest);
             }
 
             @TestMetadata("nestedProducer.constraints")
             public void testNestedProducer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/nestedProducer.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/nestedProducer.constraints", this::doTest);
             }
 
             @TestMetadata("nestedProducerAndConsumer.constraints")
             public void testNestedProducerAndConsumer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/nestedProducerAndConsumer.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/nestedProducerAndConsumer.constraints", this::doTest);
             }
 
             @TestMetadata("severalOccurrences.constraints")
             public void testSeveralOccurrences() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/severalOccurrences.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/severalOccurrences.constraints", this::doTest);
             }
 
             @TestMetadata("simpleFun.constraints")
             public void testSimpleFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/simpleFun.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/simpleFun.constraints", this::doTest);
             }
 
             @TestMetadata("simpleThreeVars.constraints")
             public void testSimpleThreeVars() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/simpleThreeVars.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/simpleThreeVars.constraints", this::doTest);
             }
 
             @TestMetadata("simpleThreeVarsNoIncorporation.constraints")
             public void testSimpleThreeVarsNoIncorporation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/simpleThreeVarsNoIncorporation.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/simpleThreeVarsNoIncorporation.constraints", this::doTest);
             }
 
             @TestMetadata("simpleThreeVarsNoIncorporationFixed.constraints")
             public void testSimpleThreeVarsNoIncorporationFixed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/other/simpleThreeVarsNoIncorporationFixed.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/other/simpleThreeVarsNoIncorporationFixed.constraints", this::doTest);
             }
         }
 
@@ -706,26 +615,22 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
             @TestMetadata("implicitlyRecursive.constraints")
             public void testImplicitlyRecursive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/recursive/implicitlyRecursive.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/recursive/implicitlyRecursive.constraints", this::doTest);
             }
 
             @TestMetadata("kt8879.constraints")
             public void testKt8879() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/recursive/kt8879.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/recursive/kt8879.constraints", this::doTest);
             }
 
             @TestMetadata("mutuallyRecursive.constraints")
             public void testMutuallyRecursive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/recursive/mutuallyRecursive.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/recursive/mutuallyRecursive.constraints", this::doTest);
             }
 
             @TestMetadata("simpleRecursive.constraints")
             public void testSimpleRecursive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/recursive/simpleRecursive.constraints");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/recursive/simpleRecursive.constraints", this::doTest);
             }
         }
 
@@ -747,56 +652,47 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
                 @TestMetadata("varEqDepEq.constraints")
                 public void testVarEqDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varEqDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varEqDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSub.constraints")
                 public void testVarEqDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varEqDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varEqDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSuper.constraints")
                 public void testVarEqDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varEqDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varEqDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepEq.constraints")
                 public void testVarSubDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSubDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSubDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSub.constraints")
                 public void testVarSubDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSubDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSubDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSuper.constraints")
                 public void testVarSubDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSubDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSubDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepEq.constraints")
                 public void testVarSuperDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSuperDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSuperDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSub.constraints")
                 public void testVarSuperDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSuperDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSuperDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSuper.constraints")
                 public void testVarSuperDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSuperDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/contravariant/varSuperDepSuper.constraints", this::doTest);
                 }
             }
 
@@ -810,56 +706,47 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
                 @TestMetadata("varEqDepEq.constraints")
                 public void testVarEqDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varEqDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varEqDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSub.constraints")
                 public void testVarEqDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varEqDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varEqDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSuper.constraints")
                 public void testVarEqDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varEqDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varEqDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepEq.constraints")
                 public void testVarSubDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSubDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSubDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSub.constraints")
                 public void testVarSubDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSubDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSubDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSuper.constraints")
                 public void testVarSubDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSubDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSubDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepEq.constraints")
                 public void testVarSuperDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSuperDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSuperDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSub.constraints")
                 public void testVarSuperDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSuperDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSuperDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSuper.constraints")
                 public void testVarSuperDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSuperDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/covariant/varSuperDepSuper.constraints", this::doTest);
                 }
             }
 
@@ -873,56 +760,47 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
                 @TestMetadata("varEqDepEq.constraints")
                 public void testVarEqDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varEqDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varEqDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSub.constraints")
                 public void testVarEqDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varEqDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varEqDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varEqDepSuper.constraints")
                 public void testVarEqDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varEqDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varEqDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepEq.constraints")
                 public void testVarSubDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSubDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSubDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSub.constraints")
                 public void testVarSubDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSubDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSubDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSubDepSuper.constraints")
                 public void testVarSubDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSubDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSubDepSuper.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepEq.constraints")
                 public void testVarSuperDepEq() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSuperDepEq.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSuperDepEq.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSub.constraints")
                 public void testVarSuperDepSub() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSuperDepSub.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSuperDepSub.constraints", this::doTest);
                 }
 
                 @TestMetadata("varSuperDepSuper.constraints")
                 public void testVarSuperDepSuper() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSuperDepSuper.constraints");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/constraintSystem/severalVariables/reversed/invariant/varSuperDepSuper.constraints", this::doTest);
                 }
             }
         }
@@ -938,20 +816,17 @@ public class ConstraintSystemTestGenerated extends AbstractConstraintSystemTest 
 
         @TestMetadata("consumer.constraints")
         public void testConsumer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/variance/consumer.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/variance/consumer.constraints", this::doTest);
         }
 
         @TestMetadata("invariant.constraints")
         public void testInvariant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/variance/invariant.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/variance/invariant.constraints", this::doTest);
         }
 
         @TestMetadata("producer.constraints")
         public void testProducer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/constraintSystem/variance/producer.constraints");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/constraintSystem/variance/producer.constraints", this::doTest);
         }
     }
 }

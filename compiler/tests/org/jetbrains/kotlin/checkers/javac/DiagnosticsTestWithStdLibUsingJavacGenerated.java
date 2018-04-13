@@ -23,8 +23,7 @@ import java.util.regex.Pattern;
 public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagnosticsTestWithStdLibUsingJavac {
     @TestMetadata("addAllProjection.kt")
     public void testAddAllProjection() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/addAllProjection.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/addAllProjection.kt", this::doTest);
     }
 
     public void testAllFilesPresentInTestsWithStdLib() throws Exception {
@@ -33,140 +32,117 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
     @TestMetadata("ArrayOfNothing.kt")
     public void testArrayOfNothing() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/ArrayOfNothing.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/ArrayOfNothing.kt", this::doTest);
     }
 
     @TestMetadata("CallCompanionProtectedNonStatic.kt")
     public void testCallCompanionProtectedNonStatic() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/CallCompanionProtectedNonStatic.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/CallCompanionProtectedNonStatic.kt", this::doTest);
     }
 
     @TestMetadata("CallToMainRedeclaredInMultiFile.kt")
     public void testCallToMainRedeclaredInMultiFile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/CallToMainRedeclaredInMultiFile.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/CallToMainRedeclaredInMultiFile.kt", this::doTest);
     }
 
     @TestMetadata("commonCollections.kt")
     public void testCommonCollections() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/commonCollections.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/commonCollections.kt", this::doTest);
     }
 
     @TestMetadata("elvisOnJavaList.kt")
     public void testElvisOnJavaList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/elvisOnJavaList.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/elvisOnJavaList.kt", this::doTest);
     }
 
     @TestMetadata("elvisOnUnitInLet.kt")
     public void testElvisOnUnitInLet() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/elvisOnUnitInLet.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/elvisOnUnitInLet.kt", this::doTest);
     }
 
     @TestMetadata("hugeUnresolvedKotlinxHtml.kt")
     public void testHugeUnresolvedKotlinxHtml() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/hugeUnresolvedKotlinxHtml.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/hugeUnresolvedKotlinxHtml.kt", this::doTest);
     }
 
     @TestMetadata("ifElseJavaList.kt")
     public void testIfElseJavaList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/ifElseJavaList.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/ifElseJavaList.kt", this::doTest);
     }
 
     @TestMetadata("implicitCastToAny.kt")
     public void testImplicitCastToAny() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/implicitCastToAny.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/implicitCastToAny.kt", this::doTest);
     }
 
     @TestMetadata("InaccessibleInternalClass.kt")
     public void testInaccessibleInternalClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/InaccessibleInternalClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/InaccessibleInternalClass.kt", this::doTest);
     }
 
     @TestMetadata("instar.kt")
     public void testInstar() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/instar.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/instar.kt", this::doTest);
     }
 
     @TestMetadata("javaClassOnCompanion.kt")
     public void testJavaClassOnCompanion() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/javaClassOnCompanion.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/javaClassOnCompanion.kt", this::doTest);
     }
 
     @TestMetadata("javaForKClass.kt")
     public void testJavaForKClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/javaForKClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/javaForKClass.kt", this::doTest);
     }
 
     @TestMetadata("kt9078.kt")
     public void testKt9078() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/kt9078.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/kt9078.kt", this::doTest);
     }
 
     @TestMetadata("kt9985.kt")
     public void testKt9985() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/kt9985.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/kt9985.kt", this::doTest);
     }
 
     @TestMetadata("outstar.kt")
     public void testOutstar() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/outstar.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/outstar.kt", this::doTest);
     }
 
     @TestMetadata("overrideWithFunctionalType.kt")
     public void testOverrideWithFunctionalType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/overrideWithFunctionalType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/overrideWithFunctionalType.kt", this::doTest);
     }
 
     @TestMetadata("PropertyDelegateWithPrivateSet.kt")
     public void testPropertyDelegateWithPrivateSet() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/PropertyDelegateWithPrivateSet.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/PropertyDelegateWithPrivateSet.kt", this::doTest);
     }
 
     @TestMetadata("pureReifiable.kt")
     public void testPureReifiable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/pureReifiable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/pureReifiable.kt", this::doTest);
     }
 
     @TestMetadata("pureReifiableArrayOperations.kt")
     public void testPureReifiableArrayOperations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/pureReifiableArrayOperations.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/pureReifiableArrayOperations.kt", this::doTest);
     }
 
     @TestMetadata("RedeclarationMainInMultiFileClass.kt")
     public void testRedeclarationMainInMultiFileClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/RedeclarationMainInMultiFileClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/RedeclarationMainInMultiFileClass.kt", this::doTest);
     }
 
     @TestMetadata("RenameOnImportHidesDefaultImport.kt")
     public void testRenameOnImportHidesDefaultImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/RenameOnImportHidesDefaultImport.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/RenameOnImportHidesDefaultImport.kt", this::doTest);
     }
 
     @TestMetadata("shadowingInDestructuring.kt")
     public void testShadowingInDestructuring() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/shadowingInDestructuring.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/shadowingInDestructuring.kt", this::doTest);
     }
 
     @TestMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations")
@@ -179,56 +155,47 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("ClassObjectAnnotatedWithItsKClass.kt")
         public void testClassObjectAnnotatedWithItsKClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/ClassObjectAnnotatedWithItsKClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/ClassObjectAnnotatedWithItsKClass.kt", this::doTest);
         }
 
         @TestMetadata("defaultValueMustBeConstant.kt")
         public void testDefaultValueMustBeConstant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/defaultValueMustBeConstant.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/defaultValueMustBeConstant.kt", this::doTest);
         }
 
         @TestMetadata("JvmSyntheticOnDelegate.kt")
         public void testJvmSyntheticOnDelegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/JvmSyntheticOnDelegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/JvmSyntheticOnDelegate.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedCallValue.kt")
         public void testQualifiedCallValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/qualifiedCallValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/qualifiedCallValue.kt", this::doTest);
         }
 
         @TestMetadata("strictfpOnClass.kt")
         public void testStrictfpOnClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/strictfpOnClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/strictfpOnClass.kt", this::doTest);
         }
 
         @TestMetadata("Synchronized.kt")
         public void testSynchronized() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/Synchronized.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/Synchronized.kt", this::doTest);
         }
 
         @TestMetadata("targetuse.kt")
         public void testTargetuse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/targetuse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/targetuse.kt", this::doTest);
         }
 
         @TestMetadata("TransientOnDelegate.kt")
         public void testTransientOnDelegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/TransientOnDelegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/TransientOnDelegate.kt", this::doTest);
         }
 
         @TestMetadata("Volatile.kt")
         public void testVolatile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/Volatile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/Volatile.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability")
@@ -241,38 +208,32 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("annotationsOnUseSiteTargets.kt")
             public void testAnnotationsOnUseSiteTargets() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/annotationsOnUseSiteTargets.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/annotationsOnUseSiteTargets.kt", this::doTest);
             }
 
             @TestMetadata("illegalPlatformName.kt")
             public void testIllegalPlatformName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/illegalPlatformName.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/illegalPlatformName.kt", this::doTest);
             }
 
             @TestMetadata("jvmName.kt")
             public void testJvmName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/jvmName.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/jvmName.kt", this::doTest);
             }
 
             @TestMetadata("multifileClassPart.kt")
             public void testMultifileClassPart() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/multifileClassPart.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/multifileClassPart.kt", this::doTest);
             }
 
             @TestMetadata("multifileClassPartWithJavaAnnotation.kt")
             public void testMultifileClassPartWithJavaAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/multifileClassPartWithJavaAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/multifileClassPartWithJavaAnnotation.kt", this::doTest);
             }
 
             @TestMetadata("suppressOnFunctionReference.kt")
             public void testSuppressOnFunctionReference() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/suppressOnFunctionReference.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationApplicability/suppressOnFunctionReference.kt", this::doTest);
             }
         }
 
@@ -286,26 +247,22 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("array.kt")
             public void testArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameterMustBeConstant/array.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameterMustBeConstant/array.kt", this::doTest);
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameterMustBeConstant/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameterMustBeConstant/simple.kt", this::doTest);
             }
 
             @TestMetadata("useOfNonConstVal.kt")
             public void testUseOfNonConstVal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameterMustBeConstant/useOfNonConstVal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameterMustBeConstant/useOfNonConstVal.kt", this::doTest);
             }
 
             @TestMetadata("vararg.kt")
             public void testVararg() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameterMustBeConstant/vararg.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameterMustBeConstant/vararg.kt", this::doTest);
             }
         }
 
@@ -319,50 +276,42 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("kt10136.kt")
             public void testKt10136() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/kt10136.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/kt10136.kt", this::doTest);
             }
 
             @TestMetadata("nonConstValAsArgument.kt")
             public void testNonConstValAsArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/nonConstValAsArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/nonConstValAsArgument.kt", this::doTest);
             }
 
             @TestMetadata("orderWithValue.kt")
             public void testOrderWithValue() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/orderWithValue.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/orderWithValue.kt", this::doTest);
             }
 
             @TestMetadata("orderWithoutValue.kt")
             public void testOrderWithoutValue() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/orderWithoutValue.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/orderWithoutValue.kt", this::doTest);
             }
 
             @TestMetadata("valueArray.kt")
             public void testValueArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/valueArray.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/valueArray.kt", this::doTest);
             }
 
             @TestMetadata("valueArrayAndOtherDefault.kt")
             public void testValueArrayAndOtherDefault() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/valueArrayAndOtherDefault.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/valueArrayAndOtherDefault.kt", this::doTest);
             }
 
             @TestMetadata("valueArrayOnly.kt")
             public void testValueArrayOnly() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/valueArrayOnly.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/valueArrayOnly.kt", this::doTest);
             }
 
             @TestMetadata("valueArrayWithDefault.kt")
             public void testValueArrayWithDefault() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/valueArrayWithDefault.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationParameters/valueArrayWithDefault.kt", this::doTest);
             }
         }
 
@@ -376,14 +325,12 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("javaAnnotationWithVarargArgument.kt")
             public void testJavaAnnotationWithVarargArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationWithVarargParameter/javaAnnotationWithVarargArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationWithVarargParameter/javaAnnotationWithVarargArgument.kt", this::doTest);
             }
 
             @TestMetadata("kotlinAnnotationWithVarargArgument.kt")
             public void testKotlinAnnotationWithVarargArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationWithVarargParameter/kotlinAnnotationWithVarargArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/annotationWithVarargParameter/kotlinAnnotationWithVarargArgument.kt", this::doTest);
             }
         }
 
@@ -397,74 +344,62 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("annotationAsArgument.kt")
             public void testAnnotationAsArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/annotationAsArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/annotationAsArgument.kt", this::doTest);
             }
 
             @TestMetadata("arg.kt")
             public void testArg() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/arg.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/arg.kt", this::doTest);
             }
 
             @TestMetadata("argAndOtherDefault.kt")
             public void testArgAndOtherDefault() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/argAndOtherDefault.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/argAndOtherDefault.kt", this::doTest);
             }
 
             @TestMetadata("argArray.kt")
             public void testArgArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/argArray.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/argArray.kt", this::doTest);
             }
 
             @TestMetadata("argWithDefault.kt")
             public void testArgWithDefault() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/argWithDefault.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/argWithDefault.kt", this::doTest);
             }
 
             @TestMetadata("argWithDefaultAndOther.kt")
             public void testArgWithDefaultAndOther() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/argWithDefaultAndOther.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/argWithDefaultAndOther.kt", this::doTest);
             }
 
             @TestMetadata("twoArgs.kt")
             public void testTwoArgs() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/twoArgs.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/twoArgs.kt", this::doTest);
             }
 
             @TestMetadata("value.kt")
             public void testValue() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/value.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/value.kt", this::doTest);
             }
 
             @TestMetadata("valueAndOtherDefault.kt")
             public void testValueAndOtherDefault() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/valueAndOtherDefault.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/valueAndOtherDefault.kt", this::doTest);
             }
 
             @TestMetadata("valueArray.kt")
             public void testValueArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/valueArray.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/valueArray.kt", this::doTest);
             }
 
             @TestMetadata("valueWithDefault.kt")
             public void testValueWithDefault() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/valueWithDefault.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/valueWithDefault.kt", this::doTest);
             }
 
             @TestMetadata("valueWithDefaultAndOther.kt")
             public void testValueWithDefaultAndOther() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/valueWithDefaultAndOther.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/javaAnnotationsWithKClassParameter/valueWithDefaultAndOther.kt", this::doTest);
             }
         }
 
@@ -478,98 +413,82 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("generic.kt")
             public void testGeneric() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/generic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/generic.kt", this::doTest);
             }
 
             @TestMetadata("javaOverride.kt")
             public void testJavaOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/javaOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/javaOverride.kt", this::doTest);
             }
 
             @TestMetadata("jvmDefaultInInheritance.kt")
             public void testJvmDefaultInInheritance() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/jvmDefaultInInheritance.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/jvmDefaultInInheritance.kt", this::doTest);
             }
 
             @TestMetadata("jvmDefaults.kt")
             public void testJvmDefaults() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/jvmDefaults.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/jvmDefaults.kt", this::doTest);
             }
 
             @TestMetadata("jvmDefaultsWithJava.kt")
             public void testJvmDefaultsWithJava() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/jvmDefaultsWithJava.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/jvmDefaultsWithJava.kt", this::doTest);
             }
 
             @TestMetadata("noJvmDefaultFlag.kt")
             public void testNoJvmDefaultFlag() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/noJvmDefaultFlag.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/noJvmDefaultFlag.kt", this::doTest);
             }
 
             @TestMetadata("notInterface.kt")
             public void testNotInterface() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/notInterface.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/notInterface.kt", this::doTest);
             }
 
             @TestMetadata("propertyAccessor.kt")
             public void testPropertyAccessor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/propertyAccessor.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/propertyAccessor.kt", this::doTest);
             }
 
             @TestMetadata("simpleOverride.kt")
             public void testSimpleOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/simpleOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/simpleOverride.kt", this::doTest);
             }
 
             @TestMetadata("simplePropertyOverride.kt")
             public void testSimplePropertyOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/simplePropertyOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/simplePropertyOverride.kt", this::doTest);
             }
 
             @TestMetadata("superCall.kt")
             public void testSuperCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/superCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/superCall.kt", this::doTest);
             }
 
             @TestMetadata("superCallAmbiguity.kt")
             public void testSuperCallAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/superCallAmbiguity.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/superCallAmbiguity.kt", this::doTest);
             }
 
             @TestMetadata("superCallAmbiguity2.kt")
             public void testSuperCallAmbiguity2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/superCallAmbiguity2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/superCallAmbiguity2.kt", this::doTest);
             }
 
             @TestMetadata("superCallAmbiguity3.kt")
             public void testSuperCallAmbiguity3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/superCallAmbiguity3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/superCallAmbiguity3.kt", this::doTest);
             }
 
             @TestMetadata("target6.kt")
             public void testTarget6() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/target6.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/target6.kt", this::doTest);
             }
 
             @TestMetadata("target8.kt")
             public void testTarget8() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/target8.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmDefault/target8.kt", this::doTest);
             }
         }
 
@@ -583,26 +502,22 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("clashWithCompanionObjectField.kt")
             public void testClashWithCompanionObjectField() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmField/clashWithCompanionObjectField.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmField/clashWithCompanionObjectField.kt", this::doTest);
             }
 
             @TestMetadata("inMultiFileFacade.kt")
             public void testInMultiFileFacade() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmField/inMultiFileFacade.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmField/inMultiFileFacade.kt", this::doTest);
             }
 
             @TestMetadata("inSingleFileFacade.kt")
             public void testInSingleFileFacade() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmField/inSingleFileFacade.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmField/inSingleFileFacade.kt", this::doTest);
             }
 
             @TestMetadata("jvmFieldApplicability.kt")
             public void testJvmFieldApplicability() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmField/jvmFieldApplicability.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmField/jvmFieldApplicability.kt", this::doTest);
             }
         }
 
@@ -616,20 +531,17 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("JvmOverloadWithNoDefaults.kt")
             public void testJvmOverloadWithNoDefaults() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmOverloads/JvmOverloadWithNoDefaults.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmOverloads/JvmOverloadWithNoDefaults.kt", this::doTest);
             }
 
             @TestMetadata("jvmOverloadsOnAbstractMethods.kt")
             public void testJvmOverloadsOnAbstractMethods() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmOverloads/jvmOverloadsOnAbstractMethods.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmOverloads/jvmOverloadsOnAbstractMethods.kt", this::doTest);
             }
 
             @TestMetadata("jvmOverloadsOnPrivate.kt")
             public void testJvmOverloadsOnPrivate() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmOverloads/jvmOverloadsOnPrivate.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmOverloads/jvmOverloadsOnPrivate.kt", this::doTest);
             }
         }
 
@@ -643,8 +555,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("incorrectJvmPackageName.kt")
             public void testIncorrectJvmPackageName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmPackageName/incorrectJvmPackageName.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmPackageName/incorrectJvmPackageName.kt", this::doTest);
             }
         }
 
@@ -658,8 +569,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("apiVersionIsAtLeastHasConstArguments.kt")
             public void testApiVersionIsAtLeastHasConstArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmSpecialFunctions/apiVersionIsAtLeastHasConstArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmSpecialFunctions/apiVersionIsAtLeastHasConstArguments.kt", this::doTest);
             }
         }
 
@@ -673,68 +583,57 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("constOrJvmFieldProperty.kt")
             public void testConstOrJvmFieldProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/constOrJvmFieldProperty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/constOrJvmFieldProperty.kt", this::doTest);
             }
 
             @TestMetadata("constructorProperty.kt")
             public void testConstructorProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/constructorProperty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/constructorProperty.kt", this::doTest);
             }
 
             @TestMetadata("constructors.kt")
             public void testConstructors() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/constructors.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/constructors.kt", this::doTest);
             }
 
             @TestMetadata("finalAndAbstract.kt")
             public void testFinalAndAbstract() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/finalAndAbstract.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/finalAndAbstract.kt", this::doTest);
             }
 
             @TestMetadata("functions.kt")
             public void testFunctions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/functions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/functions.kt", this::doTest);
             }
 
             @TestMetadata("functions_LL13.kt")
             public void testFunctions_LL13() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/functions_LL13.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/functions_LL13.kt", this::doTest);
             }
 
             @TestMetadata("interfaceCompanion_LL12.kt")
             public void testInterfaceCompanion_LL12() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/interfaceCompanion_LL12.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/interfaceCompanion_LL12.kt", this::doTest);
             }
 
             @TestMetadata("interfaceCompanion_LL13_16.kt")
             public void testInterfaceCompanion_LL13_16() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/interfaceCompanion_LL13_16.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/interfaceCompanion_LL13_16.kt", this::doTest);
             }
 
             @TestMetadata("interfaceCompanion_LL13_18.kt")
             public void testInterfaceCompanion_LL13_18() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/interfaceCompanion_LL13_18.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/interfaceCompanion_LL13_18.kt", this::doTest);
             }
 
             @TestMetadata("localFun.kt")
             public void testLocalFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/localFun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/localFun.kt", this::doTest);
             }
 
             @TestMetadata("property.kt")
             public void testProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/property.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/jvmStatic/property.kt", this::doTest);
             }
         }
 
@@ -748,44 +647,37 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("kClassArrayInAnnotationsInVariance.kt")
             public void testKClassArrayInAnnotationsInVariance() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassArrayInAnnotationsInVariance.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassArrayInAnnotationsInVariance.kt", this::doTest);
             }
 
             @TestMetadata("kClassArrayInAnnotationsOutVariance.kt")
             public void testKClassArrayInAnnotationsOutVariance() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassArrayInAnnotationsOutVariance.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassArrayInAnnotationsOutVariance.kt", this::doTest);
             }
 
             @TestMetadata("kClassInAnnotation.kt")
             public void testKClassInAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassInAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassInAnnotation.kt", this::doTest);
             }
 
             @TestMetadata("kClassInAnnotationsInVariance.kt")
             public void testKClassInAnnotationsInVariance() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassInAnnotationsInVariance.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassInAnnotationsInVariance.kt", this::doTest);
             }
 
             @TestMetadata("kClassInAnnotationsOutVariance.kt")
             public void testKClassInAnnotationsOutVariance() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassInAnnotationsOutVariance.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassInAnnotationsOutVariance.kt", this::doTest);
             }
 
             @TestMetadata("kClassInvariantTP.kt")
             public void testKClassInvariantTP() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassInvariantTP.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassInvariantTP.kt", this::doTest);
             }
 
             @TestMetadata("kClassOutArrayInAnnotationsOutVariance.kt")
             public void testKClassOutArrayInAnnotationsOutVariance() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassOutArrayInAnnotationsOutVariance.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/kClass/kClassOutArrayInAnnotationsOutVariance.kt", this::doTest);
             }
         }
 
@@ -799,32 +691,27 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("kotlinAnnotation.kt")
             public void testKotlinAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/kotlinAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/kotlinAnnotation.kt", this::doTest);
             }
 
             @TestMetadata("tooManyArgs.kt")
             public void testTooManyArgs() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/tooManyArgs.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/tooManyArgs.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatch.kt")
             public void testTypeMismatch() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/typeMismatch.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/typeMismatch.kt", this::doTest);
             }
 
             @TestMetadata("withValue.kt")
             public void testWithValue() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/withValue.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/withValue.kt", this::doTest);
             }
 
             @TestMetadata("withoutValue.kt")
             public void testWithoutValue() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/withoutValue.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/annotations/prohibitPositionedArgument/withoutValue.kt", this::doTest);
             }
         }
     }
@@ -839,8 +726,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("arraysAreCloneable.kt")
         public void testArraysAreCloneable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/builtins/arraysAreCloneable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/builtins/arraysAreCloneable.kt", this::doTest);
         }
     }
 
@@ -854,20 +740,17 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("AsInsideIn.kt")
         public void testAsInsideIn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/cast/AsInsideIn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/cast/AsInsideIn.kt", this::doTest);
         }
 
         @TestMetadata("IsArray.kt")
         public void testIsArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/cast/IsArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/cast/IsArray.kt", this::doTest);
         }
 
         @TestMetadata("IsReified.kt")
         public void testIsReified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/cast/IsReified.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/cast/IsReified.kt", this::doTest);
         }
     }
 
@@ -897,98 +780,82 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
                 @TestMetadata("breakContinuesInInlinedLambda.kt")
                 public void testBreakContinuesInInlinedLambda() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/breakContinuesInInlinedLambda.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/breakContinuesInInlinedLambda.kt", this::doTest);
                 }
 
                 @TestMetadata("expressionBody.kt")
                 public void testExpressionBody() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/expressionBody.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/expressionBody.kt", this::doTest);
                 }
 
                 @TestMetadata("implicitCastToAnyInReturnType.kt")
                 public void testImplicitCastToAnyInReturnType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/implicitCastToAnyInReturnType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/implicitCastToAnyInReturnType.kt", this::doTest);
                 }
 
                 @TestMetadata("inlinedLambdaAlwaysThrows.kt")
                 public void testInlinedLambdaAlwaysThrows() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/inlinedLambdaAlwaysThrows.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/inlinedLambdaAlwaysThrows.kt", this::doTest);
                 }
 
                 @TestMetadata("irrelevantUnknownClosure.kt")
                 public void testIrrelevantUnknownClosure() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/irrelevantUnknownClosure.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/irrelevantUnknownClosure.kt", this::doTest);
                 }
 
                 @TestMetadata("labeledReturns.kt")
                 public void testLabeledReturns() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/labeledReturns.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/labeledReturns.kt", this::doTest);
                 }
 
                 @TestMetadata("nestedTryCatchFinally.kt")
                 public void testNestedTryCatchFinally() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/nestedTryCatchFinally.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/nestedTryCatchFinally.kt", this::doTest);
                 }
 
                 @TestMetadata("nestedTryCatchs.kt")
                 public void testNestedTryCatchs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/nestedTryCatchs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/nestedTryCatchs.kt", this::doTest);
                 }
 
                 @TestMetadata("nonLocalReturn.kt")
                 public void testNonLocalReturn() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/nonLocalReturn.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/nonLocalReturn.kt", this::doTest);
                 }
 
                 @TestMetadata("nonReturningInlinedLambda.kt")
                 public void testNonReturningInlinedLambda() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/nonReturningInlinedLambda.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/nonReturningInlinedLambda.kt", this::doTest);
                 }
 
                 @TestMetadata("severalJumpOutsFromInlinedLambda.kt")
                 public void testSeveralJumpOutsFromInlinedLambda() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/severalJumpOutsFromInlinedLambda.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/severalJumpOutsFromInlinedLambda.kt", this::doTest);
                 }
 
                 @TestMetadata("throwIfNotCalled.kt")
                 public void testThrowIfNotCalled() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/throwIfNotCalled.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/throwIfNotCalled.kt", this::doTest);
                 }
 
                 @TestMetadata("tryCatch.kt")
                 public void testTryCatch() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/tryCatch.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/tryCatch.kt", this::doTest);
                 }
 
                 @TestMetadata("tryCatchFinally.kt")
                 public void testTryCatchFinally() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/tryCatchFinally.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/tryCatchFinally.kt", this::doTest);
                 }
 
                 @TestMetadata("typeMismatch.kt")
                 public void testTypeMismatch() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/typeMismatch.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/typeMismatch.kt", this::doTest);
                 }
 
                 @TestMetadata("unreachableCode.kt")
                 public void testUnreachableCode() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/unreachableCode.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/flowInlining/unreachableCode.kt", this::doTest);
                 }
             }
 
@@ -1010,20 +877,17 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
                     @TestMetadata("valDefiniteReassignment.kt")
                     public void testValDefiniteReassignment() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/atLeastOnce/valDefiniteReassignment.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/atLeastOnce/valDefiniteReassignment.kt", this::doTest);
                     }
 
                     @TestMetadata("varDefiniteInitialization.kt")
                     public void testVarDefiniteInitialization() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/atLeastOnce/varDefiniteInitialization.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/atLeastOnce/varDefiniteInitialization.kt", this::doTest);
                     }
 
                     @TestMetadata("varIndefiniteIntialization.kt")
                     public void testVarIndefiniteIntialization() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/atLeastOnce/varIndefiniteIntialization.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/atLeastOnce/varIndefiniteIntialization.kt", this::doTest);
                     }
                 }
 
@@ -1037,38 +901,32 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
                     @TestMetadata("valDefiniteInitialization.kt")
                     public void testValDefiniteInitialization() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/valDefiniteInitialization.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/valDefiniteInitialization.kt", this::doTest);
                     }
 
                     @TestMetadata("valDefiniteReassignment.kt")
                     public void testValDefiniteReassignment() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/valDefiniteReassignment.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/valDefiniteReassignment.kt", this::doTest);
                     }
 
                     @TestMetadata("valIndefiniteInitialization.kt")
                     public void testValIndefiniteInitialization() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/valIndefiniteInitialization.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/valIndefiniteInitialization.kt", this::doTest);
                     }
 
                     @TestMetadata("varDefiniteInitalization.kt")
                     public void testVarDefiniteInitalization() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/varDefiniteInitalization.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/varDefiniteInitalization.kt", this::doTest);
                     }
 
                     @TestMetadata("varIndefiniteInitialization.kt")
                     public void testVarIndefiniteInitialization() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/varIndefiniteInitialization.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/varIndefiniteInitialization.kt", this::doTest);
                     }
 
                     @TestMetadata("withReceiver.kt")
                     public void testWithReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/withReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/exactlyOnce/withReceiver.kt", this::doTest);
                     }
                 }
 
@@ -1082,8 +940,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
                     @TestMetadata("unknownInvocations.kt")
                     public void testUnknownInvocations() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/unknown/unknownInvocations.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/controlflow/initialization/unknown/unknownInvocations.kt", this::doTest);
                     }
                 }
             }
@@ -1099,8 +956,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("useBeforeDeclaration.kt")
             public void testUseBeforeDeclaration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/useBeforeDeclaration.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/useBeforeDeclaration.kt", this::doTest);
             }
 
             @TestMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors")
@@ -1113,38 +969,32 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
                 @TestMetadata("booleanComparisons.kt")
                 public void testBooleanComparisons() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/booleanComparisons.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/booleanComparisons.kt", this::doTest);
                 }
 
                 @TestMetadata("callInContractDescription.kt")
                 public void testCallInContractDescription() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/callInContractDescription.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/callInContractDescription.kt", this::doTest);
                 }
 
                 @TestMetadata("nestedConditionalEffects.kt")
                 public void testNestedConditionalEffects() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/nestedConditionalEffects.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/nestedConditionalEffects.kt", this::doTest);
                 }
 
                 @TestMetadata("notFirstStatement.kt")
                 public void testNotFirstStatement() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/notFirstStatement.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/notFirstStatement.kt", this::doTest);
                 }
 
                 @TestMetadata("referenceToProperty.kt")
                 public void testReferenceToProperty() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/referenceToProperty.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/referenceToProperty.kt", this::doTest);
                 }
 
                 @TestMetadata("unlabeledReceiver.kt")
                 public void testUnlabeledReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/unlabeledReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/dsl/errors/unlabeledReceiver.kt", this::doTest);
                 }
             }
         }
@@ -1159,32 +1009,27 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("check.kt")
             public void testCheck() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/check.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/check.kt", this::doTest);
             }
 
             @TestMetadata("fromStandardKt.kt")
             public void testFromStandardKt() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/fromStandardKt.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/fromStandardKt.kt", this::doTest);
             }
 
             @TestMetadata("isNullOrBlank.kt")
             public void testIsNullOrBlank() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/isNullOrBlank.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/isNullOrBlank.kt", this::doTest);
             }
 
             @TestMetadata("isNullOrEmpty.kt")
             public void testIsNullOrEmpty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/isNullOrEmpty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/isNullOrEmpty.kt", this::doTest);
             }
 
             @TestMetadata("require.kt")
             public void testRequire() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/require.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/fromStdlib/require.kt", this::doTest);
             }
         }
 
@@ -1198,68 +1043,57 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("catchExceptionSpilling.kt")
             public void testCatchExceptionSpilling() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/catchExceptionSpilling.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/catchExceptionSpilling.kt", this::doTest);
             }
 
             @TestMetadata("compositions.kt")
             public void testCompositions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/compositions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/compositions.kt", this::doTest);
             }
 
             @TestMetadata("deeplyNested.kt")
             public void testDeeplyNested() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/deeplyNested.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/deeplyNested.kt", this::doTest);
             }
 
             @TestMetadata("intersectingInfo.kt")
             public void testIntersectingInfo() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/intersectingInfo.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/intersectingInfo.kt", this::doTest);
             }
 
             @TestMetadata("intersectionTypes.kt")
             public void testIntersectionTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/intersectionTypes.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/intersectionTypes.kt", this::doTest);
             }
 
             @TestMetadata("nullabilitySmartcastWhenNullability.kt")
             public void testNullabilitySmartcastWhenNullability() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/nullabilitySmartcastWhenNullability.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/nullabilitySmartcastWhenNullability.kt", this::doTest);
             }
 
             @TestMetadata("partiallyIncorrect.kt")
             public void testPartiallyIncorrect() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/partiallyIncorrect.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/partiallyIncorrect.kt", this::doTest);
             }
 
             @TestMetadata("receiver.kt")
             public void testReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/receiver.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/receiver.kt", this::doTest);
             }
 
             @TestMetadata("throwsEffect.kt")
             public void testThrowsEffect() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/throwsEffect.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/throwsEffect.kt", this::doTest);
             }
 
             @TestMetadata("typeSmartcastWhenNullability.kt")
             public void testTypeSmartcastWhenNullability() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/typeSmartcastWhenNullability.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/typeSmartcastWhenNullability.kt", this::doTest);
             }
 
             @TestMetadata("unreachableBranches.kt")
             public void testUnreachableBranches() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/unreachableBranches.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/unreachableBranches.kt", this::doTest);
             }
 
             @TestMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/multieffect")
@@ -1272,14 +1106,12 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
                 @TestMetadata("implicitIff.kt")
                 public void testImplicitIff() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/multieffect/implicitIff.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/multieffect/implicitIff.kt", this::doTest);
                 }
 
                 @TestMetadata("returnsAndCalls.kt")
                 public void testReturnsAndCalls() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/multieffect/returnsAndCalls.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/multieffect/returnsAndCalls.kt", this::doTest);
                 }
             }
 
@@ -1293,56 +1125,47 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
                 @TestMetadata("andOperator.kt")
                 public void testAndOperator() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/andOperator.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/andOperator.kt", this::doTest);
                 }
 
                 @TestMetadata("andOperatorWithConstant.kt")
                 public void testAndOperatorWithConstant() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/andOperatorWithConstant.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/andOperatorWithConstant.kt", this::doTest);
                 }
 
                 @TestMetadata("andOperatorWithUnknown.kt")
                 public void testAndOperatorWithUnknown() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/andOperatorWithUnknown.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/andOperatorWithUnknown.kt", this::doTest);
                 }
 
                 @TestMetadata("equalsOperator.kt")
                 public void testEqualsOperator() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/equalsOperator.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/equalsOperator.kt", this::doTest);
                 }
 
                 @TestMetadata("equalsWithNullableBoolean.kt")
                 public void testEqualsWithNullableBoolean() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/equalsWithNullableBoolean.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/equalsWithNullableBoolean.kt", this::doTest);
                 }
 
                 @TestMetadata("isInstanceOperator.kt")
                 public void testIsInstanceOperator() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/isInstanceOperator.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/isInstanceOperator.kt", this::doTest);
                 }
 
                 @TestMetadata("orOperator.kt")
                 public void testOrOperator() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/orOperator.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/orOperator.kt", this::doTest);
                 }
 
                 @TestMetadata("orOperatorWithConstant.kt")
                 public void testOrOperatorWithConstant() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/orOperatorWithConstant.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/orOperatorWithConstant.kt", this::doTest);
                 }
 
                 @TestMetadata("orOperatorWithUnknown.kt")
                 public void testOrOperatorWithUnknown() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/orOperatorWithUnknown.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/operatorsTests/orOperatorWithUnknown.kt", this::doTest);
                 }
             }
 
@@ -1356,20 +1179,17 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
                 @TestMetadata("withSubject.kt")
                 public void testWithSubject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/when/withSubject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/when/withSubject.kt", this::doTest);
                 }
 
                 @TestMetadata("withSubjectNullableBoolean.kt")
                 public void testWithSubjectNullableBoolean() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/when/withSubjectNullableBoolean.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/when/withSubjectNullableBoolean.kt", this::doTest);
                 }
 
                 @TestMetadata("withoutSubject.kt")
                 public void testWithoutSubject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/when/withoutSubject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/contracts/smartcasts/when/withoutSubject.kt", this::doTest);
                 }
             }
         }
@@ -1385,188 +1205,157 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("callableReferences.kt")
         public void testCallableReferences() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/callableReferences.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/callableReferences.kt", this::doTest);
         }
 
         @TestMetadata("coroutineContext.kt")
         public void testCoroutineContext() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/coroutineContext.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/coroutineContext.kt", this::doTest);
         }
 
         @TestMetadata("coroutinesDisabled.kt")
         public void testCoroutinesDisabled() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/coroutinesDisabled.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/coroutinesDisabled.kt", this::doTest);
         }
 
         @TestMetadata("coroutinesEnabledWithWarning.kt")
         public void testCoroutinesEnabledWithWarning() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/coroutinesEnabledWithWarning.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/coroutinesEnabledWithWarning.kt", this::doTest);
         }
 
         @TestMetadata("illegalSuspendCalls.kt")
         public void testIllegalSuspendCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/illegalSuspendCalls.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/illegalSuspendCalls.kt", this::doTest);
         }
 
         @TestMetadata("illegalSuspendCallsForDelegated.kt")
         public void testIllegalSuspendCallsForDelegated() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/illegalSuspendCallsForDelegated.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/illegalSuspendCallsForDelegated.kt", this::doTest);
         }
 
         @TestMetadata("irrelevantSuspendDeclarations.kt")
         public void testIrrelevantSuspendDeclarations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/irrelevantSuspendDeclarations.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/irrelevantSuspendDeclarations.kt", this::doTest);
         }
 
         @TestMetadata("kt18292.kt")
         public void testKt18292() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/kt18292.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/kt18292.kt", this::doTest);
         }
 
         @TestMetadata("lambdaExpectedType.kt")
         public void testLambdaExpectedType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/lambdaExpectedType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/lambdaExpectedType.kt", this::doTest);
         }
 
         @TestMetadata("mixingSuspendability.kt")
         public void testMixingSuspendability() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/mixingSuspendability.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/mixingSuspendability.kt", this::doTest);
         }
 
         @TestMetadata("modifierFormForNonBuiltInSuspend.kt")
         public void testModifierFormForNonBuiltInSuspend() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/modifierFormForNonBuiltInSuspend.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/modifierFormForNonBuiltInSuspend.kt", this::doTest);
         }
 
         @TestMetadata("modifierFormForNonBuiltInSuspendWithAnyParameter.kt")
         public void testModifierFormForNonBuiltInSuspendWithAnyParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/modifierFormForNonBuiltInSuspendWithAnyParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/modifierFormForNonBuiltInSuspendWithAnyParameter.kt", this::doTest);
         }
 
         @TestMetadata("noDefaultCoroutineImports.kt")
         public void testNoDefaultCoroutineImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/noDefaultCoroutineImports.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/noDefaultCoroutineImports.kt", this::doTest);
         }
 
         @TestMetadata("nonLocalSuspension.kt")
         public void testNonLocalSuspension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/nonLocalSuspension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/nonLocalSuspension.kt", this::doTest);
         }
 
         @TestMetadata("nonModifierFormForBuiltIn.kt")
         public void testNonModifierFormForBuiltIn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/nonModifierFormForBuiltIn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/nonModifierFormForBuiltIn.kt", this::doTest);
         }
 
         @TestMetadata("nonModifierFormForBuiltInRenameOnImport.kt")
         public void testNonModifierFormForBuiltInRenameOnImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/nonModifierFormForBuiltInRenameOnImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/nonModifierFormForBuiltInRenameOnImport.kt", this::doTest);
         }
 
         @TestMetadata("operators.kt")
         public void testOperators() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/operators.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/operators.kt", this::doTest);
         }
 
         @TestMetadata("returnLabelForBuiltInSuspend.kt")
         public void testReturnLabelForBuiltInSuspend() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/returnLabelForBuiltInSuspend.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/returnLabelForBuiltInSuspend.kt", this::doTest);
         }
 
         @TestMetadata("suspendApplicability.kt")
         public void testSuspendApplicability() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendApplicability.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendApplicability.kt", this::doTest);
         }
 
         @TestMetadata("suspendConflictsWithNoSuspend.kt")
         public void testSuspendConflictsWithNoSuspend() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendConflictsWithNoSuspend.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendConflictsWithNoSuspend.kt", this::doTest);
         }
 
         @TestMetadata("suspendCoroutineOrReturn.kt")
         public void testSuspendCoroutineOrReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendCoroutineOrReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendCoroutineOrReturn.kt", this::doTest);
         }
 
         @TestMetadata("suspendCoroutineUnavailableWithNewAPI.kt")
         public void testSuspendCoroutineUnavailableWithNewAPI() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendCoroutineUnavailableWithNewAPI.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendCoroutineUnavailableWithNewAPI.kt", this::doTest);
         }
 
         @TestMetadata("suspendCoroutineUnavailableWithOldAPI.kt")
         public void testSuspendCoroutineUnavailableWithOldAPI() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendCoroutineUnavailableWithOldAPI.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendCoroutineUnavailableWithOldAPI.kt", this::doTest);
         }
 
         @TestMetadata("suspendDestructuring.kt")
         public void testSuspendDestructuring() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendDestructuring.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendDestructuring.kt", this::doTest);
         }
 
         @TestMetadata("suspendExternalFunctions.kt")
         public void testSuspendExternalFunctions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendExternalFunctions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendExternalFunctions.kt", this::doTest);
         }
 
         @TestMetadata("suspendFunctions.kt")
         public void testSuspendFunctions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctions.kt", this::doTest);
         }
 
         @TestMetadata("suspendLambda.kt")
         public void testSuspendLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendLambda.kt", this::doTest);
         }
 
         @TestMetadata("suspendOverridability.kt")
         public void testSuspendOverridability() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendOverridability.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendOverridability.kt", this::doTest);
         }
 
         @TestMetadata("suspesionInDefaultValue.kt")
         public void testSuspesionInDefaultValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspesionInDefaultValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspesionInDefaultValue.kt", this::doTest);
         }
 
         @TestMetadata("tryCatchLambda.kt")
         public void testTryCatchLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/tryCatchLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/tryCatchLambda.kt", this::doTest);
         }
 
         @TestMetadata("unsupported.kt")
         public void testUnsupported() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/unsupported.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/unsupported.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference")
@@ -1579,80 +1368,67 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("correctMember.kt")
             public void testCorrectMember() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/correctMember.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/correctMember.kt", this::doTest);
             }
 
             @TestMetadata("extensionPriority.kt")
             public void testExtensionPriority() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/extensionPriority.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/extensionPriority.kt", this::doTest);
             }
 
             @TestMetadata("extensionSuspend.kt")
             public void testExtensionSuspend() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/extensionSuspend.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/extensionSuspend.kt", this::doTest);
             }
 
             @TestMetadata("incorrectCalls.kt")
             public void testIncorrectCalls() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/incorrectCalls.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/incorrectCalls.kt", this::doTest);
             }
 
             @TestMetadata("kt15516.kt")
             public void testKt15516() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/kt15516.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/kt15516.kt", this::doTest);
             }
 
             @TestMetadata("recursiveGenerators.kt")
             public void testRecursiveGenerators() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/recursiveGenerators.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/recursiveGenerators.kt", this::doTest);
             }
 
             @TestMetadata("recursiveGenerators2.kt")
             public void testRecursiveGenerators2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/recursiveGenerators2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/recursiveGenerators2.kt", this::doTest);
             }
 
             @TestMetadata("returnTypeInference.kt")
             public void testReturnTypeInference() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/returnTypeInference.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/returnTypeInference.kt", this::doTest);
             }
 
             @TestMetadata("returnTypeInference2.kt")
             public void testReturnTypeInference2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/returnTypeInference2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/returnTypeInference2.kt", this::doTest);
             }
 
             @TestMetadata("simpleGenerator.kt")
             public void testSimpleGenerator() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/simpleGenerator.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/simpleGenerator.kt", this::doTest);
             }
 
             @TestMetadata("typeFromReceiver.kt")
             public void testTypeFromReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/typeFromReceiver.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/typeFromReceiver.kt", this::doTest);
             }
 
             @TestMetadata("withParameter.kt")
             public void testWithParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/withParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/withParameter.kt", this::doTest);
             }
 
             @TestMetadata("withUninferredParameter.kt")
             public void testWithUninferredParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/withUninferredParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inference/withUninferredParameter.kt", this::doTest);
             }
         }
 
@@ -1666,74 +1442,62 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("inlineOrdinaryOfCrossinlineOrdinary.kt")
             public void testInlineOrdinaryOfCrossinlineOrdinary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfCrossinlineOrdinary.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfCrossinlineOrdinary.kt", this::doTest);
             }
 
             @TestMetadata("inlineOrdinaryOfCrossinlineSuspend.kt")
             public void testInlineOrdinaryOfCrossinlineSuspend() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfCrossinlineSuspend.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfCrossinlineSuspend.kt", this::doTest);
             }
 
             @TestMetadata("inlineOrdinaryOfNoinlineOrdinary.kt")
             public void testInlineOrdinaryOfNoinlineOrdinary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfNoinlineOrdinary.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfNoinlineOrdinary.kt", this::doTest);
             }
 
             @TestMetadata("inlineOrdinaryOfNoinlineSuspend.kt")
             public void testInlineOrdinaryOfNoinlineSuspend() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfNoinlineSuspend.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfNoinlineSuspend.kt", this::doTest);
             }
 
             @TestMetadata("inlineOrdinaryOfOrdinary.kt")
             public void testInlineOrdinaryOfOrdinary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfOrdinary.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfOrdinary.kt", this::doTest);
             }
 
             @TestMetadata("inlineOrdinaryOfSuspend.kt")
             public void testInlineOrdinaryOfSuspend() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfSuspend.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineOrdinaryOfSuspend.kt", this::doTest);
             }
 
             @TestMetadata("inlineSuspendOfCrossinlineOrdinary.kt")
             public void testInlineSuspendOfCrossinlineOrdinary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfCrossinlineOrdinary.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfCrossinlineOrdinary.kt", this::doTest);
             }
 
             @TestMetadata("inlineSuspendOfCrossinlineSuspend.kt")
             public void testInlineSuspendOfCrossinlineSuspend() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfCrossinlineSuspend.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfCrossinlineSuspend.kt", this::doTest);
             }
 
             @TestMetadata("inlineSuspendOfNoinlineOrdinary.kt")
             public void testInlineSuspendOfNoinlineOrdinary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfNoinlineOrdinary.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfNoinlineOrdinary.kt", this::doTest);
             }
 
             @TestMetadata("inlineSuspendOfNoinlineSuspend.kt")
             public void testInlineSuspendOfNoinlineSuspend() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfNoinlineSuspend.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfNoinlineSuspend.kt", this::doTest);
             }
 
             @TestMetadata("inlineSuspendOfOrdinary.kt")
             public void testInlineSuspendOfOrdinary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfOrdinary.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfOrdinary.kt", this::doTest);
             }
 
             @TestMetadata("inlineSuspendOfSuspend.kt")
             public void testInlineSuspendOfSuspend() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfSuspend.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/inlineCrossinline/inlineSuspendOfSuspend.kt", this::doTest);
             }
         }
 
@@ -1747,32 +1511,27 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("allMembersAllowed.kt")
             public void testAllMembersAllowed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/allMembersAllowed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/allMembersAllowed.kt", this::doTest);
             }
 
             @TestMetadata("extensions.kt")
             public void testExtensions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/extensions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/extensions.kt", this::doTest);
             }
 
             @TestMetadata("notRelatedFun.kt")
             public void testNotRelatedFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/notRelatedFun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/notRelatedFun.kt", this::doTest);
             }
 
             @TestMetadata("sameInstance.kt")
             public void testSameInstance() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/sameInstance.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/sameInstance.kt", this::doTest);
             }
 
             @TestMetadata("simpleForbidden.kt")
             public void testSimpleForbidden() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/simpleForbidden.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/restrictSuspension/simpleForbidden.kt", this::doTest);
             }
         }
 
@@ -1786,86 +1545,72 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("functionVsSuspendFunction.kt")
             public void testFunctionVsSuspendFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/functionVsSuspendFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/functionVsSuspendFunction.kt", this::doTest);
             }
 
             @TestMetadata("inference1.kt")
             public void testInference1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inference1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inference1.kt", this::doTest);
             }
 
             @TestMetadata("inference2.kt")
             public void testInference2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inference2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inference2.kt", this::doTest);
             }
 
             @TestMetadata("inference3.kt")
             public void testInference3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inference3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inference3.kt", this::doTest);
             }
 
             @TestMetadata("inference4.kt")
             public void testInference4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inference4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inference4.kt", this::doTest);
             }
 
             @TestMetadata("inline.kt")
             public void testInline() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inline.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/inline.kt", this::doTest);
             }
 
             @TestMetadata("invoke.kt")
             public void testInvoke() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/invoke.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/invoke.kt", this::doTest);
             }
 
             @TestMetadata("lambdaInOverriddenValInitializer.kt")
             public void testLambdaInOverriddenValInitializer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/lambdaInOverriddenValInitializer.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/lambdaInOverriddenValInitializer.kt", this::doTest);
             }
 
             @TestMetadata("lambdaInValInitializer.kt")
             public void testLambdaInValInitializer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/lambdaInValInitializer.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/lambdaInValInitializer.kt", this::doTest);
             }
 
             @TestMetadata("modifierApplicability.kt")
             public void testModifierApplicability() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/modifierApplicability.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/modifierApplicability.kt", this::doTest);
             }
 
             @TestMetadata("noInvokeForSuspendFunction.kt")
             public void testNoInvokeForSuspendFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/noInvokeForSuspendFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/noInvokeForSuspendFunction.kt", this::doTest);
             }
 
             @TestMetadata("noValueParameters.kt")
             public void testNoValueParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/noValueParameters.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/noValueParameters.kt", this::doTest);
             }
 
             @TestMetadata("nullableSuspendFunction.kt")
             public void testNullableSuspendFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/nullableSuspendFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/nullableSuspendFunction.kt", this::doTest);
             }
 
             @TestMetadata("suspendFunctionNIsUnresolved.kt")
             public void testSuspendFunctionNIsUnresolved() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/suspendFunctionNIsUnresolved.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/suspendFunctionType/suspendFunctionNIsUnresolved.kt", this::doTest);
             }
         }
 
@@ -1879,38 +1624,32 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("forbidden.kt")
             public void testForbidden() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/forbidden.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/forbidden.kt", this::doTest);
             }
 
             @TestMetadata("localFunctions.kt")
             public void testLocalFunctions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/localFunctions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/localFunctions.kt", this::doTest);
             }
 
             @TestMetadata("nothingTypedSuspendFunction.kt")
             public void testNothingTypedSuspendFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/nothingTypedSuspendFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/nothingTypedSuspendFunction.kt", this::doTest);
             }
 
             @TestMetadata("recursive.kt")
             public void testRecursive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/recursive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/recursive.kt", this::doTest);
             }
 
             @TestMetadata("tryCatch.kt")
             public void testTryCatch() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/tryCatch.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/tryCatch.kt", this::doTest);
             }
 
             @TestMetadata("valid.kt")
             public void testValid() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/valid.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/coroutines/tailCalls/valid.kt", this::doTest);
             }
         }
     }
@@ -1925,38 +1664,32 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("delegatedProperty.kt")
         public void testDelegatedProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/delegatedProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/delegatedProperty.kt", this::doTest);
         }
 
         @TestMetadata("jvmNames.kt")
         public void testJvmNames() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmNames.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmNames.kt", this::doTest);
         }
 
         @TestMetadata("jvmNamesDuplicate.kt")
         public void testJvmNamesDuplicate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmNamesDuplicate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmNamesDuplicate.kt", this::doTest);
         }
 
         @TestMetadata("jvmOverloads.kt")
         public void testJvmOverloads() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmOverloads.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmOverloads.kt", this::doTest);
         }
 
         @TestMetadata("jvmStaticInClassObject.kt")
         public void testJvmStaticInClassObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmStaticInClassObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmStaticInClassObject.kt", this::doTest);
         }
 
         @TestMetadata("jvmStaticInObject.kt")
         public void testJvmStaticInObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmStaticInObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/jvmStaticInObject.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/statics")
@@ -1969,26 +1702,22 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("jjk.kt")
             public void testJjk() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/statics/jjk.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/statics/jjk.kt", this::doTest);
             }
 
             @TestMetadata("jk.kt")
             public void testJk() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/statics/jk.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/statics/jk.kt", this::doTest);
             }
 
             @TestMetadata("jkjk.kt")
             public void testJkjk() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/statics/jkjk.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/statics/jkjk.kt", this::doTest);
             }
 
             @TestMetadata("kotlinMembersVsJavaNonVisibleStatics.kt")
             public void testKotlinMembersVsJavaNonVisibleStatics() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/statics/kotlinMembersVsJavaNonVisibleStatics.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/duplicateJvmSignature/statics/kotlinMembersVsJavaNonVisibleStatics.kt", this::doTest);
             }
         }
     }
@@ -2003,140 +1732,117 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/annotation.kt", this::doTest);
         }
 
         @TestMetadata("bodyUsageInSameModule.kt")
         public void testBodyUsageInSameModule() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/bodyUsageInSameModule.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/bodyUsageInSameModule.kt", this::doTest);
         }
 
         @TestMetadata("bodyUsages.kt")
         public void testBodyUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/bodyUsages.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/bodyUsages.kt", this::doTest);
         }
 
         @TestMetadata("classMembers.kt")
         public void testClassMembers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/classMembers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/classMembers.kt", this::doTest);
         }
 
         @TestMetadata("classMembersOverlyExperimental.kt")
         public void testClassMembersOverlyExperimental() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/classMembersOverlyExperimental.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/classMembersOverlyExperimental.kt", this::doTest);
         }
 
         @TestMetadata("compilationVsLinkageVsRuntime.kt")
         public void testCompilationVsLinkageVsRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/compilationVsLinkageVsRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/compilationVsLinkageVsRuntime.kt", this::doTest);
         }
 
         @TestMetadata("constVal.kt")
         public void testConstVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/constVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/constVal.kt", this::doTest);
         }
 
         @TestMetadata("deeplyNestedClass.kt")
         public void testDeeplyNestedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/deeplyNestedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/deeplyNestedClass.kt", this::doTest);
         }
 
         @TestMetadata("errors.kt")
         public void testErrors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/errors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/errors.kt", this::doTest);
         }
 
         @TestMetadata("experimentalOnWholeModule.kt")
         public void testExperimentalOnWholeModule() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/experimentalOnWholeModule.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/experimentalOnWholeModule.kt", this::doTest);
         }
 
         @TestMetadata("experimentalWithNoImpact.kt")
         public void testExperimentalWithNoImpact() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/experimentalWithNoImpact.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/experimentalWithNoImpact.kt", this::doTest);
         }
 
         @TestMetadata("incorrectTargetsForExperimentalAnnotation.kt")
         public void testIncorrectTargetsForExperimentalAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/incorrectTargetsForExperimentalAnnotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/incorrectTargetsForExperimentalAnnotation.kt", this::doTest);
         }
 
         @TestMetadata("incorrectUseExperimental.kt")
         public void testIncorrectUseExperimental() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/incorrectUseExperimental.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/incorrectUseExperimental.kt", this::doTest);
         }
 
         @TestMetadata("indirectBodyUsageInAnotherModule.kt")
         public void testIndirectBodyUsageInAnotherModule() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/indirectBodyUsageInAnotherModule.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/indirectBodyUsageInAnotherModule.kt", this::doTest);
         }
 
         @TestMetadata("override.kt")
         public void testOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/override.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/override.kt", this::doTest);
         }
 
         @TestMetadata("overrideDifferentExperimentalities.kt")
         public void testOverrideDifferentExperimentalities() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/overrideDifferentExperimentalities.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/overrideDifferentExperimentalities.kt", this::doTest);
         }
 
         @TestMetadata("scripts.kt")
         public void testScripts() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/scripts.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/scripts.kt", this::doTest);
         }
 
         @TestMetadata("topLevel.kt")
         public void testTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/topLevel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/topLevel.kt", this::doTest);
         }
 
         @TestMetadata("typealias.kt")
         public void testTypealias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/typealias.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/typealias.kt", this::doTest);
         }
 
         @TestMetadata("useExperimentalOnFile.kt")
         public void testUseExperimentalOnFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/useExperimentalOnFile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/useExperimentalOnFile.kt", this::doTest);
         }
 
         @TestMetadata("useExperimentalOnWholeModule.kt")
         public void testUseExperimentalOnWholeModule() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/useExperimentalOnWholeModule.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/useExperimentalOnWholeModule.kt", this::doTest);
         }
 
         @TestMetadata("useExperimentalTargets.kt")
         public void testUseExperimentalTargets() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/useExperimentalTargets.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/useExperimentalTargets.kt", this::doTest);
         }
 
         @TestMetadata("useExperimentalWithSeveralAnnotations.kt")
         public void testUseExperimentalWithSeveralAnnotations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/experimental/useExperimentalWithSeveralAnnotations.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/experimental/useExperimentalWithSeveralAnnotations.kt", this::doTest);
         }
     }
 
@@ -2150,32 +1856,27 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("capturedRangeVariableAssignmentBefore13.kt")
         public void testCapturedRangeVariableAssignmentBefore13() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/capturedRangeVariableAssignmentBefore13.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/capturedRangeVariableAssignmentBefore13.kt", this::doTest);
         }
 
         @TestMetadata("forInFieldUpdatedInLoopBodyBefore13.kt")
         public void testForInFieldUpdatedInLoopBodyBefore13() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/forInFieldUpdatedInLoopBodyBefore13.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/forInFieldUpdatedInLoopBodyBefore13.kt", this::doTest);
         }
 
         @TestMetadata("rangeLocalDelegatedPropertyAssignmentBefore13.kt")
         public void testRangeLocalDelegatedPropertyAssignmentBefore13() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/rangeLocalDelegatedPropertyAssignmentBefore13.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/rangeLocalDelegatedPropertyAssignmentBefore13.kt", this::doTest);
         }
 
         @TestMetadata("rangeVariableAssignment13.kt")
         public void testRangeVariableAssignment13() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/rangeVariableAssignment13.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/rangeVariableAssignment13.kt", this::doTest);
         }
 
         @TestMetadata("rangeVariableAssignmentBefore13.kt")
         public void testRangeVariableAssignmentBefore13() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/rangeVariableAssignmentBefore13.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/forInArrayLoop/rangeVariableAssignmentBefore13.kt", this::doTest);
         }
     }
 
@@ -2189,8 +1890,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("pseudocodeMemoryOverhead.kt")
         public void testPseudocodeMemoryOverhead() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/functionLiterals/pseudocodeMemoryOverhead.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/functionLiterals/pseudocodeMemoryOverhead.kt", this::doTest);
         }
     }
 
@@ -2204,32 +1904,27 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("arrayConstructor.kt")
         public void testArrayConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/arrayConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/arrayConstructor.kt", this::doTest);
         }
 
         @TestMetadata("kt11266.kt")
         public void testKt11266() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/kt11266.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/kt11266.kt", this::doTest);
         }
 
         @TestMetadata("kt1558.kt")
         public void testKt1558() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/kt1558.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/kt1558.kt", this::doTest);
         }
 
         @TestMetadata("kt3458.kt")
         public void testKt3458() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/kt3458.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/kt3458.kt", this::doTest);
         }
 
         @TestMetadata("kt4975.kt")
         public void testKt4975() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/kt4975.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/kt4975.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve")
@@ -2242,44 +1937,37 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
             @TestMetadata("exactAnnotation.kt")
             public void testExactAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/exactAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/exactAnnotation.kt", this::doTest);
             }
 
             @TestMetadata("internalAnnotationsOnTypes.kt")
             public void testInternalAnnotationsOnTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/internalAnnotationsOnTypes.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/internalAnnotationsOnTypes.kt", this::doTest);
             }
 
             @TestMetadata("noInferAndLowPriority.kt")
             public void testNoInferAndLowPriority() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/noInferAndLowPriority.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/noInferAndLowPriority.kt", this::doTest);
             }
 
             @TestMetadata("noInferAnnotation.kt")
             public void testNoInferAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/noInferAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/noInferAnnotation.kt", this::doTest);
             }
 
             @TestMetadata("onlyInputTypesAndLowPriority.kt")
             public void testOnlyInputTypesAndLowPriority() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/onlyInputTypesAndLowPriority.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/onlyInputTypesAndLowPriority.kt", this::doTest);
             }
 
             @TestMetadata("onlyInputTypesAnnotationWithPlatformTypes.kt")
             public void testOnlyInputTypesAnnotationWithPlatformTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/onlyInputTypesAnnotationWithPlatformTypes.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/onlyInputTypesAnnotationWithPlatformTypes.kt", this::doTest);
             }
 
             @TestMetadata("resolveWithOnlyInputTypesAnnotation.kt")
             public void testResolveWithOnlyInputTypesAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/resolveWithOnlyInputTypesAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inference/annotationsForResolve/resolveWithOnlyInputTypesAnnotation.kt", this::doTest);
             }
         }
     }
@@ -2294,8 +1982,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("inlineOnlySuppressesNothingToInline.kt")
         public void testInlineOnlySuppressesNothingToInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/inline/inlineOnlySuppressesNothingToInline.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/inline/inlineOnlySuppressesNothingToInline.kt", this::doTest);
         }
     }
 
@@ -2309,8 +1996,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("patternCompileCallableReference.kt")
         public void testPatternCompileCallableReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/java/patternCompileCallableReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/java/patternCompileCallableReference.kt", this::doTest);
         }
     }
 
@@ -2324,8 +2010,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("delegate.kt")
         public void testDelegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/kt7585/delegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/kt7585/delegate.kt", this::doTest);
         }
     }
 
@@ -2339,8 +2024,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("isInitialized.kt")
         public void testIsInitialized() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/lateinit/isInitialized.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/lateinit/isInitialized.kt", this::doTest);
         }
     }
 
@@ -2350,8 +2034,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
     public static class Native extends AbstractDiagnosticsTestWithStdLibUsingJavac {
         @TestMetadata("abstract.kt")
         public void testAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/native/abstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/native/abstract.kt", this::doTest);
         }
 
         public void testAllFilesPresentInNative() throws Exception {
@@ -2360,50 +2043,42 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("body.kt")
         public void testBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/native/body.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/native/body.kt", this::doTest);
         }
 
         @TestMetadata("constructor.kt")
         public void testConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/native/constructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/native/constructor.kt", this::doTest);
         }
 
         @TestMetadata("inline.kt")
         public void testInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/native/inline.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/native/inline.kt", this::doTest);
         }
 
         @TestMetadata("noBody.kt")
         public void testNoBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/native/noBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/native/noBody.kt", this::doTest);
         }
 
         @TestMetadata("nonFunction.kt")
         public void testNonFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/native/nonFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/native/nonFunction.kt", this::doTest);
         }
 
         @TestMetadata("override.kt")
         public void testOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/native/override.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/native/override.kt", this::doTest);
         }
 
         @TestMetadata("reified.kt")
         public void testReified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/native/reified.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/native/reified.kt", this::doTest);
         }
 
         @TestMetadata("trait.kt")
         public void testTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/native/trait.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/native/trait.kt", this::doTest);
         }
     }
 
@@ -2417,62 +2092,52 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("arrayList.kt")
         public void testArrayList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/arrayList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/arrayList.kt", this::doTest);
         }
 
         @TestMetadata("arrayListNullable.kt")
         public void testArrayListNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/arrayListNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/arrayListNullable.kt", this::doTest);
         }
 
         @TestMetadata("customClassMutableCollection.kt")
         public void testCustomClassMutableCollection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/customClassMutableCollection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/customClassMutableCollection.kt", this::doTest);
         }
 
         @TestMetadata("customClassMutableList.kt")
         public void testCustomClassMutableList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/customClassMutableList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/customClassMutableList.kt", this::doTest);
         }
 
         @TestMetadata("invalidFqName.kt")
         public void testInvalidFqName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/invalidFqName.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/invalidFqName.kt", this::doTest);
         }
 
         @TestMetadata("maps.kt")
         public void testMaps() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/maps.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/maps.kt", this::doTest);
         }
 
         @TestMetadata("mapsWithNullableKey.kt")
         public void testMapsWithNullableKey() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/mapsWithNullableKey.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/mapsWithNullableKey.kt", this::doTest);
         }
 
         @TestMetadata("mapsWithNullableValues.kt")
         public void testMapsWithNullableValues() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/mapsWithNullableValues.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/mapsWithNullableValues.kt", this::doTest);
         }
 
         @TestMetadata("sets.kt")
         public void testSets() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/sets.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/sets.kt", this::doTest);
         }
 
         @TestMetadata("wrongTypeParametersCount.kt")
         public void testWrongTypeParametersCount() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/wrongTypeParametersCount.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/purelyImplementedCollection/wrongTypeParametersCount.kt", this::doTest);
         }
     }
 
@@ -2486,56 +2151,47 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("ea63992.kt")
         public void testEa63992() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/regression/ea63992.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/regression/ea63992.kt", this::doTest);
         }
 
         @TestMetadata("ea65206.kt")
         public void testEa65206() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/regression/ea65206.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/regression/ea65206.kt", this::doTest);
         }
 
         @TestMetadata("ea66827_dataClassWrongToString.kt")
         public void testEa66827_dataClassWrongToString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/regression/ea66827_dataClassWrongToString.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/regression/ea66827_dataClassWrongToString.kt", this::doTest);
         }
 
         @TestMetadata("ea70485_functionTypeInheritor.kt")
         public void testEa70485_functionTypeInheritor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/regression/ea70485_functionTypeInheritor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/regression/ea70485_functionTypeInheritor.kt", this::doTest);
         }
 
         @TestMetadata("ea70880_illegalJvmName.kt")
         public void testEa70880_illegalJvmName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/regression/ea70880_illegalJvmName.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/regression/ea70880_illegalJvmName.kt", this::doTest);
         }
 
         @TestMetadata("kt10001.kt")
         public void testKt10001() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/regression/kt10001.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/regression/kt10001.kt", this::doTest);
         }
 
         @TestMetadata("kt2082.kt")
         public void testKt2082() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/regression/kt2082.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/regression/kt2082.kt", this::doTest);
         }
 
         @TestMetadata("kt9345.kt")
         public void testKt9345() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/regression/kt9345.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/regression/kt9345.kt", this::doTest);
         }
 
         @TestMetadata("kt9820_javaFunctionTypeInheritor.kt")
         public void testKt9820_javaFunctionTypeInheritor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/regression/kt9820_javaFunctionTypeInheritor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/regression/kt9820_javaFunctionTypeInheritor.kt", this::doTest);
         }
     }
 
@@ -2549,26 +2205,22 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("arrayConstruction.kt")
         public void testArrayConstruction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/reified/arrayConstruction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/reified/arrayConstruction.kt", this::doTest);
         }
 
         @TestMetadata("arrayOfNullsReified.kt")
         public void testArrayOfNullsReified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/reified/arrayOfNullsReified.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/reified/arrayOfNullsReified.kt", this::doTest);
         }
 
         @TestMetadata("nonCallableReiefied.kt")
         public void testNonCallableReiefied() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/reified/nonCallableReiefied.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/reified/nonCallableReiefied.kt", this::doTest);
         }
 
         @TestMetadata("reifiedNothingSubstitution.kt")
         public void testReifiedNothingSubstitution() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/reified/reifiedNothingSubstitution.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/reified/reifiedNothingSubstitution.kt", this::doTest);
         }
     }
 
@@ -2582,80 +2234,67 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("hidesMembers.kt")
         public void testHidesMembers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/hidesMembers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/hidesMembers.kt", this::doTest);
         }
 
         @TestMetadata("hidesMembers2.kt")
         public void testHidesMembers2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/hidesMembers2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/hidesMembers2.kt", this::doTest);
         }
 
         @TestMetadata("javaPackageMembers.kt")
         public void testJavaPackageMembers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/javaPackageMembers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/javaPackageMembers.kt", this::doTest);
         }
 
         @TestMetadata("javaStaticMembers.kt")
         public void testJavaStaticMembers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/javaStaticMembers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/javaStaticMembers.kt", this::doTest);
         }
 
         @TestMetadata("kt10103.kt")
         public void testKt10103() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/kt10103.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/kt10103.kt", this::doTest);
         }
 
         @TestMetadata("kt10732a.kt")
         public void testKt10732a() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/kt10732a.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/kt10732a.kt", this::doTest);
         }
 
         @TestMetadata("kt4711.kt")
         public void testKt4711() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/kt4711.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/kt4711.kt", this::doTest);
         }
 
         @TestMetadata("samAgainstFunctionalType.kt")
         public void testSamAgainstFunctionalType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/samAgainstFunctionalType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/samAgainstFunctionalType.kt", this::doTest);
         }
 
         @TestMetadata("samConstructorVsFun.kt")
         public void testSamConstructorVsFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/samConstructorVsFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/samConstructorVsFun.kt", this::doTest);
         }
 
         @TestMetadata("samOverloadsWithGenerics.kt")
         public void testSamOverloadsWithGenerics() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/samOverloadsWithGenerics.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/samOverloadsWithGenerics.kt", this::doTest);
         }
 
         @TestMetadata("samOverloadsWithGenericsWithoutRefinedSams.kt")
         public void testSamOverloadsWithGenericsWithoutRefinedSams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/samOverloadsWithGenericsWithoutRefinedSams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/samOverloadsWithGenericsWithoutRefinedSams.kt", this::doTest);
         }
 
         @TestMetadata("samOverloadsWithKtFunction.kt")
         public void testSamOverloadsWithKtFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/samOverloadsWithKtFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/samOverloadsWithKtFunction.kt", this::doTest);
         }
 
         @TestMetadata("samOverloadsWithKtFunctionWithoutRefinedSams.kt")
         public void testSamOverloadsWithKtFunctionWithoutRefinedSams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/resolve/samOverloadsWithKtFunctionWithoutRefinedSams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/resolve/samOverloadsWithKtFunctionWithoutRefinedSams.kt", this::doTest);
         }
     }
 
@@ -2669,80 +2308,67 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("forEachSafe.kt")
         public void testForEachSafe() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/forEachSafe.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/forEachSafe.kt", this::doTest);
         }
 
         @TestMetadata("forEachUnsafe.kt")
         public void testForEachUnsafe() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/forEachUnsafe.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/forEachUnsafe.kt", this::doTest);
         }
 
         @TestMetadata("kt10463.kt")
         public void testKt10463() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/kt10463.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/kt10463.kt", this::doTest);
         }
 
         @TestMetadata("lazyDeclaresAndModifies.kt")
         public void testLazyDeclaresAndModifies() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/lazyDeclaresAndModifies.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/lazyDeclaresAndModifies.kt", this::doTest);
         }
 
         @TestMetadata("letAlwaysChangesToNotNull.kt")
         public void testLetAlwaysChangesToNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letAlwaysChangesToNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letAlwaysChangesToNotNull.kt", this::doTest);
         }
 
         @TestMetadata("letChangesToNotNull.kt")
         public void testLetChangesToNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letChangesToNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letChangesToNotNull.kt", this::doTest);
         }
 
         @TestMetadata("letChangesToNull.kt")
         public void testLetChangesToNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letChangesToNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letChangesToNull.kt", this::doTest);
         }
 
         @TestMetadata("letChangesToNullComplex.kt")
         public void testLetChangesToNullComplex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letChangesToNullComplex.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letChangesToNullComplex.kt", this::doTest);
         }
 
         @TestMetadata("letMergeNotNull.kt")
         public void testLetMergeNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letMergeNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letMergeNotNull.kt", this::doTest);
         }
 
         @TestMetadata("letStable.kt")
         public void testLetStable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letStable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letStable.kt", this::doTest);
         }
 
         @TestMetadata("letUsesOwnReceiver.kt")
         public void testLetUsesOwnReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letUsesOwnReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/letUsesOwnReceiver.kt", this::doTest);
         }
 
         @TestMetadata("listOfGeneric.kt")
         public void testListOfGeneric() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/listOfGeneric.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/listOfGeneric.kt", this::doTest);
         }
 
         @TestMetadata("withChangesToNull.kt")
         public void testWithChangesToNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/smartcasts/withChangesToNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/smartcasts/withChangesToNull.kt", this::doTest);
         }
     }
 
@@ -2756,8 +2382,7 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("noDefaultImportOfKotlinComparisons.kt")
         public void testNoDefaultImportOfKotlinComparisons() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/sourceCompatibility/noDefaultImportOfKotlinComparisons.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/sourceCompatibility/noDefaultImportOfKotlinComparisons.kt", this::doTest);
         }
     }
 
@@ -2771,14 +2396,12 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("blackListed.kt")
         public void testBlackListed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/targetedBuiltIns/blackListed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/targetedBuiltIns/blackListed.kt", this::doTest);
         }
 
         @TestMetadata("unsupportedFeature.kt")
         public void testUnsupportedFeature() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/targetedBuiltIns/unsupportedFeature.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/targetedBuiltIns/unsupportedFeature.kt", this::doTest);
         }
     }
 
@@ -2792,38 +2415,32 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("exceptionTypeAliases.kt")
         public void testExceptionTypeAliases() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/typealias/exceptionTypeAliases.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/typealias/exceptionTypeAliases.kt", this::doTest);
         }
 
         @TestMetadata("exceptionTypeAliasesInvisibleWithApiVersion1_0.kt")
         public void testExceptionTypeAliasesInvisibleWithApiVersion1_0() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/typealias/exceptionTypeAliasesInvisibleWithApiVersion1_0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/typealias/exceptionTypeAliasesInvisibleWithApiVersion1_0.kt", this::doTest);
         }
 
         @TestMetadata("exceptionTypeAliasesInvisibleWithoutFeature.kt")
         public void testExceptionTypeAliasesInvisibleWithoutFeature() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/typealias/exceptionTypeAliasesInvisibleWithoutFeature.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/typealias/exceptionTypeAliasesInvisibleWithoutFeature.kt", this::doTest);
         }
 
         @TestMetadata("hashMapTypeAlias.kt")
         public void testHashMapTypeAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/typealias/hashMapTypeAlias.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/typealias/hashMapTypeAlias.kt", this::doTest);
         }
 
         @TestMetadata("typeAliasSamAdapterConstructors.kt")
         public void testTypeAliasSamAdapterConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/typealias/typeAliasSamAdapterConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/typealias/typeAliasSamAdapterConstructors.kt", this::doTest);
         }
 
         @TestMetadata("typeAliasSamAdapterConstructors2.kt")
         public void testTypeAliasSamAdapterConstructors2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/typealias/typeAliasSamAdapterConstructors2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/typealias/typeAliasSamAdapterConstructors2.kt", this::doTest);
         }
     }
 
@@ -2837,20 +2454,17 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("kt3213.kt")
         public void testKt3213() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/varargs/kt3213.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/varargs/kt3213.kt", this::doTest);
         }
 
         @TestMetadata("kt4172j.kt")
         public void testKt4172j() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/varargs/kt4172j.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/varargs/kt4172j.kt", this::doTest);
         }
 
         @TestMetadata("kt5534.kt")
         public void testKt5534() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/varargs/kt5534.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/varargs/kt5534.kt", this::doTest);
         }
     }
 
@@ -2864,20 +2478,17 @@ public class DiagnosticsTestWithStdLibUsingJavacGenerated extends AbstractDiagno
 
         @TestMetadata("kt10192.kt")
         public void testKt10192() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/when/kt10192.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/when/kt10192.kt", this::doTest);
         }
 
         @TestMetadata("kt10807.kt")
         public void testKt10807() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/when/kt10807.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/when/kt10807.kt", this::doTest);
         }
 
         @TestMetadata("noTypeArgumentsInConstructor.kt")
         public void testNoTypeArgumentsInConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithStdLib/when/noTypeArgumentsInConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithStdLib/when/noTypeArgumentsInConstructor.kt", this::doTest);
         }
     }
 }

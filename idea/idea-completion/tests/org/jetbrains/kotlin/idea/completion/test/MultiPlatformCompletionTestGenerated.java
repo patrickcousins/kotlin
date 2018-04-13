@@ -27,25 +27,21 @@ public class MultiPlatformCompletionTestGenerated extends AbstractMultiPlatformC
 
     @TestMetadata("classInCommon")
     public void testClassInCommon() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/multiPlatform/classInCommon/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/multiPlatform/classInCommon/", this::doTest);
     }
 
     @TestMetadata("classInPlatform")
     public void testClassInPlatform() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/multiPlatform/classInPlatform/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/multiPlatform/classInPlatform/", this::doTest);
     }
 
     @TestMetadata("functionInCommon")
     public void testFunctionInCommon() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/multiPlatform/functionInCommon/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/multiPlatform/functionInCommon/", this::doTest);
     }
 
     @TestMetadata("functionInPlatform")
     public void testFunctionInPlatform() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/multiPlatform/functionInPlatform/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/multiPlatform/functionInPlatform/", this::doTest);
     }
 }

@@ -27,37 +27,31 @@ public class BlackBoxCodegenTestForNoArgGenerated extends AbstractBlackBoxCodege
 
     @TestMetadata("initializers.kt")
     public void testInitializers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/noarg/noarg-cli/testData/box/initializers.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/initializers.kt", this::doTest);
     }
 
     @TestMetadata("initializersWithoutInvokeInitializers.kt")
     public void testInitializersWithoutInvokeInitializers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/noarg/noarg-cli/testData/box/initializersWithoutInvokeInitializers.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/initializersWithoutInvokeInitializers.kt", this::doTest);
     }
 
     @TestMetadata("kt18245.kt")
     public void testKt18245() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/noarg/noarg-cli/testData/box/kt18245.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/kt18245.kt", this::doTest);
     }
 
     @TestMetadata("kt18667.kt")
     public void testKt18667() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/noarg/noarg-cli/testData/box/kt18667.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/kt18667.kt", this::doTest);
     }
 
     @TestMetadata("kt18668.kt")
     public void testKt18668() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/noarg/noarg-cli/testData/box/kt18668.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/kt18668.kt", this::doTest);
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/noarg/noarg-cli/testData/box/simple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/noarg/noarg-cli/testData/box/simple.kt", this::doTest);
     }
 }

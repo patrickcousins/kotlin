@@ -27,55 +27,46 @@ public class SamWithReceiverTestGenerated extends AbstractSamWithReceiverTest {
 
     @TestMetadata("noParameters.kt")
     public void testNoParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/noParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/noParameters.kt", this::doTest);
     }
 
     @TestMetadata("noReturnType.kt")
     public void testNoReturnType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/noReturnType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/noReturnType.kt", this::doTest);
     }
 
     @TestMetadata("samConversionNoParameters.kt")
     public void testSamConversionNoParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionNoParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionNoParameters.kt", this::doTest);
     }
 
     @TestMetadata("samConversionSimple.kt")
     public void testSamConversionSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionSimple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionSimple.kt", this::doTest);
     }
 
     @TestMetadata("samConversionSimpleWithoutAnnotation.kt")
     public void testSamConversionSimpleWithoutAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionSimpleWithoutAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samConversionSimpleWithoutAnnotation.kt", this::doTest);
     }
 
     @TestMetadata("samWithAnnotation.kt")
     public void testSamWithAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samWithAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samWithAnnotation.kt", this::doTest);
     }
 
     @TestMetadata("samWithoutAnnotation.kt")
     public void testSamWithoutAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samWithoutAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/samWithoutAnnotation.kt", this::doTest);
     }
 
     @TestMetadata("singleParameter.kt")
     public void testSingleParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/singleParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/singleParameter.kt", this::doTest);
     }
 
     @TestMetadata("singleParameterWithoutAnnotation.kt")
     public void testSingleParameterWithoutAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/singleParameterWithoutAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/sam-with-receiver/sam-with-receiver-cli/testData/diagnostics/singleParameterWithoutAnnotation.kt", this::doTest);
     }
 }

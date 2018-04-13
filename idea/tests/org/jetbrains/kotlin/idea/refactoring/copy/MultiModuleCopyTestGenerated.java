@@ -27,19 +27,16 @@ public class MultiModuleCopyTestGenerated extends AbstractMultiModuleCopyTest {
 
     @TestMetadata("fileNotUnderSourceRoot/fileNotUnderSourceRoot.test")
     public void testFileNotUnderSourceRoot_FileNotUnderSourceRoot() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/copyMultiModule/fileNotUnderSourceRoot/fileNotUnderSourceRoot.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/copyMultiModule/fileNotUnderSourceRoot/fileNotUnderSourceRoot.test", this::doTest);
     }
 
     @TestMetadata("internalReferencesToAnotherModule2/internalReferencesToAnotherModule.test")
     public void testInternalReferencesToAnotherModule2_InternalReferencesToAnotherModule() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/copyMultiModule/internalReferencesToAnotherModule2/internalReferencesToAnotherModule.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/copyMultiModule/internalReferencesToAnotherModule2/internalReferencesToAnotherModule.test", this::doTest);
     }
 
     @TestMetadata("referencesToUnrelatedModule/referencesToUnrelatedModule.test")
     public void testReferencesToUnrelatedModule_ReferencesToUnrelatedModule() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/copyMultiModule/referencesToUnrelatedModule/referencesToUnrelatedModule.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/copyMultiModule/referencesToUnrelatedModule/referencesToUnrelatedModule.test", this::doTest);
     }
 }

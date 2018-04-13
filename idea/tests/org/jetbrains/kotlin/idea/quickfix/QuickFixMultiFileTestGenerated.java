@@ -35,8 +35,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("withJava.before.Main.kt")
         public void testWithJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/withJava.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/withJava.before.Main.kt", this::doTestWithExtraFile);
         }
     }
 
@@ -50,8 +49,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("javaDefaultOverride.before.Main.kt")
         public void testJavaDefaultOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addJvmDefault/javaDefaultOverride.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addJvmDefault/javaDefaultOverride.before.Main.kt", this::doTestWithExtraFile);
         }
     }
 
@@ -74,608 +72,507 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("ambiguousNamePreferFromJdk.before.Main.kt")
         public void testAmbiguousNamePreferFromJdk() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/ambiguousNamePreferFromJdk.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/ambiguousNamePreferFromJdk.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("ambiguousNamePreferWithImportsFromPackage.before.Main.kt")
         public void testAmbiguousNamePreferWithImportsFromPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/ambiguousNamePreferWithImportsFromPackage.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/ambiguousNamePreferWithImportsFromPackage.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("callableReferenceExtension.before.Main.kt")
         public void testCallableReferenceExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/callableReferenceExtension.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/callableReferenceExtension.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("callableReferenceExtension2.before.Main.kt")
         public void testCallableReferenceExtension2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/callableReferenceExtension2.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/callableReferenceExtension2.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("callableReferenceTopLevel.before.Main.kt")
         public void testCallableReferenceTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/callableReferenceTopLevel.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/callableReferenceTopLevel.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("classImport.before.Main.kt")
         public void testClassImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/classImport.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/classImport.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("constructorParameterAnnotation.test")
         public void testConstructorParameterAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/constructorParameterAnnotation.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/constructorParameterAnnotation.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("constructorReference.before.Main.kt")
         public void testConstructorReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/constructorReference.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/constructorReference.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("delegateExtensionBoth.test")
         public void testDelegateExtensionBoth() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/delegateExtensionBoth.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/delegateExtensionBoth.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("delegateExtensionGet.test")
         public void testDelegateExtensionGet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/delegateExtensionGet.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/delegateExtensionGet.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("delegateExtensionSet.test")
         public void testDelegateExtensionSet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/delegateExtensionSet.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/delegateExtensionSet.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("delegateNoOperator.test")
         public void testDelegateNoOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/delegateNoOperator.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/delegateNoOperator.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("divOperator.before.Main.kt")
         public void testDivOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/divOperator.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/divOperator.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("dslMarkers.before.Main.kt")
         public void testDslMarkers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/dslMarkers.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/dslMarkers.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("extensionFunctionImport.before.Main.kt")
         public void testExtensionFunctionImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/extensionFunctionImport.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/extensionFunctionImport.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("extensionFunctionImportImplicitReceiver.before.Main.kt")
         public void testExtensionFunctionImportImplicitReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/extensionFunctionImportImplicitReceiver.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/extensionFunctionImportImplicitReceiver.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("extensionPropertyImport.before.Main.kt")
         public void testExtensionPropertyImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/extensionPropertyImport.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/extensionPropertyImport.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("extensionPropertyOnTypeAliasFromExpansion.before.Main.kt")
         public void testExtensionPropertyOnTypeAliasFromExpansion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/extensionPropertyOnTypeAliasFromExpansion.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/extensionPropertyOnTypeAliasFromExpansion.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("extensionPropertyOnTypeAliasFromOtherTypeAlias.before.Main.kt")
         public void testExtensionPropertyOnTypeAliasFromOtherTypeAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/extensionPropertyOnTypeAliasFromOtherTypeAlias.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/extensionPropertyOnTypeAliasFromOtherTypeAlias.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("factoryFunctionFromLambda.before.Main.kt")
         public void testFactoryFunctionFromLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/factoryFunctionFromLambda.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/factoryFunctionFromLambda.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("falsePostfixOperator.before.Main.kt")
         public void testFalsePostfixOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/falsePostfixOperator.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/falsePostfixOperator.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("functionImport.before.Main.kt")
         public void testFunctionImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/functionImport.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/functionImport.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importInFirstPartInQualifiedExpression.before.Main.kt")
         public void testImportInFirstPartInQualifiedExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importInFirstPartInQualifiedExpression.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importInFirstPartInQualifiedExpression.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importInFirstPartInUserType.test")
         public void testImportInFirstPartInUserType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importInFirstPartInUserType.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importInFirstPartInUserType.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinCompanionPropertyAsFieldFromJava.test")
         public void testImportKotlinCompanionPropertyAsFieldFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinCompanionPropertyAsFieldFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinCompanionPropertyAsFieldFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinCompanionStaticFunctionFromJava.test")
         public void testImportKotlinCompanionStaticFunctionFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinCompanionStaticFunctionFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinCompanionStaticFunctionFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinCompanionStaticPropertyDefaultGetterFromJava.test")
         public void testImportKotlinCompanionStaticPropertyDefaultGetterFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinCompanionStaticPropertyDefaultGetterFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinCompanionStaticPropertyDefaultGetterFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinCompanionStaticPropertyDefaultSetterFromJava.test")
         public void testImportKotlinCompanionStaticPropertyDefaultSetterFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinCompanionStaticPropertyDefaultSetterFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinCompanionStaticPropertyDefaultSetterFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinCompanionStaticPropertyOverloadedGetterFromJava.test")
         public void testImportKotlinCompanionStaticPropertyOverloadedGetterFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinCompanionStaticPropertyOverloadedGetterFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinCompanionStaticPropertyOverloadedGetterFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinCompanionStaticPropertyOverloadedSetterFromJava.test")
         public void testImportKotlinCompanionStaticPropertyOverloadedSetterFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinCompanionStaticPropertyOverloadedSetterFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinCompanionStaticPropertyOverloadedSetterFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinPropertyAsFieldFromJava.test")
         public void testImportKotlinPropertyAsFieldFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinPropertyAsFieldFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinPropertyAsFieldFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinStaticFunctionFromJava.test")
         public void testImportKotlinStaticFunctionFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinStaticFunctionFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinStaticFunctionFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinStaticPropertyDefaultGetterFromJava.test")
         public void testImportKotlinStaticPropertyDefaultGetterFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinStaticPropertyDefaultGetterFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinStaticPropertyDefaultGetterFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinStaticPropertyDefaultSetterFromJava.test")
         public void testImportKotlinStaticPropertyDefaultSetterFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinStaticPropertyDefaultSetterFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinStaticPropertyDefaultSetterFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinStaticPropertyOverloadedGetterFromJava.test")
         public void testImportKotlinStaticPropertyOverloadedGetterFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinStaticPropertyOverloadedGetterFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinStaticPropertyOverloadedGetterFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importKotlinStaticPropertyOverloadedSetterFromJava.test")
         public void testImportKotlinStaticPropertyOverloadedSetterFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importKotlinStaticPropertyOverloadedSetterFromJava.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importKotlinStaticPropertyOverloadedSetterFromJava.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("importTrait.before.Main.kt")
         public void testImportTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/importTrait.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/importTrait.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("indexCallExtensionGet.test")
         public void testIndexCallExtensionGet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/indexCallExtensionGet.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/indexCallExtensionGet.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("indexCallExtensionGetNoOperator.test")
         public void testIndexCallExtensionGetNoOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/indexCallExtensionGetNoOperator.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/indexCallExtensionGetNoOperator.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("indexCallExtensionImportGetOnNoOperatorWarning.test")
         public void testIndexCallExtensionImportGetOnNoOperatorWarning() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/indexCallExtensionImportGetOnNoOperatorWarning.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/indexCallExtensionImportGetOnNoOperatorWarning.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("indexCallExtensionImportSetOnNoOperatorWarning.test")
         public void testIndexCallExtensionImportSetOnNoOperatorWarning() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/indexCallExtensionImportSetOnNoOperatorWarning.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/indexCallExtensionImportSetOnNoOperatorWarning.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("indexCallExtensionSet.test")
         public void testIndexCallExtensionSet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/indexCallExtensionSet.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/indexCallExtensionSet.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("indexCallNoImportWhenGetNeededButSetAvailable.test")
         public void testIndexCallNoImportWhenGetNeededButSetAvailable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/indexCallNoImportWhenGetNeededButSetAvailable.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/indexCallNoImportWhenGetNeededButSetAvailable.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("indexCallNoImportWhenSetNeededButGetAvailable.test")
         public void testIndexCallNoImportWhenSetNeededButGetAvailable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/indexCallNoImportWhenSetNeededButGetAvailable.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/indexCallNoImportWhenSetNeededButGetAvailable.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("infixCall.before.Main.kt")
         public void testInfixCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/infixCall.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/infixCall.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("infixCall2.before.Main.kt")
         public void testInfixCall2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/infixCall2.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/infixCall2.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("invokeExtension.test")
         public void testInvokeExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/invokeExtension.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/invokeExtension.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("invokeExtensionNoOperator.test")
         public void testInvokeExtensionNoOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/invokeExtensionNoOperator.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/invokeExtensionNoOperator.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberImportFunction.test")
         public void testMemberImportFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberImportFunction.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberImportFunction.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberImportJavaField.test")
         public void testMemberImportJavaField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberImportJavaField.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberImportJavaField.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberImportJavaMethod.test")
         public void testMemberImportJavaMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberImportJavaMethod.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberImportJavaMethod.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberImportNotForClassFunction.test")
         public void testMemberImportNotForClassFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberImportNotForClassFunction.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberImportNotForClassFunction.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberImportNotForClassProperty.test")
         public void testMemberImportNotForClassProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberImportNotForClassProperty.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberImportNotForClassProperty.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberImportNotForJavaNonStaticField.test")
         public void testMemberImportNotForJavaNonStaticField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberImportNotForJavaNonStaticField.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberImportNotForJavaNonStaticField.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberImportNotForJavaNonStaticMethod.test")
         public void testMemberImportNotForJavaNonStaticMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberImportNotForJavaNonStaticMethod.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberImportNotForJavaNonStaticMethod.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberImportNotForTopLevelFunction.test")
         public void testMemberImportNotForTopLevelFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberImportNotForTopLevelFunction.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberImportNotForTopLevelFunction.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberImportProperty.test")
         public void testMemberImportProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberImportProperty.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberImportProperty.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("memberWithTopLevelConflict.before.Main.kt")
         public void testMemberWithTopLevelConflict() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/memberWithTopLevelConflict.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/memberWithTopLevelConflict.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("minusOperator.before.Main.kt")
         public void testMinusOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/minusOperator.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/minusOperator.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("multiDeclarationExtensionAllComponents.test")
         public void testMultiDeclarationExtensionAllComponents() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/multiDeclarationExtensionAllComponents.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/multiDeclarationExtensionAllComponents.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("multiDeclarationExtensionAllComponentsMany.test")
         public void testMultiDeclarationExtensionAllComponentsMany() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/multiDeclarationExtensionAllComponentsMany.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/multiDeclarationExtensionAllComponentsMany.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("multiDeclarationExtensionAllComponentsPrefereFull.test")
         public void testMultiDeclarationExtensionAllComponentsPrefereFull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/multiDeclarationExtensionAllComponentsPrefereFull.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/multiDeclarationExtensionAllComponentsPrefereFull.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("multiDeclarationExtensionAllComponentsPrefereNotDeprecated.test")
         public void testMultiDeclarationExtensionAllComponentsPrefereNotDeprecated() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/multiDeclarationExtensionAllComponentsPrefereNotDeprecated.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/multiDeclarationExtensionAllComponentsPrefereNotDeprecated.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("multiDeclarationExtensionComponent1.test")
         public void testMultiDeclarationExtensionComponent1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/multiDeclarationExtensionComponent1.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/multiDeclarationExtensionComponent1.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("multiDeclarationExtensionComponent2.test")
         public void testMultiDeclarationExtensionComponent2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/multiDeclarationExtensionComponent2.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/multiDeclarationExtensionComponent2.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("multiDeclarationExtensionComponentNoOperator.test")
         public void testMultiDeclarationExtensionComponentNoOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/multiDeclarationExtensionComponentNoOperator.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/multiDeclarationExtensionComponentNoOperator.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("nestedClass.before.Main.kt")
         public void testNestedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/nestedClass.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/nestedClass.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noFunctionImportOnSimpleName.test")
         public void testNoFunctionImportOnSimpleName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noFunctionImportOnSimpleName.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noFunctionImportOnSimpleName.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportForFunInQualifiedNotFirst.before.Main.kt")
         public void testNoImportForFunInQualifiedNotFirst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportForFunInQualifiedNotFirst.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportForFunInQualifiedNotFirst.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportForNestedInPrivate.before.Main.kt")
         public void testNoImportForNestedInPrivate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportForNestedInPrivate.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportForNestedInPrivate.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportForPrivateClass.before.Main.kt")
         public void testNoImportForPrivateClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportForPrivateClass.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportForPrivateClass.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportInImports.before.Main.kt")
         public void testNoImportInImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportInImports.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportInImports.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportInQualifiedExpressionNotFirst.before.Main.kt")
         public void testNoImportInQualifiedExpressionNotFirst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportInQualifiedExpressionNotFirst.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportInQualifiedExpressionNotFirst.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportInQualifiedUserTypeNotFirst.before.Main.kt")
         public void testNoImportInQualifiedUserTypeNotFirst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportInQualifiedUserTypeNotFirst.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportInQualifiedUserTypeNotFirst.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportInSafeQualifiedExpressionNotFirst.before.Main.kt")
         public void testNoImportInSafeQualifiedExpressionNotFirst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportInSafeQualifiedExpressionNotFirst.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportInSafeQualifiedExpressionNotFirst.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportInterfaceRefAsConstructor.before.Main.kt")
         public void testNoImportInterfaceRefAsConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportInterfaceRefAsConstructor.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportInterfaceRefAsConstructor.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportsForClassInExcludedPackage.before.Main.kt")
         public void testNoImportsForClassInExcludedPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportsForClassInExcludedPackage.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportsForClassInExcludedPackage.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportsForExcludedClass.before.Main.kt")
         public void testNoImportsForExcludedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportsForExcludedClass.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportsForExcludedClass.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noImportsForFunctionInExcludedPackage.before.Main.kt")
         public void testNoImportsForFunctionInExcludedPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportsForFunctionInExcludedPackage.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportsForFunctionInExcludedPackage.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noMemberFunctionImportOnSimpleName.test")
         public void testNoMemberFunctionImportOnSimpleName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noMemberFunctionImportOnSimpleName.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noMemberFunctionImportOnSimpleName.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("noneApplicableFromInstanceButExtension.before.Main.kt")
         public void testNoneApplicableFromInstanceButExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noneApplicableFromInstanceButExtension.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noneApplicableFromInstanceButExtension.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("notExcludedClass.before.Main.kt")
         public void testNotExcludedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/notExcludedClass.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/notExcludedClass.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("objectImport.before.Main.kt")
         public void testObjectImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/objectImport.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/objectImport.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("objectMemberFunctionImportWhenReceiverPresent.before.Main.kt")
         public void testObjectMemberFunctionImportWhenReceiverPresent() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/objectMemberFunctionImportWhenReceiverPresent.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/objectMemberFunctionImportWhenReceiverPresent.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("operatorAssignPlus.test")
         public void testOperatorAssignPlus() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/operatorAssignPlus.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/operatorAssignPlus.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("operatorAssignPlusAssign.test")
         public void testOperatorAssignPlusAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/operatorAssignPlusAssign.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/operatorAssignPlusAssign.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("operatorAssignPlusTwoVariantsDifferentPackages.test")
         public void testOperatorAssignPlusTwoVariantsDifferentPackages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/operatorAssignPlusTwoVariantsDifferentPackages.test");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/operatorAssignPlusTwoVariantsDifferentPackages.test", this::doTestWithExtraFile);
         }
 
         @TestMetadata("packageClass.before.Main.kt")
         public void testPackageClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/packageClass.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/packageClass.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("plusOperator.before.Main.kt")
         public void testPlusOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/plusOperator.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/plusOperator.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("plusOperatorWithTypeMismatch.before.Main.kt")
         public void testPlusOperatorWithTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/plusOperatorWithTypeMismatch.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/plusOperatorWithTypeMismatch.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("postfixOperator.before.Main.kt")
         public void testPostfixOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/postfixOperator.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/postfixOperator.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("propertyImport.before.Main.kt")
         public void testPropertyImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/propertyImport.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/propertyImport.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("sameModuleImportPriority.before.Main.kt")
         public void testSameModuleImportPriority() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/sameModuleImportPriority.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/sameModuleImportPriority.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("timesAssign.before.Main.kt")
         public void testTimesAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/timesAssign.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/timesAssign.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("typeAliasExtensionFunction.before.Main.kt")
         public void testTypeAliasExtensionFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/typeAliasExtensionFunction.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/typeAliasExtensionFunction.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("typeAliasExtensionFunctionInTypeAliasChain.before.Main.kt")
         public void testTypeAliasExtensionFunctionInTypeAliasChain() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/typeAliasExtensionFunctionInTypeAliasChain.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/typeAliasExtensionFunctionInTypeAliasChain.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("typeAliasExtensionProperty.before.Main.kt")
         public void testTypeAliasExtensionProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/typeAliasExtensionProperty.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/typeAliasExtensionProperty.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("typeAliasImport.before.Main.kt")
         public void testTypeAliasImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/typeAliasImport.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/typeAliasImport.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("unaryMinusOperator.before.Main.kt")
         public void testUnaryMinusOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/unaryMinusOperator.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/unaryMinusOperator.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("unaryPlusOperator.before.Main.kt")
         public void testUnaryPlusOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/unaryPlusOperator.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/unaryPlusOperator.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("withSmartCastQualifier.before.Main.kt")
         public void testWithSmartCastQualifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/withSmartCastQualifier.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/withSmartCastQualifier.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("idea/testData/quickfix/autoImports/mismatchingArgs")
@@ -688,86 +585,72 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("checkArgumentTypes.test")
             public void testCheckArgumentTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/checkArgumentTypes.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/checkArgumentTypes.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("constantExpectedTypeMismatch.test")
             public void testConstantExpectedTypeMismatch() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/constantExpectedTypeMismatch.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/constantExpectedTypeMismatch.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("expectedTypeRequired.test")
             public void testExpectedTypeRequired() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/expectedTypeRequired.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/expectedTypeRequired.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("extensionExplicitReceiver.test")
             public void testExtensionExplicitReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/extensionExplicitReceiver.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/extensionExplicitReceiver.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("extensionImplicitReceiver.test")
             public void testExtensionImplicitReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/extensionImplicitReceiver.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/extensionImplicitReceiver.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("extensionWrongReceiver.test")
             public void testExtensionWrongReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/extensionWrongReceiver.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/extensionWrongReceiver.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("ignoreErrorsOutsideCall.test")
             public void testIgnoreErrorsOutsideCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/ignoreErrorsOutsideCall.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/ignoreErrorsOutsideCall.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("lambdaArgument.test")
             public void testLambdaArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/lambdaArgument.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/lambdaArgument.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("namedArgument.test")
             public void testNamedArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/namedArgument.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/namedArgument.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("notForIncompleteCall.test")
             public void testNotForIncompleteCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/notForIncompleteCall.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/notForIncompleteCall.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("smartCast.test")
             public void testSmartCast() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/smartCast.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/smartCast.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("topLevelFun.test")
             public void testTopLevelFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/topLevelFun.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/topLevelFun.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("topLevelFun_notWithReceiver.test")
             public void testTopLevelFun_notWithReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/topLevelFun_notWithReceiver.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/topLevelFun_notWithReceiver.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("typeMismatch.test")
             public void testTypeMismatch() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/mismatchingArgs/typeMismatch.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/mismatchingArgs/typeMismatch.test", this::doTestWithExtraFile);
             }
         }
     }
@@ -778,14 +661,12 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
     public static class ChangeSignature extends AbstractQuickFixMultiFileTest {
         @TestMetadata("addJavaMethodParameter.before.Main.kt")
         public void testAddJavaMethodParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addJavaMethodParameter.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addJavaMethodParameter.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("addParameterWithImport.before.Main.kt")
         public void testAddParameterWithImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addParameterWithImport.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addParameterWithImport.before.Main.kt", this::doTestWithExtraFile);
         }
 
         public void testAllFilesPresentInChangeSignature() throws Exception {
@@ -794,14 +675,12 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("matchFunctionLiteralWithSAMType.before.Main.kt")
         public void testMatchFunctionLiteralWithSAMType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/matchFunctionLiteralWithSAMType.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/matchFunctionLiteralWithSAMType.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("removeJavaMethodParameter.before.Main.kt")
         public void testRemoveJavaMethodParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeJavaMethodParameter.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeJavaMethodParameter.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("idea/testData/quickfix/changeSignature/jk")
@@ -814,80 +693,67 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("jkAddFunctionParameter.before.Main.java")
             public void testJkAddFunctionParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkAddFunctionParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkAddFunctionParameter.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkAddImplicitPrimaryConstructorParameter.before.Main.java")
             public void testJkAddImplicitPrimaryConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkAddImplicitPrimaryConstructorParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkAddImplicitPrimaryConstructorParameter.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkAddPrimaryConstructorParameter.before.Main.java")
             public void testJkAddPrimaryConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkAddPrimaryConstructorParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkAddPrimaryConstructorParameter.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkAddSecondaryConstructorParameter.before.Main.java")
             public void testJkAddSecondaryConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkAddSecondaryConstructorParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkAddSecondaryConstructorParameter.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkChangeFunctionParameter.before.Main.java")
             public void testJkChangeFunctionParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkChangeFunctionParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkChangeFunctionParameter.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkChangePrimaryConstructorParameter.before.Main.java")
             public void testJkChangePrimaryConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkChangePrimaryConstructorParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkChangePrimaryConstructorParameter.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkChangeSecondaryConstructorParameter.before.Main.java")
             public void testJkChangeSecondaryConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkChangeSecondaryConstructorParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkChangeSecondaryConstructorParameter.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkKeepValOnAddingParameter1.before.Main.java")
             public void testJkKeepValOnAddingParameter1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkKeepValOnAddingParameter1.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkKeepValOnAddingParameter1.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkKeepValOnAddingParameter2.before.Main.java")
             public void testJkKeepValOnAddingParameter2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkKeepValOnAddingParameter2.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkKeepValOnAddingParameter2.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkKeepValOnParameterTypeChange.before.Main.java")
             public void testJkKeepValOnParameterTypeChange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkKeepValOnParameterTypeChange.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkKeepValOnParameterTypeChange.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkRemoveFunctionParameter.before.Main.java")
             public void testJkRemoveFunctionParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkRemoveFunctionParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkRemoveFunctionParameter.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkRemovePrimaryConstructorParameter.before.Main.java")
             public void testJkRemovePrimaryConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkRemovePrimaryConstructorParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkRemovePrimaryConstructorParameter.before.Main.java", this::doTestWithExtraFile);
             }
 
             @TestMetadata("jkRemoveSecondaryConstructorParameter.before.Main.java")
             public void testJkRemoveSecondaryConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/jk/jkRemoveSecondaryConstructorParameter.before.Main.java");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/jk/jkRemoveSecondaryConstructorParameter.before.Main.java", this::doTestWithExtraFile);
             }
         }
     }
@@ -911,8 +777,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("kotlinInheritor.before.Main.java")
         public void testKotlinInheritor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/convertJavaInterfaceToClass/kotlinInheritor.before.Main.java");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/convertJavaInterfaceToClass/kotlinInheritor.before.Main.java", this::doTestWithExtraFile);
         }
     }
 
@@ -942,20 +807,17 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("nestedGroovyAnnotation.before.Main.kt")
                 public void testNestedGroovyAnnotation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/nestedGroovyAnnotation.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/nestedGroovyAnnotation.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("nestedJavaAnnotation.before.Main.kt")
                 public void testNestedJavaAnnotation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/nestedJavaAnnotation.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/nestedJavaAnnotation.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("nestedJavaAnnotationWithNamedArgs.before.Main.kt")
                 public void testNestedJavaAnnotationWithNamedArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/nestedJavaAnnotationWithNamedArgs.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/nestedJavaAnnotationWithNamedArgs.before.Main.kt", this::doTestWithExtraFile);
                 }
             }
 
@@ -969,68 +831,57 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("callInAnnotationEntryWithJavaQualifier.before.Main.kt")
                 public void testCallInAnnotationEntryWithJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInAnnotationEntryWithJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInAnnotationEntryWithJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithExplicitParamNamesAndJavaQualifier.before.Main.kt")
                 public void testCallWithExplicitParamNamesAndJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithExplicitParamNamesAndJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithExplicitParamNamesAndJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithFinalJavaSupertype.before.Main.kt")
                 public void testCallWithFinalJavaSupertype() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithFinalJavaSupertype.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithFinalJavaSupertype.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithGenericJavaReceiver.before.Main.kt")
                 public void testCallWithGenericJavaReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithGenericJavaReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithGenericJavaReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithGroovyClassQualifier.before.Main.kt")
                 public void testCallWithGroovyClassQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithGroovyClassQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithGroovyClassQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithJavaClassQualifier.before.Main.kt")
                 public void testCallWithJavaClassQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithJavaClassQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithJavaClassQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithJavaClassReceiver.before.Main.kt")
                 public void testCallWithJavaClassReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithJavaClassReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithJavaClassReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithJavaQualifierInMemberValDelegate.before.Main.kt")
                 public void testCallWithJavaQualifierInMemberValDelegate() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithJavaQualifierInMemberValDelegate.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithJavaQualifierInMemberValDelegate.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithSuperclassAndJavaReceiverNoConstructorParams.before.Main.kt")
                 public void testCallWithSuperclassAndJavaReceiverNoConstructorParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSuperclassAndJavaReceiverNoConstructorParams.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSuperclassAndJavaReceiverNoConstructorParams.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithSuperclassConstructorParamsAndJavaReceiver.before.Main.kt")
                 public void testCallWithSuperclassConstructorParamsAndJavaReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSuperclassConstructorParamsAndJavaReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSuperclassConstructorParamsAndJavaReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("callWithSupertraitAndJavaReceiver.before.Main.kt")
                 public void testCallWithSupertraitAndJavaReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSupertraitAndJavaReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSupertraitAndJavaReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments")
@@ -1043,32 +894,27 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                     @TestMetadata("javaClassMember.before.Main.kt")
                     public void testJavaClassMember() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMember.before.Main.kt");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMember.before.Main.kt", this::doTestWithExtraFile);
                     }
 
                     @TestMetadata("javaClassMemberInner.before.Main.kt")
                     public void testJavaClassMemberInner() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMemberInner.before.Main.kt");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMemberInner.before.Main.kt", this::doTestWithExtraFile);
                     }
 
                     @TestMetadata("javaClassMemberInnerPartialSubstitution.before.Main.kt")
                     public void testJavaClassMemberInnerPartialSubstitution() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMemberInnerPartialSubstitution.before.Main.kt");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMemberInnerPartialSubstitution.before.Main.kt", this::doTestWithExtraFile);
                     }
 
                     @TestMetadata("javaClassMemberInnerWithReceiverArg.before.Main.kt")
                     public void testJavaClassMemberInnerWithReceiverArg() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMemberInnerWithReceiverArg.before.Main.kt");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMemberInnerWithReceiverArg.before.Main.kt", this::doTestWithExtraFile);
                     }
 
                     @TestMetadata("javaClassMemberPartialSubstitution.before.Main.kt")
                     public void testJavaClassMemberPartialSubstitution() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMemberPartialSubstitution.before.Main.kt");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/javaClassMemberPartialSubstitution.before.Main.kt", this::doTestWithExtraFile);
                     }
                 }
             }
@@ -1083,26 +929,22 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("delegatorToNestedJavaSupercall.before.Main.kt")
                 public void testDelegatorToNestedJavaSupercall() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToNestedJavaSupercall.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToNestedJavaSupercall.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("delegatorToNestedJavaSupercallWithParamNames.before.Main.kt")
                 public void testDelegatorToNestedJavaSupercallWithParamNames() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToNestedJavaSupercallWithParamNames.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToNestedJavaSupercallWithParamNames.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("traitDelegatorToNestedGroovySuperclass.before.Main.kt")
                 public void testTraitDelegatorToNestedGroovySuperclass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/traitDelegatorToNestedGroovySuperclass.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/traitDelegatorToNestedGroovySuperclass.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("traitDelegatorToNestedJavaSuperclass.before.Main.kt")
                 public void testTraitDelegatorToNestedJavaSuperclass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/traitDelegatorToNestedJavaSuperclass.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/traitDelegatorToNestedJavaSuperclass.before.Main.kt", this::doTestWithExtraFile);
                 }
             }
 
@@ -1116,44 +958,37 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("annotationWithJavaQualifier.before.Main.kt")
                 public void testAnnotationWithJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/annotationWithJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/annotationWithJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("classWithGroovyQualifier.before.Main.kt")
                 public void testClassWithGroovyQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/classWithGroovyQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/classWithGroovyQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("classWithJavaQualifier.before.Main.kt")
                 public void testClassWithJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/classWithJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/classWithJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("enumEntryInJavaEnum.before.Main.kt")
                 public void testEnumEntryInJavaEnum() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumEntryInJavaEnum.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumEntryInJavaEnum.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("enumWithJavaQualifier.before.Main.kt")
                 public void testEnumWithJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumWithJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumWithJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("objectWithJavaQualifier.before.Main.kt")
                 public void testObjectWithJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/objectWithJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/objectWithJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("traitWithJavaQualifier.before.Main.kt")
                 public void testTraitWithJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/traitWithJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/traitWithJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
             }
 
@@ -1167,56 +1002,47 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("classByNestedGroovyQualifier.before.Main.kt")
                 public void testClassByNestedGroovyQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByNestedGroovyQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByNestedGroovyQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("classByNestedJavaQualifier.before.Main.kt")
                 public void testClassByNestedJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByNestedJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByNestedJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("enumByNestedJavaQualifier.before.Main.kt")
                 public void testEnumByNestedJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumByNestedJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumByNestedJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("enumEntryWithJavaEnumQualifier.before.Main.kt")
                 public void testEnumEntryWithJavaEnumQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithJavaEnumQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithJavaEnumQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("enumEntryWithJavaEnumSuperclass.before.Main.kt")
                 public void testEnumEntryWithJavaEnumSuperclass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithJavaEnumSuperclass.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithJavaEnumSuperclass.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("enumEntryWithJavaNonEnumQualifier.before.Main.kt")
                 public void testEnumEntryWithJavaNonEnumQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithJavaNonEnumQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithJavaNonEnumQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("enumEntryWithJavaNonEnumSuperclass.before.Main.kt")
                 public void testEnumEntryWithJavaNonEnumSuperclass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithJavaNonEnumSuperclass.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithJavaNonEnumSuperclass.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("objectWithJavaQualifier.before.Main.kt")
                 public void testObjectWithJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("traitByNestedJavaQualifier.before.Main.kt")
                 public void testTraitByNestedJavaQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/traitByNestedJavaQualifier.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/traitByNestedJavaQualifier.before.Main.kt", this::doTestWithExtraFile);
                 }
             }
 
@@ -1230,38 +1056,32 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("annotationJavaTypeReceiver.before.Main.kt")
                 public void testAnnotationJavaTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/annotationJavaTypeReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/annotationJavaTypeReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("classGroovyTypeReceiver.before.Main.kt")
                 public void testClassGroovyTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classGroovyTypeReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classGroovyTypeReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("classJavaTypeReceiver.before.Main.kt")
                 public void testClassJavaTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classJavaTypeReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classJavaTypeReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("enumEntryJavaEnumReceiver.before.Main.kt")
                 public void testEnumEntryJavaEnumReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumEntryJavaEnumReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumEntryJavaEnumReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("enumJavaTypeReceiver.before.Main.kt")
                 public void testEnumJavaTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumJavaTypeReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumJavaTypeReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("traitJavaTypeReceiver.before.Main.kt")
                 public void testTraitJavaTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/traitJavaTypeReceiver.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/traitJavaTypeReceiver.before.Main.kt", this::doTestWithExtraFile);
                 }
             }
         }
@@ -1284,62 +1104,52 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("extensionFunOnGroovyType.before.Main.kt")
                 public void testExtensionFunOnGroovyType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionFunOnGroovyType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionFunOnGroovyType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("extensionFunOnJavaType.before.Main.kt")
                 public void testExtensionFunOnJavaType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionFunOnJavaType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionFunOnJavaType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("extensionFunOnTypeFromAnotherPackage.before.Main.kt")
                 public void testExtensionFunOnTypeFromAnotherPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionFunOnTypeFromAnotherPackage.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionFunOnTypeFromAnotherPackage.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("funOnGroovyType.before.Main.kt")
                 public void testFunOnGroovyType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnGroovyType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnGroovyType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("funOnJavaInterface.before.Main.kt")
                 public void testFunOnJavaInterface() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnJavaInterface.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnJavaInterface.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("funOnJavaType.before.Main.kt")
                 public void testFunOnJavaType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnJavaType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnJavaType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("genericFunOnJavaType.before.Main.kt")
                 public void testGenericFunOnJavaType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/genericFunOnJavaType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/genericFunOnJavaType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("staticExtensionFunOnJavaClass.before.Main.kt")
                 public void testStaticExtensionFunOnJavaClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/staticExtensionFunOnJavaClass.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/staticExtensionFunOnJavaClass.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("staticFunOnJavaClass.before.Main.kt")
                 public void testStaticFunOnJavaClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/staticFunOnJavaClass.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/staticFunOnJavaClass.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("staticFunOnJavaInterface.before.Main.kt")
                 public void testStaticFunOnJavaInterface() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/staticFunOnJavaInterface.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/staticFunOnJavaInterface.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments")
@@ -1352,20 +1162,17 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                     @TestMetadata("javaClassMember.before.Main.kt")
                     public void testJavaClassMember() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/javaClassMember.before.Main.kt");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/javaClassMember.before.Main.kt", this::doTestWithExtraFile);
                     }
 
                     @TestMetadata("javaClassMemberPartialSubstitution.before.Main.kt")
                     public void testJavaClassMemberPartialSubstitution() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/javaClassMemberPartialSubstitution.before.Main.kt");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/javaClassMemberPartialSubstitution.before.Main.kt", this::doTestWithExtraFile);
                     }
 
                     @TestMetadata("javaClassMemberWithReceiverArg.before.Main.kt")
                     public void testJavaClassMemberWithReceiverArg() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/javaClassMemberWithReceiverArg.before.Main.kt");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/javaClassMemberWithReceiverArg.before.Main.kt", this::doTestWithExtraFile);
                     }
                 }
             }
@@ -1380,20 +1187,17 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("classMember.before.Main.java")
                 public void testClassMember() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/fromJava/classMember.before.Main.java");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/fromJava/classMember.before.Main.java", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("companionMember.before.Main.java")
                 public void testCompanionMember() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/fromJava/companionMember.before.Main.java");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/fromJava/companionMember.before.Main.java", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("topLevel.before.Main.java")
                 public void testTopLevel() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/fromJava/topLevel.before.Main.java");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/fromJava/topLevel.before.Main.java", this::doTestWithExtraFile);
                 }
             }
         }
@@ -1408,26 +1212,22 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("delegatorToSuperCallJavaClass.before.Main.kt")
             public void testDelegatorToSuperCallJavaClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/delegatorToSuperCallJavaClass.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/delegatorToSuperCallJavaClass.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("groovyConstructor.before.Main.kt")
             public void testGroovyConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/groovyConstructor.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/groovyConstructor.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("javaConstructor.before.Main.kt")
             public void testJavaConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/javaConstructor.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/javaConstructor.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("superCallJavaClass.before.Main.kt")
             public void testSuperCallJavaClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/superCallJavaClass.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/superCallJavaClass.before.Main.kt", this::doTestWithExtraFile);
             }
         }
 
@@ -1449,8 +1249,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("javaUserTypeReceiver.test")
                 public void testJavaUserTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/javaUserTypeReceiver.test");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/javaUserTypeReceiver.test", this::doTestWithExtraFile);
                 }
             }
         }
@@ -1482,8 +1281,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("platformType.before.Main.kt")
                 public void testPlatformType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/platformType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/platformType.before.Main.kt", this::doTestWithExtraFile);
                 }
             }
 
@@ -1497,14 +1295,12 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("staticValOnJavaClass.before.Main.kt")
                 public void testStaticValOnJavaClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/staticValOnJavaClass.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/staticValOnJavaClass.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("valOnJavaType.before.Main.kt")
                 public void testValOnJavaType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/valOnJavaType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/valOnJavaType.before.Main.kt", this::doTestWithExtraFile);
                 }
             }
 
@@ -1518,68 +1314,57 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("extensionPropertyOnTypeFromAnotherPackage.before.Main.kt")
                 public void testExtensionPropertyOnTypeFromAnotherPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/extensionPropertyOnTypeFromAnotherPackage.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/extensionPropertyOnTypeFromAnotherPackage.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("extensionValOnGroovyType.before.Main.kt")
                 public void testExtensionValOnGroovyType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/extensionValOnGroovyType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/extensionValOnGroovyType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("extensionValOnJavaType.before.Main.kt")
                 public void testExtensionValOnJavaType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/extensionValOnJavaType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/extensionValOnJavaType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("staticExtensionValOnJavaType.before.Main.kt")
                 public void testStaticExtensionValOnJavaType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/staticExtensionValOnJavaType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/staticExtensionValOnJavaType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("staticValOnJavaClass.before.Main.kt")
                 public void testStaticValOnJavaClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/staticValOnJavaClass.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/staticValOnJavaClass.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("staticValOnJavaInterface.before.Main.kt")
                 public void testStaticValOnJavaInterface() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/staticValOnJavaInterface.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/staticValOnJavaInterface.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("staticVarOnJavaInterface.before.Main.kt")
                 public void testStaticVarOnJavaInterface() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/staticVarOnJavaInterface.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/staticVarOnJavaInterface.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("valOnGroovyType.before.Main.kt")
                 public void testValOnGroovyType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnGroovyType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnGroovyType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("valOnJavaInterface.before.Main.kt")
                 public void testValOnJavaInterface() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnJavaInterface.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnJavaInterface.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("valOnJavaType.before.Main.kt")
                 public void testValOnJavaType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnJavaType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnJavaType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("varOnJavaType.before.Main.kt")
                 public void testVarOnJavaType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/varOnJavaType.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/varOnJavaType.before.Main.kt", this::doTestWithExtraFile);
                 }
 
                 @TestMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/fieldFromJava")
@@ -1592,26 +1377,22 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                     @TestMetadata("classMemberLateinitVar.before.Main.java")
                     public void testClassMemberLateinitVar() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/fieldFromJava/classMemberLateinitVar.before.Main.java");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/fieldFromJava/classMemberLateinitVar.before.Main.java", this::doTestWithExtraFile);
                     }
 
                     @TestMetadata("classMemberVar.before.Main.java")
                     public void testClassMemberVar() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/fieldFromJava/classMemberVar.before.Main.java");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/fieldFromJava/classMemberVar.before.Main.java", this::doTestWithExtraFile);
                     }
 
                     @TestMetadata("companionMemberVar.before.Main.java")
                     public void testCompanionMemberVar() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/fieldFromJava/companionMemberVar.before.Main.java");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/fieldFromJava/companionMemberVar.before.Main.java", this::doTestWithExtraFile);
                     }
 
                     @TestMetadata("topLevelVar.before.Main.java")
                     public void testTopLevelVar() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/fieldFromJava/topLevelVar.before.Main.java");
-                        doTestWithExtraFile(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/fieldFromJava/topLevelVar.before.Main.java", this::doTestWithExtraFile);
                     }
                 }
             }
@@ -1628,14 +1409,12 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("javaDeprecated.before.Main.kt")
         public void testJavaDeprecated() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/javaDeprecated.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/javaDeprecated.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("toMethodFromCompanionObject.before.Main.kt")
         public void testToMethodFromCompanionObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/toMethodFromCompanionObject.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/toMethodFromCompanionObject.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages")
@@ -1644,8 +1423,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
         public static class ClassUsages extends AbstractQuickFixMultiFileTest {
             @TestMetadata("addImportFromSamePackage.before.Main.kt")
             public void testAddImportFromSamePackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/addImportFromSamePackage.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/addImportFromSamePackage.before.Main.kt", this::doTestWithExtraFile);
             }
 
             public void testAllFilesPresentInClassUsages() throws Exception {
@@ -1662,8 +1440,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("annotation.before.Main.kt")
                 public void testAnnotation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/wholeProject/annotation.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/wholeProject/annotation.before.Main.kt", this::doTestWithExtraFile);
                 }
             }
         }
@@ -1674,32 +1451,27 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
         public static class Imports extends AbstractQuickFixMultiFileTest {
             @TestMetadata("addImportForOperator.before.Main.kt")
             public void testAddImportForOperator() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImportForOperator.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImportForOperator.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("addImportFromSamePackage.before.Main.kt")
             public void testAddImportFromSamePackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImportFromSamePackage.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImportFromSamePackage.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("addImportFromSamePackage2.before.Main.kt")
             public void testAddImportFromSamePackage2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImportFromSamePackage2.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImportFromSamePackage2.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("addImportFromSamePackage3.before.Main.kt")
             public void testAddImportFromSamePackage3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImportFromSamePackage3.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImportFromSamePackage3.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("addImports.before.Main.kt")
             public void testAddImports() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImports.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/imports/addImports.before.Main.kt", this::doTestWithExtraFile);
             }
 
             public void testAllFilesPresentInImports() throws Exception {
@@ -1708,8 +1480,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("rootPackage.before.Main.kt")
             public void testRootPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/imports/rootPackage.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/imports/rootPackage.before.Main.kt", this::doTestWithExtraFile);
             }
         }
 
@@ -1731,8 +1502,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
                 @TestMetadata("typealias.before.Main.kt")
                 public void testTypealias() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/wholeProject/typealias.before.Main.kt");
-                    doTestWithExtraFile(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/wholeProject/typealias.before.Main.kt", this::doTestWithExtraFile);
                 }
             }
         }
@@ -1747,8 +1517,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("platformType.before.Main.kt")
             public void testPlatformType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/platformType.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/platformType.before.Main.kt", this::doTestWithExtraFile);
             }
         }
 
@@ -1762,14 +1531,12 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("function.before.Main.kt")
             public void testFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/wholeProject/function.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/wholeProject/function.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("property.before.Main.kt")
             public void testProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/wholeProject/property.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/wholeProject/property.before.Main.kt", this::doTestWithExtraFile);
             }
         }
     }
@@ -1784,32 +1551,27 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("privateMemberToInternalMultiFile.before.Main.kt")
         public void testPrivateMemberToInternalMultiFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/privateMemberToInternalMultiFile.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/privateMemberToInternalMultiFile.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("privateTopLevelFunInFile.before.Main.kt")
         public void testPrivateTopLevelFunInFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/privateTopLevelFunInFile.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/privateTopLevelFunInFile.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("privateTopLevelValInFile.before.Main.kt")
         public void testPrivateTopLevelValInFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/privateTopLevelValInFile.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/privateTopLevelValInFile.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("privateTopLevelVarInFile.before.Main.kt")
         public void testPrivateTopLevelVarInFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/privateTopLevelVarInFile.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/privateTopLevelVarInFile.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("privateTopLevelVarWithSetterInFile.before.Main.kt")
         public void testPrivateTopLevelVarWithSetterInFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/privateTopLevelVarWithSetterInFile.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/privateTopLevelVarWithSetterInFile.before.Main.kt", this::doTestWithExtraFile);
         }
     }
 
@@ -1823,8 +1585,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("getter.before.Main.kt")
         public void testGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/memberVisibilityCanBePrivate/getter.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/memberVisibilityCanBePrivate/getter.before.Main.kt", this::doTestWithExtraFile);
         }
     }
 
@@ -1846,14 +1607,12 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("removeImports.before.Main.kt")
             public void testRemoveImports() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/removeImports.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/removeImports.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("removeImportsOverloads.before.Main.kt")
             public void testRemoveImportsOverloads() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/removeImportsOverloads.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/removeImportsOverloads.before.Main.kt", this::doTestWithExtraFile);
             }
         }
 
@@ -1867,20 +1626,17 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("basicMultiple.before.Main.kt")
             public void testBasicMultiple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/javaAnnotationPositionedArguments/basicMultiple.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/javaAnnotationPositionedArguments/basicMultiple.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("noValueForArgumentMultiple.before.Main.kt")
             public void testNoValueForArgumentMultiple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/javaAnnotationPositionedArguments/noValueForArgumentMultiple.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/javaAnnotationPositionedArguments/noValueForArgumentMultiple.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("wrongTypeMultiple.before.Main.kt")
             public void testWrongTypeMultiple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/javaAnnotationPositionedArguments/wrongTypeMultiple.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/javaAnnotationPositionedArguments/wrongTypeMultiple.before.Main.kt", this::doTestWithExtraFile);
             }
         }
     }
@@ -1895,8 +1651,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("constVal.before.Main.kt")
         public void testConstVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/constVal.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/constVal.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration")
@@ -1909,14 +1664,12 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("finalJavaSupertype.before.Main.kt")
             public void testFinalJavaSupertype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalJavaSupertype.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalJavaSupertype.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("finalJavaUpperBound.before.Main.kt")
             public void testFinalJavaUpperBound() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalJavaUpperBound.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalJavaUpperBound.before.Main.kt", this::doTestWithExtraFile);
             }
         }
     }
@@ -1940,8 +1693,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("notRemoveImportsForTypeAliases.before.Main.kt")
         public void testNotRemoveImportsForTypeAliases() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/optimizeImports/notRemoveImportsForTypeAliases.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/optimizeImports/notRemoveImportsForTypeAliases.before.Main.kt", this::doTestWithExtraFile);
         }
     }
 
@@ -1963,20 +1715,17 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("import.before.Main.kt")
             public void testImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/import.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/import.before.Main.kt", this::doTestWithExtraFile);
             }
 
             @TestMetadata("overrideJavaMethodWithAnnotation.test")
             public void testOverrideJavaMethodWithAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/overrideJavaMethodWithAnnotation.test");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/overrideJavaMethodWithAnnotation.test", this::doTestWithExtraFile);
             }
 
             @TestMetadata("twoPackages.before.Main.kt")
             public void testTwoPackages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/twoPackages.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/twoPackages.before.Main.kt", this::doTestWithExtraFile);
             }
         }
     }
@@ -2000,50 +1749,42 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("javaTriangle.before.Main.kt")
         public void testJavaTriangle() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/javaTriangle.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/javaTriangle.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("javaTriangle2.before.Main.kt")
         public void testJavaTriangle2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/javaTriangle2.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/javaTriangle2.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("javaTriangle3.before.Main.kt")
         public void testJavaTriangle3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/javaTriangle3.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/javaTriangle3.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("javaTriangleUnused.before.Main.kt")
         public void testJavaTriangleUnused() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/javaTriangleUnused.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/javaTriangleUnused.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("javaTriangleUnused2.before.Main.kt")
         public void testJavaTriangleUnused2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/javaTriangleUnused2.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/javaTriangleUnused2.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("secondaryConstructorFromJava.before.Main.kt")
         public void testSecondaryConstructorFromJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/secondaryConstructorFromJava.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/secondaryConstructorFromJava.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("secondaryConstructorFromJavaDelegate.before.Main.kt")
         public void testSecondaryConstructorFromJavaDelegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/secondaryConstructorFromJavaDelegate.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/secondaryConstructorFromJavaDelegate.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("usedObjectAsAliasMulti.before.Main.kt")
         public void testUsedObjectAsAliasMulti() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/usedObjectAsAliasMulti.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/usedObjectAsAliasMulti.before.Main.kt", this::doTestWithExtraFile);
         }
     }
 
@@ -2075,8 +1816,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("importFromAnotherFile.before.Main.kt")
         public void testImportFromAnotherFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeImports/importFromAnotherFile.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeImports/importFromAnotherFile.before.Main.kt", this::doTestWithExtraFile);
         }
     }
 
@@ -2086,8 +1826,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
     public static class TypeMismatch extends AbstractQuickFixMultiFileTest {
         @TestMetadata("addArrayOfTypeForJavaAnnotation.before.Main.kt")
         public void testAddArrayOfTypeForJavaAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addArrayOfTypeForJavaAnnotation.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addArrayOfTypeForJavaAnnotation.before.Main.kt", this::doTestWithExtraFile);
         }
 
         public void testAllFilesPresentInTypeMismatch() throws Exception {
@@ -2096,8 +1835,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
         @TestMetadata("paramTypeInOverrides.before.Main.kt")
         public void testParamTypeInOverrides() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/paramTypeInOverrides.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/paramTypeInOverrides.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("idea/testData/quickfix/typeMismatch/genericVarianceViolation")
@@ -2110,8 +1848,7 @@ public class QuickFixMultiFileTestGenerated extends AbstractQuickFixMultiFileTes
 
             @TestMetadata("basicMultiple.before.Main.kt")
             public void testBasicMultiple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/genericVarianceViolation/basicMultiple.before.Main.kt");
-                doTestWithExtraFile(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/genericVarianceViolation/basicMultiple.before.Main.kt", this::doTestWithExtraFile);
             }
         }
     }

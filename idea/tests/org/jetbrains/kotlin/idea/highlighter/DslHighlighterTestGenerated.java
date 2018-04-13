@@ -27,7 +27,6 @@ public class DslHighlighterTestGenerated extends AbstractDslHighlighterTest {
 
     @TestMetadata("functionCalls.kt")
     public void testFunctionCalls() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dslHighlighter/functionCalls.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dslHighlighter/functionCalls.kt", this::doTest);
     }
 }

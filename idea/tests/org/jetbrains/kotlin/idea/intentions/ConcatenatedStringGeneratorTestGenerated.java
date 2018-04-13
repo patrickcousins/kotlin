@@ -27,37 +27,31 @@ public class ConcatenatedStringGeneratorTestGenerated extends AbstractConcatenat
 
     @TestMetadata("constants.kt")
     public void testConstants() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/concatenatedStringGenerator/constants.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/concatenatedStringGenerator/constants.kt", this::doTest);
     }
 
     @TestMetadata("constants2.kt")
     public void testConstants2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/concatenatedStringGenerator/constants2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/concatenatedStringGenerator/constants2.kt", this::doTest);
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/concatenatedStringGenerator/simple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/concatenatedStringGenerator/simple.kt", this::doTest);
     }
 
     @TestMetadata("stringtemplate.kt")
     public void testStringtemplate() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/concatenatedStringGenerator/stringtemplate.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/concatenatedStringGenerator/stringtemplate.kt", this::doTest);
     }
 
     @TestMetadata("stringtemplateWithConstant.kt")
     public void testStringtemplateWithConstant() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/concatenatedStringGenerator/stringtemplateWithConstant.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/concatenatedStringGenerator/stringtemplateWithConstant.kt", this::doTest);
     }
 
     @TestMetadata("variables.kt")
     public void testVariables() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/concatenatedStringGenerator/variables.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/concatenatedStringGenerator/variables.kt", this::doTest);
     }
 }

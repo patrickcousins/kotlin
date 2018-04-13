@@ -27,109 +27,91 @@ public class KotlinExceptionFilterTestGenerated extends AbstractKotlinExceptionF
 
     @TestMetadata("breakpointReachedAt")
     public void testBreakpointReachedAt() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/breakpointReachedAt/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/breakpointReachedAt/", this::doTest);
     }
 
     @TestMetadata("inlineFunCallInLibrary")
     public void testInlineFunCallInLibrary() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/inlineFunCallInLibrary/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/inlineFunCallInLibrary/", this::doTest);
     }
 
     @TestMetadata("inlineFunFromLibrary")
     public void testInlineFunFromLibrary() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/inlineFunFromLibrary/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/inlineFunFromLibrary/", this::doTest);
     }
 
     @TestMetadata("inlineFunInnerClassFromLibrary")
     public void testInlineFunInnerClassFromLibrary() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/inlineFunInnerClassFromLibrary/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/inlineFunInnerClassFromLibrary/", this::doTest);
     }
 
     @TestMetadata("inlineFunctionAnotherFile")
     public void testInlineFunctionAnotherFile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/inlineFunctionAnotherFile/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/inlineFunctionAnotherFile/", this::doTest);
     }
 
     @TestMetadata("inlineFunctionAnotherFileWithSmapApplied")
     public void testInlineFunctionAnotherFileWithSmapApplied() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/inlineFunctionAnotherFileWithSmapApplied/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/inlineFunctionAnotherFileWithSmapApplied/", this::doTest);
     }
 
     @TestMetadata("inlineFunctionInnerClass")
     public void testInlineFunctionInnerClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/inlineFunctionInnerClass/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/inlineFunctionInnerClass/", this::doTest);
     }
 
     @TestMetadata("inlineFunctionObjectLiteral")
     public void testInlineFunctionObjectLiteral() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/inlineFunctionObjectLiteral/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/inlineFunctionObjectLiteral/", this::doTest);
     }
 
     @TestMetadata("inlineFunctionSameFile")
     public void testInlineFunctionSameFile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/inlineFunctionSameFile/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/inlineFunctionSameFile/", this::doTest);
     }
 
     @TestMetadata("kotlinClass")
     public void testKotlinClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/kotlinClass/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/kotlinClass/", this::doTest);
     }
 
     @TestMetadata("kt2489")
     public void testKt2489() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/kt2489/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/kt2489/", this::doTest);
     }
 
     @TestMetadata("kt2489_2")
     public void testKt2489_2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/kt2489_2/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/kt2489_2/", this::doTest);
     }
 
     @TestMetadata("librarySources1")
     public void testLibrarySources1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/librarySources1/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/librarySources1/", this::doTest);
     }
 
     @TestMetadata("librarySources2")
     public void testLibrarySources2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/librarySources2/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/librarySources2/", this::doTest);
     }
 
     @TestMetadata("librarySources3")
     public void testLibrarySources3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/librarySources3/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/librarySources3/", this::doTest);
     }
 
     @TestMetadata("librarySources4")
     public void testLibrarySources4() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/librarySources4/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/librarySources4/", this::doTest);
     }
 
     @TestMetadata("multiSamePackage")
     public void testMultiSamePackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/multiSamePackage/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/multiSamePackage/", this::doTest);
     }
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/exceptionFilter/simple/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/exceptionFilter/simple/", this::doTest);
     }
 }

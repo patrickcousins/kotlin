@@ -27,175 +27,146 @@ public class KotlinSourceInJavaCompletionTestGenerated extends AbstractKotlinSou
 
     @TestMetadata("AnnotationParameter.java")
     public void testAnnotationParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/AnnotationParameter.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/AnnotationParameter.java", this::doTest);
     }
 
     @TestMetadata("Class.java")
     public void testClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/Class.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/Class.java", this::doTest);
     }
 
     @TestMetadata("ClassMembers.java")
     public void testClassMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/ClassMembers.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ClassMembers.java", this::doTest);
     }
 
     @TestMetadata("ClassObject.java")
     public void testClassObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/ClassObject.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ClassObject.java", this::doTest);
     }
 
     @TestMetadata("ClassObjectField.java")
     public void testClassObjectField() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/ClassObjectField.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ClassObjectField.java", this::doTest);
     }
 
     @TestMetadata("ClassesFromNamespace.java")
     public void testClassesFromNamespace() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/ClassesFromNamespace.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ClassesFromNamespace.java", this::doTest);
     }
 
     @TestMetadata("EnumConstants.java")
     public void testEnumConstants() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/EnumConstants.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/EnumConstants.java", this::doTest);
     }
 
     @TestMetadata("InterfaceDefaultImpl.java")
     public void testInterfaceDefaultImpl() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/InterfaceDefaultImpl.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImpl.java", this::doTest);
     }
 
     @TestMetadata("InterfaceDefaultImplImportedMembers.java")
     public void testInterfaceDefaultImplImportedMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/InterfaceDefaultImplImportedMembers.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImplImportedMembers.java", this::doTest);
     }
 
     @TestMetadata("InterfaceDefaultImplMembers.java")
     public void testInterfaceDefaultImplMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/InterfaceDefaultImplMembers.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImplMembers.java", this::doTest);
     }
 
     @TestMetadata("InterfaceDefaultImplStaticImportedMembers.java")
     public void testInterfaceDefaultImplStaticImportedMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/InterfaceDefaultImplStaticImportedMembers.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImplStaticImportedMembers.java", this::doTest);
     }
 
     @TestMetadata("InterfaceDefaultImplsNonImported.java")
     public void testInterfaceDefaultImplsNonImported() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/InterfaceDefaultImplsNonImported.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/InterfaceDefaultImplsNonImported.java", this::doTest);
     }
 
     @TestMetadata("MultiFileFacade.java")
     public void testMultiFileFacade() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/MultiFileFacade.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/MultiFileFacade.java", this::doTest);
     }
 
     @TestMetadata("MultiFileFacadeMembers.java")
     public void testMultiFileFacadeMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/MultiFileFacadeMembers.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/MultiFileFacadeMembers.java", this::doTest);
     }
 
     @TestMetadata("MultiFileFacadeNoImport.java")
     public void testMultiFileFacadeNoImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/MultiFileFacadeNoImport.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/MultiFileFacadeNoImport.java", this::doTest);
     }
 
     @TestMetadata("Nested.java")
     public void testNested() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/Nested.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/Nested.java", this::doTest);
     }
 
     @TestMetadata("NestedClassMembers.java")
     public void testNestedClassMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/NestedClassMembers.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/NestedClassMembers.java", this::doTest);
     }
 
     @TestMetadata("NestedClassMembers2.java")
     public void testNestedClassMembers2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/NestedClassMembers2.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/NestedClassMembers2.java", this::doTest);
     }
 
     @TestMetadata("NestedNoImport.java")
     public void testNestedNoImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/NestedNoImport.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/NestedNoImport.java", this::doTest);
     }
 
     @TestMetadata("NestedObjectInstance.java")
     public void testNestedObjectInstance() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/NestedObjectInstance.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/NestedObjectInstance.java", this::doTest);
     }
 
     @TestMetadata("ObjectInClassObjects.java")
     public void testObjectInClassObjects() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/ObjectInClassObjects.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ObjectInClassObjects.java", this::doTest);
     }
 
     @TestMetadata("ObjectInstance.java")
     public void testObjectInstance() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/ObjectInstance.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/ObjectInstance.java", this::doTest);
     }
 
     @TestMetadata("RenamedFacade.java")
     public void testRenamedFacade() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/RenamedFacade.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/RenamedFacade.java", this::doTest);
     }
 
     @TestMetadata("SingleFileFacade.java")
     public void testSingleFileFacade() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/SingleFileFacade.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/SingleFileFacade.java", this::doTest);
     }
 
     @TestMetadata("SingleFileFacadeMembers.java")
     public void testSingleFileFacadeMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/SingleFileFacadeMembers.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/SingleFileFacadeMembers.java", this::doTest);
     }
 
     @TestMetadata("SingleFileFacadeNoImport.java")
     public void testSingleFileFacadeNoImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/SingleFileFacadeNoImport.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/SingleFileFacadeNoImport.java", this::doTest);
     }
 
     @TestMetadata("Subpackage.java")
     public void testSubpackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/Subpackage.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/Subpackage.java", this::doTest);
     }
 
     @TestMetadata("TopLevelMembers.java")
     public void testTopLevelMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/TopLevelMembers.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/TopLevelMembers.java", this::doTest);
     }
 
     @TestMetadata("TraitMember.java")
     public void testTraitMember() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/TraitMember.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/TraitMember.java", this::doTest);
     }
 }

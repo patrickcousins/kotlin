@@ -35,8 +35,7 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("test.kt")
         public void testTest() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/arrayInDataClass/test.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/arrayInDataClass/test.kt", this::doTest);
         }
     }
 
@@ -58,290 +57,242 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("blockHasMoreThanOneStatement.kt")
             public void testBlockHasMoreThanOneStatement() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/blockHasMoreThanOneStatement.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/blockHasMoreThanOneStatement.kt", this::doTest);
             }
 
             @TestMetadata("blockUsesDifferentVar.kt")
             public void testBlockUsesDifferentVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/blockUsesDifferentVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/blockUsesDifferentVar.kt", this::doTest);
             }
 
             @TestMetadata("conditionComparesNullWithNull.kt")
             public void testConditionComparesNullWithNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/conditionComparesNullWithNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/conditionComparesNullWithNull.kt", this::doTest);
             }
 
             @TestMetadata("conditionInvalidBinaryExp.kt")
             public void testConditionInvalidBinaryExp() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/conditionInvalidBinaryExp.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/conditionInvalidBinaryExp.kt", this::doTest);
             }
 
             @TestMetadata("conditionNotBinaryExpr.kt")
             public void testConditionNotBinaryExpr() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/conditionNotBinaryExpr.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/conditionNotBinaryExpr.kt", this::doTest);
             }
 
             @TestMetadata("doesNotinlineValueIfUsedMoreThanOnce.kt")
             public void testDoesNotinlineValueIfUsedMoreThanOnce() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/doesNotinlineValueIfUsedMoreThanOnce.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/doesNotinlineValueIfUsedMoreThanOnce.kt", this::doTest);
             }
 
             @TestMetadata("doesNotinlineValueOutsideOfScope.kt")
             public void testDoesNotinlineValueOutsideOfScope() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/doesNotinlineValueOutsideOfScope.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/doesNotinlineValueOutsideOfScope.kt", this::doTest);
             }
 
             @TestMetadata("emptyCondition.kt")
             public void testEmptyCondition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/emptyCondition.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/emptyCondition.kt", this::doTest);
             }
 
             @TestMetadata("emptyElseBlock.kt")
             public void testEmptyElseBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/emptyElseBlock.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/emptyElseBlock.kt", this::doTest);
             }
 
             @TestMetadata("emptyThenBlock.kt")
             public void testEmptyThenBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/emptyThenBlock.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/emptyThenBlock.kt", this::doTest);
             }
 
             @TestMetadata("ifAndElseBothInBlocks.kt")
             public void testIfAndElseBothInBlocks() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/ifAndElseBothInBlocks.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/ifAndElseBothInBlocks.kt", this::doTest);
             }
 
             @TestMetadata("ifAndElseNotInBlocks.kt")
             public void testIfAndElseNotInBlocks() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/ifAndElseNotInBlocks.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/ifAndElseNotInBlocks.kt", this::doTest);
             }
 
             @TestMetadata("ifAsExpression.kt")
             public void testIfAsExpression() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/ifAsExpression.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/ifAsExpression.kt", this::doTest);
             }
 
             @TestMetadata("implicitReceiver.kt")
             public void testImplicitReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/implicitReceiver.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/implicitReceiver.kt", this::doTest);
             }
 
             @TestMetadata("implicitReceiverInApply.kt")
             public void testImplicitReceiverInApply() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/implicitReceiverInApply.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/implicitReceiverInApply.kt", this::doTest);
             }
 
             @TestMetadata("isCheckSimple.kt")
             public void testIsCheckSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isCheckSimple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isCheckSimple.kt", this::doTest);
             }
 
             @TestMetadata("isCheckWithSelectorChain.kt")
             public void testIsCheckWithSelectorChain() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isCheckWithSelectorChain.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isCheckWithSelectorChain.kt", this::doTest);
             }
 
             @TestMetadata("isCondition.kt")
             public void testIsCondition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isCondition.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isCondition.kt", this::doTest);
             }
 
             @TestMetadata("isNotCondition.kt")
             public void testIsNotCondition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isNotCondition.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isNotCondition.kt", this::doTest);
             }
 
             @TestMetadata("isNotNullable.kt")
             public void testIsNotNullable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isNotNullable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isNotNullable.kt", this::doTest);
             }
 
             @TestMetadata("isNullable.kt")
             public void testIsNullable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isNullable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/isNullable.kt", this::doTest);
             }
 
             @TestMetadata("lhsEqualsNull.kt")
             public void testLhsEqualsNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/lhsEqualsNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/lhsEqualsNull.kt", this::doTest);
             }
 
             @TestMetadata("lhsNotEqualsNull.kt")
             public void testLhsNotEqualsNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/lhsNotEqualsNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/lhsNotEqualsNull.kt", this::doTest);
             }
 
             @TestMetadata("missingNecessaryElseClause.kt")
             public void testMissingNecessaryElseClause() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/missingNecessaryElseClause.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/missingNecessaryElseClause.kt", this::doTest);
             }
 
             @TestMetadata("missingNecessaryThenClause.kt")
             public void testMissingNecessaryThenClause() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/missingNecessaryThenClause.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/missingNecessaryThenClause.kt", this::doTest);
             }
 
             @TestMetadata("noCondition.kt")
             public void testNoCondition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noCondition.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noCondition.kt", this::doTest);
             }
 
             @TestMetadata("noElseBlock.kt")
             public void testNoElseBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noElseBlock.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noElseBlock.kt", this::doTest);
             }
 
             @TestMetadata("noElseBlockAsExpression.kt")
             public void testNoElseBlockAsExpression() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noElseBlockAsExpression.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noElseBlockAsExpression.kt", this::doTest);
             }
 
             @TestMetadata("noNullInCondition.kt")
             public void testNoNullInCondition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noNullInCondition.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noNullInCondition.kt", this::doTest);
             }
 
             @TestMetadata("noNullInCondition2.kt")
             public void testNoNullInCondition2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noNullInCondition2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noNullInCondition2.kt", this::doTest);
             }
 
             @TestMetadata("noThenBlock.kt")
             public void testNoThenBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noThenBlock.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/noThenBlock.kt", this::doTest);
             }
 
             @TestMetadata("notApplicableForFunction.kt")
             public void testNotApplicableForFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/notApplicableForFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/notApplicableForFunction.kt", this::doTest);
             }
 
             @TestMetadata("notApplicableForLocalVar.kt")
             public void testNotApplicableForLocalVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/notApplicableForLocalVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/notApplicableForLocalVar.kt", this::doTest);
             }
 
             @TestMetadata("nullCheckSimple.kt")
             public void testNullCheckSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/nullCheckSimple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/nullCheckSimple.kt", this::doTest);
             }
 
             @TestMetadata("nullCheckWithSelectorCallChain.kt")
             public void testNullCheckWithSelectorCallChain() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/nullCheckWithSelectorCallChain.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/nullCheckWithSelectorCallChain.kt", this::doTest);
             }
 
             @TestMetadata("otherBlockHasMoreThanOneStatement.kt")
             public void testOtherBlockHasMoreThanOneStatement() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/otherBlockHasMoreThanOneStatement.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/otherBlockHasMoreThanOneStatement.kt", this::doTest);
             }
 
             @TestMetadata("property.kt")
             public void testProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/property.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/property.kt", this::doTest);
             }
 
             @TestMetadata("propertyNotNull.kt")
             public void testPropertyNotNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/propertyNotNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/propertyNotNull.kt", this::doTest);
             }
 
             @TestMetadata("propertyWithProperty.kt")
             public void testPropertyWithProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/propertyWithProperty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/propertyWithProperty.kt", this::doTest);
             }
 
             @TestMetadata("rhsEqualsNull.kt")
             public void testRhsEqualsNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/rhsEqualsNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/rhsEqualsNull.kt", this::doTest);
             }
 
             @TestMetadata("rhsNotEqualsNull.kt")
             public void testRhsNotEqualsNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/rhsNotEqualsNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/rhsNotEqualsNull.kt", this::doTest);
             }
 
             @TestMetadata("thenAndElseBothNull.kt")
             public void testThenAndElseBothNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/thenAndElseBothNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/thenAndElseBothNull.kt", this::doTest);
             }
 
             @TestMetadata("thenAndElseNotNull.kt")
             public void testThenAndElseNotNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/thenAndElseNotNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/thenAndElseNotNull.kt", this::doTest);
             }
 
             @TestMetadata("unacceptableEmptyElseBlock.kt")
             public void testUnacceptableEmptyElseBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/unacceptableEmptyElseBlock.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/unacceptableEmptyElseBlock.kt", this::doTest);
             }
 
             @TestMetadata("unacceptableEmptyThenBlock.kt")
             public void testUnacceptableEmptyThenBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/unacceptableEmptyThenBlock.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/unacceptableEmptyThenBlock.kt", this::doTest);
             }
 
             @TestMetadata("unacceptableNoElseBlock.kt")
             public void testUnacceptableNoElseBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/unacceptableNoElseBlock.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/unacceptableNoElseBlock.kt", this::doTest);
             }
 
             @TestMetadata("unacceptableNoThenBlock.kt")
             public void testUnacceptableNoThenBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/unacceptableNoThenBlock.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/unacceptableNoThenBlock.kt", this::doTest);
             }
 
             @TestMetadata("willNotInlineClassProperty.kt")
             public void testWillNotInlineClassProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/willNotInlineClassProperty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/ifThenToSafeAccess/willNotInlineClassProperty.kt", this::doTest);
             }
         }
 
@@ -355,68 +306,57 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("lineBreaksAndComments.kt")
             public void testLineBreaksAndComments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/lineBreaksAndComments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/lineBreaksAndComments.kt", this::doTest);
             }
 
             @TestMetadata("whenWithEqualityTests.kt")
             public void testWhenWithEqualityTests() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithEqualityTests.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithEqualityTests.kt", this::doTest);
             }
 
             @TestMetadata("whenWithMultipleConditionTypes.kt")
             public void testWhenWithMultipleConditionTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithMultipleConditionTypes.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithMultipleConditionTypes.kt", this::doTest);
             }
 
             @TestMetadata("whenWithNegativePatterns.kt")
             public void testWhenWithNegativePatterns() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithNegativePatterns.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithNegativePatterns.kt", this::doTest);
             }
 
             @TestMetadata("whenWithNegativeRangeTests.kt")
             public void testWhenWithNegativeRangeTests() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithNegativeRangeTests.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithNegativeRangeTests.kt", this::doTest);
             }
 
             @TestMetadata("whenWithNondivisibleConditions.kt")
             public void testWhenWithNondivisibleConditions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithNondivisibleConditions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithNondivisibleConditions.kt", this::doTest);
             }
 
             @TestMetadata("whenWithPatterns.kt")
             public void testWhenWithPatterns() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithPatterns.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithPatterns.kt", this::doTest);
             }
 
             @TestMetadata("whenWithRangeTests.kt")
             public void testWhenWithRangeTests() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithRangeTests.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithRangeTests.kt", this::doTest);
             }
 
             @TestMetadata("whenWithSubject.kt")
             public void testWhenWithSubject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithSubject.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithSubject.kt", this::doTest);
             }
 
             @TestMetadata("whenWithSwappedEqualityTests.kt")
             public void testWhenWithSwappedEqualityTests() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithSwappedEqualityTests.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithSwappedEqualityTests.kt", this::doTest);
             }
 
             @TestMetadata("whenWithUnmatchedCandidateSubjects.kt")
             public void testWhenWithUnmatchedCandidateSubjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithUnmatchedCandidateSubjects.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/branched/introduceWhenSubject/whenWithUnmatchedCandidateSubjects.kt", this::doTest);
             }
         }
     }
@@ -431,8 +371,7 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("lateinitVar.kt")
         public void testLateinitVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/canBeVal/lateinitVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/canBeVal/lateinitVar.kt", this::doTest);
         }
     }
 
@@ -446,68 +385,57 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("complex.kt")
         public void testComplex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/complex.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/complex.kt", this::doTest);
         }
 
         @TestMetadata("four.kt")
         public void testFour() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/four.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/four.kt", this::doTest);
         }
 
         @TestMetadata("ifTree.kt")
         public void testIfTree() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/ifTree.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/ifTree.kt", this::doTest);
         }
 
         @TestMetadata("insideOtherIf.kt")
         public void testInsideOtherIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/insideOtherIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/insideOtherIf.kt", this::doTest);
         }
 
         @TestMetadata("middleIf.kt")
         public void testMiddleIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/middleIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/middleIf.kt", this::doTest);
         }
 
         @TestMetadata("noSecondElse.kt")
         public void testNoSecondElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/noSecondElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/noSecondElse.kt", this::doTest);
         }
 
         @TestMetadata("normal.kt")
         public void testNormal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/normal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/normal.kt", this::doTest);
         }
 
         @TestMetadata("oneLiner.kt")
         public void testOneLiner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/oneLiner.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/oneLiner.kt", this::doTest);
         }
 
         @TestMetadata("shortIf.kt")
         public void testShortIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/shortIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/shortIf.kt", this::doTest);
         }
 
         @TestMetadata("withAnnotation.kt")
         public void testWithAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/withAnnotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/withAnnotation.kt", this::doTest);
         }
 
         @TestMetadata("withBreak.kt")
         public void testWithBreak() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/cascadeIf/withBreak.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/cascadeIf/withBreak.kt", this::doTest);
         }
     }
 
@@ -529,134 +457,112 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("filterFirst.kt")
             public void testFilterFirst() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterFirst.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterFirst.kt", this::doTest);
             }
 
             @TestMetadata("filterFirstFake.kt")
             public void testFilterFirstFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterFirstFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterFirstFake.kt", this::doTest);
             }
 
             @TestMetadata("filterFirstFakeReference.kt")
             public void testFilterFirstFakeReference() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterFirstFakeReference.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterFirstFakeReference.kt", this::doTest);
             }
 
             @TestMetadata("filterFirstOrNullReference.kt")
             public void testFilterFirstOrNullReference() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterFirstOrNullReference.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterFirstOrNullReference.kt", this::doTest);
             }
 
             @TestMetadata("filterIsEmpty.kt")
             public void testFilterIsEmpty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterIsEmpty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterIsEmpty.kt", this::doTest);
             }
 
             @TestMetadata("filterIsNotEmpty.kt")
             public void testFilterIsNotEmpty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterIsNotEmpty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterIsNotEmpty.kt", this::doTest);
             }
 
             @TestMetadata("filterLastExplicit.kt")
             public void testFilterLastExplicit() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterLastExplicit.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterLastExplicit.kt", this::doTest);
             }
 
             @TestMetadata("filterTextIsEmpty.kt")
             public void testFilterTextIsEmpty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterTextIsEmpty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterTextIsEmpty.kt", this::doTest);
             }
 
             @TestMetadata("filterTextSingleOrNull.kt")
             public void testFilterTextSingleOrNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterTextSingleOrNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/filterTextSingleOrNull.kt", this::doTest);
             }
 
             @TestMetadata("joinTo.kt")
             public void testJoinTo() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinTo.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinTo.kt", this::doTest);
             }
 
             @TestMetadata("joinToFake.kt")
             public void testJoinToFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToFake.kt", this::doTest);
             }
 
             @TestMetadata("joinToFakeWithLambda.kt")
             public void testJoinToFakeWithLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToFakeWithLambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToFakeWithLambda.kt", this::doTest);
             }
 
             @TestMetadata("joinToForHashMap.kt")
             public void testJoinToForHashMap() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToForHashMap.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToForHashMap.kt", this::doTest);
             }
 
             @TestMetadata("joinToForMap.kt")
             public void testJoinToForMap() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToForMap.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToForMap.kt", this::doTest);
             }
 
             @TestMetadata("joinToString.kt")
             public void testJoinToString() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToString.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToString.kt", this::doTest);
             }
 
             @TestMetadata("joinToStringOnMap.kt")
             public void testJoinToStringOnMap() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToStringOnMap.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToStringOnMap.kt", this::doTest);
             }
 
             @TestMetadata("joinToStringViaBuilder.kt")
             public void testJoinToStringViaBuilder() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToStringViaBuilder.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToStringViaBuilder.kt", this::doTest);
             }
 
             @TestMetadata("joinToStringWithReference.kt")
             public void testJoinToStringWithReference() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToStringWithReference.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToStringWithReference.kt", this::doTest);
             }
 
             @TestMetadata("joinToStringWithReferenceFake.kt")
             public void testJoinToStringWithReferenceFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToStringWithReferenceFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/joinToStringWithReferenceFake.kt", this::doTest);
             }
 
             @TestMetadata("listOfNotNull.kt")
             public void testListOfNotNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/listOfNotNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/listOfNotNull.kt", this::doTest);
             }
 
             @TestMetadata("mapNotNull.kt")
             public void testMapNotNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/mapNotNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/mapNotNull.kt", this::doTest);
             }
 
             @TestMetadata("mapWithReturn.kt")
             public void testMapWithReturn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/simplifiableCallChain/mapWithReturn.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/simplifiableCallChain/mapWithReturn.kt", this::doTest);
             }
         }
 
@@ -670,80 +576,67 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("FilterIsExactInstance.kt")
             public void testFilterIsExactInstance() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsExactInstance.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsExactInstance.kt", this::doTest);
             }
 
             @TestMetadata("FilterIsExactInstanceFake.kt")
             public void testFilterIsExactInstanceFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsExactInstanceFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsExactInstanceFake.kt", this::doTest);
             }
 
             @TestMetadata("FilterIsForFlexible.kt")
             public void testFilterIsForFlexible() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsForFlexible.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsForFlexible.kt", this::doTest);
             }
 
             @TestMetadata("FilterIsSupertypeInstance.kt")
             public void testFilterIsSupertypeInstance() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsSupertypeInstance.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsSupertypeInstance.kt", this::doTest);
             }
 
             @TestMetadata("FilterIsSupertypeInstanceFake.kt")
             public void testFilterIsSupertypeInstanceFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsSupertypeInstanceFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterIsSupertypeInstanceFake.kt", this::doTest);
             }
 
             @TestMetadata("FilterNotNull.kt")
             public void testFilterNotNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterNotNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/FilterNotNull.kt", this::doTest);
             }
 
             @TestMetadata("filterNotNullFake.kt")
             public void testFilterNotNullFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/filterNotNullFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/filterNotNullFake.kt", this::doTest);
             }
 
             @TestMetadata("MapIndexedNotNullTo.kt")
             public void testMapIndexedNotNullTo() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapIndexedNotNullTo.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapIndexedNotNullTo.kt", this::doTest);
             }
 
             @TestMetadata("MapNotNullTo.kt")
             public void testMapNotNullTo() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullTo.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullTo.kt", this::doTest);
             }
 
             @TestMetadata("MapNotNullWithLambda.kt")
             public void testMapNotNullWithLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullWithLambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullWithLambda.kt", this::doTest);
             }
 
             @TestMetadata("MapNotNullWithLambdaFake.kt")
             public void testMapNotNullWithLambdaFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullWithLambdaFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullWithLambdaFake.kt", this::doTest);
             }
 
             @TestMetadata("MapNotNullWithReference.kt")
             public void testMapNotNullWithReference() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullWithReference.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullWithReference.kt", this::doTest);
             }
 
             @TestMetadata("MapNotNullWithReferenceFake.kt")
             public void testMapNotNullWithReferenceFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullWithReferenceFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnCollection/MapNotNullWithReferenceFake.kt", this::doTest);
             }
         }
 
@@ -757,56 +650,47 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("NotNullType.kt")
             public void testNotNullType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NotNullType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NotNullType.kt", this::doTest);
             }
 
             @TestMetadata("NotNullTypeChain.kt")
             public void testNotNullTypeChain() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NotNullTypeChain.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NotNullTypeChain.kt", this::doTest);
             }
 
             @TestMetadata("NullOrBlankSafe.kt")
             public void testNullOrBlankSafe() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NullOrBlankSafe.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NullOrBlankSafe.kt", this::doTest);
             }
 
             @TestMetadata("NullOrEmpty.kt")
             public void testNullOrEmpty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NullOrEmpty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NullOrEmpty.kt", this::doTest);
             }
 
             @TestMetadata("NullOrEmptyFake.kt")
             public void testNullOrEmptyFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NullOrEmptyFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NullOrEmptyFake.kt", this::doTest);
             }
 
             @TestMetadata("NullOrEmptySafe.kt")
             public void testNullOrEmptySafe() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NullOrEmptySafe.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/NullOrEmptySafe.kt", this::doTest);
             }
 
             @TestMetadata("OrEmptyFake.kt")
             public void testOrEmptyFake() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/OrEmptyFake.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/OrEmptyFake.kt", this::doTest);
             }
 
             @TestMetadata("SafeCall.kt")
             public void testSafeCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/SafeCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/SafeCall.kt", this::doTest);
             }
 
             @TestMetadata("String.kt")
             public void testString() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/String.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/collections/uselessCallOnNotNull/String.kt", this::doTest);
             }
         }
     }
@@ -821,74 +705,62 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("delete.kt")
         public void testDelete() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/delete.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/delete.kt", this::doTest);
         }
 
         @TestMetadata("endWithElseIf.kt")
         public void testEndWithElseIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/endWithElseIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/endWithElseIf.kt", this::doTest);
         }
 
         @TestMetadata("endWithElseIfNoBraces.kt")
         public void testEndWithElseIfNoBraces() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/endWithElseIfNoBraces.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/endWithElseIfNoBraces.kt", this::doTest);
         }
 
         @TestMetadata("expression.kt")
         public void testExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/expression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/expression.kt", this::doTest);
         }
 
         @TestMetadata("expressionElseIfBlock.kt")
         public void testExpressionElseIfBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/expressionElseIfBlock.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/expressionElseIfBlock.kt", this::doTest);
         }
 
         @TestMetadata("noStatements.kt")
         public void testNoStatements() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/noStatements.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/noStatements.kt", this::doTest);
         }
 
         @TestMetadata("noStatementsElseIf.kt")
         public void testNoStatementsElseIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/noStatementsElseIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/noStatementsElseIf.kt", this::doTest);
         }
 
         @TestMetadata("simpleBlock.kt")
         public void testSimpleBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/simpleBlock.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/simpleBlock.kt", this::doTest);
         }
 
         @TestMetadata("simpleFalse.kt")
         public void testSimpleFalse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/simpleFalse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/simpleFalse.kt", this::doTest);
         }
 
         @TestMetadata("simpleTrue.kt")
         public void testSimpleTrue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/simpleTrue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/simpleTrue.kt", this::doTest);
         }
 
         @TestMetadata("statement.kt")
         public void testStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/statement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/statement.kt", this::doTest);
         }
 
         @TestMetadata("statementElseIf.kt")
         public void testStatementElseIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/constantConditionIf/statementElseIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/constantConditionIf/statementElseIf.kt", this::doTest);
         }
     }
 
@@ -910,158 +782,132 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("divSanityTest.kt")
             public void testDivSanityTest() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/divSanityTest.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/divSanityTest.kt", this::doTest);
             }
 
             @TestMetadata("equals.kt")
             public void testEquals() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/equals.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/equals.kt", this::doTest);
             }
 
             @TestMetadata("equalsCompareTo.kt")
             public void testEqualsCompareTo() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/equalsCompareTo.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/equalsCompareTo.kt", this::doTest);
             }
 
             @TestMetadata("equalsExtensionFunction.kt")
             public void testEqualsExtensionFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/equalsExtensionFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/equalsExtensionFunction.kt", this::doTest);
             }
 
             @TestMetadata("extensionFunction.kt")
             public void testExtensionFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/extensionFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/extensionFunction.kt", this::doTest);
             }
 
             @TestMetadata("functionLiteralArgument.kt")
             public void testFunctionLiteralArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/functionLiteralArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/functionLiteralArgument.kt", this::doTest);
             }
 
             @TestMetadata("greater.kt")
             public void testGreater() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/greater.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/greater.kt", this::doTest);
             }
 
             @TestMetadata("lessEquals.kt")
             public void testLessEquals() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/lessEquals.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/lessEquals.kt", this::doTest);
             }
 
             @TestMetadata("minusSanityTest.kt")
             public void testMinusSanityTest() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/minusSanityTest.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/minusSanityTest.kt", this::doTest);
             }
 
             @TestMetadata("missingDefaultArgument.kt")
             public void testMissingDefaultArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/missingDefaultArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/missingDefaultArgument.kt", this::doTest);
             }
 
             @TestMetadata("modSanityTest.kt")
             public void testModSanityTest() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/modSanityTest.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/modSanityTest.kt", this::doTest);
             }
 
             @TestMetadata("multipleArguments.kt")
             public void testMultipleArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/multipleArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/multipleArguments.kt", this::doTest);
             }
 
             @TestMetadata("notEquals.kt")
             public void testNotEquals() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/notEquals.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/notEquals.kt", this::doTest);
             }
 
             @TestMetadata("notEqualsBrackets.kt")
             public void testNotEqualsBrackets() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/notEqualsBrackets.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/notEqualsBrackets.kt", this::doTest);
             }
 
             @TestMetadata("notEqualsBracketsComplex.kt")
             public void testNotEqualsBracketsComplex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/notEqualsBracketsComplex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/notEqualsBracketsComplex.kt", this::doTest);
             }
 
             @TestMetadata("plusSanityTest.kt")
             public void testPlusSanityTest() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/plusSanityTest.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/plusSanityTest.kt", this::doTest);
             }
 
             @TestMetadata("qualifier.kt")
             public void testQualifier() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/qualifier.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/qualifier.kt", this::doTest);
             }
 
             @TestMetadata("rangeToSanityTest.kt")
             public void testRangeToSanityTest() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/rangeToSanityTest.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/rangeToSanityTest.kt", this::doTest);
             }
 
             @TestMetadata("remSanityTest.kt")
             public void testRemSanityTest() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/remSanityTest.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/remSanityTest.kt", this::doTest);
             }
 
             @TestMetadata("safeCompareTo.kt")
             public void testSafeCompareTo() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/safeCompareTo.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/safeCompareTo.kt", this::doTest);
             }
 
             @TestMetadata("super.kt")
             public void testSuper() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/super.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/super.kt", this::doTest);
             }
 
             @TestMetadata("timesSanityTest.kt")
             public void testTimesSanityTest() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/timesSanityTest.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/timesSanityTest.kt", this::doTest);
             }
 
             @TestMetadata("typeArguments.kt")
             public void testTypeArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/typeArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/typeArguments.kt", this::doTest);
             }
 
             @TestMetadata("unacceptableVararg1.kt")
             public void testUnacceptableVararg1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/unacceptableVararg1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/unacceptableVararg1.kt", this::doTest);
             }
 
             @TestMetadata("unacceptableVararg2.kt")
             public void testUnacceptableVararg2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/unacceptableVararg2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/unacceptableVararg2.kt", this::doTest);
             }
 
             @TestMetadata("validNamedArgument.kt")
             public void testValidNamedArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/validNamedArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceCallWithBinaryOperator/validNamedArgument.kt", this::doTest);
             }
         }
 
@@ -1071,8 +917,7 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
         public static class ReplaceGetOrSet extends AbstractLocalInspectionTest {
             @TestMetadata("acceptableVararg.kt")
             public void testAcceptableVararg() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/acceptableVararg.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/acceptableVararg.kt", this::doTest);
             }
 
             public void testAllFilesPresentInReplaceGetOrSet() throws Exception {
@@ -1081,134 +926,112 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("argumentAndFunction.kt")
             public void testArgumentAndFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/argumentAndFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/argumentAndFunction.kt", this::doTest);
             }
 
             @TestMetadata("duplicateArguments.kt")
             public void testDuplicateArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/duplicateArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/duplicateArguments.kt", this::doTest);
             }
 
             @TestMetadata("extensionFunction.kt")
             public void testExtensionFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/extensionFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/extensionFunction.kt", this::doTest);
             }
 
             @TestMetadata("functionalArgument.kt")
             public void testFunctionalArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/functionalArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/functionalArgument.kt", this::doTest);
             }
 
             @TestMetadata("invalidArgument.kt")
             public void testInvalidArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/invalidArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/invalidArgument.kt", this::doTest);
             }
 
             @TestMetadata("missingDefaultArgument.kt")
             public void testMissingDefaultArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/missingDefaultArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/missingDefaultArgument.kt", this::doTest);
             }
 
             @TestMetadata("multiArgument.kt")
             public void testMultiArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/multiArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/multiArgument.kt", this::doTest);
             }
 
             @TestMetadata("noArgument.kt")
             public void testNoArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/noArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/noArgument.kt", this::doTest);
             }
 
             @TestMetadata("notOperator.kt")
             public void testNotOperator() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/notOperator.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/notOperator.kt", this::doTest);
             }
 
             @TestMetadata("qualifier.kt")
             public void testQualifier() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/qualifier.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/qualifier.kt", this::doTest);
             }
 
             @TestMetadata("sanityCheck.kt")
             public void testSanityCheck() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/sanityCheck.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/sanityCheck.kt", this::doTest);
             }
 
             @TestMetadata("set.kt")
             public void testSet() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/set.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/set.kt", this::doTest);
             }
 
             @TestMetadata("set2.kt")
             public void testSet2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/set2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/set2.kt", this::doTest);
             }
 
             @TestMetadata("setValueUsed.kt")
             public void testSetValueUsed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/setValueUsed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/setValueUsed.kt", this::doTest);
             }
 
             @TestMetadata("setWithNoParameters.kt")
             public void testSetWithNoParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/setWithNoParameters.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/setWithNoParameters.kt", this::doTest);
             }
 
             @TestMetadata("setWithVararg.kt")
             public void testSetWithVararg() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/setWithVararg.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/setWithVararg.kt", this::doTest);
             }
 
             @TestMetadata("singleArgument.kt")
             public void testSingleArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/singleArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/singleArgument.kt", this::doTest);
             }
 
             @TestMetadata("staticMethod.kt")
             public void testStaticMethod() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/staticMethod.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/staticMethod.kt", this::doTest);
             }
 
             @TestMetadata("super.kt")
             public void testSuper() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/super.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/super.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFun.kt")
             public void testTopLevelFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/topLevelFun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/topLevelFun.kt", this::doTest);
             }
 
             @TestMetadata("unacceptableVararg.kt")
             public void testUnacceptableVararg() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/unacceptableVararg.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/unacceptableVararg.kt", this::doTest);
             }
 
             @TestMetadata("unnamedAndNamed.kt")
             public void testUnnamedAndNamed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/unnamedAndNamed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/conventionNameCalls/replaceGetOrSet/unnamedAndNamed.kt", this::doTest);
             }
         }
     }
@@ -1223,14 +1046,12 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("invalidArgs.kt")
         public void testInvalidArgs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertPairConstructorToToFunction/invalidArgs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertPairConstructorToToFunction/invalidArgs.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertPairConstructorToToFunction/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertPairConstructorToToFunction/simple.kt", this::doTest);
         }
     }
 
@@ -1244,50 +1065,42 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("convertSubClassWithModifiers.kt")
         public void testConvertSubClassWithModifiers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertSealedSubClassToObject/convertSubClassWithModifiers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertSealedSubClassToObject/convertSubClassWithModifiers.kt", this::doTest);
         }
 
         @TestMetadata("convertSubClassWithParentheses.kt")
         public void testConvertSubClassWithParentheses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertSealedSubClassToObject/convertSubClassWithParentheses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertSealedSubClassToObject/convertSubClassWithParentheses.kt", this::doTest);
         }
 
         @TestMetadata("convertSubClassWithoutParentheses.kt")
         public void testConvertSubClassWithoutParentheses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertSealedSubClassToObject/convertSubClassWithoutParentheses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertSealedSubClassToObject/convertSubClassWithoutParentheses.kt", this::doTest);
         }
 
         @TestMetadata("generic.kt")
         public void testGeneric() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertSealedSubClassToObject/generic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertSealedSubClassToObject/generic.kt", this::doTest);
         }
 
         @TestMetadata("nonEmptyConstructor.kt")
         public void testNonEmptyConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertSealedSubClassToObject/nonEmptyConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertSealedSubClassToObject/nonEmptyConstructor.kt", this::doTest);
         }
 
         @TestMetadata("openSubclass.kt")
         public void testOpenSubclass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertSealedSubClassToObject/openSubclass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertSealedSubClassToObject/openSubclass.kt", this::doTest);
         }
 
         @TestMetadata("withCompanion.kt")
         public void testWithCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertSealedSubClassToObject/withCompanion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertSealedSubClassToObject/withCompanion.kt", this::doTest);
         }
 
         @TestMetadata("withInner.kt")
         public void testWithInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/convertSealedSubClassToObject/withInner.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/convertSealedSubClassToObject/withInner.kt", this::doTest);
         }
     }
 
@@ -1301,20 +1114,17 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("base.kt")
         public void testBase() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/copyWithoutNamedArguments/base.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/copyWithoutNamedArguments/base.kt", this::doTest);
         }
 
         @TestMetadata("notAllNamed.kt")
         public void testNotAllNamed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/copyWithoutNamedArguments/notAllNamed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/copyWithoutNamedArguments/notAllNamed.kt", this::doTest);
         }
 
         @TestMetadata("this.kt")
         public void testThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/copyWithoutNamedArguments/this.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/copyWithoutNamedArguments/this.kt", this::doTest);
         }
     }
 
@@ -1328,146 +1138,122 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("AlreadyWithReplaceWith.kt")
         public void testAlreadyWithReplaceWith() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/AlreadyWithReplaceWith.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/AlreadyWithReplaceWith.kt", this::doTest);
         }
 
         @TestMetadata("CommentInBody.kt")
         public void testCommentInBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/CommentInBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/CommentInBody.kt", this::doTest);
         }
 
         @TestMetadata("DeclarationInside.kt")
         public void testDeclarationInside() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/DeclarationInside.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/DeclarationInside.kt", this::doTest);
         }
 
         @TestMetadata("DeprecationLevelHidden.kt")
         public void testDeprecationLevelHidden() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/DeprecationLevelHidden.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/DeprecationLevelHidden.kt", this::doTest);
         }
 
         @TestMetadata("destructuringWithLambdaInScript.kts")
         public void testDestructuringWithLambdaInScript() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/destructuringWithLambdaInScript.kts");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/destructuringWithLambdaInScript.kts", this::doTest);
         }
 
         @TestMetadata("ExceptionInPropertyDestructuringEntry.kt")
         public void testExceptionInPropertyDestructuringEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ExceptionInPropertyDestructuringEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ExceptionInPropertyDestructuringEntry.kt", this::doTest);
         }
 
         @TestMetadata("ExpressionBody.kt")
         public void testExpressionBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ExpressionBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ExpressionBody.kt", this::doTest);
         }
 
         @TestMetadata("If.kt")
         public void testIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/If.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/If.kt", this::doTest);
         }
 
         @TestMetadata("Imports.kt")
         public void testImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/Imports.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/Imports.kt", this::doTest);
         }
 
         @TestMetadata("justLambdaInScript.kts")
         public void testJustLambdaInScript() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/justLambdaInScript.kts");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/justLambdaInScript.kts", this::doTest);
         }
 
         @TestMetadata("NoCompanionObjectImport.kt")
         public void testNoCompanionObjectImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/NoCompanionObjectImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/NoCompanionObjectImport.kt", this::doTest);
         }
 
         @TestMetadata("NoDefaultImport.kt")
         public void testNoDefaultImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/NoDefaultImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/NoDefaultImport.kt", this::doTest);
         }
 
         @TestMetadata("NoReturn.kt")
         public void testNoReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/NoReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/NoReturn.kt", this::doTest);
         }
 
         @TestMetadata("NotAvailableOnDocComment.kt")
         public void testNotAvailableOnDocComment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/NotAvailableOnDocComment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/NotAvailableOnDocComment.kt", this::doTest);
         }
 
         @TestMetadata("PrivateSymbolUsed.kt")
         public void testPrivateSymbolUsed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/PrivateSymbolUsed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/PrivateSymbolUsed.kt", this::doTest);
         }
 
         @TestMetadata("QualifiedCall.kt")
         public void testQualifiedCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/QualifiedCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/QualifiedCall.kt", this::doTest);
         }
 
         @TestMetadata("Return.kt")
         public void testReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/Return.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/Return.kt", this::doTest);
         }
 
         @TestMetadata("ReturnInside.kt")
         public void testReturnInside() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ReturnInside.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ReturnInside.kt", this::doTest);
         }
 
         @TestMetadata("Simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/Simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/Simple.kt", this::doTest);
         }
 
         @TestMetadata("StringLiteral.kt")
         public void testStringLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/StringLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/StringLiteral.kt", this::doTest);
         }
 
         @TestMetadata("StringTemplate.kt")
         public void testStringTemplate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/StringTemplate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/StringTemplate.kt", this::doTest);
         }
 
         @TestMetadata("TwoStatements.kt")
         public void testTwoStatements() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/TwoStatements.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/TwoStatements.kt", this::doTest);
         }
 
         @TestMetadata("ValProperty.kt")
         public void testValProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ValProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ValProperty.kt", this::doTest);
         }
 
         @TestMetadata("ValPropertyWithReturn.kt")
         public void testValPropertyWithReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ValPropertyWithReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/deprecatedCallableAddReplaceWith/ValPropertyWithReturn.kt", this::doTest);
         }
     }
 
@@ -1481,26 +1267,22 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/doubleNegation/function.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/doubleNegation/function.kt", this::doTest);
         }
 
         @TestMetadata("invalid.kt")
         public void testInvalid() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/doubleNegation/invalid.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/doubleNegation/invalid.kt", this::doTest);
         }
 
         @TestMetadata("parenthesized.kt")
         public void testParenthesized() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/doubleNegation/parenthesized.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/doubleNegation/parenthesized.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/doubleNegation/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/doubleNegation/simple.kt", this::doTest);
         }
     }
 
@@ -1514,8 +1296,7 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/emptyRange/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/emptyRange/simple.kt", this::doTest);
         }
     }
 
@@ -1529,98 +1310,82 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("differentReceiverInstance.kt")
         public void testDifferentReceiverInstance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/differentReceiverInstance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/differentReceiverInstance.kt", this::doTest);
         }
 
         @TestMetadata("differentReceiverInstanceExtension.kt")
         public void testDifferentReceiverInstanceExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/differentReceiverInstanceExtension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/differentReceiverInstanceExtension.kt", this::doTest);
         }
 
         @TestMetadata("differentReceiverType.kt")
         public void testDifferentReceiverType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/differentReceiverType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/differentReceiverType.kt", this::doTest);
         }
 
         @TestMetadata("differentReceiverTypeExtension.kt")
         public void testDifferentReceiverTypeExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/differentReceiverTypeExtension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/differentReceiverTypeExtension.kt", this::doTest);
         }
 
         @TestMetadata("extension.kt")
         public void testExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/extension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/extension.kt", this::doTest);
         }
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/function.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/function.kt", this::doTest);
         }
 
         @TestMetadata("functionReference.kt")
         public void testFunctionReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/functionReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/functionReference.kt", this::doTest);
         }
 
         @TestMetadata("multipleReceivers.kt")
         public void testMultipleReceivers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/multipleReceivers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/multipleReceivers.kt", this::doTest);
         }
 
         @TestMetadata("multipleReceiversExtension.kt")
         public void testMultipleReceiversExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/multipleReceiversExtension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/multipleReceiversExtension.kt", this::doTest);
         }
 
         @TestMetadata("nestedReceivers.kt")
         public void testNestedReceivers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/nestedReceivers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/nestedReceivers.kt", this::doTest);
         }
 
         @TestMetadata("nestedReceiversDifferentParameters.kt")
         public void testNestedReceiversDifferentParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/nestedReceiversDifferentParameters.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/nestedReceiversDifferentParameters.kt", this::doTest);
         }
 
         @TestMetadata("nestedReceiversExtension.kt")
         public void testNestedReceiversExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/nestedReceiversExtension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/nestedReceiversExtension.kt", this::doTest);
         }
 
         @TestMetadata("nestedReceiversExtensionDifferentParameters.kt")
         public void testNestedReceiversExtensionDifferentParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/nestedReceiversExtensionDifferentParameters.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/nestedReceiversExtensionDifferentParameters.kt", this::doTest);
         }
 
         @TestMetadata("property.kt")
         public void testProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/property.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/property.kt", this::doTest);
         }
 
         @TestMetadata("propertyReference.kt")
         public void testPropertyReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/propertyReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/propertyReference.kt", this::doTest);
         }
 
         @TestMetadata("variableWithSameName.kt")
         public void testVariableWithSameName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/explicitThis/variableWithSameName.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/explicitThis/variableWithSameName.kt", this::doTest);
         }
     }
 
@@ -1634,32 +1399,27 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("final.kt")
         public void testFinal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/ImplicitNullableNothingType/final.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/ImplicitNullableNothingType/final.kt", this::doTest);
         }
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/ImplicitNullableNothingType/function.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/ImplicitNullableNothingType/function.kt", this::doTest);
         }
 
         @TestMetadata("top.kt")
         public void testTop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/ImplicitNullableNothingType/top.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/ImplicitNullableNothingType/top.kt", this::doTest);
         }
 
         @TestMetadata("val.kt")
         public void testVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/ImplicitNullableNothingType/val.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/ImplicitNullableNothingType/val.kt", this::doTest);
         }
 
         @TestMetadata("variable.kt")
         public void testVariable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/ImplicitNullableNothingType/variable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/ImplicitNullableNothingType/variable.kt", this::doTest);
         }
     }
 
@@ -1673,74 +1433,62 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("already.kt")
         public void testAlready() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/already.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/already.kt", this::doTest);
         }
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/function.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/function.kt", this::doTest);
         }
 
         @TestMetadata("functionPartOfCall.kt")
         public void testFunctionPartOfCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/functionPartOfCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/functionPartOfCall.kt", this::doTest);
         }
 
         @TestMetadata("functionReference.kt")
         public void testFunctionReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/functionReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/functionReference.kt", this::doTest);
         }
 
         @TestMetadata("functionWithReceiver.kt")
         public void testFunctionWithReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/functionWithReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/functionWithReceiver.kt", this::doTest);
         }
 
         @TestMetadata("multipleReceivers.kt")
         public void testMultipleReceivers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/multipleReceivers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/multipleReceivers.kt", this::doTest);
         }
 
         @TestMetadata("nested.kt")
         public void testNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/nested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/nested.kt", this::doTest);
         }
 
         @TestMetadata("nestedCall.kt")
         public void testNestedCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/nestedCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/nestedCall.kt", this::doTest);
         }
 
         @TestMetadata("property.kt")
         public void testProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/property.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/property.kt", this::doTest);
         }
 
         @TestMetadata("propertyPartOfCall.kt")
         public void testPropertyPartOfCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/propertyPartOfCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/propertyPartOfCall.kt", this::doTest);
         }
 
         @TestMetadata("propertyReference.kt")
         public void testPropertyReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/propertyReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/propertyReference.kt", this::doTest);
         }
 
         @TestMetadata("topLevel.kt")
         public void testTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/implicitThis/topLevel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/implicitThis/topLevel.kt", this::doTest);
         }
     }
 
@@ -1754,68 +1502,57 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("fill.kt")
         public void testFill() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/fill.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/fill.kt", this::doTest);
         }
 
         @TestMetadata("reverse.kt")
         public void testReverse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/reverse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/reverse.kt", this::doTest);
         }
 
         @TestMetadata("reverseImmutableList.kt")
         public void testReverseImmutableList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/reverseImmutableList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/reverseImmutableList.kt", this::doTest);
         }
 
         @TestMetadata("shuffle.kt")
         public void testShuffle() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/shuffle.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/shuffle.kt", this::doTest);
         }
 
         @TestMetadata("shuffleRandom.kt")
         public void testShuffleRandom() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/shuffleRandom.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/shuffleRandom.kt", this::doTest);
         }
 
         @TestMetadata("sort.kt")
         public void testSort() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sort.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sort.kt", this::doTest);
         }
 
         @TestMetadata("sortArrayList.kt")
         public void testSortArrayList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortArrayList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortArrayList.kt", this::doTest);
         }
 
         @TestMetadata("sortImmutableList.kt")
         public void testSortImmutableList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortImmutableList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortImmutableList.kt", this::doTest);
         }
 
         @TestMetadata("sortLinkedList.kt")
         public void testSortLinkedList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortLinkedList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortLinkedList.kt", this::doTest);
         }
 
         @TestMetadata("sortVector.kt")
         public void testSortVector() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortVector.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortVector.kt", this::doTest);
         }
 
         @TestMetadata("sortWith.kt")
         public void testSortWith() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortWith.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/javaCollectionsStaticMethod/sortWith.kt", this::doTest);
         }
     }
 
@@ -1829,20 +1566,17 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("primaryConstructorProperty.kt")
         public void testPrimaryConstructorProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/kdocMissingDocumentation/primaryConstructorProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/kdocMissingDocumentation/primaryConstructorProperty.kt", this::doTest);
         }
 
         @TestMetadata("primaryConstructorPropertyAsParam.kt")
         public void testPrimaryConstructorPropertyAsParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/kdocMissingDocumentation/primaryConstructorPropertyAsParam.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/kdocMissingDocumentation/primaryConstructorPropertyAsParam.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/kdocMissingDocumentation/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/kdocMissingDocumentation/simple.kt", this::doTest);
         }
     }
 
@@ -1856,8 +1590,7 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("noOpenForInterface.kt")
         public void testNoOpenForInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/leakingThis/noOpenForInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/leakingThis/noOpenForInterface.kt", this::doTest);
         }
     }
 
@@ -1879,92 +1612,77 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("cascadeIf.kt")
             public void testCascadeIf() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/cascadeIf.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/cascadeIf.kt", this::doTest);
             }
 
             @TestMetadata("elseIfOnly.kt")
             public void testElseIfOnly() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/elseIfOnly.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/elseIfOnly.kt", this::doTest);
             }
 
             @TestMetadata("ifElseIf.kt")
             public void testIfElseIf() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/ifElseIf.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/ifElseIf.kt", this::doTest);
             }
 
             @TestMetadata("ifElseIfElse.kt")
             public void testIfElseIfElse() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/ifElseIfElse.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/ifElseIfElse.kt", this::doTest);
             }
 
             @TestMetadata("ifElseifElseInconsistent.kt")
             public void testIfElseifElseInconsistent() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/ifElseifElseInconsistent.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/ifElseifElseInconsistent.kt", this::doTest);
             }
 
             @TestMetadata("innerIfTransformed.kt")
             public void testInnerIfTransformed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/innerIfTransformed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/innerIfTransformed.kt", this::doTest);
             }
 
             @TestMetadata("multipleAssignments.kt")
             public void testMultipleAssignments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/multipleAssignments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/multipleAssignments.kt", this::doTest);
             }
 
             @TestMetadata("simpleIf.kt")
             public void testSimpleIf() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIf.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIf.kt", this::doTest);
             }
 
             @TestMetadata("simpleIfWithAugmentedAssignment.kt")
             public void testSimpleIfWithAugmentedAssignment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithAugmentedAssignment.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithAugmentedAssignment.kt", this::doTest);
             }
 
             @TestMetadata("simpleIfWithBlocks.kt")
             public void testSimpleIfWithBlocks() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithBlocks.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithBlocks.kt", this::doTest);
             }
 
             @TestMetadata("simpleIfWithShadowedVar.kt")
             public void testSimpleIfWithShadowedVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithShadowedVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithShadowedVar.kt", this::doTest);
             }
 
             @TestMetadata("simpleIfWithUnmatchedAssignmentOps.kt")
             public void testSimpleIfWithUnmatchedAssignmentOps() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithUnmatchedAssignmentOps.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithUnmatchedAssignmentOps.kt", this::doTest);
             }
 
             @TestMetadata("simpleIfWithUnmatchedAssignments.kt")
             public void testSimpleIfWithUnmatchedAssignments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithUnmatchedAssignments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithUnmatchedAssignments.kt", this::doTest);
             }
 
             @TestMetadata("simpleIfWithoutElse.kt")
             public void testSimpleIfWithoutElse() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithoutElse.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithoutElse.kt", this::doTest);
             }
 
             @TestMetadata("simpleIfWithoutTerminatingAssignment.kt")
             public void testSimpleIfWithoutTerminatingAssignment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithoutTerminatingAssignment.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToAssignment/simpleIfWithoutTerminatingAssignment.kt", this::doTest);
             }
         }
 
@@ -1978,50 +1696,42 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("cascadeIf.kt")
             public void testCascadeIf() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToReturn/cascadeIf.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToReturn/cascadeIf.kt", this::doTest);
             }
 
             @TestMetadata("ifElseIf.kt")
             public void testIfElseIf() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToReturn/ifElseIf.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToReturn/ifElseIf.kt", this::doTest);
             }
 
             @TestMetadata("ifElseIfElse.kt")
             public void testIfElseIfElse() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToReturn/ifElseIfElse.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToReturn/ifElseIfElse.kt", this::doTest);
             }
 
             @TestMetadata("ifElseIfElseInconsistent.kt")
             public void testIfElseIfElseInconsistent() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToReturn/ifElseIfElseInconsistent.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToReturn/ifElseIfElseInconsistent.kt", this::doTest);
             }
 
             @TestMetadata("ifVeryLong.kt")
             public void testIfVeryLong() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToReturn/ifVeryLong.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToReturn/ifVeryLong.kt", this::doTest);
             }
 
             @TestMetadata("innerIfTransformed.kt")
             public void testInnerIfTransformed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToReturn/innerIfTransformed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToReturn/innerIfTransformed.kt", this::doTest);
             }
 
             @TestMetadata("simpleIf.kt")
             public void testSimpleIf() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToReturn/simpleIf.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToReturn/simpleIf.kt", this::doTest);
             }
 
             @TestMetadata("simpleIfWithBlocks.kt")
             public void testSimpleIfWithBlocks() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/ifToReturn/simpleIfWithBlocks.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/ifToReturn/simpleIfWithBlocks.kt", this::doTest);
             }
         }
 
@@ -2035,68 +1745,57 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("basic.kt")
             public void testBasic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/basic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/basic.kt", this::doTest);
             }
 
             @TestMetadata("block.kt")
             public void testBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/block.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/block.kt", this::doTest);
             }
 
             @TestMetadata("cascade.kt")
             public void testCascade() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/cascade.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/cascade.kt", this::doTest);
             }
 
             @TestMetadata("finally.kt")
             public void testFinally() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finally.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finally.kt", this::doTest);
             }
 
             @TestMetadata("finallyWithAssignment.kt")
             public void testFinallyWithAssignment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finallyWithAssignment.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finallyWithAssignment.kt", this::doTest);
             }
 
             @TestMetadata("finallyWithCascadeAssignment.kt")
             public void testFinallyWithCascadeAssignment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finallyWithCascadeAssignment.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finallyWithCascadeAssignment.kt", this::doTest);
             }
 
             @TestMetadata("finallyWithCascadeUnmatchedAssignment.kt")
             public void testFinallyWithCascadeUnmatchedAssignment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finallyWithCascadeUnmatchedAssignment.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finallyWithCascadeUnmatchedAssignment.kt", this::doTest);
             }
 
             @TestMetadata("finallyWithUnmatchedAssignments.kt")
             public void testFinallyWithUnmatchedAssignments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finallyWithUnmatchedAssignments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/finallyWithUnmatchedAssignments.kt", this::doTest);
             }
 
             @TestMetadata("inner.kt")
             public void testInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/inner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/inner.kt", this::doTest);
             }
 
             @TestMetadata("withUnmatchedAssignments.kt")
             public void testWithUnmatchedAssignments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/withUnmatchedAssignments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/withUnmatchedAssignments.kt", this::doTest);
             }
 
             @TestMetadata("withoutTerminatingAssignment.kt")
             public void testWithoutTerminatingAssignment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToAssignment/withoutTerminatingAssignment.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToAssignment/withoutTerminatingAssignment.kt", this::doTest);
             }
         }
 
@@ -2110,50 +1809,42 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("basic.kt")
             public void testBasic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToReturn/basic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToReturn/basic.kt", this::doTest);
             }
 
             @TestMetadata("block.kt")
             public void testBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToReturn/block.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToReturn/block.kt", this::doTest);
             }
 
             @TestMetadata("cascade.kt")
             public void testCascade() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToReturn/cascade.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToReturn/cascade.kt", this::doTest);
             }
 
             @TestMetadata("finally.kt")
             public void testFinally() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToReturn/finally.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToReturn/finally.kt", this::doTest);
             }
 
             @TestMetadata("finallyWithCascadeReturn.kt")
             public void testFinallyWithCascadeReturn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToReturn/finallyWithCascadeReturn.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToReturn/finallyWithCascadeReturn.kt", this::doTest);
             }
 
             @TestMetadata("finallyWithReturn.kt")
             public void testFinallyWithReturn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToReturn/finallyWithReturn.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToReturn/finallyWithReturn.kt", this::doTest);
             }
 
             @TestMetadata("inner.kt")
             public void testInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToReturn/inner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToReturn/inner.kt", this::doTest);
             }
 
             @TestMetadata("withoutReturn.kt")
             public void testWithoutReturn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/tryToReturn/withoutReturn.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/tryToReturn/withoutReturn.kt", this::doTest);
             }
         }
 
@@ -2167,68 +1858,57 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("cascadeWhen.kt")
             public void testCascadeWhen() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/cascadeWhen.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/cascadeWhen.kt", this::doTest);
             }
 
             @TestMetadata("innerWhenTransformed.kt")
             public void testInnerWhenTransformed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/innerWhenTransformed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/innerWhenTransformed.kt", this::doTest);
             }
 
             @TestMetadata("insideLoop.kt")
             public void testInsideLoop() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/insideLoop.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/insideLoop.kt", this::doTest);
             }
 
             @TestMetadata("simpleWhen.kt")
             public void testSimpleWhen() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhen.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhen.kt", this::doTest);
             }
 
             @TestMetadata("simpleWhenWithBlocks.kt")
             public void testSimpleWhenWithBlocks() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhenWithBlocks.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhenWithBlocks.kt", this::doTest);
             }
 
             @TestMetadata("simpleWhenWithShadowedVar.kt")
             public void testSimpleWhenWithShadowedVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhenWithShadowedVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhenWithShadowedVar.kt", this::doTest);
             }
 
             @TestMetadata("simpleWhenWithUnmatchedAssignments.kt")
             public void testSimpleWhenWithUnmatchedAssignments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhenWithUnmatchedAssignments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhenWithUnmatchedAssignments.kt", this::doTest);
             }
 
             @TestMetadata("simpleWhenWithoutTerminatingAssignment.kt")
             public void testSimpleWhenWithoutTerminatingAssignment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhenWithoutTerminatingAssignment.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/simpleWhenWithoutTerminatingAssignment.kt", this::doTest);
             }
 
             @TestMetadata("whenHasMissingCase.kt")
             public void testWhenHasMissingCase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/whenHasMissingCase.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/whenHasMissingCase.kt", this::doTest);
             }
 
             @TestMetadata("whenHasNoMissingCase.kt")
             public void testWhenHasNoMissingCase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/whenHasNoMissingCase.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/whenHasNoMissingCase.kt", this::doTest);
             }
 
             @TestMetadata("whenHasNoMissingCaseWithElse.kt")
             public void testWhenHasNoMissingCaseWithElse() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToAssignment/whenHasNoMissingCaseWithElse.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToAssignment/whenHasNoMissingCaseWithElse.kt", this::doTest);
             }
         }
 
@@ -2242,80 +1922,67 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("cascadeWhen.kt")
             public void testCascadeWhen() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/cascadeWhen.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/cascadeWhen.kt", this::doTest);
             }
 
             @TestMetadata("innerWhenTransformed.kt")
             public void testInnerWhenTransformed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/innerWhenTransformed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/innerWhenTransformed.kt", this::doTest);
             }
 
             @TestMetadata("insideLoop.kt")
             public void testInsideLoop() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/insideLoop.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/insideLoop.kt", this::doTest);
             }
 
             @TestMetadata("localReturns.kt")
             public void testLocalReturns() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/localReturns.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/localReturns.kt", this::doTest);
             }
 
             @TestMetadata("otherReturns.kt")
             public void testOtherReturns() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/otherReturns.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/otherReturns.kt", this::doTest);
             }
 
             @TestMetadata("simpleWhen.kt")
             public void testSimpleWhen() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/simpleWhen.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/simpleWhen.kt", this::doTest);
             }
 
             @TestMetadata("simpleWhenWithBlocks.kt")
             public void testSimpleWhenWithBlocks() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/simpleWhenWithBlocks.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/simpleWhenWithBlocks.kt", this::doTest);
             }
 
             @TestMetadata("whenHasMissingCase.kt")
             public void testWhenHasMissingCase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenHasMissingCase.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenHasMissingCase.kt", this::doTest);
             }
 
             @TestMetadata("whenHasNoMissingCase.kt")
             public void testWhenHasNoMissingCase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenHasNoMissingCase.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenHasNoMissingCase.kt", this::doTest);
             }
 
             @TestMetadata("whenHasNoMissingCaseWithElse.kt")
             public void testWhenHasNoMissingCaseWithElse() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenHasNoMissingCaseWithElse.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenHasNoMissingCaseWithElse.kt", this::doTest);
             }
 
             @TestMetadata("whenOneReturn.kt")
             public void testWhenOneReturn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenOneReturn.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenOneReturn.kt", this::doTest);
             }
 
             @TestMetadata("whenThrowOnly.kt")
             public void testWhenThrowOnly() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenThrowOnly.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenThrowOnly.kt", this::doTest);
             }
 
             @TestMetadata("whenWithLambda.kt")
             public void testWhenWithLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenWithLambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/liftOut/whenToReturn/whenWithLambda.kt", this::doTest);
             }
         }
     }
@@ -2330,140 +1997,117 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("array.kt")
         public void testArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/array.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/array.kt", this::doTest);
         }
 
         @TestMetadata("cascadeConst.kt")
         public void testCascadeConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/cascadeConst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/cascadeConst.kt", this::doTest);
         }
 
         @TestMetadata("companion.kt")
         public void testCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/companion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/companion.kt", this::doTest);
         }
 
         @TestMetadata("const.kt")
         public void testConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/const.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/const.kt", this::doTest);
         }
 
         @TestMetadata("constInExpr.kt")
         public void testConstInExpr() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/constInExpr.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/constInExpr.kt", this::doTest);
         }
 
         @TestMetadata("ecplicitType.kt")
         public void testEcplicitType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType.kt", this::doTest);
         }
 
         @TestMetadata("ecplicitType2.kt")
         public void testEcplicitType2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType2.kt", this::doTest);
         }
 
         @TestMetadata("ecplicitType3.kt")
         public void testEcplicitType3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType3.kt", this::doTest);
         }
 
         @TestMetadata("ecplicitType4.kt")
         public void testEcplicitType4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType4.kt", this::doTest);
         }
 
         @TestMetadata("ecplicitType5.kt")
         public void testEcplicitType5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/ecplicitType5.kt", this::doTest);
         }
 
         @TestMetadata("enum.kt")
         public void testEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/enum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/enum.kt", this::doTest);
         }
 
         @TestMetadata("getter.kt")
         public void testGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/getter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/getter.kt", this::doTest);
         }
 
         @TestMetadata("getterWithInitializer.kt")
         public void testGetterWithInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/getterWithInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/getterWithInitializer.kt", this::doTest);
         }
 
         @TestMetadata("inClass.kt")
         public void testInClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/inClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/inClass.kt", this::doTest);
         }
 
         @TestMetadata("nonConstInExpr.kt")
         public void testNonConstInExpr() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/nonConstInExpr.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/nonConstInExpr.kt", this::doTest);
         }
 
         @TestMetadata("nonJvmFieldAnnotated.kt")
         public void testNonJvmFieldAnnotated() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/nonJvmFieldAnnotated.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/nonJvmFieldAnnotated.kt", this::doTest);
         }
 
         @TestMetadata("null.kt")
         public void testNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/null.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/null.kt", this::doTest);
         }
 
         @TestMetadata("object.kt")
         public void testObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/object.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/object.kt", this::doTest);
         }
 
         @TestMetadata("override.kt")
         public void testOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/override.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/override.kt", this::doTest);
         }
 
         @TestMetadata("script.kts")
         public void testScript() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/script.kts");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/script.kts", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/simple.kt", this::doTest);
         }
 
         @TestMetadata("simplest.kt")
         public void testSimplest() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/simplest.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/simplest.kt", this::doTest);
         }
 
         @TestMetadata("var.kt")
         public void testVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/mayBeConstant/var.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/mayBeConstant/var.kt", this::doTest);
         }
     }
 
@@ -2477,20 +2121,17 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/memberVisibilityCanBePrivate/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/memberVisibilityCanBePrivate/annotation.kt", this::doTest);
         }
 
         @TestMetadata("JvmFieldOnParameter.kt")
         public void testJvmFieldOnParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/memberVisibilityCanBePrivate/JvmFieldOnParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/memberVisibilityCanBePrivate/JvmFieldOnParameter.kt", this::doTest);
         }
 
         @TestMetadata("JvmFieldOnProperty.kt")
         public void testJvmFieldOnProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/memberVisibilityCanBePrivate/JvmFieldOnProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/memberVisibilityCanBePrivate/JvmFieldOnProperty.kt", this::doTest);
         }
     }
 
@@ -2504,20 +2145,17 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("base.kt")
         public void testBase() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/migrateDiagnosticSuppression/base.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/migrateDiagnosticSuppression/base.kt", this::doTest);
         }
 
         @TestMetadata("multiple.kt")
         public void testMultiple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/migrateDiagnosticSuppression/multiple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/migrateDiagnosticSuppression/multiple.kt", this::doTest);
         }
 
         @TestMetadata("new.kt")
         public void testNew() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/migrateDiagnosticSuppression/new.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/migrateDiagnosticSuppression/new.kt", this::doTest);
         }
     }
 
@@ -2531,110 +2169,92 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("ambigousOverload.kt")
         public void testAmbigousOverload() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/ambigousOverload.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/ambigousOverload.kt", this::doTest);
         }
 
         @TestMetadata("functionalValueCall.kt")
         public void testFunctionalValueCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/functionalValueCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/functionalValueCall.kt", this::doTest);
         }
 
         @TestMetadata("inapplicable1.kt")
         public void testInapplicable1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicable1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicable1.kt", this::doTest);
         }
 
         @TestMetadata("inapplicable2.kt")
         public void testInapplicable2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicable2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicable2.kt", this::doTest);
         }
 
         @TestMetadata("inapplicable3.kt")
         public void testInapplicable3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicable3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicable3.kt", this::doTest);
         }
 
         @TestMetadata("inapplicableAlreadyHasFunctionLiteral.kt")
         public void testInapplicableAlreadyHasFunctionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicableAlreadyHasFunctionLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicableAlreadyHasFunctionLiteral.kt", this::doTest);
         }
 
         @TestMetadata("inapplicableOptionalParametersAfter.kt")
         public void testInapplicableOptionalParametersAfter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicableOptionalParametersAfter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/inapplicableOptionalParametersAfter.kt", this::doTest);
         }
 
         @TestMetadata("labeledLambda.kt")
         public void testLabeledLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/labeledLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/labeledLambda.kt", this::doTest);
         }
 
         @TestMetadata("lambdaWithCommas.kt")
         public void testLambdaWithCommas() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/lambdaWithCommas.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/lambdaWithCommas.kt", this::doTest);
         }
 
         @TestMetadata("lambdaWithCommas2.kt")
         public void testLambdaWithCommas2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/lambdaWithCommas2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/lambdaWithCommas2.kt", this::doTest);
         }
 
         @TestMetadata("lambdaWithCommas3.kt")
         public void testLambdaWithCommas3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/lambdaWithCommas3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/lambdaWithCommas3.kt", this::doTest);
         }
 
         @TestMetadata("moveLambda1.kt")
         public void testMoveLambda1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda1.kt", this::doTest);
         }
 
         @TestMetadata("moveLambda2.kt")
         public void testMoveLambda2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda2.kt", this::doTest);
         }
 
         @TestMetadata("moveLambda3.kt")
         public void testMoveLambda3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda3.kt", this::doTest);
         }
 
         @TestMetadata("moveLambda4.kt")
         public void testMoveLambda4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda4.kt", this::doTest);
         }
 
         @TestMetadata("moveLambda5.kt")
         public void testMoveLambda5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda5.kt", this::doTest);
         }
 
         @TestMetadata("moveLambda6.kt")
         public void testMoveLambda6() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda6.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/moveLambda6.kt", this::doTest);
         }
 
         @TestMetadata("noTwoConsequentLambdas.kt")
         public void testNoTwoConsequentLambdas() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/noTwoConsequentLambdas.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveLambdaOutsideParentheses/noTwoConsequentLambdas.kt", this::doTest);
         }
     }
 
@@ -2648,86 +2268,72 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("defaultParameter.kt")
         public void testDefaultParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/defaultParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/defaultParameter.kt", this::doTest);
         }
 
         @TestMetadata("expectedFunction.kt")
         public void testExpectedFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/expectedFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/expectedFunction.kt", this::doTest);
         }
 
         @TestMetadata("explicitThisReceiver.kt")
         public void testExplicitThisReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/explicitThisReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/explicitThisReceiver.kt", this::doTest);
         }
 
         @TestMetadata("implicitThisReceiver.kt")
         public void testImplicitThisReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/implicitThisReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/implicitThisReceiver.kt", this::doTest);
         }
 
         @TestMetadata("it.kt")
         public void testIt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/it.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/it.kt", this::doTest);
         }
 
         @TestMetadata("lambdaWithArg.kt")
         public void testLambdaWithArg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/lambdaWithArg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/lambdaWithArg.kt", this::doTest);
         }
 
         @TestMetadata("multipleLines.kt")
         public void testMultipleLines() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/multipleLines.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/multipleLines.kt", this::doTest);
         }
 
         @TestMetadata("noBody.kt")
         public void testNoBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/noBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/noBody.kt", this::doTest);
         }
 
         @TestMetadata("noneCallableRef.kt")
         public void testNoneCallableRef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/noneCallableRef.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/noneCallableRef.kt", this::doTest);
         }
 
         @TestMetadata("normal.kt")
         public void testNormal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/normal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/normal.kt", this::doTest);
         }
 
         @TestMetadata("parameter.kt")
         public void testParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/parameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/parameter.kt", this::doTest);
         }
 
         @TestMetadata("parameter2.kt")
         public void testParameter2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/parameter2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/parameter2.kt", this::doTest);
         }
 
         @TestMetadata("parameterOuter.kt")
         public void testParameterOuter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/parameterOuter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/parameterOuter.kt", this::doTest);
         }
 
         @TestMetadata("variableReceiver.kt")
         public void testVariableReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/variableReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/moveSuspiciousCallableReferenceIntoParentheses/variableReceiver.kt", this::doTest);
         }
     }
 
@@ -2741,50 +2347,42 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("andCase.kt")
         public void testAndCase() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullChecksToSafeCall/andCase.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullChecksToSafeCall/andCase.kt", this::doTest);
         }
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullChecksToSafeCall/function.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullChecksToSafeCall/function.kt", this::doTest);
         }
 
         @TestMetadata("kotlinType.kt")
         public void testKotlinType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullChecksToSafeCall/kotlinType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullChecksToSafeCall/kotlinType.kt", this::doTest);
         }
 
         @TestMetadata("longRightExpression.kt")
         public void testLongRightExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullChecksToSafeCall/longRightExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullChecksToSafeCall/longRightExpression.kt", this::doTest);
         }
 
         @TestMetadata("orCase.kt")
         public void testOrCase() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullChecksToSafeCall/orCase.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullChecksToSafeCall/orCase.kt", this::doTest);
         }
 
         @TestMetadata("safeCall.kt")
         public void testSafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullChecksToSafeCall/safeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullChecksToSafeCall/safeCall.kt", this::doTest);
         }
 
         @TestMetadata("unstableChain.kt")
         public void testUnstableChain() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullChecksToSafeCall/unstableChain.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullChecksToSafeCall/unstableChain.kt", this::doTest);
         }
 
         @TestMetadata("unstableExtensionInChain.kt")
         public void testUnstableExtensionInChain() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullChecksToSafeCall/unstableExtensionInChain.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullChecksToSafeCall/unstableExtensionInChain.kt", this::doTest);
         }
     }
 
@@ -2798,32 +2396,27 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("inIf.kt")
         public void testInIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullableBooleanElvis/inIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullableBooleanElvis/inIf.kt", this::doTest);
         }
 
         @TestMetadata("inIf2.kt")
         public void testInIf2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullableBooleanElvis/inIf2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullableBooleanElvis/inIf2.kt", this::doTest);
         }
 
         @TestMetadata("inIf3.kt")
         public void testInIf3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullableBooleanElvis/inIf3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullableBooleanElvis/inIf3.kt", this::doTest);
         }
 
         @TestMetadata("notInIf.kt")
         public void testNotInIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullableBooleanElvis/notInIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullableBooleanElvis/notInIf.kt", this::doTest);
         }
 
         @TestMetadata("notInIfWithTrue.kt")
         public void testNotInIfWithTrue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/nullableBooleanElvis/notInIfWithTrue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/nullableBooleanElvis/notInIfWithTrue.kt", this::doTest);
         }
     }
 
@@ -2837,62 +2430,52 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("recursive.kt")
         public void testRecursive() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursive.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursive.kt", this::doTest);
         }
 
         @TestMetadata("recursiveDirect.kt")
         public void testRecursiveDirect() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveDirect.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveDirect.kt", this::doTest);
         }
 
         @TestMetadata("recursiveDirectFake.kt")
         public void testRecursiveDirectFake() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveDirectFake.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveDirectFake.kt", this::doTest);
         }
 
         @TestMetadata("recursiveDirectSafe.kt")
         public void testRecursiveDirectSafe() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveDirectSafe.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveDirectSafe.kt", this::doTest);
         }
 
         @TestMetadata("recursiveFake.kt")
         public void testRecursiveFake() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveFake.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveFake.kt", this::doTest);
         }
 
         @TestMetadata("recursiveFakeNested.kt")
         public void testRecursiveFakeNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveFakeNested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveFakeNested.kt", this::doTest);
         }
 
         @TestMetadata("recursiveFakeNoOther.kt")
         public void testRecursiveFakeNoOther() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveFakeNoOther.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveFakeNoOther.kt", this::doTest);
         }
 
         @TestMetadata("recursiveImplicit.kt")
         public void testRecursiveImplicit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveImplicit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveImplicit.kt", this::doTest);
         }
 
         @TestMetadata("recursiveNested.kt")
         public void testRecursiveNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveNested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveNested.kt", this::doTest);
         }
 
         @TestMetadata("recursiveNot.kt")
         public void testRecursiveNot() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveNot.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/recursiveEqualsCall/recursiveNot.kt", this::doTest);
         }
     }
 
@@ -2906,68 +2489,57 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/basic.kt", this::doTest);
         }
 
         @TestMetadata("companionDoubleNested.kt")
         public void testCompanionDoubleNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/companionDoubleNested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/companionDoubleNested.kt", this::doTest);
         }
 
         @TestMetadata("companionNested.kt")
         public void testCompanionNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/companionNested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/companionNested.kt", this::doTest);
         }
 
         @TestMetadata("companionNestedObject.kt")
         public void testCompanionNestedObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/companionNestedObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/companionNestedObject.kt", this::doTest);
         }
 
         @TestMetadata("directCompanion.kt")
         public void testDirectCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/directCompanion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/directCompanion.kt", this::doTest);
         }
 
         @TestMetadata("functionReference.kt")
         public void testFunctionReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/functionReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/functionReference.kt", this::doTest);
         }
 
         @TestMetadata("import.kt")
         public void testImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/import.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/import.kt", this::doTest);
         }
 
         @TestMetadata("methodArgument.kt")
         public void testMethodArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/methodArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/methodArgument.kt", this::doTest);
         }
 
         @TestMetadata("named.kt")
         public void testNamed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/named.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/named.kt", this::doTest);
         }
 
         @TestMetadata("notCompanion.kt")
         public void testNotCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/notCompanion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/notCompanion.kt", this::doTest);
         }
 
         @TestMetadata("onlyCompanion.kt")
         public void testOnlyCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantCompanionReference/onlyCompanion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantCompanionReference/onlyCompanion.kt", this::doTest);
         }
     }
 
@@ -2981,92 +2553,77 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("boolean.kt")
         public void testBoolean() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/boolean.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/boolean.kt", this::doTest);
         }
 
         @TestMetadata("char.kt")
         public void testChar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/char.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/char.kt", this::doTest);
         }
 
         @TestMetadata("constructor.kt")
         public void testConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/constructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/constructor.kt", this::doTest);
         }
 
         @TestMetadata("double.kt")
         public void testDouble() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/double.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/double.kt", this::doTest);
         }
 
         @TestMetadata("float.kt")
         public void testFloat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/float.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/float.kt", this::doTest);
         }
 
         @TestMetadata("int.kt")
         public void testInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/int.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/int.kt", this::doTest);
         }
 
         @TestMetadata("intExpr.kt")
         public void testIntExpr() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/intExpr.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/intExpr.kt", this::doTest);
         }
 
         @TestMetadata("interface.kt")
         public void testInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/interface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/interface.kt", this::doTest);
         }
 
         @TestMetadata("long.kt")
         public void testLong() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/long.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/long.kt", this::doTest);
         }
 
         @TestMetadata("member.kt")
         public void testMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/member.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/member.kt", this::doTest);
         }
 
         @TestMetadata("null.kt")
         public void testNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/null.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/null.kt", this::doTest);
         }
 
         @TestMetadata("object.kt")
         public void testObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/object.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/object.kt", this::doTest);
         }
 
         @TestMetadata("short.kt")
         public void testShort() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/short.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/short.kt", this::doTest);
         }
 
         @TestMetadata("string.kt")
         public void testString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/string.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/string.kt", this::doTest);
         }
 
         @TestMetadata("top.kt")
         public void testTop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantExplicitType/top.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantExplicitType/top.kt", this::doTest);
         }
     }
 
@@ -3080,56 +2637,47 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantGetter/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantGetter/annotation.kt", this::doTest);
         }
 
         @TestMetadata("default.kt")
         public void testDefault() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantGetter/default.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantGetter/default.kt", this::doTest);
         }
 
         @TestMetadata("fieldExpression.kt")
         public void testFieldExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantGetter/fieldExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantGetter/fieldExpression.kt", this::doTest);
         }
 
         @TestMetadata("hasType.kt")
         public void testHasType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantGetter/hasType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantGetter/hasType.kt", this::doTest);
         }
 
         @TestMetadata("hasTypeWithPropertyExplicitType.kt")
         public void testHasTypeWithPropertyExplicitType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantGetter/hasTypeWithPropertyExplicitType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantGetter/hasTypeWithPropertyExplicitType.kt", this::doTest);
         }
 
         @TestMetadata("hasTypeWithPropertyInitializer.kt")
         public void testHasTypeWithPropertyInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantGetter/hasTypeWithPropertyInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantGetter/hasTypeWithPropertyInitializer.kt", this::doTest);
         }
 
         @TestMetadata("notFieldExpression.kt")
         public void testNotFieldExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantGetter/notFieldExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantGetter/notFieldExpression.kt", this::doTest);
         }
 
         @TestMetadata("notOnlyReturnFieldBody.kt")
         public void testNotOnlyReturnFieldBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantGetter/notOnlyReturnFieldBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantGetter/notOnlyReturnFieldBody.kt", this::doTest);
         }
 
         @TestMetadata("onlyReturnFieldBody.kt")
         public void testOnlyReturnFieldBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantGetter/onlyReturnFieldBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantGetter/onlyReturnFieldBody.kt", this::doTest);
         }
     }
 
@@ -3143,14 +2691,12 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("hasArguments.kt")
         public void testHasArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantLambdaArrow/hasArguments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantLambdaArrow/hasArguments.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantLambdaArrow/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantLambdaArrow/simple.kt", this::doTest);
         }
     }
 
@@ -3164,38 +2710,32 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("isClass.kt")
         public void testIsClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isClass.kt", this::doTest);
         }
 
         @TestMetadata("isClassWhenEntry.kt")
         public void testIsClassWhenEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isClassWhenEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isClassWhenEntry.kt", this::doTest);
         }
 
         @TestMetadata("isNotObject.kt")
         public void testIsNotObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isNotObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isNotObject.kt", this::doTest);
         }
 
         @TestMetadata("isNotObjectWhenEntry.kt")
         public void testIsNotObjectWhenEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isNotObjectWhenEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isNotObjectWhenEntry.kt", this::doTest);
         }
 
         @TestMetadata("isObject.kt")
         public void testIsObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isObject.kt", this::doTest);
         }
 
         @TestMetadata("isObjectWhenEntry.kt")
         public void testIsObjectWhenEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isObjectWhenEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantObjectTypeCheck/isObjectWhenEntry.kt", this::doTest);
         }
     }
 
@@ -3209,92 +2749,77 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("annotated.kt")
         public void testAnnotated() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/annotated.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/annotated.kt", this::doTest);
         }
 
         @TestMetadata("arguments.kt")
         public void testArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/arguments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/arguments.kt", this::doTest);
         }
 
         @TestMetadata("argumentsReplaced.kt")
         public void testArgumentsReplaced() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/argumentsReplaced.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/argumentsReplaced.kt", this::doTest);
         }
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/basic.kt", this::doTest);
         }
 
         @TestMetadata("callDifferentSuperMethod.kt")
         public void testCallDifferentSuperMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/callDifferentSuperMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/callDifferentSuperMethod.kt", this::doTest);
         }
 
         @TestMetadata("dataClass.kt")
         public void testDataClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/dataClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/dataClass.kt", this::doTest);
         }
 
         @TestMetadata("delegatedMemberHidesSuperTypeOverride.kt")
         public void testDelegatedMemberHidesSuperTypeOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/delegatedMemberHidesSuperTypeOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/delegatedMemberHidesSuperTypeOverride.kt", this::doTest);
         }
 
         @TestMetadata("delegatedMemberHidesSuperTypeOverride2.kt")
         public void testDelegatedMemberHidesSuperTypeOverride2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/delegatedMemberHidesSuperTypeOverride2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/delegatedMemberHidesSuperTypeOverride2.kt", this::doTest);
         }
 
         @TestMetadata("delegatedMemberHidesSuperTypeOverride3.kt")
         public void testDelegatedMemberHidesSuperTypeOverride3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/delegatedMemberHidesSuperTypeOverride3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/delegatedMemberHidesSuperTypeOverride3.kt", this::doTest);
         }
 
         @TestMetadata("delegatedMemberHidesSuperTypeOverride4.kt")
         public void testDelegatedMemberHidesSuperTypeOverride4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/delegatedMemberHidesSuperTypeOverride4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/delegatedMemberHidesSuperTypeOverride4.kt", this::doTest);
         }
 
         @TestMetadata("notCallSuper.kt")
         public void testNotCallSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/notCallSuper.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/notCallSuper.kt", this::doTest);
         }
 
         @TestMetadata("overrideModifireFinal.kt")
         public void testOverrideModifireFinal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/overrideModifireFinal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/overrideModifireFinal.kt", this::doTest);
         }
 
         @TestMetadata("overrideModifireVisibility.kt")
         public void testOverrideModifireVisibility() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/overrideModifireVisibility.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/overrideModifireVisibility.kt", this::doTest);
         }
 
         @TestMetadata("singleExpressionFunction.kt")
         public void testSingleExpressionFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/singleExpressionFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/singleExpressionFunction.kt", this::doTest);
         }
 
         @TestMetadata("useGenericsSuper.kt")
         public void testUseGenericsSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantOverride/useGenericsSuper.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantOverride/useGenericsSuper.kt", this::doTest);
         }
     }
 
@@ -3308,62 +2833,52 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("beforeAnnotationAndLambda.kt")
         public void testBeforeAnnotationAndLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/beforeAnnotationAndLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/beforeAnnotationAndLambda.kt", this::doTest);
         }
 
         @TestMetadata("beforeCommentAndLambda.kt")
         public void testBeforeCommentAndLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/beforeCommentAndLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/beforeCommentAndLambda.kt", this::doTest);
         }
 
         @TestMetadata("beforeKDocAndLambda.kt")
         public void testBeforeKDocAndLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/beforeKDocAndLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/beforeKDocAndLambda.kt", this::doTest);
         }
 
         @TestMetadata("companionBeforeFun.kt")
         public void testCompanionBeforeFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/companionBeforeFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/companionBeforeFun.kt", this::doTest);
         }
 
         @TestMetadata("companionBeforeInit.kt")
         public void testCompanionBeforeInit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/companionBeforeInit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/companionBeforeInit.kt", this::doTest);
         }
 
         @TestMetadata("companionBeforePrivateFun.kt")
         public void testCompanionBeforePrivateFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/companionBeforePrivateFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/companionBeforePrivateFun.kt", this::doTest);
         }
 
         @TestMetadata("companionBeforeVal.kt")
         public void testCompanionBeforeVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/companionBeforeVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/companionBeforeVal.kt", this::doTest);
         }
 
         @TestMetadata("companionInLast.kt")
         public void testCompanionInLast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/companionInLast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/companionInLast.kt", this::doTest);
         }
 
         @TestMetadata("companionWithBody.kt")
         public void testCompanionWithBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/companionWithBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/companionWithBody.kt", this::doTest);
         }
 
         @TestMetadata("companionWithName.kt")
         public void testCompanionWithName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSemicolon/companionWithName.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSemicolon/companionWithName.kt", this::doTest);
         }
     }
 
@@ -3377,92 +2892,77 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/annotation.kt", this::doTest);
         }
 
         @TestMetadata("blankBody.kt")
         public void testBlankBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/blankBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/blankBody.kt", this::doTest);
         }
 
         @TestMetadata("default.kt")
         public void testDefault() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/default.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/default.kt", this::doTest);
         }
 
         @TestMetadata("lowerVisibility1.kt")
         public void testLowerVisibility1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/lowerVisibility1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/lowerVisibility1.kt", this::doTest);
         }
 
         @TestMetadata("lowerVisibility2.kt")
         public void testLowerVisibility2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/lowerVisibility2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/lowerVisibility2.kt", this::doTest);
         }
 
         @TestMetadata("lowerVisibility3.kt")
         public void testLowerVisibility3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/lowerVisibility3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/lowerVisibility3.kt", this::doTest);
         }
 
         @TestMetadata("notOnlyFieldSetBody.kt")
         public void testNotOnlyFieldSetBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/notOnlyFieldSetBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/notOnlyFieldSetBody.kt", this::doTest);
         }
 
         @TestMetadata("onlyFieldSetBody.kt")
         public void testOnlyFieldSetBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/onlyFieldSetBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/onlyFieldSetBody.kt", this::doTest);
         }
 
         @TestMetadata("overrideBlankBody.kt")
         public void testOverrideBlankBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/overrideBlankBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/overrideBlankBody.kt", this::doTest);
         }
 
         @TestMetadata("overrideDefault.kt")
         public void testOverrideDefault() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/overrideDefault.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/overrideDefault.kt", this::doTest);
         }
 
         @TestMetadata("overrideNotOnlyFieldSetBody.kt")
         public void testOverrideNotOnlyFieldSetBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/overrideNotOnlyFieldSetBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/overrideNotOnlyFieldSetBody.kt", this::doTest);
         }
 
         @TestMetadata("overrideOnlyFieldSetBody.kt")
         public void testOverrideOnlyFieldSetBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/overrideOnlyFieldSetBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/overrideOnlyFieldSetBody.kt", this::doTest);
         }
 
         @TestMetadata("sameVisibility1.kt")
         public void testSameVisibility1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/sameVisibility1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/sameVisibility1.kt", this::doTest);
         }
 
         @TestMetadata("sameVisibility2.kt")
         public void testSameVisibility2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/sameVisibility2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/sameVisibility2.kt", this::doTest);
         }
 
         @TestMetadata("sameVisibility3.kt")
         public void testSameVisibility3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSetter/sameVisibility3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSetter/sameVisibility3.kt", this::doTest);
         }
     }
 
@@ -3476,26 +2976,22 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("coroutineContext.kt")
         public void testCoroutineContext() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSuspend/coroutineContext.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSuspend/coroutineContext.kt", this::doTest);
         }
 
         @TestMetadata("getterDelegate.kt")
         public void testGetterDelegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSuspend/getterDelegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSuspend/getterDelegate.kt", this::doTest);
         }
 
         @TestMetadata("override.kt")
         public void testOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSuspend/override.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSuspend/override.kt", this::doTest);
         }
 
         @TestMetadata("setterDelegate.kt")
         public void testSetterDelegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantSuspend/setterDelegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantSuspend/setterDelegate.kt", this::doTest);
         }
     }
 
@@ -3509,98 +3005,82 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("atLastAfterClass.kt")
         public void testAtLastAfterClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterClass.kt", this::doTest);
         }
 
         @TestMetadata("atLastAfterConstant.kt")
         public void testAtLastAfterConstant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterConstant.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterConstant.kt", this::doTest);
         }
 
         @TestMetadata("atLastAfterFunInIf.kt")
         public void testAtLastAfterFunInIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterFunInIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterFunInIf.kt", this::doTest);
         }
 
         @TestMetadata("atLastAfterFunInTry.kt")
         public void testAtLastAfterFunInTry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterFunInTry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterFunInTry.kt", this::doTest);
         }
 
         @TestMetadata("atLastAfterFunInWhen.kt")
         public void testAtLastAfterFunInWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterFunInWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterFunInWhen.kt", this::doTest);
         }
 
         @TestMetadata("atLastAfterIntFunctionCall.kt")
         public void testAtLastAfterIntFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterIntFunctionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterIntFunctionCall.kt", this::doTest);
         }
 
         @TestMetadata("atLastAfterUnit.kt")
         public void testAtLastAfterUnit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterUnit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterUnit.kt", this::doTest);
         }
 
         @TestMetadata("atLastAfterUnitFunctionCall.kt")
         public void testAtLastAfterUnitFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterUnitFunctionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterUnitFunctionCall.kt", this::doTest);
         }
 
         @TestMetadata("atLastAfterVal.kt")
         public void testAtLastAfterVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/atLastAfterVal.kt", this::doTest);
         }
 
         @TestMetadata("lambda.kt")
         public void testLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/lambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/lambda.kt", this::doTest);
         }
 
         @TestMetadata("notRedundant1.kt")
         public void testNotRedundant1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/notRedundant1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/notRedundant1.kt", this::doTest);
         }
 
         @TestMetadata("notRedundant2.kt")
         public void testNotRedundant2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/notRedundant2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/notRedundant2.kt", this::doTest);
         }
 
         @TestMetadata("notRedundant3.kt")
         public void testNotRedundant3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/notRedundant3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/notRedundant3.kt", this::doTest);
         }
 
         @TestMetadata("redundant1.kt")
         public void testRedundant1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/redundant1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/redundant1.kt", this::doTest);
         }
 
         @TestMetadata("redundant4.kt")
         public void testRedundant4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/redundant4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/redundant4.kt", this::doTest);
         }
 
         @TestMetadata("redundant5.kt")
         public void testRedundant5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/redundantUnitExpression/redundant5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/redundantUnitExpression/redundant5.kt", this::doTest);
         }
     }
 
@@ -3614,32 +3094,27 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("functionArgument.kt")
         public void testFunctionArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantBackticks/functionArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantBackticks/functionArgument.kt", this::doTest);
         }
 
         @TestMetadata("functionCall.kt")
         public void testFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantBackticks/functionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantBackticks/functionCall.kt", this::doTest);
         }
 
         @TestMetadata("identifierContainingSpaces.kt")
         public void testIdentifierContainingSpaces() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantBackticks/identifierContainingSpaces.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantBackticks/identifierContainingSpaces.kt", this::doTest);
         }
 
         @TestMetadata("keyword.kt")
         public void testKeyword() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantBackticks/keyword.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantBackticks/keyword.kt", this::doTest);
         }
 
         @TestMetadata("property.kt")
         public void testProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantBackticks/property.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantBackticks/property.kt", this::doTest);
         }
     }
 
@@ -3653,104 +3128,87 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/basic.kt", this::doTest);
         }
 
         @TestMetadata("booleanArrayOf.kt")
         public void testBooleanArrayOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/booleanArrayOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/booleanArrayOf.kt", this::doTest);
         }
 
         @TestMetadata("byteArrayOf.kt")
         public void testByteArrayOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/byteArrayOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/byteArrayOf.kt", this::doTest);
         }
 
         @TestMetadata("charArrayOf.kt")
         public void testCharArrayOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/charArrayOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/charArrayOf.kt", this::doTest);
         }
 
         @TestMetadata("doubleArrayOf.kt")
         public void testDoubleArrayOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/doubleArrayOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/doubleArrayOf.kt", this::doTest);
         }
 
         @TestMetadata("emptyArray.kt")
         public void testEmptyArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/emptyArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/emptyArray.kt", this::doTest);
         }
 
         @TestMetadata("emptyLiteral.kt")
         public void testEmptyLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/emptyLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/emptyLiteral.kt", this::doTest);
         }
 
         @TestMetadata("floatArrayOf.kt")
         public void testFloatArrayOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/floatArrayOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/floatArrayOf.kt", this::doTest);
         }
 
         @TestMetadata("intArrayOf.kt")
         public void testIntArrayOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/intArrayOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/intArrayOf.kt", this::doTest);
         }
 
         @TestMetadata("literal.kt")
         public void testLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/literal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/literal.kt", this::doTest);
         }
 
         @TestMetadata("longArrayOf.kt")
         public void testLongArrayOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/longArrayOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/longArrayOf.kt", this::doTest);
         }
 
         @TestMetadata("multipleValues.kt")
         public void testMultipleValues() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/multipleValues.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/multipleValues.kt", this::doTest);
         }
 
         @TestMetadata("multipleValuesWithOtherValues.kt")
         public void testMultipleValuesWithOtherValues() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/multipleValuesWithOtherValues.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/multipleValuesWithOtherValues.kt", this::doTest);
         }
 
         @TestMetadata("namedArgument.kt")
         public void testNamedArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/namedArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/namedArgument.kt", this::doTest);
         }
 
         @TestMetadata("namedArgumentForArray.kt")
         public void testNamedArgumentForArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/namedArgumentForArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/namedArgumentForArray.kt", this::doTest);
         }
 
         @TestMetadata("noParams.kt")
         public void testNoParams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/noParams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/noParams.kt", this::doTest);
         }
 
         @TestMetadata("shortArrayOf.kt")
         public void testShortArrayOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/shortArrayOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeRedundantSpreadOperator/shortArrayOf.kt", this::doTest);
         }
     }
 
@@ -3764,8 +3222,7 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("emptyType.kt")
         public void testEmptyType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeSetterParameterType/emptyType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeSetterParameterType/emptyType.kt", this::doTest);
         }
     }
 
@@ -3779,14 +3236,12 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("caretInReceiver.kt")
         public void testCaretInReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeToStringInStringTemplate/caretInReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeToStringInStringTemplate/caretInReceiver.kt", this::doTest);
         }
 
         @TestMetadata("caretInSelector.kt")
         public void testCaretInSelector() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/removeToStringInStringTemplate/caretInSelector.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/removeToStringInStringTemplate/caretInSelector.kt", this::doTest);
         }
     }
 
@@ -3800,26 +3255,22 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("arrayAndOtherTypeEQEQ.kt")
         public void testArrayAndOtherTypeEQEQ() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayEqualityOpWithArraysEquals/arrayAndOtherTypeEQEQ.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayEqualityOpWithArraysEquals/arrayAndOtherTypeEQEQ.kt", this::doTest);
         }
 
         @TestMetadata("arrayEQEQ.kt")
         public void testArrayEQEQ() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayEqualityOpWithArraysEquals/arrayEQEQ.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayEqualityOpWithArraysEquals/arrayEQEQ.kt", this::doTest);
         }
 
         @TestMetadata("arrayEXCLEQ.kt")
         public void testArrayEXCLEQ() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayEqualityOpWithArraysEquals/arrayEXCLEQ.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayEqualityOpWithArraysEquals/arrayEXCLEQ.kt", this::doTest);
         }
 
         @TestMetadata("primitiveArrayEQEQ.kt")
         public void testPrimitiveArrayEQEQ() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayEqualityOpWithArraysEquals/primitiveArrayEQEQ.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayEqualityOpWithArraysEquals/primitiveArrayEQEQ.kt", this::doTest);
         }
     }
 
@@ -3833,62 +3284,52 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("base.kt")
         public void testBase() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/base.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/base.kt", this::doTest);
         }
 
         @TestMetadata("default.kt")
         public void testDefault() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/default.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/default.kt", this::doTest);
         }
 
         @TestMetadata("defaultNotAnnotation.kt")
         public void testDefaultNotAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/defaultNotAnnotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/defaultNotAnnotation.kt", this::doTest);
         }
 
         @TestMetadata("empty.kt")
         public void testEmpty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/empty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/empty.kt", this::doTest);
         }
 
         @TestMetadata("intArray.kt")
         public void testIntArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/intArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/intArray.kt", this::doTest);
         }
 
         @TestMetadata("noAnnotation.kt")
         public void testNoAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/noAnnotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/noAnnotation.kt", this::doTest);
         }
 
         @TestMetadata("noArray.kt")
         public void testNoArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/noArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/noArray.kt", this::doTest);
         }
 
         @TestMetadata("unnamed.kt")
         public void testUnnamed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/unnamed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/unnamed.kt", this::doTest);
         }
 
         @TestMetadata("unnamedVararg.kt")
         public void testUnnamedVararg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/unnamedVararg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/unnamedVararg.kt", this::doTest);
         }
 
         @TestMetadata("vararg.kt")
         public void testVararg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/vararg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceArrayOfWithLiteral/vararg.kt", this::doTest);
         }
     }
 
@@ -3902,38 +3343,32 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("nonMap.kt")
         public void testNonMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replacePutWithAssignment/nonMap.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replacePutWithAssignment/nonMap.kt", this::doTest);
         }
 
         @TestMetadata("putAsExpression.kt")
         public void testPutAsExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replacePutWithAssignment/putAsExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replacePutWithAssignment/putAsExpression.kt", this::doTest);
         }
 
         @TestMetadata("putOnParameter.kt")
         public void testPutOnParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replacePutWithAssignment/putOnParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replacePutWithAssignment/putOnParameter.kt", this::doTest);
         }
 
         @TestMetadata("putOnThis.kt")
         public void testPutOnThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replacePutWithAssignment/putOnThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replacePutWithAssignment/putOnThis.kt", this::doTest);
         }
 
         @TestMetadata("putOnVal.kt")
         public void testPutOnVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replacePutWithAssignment/putOnVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replacePutWithAssignment/putOnVal.kt", this::doTest);
         }
 
         @TestMetadata("putOnVar.kt")
         public void testPutOnVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replacePutWithAssignment/putOnVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replacePutWithAssignment/putOnVar.kt", this::doTest);
         }
     }
 
@@ -3947,44 +3382,37 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("closedRange.kt")
         public void testClosedRange() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceRangeToWithUntil/closedRange.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceRangeToWithUntil/closedRange.kt", this::doTest);
         }
 
         @TestMetadata("minusTwo.kt")
         public void testMinusTwo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceRangeToWithUntil/minusTwo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceRangeToWithUntil/minusTwo.kt", this::doTest);
         }
 
         @TestMetadata("notMinusOne.kt")
         public void testNotMinusOne() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceRangeToWithUntil/notMinusOne.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceRangeToWithUntil/notMinusOne.kt", this::doTest);
         }
 
         @TestMetadata("operator.kt")
         public void testOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceRangeToWithUntil/operator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceRangeToWithUntil/operator.kt", this::doTest);
         }
 
         @TestMetadata("operatorLong.kt")
         public void testOperatorLong() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceRangeToWithUntil/operatorLong.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceRangeToWithUntil/operatorLong.kt", this::doTest);
         }
 
         @TestMetadata("plusOne.kt")
         public void testPlusOne() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceRangeToWithUntil/plusOne.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceRangeToWithUntil/plusOne.kt", this::doTest);
         }
 
         @TestMetadata("rangeTo.kt")
         public void testRangeTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceRangeToWithUntil/rangeTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceRangeToWithUntil/rangeTo.kt", this::doTest);
         }
     }
 
@@ -3998,14 +3426,12 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("base.kt")
         public void testBase() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceToWithInfixForm/base.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceToWithInfixForm/base.kt", this::doTest);
         }
 
         @TestMetadata("nonPair.kt")
         public void testNonPair() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceToWithInfixForm/nonPair.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceToWithInfixForm/nonPair.kt", this::doTest);
         }
     }
 
@@ -4019,74 +3445,62 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("flexibleTypeBug.kt")
         public void testFlexibleTypeBug() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/flexibleTypeBug.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/flexibleTypeBug.kt", this::doTest);
         }
 
         @TestMetadata("illegalMultipleOperators.kt")
         public void testIllegalMultipleOperators() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/illegalMultipleOperators.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/illegalMultipleOperators.kt", this::doTest);
         }
 
         @TestMetadata("illegalMultipleOperatorsMiddle.kt")
         public void testIllegalMultipleOperatorsMiddle() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/illegalMultipleOperatorsMiddle.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/illegalMultipleOperatorsMiddle.kt", this::doTest);
         }
 
         @TestMetadata("invalidSubtraction.kt")
         public void testInvalidSubtraction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/invalidSubtraction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/invalidSubtraction.kt", this::doTest);
         }
 
         @TestMetadata("multipleOperators.kt")
         public void testMultipleOperators() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/multipleOperators.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/multipleOperators.kt", this::doTest);
         }
 
         @TestMetadata("multipleOperatorsRightSideRepeat.kt")
         public void testMultipleOperatorsRightSideRepeat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/multipleOperatorsRightSideRepeat.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/multipleOperatorsRightSideRepeat.kt", this::doTest);
         }
 
         @TestMetadata("nonCommutativeRepeat.kt")
         public void testNonCommutativeRepeat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/nonCommutativeRepeat.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/nonCommutativeRepeat.kt", this::doTest);
         }
 
         @TestMetadata("nonRepeatingAssignment.kt")
         public void testNonRepeatingAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/nonRepeatingAssignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/nonRepeatingAssignment.kt", this::doTest);
         }
 
         @TestMetadata("plusAssignConflict.kt")
         public void testPlusAssignConflict() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/plusAssignConflict.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/plusAssignConflict.kt", this::doTest);
         }
 
         @TestMetadata("rightSideRepeat.kt")
         public void testRightSideRepeat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/rightSideRepeat.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/rightSideRepeat.kt", this::doTest);
         }
 
         @TestMetadata("simpleAssign.kt")
         public void testSimpleAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/simpleAssign.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/simpleAssign.kt", this::doTest);
         }
 
         @TestMetadata("validSubtraction.kt")
         public void testValidSubtraction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/validSubtraction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/replaceWithOperatorAssignment/validSubtraction.kt", this::doTest);
         }
     }
 
@@ -4108,8 +3522,7 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/alsoToApply/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/alsoToApply/simple.kt", this::doTest);
             }
         }
 
@@ -4123,56 +3536,47 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("arrow.kt")
             public void testArrow() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/arrow.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/arrow.kt", this::doTest);
             }
 
             @TestMetadata("doubleNestedLambdas.kt")
             public void testDoubleNestedLambdas() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/doubleNestedLambdas.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/doubleNestedLambdas.kt", this::doTest);
             }
 
             @TestMetadata("innerLambda.kt")
             public void testInnerLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/innerLambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/innerLambda.kt", this::doTest);
             }
 
             @TestMetadata("itInNestedLambda.kt")
             public void testItInNestedLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/itInNestedLambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/itInNestedLambda.kt", this::doTest);
             }
 
             @TestMetadata("method.kt")
             public void testMethod() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/method.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/method.kt", this::doTest);
             }
 
             @TestMetadata("outerLambda.kt")
             public void testOuterLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/outerLambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/outerLambda.kt", this::doTest);
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/simple.kt", this::doTest);
             }
 
             @TestMetadata("thisInOperation.kt")
             public void testThisInOperation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/thisInOperation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/thisInOperation.kt", this::doTest);
             }
 
             @TestMetadata("thisQualifier.kt")
             public void testThisQualifier() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/thisQualifier.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/applyToAlso/thisQualifier.kt", this::doTest);
             }
         }
 
@@ -4186,50 +3590,42 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("nestedLambda.kt")
             public void testNestedLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/letToRun/nestedLambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/letToRun/nestedLambda.kt", this::doTest);
             }
 
             @TestMetadata("outerThis.kt")
             public void testOuterThis() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/letToRun/outerThis.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/letToRun/outerThis.kt", this::doTest);
             }
 
             @TestMetadata("qualifyThis.kt")
             public void testQualifyThis() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/letToRun/qualifyThis.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/letToRun/qualifyThis.kt", this::doTest);
             }
 
             @TestMetadata("qualifyThisNoConflict.kt")
             public void testQualifyThisNoConflict() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/letToRun/qualifyThisNoConflict.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/letToRun/qualifyThisNoConflict.kt", this::doTest);
             }
 
             @TestMetadata("qualifyThisWithLambda.kt")
             public void testQualifyThisWithLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/letToRun/qualifyThisWithLambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/letToRun/qualifyThisWithLambda.kt", this::doTest);
             }
 
             @TestMetadata("qualifyThisWithLambdaNoConflict.kt")
             public void testQualifyThisWithLambdaNoConflict() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/letToRun/qualifyThisWithLambdaNoConflict.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/letToRun/qualifyThisWithLambdaNoConflict.kt", this::doTest);
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/letToRun/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/letToRun/simple.kt", this::doTest);
             }
 
             @TestMetadata("thisInStringTemplate.kt")
             public void testThisInStringTemplate() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/letToRun/thisInStringTemplate.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/letToRun/thisInStringTemplate.kt", this::doTest);
             }
         }
 
@@ -4243,8 +3639,7 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/scopeFunctions/runToLet/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/scopeFunctions/runToLet/simple.kt", this::doTest);
             }
         }
     }
@@ -4259,134 +3654,112 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("applyCorrect.kt")
         public void testApplyCorrect() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/applyCorrect.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/applyCorrect.kt", this::doTest);
         }
 
         @TestMetadata("applyIncorrect.kt")
         public void testApplyIncorrect() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/applyIncorrect.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/applyIncorrect.kt", this::doTest);
         }
 
         @TestMetadata("assignToProperty.kt")
         public void testAssignToProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/assignToProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/assignToProperty.kt", this::doTest);
         }
 
         @TestMetadata("differentThese.kt")
         public void testDifferentThese() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/differentThese.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/differentThese.kt", this::doTest);
         }
 
         @TestMetadata("differentThis.kt")
         public void testDifferentThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/differentThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/differentThis.kt", this::doTest);
         }
 
         @TestMetadata("list.kt")
         public void testList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/list.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/list.kt", this::doTest);
         }
 
         @TestMetadata("localVal.kt")
         public void testLocalVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/localVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/localVal.kt", this::doTest);
         }
 
         @TestMetadata("localVar.kt")
         public void testLocalVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/localVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/localVar.kt", this::doTest);
         }
 
         @TestMetadata("notAssignment.kt")
         public void testNotAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/notAssignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/notAssignment.kt", this::doTest);
         }
 
         @TestMetadata("notSelf.kt")
         public void testNotSelf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/notSelf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/notSelf.kt", this::doTest);
         }
 
         @TestMetadata("openProperty.kt")
         public void testOpenProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/openProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/openProperty.kt", this::doTest);
         }
 
         @TestMetadata("parameter.kt")
         public void testParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/parameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/parameter.kt", this::doTest);
         }
 
         @TestMetadata("property1.kt")
         public void testProperty1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/property1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/property1.kt", this::doTest);
         }
 
         @TestMetadata("property2.kt")
         public void testProperty2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/property2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/property2.kt", this::doTest);
         }
 
         @TestMetadata("property3.kt")
         public void testProperty3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/property3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/property3.kt", this::doTest);
         }
 
         @TestMetadata("propertyHasDelegate.kt")
         public void testPropertyHasDelegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/propertyHasDelegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/propertyHasDelegate.kt", this::doTest);
         }
 
         @TestMetadata("propertyHasGetter.kt")
         public void testPropertyHasGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/propertyHasGetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/propertyHasGetter.kt", this::doTest);
         }
 
         @TestMetadata("propertyHasSetter.kt")
         public void testPropertyHasSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/propertyHasSetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/propertyHasSetter.kt", this::doTest);
         }
 
         @TestMetadata("sameThese.kt")
         public void testSameThese() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/sameThese.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/sameThese.kt", this::doTest);
         }
 
         @TestMetadata("sameThis.kt")
         public void testSameThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/sameThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/sameThis.kt", this::doTest);
         }
 
         @TestMetadata("shadow.kt")
         public void testShadow() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/shadow.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/shadow.kt", this::doTest);
         }
 
         @TestMetadata("withReceiver.kt")
         public void testWithReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/selfAssignment/withReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/selfAssignment/withReceiver.kt", this::doTest);
         }
     }
 
@@ -4400,68 +3773,57 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("comments.kt")
         public void testComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/comments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/comments.kt", this::doTest);
         }
 
         @TestMetadata("commentsNoMessage.kt")
         public void testCommentsNoMessage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/commentsNoMessage.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/commentsNoMessage.kt", this::doTest);
         }
 
         @TestMetadata("complicatedMessageLambda.kt")
         public void testComplicatedMessageLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/complicatedMessageLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/complicatedMessageLambda.kt", this::doTest);
         }
 
         @TestMetadata("eqNull.kt")
         public void testEqNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/eqNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/eqNull.kt", this::doTest);
         }
 
         @TestMetadata("errorFunctionInContext.kt")
         public void testErrorFunctionInContext() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/errorFunctionInContext.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/errorFunctionInContext.kt", this::doTest);
         }
 
         @TestMetadata("falseAssert.kt")
         public void testFalseAssert() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/falseAssert.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/falseAssert.kt", this::doTest);
         }
 
         @TestMetadata("noMessage.kt")
         public void testNoMessage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/noMessage.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/noMessage.kt", this::doTest);
         }
 
         @TestMetadata("otherVariable.kt")
         public void testOtherVariable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/otherVariable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/otherVariable.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedAccess.kt")
         public void testQualifiedAccess() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/qualifiedAccess.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/qualifiedAccess.kt", this::doTest);
         }
 
         @TestMetadata("withMessage.kt")
         public void testWithMessage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/withMessage.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/withMessage.kt", this::doTest);
         }
 
         @TestMetadata("withMessageLambdaOutside.kt")
         public void testWithMessageLambdaOutside() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyAssertNotNull/withMessageLambdaOutside.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyAssertNotNull/withMessageLambdaOutside.kt", this::doTest);
         }
     }
 
@@ -4475,74 +3837,62 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("equals.kt")
         public void testEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/equals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/equals.kt", this::doTest);
         }
 
         @TestMetadata("greaterThan.kt")
         public void testGreaterThan() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/greaterThan.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/greaterThan.kt", this::doTest);
         }
 
         @TestMetadata("greaterThanOrEquals.kt")
         public void testGreaterThanOrEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/greaterThanOrEquals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/greaterThanOrEquals.kt", this::doTest);
         }
 
         @TestMetadata("in.kt")
         public void testIn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/in.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/in.kt", this::doTest);
         }
 
         @TestMetadata("inapplicableBinaryOperation.kt")
         public void testInapplicableBinaryOperation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/inapplicableBinaryOperation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/inapplicableBinaryOperation.kt", this::doTest);
         }
 
         @TestMetadata("is.kt")
         public void testIs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/is.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/is.kt", this::doTest);
         }
 
         @TestMetadata("lessThan.kt")
         public void testLessThan() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/lessThan.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/lessThan.kt", this::doTest);
         }
 
         @TestMetadata("lessThanOrEquals.kt")
         public void testLessThanOrEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/lessThanOrEquals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/lessThanOrEquals.kt", this::doTest);
         }
 
         @TestMetadata("notEquals.kt")
         public void testNotEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/notEquals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/notEquals.kt", this::doTest);
         }
 
         @TestMetadata("notIn.kt")
         public void testNotIn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/notIn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/notIn.kt", this::doTest);
         }
 
         @TestMetadata("notIs.kt")
         public void testNotIs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/notIs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/notIs.kt", this::doTest);
         }
 
         @TestMetadata("simpleInvert.kt")
         public void testSimpleInvert() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/simpleInvert.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyNegatedBinaryExpression/simpleInvert.kt", this::doTest);
         }
     }
 
@@ -4556,86 +3906,72 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("falseAndElse1.kt")
         public void testFalseAndElse1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseAndElse1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseAndElse1.kt", this::doTest);
         }
 
         @TestMetadata("falseAndElse2.kt")
         public void testFalseAndElse2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseAndElse2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseAndElse2.kt", this::doTest);
         }
 
         @TestMetadata("falseAndElse3.kt")
         public void testFalseAndElse3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseAndElse3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseAndElse3.kt", this::doTest);
         }
 
         @TestMetadata("falseOnly1.kt")
         public void testFalseOnly1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseOnly1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseOnly1.kt", this::doTest);
         }
 
         @TestMetadata("falseOnly2.kt")
         public void testFalseOnly2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseOnly2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseOnly2.kt", this::doTest);
         }
 
         @TestMetadata("falseOnly3.kt")
         public void testFalseOnly3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseOnly3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/falseOnly3.kt", this::doTest);
         }
 
         @TestMetadata("hasSubject.kt")
         public void testHasSubject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/hasSubject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/hasSubject.kt", this::doTest);
         }
 
         @TestMetadata("noBoolean.kt")
         public void testNoBoolean() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/noBoolean.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/noBoolean.kt", this::doTest);
         }
 
         @TestMetadata("trueIsNotTop1.kt")
         public void testTrueIsNotTop1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsNotTop1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsNotTop1.kt", this::doTest);
         }
 
         @TestMetadata("trueIsNotTop2.kt")
         public void testTrueIsNotTop2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsNotTop2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsNotTop2.kt", this::doTest);
         }
 
         @TestMetadata("trueIsNotTop3.kt")
         public void testTrueIsNotTop3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsNotTop3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsNotTop3.kt", this::doTest);
         }
 
         @TestMetadata("trueIsTop1.kt")
         public void testTrueIsTop1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsTop1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsTop1.kt", this::doTest);
         }
 
         @TestMetadata("trueIsTop2.kt")
         public void testTrueIsTop2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsTop2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsTop2.kt", this::doTest);
         }
 
         @TestMetadata("trueIsTop3.kt")
         public void testTrueIsTop3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsTop3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/simplifyWhenWithBooleanConstantCondition/trueIsTop3.kt", this::doTest);
         }
     }
 
@@ -4649,32 +3985,27 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/sortModifiers/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/sortModifiers/annotation.kt", this::doTest);
         }
 
         @TestMetadata("annotationGroup.kt")
         public void testAnnotationGroup() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/sortModifiers/annotationGroup.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/sortModifiers/annotationGroup.kt", this::doTest);
         }
 
         @TestMetadata("annotationOverrideFinal.kt")
         public void testAnnotationOverrideFinal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/sortModifiers/annotationOverrideFinal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/sortModifiers/annotationOverrideFinal.kt", this::doTest);
         }
 
         @TestMetadata("overrideFinal.kt")
         public void testOverrideFinal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/sortModifiers/overrideFinal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/sortModifiers/overrideFinal.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/sortModifiers/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/sortModifiers/simple.kt", this::doTest);
         }
     }
 
@@ -4688,68 +4019,57 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("copyOfVal.kt")
         public void testCopyOfVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/copyOfVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/copyOfVal.kt", this::doTest);
         }
 
         @TestMetadata("copyOfValUnused.kt")
         public void testCopyOfValUnused() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/copyOfValUnused.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/copyOfValUnused.kt", this::doTest);
         }
 
         @TestMetadata("copyOfValWithExplicitType.kt")
         public void testCopyOfValWithExplicitType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/copyOfValWithExplicitType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/copyOfValWithExplicitType.kt", this::doTest);
         }
 
         @TestMetadata("copyOfVar.kt")
         public void testCopyOfVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/copyOfVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/copyOfVar.kt", this::doTest);
         }
 
         @TestMetadata("it.kt")
         public void testIt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/it.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/it.kt", this::doTest);
         }
 
         @TestMetadata("paramCopy.kt")
         public void testParamCopy() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/paramCopy.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/paramCopy.kt", this::doTest);
         }
 
         @TestMetadata("parameterWithSameNameBelow.kt")
         public void testParameterWithSameNameBelow() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/parameterWithSameNameBelow.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/parameterWithSameNameBelow.kt", this::doTest);
         }
 
         @TestMetadata("propertyCopy.kt")
         public void testPropertyCopy() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/propertyCopy.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/propertyCopy.kt", this::doTest);
         }
 
         @TestMetadata("simpleReturn.kt")
         public void testSimpleReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/simpleReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/simpleReturn.kt", this::doTest);
         }
 
         @TestMetadata("topLevelCopy.kt")
         public void testTopLevelCopy() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/topLevelCopy.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/topLevelCopy.kt", this::doTest);
         }
 
         @TestMetadata("varCopy.kt")
         public void testVarCopy() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unnecessaryVariable/varCopy.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unnecessaryVariable/varCopy.kt", this::doTest);
         }
     }
 
@@ -4763,20 +4083,17 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("binaryExpression.kt")
         public void testBinaryExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unsafeCastFromDynamic/binaryExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unsafeCastFromDynamic/binaryExpression.kt", this::doTest);
         }
 
         @TestMetadata("nullable.kt")
         public void testNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unsafeCastFromDynamic/nullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unsafeCastFromDynamic/nullable.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unsafeCastFromDynamic/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unsafeCastFromDynamic/simple.kt", this::doTest);
         }
     }
 
@@ -4790,14 +4107,12 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("inEnumEntry.kt")
         public void testInEnumEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedLambdaExpressionBody/inEnumEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedLambdaExpressionBody/inEnumEntry.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedLambdaExpressionBody/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedLambdaExpressionBody/simple.kt", this::doTest);
         }
     }
 
@@ -4811,32 +4126,27 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("companion.kt")
         public void testCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedReceiverParameter/companion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedReceiverParameter/companion.kt", this::doTest);
         }
 
         @TestMetadata("companionPure.kt")
         public void testCompanionPure() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedReceiverParameter/companionPure.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedReceiverParameter/companionPure.kt", this::doTest);
         }
 
         @TestMetadata("infix.kt")
         public void testInfix() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedReceiverParameter/infix.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedReceiverParameter/infix.kt", this::doTest);
         }
 
         @TestMetadata("object.kt")
         public void testObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedReceiverParameter/object.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedReceiverParameter/object.kt", this::doTest);
         }
 
         @TestMetadata("operator.kt")
         public void testOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedReceiverParameter/operator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedReceiverParameter/operator.kt", this::doTest);
         }
     }
 
@@ -4850,44 +4160,37 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("asDefaultConstructorParameter.kt")
         public void testAsDefaultConstructorParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedSymbol/asDefaultConstructorParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedSymbol/asDefaultConstructorParameter.kt", this::doTest);
         }
 
         @TestMetadata("companionViaImport.kt")
         public void testCompanionViaImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedSymbol/companionViaImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedSymbol/companionViaImport.kt", this::doTest);
         }
 
         @TestMetadata("inAnonymous.kt")
         public void testInAnonymous() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedSymbol/inAnonymous.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedSymbol/inAnonymous.kt", this::doTest);
         }
 
         @TestMetadata("inAnonymousDeeply.kt")
         public void testInAnonymousDeeply() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedSymbol/inAnonymousDeeply.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedSymbol/inAnonymousDeeply.kt", this::doTest);
         }
 
         @TestMetadata("inAnonymousRunWrapped.kt")
         public void testInAnonymousRunWrapped() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedSymbol/inAnonymousRunWrapped.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedSymbol/inAnonymousRunWrapped.kt", this::doTest);
         }
 
         @TestMetadata("internal.kt")
         public void testInternal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedSymbol/internal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedSymbol/internal.kt", this::doTest);
         }
 
         @TestMetadata("withJvmNameUsedFromKotlin.kt")
         public void testWithJvmNameUsedFromKotlin() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/unusedSymbol/withJvmNameUsedFromKotlin.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/unusedSymbol/withJvmNameUsedFromKotlin.kt", this::doTest);
         }
     }
 
@@ -4901,44 +4204,37 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("if.kt")
         public void testIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/if.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/if.kt", this::doTest);
         }
 
         @TestMetadata("leftBrace.kt")
         public void testLeftBrace() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/leftBrace.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/leftBrace.kt", this::doTest);
         }
 
         @TestMetadata("multiLine.kt")
         public void testMultiLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/multiLine.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/multiLine.kt", this::doTest);
         }
 
         @TestMetadata("oneLine.kt")
         public void testOneLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/oneLine.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/oneLine.kt", this::doTest);
         }
 
         @TestMetadata("veryVeryLong.kt")
         public void testVeryVeryLong() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/veryVeryLong.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/veryVeryLong.kt", this::doTest);
         }
 
         @TestMetadata("when.kt")
         public void testWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/when.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/when.kt", this::doTest);
         }
 
         @TestMetadata("whenWithEarlyReturn.kt")
         public void testWhenWithEarlyReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/whenWithEarlyReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/whenWithEarlyReturn.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody")
@@ -4951,242 +4247,202 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
             @TestMetadata("anonymousObjectExpression.kt")
             public void testAnonymousObjectExpression() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/anonymousObjectExpression.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/anonymousObjectExpression.kt", this::doTest);
             }
 
             @TestMetadata("assignPlus.kt")
             public void testAssignPlus() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/assignPlus.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/assignPlus.kt", this::doTest);
             }
 
             @TestMetadata("assignment.kt")
             public void testAssignment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/assignment.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/assignment.kt", this::doTest);
             }
 
             @TestMetadata("constructorWithEmptyBody.kt")
             public void testConstructorWithEmptyBody() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/constructorWithEmptyBody.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/constructorWithEmptyBody.kt", this::doTest);
             }
 
             @TestMetadata("declaration.kt")
             public void testDeclaration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/declaration.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/declaration.kt", this::doTest);
             }
 
             @TestMetadata("elvisIfElseUnit.kt")
             public void testElvisIfElseUnit() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/elvisIfElseUnit.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/elvisIfElseUnit.kt", this::doTest);
             }
 
             @TestMetadata("elvisIfUnit.kt")
             public void testElvisIfUnit() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/elvisIfUnit.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/elvisIfUnit.kt", this::doTest);
             }
 
             @TestMetadata("elvisWhenUnitNonExhaustive.kt")
             public void testElvisWhenUnitNonExhaustive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/elvisWhenUnitNonExhaustive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/elvisWhenUnitNonExhaustive.kt", this::doTest);
             }
 
             @TestMetadata("emptyList.kt")
             public void testEmptyList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/emptyList.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/emptyList.kt", this::doTest);
             }
 
             @TestMetadata("expressionWithReturns1.kt")
             public void testExpressionWithReturns1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/expressionWithReturns1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/expressionWithReturns1.kt", this::doTest);
             }
 
             @TestMetadata("expressionWithReturns2.kt")
             public void testExpressionWithReturns2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/expressionWithReturns2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/expressionWithReturns2.kt", this::doTest);
             }
 
             @TestMetadata("funWithEmptyBody.kt")
             public void testFunWithEmptyBody() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithEmptyBody.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithEmptyBody.kt", this::doTest);
             }
 
             @TestMetadata("funWithEmptyBody2.kt")
             public void testFunWithEmptyBody2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithEmptyBody2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithEmptyBody2.kt", this::doTest);
             }
 
             @TestMetadata("funWithImplicitUnitTypeWithThrow.kt")
             public void testFunWithImplicitUnitTypeWithThrow() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithImplicitUnitTypeWithThrow.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithImplicitUnitTypeWithThrow.kt", this::doTest);
             }
 
             @TestMetadata("funWithNoBlock.kt")
             public void testFunWithNoBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithNoBlock.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithNoBlock.kt", this::doTest);
             }
 
             @TestMetadata("funWithNothingType.kt")
             public void testFunWithNothingType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithNothingType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithNothingType.kt", this::doTest);
             }
 
             @TestMetadata("funWithReturn.kt")
             public void testFunWithReturn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithReturn.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithReturn.kt", this::doTest);
             }
 
             @TestMetadata("funWithUnitType.kt")
             public void testFunWithUnitType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithUnitType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithUnitType.kt", this::doTest);
             }
 
             @TestMetadata("funWithUnitType2.kt")
             public void testFunWithUnitType2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithUnitType2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithUnitType2.kt", this::doTest);
             }
 
             @TestMetadata("funWithUnitTypeWithThrow.kt")
             public void testFunWithUnitTypeWithThrow() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithUnitTypeWithThrow.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/funWithUnitTypeWithThrow.kt", this::doTest);
             }
 
             @TestMetadata("functionLiteral.kt")
             public void testFunctionLiteral() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/functionLiteral.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/functionLiteral.kt", this::doTest);
             }
 
             @TestMetadata("getWithReturn.kt")
             public void testGetWithReturn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/getWithReturn.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/getWithReturn.kt", this::doTest);
             }
 
             @TestMetadata("ifElseUnit.kt")
             public void testIfElseUnit() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/ifElseUnit.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/ifElseUnit.kt", this::doTest);
             }
 
             @TestMetadata("ifUnit.kt")
             public void testIfUnit() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/ifUnit.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/ifUnit.kt", this::doTest);
             }
 
             @TestMetadata("ifWhenUnitExhaustive.kt")
             public void testIfWhenUnitExhaustive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/ifWhenUnitExhaustive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/ifWhenUnitExhaustive.kt", this::doTest);
             }
 
             @TestMetadata("ifWhenUnitNonExhaustive.kt")
             public void testIfWhenUnitNonExhaustive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/ifWhenUnitNonExhaustive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/ifWhenUnitNonExhaustive.kt", this::doTest);
             }
 
             @TestMetadata("lambdaIfUnit.kt")
             public void testLambdaIfUnit() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/lambdaIfUnit.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/lambdaIfUnit.kt", this::doTest);
             }
 
             @TestMetadata("lambdaWhenUnitNonExhaustive.kt")
             public void testLambdaWhenUnitNonExhaustive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/lambdaWhenUnitNonExhaustive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/lambdaWhenUnitNonExhaustive.kt", this::doTest);
             }
 
             @TestMetadata("multipleStatements.kt")
             public void testMultipleStatements() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/multipleStatements.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/multipleStatements.kt", this::doTest);
             }
 
             @TestMetadata("overridePublicFun.kt")
             public void testOverridePublicFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/overridePublicFun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/overridePublicFun.kt", this::doTest);
             }
 
             @TestMetadata("returnFromLambda.kt")
             public void testReturnFromLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/returnFromLambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/returnFromLambda.kt", this::doTest);
             }
 
             @TestMetadata("returnFromLambda2.kt")
             public void testReturnFromLambda2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/returnFromLambda2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/returnFromLambda2.kt", this::doTest);
             }
 
             @TestMetadata("returnWithNoValue.kt")
             public void testReturnWithNoValue() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/returnWithNoValue.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/returnWithNoValue.kt", this::doTest);
             }
 
             @TestMetadata("whenIfUnitExhaustive.kt")
             public void testWhenIfUnitExhaustive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenIfUnitExhaustive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenIfUnitExhaustive.kt", this::doTest);
             }
 
             @TestMetadata("whenIfUnitNonExhaustive.kt")
             public void testWhenIfUnitNonExhaustive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenIfUnitNonExhaustive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenIfUnitNonExhaustive.kt", this::doTest);
             }
 
             @TestMetadata("whenUnitExhaustive.kt")
             public void testWhenUnitExhaustive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenUnitExhaustive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenUnitExhaustive.kt", this::doTest);
             }
 
             @TestMetadata("whenUnitNonExhaustive.kt")
             public void testWhenUnitNonExhaustive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenUnitNonExhaustive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenUnitNonExhaustive.kt", this::doTest);
             }
 
             @TestMetadata("whenUnitWithElse.kt")
             public void testWhenUnitWithElse() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenUnitWithElse.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenUnitWithElse.kt", this::doTest);
             }
 
             @TestMetadata("whenWhenNonExhaustive.kt")
             public void testWhenWhenNonExhaustive() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenWhenNonExhaustive.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/whenWhenNonExhaustive.kt", this::doTest);
             }
 
             @TestMetadata("while.kt")
             public void testWhile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/while.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/while.kt", this::doTest);
             }
 
             @TestMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/keepComments")
@@ -5195,26 +4451,22 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
             public static class KeepComments extends AbstractLocalInspectionTest {
                 @TestMetadata("1.kt")
                 public void test1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/keepComments/1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/keepComments/1.kt", this::doTest);
                 }
 
                 @TestMetadata("2.kt")
                 public void test2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/keepComments/2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/keepComments/2.kt", this::doTest);
                 }
 
                 @TestMetadata("3.kt")
                 public void test3() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/keepComments/3.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/keepComments/3.kt", this::doTest);
                 }
 
                 @TestMetadata("4.kt")
                 public void test4() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/keepComments/4.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/inspectionsLocal/useExpressionBody/convertToExpressionBody/keepComments/4.kt", this::doTest);
                 }
 
                 public void testAllFilesPresentInKeepComments() throws Exception {
@@ -5234,26 +4486,22 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("complexExpression.kt")
         public void testComplexExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/whenWithOnlyElse/complexExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/whenWithOnlyElse/complexExpression.kt", this::doTest);
         }
 
         @TestMetadata("hasOtherBranches.kt")
         public void testHasOtherBranches() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/whenWithOnlyElse/hasOtherBranches.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/whenWithOnlyElse/hasOtherBranches.kt", this::doTest);
         }
 
         @TestMetadata("notExpression.kt")
         public void testNotExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/whenWithOnlyElse/notExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/whenWithOnlyElse/notExpression.kt", this::doTest);
         }
 
         @TestMetadata("simpleExpression.kt")
         public void testSimpleExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/whenWithOnlyElse/simpleExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/whenWithOnlyElse/simpleExpression.kt", this::doTest);
         }
     }
 
@@ -5267,8 +4515,7 @@ public class LocalInspectionTestGenerated extends AbstractLocalInspectionTest {
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/inspectionsLocal/wrapUnaryOperator/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/inspectionsLocal/wrapUnaryOperator/simple.kt", this::doTest);
         }
     }
 }

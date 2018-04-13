@@ -29,50 +29,42 @@ public class IncrementalLazyCachesTestGenerated extends AbstractIncrementalLazyC
 
         @TestMetadata("class")
         public void testClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/lazyKotlinCaches/class/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/class/", this::doTest);
         }
 
         @TestMetadata("classInheritance")
         public void testClassInheritance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/lazyKotlinCaches/classInheritance/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/classInheritance/", this::doTest);
         }
 
         @TestMetadata("constant")
         public void testConstant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/lazyKotlinCaches/constant/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/constant/", this::doTest);
         }
 
         @TestMetadata("function")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/lazyKotlinCaches/function/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/function/", this::doTest);
         }
 
         @TestMetadata("inlineFunctionWithUsage")
         public void testInlineFunctionWithUsage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/lazyKotlinCaches/inlineFunctionWithUsage/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/inlineFunctionWithUsage/", this::doTest);
         }
 
         @TestMetadata("inlineFunctionWithoutUsage")
         public void testInlineFunctionWithoutUsage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/lazyKotlinCaches/inlineFunctionWithoutUsage/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/inlineFunctionWithoutUsage/", this::doTest);
         }
 
         @TestMetadata("noKotlin")
         public void testNoKotlin() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/lazyKotlinCaches/noKotlin/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/noKotlin/", this::doTest);
         }
 
         @TestMetadata("topLevelPropertyAccess")
         public void testTopLevelPropertyAccess() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/lazyKotlinCaches/topLevelPropertyAccess/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/lazyKotlinCaches/topLevelPropertyAccess/", this::doTest);
         }
     }
 
@@ -86,26 +78,22 @@ public class IncrementalLazyCachesTestGenerated extends AbstractIncrementalLazyC
 
         @TestMetadata("incrementalOff")
         public void testIncrementalOff() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOff/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOff/", this::doTest);
         }
 
         @TestMetadata("incrementalOffOn")
         public void testIncrementalOffOn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOn/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOn/", this::doTest);
         }
 
         @TestMetadata("incrementalOffOnJavaChanged")
         public void testIncrementalOffOnJavaChanged() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOnJavaChanged/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOnJavaChanged/", this::doTest);
         }
 
         @TestMetadata("incrementalOffOnJavaOnly")
         public void testIncrementalOffOnJavaOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOnJavaOnly/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("jps-plugin/testData/incremental/changeIncrementalOption/incrementalOffOnJavaOnly/", this::doTest);
         }
     }
 }

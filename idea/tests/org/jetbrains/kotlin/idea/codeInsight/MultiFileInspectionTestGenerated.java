@@ -27,37 +27,31 @@ public class MultiFileInspectionTestGenerated extends AbstractMultiFileInspectio
 
     @TestMetadata("fakeJvmFieldConstant/fakeJvmFieldConstant.test")
     public void testFakeJvmFieldConstant_FakeJvmFieldConstant() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileInspections/fakeJvmFieldConstant/fakeJvmFieldConstant.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileInspections/fakeJvmFieldConstant/fakeJvmFieldConstant.test", this::doTest);
     }
 
     @TestMetadata("invalidBundleOrProperty/invalidBundleOrProperty.test")
     public void testInvalidBundleOrProperty_InvalidBundleOrProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileInspections/invalidBundleOrProperty/invalidBundleOrProperty.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileInspections/invalidBundleOrProperty/invalidBundleOrProperty.test", this::doTest);
     }
 
     @TestMetadata("kotlinInternalInJava/kotlinInternalInJava.test")
     public void testKotlinInternalInJava_KotlinInternalInJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileInspections/kotlinInternalInJava/kotlinInternalInJava.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileInspections/kotlinInternalInJava/kotlinInternalInJava.test", this::doTest);
     }
 
     @TestMetadata("mainInTwoModules/mainInTwoModules.test")
     public void testMainInTwoModules_MainInTwoModules() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileInspections/mainInTwoModules/mainInTwoModules.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileInspections/mainInTwoModules/mainInTwoModules.test", this::doTest);
     }
 
     @TestMetadata("mismatchedProjectAndDirectory/mismatchedProjectAndDirectory.test")
     public void testMismatchedProjectAndDirectory_MismatchedProjectAndDirectory() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileInspections/mismatchedProjectAndDirectory/mismatchedProjectAndDirectory.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileInspections/mismatchedProjectAndDirectory/mismatchedProjectAndDirectory.test", this::doTest);
     }
 
     @TestMetadata("platformExtensionReceiverOfInline/platformExtensionReceiverOfInline.test")
     public void testPlatformExtensionReceiverOfInline_PlatformExtensionReceiverOfInline() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileInspections/platformExtensionReceiverOfInline/platformExtensionReceiverOfInline.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileInspections/platformExtensionReceiverOfInline/platformExtensionReceiverOfInline.test", this::doTest);
     }
 }

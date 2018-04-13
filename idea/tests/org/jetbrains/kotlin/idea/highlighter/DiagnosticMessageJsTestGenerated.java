@@ -27,13 +27,11 @@ public class DiagnosticMessageJsTestGenerated extends AbstractDiagnosticMessageJ
 
     @TestMetadata("jsCodeErrorHtml.kt")
     public void testJsCodeErrorHtml() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/js/jsCodeErrorHtml.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/js/jsCodeErrorHtml.kt", this::doTest);
     }
 
     @TestMetadata("jsCodeErrorText.kt")
     public void testJsCodeErrorText() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/js/jsCodeErrorText.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/js/jsCodeErrorText.kt", this::doTest);
     }
 }

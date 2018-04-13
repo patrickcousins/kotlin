@@ -27,13 +27,11 @@ public class IncrementalMultiplatformJvmCompilerRunnerTestGenerated extends Abst
 
     @TestMetadata("touchActual")
     public void testTouchActual() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/multiplatform/touchActual/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("jps-plugin/testData/incremental/multiplatform/touchActual/", this::doTest);
     }
 
     @TestMetadata("touchExpect")
     public void testTouchExpect() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("jps-plugin/testData/incremental/multiplatform/touchExpect/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("jps-plugin/testData/incremental/multiplatform/touchExpect/", this::doTest);
     }
 }

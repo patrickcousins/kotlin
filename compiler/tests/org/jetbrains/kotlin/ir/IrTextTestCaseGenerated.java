@@ -31,8 +31,7 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
     public static class Classes extends AbstractIrTextTestCase {
         @TestMetadata("abstractMembers.kt")
         public void testAbstractMembers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/abstractMembers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/abstractMembers.kt", this::doTest);
         }
 
         public void testAllFilesPresentInClasses() throws Exception {
@@ -41,188 +40,157 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
         @TestMetadata("annotationClasses.kt")
         public void testAnnotationClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/annotationClasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/annotationClasses.kt", this::doTest);
         }
 
         @TestMetadata("argumentReorderingInDelegatingConstructorCall.kt")
         public void testArgumentReorderingInDelegatingConstructorCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/argumentReorderingInDelegatingConstructorCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/argumentReorderingInDelegatingConstructorCall.kt", this::doTest);
         }
 
         @TestMetadata("classMembers.kt")
         public void testClassMembers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/classMembers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/classMembers.kt", this::doTest);
         }
 
         @TestMetadata("classes.kt")
         public void testClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/classes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/classes.kt", this::doTest);
         }
 
         @TestMetadata("companionObject.kt")
         public void testCompanionObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/companionObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/companionObject.kt", this::doTest);
         }
 
         @TestMetadata("dataClassWithArrayMembers.kt")
         public void testDataClassWithArrayMembers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/dataClassWithArrayMembers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/dataClassWithArrayMembers.kt", this::doTest);
         }
 
         @TestMetadata("dataClasses.kt")
         public void testDataClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/dataClasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/dataClasses.kt", this::doTest);
         }
 
         @TestMetadata("dataClassesGeneric.kt")
         public void testDataClassesGeneric() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/dataClassesGeneric.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/dataClassesGeneric.kt", this::doTest);
         }
 
         @TestMetadata("delegatedImplementation.kt")
         public void testDelegatedImplementation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/delegatedImplementation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/delegatedImplementation.kt", this::doTest);
         }
 
         @TestMetadata("delegatedImplementationWithExplicitOverride.kt")
         public void testDelegatedImplementationWithExplicitOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/delegatedImplementationWithExplicitOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/delegatedImplementationWithExplicitOverride.kt", this::doTest);
         }
 
         @TestMetadata("delegatingConstructorCallToTypeAliasConstructor.kt")
         public void testDelegatingConstructorCallToTypeAliasConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/delegatingConstructorCallToTypeAliasConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/delegatingConstructorCallToTypeAliasConstructor.kt", this::doTest);
         }
 
         @TestMetadata("delegatingConstructorCallsInSecondaryConstructors.kt")
         public void testDelegatingConstructorCallsInSecondaryConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/delegatingConstructorCallsInSecondaryConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/delegatingConstructorCallsInSecondaryConstructors.kt", this::doTest);
         }
 
         @TestMetadata("enum.kt")
         public void testEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/enum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/enum.kt", this::doTest);
         }
 
         @TestMetadata("enumWithSecondaryCtor.kt")
         public void testEnumWithSecondaryCtor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/enumWithSecondaryCtor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/enumWithSecondaryCtor.kt", this::doTest);
         }
 
         @TestMetadata("initBlock.kt")
         public void testInitBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/initBlock.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/initBlock.kt", this::doTest);
         }
 
         @TestMetadata("initVal.kt")
         public void testInitVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/initVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/initVal.kt", this::doTest);
         }
 
         @TestMetadata("initVar.kt")
         public void testInitVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/initVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/initVar.kt", this::doTest);
         }
 
         @TestMetadata("innerClass.kt")
         public void testInnerClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/innerClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/innerClass.kt", this::doTest);
         }
 
         @TestMetadata("innerClassWithDelegatingConstructor.kt")
         public void testInnerClassWithDelegatingConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/innerClassWithDelegatingConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/innerClassWithDelegatingConstructor.kt", this::doTest);
         }
 
         @TestMetadata("lambdaInDataClassDefaultParameter.kt")
         public void testLambdaInDataClassDefaultParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/lambdaInDataClassDefaultParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/lambdaInDataClassDefaultParameter.kt", this::doTest);
         }
 
         @TestMetadata("localClasses.kt")
         public void testLocalClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/localClasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/localClasses.kt", this::doTest);
         }
 
         @TestMetadata("objectLiteralExpressions.kt")
         public void testObjectLiteralExpressions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/objectLiteralExpressions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/objectLiteralExpressions.kt", this::doTest);
         }
 
         @TestMetadata("objectWithInitializers.kt")
         public void testObjectWithInitializers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/objectWithInitializers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/objectWithInitializers.kt", this::doTest);
         }
 
         @TestMetadata("outerClassAccess.kt")
         public void testOuterClassAccess() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/outerClassAccess.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/outerClassAccess.kt", this::doTest);
         }
 
         @TestMetadata("primaryConstructor.kt")
         public void testPrimaryConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/primaryConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/primaryConstructor.kt", this::doTest);
         }
 
         @TestMetadata("primaryConstructorWithSuperConstructorCall.kt")
         public void testPrimaryConstructorWithSuperConstructorCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/primaryConstructorWithSuperConstructorCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/primaryConstructorWithSuperConstructorCall.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedSuperCalls.kt")
         public void testQualifiedSuperCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/qualifiedSuperCalls.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/qualifiedSuperCalls.kt", this::doTest);
         }
 
         @TestMetadata("sealedClasses.kt")
         public void testSealedClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/sealedClasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/sealedClasses.kt", this::doTest);
         }
 
         @TestMetadata("secondaryConstructorWithInitializersFromClassBody.kt")
         public void testSecondaryConstructorWithInitializersFromClassBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/secondaryConstructorWithInitializersFromClassBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/secondaryConstructorWithInitializersFromClassBody.kt", this::doTest);
         }
 
         @TestMetadata("secondaryConstructors.kt")
         public void testSecondaryConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/secondaryConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/secondaryConstructors.kt", this::doTest);
         }
 
         @TestMetadata("superCalls.kt")
         public void testSuperCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/classes/superCalls.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/classes/superCalls.kt", this::doTest);
         }
     }
 
@@ -236,98 +204,82 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
         @TestMetadata("catchParameterInTopLevelProperty.kt")
         public void testCatchParameterInTopLevelProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/catchParameterInTopLevelProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/catchParameterInTopLevelProperty.kt", this::doTest);
         }
 
         @TestMetadata("classLevelProperties.kt")
         public void testClassLevelProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/classLevelProperties.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/classLevelProperties.kt", this::doTest);
         }
 
         @TestMetadata("defaultArguments.kt")
         public void testDefaultArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/defaultArguments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/defaultArguments.kt", this::doTest);
         }
 
         @TestMetadata("delegatedProperties.kt")
         public void testDelegatedProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/delegatedProperties.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/delegatedProperties.kt", this::doTest);
         }
 
         @TestMetadata("extensionProperties.kt")
         public void testExtensionProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/extensionProperties.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/extensionProperties.kt", this::doTest);
         }
 
         @TestMetadata("fakeOverrides.kt")
         public void testFakeOverrides() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/fakeOverrides.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/fakeOverrides.kt", this::doTest);
         }
 
         @TestMetadata("fileWithAnnotations.kt")
         public void testFileWithAnnotations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/fileWithAnnotations.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/fileWithAnnotations.kt", this::doTest);
         }
 
         @TestMetadata("interfaceProperties.kt")
         public void testInterfaceProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/interfaceProperties.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/interfaceProperties.kt", this::doTest);
         }
 
         @TestMetadata("localClassWithOverrides.kt")
         public void testLocalClassWithOverrides() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/localClassWithOverrides.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/localClassWithOverrides.kt", this::doTest);
         }
 
         @TestMetadata("localDelegatedProperties.kt")
         public void testLocalDelegatedProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/localDelegatedProperties.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/localDelegatedProperties.kt", this::doTest);
         }
 
         @TestMetadata("localDelegatedPropertyWithSuspendOperators.kt")
         public void testLocalDelegatedPropertyWithSuspendOperators() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/localDelegatedPropertyWithSuspendOperators.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/localDelegatedPropertyWithSuspendOperators.kt", this::doTest);
         }
 
         @TestMetadata("localVarInDoWhile.kt")
         public void testLocalVarInDoWhile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/localVarInDoWhile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/localVarInDoWhile.kt", this::doTest);
         }
 
         @TestMetadata("packageLevelProperties.kt")
         public void testPackageLevelProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/packageLevelProperties.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/packageLevelProperties.kt", this::doTest);
         }
 
         @TestMetadata("primaryCtorDefaultArguments.kt")
         public void testPrimaryCtorDefaultArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/primaryCtorDefaultArguments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/primaryCtorDefaultArguments.kt", this::doTest);
         }
 
         @TestMetadata("primaryCtorProperties.kt")
         public void testPrimaryCtorProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/primaryCtorProperties.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/primaryCtorProperties.kt", this::doTest);
         }
 
         @TestMetadata("typeAlias.kt")
         public void testTypeAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/typeAlias.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/typeAlias.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/ir/irText/declarations/annotations")
@@ -340,170 +292,142 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
             @TestMetadata("annotationsInAnnotationArguments.kt")
             public void testAnnotationsInAnnotationArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/annotationsInAnnotationArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/annotationsInAnnotationArguments.kt", this::doTest);
             }
 
             @TestMetadata("annotationsWithDefaultParameterValues.kt")
             public void testAnnotationsWithDefaultParameterValues() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/annotationsWithDefaultParameterValues.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/annotationsWithDefaultParameterValues.kt", this::doTest);
             }
 
             @TestMetadata("annotationsWithVarargParameters.kt")
             public void testAnnotationsWithVarargParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/annotationsWithVarargParameters.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/annotationsWithVarargParameters.kt", this::doTest);
             }
 
             @TestMetadata("arrayInAnnotationArguments.kt")
             public void testArrayInAnnotationArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/arrayInAnnotationArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/arrayInAnnotationArguments.kt", this::doTest);
             }
 
             @TestMetadata("classesWithAnnotations.kt")
             public void testClassesWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/classesWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/classesWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("constExpressionsInAnnotationArguments.kt")
             public void testConstExpressionsInAnnotationArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/constExpressionsInAnnotationArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/constExpressionsInAnnotationArguments.kt", this::doTest);
             }
 
             @TestMetadata("constructorsWithAnnotations.kt")
             public void testConstructorsWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/constructorsWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/constructorsWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("delegateFieldWithAnnotations.kt")
             public void testDelegateFieldWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/delegateFieldWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/delegateFieldWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("delegatedPropertyAccessorsWithAnnotations.kt")
             public void testDelegatedPropertyAccessorsWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/delegatedPropertyAccessorsWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/delegatedPropertyAccessorsWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("enumEntriesWithAnnotations.kt")
             public void testEnumEntriesWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/enumEntriesWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/enumEntriesWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("enumsInAnnotationArguments.kt")
             public void testEnumsInAnnotationArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/enumsInAnnotationArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/enumsInAnnotationArguments.kt", this::doTest);
             }
 
             @TestMetadata("fieldsWithAnnotations.kt")
             public void testFieldsWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/fieldsWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/fieldsWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("fileAnnotations.kt")
             public void testFileAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/fileAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/fileAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("functionsWithAnnotations.kt")
             public void testFunctionsWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/functionsWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/functionsWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("localDelegatedPropertiesWithAnnotations.kt")
             public void testLocalDelegatedPropertiesWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/localDelegatedPropertiesWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/localDelegatedPropertiesWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("multipleAnnotationsInSquareBrackets.kt")
             public void testMultipleAnnotationsInSquareBrackets() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/multipleAnnotationsInSquareBrackets.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/multipleAnnotationsInSquareBrackets.kt", this::doTest);
             }
 
             @TestMetadata("primaryConstructorParameterWithAnnotations.kt")
             public void testPrimaryConstructorParameterWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/primaryConstructorParameterWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/primaryConstructorParameterWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("propertiesWithAnnotations.kt")
             public void testPropertiesWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/propertiesWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/propertiesWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("propertyAccessorsFromClassHeaderWithAnnotations.kt")
             public void testPropertyAccessorsFromClassHeaderWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/propertyAccessorsFromClassHeaderWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/propertyAccessorsFromClassHeaderWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("propertyAccessorsWithAnnotations.kt")
             public void testPropertyAccessorsWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/propertyAccessorsWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/propertyAccessorsWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("propertySetterParameterWithAnnotations.kt")
             public void testPropertySetterParameterWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/propertySetterParameterWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/propertySetterParameterWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("receiverParameterWithAnnotations.kt")
             public void testReceiverParameterWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/receiverParameterWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/receiverParameterWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("spreadOperatorInAnnotationArguments.kt")
             public void testSpreadOperatorInAnnotationArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/spreadOperatorInAnnotationArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/spreadOperatorInAnnotationArguments.kt", this::doTest);
             }
 
             @TestMetadata("typeAliasesWithAnnotations.kt")
             public void testTypeAliasesWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/typeAliasesWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/typeAliasesWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("typeParametersWithAnnotations.kt")
             public void testTypeParametersWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/typeParametersWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/typeParametersWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("valueParametersWithAnnotations.kt")
             public void testValueParametersWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/valueParametersWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/valueParametersWithAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("varargsInAnnotationArguments.kt")
             public void testVarargsInAnnotationArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/varargsInAnnotationArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/varargsInAnnotationArguments.kt", this::doTest);
             }
 
             @TestMetadata("variablesWithAnnotations.kt")
             public void testVariablesWithAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/annotations/variablesWithAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/annotations/variablesWithAnnotations.kt", this::doTest);
             }
         }
 
@@ -517,20 +441,17 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
             @TestMetadata("expectClassInherited.kt")
             public void testExpectClassInherited() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/multiplatform/expectClassInherited.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/multiplatform/expectClassInherited.kt", this::doTest);
             }
 
             @TestMetadata("expectedEnumClass.kt")
             public void testExpectedEnumClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/multiplatform/expectedEnumClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/multiplatform/expectedEnumClass.kt", this::doTest);
             }
 
             @TestMetadata("expectedSealedClass.kt")
             public void testExpectedSealedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/multiplatform/expectedSealedClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/multiplatform/expectedSealedClass.kt", this::doTest);
             }
         }
 
@@ -544,74 +465,62 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
             @TestMetadata("class.kt")
             public void testClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/class.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/class.kt", this::doTest);
             }
 
             @TestMetadata("constructor.kt")
             public void testConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/constructor.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/constructor.kt", this::doTest);
             }
 
             @TestMetadata("dataClassMembers.kt")
             public void testDataClassMembers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/dataClassMembers.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/dataClassMembers.kt", this::doTest);
             }
 
             @TestMetadata("defaultPropertyAccessors.kt")
             public void testDefaultPropertyAccessors() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/defaultPropertyAccessors.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/defaultPropertyAccessors.kt", this::doTest);
             }
 
             @TestMetadata("delegatedMembers.kt")
             public void testDelegatedMembers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/delegatedMembers.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/delegatedMembers.kt", this::doTest);
             }
 
             @TestMetadata("fun.kt")
             public void testFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/fun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/fun.kt", this::doTest);
             }
 
             @TestMetadata("genericInnerClass.kt")
             public void testGenericInnerClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/genericInnerClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/genericInnerClass.kt", this::doTest);
             }
 
             @TestMetadata("lambdas.kt")
             public void testLambdas() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/lambdas.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/lambdas.kt", this::doTest);
             }
 
             @TestMetadata("localFun.kt")
             public void testLocalFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/localFun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/localFun.kt", this::doTest);
             }
 
             @TestMetadata("propertyAccessors.kt")
             public void testPropertyAccessors() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/propertyAccessors.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/propertyAccessors.kt", this::doTest);
             }
 
             @TestMetadata("typeParameterBeforeBound.kt")
             public void testTypeParameterBeforeBound() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/typeParameterBeforeBound.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/typeParameterBeforeBound.kt", this::doTest);
             }
 
             @TestMetadata("typeParameterBoundedBySubclass.kt")
             public void testTypeParameterBoundedBySubclass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/parameters/typeParameterBoundedBySubclass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/parameters/typeParameterBoundedBySubclass.kt", this::doTest);
             }
         }
 
@@ -625,38 +534,32 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
             @TestMetadata("differentReceivers.kt")
             public void testDifferentReceivers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/provideDelegate/differentReceivers.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/provideDelegate/differentReceivers.kt", this::doTest);
             }
 
             @TestMetadata("local.kt")
             public void testLocal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/provideDelegate/local.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/provideDelegate/local.kt", this::doTest);
             }
 
             @TestMetadata("localDifferentReceivers.kt")
             public void testLocalDifferentReceivers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/provideDelegate/localDifferentReceivers.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/provideDelegate/localDifferentReceivers.kt", this::doTest);
             }
 
             @TestMetadata("member.kt")
             public void testMember() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/provideDelegate/member.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/provideDelegate/member.kt", this::doTest);
             }
 
             @TestMetadata("memberExtension.kt")
             public void testMemberExtension() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/provideDelegate/memberExtension.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/provideDelegate/memberExtension.kt", this::doTest);
             }
 
             @TestMetadata("topLevel.kt")
             public void testTopLevel() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/declarations/provideDelegate/topLevel.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/declarations/provideDelegate/topLevel.kt", this::doTest);
             }
         }
     }
@@ -671,14 +574,12 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
         @TestMetadata("suppressedNonPublicCall.kt")
         public void testSuppressedNonPublicCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/errors/suppressedNonPublicCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/errors/suppressedNonPublicCall.kt", this::doTest);
         }
 
         @TestMetadata("unresolvedReference.kt")
         public void testUnresolvedReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/errors/unresolvedReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/errors/unresolvedReference.kt", this::doTest);
         }
     }
 
@@ -692,584 +593,487 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
         @TestMetadata("argumentMappedWithError.kt")
         public void testArgumentMappedWithError() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/argumentMappedWithError.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/argumentMappedWithError.kt", this::doTest);
         }
 
         @TestMetadata("arrayAccess.kt")
         public void testArrayAccess() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/arrayAccess.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/arrayAccess.kt", this::doTest);
         }
 
         @TestMetadata("arrayAssignment.kt")
         public void testArrayAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/arrayAssignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/arrayAssignment.kt", this::doTest);
         }
 
         @TestMetadata("arrayAugmentedAssignment1.kt")
         public void testArrayAugmentedAssignment1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/arrayAugmentedAssignment1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/arrayAugmentedAssignment1.kt", this::doTest);
         }
 
         @TestMetadata("arrayAugmentedAssignment2.kt")
         public void testArrayAugmentedAssignment2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/arrayAugmentedAssignment2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/arrayAugmentedAssignment2.kt", this::doTest);
         }
 
         @TestMetadata("assignments.kt")
         public void testAssignments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/assignments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/assignments.kt", this::doTest);
         }
 
         @TestMetadata("augmentedAssignment1.kt")
         public void testAugmentedAssignment1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/augmentedAssignment1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/augmentedAssignment1.kt", this::doTest);
         }
 
         @TestMetadata("augmentedAssignment2.kt")
         public void testAugmentedAssignment2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/augmentedAssignment2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/augmentedAssignment2.kt", this::doTest);
         }
 
         @TestMetadata("augmentedAssignmentWithExpression.kt")
         public void testAugmentedAssignmentWithExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/augmentedAssignmentWithExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/augmentedAssignmentWithExpression.kt", this::doTest);
         }
 
         @TestMetadata("badBreakContinue.kt")
         public void testBadBreakContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/badBreakContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/badBreakContinue.kt", this::doTest);
         }
 
         @TestMetadata("bangbang.kt")
         public void testBangbang() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/bangbang.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/bangbang.kt", this::doTest);
         }
 
         @TestMetadata("booleanConstsInAndAndOrOr.kt")
         public void testBooleanConstsInAndAndOrOr() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/booleanConstsInAndAndOrOr.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/booleanConstsInAndAndOrOr.kt", this::doTest);
         }
 
         @TestMetadata("booleanOperators.kt")
         public void testBooleanOperators() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/booleanOperators.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/booleanOperators.kt", this::doTest);
         }
 
         @TestMetadata("boundCallableReferences.kt")
         public void testBoundCallableReferences() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/boundCallableReferences.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/boundCallableReferences.kt", this::doTest);
         }
 
         @TestMetadata("boxOk.kt")
         public void testBoxOk() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/boxOk.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/boxOk.kt", this::doTest);
         }
 
         @TestMetadata("breakContinue.kt")
         public void testBreakContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/breakContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/breakContinue.kt", this::doTest);
         }
 
         @TestMetadata("breakContinueInLoopHeader.kt")
         public void testBreakContinueInLoopHeader() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/breakContinueInLoopHeader.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/breakContinueInLoopHeader.kt", this::doTest);
         }
 
         @TestMetadata("callWithReorderedArguments.kt")
         public void testCallWithReorderedArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/callWithReorderedArguments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/callWithReorderedArguments.kt", this::doTest);
         }
 
         @TestMetadata("callableRefToGenericMember.kt")
         public void testCallableRefToGenericMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/callableRefToGenericMember.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/callableRefToGenericMember.kt", this::doTest);
         }
 
         @TestMetadata("callableReferenceToImportedFromObject.kt")
         public void testCallableReferenceToImportedFromObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/callableReferenceToImportedFromObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/callableReferenceToImportedFromObject.kt", this::doTest);
         }
 
         @TestMetadata("calls.kt")
         public void testCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/calls.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/calls.kt", this::doTest);
         }
 
         @TestMetadata("castToTypeParameter.kt")
         public void testCastToTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/castToTypeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/castToTypeParameter.kt", this::doTest);
         }
 
         @TestMetadata("catchParameterAccess.kt")
         public void testCatchParameterAccess() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/catchParameterAccess.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/catchParameterAccess.kt", this::doTest);
         }
 
         @TestMetadata("chainOfSafeCalls.kt")
         public void testChainOfSafeCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/chainOfSafeCalls.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/chainOfSafeCalls.kt", this::doTest);
         }
 
         @TestMetadata("classReference.kt")
         public void testClassReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/classReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/classReference.kt", this::doTest);
         }
 
         @TestMetadata("coercionToUnit.kt")
         public void testCoercionToUnit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/coercionToUnit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/coercionToUnit.kt", this::doTest);
         }
 
         @TestMetadata("complexAugmentedAssignment.kt")
         public void testComplexAugmentedAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/complexAugmentedAssignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/complexAugmentedAssignment.kt", this::doTest);
         }
 
         @TestMetadata("contructorCall.kt")
         public void testContructorCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/contructorCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/contructorCall.kt", this::doTest);
         }
 
         @TestMetadata("conventionComparisons.kt")
         public void testConventionComparisons() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/conventionComparisons.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/conventionComparisons.kt", this::doTest);
         }
 
         @TestMetadata("destructuring1.kt")
         public void testDestructuring1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/destructuring1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/destructuring1.kt", this::doTest);
         }
 
         @TestMetadata("destructuringWithUnderscore.kt")
         public void testDestructuringWithUnderscore() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/destructuringWithUnderscore.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/destructuringWithUnderscore.kt", this::doTest);
         }
 
         @TestMetadata("dotQualified.kt")
         public void testDotQualified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/dotQualified.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/dotQualified.kt", this::doTest);
         }
 
         @TestMetadata("elvis.kt")
         public void testElvis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/elvis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/elvis.kt", this::doTest);
         }
 
         @TestMetadata("enumEntryAsReceiver.kt")
         public void testEnumEntryAsReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/enumEntryAsReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/enumEntryAsReceiver.kt", this::doTest);
         }
 
         @TestMetadata("equality.kt")
         public void testEquality() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/equality.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/equality.kt", this::doTest);
         }
 
         @TestMetadata("extFunInvokeAsFun.kt")
         public void testExtFunInvokeAsFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/extFunInvokeAsFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/extFunInvokeAsFun.kt", this::doTest);
         }
 
         @TestMetadata("extFunSafeInvoke.kt")
         public void testExtFunSafeInvoke() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/extFunSafeInvoke.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/extFunSafeInvoke.kt", this::doTest);
         }
 
         @TestMetadata("extensionPropertyGetterCall.kt")
         public void testExtensionPropertyGetterCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/extensionPropertyGetterCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/extensionPropertyGetterCall.kt", this::doTest);
         }
 
         @TestMetadata("field.kt")
         public void testField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/field.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/field.kt", this::doTest);
         }
 
         @TestMetadata("for.kt")
         public void testFor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/for.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/for.kt", this::doTest);
         }
 
         @TestMetadata("forWithBreakContinue.kt")
         public void testForWithBreakContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/forWithBreakContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/forWithBreakContinue.kt", this::doTest);
         }
 
         @TestMetadata("forWithImplicitReceivers.kt")
         public void testForWithImplicitReceivers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/forWithImplicitReceivers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/forWithImplicitReceivers.kt", this::doTest);
         }
 
         @TestMetadata("funImportedFromObject.kt")
         public void testFunImportedFromObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/funImportedFromObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/funImportedFromObject.kt", this::doTest);
         }
 
         @TestMetadata("genericPropertyCall.kt")
         public void testGenericPropertyCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/genericPropertyCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/genericPropertyCall.kt", this::doTest);
         }
 
         @TestMetadata("identity.kt")
         public void testIdentity() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/identity.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/identity.kt", this::doTest);
         }
 
         @TestMetadata("ifElseIf.kt")
         public void testIfElseIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/ifElseIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/ifElseIf.kt", this::doTest);
         }
 
         @TestMetadata("implicitCastOnPlatformType.kt")
         public void testImplicitCastOnPlatformType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/implicitCastOnPlatformType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/implicitCastOnPlatformType.kt", this::doTest);
         }
 
         @TestMetadata("implicitCastToTypeParameter.kt")
         public void testImplicitCastToTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/implicitCastToTypeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/implicitCastToTypeParameter.kt", this::doTest);
         }
 
         @TestMetadata("in.kt")
         public void testIn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/in.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/in.kt", this::doTest);
         }
 
         @TestMetadata("incrementDecrement.kt")
         public void testIncrementDecrement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/incrementDecrement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/incrementDecrement.kt", this::doTest);
         }
 
         @TestMetadata("interfaceThisRef.kt")
         public void testInterfaceThisRef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/interfaceThisRef.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/interfaceThisRef.kt", this::doTest);
         }
 
         @TestMetadata("jvmInstanceFieldReference.kt")
         public void testJvmInstanceFieldReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/jvmInstanceFieldReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/jvmInstanceFieldReference.kt", this::doTest);
         }
 
         @TestMetadata("jvmStaticFieldReference.kt")
         public void testJvmStaticFieldReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/jvmStaticFieldReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/jvmStaticFieldReference.kt", this::doTest);
         }
 
         @TestMetadata("kt16904.kt")
         public void testKt16904() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/kt16904.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/kt16904.kt", this::doTest);
         }
 
         @TestMetadata("kt16905.kt")
         public void testKt16905() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/kt16905.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/kt16905.kt", this::doTest);
         }
 
         @TestMetadata("kt23030.kt")
         public void testKt23030() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/kt23030.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/kt23030.kt", this::doTest);
         }
 
         @TestMetadata("lambdaInCAO.kt")
         public void testLambdaInCAO() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/lambdaInCAO.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/lambdaInCAO.kt", this::doTest);
         }
 
         @TestMetadata("literals.kt")
         public void testLiterals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/literals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/literals.kt", this::doTest);
         }
 
         @TestMetadata("memberTypeArguments.kt")
         public void testMemberTypeArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/memberTypeArguments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/memberTypeArguments.kt", this::doTest);
         }
 
         @TestMetadata("membersImportedFromObject.kt")
         public void testMembersImportedFromObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/membersImportedFromObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/membersImportedFromObject.kt", this::doTest);
         }
 
         @TestMetadata("multipleThisReferences.kt")
         public void testMultipleThisReferences() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/multipleThisReferences.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/multipleThisReferences.kt", this::doTest);
         }
 
         @TestMetadata("objectAsCallable.kt")
         public void testObjectAsCallable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/objectAsCallable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/objectAsCallable.kt", this::doTest);
         }
 
         @TestMetadata("objectClassReference.kt")
         public void testObjectClassReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/objectClassReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/objectClassReference.kt", this::doTest);
         }
 
         @TestMetadata("outerClassInstanceReference.kt")
         public void testOuterClassInstanceReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/outerClassInstanceReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/outerClassInstanceReference.kt", this::doTest);
         }
 
         @TestMetadata("primitiveComparisons.kt")
         public void testPrimitiveComparisons() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/primitiveComparisons.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/primitiveComparisons.kt", this::doTest);
         }
 
         @TestMetadata("primitivesImplicitConversions.kt")
         public void testPrimitivesImplicitConversions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/primitivesImplicitConversions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/primitivesImplicitConversions.kt", this::doTest);
         }
 
         @TestMetadata("references.kt")
         public void testReferences() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/references.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/references.kt", this::doTest);
         }
 
         @TestMetadata("reflectionLiterals.kt")
         public void testReflectionLiterals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/reflectionLiterals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/reflectionLiterals.kt", this::doTest);
         }
 
         @TestMetadata("safeAssignment.kt")
         public void testSafeAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/safeAssignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/safeAssignment.kt", this::doTest);
         }
 
         @TestMetadata("safeCallWithIncrementDecrement.kt")
         public void testSafeCallWithIncrementDecrement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/safeCallWithIncrementDecrement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/safeCallWithIncrementDecrement.kt", this::doTest);
         }
 
         @TestMetadata("safeCalls.kt")
         public void testSafeCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/safeCalls.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/safeCalls.kt", this::doTest);
         }
 
         @TestMetadata("setFieldWithImplicitCast.kt")
         public void testSetFieldWithImplicitCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/setFieldWithImplicitCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/setFieldWithImplicitCast.kt", this::doTest);
         }
 
         @TestMetadata("simpleOperators.kt")
         public void testSimpleOperators() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/simpleOperators.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/simpleOperators.kt", this::doTest);
         }
 
         @TestMetadata("simpleUnaryOperators.kt")
         public void testSimpleUnaryOperators() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/simpleUnaryOperators.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/simpleUnaryOperators.kt", this::doTest);
         }
 
         @TestMetadata("smartCasts.kt")
         public void testSmartCasts() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/smartCasts.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/smartCasts.kt", this::doTest);
         }
 
         @TestMetadata("smartCastsWithDestructuring.kt")
         public void testSmartCastsWithDestructuring() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/smartCastsWithDestructuring.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/smartCastsWithDestructuring.kt", this::doTest);
         }
 
         @TestMetadata("specializedTypeAliasConstructorCall.kt")
         public void testSpecializedTypeAliasConstructorCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/specializedTypeAliasConstructorCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/specializedTypeAliasConstructorCall.kt", this::doTest);
         }
 
         @TestMetadata("stringComparisons.kt")
         public void testStringComparisons() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/stringComparisons.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/stringComparisons.kt", this::doTest);
         }
 
         @TestMetadata("stringPlus.kt")
         public void testStringPlus() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/stringPlus.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/stringPlus.kt", this::doTest);
         }
 
         @TestMetadata("stringTemplates.kt")
         public void testStringTemplates() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/stringTemplates.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/stringTemplates.kt", this::doTest);
         }
 
         @TestMetadata("thisOfGenericOuterClass.kt")
         public void testThisOfGenericOuterClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/thisOfGenericOuterClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/thisOfGenericOuterClass.kt", this::doTest);
         }
 
         @TestMetadata("throw.kt")
         public void testThrow() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/throw.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/throw.kt", this::doTest);
         }
 
         @TestMetadata("tryCatch.kt")
         public void testTryCatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/tryCatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/tryCatch.kt", this::doTest);
         }
 
         @TestMetadata("tryCatchWithImplicitCast.kt")
         public void testTryCatchWithImplicitCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/tryCatchWithImplicitCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/tryCatchWithImplicitCast.kt", this::doTest);
         }
 
         @TestMetadata("typeArguments.kt")
         public void testTypeArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/typeArguments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/typeArguments.kt", this::doTest);
         }
 
         @TestMetadata("typeOperators.kt")
         public void testTypeOperators() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/typeOperators.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/typeOperators.kt", this::doTest);
         }
 
         @TestMetadata("typeParameterClassLiteral.kt")
         public void testTypeParameterClassLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/typeParameterClassLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/typeParameterClassLiteral.kt", this::doTest);
         }
 
         @TestMetadata("useImportedMember.kt")
         public void testUseImportedMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/useImportedMember.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/useImportedMember.kt", this::doTest);
         }
 
         @TestMetadata("values.kt")
         public void testValues() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/values.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/values.kt", this::doTest);
         }
 
         @TestMetadata("vararg.kt")
         public void testVararg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/vararg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/vararg.kt", this::doTest);
         }
 
         @TestMetadata("varargWithImplicitCast.kt")
         public void testVarargWithImplicitCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/varargWithImplicitCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/varargWithImplicitCast.kt", this::doTest);
         }
 
         @TestMetadata("variableAsFunctionCall.kt")
         public void testVariableAsFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/variableAsFunctionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/variableAsFunctionCall.kt", this::doTest);
         }
 
         @TestMetadata("when.kt")
         public void testWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/when.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/when.kt", this::doTest);
         }
 
         @TestMetadata("whenCoercedToUnit.kt")
         public void testWhenCoercedToUnit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/whenCoercedToUnit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/whenCoercedToUnit.kt", this::doTest);
         }
 
         @TestMetadata("whenElse.kt")
         public void testWhenElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/whenElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/whenElse.kt", this::doTest);
         }
 
         @TestMetadata("whenReturn.kt")
         public void testWhenReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/whenReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/whenReturn.kt", this::doTest);
         }
 
         @TestMetadata("whileDoWhile.kt")
         public void testWhileDoWhile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/whileDoWhile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/whileDoWhile.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons")
@@ -1282,68 +1086,57 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
             @TestMetadata("comparableWithDoubleOrFloat.kt")
             public void testComparableWithDoubleOrFloat() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/comparableWithDoubleOrFloat.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/comparableWithDoubleOrFloat.kt", this::doTest);
             }
 
             @TestMetadata("eqeqRhsConditionPossiblyAffectingLhs.kt")
             public void testEqeqRhsConditionPossiblyAffectingLhs() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/eqeqRhsConditionPossiblyAffectingLhs.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/eqeqRhsConditionPossiblyAffectingLhs.kt", this::doTest);
             }
 
             @TestMetadata("floatingPointCompareTo.kt")
             public void testFloatingPointCompareTo() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointCompareTo.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointCompareTo.kt", this::doTest);
             }
 
             @TestMetadata("floatingPointEqeq.kt")
             public void testFloatingPointEqeq() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointEqeq.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointEqeq.kt", this::doTest);
             }
 
             @TestMetadata("floatingPointEquals.kt")
             public void testFloatingPointEquals() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointEquals.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointEquals.kt", this::doTest);
             }
 
             @TestMetadata("floatingPointExcleq.kt")
             public void testFloatingPointExcleq() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointExcleq.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointExcleq.kt", this::doTest);
             }
 
             @TestMetadata("floatingPointLess.kt")
             public void testFloatingPointLess() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointLess.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/floatingPointLess.kt", this::doTest);
             }
 
             @TestMetadata("nullableAnyAsIntToDouble.kt")
             public void testNullableAnyAsIntToDouble() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/nullableAnyAsIntToDouble.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/nullableAnyAsIntToDouble.kt", this::doTest);
             }
 
             @TestMetadata("nullableFloatingPointEqeq.kt")
             public void testNullableFloatingPointEqeq() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/nullableFloatingPointEqeq.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/nullableFloatingPointEqeq.kt", this::doTest);
             }
 
             @TestMetadata("typeParameterWithPrimitiveNumericSupertype.kt")
             public void testTypeParameterWithPrimitiveNumericSupertype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/typeParameterWithPrimitiveNumericSupertype.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/typeParameterWithPrimitiveNumericSupertype.kt", this::doTest);
             }
 
             @TestMetadata("whenByFloatingPoint.kt")
             public void testWhenByFloatingPoint() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/expressions/floatingPointComparisons/whenByFloatingPoint.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/expressions/floatingPointComparisons/whenByFloatingPoint.kt", this::doTest);
             }
         }
     }
@@ -1358,50 +1151,42 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
         @TestMetadata("anonymousFunction.kt")
         public void testAnonymousFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/lambdas/anonymousFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/lambdas/anonymousFunction.kt", this::doTest);
         }
 
         @TestMetadata("destructuringInLambda.kt")
         public void testDestructuringInLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/lambdas/destructuringInLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/lambdas/destructuringInLambda.kt", this::doTest);
         }
 
         @TestMetadata("extensionLambda.kt")
         public void testExtensionLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/lambdas/extensionLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/lambdas/extensionLambda.kt", this::doTest);
         }
 
         @TestMetadata("justLambda.kt")
         public void testJustLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/lambdas/justLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/lambdas/justLambda.kt", this::doTest);
         }
 
         @TestMetadata("localFunction.kt")
         public void testLocalFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/lambdas/localFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/lambdas/localFunction.kt", this::doTest);
         }
 
         @TestMetadata("multipleImplicitReceivers.kt")
         public void testMultipleImplicitReceivers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/lambdas/multipleImplicitReceivers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/lambdas/multipleImplicitReceivers.kt", this::doTest);
         }
 
         @TestMetadata("nonLocalReturn.kt")
         public void testNonLocalReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/lambdas/nonLocalReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/lambdas/nonLocalReturn.kt", this::doTest);
         }
 
         @TestMetadata("samAdapter.kt")
         public void testSamAdapter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/lambdas/samAdapter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/lambdas/samAdapter.kt", this::doTest);
         }
     }
 
@@ -1415,20 +1200,17 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
         @TestMetadata("coercionInLoop.kt")
         public void testCoercionInLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/regressions/coercionInLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/regressions/coercionInLoop.kt", this::doTest);
         }
 
         @TestMetadata("integerCoercionToT.kt")
         public void testIntegerCoercionToT() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/regressions/integerCoercionToT.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/regressions/integerCoercionToT.kt", this::doTest);
         }
 
         @TestMetadata("typeAliasCtorForGenericClass.kt")
         public void testTypeAliasCtorForGenericClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/regressions/typeAliasCtorForGenericClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/regressions/typeAliasCtorForGenericClass.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/ir/irText/regressions/newInference")
@@ -1441,8 +1223,7 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
             @TestMetadata("fixationOrder1.kt")
             public void testFixationOrder1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/regressions/newInference/fixationOrder1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/ir/irText/regressions/newInference/fixationOrder1.kt", this::doTest);
             }
         }
     }
@@ -1457,20 +1238,17 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
         @TestMetadata("companion.kt")
         public void testCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/singletons/companion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/singletons/companion.kt", this::doTest);
         }
 
         @TestMetadata("enumEntry.kt")
         public void testEnumEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/singletons/enumEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/singletons/enumEntry.kt", this::doTest);
         }
 
         @TestMetadata("object.kt")
         public void testObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/singletons/object.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/singletons/object.kt", this::doTest);
         }
     }
 
@@ -1484,50 +1262,42 @@ public class IrTextTestCaseGenerated extends AbstractIrTextTestCase {
 
         @TestMetadata("builtinMap.kt")
         public void testBuiltinMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/stubs/builtinMap.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/stubs/builtinMap.kt", this::doTest);
         }
 
         @TestMetadata("javaEnum.kt")
         public void testJavaEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/stubs/javaEnum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/stubs/javaEnum.kt", this::doTest);
         }
 
         @TestMetadata("javaInnerClass.kt")
         public void testJavaInnerClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/stubs/javaInnerClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/stubs/javaInnerClass.kt", this::doTest);
         }
 
         @TestMetadata("javaMethod.kt")
         public void testJavaMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/stubs/javaMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/stubs/javaMethod.kt", this::doTest);
         }
 
         @TestMetadata("javaNestedClass.kt")
         public void testJavaNestedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/stubs/javaNestedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/stubs/javaNestedClass.kt", this::doTest);
         }
 
         @TestMetadata("javaStaticMethod.kt")
         public void testJavaStaticMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/stubs/javaStaticMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/stubs/javaStaticMethod.kt", this::doTest);
         }
 
         @TestMetadata("kotlinInnerClass.kt")
         public void testKotlinInnerClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/stubs/kotlinInnerClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/stubs/kotlinInnerClass.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irText/stubs/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irText/stubs/simple.kt", this::doTest);
         }
     }
 }

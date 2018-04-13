@@ -27,7 +27,6 @@ public class AndroidUsageHighlightingTestGenerated extends AbstractAndroidUsageH
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/usageHighlighting/simple/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/usageHighlighting/simple/", this::doTest);
     }
 }

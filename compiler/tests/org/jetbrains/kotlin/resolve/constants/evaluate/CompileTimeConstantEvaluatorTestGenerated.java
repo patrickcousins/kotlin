@@ -29,128 +29,107 @@ public class CompileTimeConstantEvaluatorTestGenerated extends AbstractCompileTi
 
         @TestMetadata("classObjectProperty.kt")
         public void testClassObjectProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/classObjectProperty.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/classObjectProperty.kt", this::doConstantTest);
         }
 
         @TestMetadata("compareTo.kt")
         public void testCompareTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/compareTo.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/compareTo.kt", this::doConstantTest);
         }
 
         @TestMetadata("differentTypes.kt")
         public void testDifferentTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/differentTypes.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/differentTypes.kt", this::doConstantTest);
         }
 
         @TestMetadata("divideByZero.kt")
         public void testDivideByZero() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/divideByZero.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/divideByZero.kt", this::doConstantTest);
         }
 
         @TestMetadata("equals.kt")
         public void testEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/equals.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/equals.kt", this::doConstantTest);
         }
 
         @TestMetadata("exceptionWhenEvaluate.kt")
         public void testExceptionWhenEvaluate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/exceptionWhenEvaluate.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/exceptionWhenEvaluate.kt", this::doConstantTest);
         }
 
         @TestMetadata("finalProperty.kt")
         public void testFinalProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/finalProperty.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/finalProperty.kt", this::doConstantTest);
         }
 
         @TestMetadata("float.kt")
         public void testFloat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/float.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/float.kt", this::doConstantTest);
         }
 
         @TestMetadata("floatsAndDoubles.kt")
         public void testFloatsAndDoubles() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/floatsAndDoubles.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/floatsAndDoubles.kt", this::doConstantTest);
         }
 
         @TestMetadata("integer.kt")
         public void testInteger() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/integer.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/integer.kt", this::doConstantTest);
         }
 
         @TestMetadata("integerOperations.kt")
         public void testIntegerOperations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/integerOperations.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/integerOperations.kt", this::doConstantTest);
         }
 
         @TestMetadata("integers.kt")
         public void testIntegers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/integers.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/integers.kt", this::doConstantTest);
         }
 
         @TestMetadata("localVal.kt")
         public void testLocalVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/localVal.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/localVal.kt", this::doConstantTest);
         }
 
         @TestMetadata("localVar.kt")
         public void testLocalVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/localVar.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/localVar.kt", this::doConstantTest);
         }
 
         @TestMetadata("nonFinalProperty.kt")
         public void testNonFinalProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/nonFinalProperty.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/nonFinalProperty.kt", this::doConstantTest);
         }
 
         @TestMetadata("objectProperty.kt")
         public void testObjectProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/objectProperty.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/objectProperty.kt", this::doConstantTest);
         }
 
         @TestMetadata("strings.kt")
         public void testStrings() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/strings.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/strings.kt", this::doConstantTest);
         }
 
         @TestMetadata("topLevelVal.kt")
         public void testTopLevelVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/topLevelVal.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/topLevelVal.kt", this::doConstantTest);
         }
 
         @TestMetadata("topLevelVar.kt")
         public void testTopLevelVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/topLevelVar.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/topLevelVar.kt", this::doConstantTest);
         }
 
         @TestMetadata("unaryMinusIndepWoExpType.kt")
         public void testUnaryMinusIndepWoExpType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/unaryMinusIndepWoExpType.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/unaryMinusIndepWoExpType.kt", this::doConstantTest);
         }
 
         @TestMetadata("unaryMinusIndependentExpType.kt")
         public void testUnaryMinusIndependentExpType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/constant/unaryMinusIndependentExpType.kt");
-            doConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/constant/unaryMinusIndependentExpType.kt", this::doConstantTest);
         }
     }
 
@@ -164,32 +143,27 @@ public class CompileTimeConstantEvaluatorTestGenerated extends AbstractCompileTi
 
         @TestMetadata("innerToType.kt")
         public void testInnerToType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/isPure/innerToType.kt");
-            doIsPureTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/isPure/innerToType.kt", this::doIsPureTest);
         }
 
         @TestMetadata("namedConstants.kt")
         public void testNamedConstants() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/isPure/namedConstants.kt");
-            doIsPureTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/isPure/namedConstants.kt", this::doIsPureTest);
         }
 
         @TestMetadata("toType.kt")
         public void testToType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/isPure/toType.kt");
-            doIsPureTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/isPure/toType.kt", this::doIsPureTest);
         }
 
         @TestMetadata("unaryMinusIndepWoExpType.kt")
         public void testUnaryMinusIndepWoExpType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/isPure/unaryMinusIndepWoExpType.kt");
-            doIsPureTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/isPure/unaryMinusIndepWoExpType.kt", this::doIsPureTest);
         }
 
         @TestMetadata("unaryMinusIndependentExpType.kt")
         public void testUnaryMinusIndependentExpType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/isPure/unaryMinusIndependentExpType.kt");
-            doIsPureTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/isPure/unaryMinusIndependentExpType.kt", this::doIsPureTest);
         }
     }
 
@@ -203,26 +177,22 @@ public class CompileTimeConstantEvaluatorTestGenerated extends AbstractCompileTi
 
         @TestMetadata("binaryTypes.kt")
         public void testBinaryTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/usesVariableAsConstant/binaryTypes.kt");
-            doUsesVariableAsConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/usesVariableAsConstant/binaryTypes.kt", this::doUsesVariableAsConstantTest);
         }
 
         @TestMetadata("NamedConstants.kt")
         public void testNamedConstants() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/usesVariableAsConstant/NamedConstants.kt");
-            doUsesVariableAsConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/usesVariableAsConstant/NamedConstants.kt", this::doUsesVariableAsConstantTest);
         }
 
         @TestMetadata("OtherTypes.kt")
         public void testOtherTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/usesVariableAsConstant/OtherTypes.kt");
-            doUsesVariableAsConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/usesVariableAsConstant/OtherTypes.kt", this::doUsesVariableAsConstantTest);
         }
 
         @TestMetadata("simpleTypes.kt")
         public void testSimpleTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/evaluate/usesVariableAsConstant/simpleTypes.kt");
-            doUsesVariableAsConstantTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/evaluate/usesVariableAsConstant/simpleTypes.kt", this::doUsesVariableAsConstantTest);
         }
     }
 }

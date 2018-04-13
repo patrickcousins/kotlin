@@ -35,8 +35,7 @@ public class AndroidQuickFixMultiFileTestGenerated extends AbstractAndroidQuickF
 
         @TestMetadata("androidRImport.before.Main.kt")
         public void testAndroidRImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/quickfix/autoImports/androidRImport.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/quickfix/autoImports/androidRImport.before.Main.kt", this::doTestWithExtraFile);
         }
     }
 
@@ -50,14 +49,12 @@ public class AndroidQuickFixMultiFileTestGenerated extends AbstractAndroidQuickF
 
         @TestMetadata("indirect.before.Main.kt")
         public void testIndirect() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/quickfix/viewConstructor/indirect.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/quickfix/viewConstructor/indirect.before.Main.kt", this::doTestWithExtraFile);
         }
 
         @TestMetadata("simple.before.Main.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/quickfix/viewConstructor/simple.before.Main.kt");
-            doTestWithExtraFile(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/quickfix/viewConstructor/simple.before.Main.kt", this::doTestWithExtraFile);
         }
     }
 }

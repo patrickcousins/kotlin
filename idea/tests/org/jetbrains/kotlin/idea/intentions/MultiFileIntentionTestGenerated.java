@@ -23,38 +23,32 @@ import java.util.regex.Pattern;
 public class MultiFileIntentionTestGenerated extends AbstractMultiFileIntentionTest {
     @TestMetadata("addJvmStaticToCompanionObjectFun/addJvmStaticToCompanionObjectFun.test")
     public void testAddJvmStaticToCompanionObjectFun_AddJvmStaticToCompanionObjectFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/addJvmStaticToCompanionObjectFun/addJvmStaticToCompanionObjectFun.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/addJvmStaticToCompanionObjectFun/addJvmStaticToCompanionObjectFun.test", this::doTest);
     }
 
     @TestMetadata("addJvmStaticToCompanionObjectProperty/addJvmStaticToCompanionObjectProperty.test")
     public void testAddJvmStaticToCompanionObjectProperty_AddJvmStaticToCompanionObjectProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/addJvmStaticToCompanionObjectProperty/addJvmStaticToCompanionObjectProperty.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/addJvmStaticToCompanionObjectProperty/addJvmStaticToCompanionObjectProperty.test", this::doTest);
     }
 
     @TestMetadata("addJvmStaticToNamedCompanionObjectFun/addJvmStaticToNamedCompanionObjectFun.test")
     public void testAddJvmStaticToNamedCompanionObjectFun_AddJvmStaticToNamedCompanionObjectFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/addJvmStaticToNamedCompanionObjectFun/addJvmStaticToNamedCompanionObjectFun.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/addJvmStaticToNamedCompanionObjectFun/addJvmStaticToNamedCompanionObjectFun.test", this::doTest);
     }
 
     @TestMetadata("addJvmStaticToNamedCompanionObjectProperty/addJvmStaticToNamedCompanionObjectProperty.test")
     public void testAddJvmStaticToNamedCompanionObjectProperty_AddJvmStaticToNamedCompanionObjectProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/addJvmStaticToNamedCompanionObjectProperty/addJvmStaticToNamedCompanionObjectProperty.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/addJvmStaticToNamedCompanionObjectProperty/addJvmStaticToNamedCompanionObjectProperty.test", this::doTest);
     }
 
     @TestMetadata("addJvmStaticToObjectFun/addJvmStaticToObjectFun.test")
     public void testAddJvmStaticToObjectFun_AddJvmStaticToObjectFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/addJvmStaticToObjectFun/addJvmStaticToObjectFun.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/addJvmStaticToObjectFun/addJvmStaticToObjectFun.test", this::doTest);
     }
 
     @TestMetadata("addJvmStaticToObjectProperty/addJvmStaticToObjectProperty.test")
     public void testAddJvmStaticToObjectProperty_AddJvmStaticToObjectProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/addJvmStaticToObjectProperty/addJvmStaticToObjectProperty.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/addJvmStaticToObjectProperty/addJvmStaticToObjectProperty.test", this::doTest);
     }
 
     public void testAllFilesPresentInMultiFileIntentions() throws Exception {
@@ -63,97 +57,81 @@ public class MultiFileIntentionTestGenerated extends AbstractMultiFileIntentionT
 
     @TestMetadata("convertMemberToExtension/addImports/addImports.test")
     public void testConvertMemberToExtension_addImports_AddImports() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/convertMemberToExtension/addImports/addImports.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/convertMemberToExtension/addImports/addImports.test", this::doTest);
     }
 
     @TestMetadata("implementAbstractMember/implementFunctionInJava/implementAllInJava.test")
     public void testImplementAbstractMember_implementFunctionInJava_ImplementAllInJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/implementAbstractMember/implementFunctionInJava/implementAllInJava.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/implementAbstractMember/implementFunctionInJava/implementAllInJava.test", this::doTest);
     }
 
     @TestMetadata("implementAbstractMember/implementValInJava/implementAllInJava.test")
     public void testImplementAbstractMember_implementValInJava_ImplementAllInJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/implementAbstractMember/implementValInJava/implementAllInJava.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/implementAbstractMember/implementValInJava/implementAllInJava.test", this::doTest);
     }
 
     @TestMetadata("implementAbstractMember/implementVarInJava/implementAllInJava.test")
     public void testImplementAbstractMember_implementVarInJava_ImplementAllInJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/implementAbstractMember/implementVarInJava/implementAllInJava.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/implementAbstractMember/implementVarInJava/implementAllInJava.test", this::doTest);
     }
 
     @TestMetadata("implementAsConstructorParameter/implementValInJava/implementAllInJava.test")
     public void testImplementAsConstructorParameter_implementValInJava_ImplementAllInJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/implementAsConstructorParameter/implementValInJava/implementAllInJava.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/implementAsConstructorParameter/implementValInJava/implementAllInJava.test", this::doTest);
     }
 
     @TestMetadata("moveDeclarationToSeparateFile/moveClassToExistingFile/moveClassToExistingFile.test")
     public void testMoveDeclarationToSeparateFile_moveClassToExistingFile_MoveClassToExistingFile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/moveClassToExistingFile/moveClassToExistingFile.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/moveClassToExistingFile/moveClassToExistingFile.test", this::doTest);
     }
 
     @TestMetadata("moveDeclarationToSeparateFile/moveClassToFile/moveClassToFile.test")
     public void testMoveDeclarationToSeparateFile_moveClassToFile_MoveClassToFile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/moveClassToFile/moveClassToFile.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/moveClassToFile/moveClassToFile.test", this::doTest);
     }
 
     @TestMetadata("moveDeclarationToSeparateFile/moveClassToFileInDefaultPackage/moveClassToFileInDefaultPackage.test")
     public void testMoveDeclarationToSeparateFile_moveClassToFileInDefaultPackage_MoveClassToFileInDefaultPackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/moveClassToFileInDefaultPackage/moveClassToFileInDefaultPackage.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/moveClassToFileInDefaultPackage/moveClassToFileInDefaultPackage.test", this::doTest);
     }
 
     @TestMetadata("moveDeclarationToSeparateFile/moveSingleToFile/moveSingleToFile.test")
     public void testMoveDeclarationToSeparateFile_moveSingleToFile_MoveSingleToFile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/moveSingleToFile/moveSingleToFile.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/moveSingleToFile/moveSingleToFile.test", this::doTest);
     }
 
     @TestMetadata("moveDeclarationToSeparateFile/optimizeImports/optimizeImports.test")
     public void testMoveDeclarationToSeparateFile_optimizeImports_OptimizeImports() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/optimizeImports/optimizeImports.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveDeclarationToSeparateFile/optimizeImports/optimizeImports.test", this::doTest);
     }
 
     @TestMetadata("moveOutOfCompanion/moveClass/moveClass.test")
     public void testMoveOutOfCompanion_moveClass_MoveClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveOutOfCompanion/moveClass/moveClass.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveOutOfCompanion/moveClass/moveClass.test", this::doTest);
     }
 
     @TestMetadata("moveToCompanion/moveFunction/moveFunction.test")
     public void testMoveToCompanion_moveFunction_MoveFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveToCompanion/moveFunction/moveFunction.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveToCompanion/moveFunction/moveFunction.test", this::doTest);
     }
 
     @TestMetadata("moveToCompanion/moveInnerClass/moveInnerClass.test")
     public void testMoveToCompanion_moveInnerClass_MoveInnerClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveToCompanion/moveInnerClass/moveInnerClass.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveToCompanion/moveInnerClass/moveInnerClass.test", this::doTest);
     }
 
     @TestMetadata("moveToCompanion/moveNonInnerClass/moveNonInnerClass.test")
     public void testMoveToCompanion_moveNonInnerClass_MoveNonInnerClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveToCompanion/moveNonInnerClass/moveNonInnerClass.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveToCompanion/moveNonInnerClass/moveNonInnerClass.test", this::doTest);
     }
 
     @TestMetadata("moveToCompanion/moveProperty/moveProperty.test")
     public void testMoveToCompanion_moveProperty_MoveProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/moveToCompanion/moveProperty/moveProperty.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/moveToCompanion/moveProperty/moveProperty.test", this::doTest);
     }
 
     @TestMetadata("objectLiteralToLambda/objectLiteralToLambda.test")
     public void testObjectLiteralToLambda_ObjectLiteralToLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/multiFileIntentions/objectLiteralToLambda/objectLiteralToLambda.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/multiFileIntentions/objectLiteralToLambda/objectLiteralToLambda.test", this::doTest);
     }
 }

@@ -27,37 +27,31 @@ public class CodeFragmentCompletionHandlerTestGenerated extends AbstractCodeFrag
 
     @TestMetadata("CastPrivateFun.kt")
     public void testCastPrivateFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/handlers/runtimeCast/CastPrivateFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/CastPrivateFun.kt", this::doTest);
     }
 
     @TestMetadata("CastPropertyWithSmartCast.kt")
     public void testCastPropertyWithSmartCast() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/handlers/runtimeCast/CastPropertyWithSmartCast.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/CastPropertyWithSmartCast.kt", this::doTest);
     }
 
     @TestMetadata("InsertExtFunction.kt")
     public void testInsertExtFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/handlers/runtimeCast/InsertExtFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/InsertExtFunction.kt", this::doTest);
     }
 
     @TestMetadata("InsertFunction.kt")
     public void testInsertFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/handlers/runtimeCast/InsertFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/InsertFunction.kt", this::doTest);
     }
 
     @TestMetadata("InsertImport.kt")
     public void testInsertImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/handlers/runtimeCast/InsertImport.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/InsertImport.kt", this::doTest);
     }
 
     @TestMetadata("NotImportedExtension.kt")
     public void testNotImportedExtension() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/handlers/runtimeCast/NotImportedExtension.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/handlers/runtimeCast/NotImportedExtension.kt", this::doTest);
     }
 }

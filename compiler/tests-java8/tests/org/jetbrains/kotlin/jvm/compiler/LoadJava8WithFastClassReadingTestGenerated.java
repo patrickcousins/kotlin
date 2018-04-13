@@ -27,25 +27,21 @@ public class LoadJava8WithFastClassReadingTestGenerated extends AbstractLoadJava
 
     @TestMetadata("InnerClassTypeAnnotation.java")
     public void testInnerClassTypeAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/loadJava8/compiledJava/InnerClassTypeAnnotation.java");
-        doTestCompiledJava(fileName);
+        KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/InnerClassTypeAnnotation.java", this::doTestCompiledJava);
     }
 
     @TestMetadata("MapRemove.java")
     public void testMapRemove() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/loadJava8/compiledJava/MapRemove.java");
-        doTestCompiledJava(fileName);
+        KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/MapRemove.java", this::doTestCompiledJava);
     }
 
     @TestMetadata("TypeAnnotations.java")
     public void testTypeAnnotations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/loadJava8/compiledJava/TypeAnnotations.java");
-        doTestCompiledJava(fileName);
+        KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/TypeAnnotations.java", this::doTestCompiledJava);
     }
 
     @TestMetadata("TypeParameterAnnotations.java")
     public void testTypeParameterAnnotations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/loadJava8/compiledJava/TypeParameterAnnotations.java");
-        doTestCompiledJava(fileName);
+        KotlinTestUtils.runTest("compiler/testData/loadJava8/compiledJava/TypeParameterAnnotations.java", this::doTestCompiledJava);
     }
 }

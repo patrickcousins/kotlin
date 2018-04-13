@@ -27,80 +27,67 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
     @TestMetadata("array.kt")
     public void testArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/array.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/array.kt", this::doTest);
     }
 
     @TestMetadata("asSequenceOnly.kt")
     public void testAsSequenceOnly() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/asSequenceOnly.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/asSequenceOnly.kt", this::doTest);
     }
 
     @TestMetadata("customTypeWithIterator.kt")
     public void testCustomTypeWithIterator() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/customTypeWithIterator.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/customTypeWithIterator.kt", this::doTest);
     }
 
     @TestMetadata("embeddedBreak1.kt")
     public void testEmbeddedBreak1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/embeddedBreak1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/embeddedBreak1.kt", this::doTest);
     }
 
     @TestMetadata("embeddedBreak2.kt")
     public void testEmbeddedBreak2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/embeddedBreak2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/embeddedBreak2.kt", this::doTest);
     }
 
     @TestMetadata("embeddedContinue.kt")
     public void testEmbeddedContinue() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/embeddedContinue.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/embeddedContinue.kt", this::doTest);
     }
 
     @TestMetadata("intArray.kt")
     public void testIntArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/intArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/intArray.kt", this::doTest);
     }
 
     @TestMetadata("itAlreadyUsed.kt")
     public void testItAlreadyUsed() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/itAlreadyUsed.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/itAlreadyUsed.kt", this::doTest);
     }
 
     @TestMetadata("KT14191.kt")
     public void testKT14191() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/KT14191.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/KT14191.kt", this::doTest);
     }
 
     @TestMetadata("lastOrNull_ifAssign.kt")
     public void testLastOrNull_ifAssign() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/lastOrNull_ifAssign.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/lastOrNull_ifAssign.kt", this::doTest);
     }
 
     @TestMetadata("moveInitializationsCloserToLoop.kt")
     public void testMoveInitializationsCloserToLoop() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/moveInitializationsCloserToLoop.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/moveInitializationsCloserToLoop.kt", this::doTest);
     }
 
     @TestMetadata("range.kt")
     public void testRange() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/range.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/range.kt", this::doTest);
     }
 
     @TestMetadata("twoInitializationsBeforeLoop.kt")
     public void testTwoInitializationsBeforeLoop() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/twoInitializationsBeforeLoop.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/twoInitializationsBeforeLoop.kt", this::doTest);
     }
 
     @TestMetadata("idea/testData/intentions/loopToCallChain/any")
@@ -113,98 +100,82 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("anyNotNull.kt")
         public void testAnyNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/anyNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/anyNotNull.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign.kt")
         public void testIfAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/ifAssign.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign_moveDeclaration.kt")
         public void testIfAssign_moveDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/ifAssign_moveDeclaration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_moveDeclaration.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign_moveInitialization.kt")
         public void testIfAssign_moveInitialization() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/ifAssign_moveInitialization.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_moveInitialization.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign_noBreak.kt")
         public void testIfAssign_noBreak() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/ifAssign_noBreak.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_noBreak.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign_nonBooleanResult.kt")
         public void testIfAssign_nonBooleanResult() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/ifAssign_nonBooleanResult.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_nonBooleanResult.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign_nonBooleanResult2.kt")
         public void testIfAssign_nonBooleanResult2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/ifAssign_nonBooleanResult2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifAssign_nonBooleanResult2.kt", this::doTest);
         }
 
         @TestMetadata("ifReturn.kt")
         public void testIfReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/ifReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifReturn.kt", this::doTest);
         }
 
         @TestMetadata("ifReturn_nonBooleanResult.kt")
         public void testIfReturn_nonBooleanResult() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/ifReturn_nonBooleanResult.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/ifReturn_nonBooleanResult.kt", this::doTest);
         }
 
         @TestMetadata("indexNeeded.kt")
         public void testIndexNeeded() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/indexNeeded.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/indexNeeded.kt", this::doTest);
         }
 
         @TestMetadata("KT13998.kt")
         public void testKT13998() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/KT13998.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/KT13998.kt", this::doTest);
         }
 
         @TestMetadata("KT13998_1.kt")
         public void testKT13998_1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/KT13998_1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/KT13998_1.kt", this::doTest);
         }
 
         @TestMetadata("kt17730.kt")
         public void testKt17730() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/kt17730.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/kt17730.kt", this::doTest);
         }
 
         @TestMetadata("kt17730_1.kt")
         public void testKt17730_1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/kt17730_1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/kt17730_1.kt", this::doTest);
         }
 
         @TestMetadata("none.kt")
         public void testNone() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/none.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/none.kt", this::doTest);
         }
 
         @TestMetadata("return.kt")
         public void testReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/any/return.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/any/return.kt", this::doTest);
         }
     }
 
@@ -214,26 +185,22 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
     public static class Contains extends AbstractIntentionTest2 {
         @TestMetadata("1.kt")
         public void test1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/contains/1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/contains/1.kt", this::doTest);
         }
 
         @TestMetadata("2.kt")
         public void test2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/contains/2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/contains/2.kt", this::doTest);
         }
 
         @TestMetadata("3.kt")
         public void test3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/contains/3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/contains/3.kt", this::doTest);
         }
 
         @TestMetadata("4.kt")
         public void test4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/contains/4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/contains/4.kt", this::doTest);
         }
 
         public void testAllFilesPresentInContains() throws Exception {
@@ -247,14 +214,12 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
     public static class Count extends AbstractIntentionTest2 {
         @TestMetadata("1.kt")
         public void test1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/1.kt", this::doTest);
         }
 
         @TestMetadata("2.kt")
         public void test2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/2.kt", this::doTest);
         }
 
         public void testAllFilesPresentInCount() throws Exception {
@@ -263,50 +228,42 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("countIsInstance.kt")
         public void testCountIsInstance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/countIsInstance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/countIsInstance.kt", this::doTest);
         }
 
         @TestMetadata("countNotNull.kt")
         public void testCountNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/countNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/countNotNull.kt", this::doTest);
         }
 
         @TestMetadata("countSomethingAndNotNull.kt")
         public void testCountSomethingAndNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/countSomethingAndNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/countSomethingAndNotNull.kt", this::doTest);
         }
 
         @TestMetadata("long.kt")
         public void testLong() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/long.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/long.kt", this::doTest);
         }
 
         @TestMetadata("nonConstantInitial.kt")
         public void testNonConstantInitial() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/nonConstantInitial.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/nonConstantInitial.kt", this::doTest);
         }
 
         @TestMetadata("nonZeroInitial.kt")
         public void testNonZeroInitial() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/nonZeroInitial.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/nonZeroInitial.kt", this::doTest);
         }
 
         @TestMetadata("prefix.kt")
         public void testPrefix() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/prefix.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/prefix.kt", this::doTest);
         }
 
         @TestMetadata("variableUsedBefore.kt")
         public void testVariableUsedBefore() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/count/variableUsedBefore.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/count/variableUsedBefore.kt", this::doTest);
         }
     }
 
@@ -320,302 +277,252 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("assign.kt")
         public void testAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/assign.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign.kt", this::doTest);
         }
 
         @TestMetadata("assign2.kt")
         public void testAssign2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/assign2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign2.kt", this::doTest);
         }
 
         @TestMetadata("assignFilterIndexed.kt")
         public void testAssignFilterIndexed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/assignFilterIndexed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assignFilterIndexed.kt", this::doTest);
         }
 
         @TestMetadata("assignFilterNotNull.kt")
         public void testAssignFilterNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/assignFilterNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assignFilterNotNull.kt", this::doTest);
         }
 
         @TestMetadata("assign_ArrayListRequired.kt")
         public void testAssign_ArrayListRequired() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired.kt", this::doTest);
         }
 
         @TestMetadata("assign_ArrayListRequired2.kt")
         public void testAssign_ArrayListRequired2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired2.kt", this::doTest);
         }
 
         @TestMetadata("assign_ArrayListRequired3.kt")
         public void testAssign_ArrayListRequired3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_ArrayListRequired3.kt", this::doTest);
         }
 
         @TestMetadata("assign_MutableListRequired.kt")
         public void testAssign_MutableListRequired() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/assign_MutableListRequired.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_MutableListRequired.kt", this::doTest);
         }
 
         @TestMetadata("assign_breakAndContinue.kt")
         public void testAssign_breakAndContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/assign_breakAndContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/assign_breakAndContinue.kt", this::doTest);
         }
 
         @TestMetadata("cannotSplitOutFilterIsInstance.kt")
         public void testCannotSplitOutFilterIsInstance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/cannotSplitOutFilterIsInstance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/cannotSplitOutFilterIsInstance.kt", this::doTest);
         }
 
         @TestMetadata("doNotSplitOutFilterIsInstance.kt")
         public void testDoNotSplitOutFilterIsInstance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/doNotSplitOutFilterIsInstance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/doNotSplitOutFilterIsInstance.kt", this::doTest);
         }
 
         @TestMetadata("doNotSplitOutFilterNotNull.kt")
         public void testDoNotSplitOutFilterNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/doNotSplitOutFilterNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/doNotSplitOutFilterNotNull.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed.kt")
         public void testFilterIndexed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed2.kt")
         public void testFilterIndexed2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed2.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexedAndFlatMapWithContinue.kt")
         public void testFilterIndexedAndFlatMapWithContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexedAndFlatMapWithContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexedAndFlatMapWithContinue.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexedTo.kt")
         public void testFilterIndexedTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexedTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexedTo.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexedTo2.kt")
         public void testFilterIndexedTo2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexedTo2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexedTo2.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_indexChangedTwice.kt")
         public void testFilterIndexed_indexChangedTwice() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexChangedTwice.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexChangedTwice.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_indexStartNotZero.kt")
         public void testFilterIndexed_indexStartNotZero() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexStartNotZero.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexStartNotZero.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_indexUsedAfter.kt")
         public void testFilterIndexed_indexUsedAfter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexUsedAfter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexUsedAfter.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_indexUsedEarlierInLoop.kt")
         public void testFilterIndexed_indexUsedEarlierInLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexUsedEarlierInLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_indexUsedEarlierInLoop.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_merge1.kt")
         public void testFilterIndexed_merge1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge1.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_merge2.kt")
         public void testFilterIndexed_merge2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge2.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_merge3.kt")
         public void testFilterIndexed_merge3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge3.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_merge4.kt")
         public void testFilterIndexed_merge4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_merge4.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_twoIndices.kt")
         public void testFilterIndexed_twoIndices() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_twoIndices.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_twoIndices.kt", this::doTest);
         }
 
         @TestMetadata("filterIndexed_twoIndicesUsed.kt")
         public void testFilterIndexed_twoIndicesUsed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIndexed_twoIndicesUsed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIndexed_twoIndicesUsed.kt", this::doTest);
         }
 
         @TestMetadata("filterIsInstance.kt")
         public void testFilterIsInstance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIsInstance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIsInstance.kt", this::doTest);
         }
 
         @TestMetadata("filterIsInstanceTo.kt")
         public void testFilterIsInstanceTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIsInstanceTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIsInstanceTo.kt", this::doTest);
         }
 
         @TestMetadata("filterIsInstance_ifContinue.kt")
         public void testFilterIsInstance_ifContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterIsInstance_ifContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterIsInstance_ifContinue.kt", this::doTest);
         }
 
         @TestMetadata("filterNotNull.kt")
         public void testFilterNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotNull.kt", this::doTest);
         }
 
         @TestMetadata("filterNotNullTo.kt")
         public void testFilterNotNullTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterNotNullTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotNullTo.kt", this::doTest);
         }
 
         @TestMetadata("filterNotNullTo2.kt")
         public void testFilterNotNullTo2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterNotNullTo2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotNullTo2.kt", this::doTest);
         }
 
         @TestMetadata("filterNotNull_ifContinue.kt")
         public void testFilterNotNull_ifContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterNotNull_ifContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotNull_ifContinue.kt", this::doTest);
         }
 
         @TestMetadata("filterNotTo.kt")
         public void testFilterNotTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterNotTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNotTo.kt", this::doTest);
         }
 
         @TestMetadata("filterNot_ifContinue.kt")
         public void testFilterNot_ifContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterNot_ifContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterNot_ifContinue.kt", this::doTest);
         }
 
         @TestMetadata("filterTo.kt")
         public void testFilterTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterTo.kt", this::doTest);
         }
 
         @TestMetadata("filterTo2.kt")
         public void testFilterTo2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/filterTo2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/filterTo2.kt", this::doTest);
         }
 
         @TestMetadata("glueTogetherFilterNotNull.kt")
         public void testGlueTogetherFilterNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/glueTogetherFilterNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/glueTogetherFilterNotNull.kt", this::doTest);
         }
 
         @TestMetadata("ifContinue.kt")
         public void testIfContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/ifContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifContinue.kt", this::doTest);
         }
 
         @TestMetadata("ifContinue2.kt")
         public void testIfContinue2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/ifContinue2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifContinue2.kt", this::doTest);
         }
 
         @TestMetadata("ifContinueInBlock.kt")
         public void testIfContinueInBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/ifContinueInBlock.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifContinueInBlock.kt", this::doTest);
         }
 
         @TestMetadata("ifContinueWithLabel.kt")
         public void testIfContinueWithLabel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/ifContinueWithLabel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifContinueWithLabel.kt", this::doTest);
         }
 
         @TestMetadata("ifElse.kt")
         public void testIfElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/ifElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/ifElse.kt", this::doTest);
         }
 
         @TestMetadata("inputVarNotUsed.kt")
         public void testInputVarNotUsed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/inputVarNotUsed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/inputVarNotUsed.kt", this::doTest);
         }
 
         @TestMetadata("inputVariableNotUsed.kt")
         public void testInputVariableNotUsed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/inputVariableNotUsed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/inputVariableNotUsed.kt", this::doTest);
         }
 
         @TestMetadata("mergeMultiple.kt")
         public void testMergeMultiple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/mergeMultiple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/mergeMultiple.kt", this::doTest);
         }
 
         @TestMetadata("splitOutFilterIsInstance.kt")
         public void testSplitOutFilterIsInstance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/splitOutFilterIsInstance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/splitOutFilterIsInstance.kt", this::doTest);
         }
 
         @TestMetadata("splitOutFilterNotNull.kt")
         public void testSplitOutFilterNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/splitOutFilterNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/splitOutFilterNotNull.kt", this::doTest);
         }
 
         @TestMetadata("splitOutFilterNotNull2.kt")
         public void testSplitOutFilterNotNull2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/filter/splitOutFilterNotNull2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/filter/splitOutFilterNotNull2.kt", this::doTest);
         }
     }
 
@@ -629,122 +536,102 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("assignmentInitialization.kt")
         public void testAssignmentInitialization() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/assignmentInitialization.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/assignmentInitialization.kt", this::doTest);
         }
 
         @TestMetadata("cannotUseLet.kt")
         public void testCannotUseLet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/cannotUseLet.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/cannotUseLet.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign.kt")
         public void testIfAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign_breakWithLabel.kt")
         public void testIfAssign_breakWithLabel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_breakWithLabel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_breakWithLabel.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign_cannotBeVal.kt")
         public void testIfAssign_cannotBeVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_cannotBeVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_cannotBeVal.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign_preserveComments.kt")
         public void testIfAssign_preserveComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_preserveComments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_preserveComments.kt", this::doTest);
         }
 
         @TestMetadata("ifAssign_variableUsedBefore.kt")
         public void testIfAssign_variableUsedBefore() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_variableUsedBefore.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifAssign_variableUsedBefore.kt", this::doTest);
         }
 
         @TestMetadata("ifReturn.kt")
         public void testIfReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/ifReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/ifReturn.kt", this::doTest);
         }
 
         @TestMetadata("KT14292.kt")
         public void testKT14292() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/KT14292.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/KT14292.kt", this::doTest);
         }
 
         @TestMetadata("let.kt")
         public void testLet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/let.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/let.kt", this::doTest);
         }
 
         @TestMetadata("let2.kt")
         public void testLet2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/let2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/let2.kt", this::doTest);
         }
 
         @TestMetadata("letOrNotNull.kt")
         public void testLetOrNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/letOrNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/letOrNotNull.kt", this::doTest);
         }
 
         @TestMetadata("return.kt")
         public void testReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/return.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/return.kt", this::doTest);
         }
 
         @TestMetadata("returnExpression.kt")
         public void testReturnExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/returnExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/returnExpression.kt", this::doTest);
         }
 
         @TestMetadata("returnExpressionOrNotNull.kt")
         public void testReturnExpressionOrNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/returnExpressionOrNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/returnExpressionOrNotNull.kt", this::doTest);
         }
 
         @TestMetadata("returnNotNullIfNone.kt")
         public void testReturnNotNullIfNone() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/returnNotNullIfNone.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/returnNotNullIfNone.kt", this::doTest);
         }
 
         @TestMetadata("returnNotNullIfNone2.kt")
         public void testReturnNotNullIfNone2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/returnNotNullIfNone2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/returnNotNullIfNone2.kt", this::doTest);
         }
 
         @TestMetadata("return_comment.kt")
         public void testReturn_comment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/return_comment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/return_comment.kt", this::doTest);
         }
 
         @TestMetadata("safeDotExpression.kt")
         public void testSafeDotExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/safeDotExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/safeDotExpression.kt", this::doTest);
         }
 
         @TestMetadata("withMergedFilter.kt")
         public void testWithMergedFilter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/firstOrNull/withMergedFilter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/firstOrNull/withMergedFilter.kt", this::doTest);
         }
     }
 
@@ -758,68 +645,57 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("break.kt")
         public void testBreak() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/break.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/break.kt", this::doTest);
         }
 
         @TestMetadata("continue.kt")
         public void testContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/continue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/continue.kt", this::doTest);
         }
 
         @TestMetadata("flatMapTo.kt")
         public void testFlatMapTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/flatMapTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/flatMapTo.kt", this::doTest);
         }
 
         @TestMetadata("flatMapTo2.kt")
         public void testFlatMapTo2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/flatMapTo2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/flatMapTo2.kt", this::doTest);
         }
 
         @TestMetadata("flatMapTo3.kt")
         public void testFlatMapTo3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/flatMapTo3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/flatMapTo3.kt", this::doTest);
         }
 
         @TestMetadata("indexUsed.kt")
         public void testIndexUsed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/indexUsed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/indexUsed.kt", this::doTest);
         }
 
         @TestMetadata("inputVarStillNeeded.kt")
         public void testInputVarStillNeeded() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/inputVarStillNeeded.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/inputVarStillNeeded.kt", this::doTest);
         }
 
         @TestMetadata("notIterable.kt")
         public void testNotIterable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/notIterable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/notIterable.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/simple.kt", this::doTest);
         }
 
         @TestMetadata("wrongBreak.kt")
         public void testWrongBreak() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/wrongBreak.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/wrongBreak.kt", this::doTest);
         }
 
         @TestMetadata("wrongContinue.kt")
         public void testWrongContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/flatMap/wrongContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/flatMap/wrongContinue.kt", this::doTest);
         }
     }
 
@@ -833,44 +709,37 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("indexed.kt")
         public void testIndexed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/forEach/indexed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/indexed.kt", this::doTest);
         }
 
         @TestMetadata("indexed_nothingElse.kt")
         public void testIndexed_nothingElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/forEach/indexed_nothingElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/indexed_nothingElse.kt", this::doTest);
         }
 
         @TestMetadata("KT14341.kt")
         public void testKT14341() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/forEach/KT14341.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/KT14341.kt", this::doTest);
         }
 
         @TestMetadata("KT21083.kt")
         public void testKT21083() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/forEach/KT21083.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/KT21083.kt", this::doTest);
         }
 
         @TestMetadata("notAvailable.kt")
         public void testNotAvailable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/forEach/notAvailable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/notAvailable.kt", this::doTest);
         }
 
         @TestMetadata("notIndexed.kt")
         public void testNotIndexed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/forEach/notIndexed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/notIndexed.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/forEach/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/forEach/simple.kt", this::doTest);
         }
     }
 
@@ -884,44 +753,37 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("indexOf.kt")
         public void testIndexOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/indexOf/indexOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOf.kt", this::doTest);
         }
 
         @TestMetadata("indexOfFirst_ifAssign.kt")
         public void testIndexOfFirst_ifAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_ifAssign.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_ifAssign.kt", this::doTest);
         }
 
         @TestMetadata("indexOfFirst_ifReturn.kt")
         public void testIndexOfFirst_ifReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_ifReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_ifReturn.kt", this::doTest);
         }
 
         @TestMetadata("indexOfFirst_mustBeNoIndexInCondition.kt")
         public void testIndexOfFirst_mustBeNoIndexInCondition() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_mustBeNoIndexInCondition.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOfFirst_mustBeNoIndexInCondition.kt", this::doTest);
         }
 
         @TestMetadata("indexOfLast_ifAssign.kt")
         public void testIndexOfLast_ifAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/indexOf/indexOfLast_ifAssign.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/indexOfLast_ifAssign.kt", this::doTest);
         }
 
         @TestMetadata("KT14303.kt")
         public void testKT14303() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/indexOf/KT14303.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/KT14303.kt", this::doTest);
         }
 
         @TestMetadata("lastIndexOf.kt")
         public void testLastIndexOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/indexOf/lastIndexOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/indexOf/lastIndexOf.kt", this::doTest);
         }
     }
 
@@ -935,50 +797,42 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("indexPlusPlusInsideExpression.kt")
         public void testIndexPlusPlusInsideExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression.kt", this::doTest);
         }
 
         @TestMetadata("indexPlusPlusInsideExpression_indexUsedAfterIncrement.kt")
         public void testIndexPlusPlusInsideExpression_indexUsedAfterIncrement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedAfterIncrement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedAfterIncrement.kt", this::doTest);
         }
 
         @TestMetadata("indexPlusPlusInsideExpression_indexUsedBeforeIncrement.kt")
         public void testIndexPlusPlusInsideExpression_indexUsedBeforeIncrement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedBeforeIncrement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedBeforeIncrement.kt", this::doTest);
         }
 
         @TestMetadata("indexPlusPlusInsideExpression_indexUsedBeforeIncrement2.kt")
         public void testIndexPlusPlusInsideExpression_indexUsedBeforeIncrement2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedBeforeIncrement2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusInsideExpression_indexUsedBeforeIncrement2.kt", this::doTest);
         }
 
         @TestMetadata("indexPlusPlusIsNotLastStatement.kt")
         public void testIndexPlusPlusIsNotLastStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusIsNotLastStatement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusIsNotLastStatement.kt", this::doTest);
         }
 
         @TestMetadata("indexPlusPlusIsNotLastStatement_indexUsedAfterIncrement.kt")
         public void testIndexPlusPlusIsNotLastStatement_indexUsedAfterIncrement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusIsNotLastStatement_indexUsedAfterIncrement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexPlusPlusIsNotLastStatement_indexUsedAfterIncrement.kt", this::doTest);
         }
 
         @TestMetadata("indexWithNestedLoop.kt")
         public void testIndexWithNestedLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/introduceIndex/indexWithNestedLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/indexWithNestedLoop.kt", this::doTest);
         }
 
         @TestMetadata("prefixIndexPlusPlusInsideExpression.kt")
         public void testPrefixIndexPlusPlusInsideExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/introduceIndex/prefixIndexPlusPlusInsideExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/introduceIndex/prefixIndexPlusPlusInsideExpression.kt", this::doTest);
         }
     }
 
@@ -992,170 +846,142 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("assignMap.kt")
         public void testAssignMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/assignMap.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/assignMap.kt", this::doTest);
         }
 
         @TestMetadata("assignMap2.kt")
         public void testAssignMap2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/assignMap2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/assignMap2.kt", this::doTest);
         }
 
         @TestMetadata("KT18816.kt")
         public void testKT18816() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/KT18816.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/KT18816.kt", this::doTest);
         }
 
         @TestMetadata("map.kt")
         public void testMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/map.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/map.kt", this::doTest);
         }
 
         @TestMetadata("mapAndFilterIndexed.kt")
         public void testMapAndFilterIndexed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapAndFilterIndexed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapAndFilterIndexed.kt", this::doTest);
         }
 
         @TestMetadata("mapIndexed.kt")
         public void testMapIndexed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapIndexed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexed.kt", this::doTest);
         }
 
         @TestMetadata("mapIndexedNotNull.kt")
         public void testMapIndexedNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNull.kt", this::doTest);
         }
 
         @TestMetadata("mapIndexedNotNullTo.kt")
         public void testMapIndexedNotNullTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNullTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNullTo.kt", this::doTest);
         }
 
         @TestMetadata("mapIndexedNotNullTo_elvisContinue.kt")
         public void testMapIndexedNotNullTo_elvisContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNullTo_elvisContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNullTo_elvisContinue.kt", this::doTest);
         }
 
         @TestMetadata("mapIndexedNotNull_elvisContinue.kt")
         public void testMapIndexedNotNull_elvisContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNull_elvisContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedNotNull_elvisContinue.kt", this::doTest);
         }
 
         @TestMetadata("mapIndexedTo.kt")
         public void testMapIndexedTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapIndexedTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexedTo.kt", this::doTest);
         }
 
         @TestMetadata("mapIndexed_afterFilter.kt")
         public void testMapIndexed_afterFilter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapIndexed_afterFilter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexed_afterFilter.kt", this::doTest);
         }
 
         @TestMetadata("mapIndexed_twice.kt")
         public void testMapIndexed_twice() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapIndexed_twice.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapIndexed_twice.kt", this::doTest);
         }
 
         @TestMetadata("mapNotNull.kt")
         public void testMapNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNull.kt", this::doTest);
         }
 
         @TestMetadata("mapNotNullTo.kt")
         public void testMapNotNullTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapNotNullTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNullTo.kt", this::doTest);
         }
 
         @TestMetadata("mapNotNullTo_elvisContinue.kt")
         public void testMapNotNullTo_elvisContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapNotNullTo_elvisContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNullTo_elvisContinue.kt", this::doTest);
         }
 
         @TestMetadata("mapNotNull_elvisContinue.kt")
         public void testMapNotNull_elvisContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapNotNull_elvisContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNull_elvisContinue.kt", this::doTest);
         }
 
         @TestMetadata("mapNotNull_nestedLoopElvisContinue.kt")
         public void testMapNotNull_nestedLoopElvisContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapNotNull_nestedLoopElvisContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNull_nestedLoopElvisContinue.kt", this::doTest);
         }
 
         @TestMetadata("mapNotNull_wrongElvisContinue.kt")
         public void testMapNotNull_wrongElvisContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapNotNull_wrongElvisContinue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapNotNull_wrongElvisContinue.kt", this::doTest);
         }
 
         @TestMetadata("mapTo.kt")
         public void testMapTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo.kt", this::doTest);
         }
 
         @TestMetadata("mapTo2.kt")
         public void testMapTo2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapTo2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo2.kt", this::doTest);
         }
 
         @TestMetadata("mapTo3.kt")
         public void testMapTo3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapTo3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo3.kt", this::doTest);
         }
 
         @TestMetadata("mapTo4.kt")
         public void testMapTo4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapTo4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo4.kt", this::doTest);
         }
 
         @TestMetadata("mapTo_inputVarNotUsed.kt")
         public void testMapTo_inputVarNotUsed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapTo_inputVarNotUsed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapTo_inputVarNotUsed.kt", this::doTest);
         }
 
         @TestMetadata("mapUsesOldIndexAfterFilter.kt")
         public void testMapUsesOldIndexAfterFilter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapUsesOldIndexAfterFilter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapUsesOldIndexAfterFilter.kt", this::doTest);
         }
 
         @TestMetadata("mapVar.kt")
         public void testMapVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/mapVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/mapVar.kt", this::doTest);
         }
 
         @TestMetadata("map_var.kt")
         public void testMap_var() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/map_var.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/map_var.kt", this::doTest);
         }
 
         @TestMetadata("map_variableStillNeeded.kt")
         public void testMap_variableStillNeeded() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/map/map_variableStillNeeded.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/map/map_variableStillNeeded.kt", this::doTest);
         }
     }
 
@@ -1169,80 +995,67 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("KT14210.kt")
         public void testKT14210() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/KT14210.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/KT14210.kt", this::doTest);
         }
 
         @TestMetadata("max1.kt")
         public void testMax1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/max1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max1.kt", this::doTest);
         }
 
         @TestMetadata("max2.kt")
         public void testMax2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/max2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max2.kt", this::doTest);
         }
 
         @TestMetadata("max3.kt")
         public void testMax3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/max3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max3.kt", this::doTest);
         }
 
         @TestMetadata("max4.kt")
         public void testMax4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/max4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max4.kt", this::doTest);
         }
 
         @TestMetadata("max5.kt")
         public void testMax5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/max5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max5.kt", this::doTest);
         }
 
         @TestMetadata("max6.kt")
         public void testMax6() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/max6.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max6.kt", this::doTest);
         }
 
         @TestMetadata("max7.kt")
         public void testMax7() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/max7.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/max7.kt", this::doTest);
         }
 
         @TestMetadata("min1.kt")
         public void testMin1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/min1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min1.kt", this::doTest);
         }
 
         @TestMetadata("min2.kt")
         public void testMin2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/min2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min2.kt", this::doTest);
         }
 
         @TestMetadata("min3.kt")
         public void testMin3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/min3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min3.kt", this::doTest);
         }
 
         @TestMetadata("min4.kt")
         public void testMin4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/min4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min4.kt", this::doTest);
         }
 
         @TestMetadata("min5.kt")
         public void testMin5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/maxMin/min5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/maxMin/min5.kt", this::doTest);
         }
     }
 
@@ -1256,92 +1069,77 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("errorOutsideLoop.kt")
         public void testErrorOutsideLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/errorOutsideLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/errorOutsideLoop.kt", this::doTest);
         }
 
         @TestMetadata("smartCastNotBroken.kt")
         public void testSmartCastNotBroken() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken.kt", this::doTest);
         }
 
         @TestMetadata("smartCastNotBroken2.kt")
         public void testSmartCastNotBroken2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken2.kt", this::doTest);
         }
 
         @TestMetadata("smartCastNotBroken3.kt")
         public void testSmartCastNotBroken3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken3.kt", this::doTest);
         }
 
         @TestMetadata("smartCastNotBroken4.kt")
         public void testSmartCastNotBroken4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken4.kt", this::doTest);
         }
 
         @TestMetadata("smartCastNotBroken5.kt")
         public void testSmartCastNotBroken5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotBroken5.kt", this::doTest);
         }
 
         @TestMetadata("smartCastNotNullRequired.kt")
         public void testSmartCastNotNullRequired() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotNullRequired.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotNullRequired.kt", this::doTest);
         }
 
         @TestMetadata("smartCastNotRequired.kt")
         public void testSmartCastNotRequired() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotRequired.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastNotRequired.kt", this::doTest);
         }
 
         @TestMetadata("smartCastRequired.kt")
         public void testSmartCastRequired() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired.kt", this::doTest);
         }
 
         @TestMetadata("smartCastRequired2.kt")
         public void testSmartCastRequired2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired2.kt", this::doTest);
         }
 
         @TestMetadata("smartCastRequired3.kt")
         public void testSmartCastRequired3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired3.kt", this::doTest);
         }
 
         @TestMetadata("smartCastRequired4.kt")
         public void testSmartCastRequired4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired4.kt", this::doTest);
         }
 
         @TestMetadata("smartCastRequired5.kt")
         public void testSmartCastRequired5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired5.kt", this::doTest);
         }
 
         @TestMetadata("smartCastRequired6.kt")
         public void testSmartCastRequired6() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired6.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastRequired6.kt", this::doTest);
         }
 
         @TestMetadata("smartCastThisRequired.kt")
         public void testSmartCastThisRequired() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/smartCasts/smartCastThisRequired.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/smartCasts/smartCastThisRequired.kt", this::doTest);
         }
     }
 
@@ -1355,104 +1153,87 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("bytes.kt")
         public void testBytes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/bytes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/bytes.kt", this::doTest);
         }
 
         @TestMetadata("doubles.kt")
         public void testDoubles() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/doubles.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/doubles.kt", this::doTest);
         }
 
         @TestMetadata("floats.kt")
         public void testFloats() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/floats.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/floats.kt", this::doTest);
         }
 
         @TestMetadata("floatsIntoDouble.kt")
         public void testFloatsIntoDouble() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/floatsIntoDouble.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/floatsIntoDouble.kt", this::doTest);
         }
 
         @TestMetadata("indexUsed.kt")
         public void testIndexUsed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/indexUsed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/indexUsed.kt", this::doTest);
         }
 
         @TestMetadata("indexUsed2.kt")
         public void testIndexUsed2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/indexUsed2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/indexUsed2.kt", this::doTest);
         }
 
         @TestMetadata("ints.kt")
         public void testInts() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/ints.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/ints.kt", this::doTest);
         }
 
         @TestMetadata("longs.kt")
         public void testLongs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/longs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/longs.kt", this::doTest);
         }
 
         @TestMetadata("nonNumbers.kt")
         public void testNonNumbers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/nonNumbers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/nonNumbers.kt", this::doTest);
         }
 
         @TestMetadata("nonZeroInitial.kt")
         public void testNonZeroInitial() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/nonZeroInitial.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/nonZeroInitial.kt", this::doTest);
         }
 
         @TestMetadata("short.kt")
         public void testShort() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/short.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/short.kt", this::doTest);
         }
 
         @TestMetadata("smartCast.kt")
         public void testSmartCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/smartCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/smartCast.kt", this::doTest);
         }
 
         @TestMetadata("smartCastNotNull.kt")
         public void testSmartCastNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/smartCastNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/smartCastNotNull.kt", this::doTest);
         }
 
         @TestMetadata("sumByDouble.kt")
         public void testSumByDouble() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/sumByDouble.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/sumByDouble.kt", this::doTest);
         }
 
         @TestMetadata("sumByInts.kt")
         public void testSumByInts() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/sumByInts.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/sumByInts.kt", this::doTest);
         }
 
         @TestMetadata("sumByIntsIntoLong.kt")
         public void testSumByIntsIntoLong() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/sumByIntsIntoLong.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/sumByIntsIntoLong.kt", this::doTest);
         }
 
         @TestMetadata("sumByShorts.kt")
         public void testSumByShorts() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/sum/sumByShorts.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/sum/sumByShorts.kt", this::doTest);
         }
     }
 
@@ -1466,32 +1247,27 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("ifElse1.kt")
         public void testIfElse1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/takeWhile/ifElse1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/ifElse1.kt", this::doTest);
         }
 
         @TestMetadata("ifElse2.kt")
         public void testIfElse2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/takeWhile/ifElse2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/ifElse2.kt", this::doTest);
         }
 
         @TestMetadata("nestedLoop.kt")
         public void testNestedLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/takeWhile/nestedLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/nestedLoop.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/takeWhile/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/simple.kt", this::doTest);
         }
 
         @TestMetadata("wrongBreak.kt")
         public void testWrongBreak() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/takeWhile/wrongBreak.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/takeWhile/wrongBreak.kt", this::doTest);
         }
     }
 
@@ -1501,14 +1277,12 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
     public static class ToCollection extends AbstractIntentionTest2 {
         @TestMetadata("addAfterLoop.kt")
         public void testAddAfterLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/addAfterLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/addAfterLoop.kt", this::doTest);
         }
 
         @TestMetadata("addToCollection.kt")
         public void testAddToCollection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/addToCollection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/addToCollection.kt", this::doTest);
         }
 
         public void testAllFilesPresentInToCollection() throws Exception {
@@ -1517,86 +1291,72 @@ public class IntentionTest2Generated extends AbstractIntentionTest2 {
 
         @TestMetadata("badReceiver1.kt")
         public void testBadReceiver1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/badReceiver1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/badReceiver1.kt", this::doTest);
         }
 
         @TestMetadata("badReceiver2.kt")
         public void testBadReceiver2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/badReceiver2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/badReceiver2.kt", this::doTest);
         }
 
         @TestMetadata("explicitValType.kt")
         public void testExplicitValType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/explicitValType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/explicitValType.kt", this::doTest);
         }
 
         @TestMetadata("goodReceiver.kt")
         public void testGoodReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/goodReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/goodReceiver.kt", this::doTest);
         }
 
         @TestMetadata("KT18881.kt")
         public void testKT18881() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/KT18881.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/KT18881.kt", this::doTest);
         }
 
         @TestMetadata("resultCollectionUsedInsideLoop.kt")
         public void testResultCollectionUsedInsideLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/resultCollectionUsedInsideLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/resultCollectionUsedInsideLoop.kt", this::doTest);
         }
 
         @TestMetadata("toList.kt")
         public void testToList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/toList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toList.kt", this::doTest);
         }
 
         @TestMetadata("toList2.kt")
         public void testToList2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/toList2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toList2.kt", this::doTest);
         }
 
         @TestMetadata("toList3.kt")
         public void testToList3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/toList3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toList3.kt", this::doTest);
         }
 
         @TestMetadata("toMutableSet.kt")
         public void testToMutableSet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/toMutableSet.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toMutableSet.kt", this::doTest);
         }
 
         @TestMetadata("toMutableSet2.kt")
         public void testToMutableSet2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/toMutableSet2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toMutableSet2.kt", this::doTest);
         }
 
         @TestMetadata("toMutableSet3.kt")
         public void testToMutableSet3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/toMutableSet3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toMutableSet3.kt", this::doTest);
         }
 
         @TestMetadata("toSet.kt")
         public void testToSet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/toSet.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toSet.kt", this::doTest);
         }
 
         @TestMetadata("toSetWithMap.kt")
         public void testToSetWithMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/intentions/loopToCallChain/toCollection/toSetWithMap.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/intentions/loopToCallChain/toCollection/toSetWithMap.kt", this::doTest);
         }
     }
 }

@@ -27,14 +27,12 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
     @TestMetadata("interfaceMethod.kt")
     public void testInterfaceMethod() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/writeFlags/interfaceMethod.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/writeFlags/interfaceMethod.kt", this::doTest);
     }
 
     @TestMetadata("interfaceProperty.kt")
     public void testInterfaceProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/writeFlags/interfaceProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/writeFlags/interfaceProperty.kt", this::doTest);
     }
 
     @TestMetadata("compiler/testData/codegen/java8/writeFlags/defaults")
@@ -47,14 +45,12 @@ public class WriteFlagsTestGenerated extends AbstractWriteFlagsTest {
 
         @TestMetadata("defaultMethod.kt")
         public void testDefaultMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/writeFlags/defaults/defaultMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/writeFlags/defaults/defaultMethod.kt", this::doTest);
         }
 
         @TestMetadata("defaultProperty.kt")
         public void testDefaultProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/writeFlags/defaults/defaultProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/writeFlags/defaults/defaultProperty.kt", this::doTest);
         }
     }
 }

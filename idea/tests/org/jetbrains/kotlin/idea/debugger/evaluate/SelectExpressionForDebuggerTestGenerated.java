@@ -29,224 +29,187 @@ public class SelectExpressionForDebuggerTestGenerated extends AbstractSelectExpr
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/annotation.kt", this::doTest);
         }
 
         @TestMetadata("binaryExpression.kt")
         public void testBinaryExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/binaryExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/binaryExpression.kt", this::doTest);
         }
 
         @TestMetadata("call.kt")
         public void testCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/call.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/call.kt", this::doTest);
         }
 
         @TestMetadata("companionObjectCall.kt")
         public void testCompanionObjectCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/companionObjectCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/companionObjectCall.kt", this::doTest);
         }
 
         @TestMetadata("companionObjectCall2.kt")
         public void testCompanionObjectCall2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/companionObjectCall2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/companionObjectCall2.kt", this::doTest);
         }
 
         @TestMetadata("expressionInPropertyInitializer.kt")
         public void testExpressionInPropertyInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/expressionInPropertyInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/expressionInPropertyInitializer.kt", this::doTest);
         }
 
         @TestMetadata("extensionFun.kt")
         public void testExtensionFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/extensionFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/extensionFun.kt", this::doTest);
         }
 
         @TestMetadata("firstCallInChain.kt")
         public void testFirstCallInChain() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/firstCallInChain.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/firstCallInChain.kt", this::doTest);
         }
 
         @TestMetadata("fullyQualified.kt")
         public void testFullyQualified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/fullyQualified.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/fullyQualified.kt", this::doTest);
         }
 
         @TestMetadata("funArgument.kt")
         public void testFunArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/funArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/funArgument.kt", this::doTest);
         }
 
         @TestMetadata("functionLiteral.kt")
         public void testFunctionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/functionLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/functionLiteral.kt", this::doTest);
         }
 
         @TestMetadata("getConvention.kt")
         public void testGetConvention() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/getConvention.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/getConvention.kt", this::doTest);
         }
 
         @TestMetadata("imports.kt")
         public void testImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/imports.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/imports.kt", this::doTest);
         }
 
         @TestMetadata("infixCall.kt")
         public void testInfixCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/infixCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/infixCall.kt", this::doTest);
         }
 
         @TestMetadata("infixCallArgument.kt")
         public void testInfixCallArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/infixCallArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/infixCallArgument.kt", this::doTest);
         }
 
         @TestMetadata("isExpression.kt")
         public void testIsExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/isExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/isExpression.kt", this::doTest);
         }
 
         @TestMetadata("javaStaticMehtodCall.kt")
         public void testJavaStaticMehtodCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/javaStaticMehtodCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/javaStaticMehtodCall.kt", this::doTest);
         }
 
         @TestMetadata("keyword.kt")
         public void testKeyword() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/keyword.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/keyword.kt", this::doTest);
         }
 
         @TestMetadata("modifier.kt")
         public void testModifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/modifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/modifier.kt", this::doTest);
         }
 
         @TestMetadata("nameArgument.kt")
         public void testNameArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/nameArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/nameArgument.kt", this::doTest);
         }
 
         @TestMetadata("objectMethodCall.kt")
         public void testObjectMethodCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/objectMethodCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/objectMethodCall.kt", this::doTest);
         }
 
         @TestMetadata("package.kt")
         public void testPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/package.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/package.kt", this::doTest);
         }
 
         @TestMetadata("param.kt")
         public void testParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/param.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/param.kt", this::doTest);
         }
 
         @TestMetadata("propertyCall.kt")
         public void testPropertyCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/propertyCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/propertyCall.kt", this::doTest);
         }
 
         @TestMetadata("propertyDeclaration.kt")
         public void testPropertyDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/propertyDeclaration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/propertyDeclaration.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedExpressionProperty.kt")
         public void testQualifiedExpressionProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/qualifiedExpressionProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/qualifiedExpressionProperty.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedExpressionReceiver.kt")
         public void testQualifiedExpressionReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/qualifiedExpressionReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/qualifiedExpressionReceiver.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedExpressionSelector.kt")
         public void testQualifiedExpressionSelector() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/qualifiedExpressionSelector.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/qualifiedExpressionSelector.kt", this::doTest);
         }
 
         @TestMetadata("super.kt")
         public void testSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/super.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/super.kt", this::doTest);
         }
 
         @TestMetadata("superSelector.kt")
         public void testSuperSelector() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/superSelector.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/superSelector.kt", this::doTest);
         }
 
         @TestMetadata("this.kt")
         public void testThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/this.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/this.kt", this::doTest);
         }
 
         @TestMetadata("thisSelector.kt")
         public void testThisSelector() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/thisSelector.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/thisSelector.kt", this::doTest);
         }
 
         @TestMetadata("thisWithLabel.kt")
         public void testThisWithLabel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/thisWithLabel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/thisWithLabel.kt", this::doTest);
         }
 
         @TestMetadata("unaryExpression.kt")
         public void testUnaryExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/unaryExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/unaryExpression.kt", this::doTest);
         }
 
         @TestMetadata("userType.kt")
         public void testUserType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/userType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/userType.kt", this::doTest);
         }
 
         @TestMetadata("userTypeGeneric.kt")
         public void testUserTypeGeneric() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/userTypeGeneric.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/userTypeGeneric.kt", this::doTest);
         }
 
         @TestMetadata("userTypeQualified.kt")
         public void testUserTypeQualified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/userTypeQualified.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/userTypeQualified.kt", this::doTest);
         }
     }
 
@@ -260,122 +223,102 @@ public class SelectExpressionForDebuggerTestGenerated extends AbstractSelectExpr
 
         @TestMetadata("binaryExpression.kt")
         public void testBinaryExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/binaryExpression.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/binaryExpression.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("call.kt")
         public void testCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/call.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/call.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("expressionInPropertyInitializer.kt")
         public void testExpressionInPropertyInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/expressionInPropertyInitializer.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/expressionInPropertyInitializer.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("extensionFun.kt")
         public void testExtensionFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/extensionFun.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/extensionFun.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("funArgument.kt")
         public void testFunArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/funArgument.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/funArgument.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("functionLiteral.kt")
         public void testFunctionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/functionLiteral.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/functionLiteral.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("getConvention.kt")
         public void testGetConvention() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/getConvention.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/getConvention.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("infixCall.kt")
         public void testInfixCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/infixCall.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/infixCall.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("infixCallArgument.kt")
         public void testInfixCallArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/infixCallArgument.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/infixCallArgument.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("isExpression.kt")
         public void testIsExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/isExpression.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/isExpression.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("propertyCall.kt")
         public void testPropertyCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/propertyCall.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/propertyCall.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("qualifiedExpressionProperty.kt")
         public void testQualifiedExpressionProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/qualifiedExpressionProperty.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/qualifiedExpressionProperty.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("qualifiedExpressionReceiver.kt")
         public void testQualifiedExpressionReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/qualifiedExpressionReceiver.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/qualifiedExpressionReceiver.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("qualifiedExpressionSelector.kt")
         public void testQualifiedExpressionSelector() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/qualifiedExpressionSelector.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/qualifiedExpressionSelector.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("super.kt")
         public void testSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/super.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/super.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("superSelector.kt")
         public void testSuperSelector() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/superSelector.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/superSelector.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("this.kt")
         public void testThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/this.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/this.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("thisSelector.kt")
         public void testThisSelector() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/thisSelector.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/thisSelector.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("thisWithLabel.kt")
         public void testThisWithLabel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/thisWithLabel.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/thisWithLabel.kt", this::doTestWoMethodCalls);
         }
 
         @TestMetadata("unaryExpression.kt")
         public void testUnaryExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/selectExpression/disallowMethodCalls/unaryExpression.kt");
-            doTestWoMethodCalls(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/selectExpression/disallowMethodCalls/unaryExpression.kt", this::doTestWoMethodCalls);
         }
     }
 }

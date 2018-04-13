@@ -25,8 +25,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
     public static class Psi extends AbstractParsingTest {
         @TestMetadata("AbsentInnerType.kt")
         public void testAbsentInnerType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/AbsentInnerType.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/AbsentInnerType.kt", this::doParsingTest);
         }
 
         public void testAllFilesPresentInPsi() throws Exception {
@@ -35,812 +34,677 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
         @TestMetadata("AnonymousInitializer.kt")
         public void testAnonymousInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/AnonymousInitializer.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/AnonymousInitializer.kt", this::doParsingTest);
         }
 
         @TestMetadata("AssertNotNull.kt")
         public void testAssertNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/AssertNotNull.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/AssertNotNull.kt", this::doParsingTest);
         }
 
         @TestMetadata("BabySteps.kt")
         public void testBabySteps() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/BabySteps.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/BabySteps.kt", this::doParsingTest);
         }
 
         @TestMetadata("BabySteps_ERR.kt")
         public void testBabySteps_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/BabySteps_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/BabySteps_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("BackslashInString.kt")
         public void testBackslashInString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/BackslashInString.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/BackslashInString.kt", this::doParsingTest);
         }
 
         @TestMetadata("BlockCommentAtBeginningOfFile1.kt")
         public void testBlockCommentAtBeginningOfFile1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/BlockCommentAtBeginningOfFile1.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentAtBeginningOfFile1.kt", this::doParsingTest);
         }
 
         @TestMetadata("BlockCommentAtBeginningOfFile2.kt")
         public void testBlockCommentAtBeginningOfFile2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/BlockCommentAtBeginningOfFile2.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentAtBeginningOfFile2.kt", this::doParsingTest);
         }
 
         @TestMetadata("BlockCommentAtBeginningOfFile3.kt")
         public void testBlockCommentAtBeginningOfFile3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/BlockCommentAtBeginningOfFile3.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentAtBeginningOfFile3.kt", this::doParsingTest);
         }
 
         @TestMetadata("BlockCommentAtBeginningOfFile4.kt")
         public void testBlockCommentAtBeginningOfFile4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/BlockCommentAtBeginningOfFile4.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentAtBeginningOfFile4.kt", this::doParsingTest);
         }
 
         @TestMetadata("BlockCommentUnmatchedClosing_ERR.kt")
         public void testBlockCommentUnmatchedClosing_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/BlockCommentUnmatchedClosing_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/BlockCommentUnmatchedClosing_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("ByClauses.kt")
         public void testByClauses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ByClauses.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ByClauses.kt", this::doParsingTest);
         }
 
         @TestMetadata("CallWithManyClosures.kt")
         public void testCallWithManyClosures() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/CallWithManyClosures.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/CallWithManyClosures.kt", this::doParsingTest);
         }
 
         @TestMetadata("CallsInWhen.kt")
         public void testCallsInWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/CallsInWhen.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/CallsInWhen.kt", this::doParsingTest);
         }
 
         @TestMetadata("CollectionLiterals.kt")
         public void testCollectionLiterals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/CollectionLiterals.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/CollectionLiterals.kt", this::doParsingTest);
         }
 
         @TestMetadata("CollectionLiterals_ERR.kt")
         public void testCollectionLiterals_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/CollectionLiterals_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/CollectionLiterals_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("CommentsBinding.kt")
         public void testCommentsBinding() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/CommentsBinding.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/CommentsBinding.kt", this::doParsingTest);
         }
 
         @TestMetadata("CommentsBindingInLambda.kt")
         public void testCommentsBindingInLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/CommentsBindingInLambda.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/CommentsBindingInLambda.kt", this::doParsingTest);
         }
 
         @TestMetadata("CommentsBindingInStatementBlock.kt")
         public void testCommentsBindingInStatementBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/CommentsBindingInStatementBlock.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/CommentsBindingInStatementBlock.kt", this::doParsingTest);
         }
 
         @TestMetadata("Constructors.kt")
         public void testConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Constructors.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Constructors.kt", this::doParsingTest);
         }
 
         @TestMetadata("ControlStructures.kt")
         public void testControlStructures() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ControlStructures.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ControlStructures.kt", this::doParsingTest);
         }
 
         @TestMetadata("DefaultKeyword.kt")
         public void testDefaultKeyword() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DefaultKeyword.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DefaultKeyword.kt", this::doParsingTest);
         }
 
         @TestMetadata("destructuringInLambdas.kt")
         public void testDestructuringInLambdas() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/destructuringInLambdas.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/destructuringInLambdas.kt", this::doParsingTest);
         }
 
         @TestMetadata("destructuringInLambdas_ERR.kt")
         public void testDestructuringInLambdas_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/destructuringInLambdas_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/destructuringInLambdas_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("DocCommentAfterFileAnnotations.kt")
         public void testDocCommentAfterFileAnnotations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DocCommentAfterFileAnnotations.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DocCommentAfterFileAnnotations.kt", this::doParsingTest);
         }
 
         @TestMetadata("DocCommentForFirstDeclaration.kt")
         public void testDocCommentForFirstDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DocCommentForFirstDeclaration.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DocCommentForFirstDeclaration.kt", this::doParsingTest);
         }
 
         @TestMetadata("DocCommentOnPackageDirectiveLine.kt")
         public void testDocCommentOnPackageDirectiveLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DocCommentOnPackageDirectiveLine.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DocCommentOnPackageDirectiveLine.kt", this::doParsingTest);
         }
 
         @TestMetadata("DocCommentsBinding.kt")
         public void testDocCommentsBinding() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DocCommentsBinding.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DocCommentsBinding.kt", this::doParsingTest);
         }
 
         @TestMetadata("DoubleColon.kt")
         public void testDoubleColon() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DoubleColon.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DoubleColon.kt", this::doParsingTest);
         }
 
         @TestMetadata("DoubleColonWhitespaces.kt")
         public void testDoubleColonWhitespaces() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DoubleColonWhitespaces.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DoubleColonWhitespaces.kt", this::doParsingTest);
         }
 
         @TestMetadata("DoubleColon_ERR.kt")
         public void testDoubleColon_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DoubleColon_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DoubleColon_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("DuplicateAccessor.kt")
         public void testDuplicateAccessor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DuplicateAccessor.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DuplicateAccessor.kt", this::doParsingTest);
         }
 
         @TestMetadata("DynamicReceiver.kt")
         public void testDynamicReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DynamicReceiver.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DynamicReceiver.kt", this::doParsingTest);
         }
 
         @TestMetadata("DynamicSoftKeyword.kt")
         public void testDynamicSoftKeyword() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DynamicSoftKeyword.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DynamicSoftKeyword.kt", this::doParsingTest);
         }
 
         @TestMetadata("DynamicTypes.kt")
         public void testDynamicTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/DynamicTypes.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/DynamicTypes.kt", this::doParsingTest);
         }
 
         @TestMetadata("EOLsInComments.kt")
         public void testEOLsInComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EOLsInComments.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EOLsInComments.kt", this::doParsingTest);
         }
 
         @TestMetadata("EOLsOnRollback.kt")
         public void testEOLsOnRollback() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EOLsOnRollback.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EOLsOnRollback.kt", this::doParsingTest);
         }
 
         @TestMetadata("EmptyFile.kt")
         public void testEmptyFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EmptyFile.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EmptyFile.kt", this::doParsingTest);
         }
 
         @TestMetadata("EmptyName.kt")
         public void testEmptyName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EmptyName.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EmptyName.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumCommas.kt")
         public void testEnumCommas() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumCommas.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumCommas.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumEntryCommaAnnotatedMember.kt")
         public void testEnumEntryCommaAnnotatedMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumEntryCommaAnnotatedMember.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryCommaAnnotatedMember.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumEntryCommaInlineMember.kt")
         public void testEnumEntryCommaInlineMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumEntryCommaInlineMember.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryCommaInlineMember.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumEntryCommaMember.kt")
         public void testEnumEntryCommaMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumEntryCommaMember.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryCommaMember.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumEntryCommaPublicMember.kt")
         public void testEnumEntryCommaPublicMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumEntryCommaPublicMember.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryCommaPublicMember.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumEntrySemicolonInlineMember.kt")
         public void testEnumEntrySemicolonInlineMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumEntrySemicolonInlineMember.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntrySemicolonInlineMember.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumEntrySemicolonMember.kt")
         public void testEnumEntrySemicolonMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumEntrySemicolonMember.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntrySemicolonMember.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumEntrySpaceInlineMember.kt")
         public void testEnumEntrySpaceInlineMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumEntrySpaceInlineMember.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntrySpaceInlineMember.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumEntrySpaceMember.kt")
         public void testEnumEntrySpaceMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumEntrySpaceMember.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntrySpaceMember.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumEntryTwoCommas.kt")
         public void testEnumEntryTwoCommas() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumEntryTwoCommas.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumEntryTwoCommas.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumIn.kt")
         public void testEnumIn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumIn.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumIn.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumInline.kt")
         public void testEnumInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumInline.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumInline.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumInlinePublic.kt")
         public void testEnumInlinePublic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumInlinePublic.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumInlinePublic.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumMissingName.kt")
         public void testEnumMissingName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumMissingName.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumMissingName.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumOldConstructorSyntax.kt")
         public void testEnumOldConstructorSyntax() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumOldConstructorSyntax.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumOldConstructorSyntax.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumShortCommas.kt")
         public void testEnumShortCommas() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumShortCommas.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumShortCommas.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumShortWithOverload.kt")
         public void testEnumShortWithOverload() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumShortWithOverload.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumShortWithOverload.kt", this::doParsingTest);
         }
 
         @TestMetadata("EnumWithAnnotationKeyword.kt")
         public void testEnumWithAnnotationKeyword() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/EnumWithAnnotationKeyword.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/EnumWithAnnotationKeyword.kt", this::doParsingTest);
         }
 
         @TestMetadata("Enums.kt")
         public void testEnums() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Enums.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Enums.kt", this::doParsingTest);
         }
 
         @TestMetadata("Expressions_ERR.kt")
         public void testExpressions_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Expressions_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Expressions_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("ExtensionsWithQNReceiver.kt")
         public void testExtensionsWithQNReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ExtensionsWithQNReceiver.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ExtensionsWithQNReceiver.kt", this::doParsingTest);
         }
 
         @TestMetadata("FileStart_ERR.kt")
         public void testFileStart_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FileStart_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FileStart_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("FloatingPointLiteral.kt")
         public void testFloatingPointLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FloatingPointLiteral.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FloatingPointLiteral.kt", this::doParsingTest);
         }
 
         @TestMetadata("ForWithMultiDecl.kt")
         public void testForWithMultiDecl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ForWithMultiDecl.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ForWithMultiDecl.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionCalls.kt")
         public void testFunctionCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionCalls.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionCalls.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionExpressions.kt")
         public void testFunctionExpressions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionExpressions.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionExpressions.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionExpressions_ERR.kt")
         public void testFunctionExpressions_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionExpressions_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionExpressions_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionLiterals.kt")
         public void testFunctionLiterals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionLiterals.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionLiterals.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionLiterals_ERR.kt")
         public void testFunctionLiterals_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionLiterals_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionLiterals_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionNoParameterList.kt")
         public void testFunctionNoParameterList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionNoParameterList.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionNoParameterList.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionTypes.kt")
         public void testFunctionTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionTypes.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionTypes.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionTypes_ERR.kt")
         public void testFunctionTypes_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionTypes_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionTypes_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("Functions.kt")
         public void testFunctions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Functions.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Functions.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionsWithoutName.kt")
         public void testFunctionsWithoutName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionsWithoutName.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionsWithoutName.kt", this::doParsingTest);
         }
 
         @TestMetadata("FunctionsWithoutName_ERR.kt")
         public void testFunctionsWithoutName_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/FunctionsWithoutName_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/FunctionsWithoutName_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("Functions_ERR.kt")
         public void testFunctions_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Functions_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Functions_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("HangOnLonelyModifier.kt")
         public void testHangOnLonelyModifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/HangOnLonelyModifier.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/HangOnLonelyModifier.kt", this::doParsingTest);
         }
 
         @TestMetadata("IfWithPropery.kt")
         public void testIfWithPropery() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/IfWithPropery.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/IfWithPropery.kt", this::doParsingTest);
         }
 
         @TestMetadata("ImportSoftKW.kt")
         public void testImportSoftKW() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ImportSoftKW.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ImportSoftKW.kt", this::doParsingTest);
         }
 
         @TestMetadata("Imports.kt")
         public void testImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Imports.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Imports.kt", this::doParsingTest);
         }
 
         @TestMetadata("Imports_ERR.kt")
         public void testImports_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Imports_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Imports_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("IncompleteFunctionLiteral.kt")
         public void testIncompleteFunctionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/IncompleteFunctionLiteral.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/IncompleteFunctionLiteral.kt", this::doParsingTest);
         }
 
         @TestMetadata("Inner.kt")
         public void testInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Inner.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Inner.kt", this::doParsingTest);
         }
 
         @TestMetadata("IntegerLiteral.kt")
         public void testIntegerLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/IntegerLiteral.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/IntegerLiteral.kt", this::doParsingTest);
         }
 
         @TestMetadata("Interface.kt")
         public void testInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Interface.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Interface.kt", this::doParsingTest);
         }
 
         @TestMetadata("InterfaceWithEnumKeyword.kt")
         public void testInterfaceWithEnumKeyword() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/InterfaceWithEnumKeyword.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/InterfaceWithEnumKeyword.kt", this::doParsingTest);
         }
 
         @TestMetadata("Labels.kt")
         public void testLabels() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Labels.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Labels.kt", this::doParsingTest);
         }
 
         @TestMetadata("LineCommentAfterFileAnnotations.kt")
         public void testLineCommentAfterFileAnnotations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/LineCommentAfterFileAnnotations.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/LineCommentAfterFileAnnotations.kt", this::doParsingTest);
         }
 
         @TestMetadata("LineCommentForFirstDeclaration.kt")
         public void testLineCommentForFirstDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/LineCommentForFirstDeclaration.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/LineCommentForFirstDeclaration.kt", this::doParsingTest);
         }
 
         @TestMetadata("LineCommentsInBlock.kt")
         public void testLineCommentsInBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/LineCommentsInBlock.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/LineCommentsInBlock.kt", this::doParsingTest);
         }
 
         @TestMetadata("LocalDeclarations.kt")
         public void testLocalDeclarations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/LocalDeclarations.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/LocalDeclarations.kt", this::doParsingTest);
         }
 
         @TestMetadata("LongPackageName.kt")
         public void testLongPackageName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/LongPackageName.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/LongPackageName.kt", this::doParsingTest);
         }
 
         @TestMetadata("ModifierAsSelector.kt")
         public void testModifierAsSelector() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ModifierAsSelector.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ModifierAsSelector.kt", this::doParsingTest);
         }
 
         @TestMetadata("MultiVariableDeclarations.kt")
         public void testMultiVariableDeclarations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/MultiVariableDeclarations.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/MultiVariableDeclarations.kt", this::doParsingTest);
         }
 
         @TestMetadata("NamedClassObject.kt")
         public void testNamedClassObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/NamedClassObject.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/NamedClassObject.kt", this::doParsingTest);
         }
 
         @TestMetadata("namelessObjectAsEnumMember.kt")
         public void testNamelessObjectAsEnumMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/namelessObjectAsEnumMember.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/namelessObjectAsEnumMember.kt", this::doParsingTest);
         }
 
         @TestMetadata("NestedComments.kt")
         public void testNestedComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/NestedComments.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/NestedComments.kt", this::doParsingTest);
         }
 
         @TestMetadata("NewLinesValidOperations.kt")
         public void testNewLinesValidOperations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/NewLinesValidOperations.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/NewLinesValidOperations.kt", this::doParsingTest);
         }
 
         @TestMetadata("NewlinesInParentheses.kt")
         public void testNewlinesInParentheses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/NewlinesInParentheses.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/NewlinesInParentheses.kt", this::doParsingTest);
         }
 
         @TestMetadata("NonTypeBeforeDotInBaseClass.kt")
         public void testNonTypeBeforeDotInBaseClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/NonTypeBeforeDotInBaseClass.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/NonTypeBeforeDotInBaseClass.kt", this::doParsingTest);
         }
 
         @TestMetadata("NotIsAndNotIn.kt")
         public void testNotIsAndNotIn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/NotIsAndNotIn.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/NotIsAndNotIn.kt", this::doParsingTest);
         }
 
         @TestMetadata("ObjectLiteralAsStatement.kt")
         public void testObjectLiteralAsStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ObjectLiteralAsStatement.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ObjectLiteralAsStatement.kt", this::doParsingTest);
         }
 
         @TestMetadata("ParameterNameMising.kt")
         public void testParameterNameMising() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ParameterNameMising.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ParameterNameMising.kt", this::doParsingTest);
         }
 
         @TestMetadata("ParameterType.kt")
         public void testParameterType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ParameterType.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ParameterType.kt", this::doParsingTest);
         }
 
         @TestMetadata("ParameterType_ERR.kt")
         public void testParameterType_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/ParameterType_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/ParameterType_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("Precedence.kt")
         public void testPrecedence() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Precedence.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Precedence.kt", this::doParsingTest);
         }
 
         @TestMetadata("PrimaryConstructorModifiers_ERR.kt")
         public void testPrimaryConstructorModifiers_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/PrimaryConstructorModifiers_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/PrimaryConstructorModifiers_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("Properties.kt")
         public void testProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Properties.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Properties.kt", this::doParsingTest);
         }
 
         @TestMetadata("PropertiesFollowedByInitializers.kt")
         public void testPropertiesFollowedByInitializers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/PropertiesFollowedByInitializers.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/PropertiesFollowedByInitializers.kt", this::doParsingTest);
         }
 
         @TestMetadata("Properties_ERR.kt")
         public void testProperties_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Properties_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Properties_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("PropertyInvokes.kt")
         public void testPropertyInvokes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/PropertyInvokes.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/PropertyInvokes.kt", this::doParsingTest);
         }
 
         @TestMetadata("QuotedIdentifiers.kt")
         public void testQuotedIdentifiers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/QuotedIdentifiers.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/QuotedIdentifiers.kt", this::doParsingTest);
         }
 
         @TestMetadata("Reserved.kt")
         public void testReserved() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Reserved.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Reserved.kt", this::doParsingTest);
         }
 
         @TestMetadata("SemicolonAfterIf.kt")
         public void testSemicolonAfterIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/SemicolonAfterIf.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/SemicolonAfterIf.kt", this::doParsingTest);
         }
 
         @TestMetadata("semicolonBetweenDeclarations.kt")
         public void testSemicolonBetweenDeclarations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/semicolonBetweenDeclarations.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/semicolonBetweenDeclarations.kt", this::doParsingTest);
         }
 
         @TestMetadata("SimpleClassMembers.kt")
         public void testSimpleClassMembers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/SimpleClassMembers.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/SimpleClassMembers.kt", this::doParsingTest);
         }
 
         @TestMetadata("SimpleClassMembers_ERR.kt")
         public void testSimpleClassMembers_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/SimpleClassMembers_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/SimpleClassMembers_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("SimpleExpressions.kt")
         public void testSimpleExpressions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/SimpleExpressions.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/SimpleExpressions.kt", this::doParsingTest);
         }
 
         @TestMetadata("SimpleModifiers.kt")
         public void testSimpleModifiers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/SimpleModifiers.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/SimpleModifiers.kt", this::doParsingTest);
         }
 
         @TestMetadata("SoftKeywords.kt")
         public void testSoftKeywords() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/SoftKeywords.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/SoftKeywords.kt", this::doParsingTest);
         }
 
         @TestMetadata("SoftKeywordsInTypeArguments.kt")
         public void testSoftKeywordsInTypeArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/SoftKeywordsInTypeArguments.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/SoftKeywordsInTypeArguments.kt", this::doParsingTest);
         }
 
         @TestMetadata("StringTemplates.kt")
         public void testStringTemplates() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/StringTemplates.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/StringTemplates.kt", this::doParsingTest);
         }
 
         @TestMetadata("Super.kt")
         public void testSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/Super.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/Super.kt", this::doParsingTest);
         }
 
         @TestMetadata("TraitConstructor.kt")
         public void testTraitConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TraitConstructor.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TraitConstructor.kt", this::doParsingTest);
         }
 
         @TestMetadata("TripleDot.kt")
         public void testTripleDot() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TripleDot.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TripleDot.kt", this::doParsingTest);
         }
 
         @TestMetadata("TryRecovery.kt")
         public void testTryRecovery() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TryRecovery.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TryRecovery.kt", this::doParsingTest);
         }
 
         @TestMetadata("TypeAlias.kt")
         public void testTypeAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TypeAlias.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TypeAlias.kt", this::doParsingTest);
         }
 
         @TestMetadata("TypeAlias_ERR.kt")
         public void testTypeAlias_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TypeAlias_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TypeAlias_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("TypeConstraints.kt")
         public void testTypeConstraints() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TypeConstraints.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TypeConstraints.kt", this::doParsingTest);
         }
 
         @TestMetadata("TypeExpressionAmbiguities_ERR.kt")
         public void testTypeExpressionAmbiguities_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TypeExpressionAmbiguities_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TypeExpressionAmbiguities_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("TypeModifiers.kt")
         public void testTypeModifiers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TypeModifiers.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TypeModifiers.kt", this::doParsingTest);
         }
 
         @TestMetadata("TypeModifiersParenthesized.kt")
         public void testTypeModifiersParenthesized() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TypeModifiersParenthesized.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TypeModifiersParenthesized.kt", this::doParsingTest);
         }
 
         @TestMetadata("TypeModifiers_ERR.kt")
         public void testTypeModifiers_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TypeModifiers_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TypeModifiers_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("TypeParametersBeforeName.kt")
         public void testTypeParametersBeforeName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TypeParametersBeforeName.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TypeParametersBeforeName.kt", this::doParsingTest);
         }
 
         @TestMetadata("TypealiasIsKeyword.kt")
         public void testTypealiasIsKeyword() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/TypealiasIsKeyword.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/TypealiasIsKeyword.kt", this::doParsingTest);
         }
 
         @TestMetadata("When.kt")
         public void testWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/When.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/When.kt", this::doParsingTest);
         }
 
         @TestMetadata("When_ERR.kt")
         public void testWhen_ERR() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/When_ERR.kt");
-            doParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/psi/When_ERR.kt", this::doParsingTest);
         }
 
         @TestMetadata("compiler/testData/psi/annotation")
@@ -853,80 +717,67 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("AnnotatedExpressions.kt")
             public void testAnnotatedExpressions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/AnnotatedExpressions.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/AnnotatedExpressions.kt", this::doParsingTest);
             }
 
             @TestMetadata("Annotations.kt")
             public void testAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/Annotations.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/Annotations.kt", this::doParsingTest);
             }
 
             @TestMetadata("annotationsOnNullableTypes.kt")
             public void testAnnotationsOnNullableTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/annotationsOnNullableTypes.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/annotationsOnNullableTypes.kt", this::doParsingTest);
             }
 
             @TestMetadata("annotationsOnParenthesizedTypes.kt")
             public void testAnnotationsOnParenthesizedTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/annotationsOnParenthesizedTypes.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/annotationsOnParenthesizedTypes.kt", this::doParsingTest);
             }
 
             @TestMetadata("AnnotationsOnPatterns.kt")
             public void testAnnotationsOnPatterns() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/AnnotationsOnPatterns.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/AnnotationsOnPatterns.kt", this::doParsingTest);
             }
 
             @TestMetadata("Annotations_ERR.kt")
             public void testAnnotations_ERR() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/Annotations_ERR.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/Annotations_ERR.kt", this::doParsingTest);
             }
 
             @TestMetadata("forParameters.kt")
             public void testForParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/forParameters.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/forParameters.kt", this::doParsingTest);
             }
 
             @TestMetadata("lambda.kt")
             public void testLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/lambda.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/lambda.kt", this::doParsingTest);
             }
 
             @TestMetadata("lambdaRecovery.kt")
             public void testLambdaRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/lambdaRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/lambdaRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("multiDeclaration.kt")
             public void testMultiDeclaration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/multiDeclaration.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/multiDeclaration.kt", this::doParsingTest);
             }
 
             @TestMetadata("noParameterYet.kt")
             public void testNoParameterYet() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/noParameterYet.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/noParameterYet.kt", this::doParsingTest);
             }
 
             @TestMetadata("oldAnnotationsRecovery.kt")
             public void testOldAnnotationsRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/oldAnnotationsRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/oldAnnotationsRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("ShortAnnotations.kt")
             public void testShortAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/ShortAnnotations.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/annotation/ShortAnnotations.kt", this::doParsingTest);
             }
 
             @TestMetadata("compiler/testData/psi/annotation/at")
@@ -939,74 +790,62 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("annotationAtFileStart.kt")
                 public void testAnnotationAtFileStart() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/annotationAtFileStart.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/annotationAtFileStart.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("annotationValueArgumentsAmbiguity.kt")
                 public void testAnnotationValueArgumentsAmbiguity() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/annotationValueArgumentsAmbiguity.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/annotationValueArgumentsAmbiguity.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("blockLevelExpressions.kt")
                 public void testBlockLevelExpressions() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/blockLevelExpressions.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/blockLevelExpressions.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("blockLevelExpressionsNoNewLine.kt")
                 public void testBlockLevelExpressionsNoNewLine() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/blockLevelExpressionsNoNewLine.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/blockLevelExpressionsNoNewLine.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("danglingBlockLevelAnnotations.kt")
                 public void testDanglingBlockLevelAnnotations() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/danglingBlockLevelAnnotations.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/danglingBlockLevelAnnotations.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("declarationsJustAtTyped.kt")
                 public void testDeclarationsJustAtTyped() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/declarationsJustAtTyped.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/declarationsJustAtTyped.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("enumEntries.kt")
                 public void testEnumEntries() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/enumEntries.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/enumEntries.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("expressionJustAtTyped.kt")
                 public void testExpressionJustAtTyped() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/expressionJustAtTyped.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/expressionJustAtTyped.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("modifierAtFileStart.kt")
                 public void testModifierAtFileStart() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/modifierAtFileStart.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/modifierAtFileStart.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("primaryConstructor.kt")
                 public void testPrimaryConstructor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/primaryConstructor.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/primaryConstructor.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("validDeclarations.kt")
                 public void testValidDeclarations() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/validDeclarations.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/validDeclarations.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("validExpressions.kt")
                 public void testValidExpressions() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/at/validExpressions.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/at/validExpressions.kt", this::doParsingTest);
                 }
             }
 
@@ -1020,14 +859,12 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("basic.kt")
                 public void testBasic() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/list/basic.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/list/basic.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("recovery.kt")
                 public void testRecovery() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/list/recovery.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/list/recovery.kt", this::doParsingTest);
                 }
             }
 
@@ -1041,14 +878,12 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("newModifiers.kt")
                 public void testNewModifiers() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/modifiersMigration/newModifiers.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/modifiersMigration/newModifiers.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("oldUsages.kt")
                 public void testOldUsages() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/modifiersMigration/oldUsages.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/modifiersMigration/oldUsages.kt", this::doParsingTest);
                 }
             }
 
@@ -1062,26 +897,22 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("annotationAsArg.kt")
                 public void testAnnotationAsArg() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/options/annotationAsArg.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/options/annotationAsArg.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("annotationAsArgComplex.kt")
                 public void testAnnotationAsArgComplex() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/options/annotationAsArgComplex.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/options/annotationAsArgComplex.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("java.kt")
                 public void testJava() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/options/java.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/options/java.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("local.kt")
                 public void testLocal() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/options/local.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/annotation/options/local.kt", this::doParsingTest);
                 }
             }
 
@@ -1103,32 +934,27 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("delegate.kt")
                     public void testDelegate() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onField/delegate.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/delegate.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("fqName.kt")
                     public void testFqName() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onField/fqName.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/fqName.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("inWrongPlace.kt")
                     public void testInWrongPlace() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onField/inWrongPlace.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/inWrongPlace.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("manyInOneAnnotationBlock.kt")
                     public void testManyInOneAnnotationBlock() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onField/manyInOneAnnotationBlock.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/manyInOneAnnotationBlock.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("simpleFieldAnnotation.kt")
                     public void testSimpleFieldAnnotation() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onField/simpleFieldAnnotation.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onField/simpleFieldAnnotation.kt", this::doParsingTest);
                     }
                 }
 
@@ -1142,50 +968,42 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("fileAnnotationInWrongPlace.kt")
                     public void testFileAnnotationInWrongPlace() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onFile/fileAnnotationInWrongPlace.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/fileAnnotationInWrongPlace.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("manyAnnotationBlocks.kt")
                     public void testManyAnnotationBlocks() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onFile/manyAnnotationBlocks.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/manyAnnotationBlocks.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("manyInOneAnnotationBlock.kt")
                     public void testManyInOneAnnotationBlock() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onFile/manyInOneAnnotationBlock.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/manyInOneAnnotationBlock.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("nonFIleAnnotationBeforePackage.kt")
                     public void testNonFIleAnnotationBeforePackage() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onFile/nonFIleAnnotationBeforePackage.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/nonFIleAnnotationBeforePackage.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("single.kt")
                     public void testSingle() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onFile/single.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/single.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("withoutFileAnnotationAndPackageDeclaration.kt")
                     public void testWithoutFileAnnotationAndPackageDeclaration() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onFile/withoutFileAnnotationAndPackageDeclaration.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/withoutFileAnnotationAndPackageDeclaration.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("withoutPackage.kt")
                     public void testWithoutPackage() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onFile/withoutPackage.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/withoutPackage.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("withoutPackageWithSimpleAnnotation.kt")
                     public void testWithoutPackageWithSimpleAnnotation() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onFile/withoutPackageWithSimpleAnnotation.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onFile/withoutPackageWithSimpleAnnotation.kt", this::doParsingTest);
                     }
                 }
 
@@ -1199,20 +1017,17 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("inWrongPlace.kt")
                     public void testInWrongPlace() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onGetSetSparam/inWrongPlace.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onGetSetSparam/inWrongPlace.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("simple.kt")
                     public void testSimple() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onGetSetSparam/simple.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onGetSetSparam/simple.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("twoAnnotationLists.kt")
                     public void testTwoAnnotationLists() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onGetSetSparam/twoAnnotationLists.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onGetSetSparam/twoAnnotationLists.kt", this::doParsingTest);
                     }
                 }
 
@@ -1226,26 +1041,22 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("modifiers.kt")
                     public void testModifiers() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onParam/modifiers.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onParam/modifiers.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("recovery.kt")
                     public void testRecovery() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onParam/recovery.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onParam/recovery.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("simple.kt")
                     public void testSimple() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onParam/simple.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onParam/simple.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("targetExpected.kt")
                     public void testTargetExpected() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/annotation/targeted/onParam/targetExpected.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/annotation/targeted/onParam/targetExpected.kt", this::doParsingTest);
                     }
                 }
             }
@@ -1261,86 +1072,72 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("AnonymousObjects.kt")
             public void testAnonymousObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/AnonymousObjects.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/AnonymousObjects.kt", this::doParsingTest);
             }
 
             @TestMetadata("BinaryTree.kt")
             public void testBinaryTree() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/BinaryTree.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/BinaryTree.kt", this::doParsingTest);
             }
 
             @TestMetadata("BitArith.kt")
             public void testBitArith() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/BitArith.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/BitArith.kt", this::doParsingTest);
             }
 
             @TestMetadata("Builder.kt")
             public void testBuilder() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/Builder.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/Builder.kt", this::doParsingTest);
             }
 
             @TestMetadata("Color.kt")
             public void testColor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/Color.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/Color.kt", this::doParsingTest);
             }
 
             @TestMetadata("FunctionsAndTypes.kt")
             public void testFunctionsAndTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/FunctionsAndTypes.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/FunctionsAndTypes.kt", this::doParsingTest);
             }
 
             @TestMetadata("Graph.kt")
             public void testGraph() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/Graph.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/Graph.kt", this::doParsingTest);
             }
 
             @TestMetadata("IPushPop.kt")
             public void testIPushPop() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/IPushPop.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/IPushPop.kt", this::doParsingTest);
             }
 
             @TestMetadata("LINQ.kt")
             public void testLINQ() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/LINQ.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/LINQ.kt", this::doParsingTest);
             }
 
             @TestMetadata("Queue.kt")
             public void testQueue() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/Queue.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/Queue.kt", this::doParsingTest);
             }
 
             @TestMetadata("Stack.kt")
             public void testStack() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/Stack.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/Stack.kt", this::doParsingTest);
             }
 
             @TestMetadata("UnionFind.kt")
             public void testUnionFind() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/UnionFind.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/UnionFind.kt", this::doParsingTest);
             }
 
             @TestMetadata("UpdateOperation.kt")
             public void testUpdateOperation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/UpdateOperation.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/UpdateOperation.kt", this::doParsingTest);
             }
 
             @TestMetadata("With.kt")
             public void testWith() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/With.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/examples/With.kt", this::doParsingTest);
             }
 
             @TestMetadata("compiler/testData/psi/examples/array")
@@ -1353,8 +1150,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("MutableArray.kt")
                 public void testMutableArray() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/array/MutableArray.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/array/MutableArray.kt", this::doParsingTest);
                 }
             }
 
@@ -1368,74 +1164,62 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("ArrayList.kt")
                 public void testArrayList() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/ArrayList.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/ArrayList.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("HashMap.kt")
                 public void testHashMap() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/HashMap.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/HashMap.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("IIterable.kt")
                 public void testIIterable() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/IIterable.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IIterable.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("IIterator.kt")
                 public void testIIterator() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/IIterator.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IIterator.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("IList.kt")
                 public void testIList() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/IList.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IList.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("IMutableIterable.kt")
                 public void testIMutableIterable() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/IMutableIterable.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IMutableIterable.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("IMutableIterator.kt")
                 public void testIMutableIterator() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/IMutableIterator.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IMutableIterator.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("IMutableList.kt")
                 public void testIMutableList() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/IMutableList.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IMutableList.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("IMutableSet.kt")
                 public void testIMutableSet() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/IMutableSet.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/IMutableSet.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("ISet.kt")
                 public void testISet() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/ISet.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/ISet.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("ISized.kt")
                 public void testISized() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/ISized.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/ISized.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("LinkedList.kt")
                 public void testLinkedList() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/collections/LinkedList.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/collections/LinkedList.kt", this::doParsingTest);
                 }
             }
 
@@ -1449,8 +1233,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("IOSamples.kt")
                 public void testIOSamples() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/io/IOSamples.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/io/IOSamples.kt", this::doParsingTest);
                 }
             }
 
@@ -1464,8 +1247,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("IMap.kt")
                 public void testIMap() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/map/IMap.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/map/IMap.kt", this::doParsingTest);
                 }
             }
 
@@ -1479,20 +1261,17 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("BinaryHeap.kt")
                 public void testBinaryHeap() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/priorityqueues/BinaryHeap.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/priorityqueues/BinaryHeap.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("IPriorityQueue.kt")
                 public void testIPriorityQueue() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/priorityqueues/IPriorityQueue.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/priorityqueues/IPriorityQueue.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("PriorityQueueAsPushPop.kt")
                 public void testPriorityQueueAsPushPop() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/priorityqueues/PriorityQueueAsPushPop.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/priorityqueues/PriorityQueueAsPushPop.kt", this::doParsingTest);
                 }
             }
 
@@ -1506,14 +1285,12 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("Comparison.kt")
                 public void testComparison() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/util/Comparison.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/util/Comparison.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("IComparable.kt")
                 public void testIComparable() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/examples/util/IComparable.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/examples/util/IComparable.kt", this::doParsingTest);
                 }
             }
         }
@@ -1528,44 +1305,37 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("FunctionTypesWithFunctionReceivers.kt")
             public void testFunctionTypesWithFunctionReceivers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/functionReceivers/FunctionTypesWithFunctionReceivers.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/FunctionTypesWithFunctionReceivers.kt", this::doParsingTest);
             }
 
             @TestMetadata("FunctionsWithFunctionReceivers.kt")
             public void testFunctionsWithFunctionReceivers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceivers.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceivers.kt", this::doParsingTest);
             }
 
             @TestMetadata("FunctionsWithFunctionReceiversAnnotations.kt")
             public void testFunctionsWithFunctionReceiversAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceiversAnnotations.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceiversAnnotations.kt", this::doParsingTest);
             }
 
             @TestMetadata("FunctionsWithFunctionReceiversRecovery.kt")
             public void testFunctionsWithFunctionReceiversRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceiversRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/FunctionsWithFunctionReceiversRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("PropertiesWithFunctionReceivers.kt")
             public void testPropertiesWithFunctionReceivers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceivers.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceivers.kt", this::doParsingTest);
             }
 
             @TestMetadata("PropertiesWithFunctionReceiversAnnotations.kt")
             public void testPropertiesWithFunctionReceiversAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceiversAnnotations.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceiversAnnotations.kt", this::doParsingTest);
             }
 
             @TestMetadata("PropertiesWithFunctionReceiversRecovery.kt")
             public void testPropertiesWithFunctionReceiversRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceiversRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/functionReceivers/PropertiesWithFunctionReceiversRecovery.kt", this::doParsingTest);
             }
         }
 
@@ -1579,26 +1349,22 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("functionLiterals.kt")
             public void testFunctionLiterals() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/greatSyntacticShift/functionLiterals.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/greatSyntacticShift/functionLiterals.kt", this::doParsingTest);
             }
 
             @TestMetadata("functionTypes.kt")
             public void testFunctionTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/greatSyntacticShift/functionTypes.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/greatSyntacticShift/functionTypes.kt", this::doParsingTest);
             }
 
             @TestMetadata("FunctionTypesAsArguments.kt")
             public void testFunctionTypesAsArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/greatSyntacticShift/FunctionTypesAsArguments.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/greatSyntacticShift/FunctionTypesAsArguments.kt", this::doParsingTest);
             }
 
             @TestMetadata("nullableTypes.kt")
             public void testNullableTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/greatSyntacticShift/nullableTypes.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/greatSyntacticShift/nullableTypes.kt", this::doParsingTest);
             }
         }
 
@@ -1612,134 +1378,112 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("AtTags.kt")
             public void testAtTags() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/AtTags.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/AtTags.kt", this::doParsingTest);
             }
 
             @TestMetadata("DocCommentAtBeginningOfFile1.kt")
             public void testDocCommentAtBeginningOfFile1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile1.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile1.kt", this::doParsingTest);
             }
 
             @TestMetadata("DocCommentAtBeginningOfFile2.kt")
             public void testDocCommentAtBeginningOfFile2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile2.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile2.kt", this::doParsingTest);
             }
 
             @TestMetadata("DocCommentAtBeginningOfFile3.kt")
             public void testDocCommentAtBeginningOfFile3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile3.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile3.kt", this::doParsingTest);
             }
 
             @TestMetadata("DocCommentAtBeginningOfFile4.kt")
             public void testDocCommentAtBeginningOfFile4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile4.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/DocCommentAtBeginningOfFile4.kt", this::doParsingTest);
             }
 
             @TestMetadata("EndOnLeadingAsterisks.kt")
             public void testEndOnLeadingAsterisks() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/EndOnLeadingAsterisks.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/EndOnLeadingAsterisks.kt", this::doParsingTest);
             }
 
             @TestMetadata("EndRightAfterText.kt")
             public void testEndRightAfterText() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/EndRightAfterText.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/EndRightAfterText.kt", this::doParsingTest);
             }
 
             @TestMetadata("HttpLink.kt")
             public void testHttpLink() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/HttpLink.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/HttpLink.kt", this::doParsingTest);
             }
 
             @TestMetadata("Incomplete.kt")
             public void testIncomplete() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/Incomplete.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/Incomplete.kt", this::doParsingTest);
             }
 
             @TestMetadata("Markdown.kt")
             public void testMarkdown() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/Markdown.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/Markdown.kt", this::doParsingTest);
             }
 
             @TestMetadata("MarkdownLinkWithError.kt")
             public void testMarkdownLinkWithError() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/MarkdownLinkWithError.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/MarkdownLinkWithError.kt", this::doParsingTest);
             }
 
             @TestMetadata("MarkdownLinkWithLabel.kt")
             public void testMarkdownLinkWithLabel() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/MarkdownLinkWithLabel.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/MarkdownLinkWithLabel.kt", this::doParsingTest);
             }
 
             @TestMetadata("MarkdownQualifiedName.kt")
             public void testMarkdownQualifiedName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/MarkdownQualifiedName.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/MarkdownQualifiedName.kt", this::doParsingTest);
             }
 
             @TestMetadata("ParamTag.kt")
             public void testParamTag() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/ParamTag.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/ParamTag.kt", this::doParsingTest);
             }
 
             @TestMetadata("ParamTagAtStart.kt")
             public void testParamTagAtStart() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/ParamTagAtStart.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/ParamTagAtStart.kt", this::doParsingTest);
             }
 
             @TestMetadata("ReturnWithBrackets.kt")
             public void testReturnWithBrackets() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/ReturnWithBrackets.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/ReturnWithBrackets.kt", this::doParsingTest);
             }
 
             @TestMetadata("Sections.kt")
             public void testSections() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/Sections.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/Sections.kt", this::doParsingTest);
             }
 
             @TestMetadata("SeeEmpty.kt")
             public void testSeeEmpty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/SeeEmpty.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/SeeEmpty.kt", this::doParsingTest);
             }
 
             @TestMetadata("SeeLink.kt")
             public void testSeeLink() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/SeeLink.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/SeeLink.kt", this::doParsingTest);
             }
 
             @TestMetadata("Simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/Simple.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/Simple.kt", this::doParsingTest);
             }
 
             @TestMetadata("TextRightAfterLeadAsterisks.kt")
             public void testTextRightAfterLeadAsterisks() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/TextRightAfterLeadAsterisks.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/TextRightAfterLeadAsterisks.kt", this::doParsingTest);
             }
 
             @TestMetadata("TwoTags.kt")
             public void testTwoTags() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/kdoc/TwoTags.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/kdoc/TwoTags.kt", this::doParsingTest);
             }
         }
 
@@ -1753,26 +1497,22 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("basic.kt")
             public void testBasic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/newLabels/basic.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/newLabels/basic.kt", this::doParsingTest);
             }
 
             @TestMetadata("oldSyntaxExpressions.kt")
             public void testOldSyntaxExpressions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/newLabels/oldSyntaxExpressions.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/newLabels/oldSyntaxExpressions.kt", this::doParsingTest);
             }
 
             @TestMetadata("recovery.kt")
             public void testRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/newLabels/recovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/newLabels/recovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("spaceBeforeLabelReference.kt")
             public void testSpaceBeforeLabelReference() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/newLabels/spaceBeforeLabelReference.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/newLabels/spaceBeforeLabelReference.kt", this::doParsingTest);
             }
         }
 
@@ -1786,68 +1526,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("PackageBlockFirst.kt")
             public void testPackageBlockFirst() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageBlockFirst.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageBlockFirst.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageLeadingDotDoubleID.kt")
             public void testPackageLeadingDotDoubleID() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageLeadingDotDoubleID.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLeadingDotDoubleID.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageLongNameBetweenDots.kt")
             public void testPackageLongNameBetweenDots() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageLongNameBetweenDots.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLongNameBetweenDots.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageLongNameDoubleID.kt")
             public void testPackageLongNameDoubleID() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageLongNameDoubleID.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLongNameDoubleID.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageLongNameLeadingDot.kt")
             public void testPackageLongNameLeadingDot() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageLongNameLeadingDot.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLongNameLeadingDot.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageLongNameLeadingDoubleDot.kt")
             public void testPackageLongNameLeadingDoubleDot() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageLongNameLeadingDoubleDot.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageLongNameLeadingDoubleDot.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageModifiers.kt")
             public void testPackageModifiers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageModifiers.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageModifiers.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageNameDoubleDot.kt")
             public void testPackageNameDoubleDot() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageNameDoubleDot.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageNameDoubleDot.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageNameJustDot.kt")
             public void testPackageNameJustDot() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageNameJustDot.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageNameJustDot.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageSimpleNameLeadingDot.kt")
             public void testPackageSimpleNameLeadingDot() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageSimpleNameLeadingDot.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageSimpleNameLeadingDot.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageSimpleNameLeadingDoubleDot.kt")
             public void testPackageSimpleNameLeadingDoubleDot() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/packages/PackageSimpleNameLeadingDoubleDot.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/packages/PackageSimpleNameLeadingDoubleDot.kt", this::doParsingTest);
             }
         }
 
@@ -1861,62 +1590,52 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("Array.kt")
             public void testArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/Array.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/Array.kt", this::doParsingTest);
             }
 
             @TestMetadata("BeforeDot.kt")
             public void testBeforeDot() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/BeforeDot.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/BeforeDot.kt", this::doParsingTest);
             }
 
             @TestMetadata("Collections.kt")
             public void testCollections() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/Collections.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/Collections.kt", this::doParsingTest);
             }
 
             @TestMetadata("FunctionsNotPlatform.kt")
             public void testFunctionsNotPlatform() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/FunctionsNotPlatform.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/FunctionsNotPlatform.kt", this::doParsingTest);
             }
 
             @TestMetadata("MapEntry.kt")
             public void testMapEntry() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/MapEntry.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/MapEntry.kt", this::doParsingTest);
             }
 
             @TestMetadata("ParenthesizedNotPlatform.kt")
             public void testParenthesizedNotPlatform() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/ParenthesizedNotPlatform.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/ParenthesizedNotPlatform.kt", this::doParsingTest);
             }
 
             @TestMetadata("Qualified.kt")
             public void testQualified() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/Qualified.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/Qualified.kt", this::doParsingTest);
             }
 
             @TestMetadata("QualifiedCollections.kt")
             public void testQualifiedCollections() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/QualifiedCollections.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/QualifiedCollections.kt", this::doParsingTest);
             }
 
             @TestMetadata("Simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/Simple.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/Simple.kt", this::doParsingTest);
             }
 
             @TestMetadata("WrongWordInParentheses.kt")
             public void testWrongWordInParentheses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/platformTypesRecovery/WrongWordInParentheses.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/platformTypesRecovery/WrongWordInParentheses.kt", this::doParsingTest);
             }
         }
 
@@ -1930,32 +1649,27 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("local.kt")
             public void testLocal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/primaryConstructor/local.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/local.kt", this::doParsingTest);
             }
 
             @TestMetadata("nestedClassAmbiguity.kt")
             public void testNestedClassAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/primaryConstructor/nestedClassAmbiguity.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/nestedClassAmbiguity.kt", this::doParsingTest);
             }
 
             @TestMetadata("recovery.kt")
             public void testRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/primaryConstructor/recovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/recovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("recoveryNestedClassAmbiguity.kt")
             public void testRecoveryNestedClassAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/primaryConstructor/recoveryNestedClassAmbiguity.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/recoveryNestedClassAmbiguity.kt", this::doParsingTest);
             }
 
             @TestMetadata("valid.kt")
             public void testValid() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/primaryConstructor/valid.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/primaryConstructor/valid.kt", this::doParsingTest);
             }
         }
 
@@ -1969,68 +1683,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("BracketsInDelegate.kt")
             public void testBracketsInDelegate() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/BracketsInDelegate.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/BracketsInDelegate.kt", this::doParsingTest);
             }
 
             @TestMetadata("DelegateAndInitializer.kt")
             public void testDelegateAndInitializer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/DelegateAndInitializer.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/DelegateAndInitializer.kt", this::doParsingTest);
             }
 
             @TestMetadata("GetterInSameLine.kt")
             public void testGetterInSameLine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/GetterInSameLine.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/GetterInSameLine.kt", this::doParsingTest);
             }
 
             @TestMetadata("LocalProperty.kt")
             public void testLocalProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/LocalProperty.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/LocalProperty.kt", this::doParsingTest);
             }
 
             @TestMetadata("OnlyBy.kt")
             public void testOnlyBy() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/OnlyBy.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/OnlyBy.kt", this::doParsingTest);
             }
 
             @TestMetadata("PropertyInClass.kt")
             public void testPropertyInClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/PropertyInClass.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/PropertyInClass.kt", this::doParsingTest);
             }
 
             @TestMetadata("PropertyWithGetter.kt")
             public void testPropertyWithGetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/PropertyWithGetter.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/PropertyWithGetter.kt", this::doParsingTest);
             }
 
             @TestMetadata("PropertyWithInitializer.kt")
             public void testPropertyWithInitializer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/PropertyWithInitializer.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/PropertyWithInitializer.kt", this::doParsingTest);
             }
 
             @TestMetadata("PropertyWithoutTypeRef.kt")
             public void testPropertyWithoutTypeRef() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/PropertyWithoutTypeRef.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/PropertyWithoutTypeRef.kt", this::doParsingTest);
             }
 
             @TestMetadata("TopLevelProperty.kt")
             public void testTopLevelProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/TopLevelProperty.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/TopLevelProperty.kt", this::doParsingTest);
             }
 
             @TestMetadata("TwoProperties.kt")
             public void testTwoProperties() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/propertyDelegate/TwoProperties.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/propertyDelegate/TwoProperties.kt", this::doParsingTest);
             }
         }
 
@@ -2040,8 +1743,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
         public static class Recovery extends AbstractParsingTest {
             @TestMetadata("AbsentLeftHandSide.kt")
             public void testAbsentLeftHandSide() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/AbsentLeftHandSide.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/AbsentLeftHandSide.kt", this::doParsingTest);
             }
 
             public void testAllFilesPresentInRecovery() throws Exception {
@@ -2050,368 +1752,307 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("BareVal.kt")
             public void testBareVal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/BareVal.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/BareVal.kt", this::doParsingTest);
             }
 
             @TestMetadata("BrokenFunctionSuperType.kt")
             public void testBrokenFunctionSuperType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/BrokenFunctionSuperType.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/BrokenFunctionSuperType.kt", this::doParsingTest);
             }
 
             @TestMetadata("CatchKeywordRBrace.kt")
             public void testCatchKeywordRBrace() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/CatchKeywordRBrace.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/CatchKeywordRBrace.kt", this::doParsingTest);
             }
 
             @TestMetadata("CloseBraceAtTopLevel.kt")
             public void testCloseBraceAtTopLevel() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/CloseBraceAtTopLevel.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/CloseBraceAtTopLevel.kt", this::doParsingTest);
             }
 
             @TestMetadata("DeclarationAfterDotSelectorExpected.kt")
             public void testDeclarationAfterDotSelectorExpected() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/DeclarationAfterDotSelectorExpected.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/DeclarationAfterDotSelectorExpected.kt", this::doParsingTest);
             }
 
             @TestMetadata("DeclarationAfterIncompleteElvis.kt")
             public void testDeclarationAfterIncompleteElvis() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/DeclarationAfterIncompleteElvis.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/DeclarationAfterIncompleteElvis.kt", this::doParsingTest);
             }
 
             @TestMetadata("DoWhileWithEmptyCondition.kt")
             public void testDoWhileWithEmptyCondition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/DoWhileWithEmptyCondition.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/DoWhileWithEmptyCondition.kt", this::doParsingTest);
             }
 
             @TestMetadata("DoWhileWithoutLPar.kt")
             public void testDoWhileWithoutLPar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/DoWhileWithoutLPar.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/DoWhileWithoutLPar.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForEmptyParentheses.kt")
             public void testForEmptyParentheses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForEmptyParentheses.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForEmptyParentheses.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForEmptyWithoutBody.kt")
             public void testForEmptyWithoutBody() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForEmptyWithoutBody.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForEmptyWithoutBody.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForNoBodyBeforeRBrace.kt")
             public void testForNoBodyBeforeRBrace() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForNoBodyBeforeRBrace.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForNoBodyBeforeRBrace.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForRecovery.kt")
             public void testForRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForWithOnlyOneLParInEOF.kt")
             public void testForWithOnlyOneLParInEOF() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForWithOnlyOneLParInEOF.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithOnlyOneLParInEOF.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForWithoutBodyInEOF.kt")
             public void testForWithoutBodyInEOF() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForWithoutBodyInEOF.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutBodyInEOF.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForWithoutLPar.kt")
             public void testForWithoutLPar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForWithoutLPar.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutLPar.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForWithoutLParInEOF.kt")
             public void testForWithoutLParInEOF() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForWithoutLParInEOF.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutLParInEOF.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForWithoutParamButWithRange.kt")
             public void testForWithoutParamButWithRange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForWithoutParamButWithRange.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutParamButWithRange.kt", this::doParsingTest);
             }
 
             @TestMetadata("ForWithoutRange.kt")
             public void testForWithoutRange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ForWithoutRange.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ForWithoutRange.kt", this::doParsingTest);
             }
 
             @TestMetadata("FunFun.kt")
             public void testFunFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/FunFun.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/FunFun.kt", this::doParsingTest);
             }
 
             @TestMetadata("IfKeywordRBrace.kt")
             public void testIfKeywordRBrace() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IfKeywordRBrace.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IfKeywordRBrace.kt", this::doParsingTest);
             }
 
             @TestMetadata("IfWithEmptyCondition.kt")
             public void testIfWithEmptyCondition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IfWithEmptyCondition.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IfWithEmptyCondition.kt", this::doParsingTest);
             }
 
             @TestMetadata("IfWithoutLPar.kt")
             public void testIfWithoutLPar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IfWithoutLPar.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IfWithoutLPar.kt", this::doParsingTest);
             }
 
             @TestMetadata("ImportRecovery.kt")
             public void testImportRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ImportRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ImportRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteAccessor1.kt")
             public void testIncompleteAccessor1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteAccessor1.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteAccessor1.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteAccessor2.kt")
             public void testIncompleteAccessor2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteAccessor2.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteAccessor2.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteClassDeclaration.kt")
             public void testIncompleteClassDeclaration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteClassDeclaration.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteClassDeclaration.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteClassTypeParameters.kt")
             public void testIncompleteClassTypeParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteClassTypeParameters.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteClassTypeParameters.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteForRBrace.kt")
             public void testIncompleteForRBrace() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteForRBrace.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteForRBrace.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteFun.kt")
             public void testIncompleteFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteFun.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteFun.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteFunDeclaration.kt")
             public void testIncompleteFunDeclaration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteFunDeclaration.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteFunDeclaration.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteFunTypeParameters.kt")
             public void testIncompleteFunTypeParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteFunTypeParameters.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteFunTypeParameters.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteTypeParameters.kt")
             public void testIncompleteTypeParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteTypeParameters.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteTypeParameters.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteTypeRefWithPackageKeyword.kt")
             public void testIncompleteTypeRefWithPackageKeyword() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteTypeRefWithPackageKeyword.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteTypeRefWithPackageKeyword.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteValTypeParameters.kt")
             public void testIncompleteValTypeParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteValTypeParameters.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteValTypeParameters.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteWhenElse.kt")
             public void testIncompleteWhenElse() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteWhenElse.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteWhenElse.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteWhere.kt")
             public void testIncompleteWhere() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteWhere.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteWhere.kt", this::doParsingTest);
             }
 
             @TestMetadata("IncompleteWhere2.kt")
             public void testIncompleteWhere2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/IncompleteWhere2.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/IncompleteWhere2.kt", this::doParsingTest);
             }
 
             @TestMetadata("initRecovery.kt")
             public void testInitRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/initRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/initRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("InterfaceInExpressionPosition.kt")
             public void testInterfaceInExpressionPosition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/InterfaceInExpressionPosition.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/InterfaceInExpressionPosition.kt", this::doParsingTest);
             }
 
             @TestMetadata("InvalidCharAfterPropertyName.kt")
             public void testInvalidCharAfterPropertyName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/InvalidCharAfterPropertyName.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/InvalidCharAfterPropertyName.kt", this::doParsingTest);
             }
 
             @TestMetadata("InvalidCharInSingleLineLambda.kt")
             public void testInvalidCharInSingleLineLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/InvalidCharInSingleLineLambda.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/InvalidCharInSingleLineLambda.kt", this::doParsingTest);
             }
 
             @TestMetadata("kt2172.kt")
             public void testKt2172() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/kt2172.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/kt2172.kt", this::doParsingTest);
             }
 
             @TestMetadata("kt5102.kt")
             public void testKt5102() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/kt5102.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/kt5102.kt", this::doParsingTest);
             }
 
             @TestMetadata("lambdaExpressionInString_1.kt")
             public void testLambdaExpressionInString_1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/lambdaExpressionInString_1.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/lambdaExpressionInString_1.kt", this::doParsingTest);
             }
 
             @TestMetadata("lambdaExpressionInString_2.kt")
             public void testLambdaExpressionInString_2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/lambdaExpressionInString_2.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/lambdaExpressionInString_2.kt", this::doParsingTest);
             }
 
             @TestMetadata("MissingCommaInConstructorValueParameterList.kt")
             public void testMissingCommaInConstructorValueParameterList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/MissingCommaInConstructorValueParameterList.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/MissingCommaInConstructorValueParameterList.kt", this::doParsingTest);
             }
 
             @TestMetadata("MissingCommaInValueArgumentList.kt")
             public void testMissingCommaInValueArgumentList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/MissingCommaInValueArgumentList.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/MissingCommaInValueArgumentList.kt", this::doParsingTest);
             }
 
             @TestMetadata("MissingCommaInValueParameterList.kt")
             public void testMissingCommaInValueParameterList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/MissingCommaInValueParameterList.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/MissingCommaInValueParameterList.kt", this::doParsingTest);
             }
 
             @TestMetadata("MissingCommaInValueParameterListWithValOrVar.kt")
             public void testMissingCommaInValueParameterListWithValOrVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/MissingCommaInValueParameterListWithValOrVar.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/MissingCommaInValueParameterListWithValOrVar.kt", this::doParsingTest);
             }
 
             @TestMetadata("NoArrowInWhen.kt")
             public void testNoArrowInWhen() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/NoArrowInWhen.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/NoArrowInWhen.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageNewLineRecovery.kt")
             public void testPackageNewLineRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/PackageNewLineRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/PackageNewLineRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("PackageRecovery.kt")
             public void testPackageRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/PackageRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/PackageRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("SameLineStatementRecovery.kt")
             public void testSameLineStatementRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/SameLineStatementRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/SameLineStatementRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("ValNoName.kt")
             public void testValNoName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ValNoName.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ValNoName.kt", this::doParsingTest);
             }
 
             @TestMetadata("ValWithNoNameBeforeNextDeclarationWithModifiers.kt")
             public void testValWithNoNameBeforeNextDeclarationWithModifiers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ValWithNoNameBeforeNextDeclarationWithModifiers.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ValWithNoNameBeforeNextDeclarationWithModifiers.kt", this::doParsingTest);
             }
 
             @TestMetadata("ValWithNoNameInBlock.kt")
             public void testValWithNoNameInBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ValWithNoNameInBlock.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ValWithNoNameInBlock.kt", this::doParsingTest);
             }
 
             @TestMetadata("ValueParameterNoTypeRecovery.kt")
             public void testValueParameterNoTypeRecovery() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/ValueParameterNoTypeRecovery.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/ValueParameterNoTypeRecovery.kt", this::doParsingTest);
             }
 
             @TestMetadata("WhenWithoutBraces.kt")
             public void testWhenWithoutBraces() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/WhenWithoutBraces.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/WhenWithoutBraces.kt", this::doParsingTest);
             }
 
             @TestMetadata("WhileWithEmptyCondition.kt")
             public void testWhileWithEmptyCondition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/WhileWithEmptyCondition.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/WhileWithEmptyCondition.kt", this::doParsingTest);
             }
 
             @TestMetadata("WhileWithoutLPar.kt")
             public void testWhileWithoutLPar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/WhileWithoutLPar.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/WhileWithoutLPar.kt", this::doParsingTest);
             }
 
             @TestMetadata("WithWithoutInAndMultideclaration.kt")
             public void testWithWithoutInAndMultideclaration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/WithWithoutInAndMultideclaration.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/recovery/WithWithoutInAndMultideclaration.kt", this::doParsingTest);
             }
 
             @TestMetadata("compiler/testData/psi/recovery/objects")
@@ -2432,50 +2073,42 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("ConstructorModifiers.kt")
                     public void testConstructorModifiers() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/declarations/ConstructorModifiers.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/ConstructorModifiers.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("EmptyParentheses.kt")
                     public void testEmptyParentheses() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/declarations/EmptyParentheses.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/EmptyParentheses.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("Everything.kt")
                     public void testEverything() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/declarations/Everything.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/Everything.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("FollowedByModifiers.kt")
                     public void testFollowedByModifiers() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/declarations/FollowedByModifiers.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/FollowedByModifiers.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("ParametersInParentheses.kt")
                     public void testParametersInParentheses() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/declarations/ParametersInParentheses.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/ParametersInParentheses.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("TypeParametersAndParentheses.kt")
                     public void testTypeParametersAndParentheses() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/declarations/TypeParametersAndParentheses.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/TypeParametersAndParentheses.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("TypeParameterss.kt")
                     public void testTypeParameterss() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/declarations/TypeParameterss.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/TypeParameterss.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("Where.kt")
                     public void testWhere() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/declarations/Where.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/declarations/Where.kt", this::doParsingTest);
                     }
                 }
 
@@ -2489,56 +2122,47 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                     @TestMetadata("ConstructorModifiers.kt")
                     public void testConstructorModifiers() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/expressions/ConstructorModifiers.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/ConstructorModifiers.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("ConstructorModifiersAndName.kt")
                     public void testConstructorModifiersAndName() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/expressions/ConstructorModifiersAndName.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/ConstructorModifiersAndName.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("EmptyParentheses.kt")
                     public void testEmptyParentheses() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/expressions/EmptyParentheses.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/EmptyParentheses.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("Everything.kt")
                     public void testEverything() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/expressions/Everything.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/Everything.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("InFunction.kt")
                     public void testInFunction() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/expressions/InFunction.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/InFunction.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("ParametersInParentheses.kt")
                     public void testParametersInParentheses() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/expressions/ParametersInParentheses.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/ParametersInParentheses.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("TypeParametersAndParentheses.kt")
                     public void testTypeParametersAndParentheses() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/expressions/TypeParametersAndParentheses.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/TypeParametersAndParentheses.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("TypeParameterss.kt")
                     public void testTypeParameterss() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/expressions/TypeParameterss.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/TypeParameterss.kt", this::doParsingTest);
                     }
 
                     @TestMetadata("Where.kt")
                     public void testWhere() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/objects/expressions/Where.kt");
-                        doParsingTest(fileName);
+                        KotlinTestUtils.runTest("compiler/testData/psi/recovery/objects/expressions/Where.kt", this::doParsingTest);
                     }
                 }
             }
@@ -2553,38 +2177,32 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("noQualifiedExpression.kt")
                 public void testNoQualifiedExpression() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/qualifiedExpression/noQualifiedExpression.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/noQualifiedExpression.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("noSafeQualifiedExpression.kt")
                 public void testNoSafeQualifiedExpression() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/qualifiedExpression/noSafeQualifiedExpression.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/noSafeQualifiedExpression.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("qualifiedExpressionWithSelector.kt")
                 public void testQualifiedExpressionWithSelector() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/qualifiedExpression/qualifiedExpressionWithSelector.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/qualifiedExpressionWithSelector.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("qualifiedExpressionWithoutSelector.kt")
                 public void testQualifiedExpressionWithoutSelector() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/qualifiedExpression/qualifiedExpressionWithoutSelector.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/qualifiedExpressionWithoutSelector.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("safeQualifiedExpressionWithSelector.kt")
                 public void testSafeQualifiedExpressionWithSelector() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/qualifiedExpression/safeQualifiedExpressionWithSelector.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/safeQualifiedExpressionWithSelector.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("safeQualifiedExpressionWithoutSelector.kt")
                 public void testSafeQualifiedExpressionWithoutSelector() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/qualifiedExpression/safeQualifiedExpressionWithoutSelector.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/qualifiedExpression/safeQualifiedExpressionWithoutSelector.kt", this::doParsingTest);
                 }
             }
 
@@ -2598,68 +2216,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
                 @TestMetadata("firstInFunction.kt")
                 public void testFirstInFunction() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/firstInFunction.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInFunction.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("firstInFunctionalType.kt")
                 public void testFirstInFunctionalType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/firstInFunctionalType.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInFunctionalType.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("firstInLambda.kt")
                 public void testFirstInLambda() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/firstInLambda.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInLambda.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("firstInPrimaryConstructor.kt")
                 public void testFirstInPrimaryConstructor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/firstInPrimaryConstructor.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInPrimaryConstructor.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("firstInSecondaryConstructor.kt")
                 public void testFirstInSecondaryConstructor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/firstInSecondaryConstructor.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInSecondaryConstructor.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("firstInSetter.kt")
                 public void testFirstInSetter() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/firstInSetter.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/firstInSetter.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("secondInFunction.kt")
                 public void testSecondInFunction() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/secondInFunction.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInFunction.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("secondInFunctionalType.kt")
                 public void testSecondInFunctionalType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/secondInFunctionalType.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInFunctionalType.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("secondInLambda.kt")
                 public void testSecondInLambda() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/secondInLambda.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInLambda.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("secondInPrimaryConstructor.kt")
                 public void testSecondInPrimaryConstructor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/secondInPrimaryConstructor.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInPrimaryConstructor.kt", this::doParsingTest);
                 }
 
                 @TestMetadata("secondInSecondaryConstructor.kt")
                 public void testSecondInSecondaryConstructor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/recovery/unnamedParameter/secondInSecondaryConstructor.kt");
-                    doParsingTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/psi/recovery/unnamedParameter/secondInSecondaryConstructor.kt", this::doParsingTest);
                 }
             }
         }
@@ -2674,68 +2281,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("ComplexScript.kts")
             public void testComplexScript() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/ComplexScript.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/ComplexScript.kts", this::doParsingTest);
             }
 
             @TestMetadata("FunctionComment.kts")
             public void testFunctionComment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/FunctionComment.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/FunctionComment.kts", this::doParsingTest);
             }
 
             @TestMetadata("Import.kts")
             public void testImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/Import.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/Import.kts", this::doParsingTest);
             }
 
             @TestMetadata("manyAnnotationsOnFile.kts")
             public void testManyAnnotationsOnFile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/manyAnnotationsOnFile.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/manyAnnotationsOnFile.kts", this::doParsingTest);
             }
 
             @TestMetadata("Shebang.kts")
             public void testShebang() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/Shebang.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/Shebang.kts", this::doParsingTest);
             }
 
             @TestMetadata("ShebangIncorrect.kts")
             public void testShebangIncorrect() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/ShebangIncorrect.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/ShebangIncorrect.kts", this::doParsingTest);
             }
 
             @TestMetadata("ShebangWithImports.kts")
             public void testShebangWithImports() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/ShebangWithImports.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/ShebangWithImports.kts", this::doParsingTest);
             }
 
             @TestMetadata("ShebangWithPackage.kts")
             public void testShebangWithPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/ShebangWithPackage.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/ShebangWithPackage.kts", this::doParsingTest);
             }
 
             @TestMetadata("SimpleScript.kts")
             public void testSimpleScript() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/SimpleScript.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/SimpleScript.kts", this::doParsingTest);
             }
 
             @TestMetadata("topLevelPropertiesWithGetSet.kts")
             public void testTopLevelPropertiesWithGetSet() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/topLevelPropertiesWithGetSet.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/topLevelPropertiesWithGetSet.kts", this::doParsingTest);
             }
 
             @TestMetadata("unexpectedSymbol.kts")
             public void testUnexpectedSymbol() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/script/unexpectedSymbol.kts");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/script/unexpectedSymbol.kts", this::doParsingTest);
             }
         }
 
@@ -2749,68 +2345,57 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("anonymousInitializer.kt")
             public void testAnonymousInitializer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/anonymousInitializer.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/anonymousInitializer.kt", this::doParsingTest);
             }
 
             @TestMetadata("basic.kt")
             public void testBasic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/basic.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/basic.kt", this::doParsingTest);
             }
 
             @TestMetadata("emptyBody.kt")
             public void testEmptyBody() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/emptyBody.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/emptyBody.kt", this::doParsingTest);
             }
 
             @TestMetadata("enumParsing.kt")
             public void testEnumParsing() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/enumParsing.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/enumParsing.kt", this::doParsingTest);
             }
 
             @TestMetadata("recoveryEmptyDelegationType.kt")
             public void testRecoveryEmptyDelegationType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/recoveryEmptyDelegationType.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryEmptyDelegationType.kt", this::doParsingTest);
             }
 
             @TestMetadata("recoveryJustConstructorKeyword.kt")
             public void testRecoveryJustConstructorKeyword() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/recoveryJustConstructorKeyword.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryJustConstructorKeyword.kt", this::doParsingTest);
             }
 
             @TestMetadata("recoveryJustConstructorKeywordSameLineBrace.kt")
             public void testRecoveryJustConstructorKeywordSameLineBrace() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/recoveryJustConstructorKeywordSameLineBrace.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryJustConstructorKeywordSameLineBrace.kt", this::doParsingTest);
             }
 
             @TestMetadata("recoveryNoDelegationCallAfterColon.kt")
             public void testRecoveryNoDelegationCallAfterColon() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/recoveryNoDelegationCallAfterColon.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryNoDelegationCallAfterColon.kt", this::doParsingTest);
             }
 
             @TestMetadata("recoveryWithoutBodyWrongDelegationName.kt")
             public void testRecoveryWithoutBodyWrongDelegationName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/recoveryWithoutBodyWrongDelegationName.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryWithoutBodyWrongDelegationName.kt", this::doParsingTest);
             }
 
             @TestMetadata("recoveryWithoutParameterList.kt")
             public void testRecoveryWithoutParameterList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/recoveryWithoutParameterList.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryWithoutParameterList.kt", this::doParsingTest);
             }
 
             @TestMetadata("recoveryWrongDelegationName.kt")
             public void testRecoveryWrongDelegationName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/secondaryConstructors/recoveryWrongDelegationName.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/secondaryConstructors/recoveryWrongDelegationName.kt", this::doParsingTest);
             }
         }
 
@@ -2824,8 +2409,7 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
             @TestMetadata("RawStringsWithManyQuotes.kt")
             public void testRawStringsWithManyQuotes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/psi/stringTemplates/RawStringsWithManyQuotes.kt");
-                doParsingTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/psi/stringTemplates/RawStringsWithManyQuotes.kt", this::doParsingTest);
             }
         }
     }
@@ -2840,14 +2424,12 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
         @TestMetadata("error.kt")
         public void testError() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/expression/error.kt");
-            doExpressionCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/expression/error.kt", this::doExpressionCodeFragmentParsingTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/expression/simple.kt");
-            doExpressionCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/expression/simple.kt", this::doExpressionCodeFragmentParsingTest);
         }
     }
 
@@ -2861,62 +2443,52 @@ public class ParsingTestGenerated extends AbstractParsingTest {
 
         @TestMetadata("expressionOnTopLevel.kt")
         public void testExpressionOnTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/expressionOnTopLevel.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/expressionOnTopLevel.kt", this::doBlockCodeFragmentParsingTest);
         }
 
         @TestMetadata("imports.kt")
         public void testImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/imports.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/imports.kt", this::doBlockCodeFragmentParsingTest);
         }
 
         @TestMetadata("localFun.kt")
         public void testLocalFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/localFun.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/localFun.kt", this::doBlockCodeFragmentParsingTest);
         }
 
         @TestMetadata("oneLine.kt")
         public void testOneLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/oneLine.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/oneLine.kt", this::doBlockCodeFragmentParsingTest);
         }
 
         @TestMetadata("oneStatement.kt")
         public void testOneStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/oneStatement.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/oneStatement.kt", this::doBlockCodeFragmentParsingTest);
         }
 
         @TestMetadata("packageAndImport.kt")
         public void testPackageAndImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/packageAndImport.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/packageAndImport.kt", this::doBlockCodeFragmentParsingTest);
         }
 
         @TestMetadata("packageDirective.kt")
         public void testPackageDirective() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/packageDirective.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/packageDirective.kt", this::doBlockCodeFragmentParsingTest);
         }
 
         @TestMetadata("severalExpressions.kt")
         public void testSeveralExpressions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/severalExpressions.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/severalExpressions.kt", this::doBlockCodeFragmentParsingTest);
         }
 
         @TestMetadata("severalStatements.kt")
         public void testSeveralStatements() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/severalStatements.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/severalStatements.kt", this::doBlockCodeFragmentParsingTest);
         }
 
         @TestMetadata("unexpectedSymbol.kt")
         public void testUnexpectedSymbol() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/parseCodeFragment/block/unexpectedSymbol.kt");
-            doBlockCodeFragmentParsingTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/parseCodeFragment/block/unexpectedSymbol.kt", this::doBlockCodeFragmentParsingTest);
         }
     }
 }

@@ -27,85 +27,71 @@ public class DescriptorRendererTestGenerated extends AbstractDescriptorRendererT
 
     @TestMetadata("Classes.kt")
     public void testClasses() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/Classes.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/Classes.kt", this::doTest);
     }
 
     @TestMetadata("Enum.kt")
     public void testEnum() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/Enum.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/Enum.kt", this::doTest);
     }
 
     @TestMetadata("ErrorType.kt")
     public void testErrorType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/ErrorType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/ErrorType.kt", this::doTest);
     }
 
     @TestMetadata("FunctionTypes.kt")
     public void testFunctionTypes() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/FunctionTypes.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/FunctionTypes.kt", this::doTest);
     }
 
     @TestMetadata("FunctionTypesInSignature.kt")
     public void testFunctionTypesInSignature() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/FunctionTypesInSignature.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/FunctionTypesInSignature.kt", this::doTest);
     }
 
     @TestMetadata("GlobalFunctions.kt")
     public void testGlobalFunctions() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/GlobalFunctions.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/GlobalFunctions.kt", this::doTest);
     }
 
     @TestMetadata("GlobalProperties.kt")
     public void testGlobalProperties() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/GlobalProperties.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/GlobalProperties.kt", this::doTest);
     }
 
     @TestMetadata("InheritedMembersVisibility.kt")
     public void testInheritedMembersVisibility() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/InheritedMembersVisibility.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/InheritedMembersVisibility.kt", this::doTest);
     }
 
     @TestMetadata("KeywordsInNames.kt")
     public void testKeywordsInNames() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/KeywordsInNames.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/KeywordsInNames.kt", this::doTest);
     }
 
     @TestMetadata("ObjectWithConstructor.kt")
     public void testObjectWithConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/ObjectWithConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/ObjectWithConstructor.kt", this::doTest);
     }
 
     @TestMetadata("StarProjection.kt")
     public void testStarProjection() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/StarProjection.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/StarProjection.kt", this::doTest);
     }
 
     @TestMetadata("TraitWithConstructor.kt")
     public void testTraitWithConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/TraitWithConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/TraitWithConstructor.kt", this::doTest);
     }
 
     @TestMetadata("TypeAnnotations.kt")
     public void testTypeAnnotations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/TypeAnnotations.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/TypeAnnotations.kt", this::doTest);
     }
 
     @TestMetadata("UnitType.kt")
     public void testUnitType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderer/UnitType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderer/UnitType.kt", this::doTest);
     }
 }

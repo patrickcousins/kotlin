@@ -25,32 +25,27 @@ public class TypingIndentationTestBaseGenerated extends AbstractTypingIndentatio
     public static class DirectSettings extends AbstractTypingIndentationTestBase {
         @TestMetadata("AfterCatch.after.kt")
         public void testAfterCatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/AfterCatch.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/AfterCatch.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("AfterClassNameBeforeFun.after.kt")
         public void testAfterClassNameBeforeFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/AfterClassNameBeforeFun.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/AfterClassNameBeforeFun.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("AfterFinally.after.kt")
         public void testAfterFinally() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/AfterFinally.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/AfterFinally.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("AfterImport.after.kt")
         public void testAfterImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/AfterImport.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/AfterImport.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("AfterTry.after.kt")
         public void testAfterTry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/AfterTry.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/AfterTry.after.kt", this::doNewlineTest);
         }
 
         public void testAllFilesPresentInDirectSettings() throws Exception {
@@ -59,254 +54,212 @@ public class TypingIndentationTestBaseGenerated extends AbstractTypingIndentatio
 
         @TestMetadata("Annotation.after.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/Annotation.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/Annotation.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("ArgumentListNormalIndent.after.kt")
         public void testArgumentListNormalIndent() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/ArgumentListNormalIndent.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/ArgumentListNormalIndent.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("AssignmentAfterEq.after.kt")
         public void testAssignmentAfterEq() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/AssignmentAfterEq.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/AssignmentAfterEq.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("BinaryWithTypeExpressions.after.kt")
         public void testBinaryWithTypeExpressions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/BinaryWithTypeExpressions.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/BinaryWithTypeExpressions.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("ConsecutiveCallsAfterDot.after.kt")
         public void testConsecutiveCallsAfterDot() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/ConsecutiveCallsAfterDot.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/ConsecutiveCallsAfterDot.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("ConsecutiveCallsInSaeCallsMiddle.after.kt")
         public void testConsecutiveCallsInSaeCallsMiddle() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/ConsecutiveCallsInSaeCallsMiddle.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/ConsecutiveCallsInSaeCallsMiddle.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("ConsecutiveCallsInSafeCallsEnd.after.kt")
         public void testConsecutiveCallsInSafeCallsEnd() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/ConsecutiveCallsInSafeCallsEnd.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/ConsecutiveCallsInSafeCallsEnd.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("DoInFun.after.kt")
         public void testDoInFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/DoInFun.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/DoInFun.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("EmptyParameters.after.kt")
         public void testEmptyParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/EmptyParameters.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/EmptyParameters.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("For.after.kt")
         public void testFor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/For.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/For.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("FunctionBlock.after.kt")
         public void testFunctionBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/FunctionBlock.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/FunctionBlock.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("FunctionWithInference.after.kt")
         public void testFunctionWithInference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/FunctionWithInference.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/FunctionWithInference.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("If.after.kt")
         public void testIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/If.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/If.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InBinaryExpressionInMiddle.after.kt")
         public void testInBinaryExpressionInMiddle() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InBinaryExpressionInMiddle.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InBinaryExpressionInMiddle.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InBinaryExpressionUnfinished.after.kt")
         public void testInBinaryExpressionUnfinished() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InBinaryExpressionUnfinished.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InBinaryExpressionUnfinished.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InBinaryExpressionUnfinishedInIf.after.kt")
         public void testInBinaryExpressionUnfinishedInIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InBinaryExpressionUnfinishedInIf.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InBinaryExpressionUnfinishedInIf.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InBinaryExpressionsBeforeCloseParenthesis.after.kt")
         public void testInBinaryExpressionsBeforeCloseParenthesis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InBinaryExpressionsBeforeCloseParenthesis.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InBinaryExpressionsBeforeCloseParenthesis.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InDelegationListAfterColon.after.kt")
         public void testInDelegationListAfterColon() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InDelegationListAfterColon.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InDelegationListAfterColon.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InDelegationListAfterComma.after.kt")
         public void testInDelegationListAfterComma() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InDelegationListAfterComma.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InDelegationListAfterComma.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InDelegationListNotEmpty.after.kt")
         public void testInDelegationListNotEmpty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InDelegationListNotEmpty.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InDelegationListNotEmpty.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InEnumAfterSemicolon.after.kt")
         public void testInEnumAfterSemicolon() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InEnumAfterSemicolon.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InEnumAfterSemicolon.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InEnumInitializerListAfterComma.after.kt")
         public void testInEnumInitializerListAfterComma() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InEnumInitializerListAfterComma.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InEnumInitializerListAfterComma.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InEnumInitializerListNotEmpty.after.kt")
         public void testInEnumInitializerListNotEmpty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InEnumInitializerListNotEmpty.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InEnumInitializerListNotEmpty.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InExpressionsParentheses.after.kt")
         public void testInExpressionsParentheses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InExpressionsParentheses.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InExpressionsParentheses.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InExpressionsParenthesesBeforeOperand.after.kt")
         public void testInExpressionsParenthesesBeforeOperand() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InExpressionsParenthesesBeforeOperand.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InExpressionsParenthesesBeforeOperand.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InLabmdaAfterArrow.after.kt")
         public void testInLabmdaAfterArrow() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InLabmdaAfterArrow.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InLabmdaAfterArrow.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InLambdaAfterArrowWithSpaces.after.kt")
         public void testInLambdaAfterArrowWithSpaces() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InLambdaAfterArrowWithSpaces.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InLambdaAfterArrowWithSpaces.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InLambdaBeforeParams.after.kt")
         public void testInLambdaBeforeParams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InLambdaBeforeParams.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InLambdaBeforeParams.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InLambdaInsideChainCallSameLine.after.kt")
         public void testInLambdaInsideChainCallSameLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InLambdaInsideChainCallSameLine.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InLambdaInsideChainCallSameLine.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InLambdaInsideChainCallSameLineWithSpaces.after.kt")
         public void testInLambdaInsideChainCallSameLineWithSpaces() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InLambdaInsideChainCallSameLineWithSpaces.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InLambdaInsideChainCallSameLineWithSpaces.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InLambdaInsideChainCallWithNewLine.after.kt")
         public void testInLambdaInsideChainCallWithNewLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InLambdaInsideChainCallWithNewLine.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InLambdaInsideChainCallWithNewLine.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InLambdaInsideChainCallWithNewLineWithSpaces.after.kt")
         public void testInLambdaInsideChainCallWithNewLineWithSpaces() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InLambdaInsideChainCallWithNewLineWithSpaces.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InLambdaInsideChainCallWithNewLineWithSpaces.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("InMultilineLambdaAfterArrow.after.kt")
         public void testInMultilineLambdaAfterArrow() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InMultilineLambdaAfterArrow.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InMultilineLambdaAfterArrow.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("IsExpressionAfterIs.after.kt")
         public void testIsExpressionAfterIs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/IsExpressionAfterIs.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/IsExpressionAfterIs.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("KT20783.after.kt")
         public void testKT20783() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/KT20783.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/KT20783.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("MultideclarationAfterEq.after.kt")
         public void testMultideclarationAfterEq() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/MultideclarationAfterEq.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/MultideclarationAfterEq.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("MultideclarationBeforeEq.after.kt")
         public void testMultideclarationBeforeEq() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/MultideclarationBeforeEq.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/MultideclarationBeforeEq.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("NotFirstParameter.after.kt")
         public void testNotFirstParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/NotFirstParameter.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/NotFirstParameter.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("PropertyWithInference.after.kt")
         public void testPropertyWithInference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/PropertyWithInference.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/PropertyWithInference.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("ReturnContinue.after.kt")
         public void testReturnContinue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/ReturnContinue.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/ReturnContinue.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("SettingAlignMultilineParametersInCalls.after.kt")
         public void testSettingAlignMultilineParametersInCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/SettingAlignMultilineParametersInCalls.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/SettingAlignMultilineParametersInCalls.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("While.after.kt")
         public void testWhile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/While.after.kt");
-            doNewlineTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/While.after.kt", this::doNewlineTest);
         }
 
         @TestMetadata("idea/testData/indentationOnNewline/script")
@@ -319,38 +272,32 @@ public class TypingIndentationTestBaseGenerated extends AbstractTypingIndentatio
 
             @TestMetadata("ScriptAfterClosingBrace.after.kts")
             public void testScriptAfterClosingBrace() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/script/ScriptAfterClosingBrace.after.kts");
-                doNewlineTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/indentationOnNewline/script/ScriptAfterClosingBrace.after.kts", this::doNewlineTest);
             }
 
             @TestMetadata("ScriptAfterExpression.after.kts")
             public void testScriptAfterExpression() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/script/ScriptAfterExpression.after.kts");
-                doNewlineTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/indentationOnNewline/script/ScriptAfterExpression.after.kts", this::doNewlineTest);
             }
 
             @TestMetadata("ScriptAfterFun.after.kts")
             public void testScriptAfterFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/script/ScriptAfterFun.after.kts");
-                doNewlineTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/indentationOnNewline/script/ScriptAfterFun.after.kts", this::doNewlineTest);
             }
 
             @TestMetadata("ScriptAfterImport.after.kts")
             public void testScriptAfterImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/script/ScriptAfterImport.after.kts");
-                doNewlineTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/indentationOnNewline/script/ScriptAfterImport.after.kts", this::doNewlineTest);
             }
 
             @TestMetadata("ScriptBetweenFunctionCalls.after.kts")
             public void testScriptBetweenFunctionCalls() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/script/ScriptBetweenFunctionCalls.after.kts");
-                doNewlineTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/indentationOnNewline/script/ScriptBetweenFunctionCalls.after.kts", this::doNewlineTest);
             }
 
             @TestMetadata("ScriptInsideFun.after.kts")
             public void testScriptInsideFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/script/ScriptInsideFun.after.kts");
-                doNewlineTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/indentationOnNewline/script/ScriptInsideFun.after.kts", this::doNewlineTest);
             }
         }
     }
@@ -365,98 +312,82 @@ public class TypingIndentationTestBaseGenerated extends AbstractTypingIndentatio
 
         @TestMetadata("AssignmentAfterEq.after.inv.kt")
         public void testAssignmentAfterEq() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/AssignmentAfterEq.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/AssignmentAfterEq.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("BinaryWithTypeExpressions.after.inv.kt")
         public void testBinaryWithTypeExpressions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/BinaryWithTypeExpressions.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/BinaryWithTypeExpressions.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InBinaryExpressionInMiddle.after.inv.kt")
         public void testInBinaryExpressionInMiddle() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InBinaryExpressionInMiddle.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InBinaryExpressionInMiddle.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InBinaryExpressionUnfinished.after.inv.kt")
         public void testInBinaryExpressionUnfinished() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InBinaryExpressionUnfinished.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InBinaryExpressionUnfinished.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InBinaryExpressionUnfinishedInIf.after.inv.kt")
         public void testInBinaryExpressionUnfinishedInIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InBinaryExpressionUnfinishedInIf.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InBinaryExpressionUnfinishedInIf.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InBinaryExpressionsBeforeCloseParenthesis.after.inv.kt")
         public void testInBinaryExpressionsBeforeCloseParenthesis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InBinaryExpressionsBeforeCloseParenthesis.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InBinaryExpressionsBeforeCloseParenthesis.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InDelegationListAfterColon.after.inv.kt")
         public void testInDelegationListAfterColon() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InDelegationListAfterColon.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InDelegationListAfterColon.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InDelegationListAfterComma.after.inv.kt")
         public void testInDelegationListAfterComma() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InDelegationListAfterComma.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InDelegationListAfterComma.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InDelegationListNotEmpty.after.inv.kt")
         public void testInDelegationListNotEmpty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InDelegationListNotEmpty.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InDelegationListNotEmpty.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InEnumAfterSemicolon.after.inv.kt")
         public void testInEnumAfterSemicolon() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InEnumAfterSemicolon.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InEnumAfterSemicolon.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InEnumInitializerListAfterComma.after.inv.kt")
         public void testInEnumInitializerListAfterComma() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InEnumInitializerListAfterComma.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InEnumInitializerListAfterComma.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InEnumInitializerListNotEmpty.after.inv.kt")
         public void testInEnumInitializerListNotEmpty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InEnumInitializerListNotEmpty.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InEnumInitializerListNotEmpty.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InExpressionsParentheses.after.inv.kt")
         public void testInExpressionsParentheses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InExpressionsParentheses.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InExpressionsParentheses.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("InExpressionsParenthesesBeforeOperand.after.inv.kt")
         public void testInExpressionsParenthesesBeforeOperand() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/InExpressionsParenthesesBeforeOperand.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/InExpressionsParenthesesBeforeOperand.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("IsExpressionAfterIs.after.inv.kt")
         public void testIsExpressionAfterIs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/IsExpressionAfterIs.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/IsExpressionAfterIs.after.inv.kt", this::doNewlineTestWithInvert);
         }
 
         @TestMetadata("SettingAlignMultilineParametersInCalls.after.inv.kt")
         public void testSettingAlignMultilineParametersInCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/indentationOnNewline/SettingAlignMultilineParametersInCalls.after.inv.kt");
-            doNewlineTestWithInvert(fileName);
+            KotlinTestUtils.runTest("idea/testData/indentationOnNewline/SettingAlignMultilineParametersInCalls.after.inv.kt", this::doNewlineTestWithInvert);
         }
     }
 }

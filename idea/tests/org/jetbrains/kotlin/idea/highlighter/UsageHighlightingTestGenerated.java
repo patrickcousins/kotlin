@@ -27,37 +27,31 @@ public class UsageHighlightingTestGenerated extends AbstractUsageHighlightingTes
 
     @TestMetadata("implicitIt.kt")
     public void testImplicitIt() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/usageHighlighter/implicitIt.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/usageHighlighter/implicitIt.kt", this::doTest);
     }
 
     @TestMetadata("importAlias.kt")
     public void testImportAlias() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/usageHighlighter/importAlias.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/usageHighlighter/importAlias.kt", this::doTest);
     }
 
     @TestMetadata("labeledAnonymousFun.kt")
     public void testLabeledAnonymousFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/usageHighlighter/labeledAnonymousFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/usageHighlighter/labeledAnonymousFun.kt", this::doTest);
     }
 
     @TestMetadata("labeledLambda.kt")
     public void testLabeledLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/usageHighlighter/labeledLambda.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/usageHighlighter/labeledLambda.kt", this::doTest);
     }
 
     @TestMetadata("labeledLoop.kt")
     public void testLabeledLoop() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/usageHighlighter/labeledLoop.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/usageHighlighter/labeledLoop.kt", this::doTest);
     }
 
     @TestMetadata("localVal.kt")
     public void testLocalVal() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/usageHighlighter/localVal.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/usageHighlighter/localVal.kt", this::doTest);
     }
 }

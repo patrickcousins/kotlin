@@ -27,13 +27,11 @@ public class HierarchyWithLibTestGenerated extends AbstractHierarchyWithLibTest 
 
     @TestMetadata("annotation")
     public void testAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/hierarchy/withLib/annotation/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/hierarchy/withLib/annotation/", this::doTest);
     }
 
     @TestMetadata("enum")
     public void testEnum() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/hierarchy/withLib/enum/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/hierarchy/withLib/enum/", this::doTest);
     }
 }

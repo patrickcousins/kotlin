@@ -29,122 +29,102 @@ public class PositionManagerTestGenerated extends AbstractPositionManagerTest {
 
         @TestMetadata("anonymousFunction.kt")
         public void testAnonymousFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/anonymousFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/anonymousFunction.kt", this::doTest);
         }
 
         @TestMetadata("anonymousNamedFunction.kt")
         public void testAnonymousNamedFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/anonymousNamedFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/anonymousNamedFunction.kt", this::doTest);
         }
 
         @TestMetadata("class.kt")
         public void testClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/class.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/class.kt", this::doTest);
         }
 
         @TestMetadata("classObject.kt")
         public void testClassObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/classObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/classObject.kt", this::doTest);
         }
 
         @TestMetadata("enum.kt")
         public void testEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/enum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/enum.kt", this::doTest);
         }
 
         @TestMetadata("extensionFunction.kt")
         public void testExtensionFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/extensionFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/extensionFunction.kt", this::doTest);
         }
 
         @TestMetadata("functionLiteral.kt")
         public void testFunctionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/functionLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/functionLiteral.kt", this::doTest);
         }
 
         @TestMetadata("functionLiteralInVal.kt")
         public void testFunctionLiteralInVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/functionLiteralInVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/functionLiteralInVal.kt", this::doTest);
         }
 
         @TestMetadata("innerClass.kt")
         public void testInnerClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/innerClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/innerClass.kt", this::doTest);
         }
 
         @TestMetadata("JvmNameAnnotation.kt")
         public void testJvmNameAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/JvmNameAnnotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/JvmNameAnnotation.kt", this::doTest);
         }
 
         @TestMetadata("localFunction.kt")
         public void testLocalFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/localFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/localFunction.kt", this::doTest);
         }
 
         @TestMetadata("objectDeclaration.kt")
         public void testObjectDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/objectDeclaration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/objectDeclaration.kt", this::doTest);
         }
 
         @TestMetadata("objectExpression.kt")
         public void testObjectExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/objectExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/objectExpression.kt", this::doTest);
         }
 
         @TestMetadata("package.kt")
         public void testPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/package.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/package.kt", this::doTest);
         }
 
         @TestMetadata("propertyAccessor.kt")
         public void testPropertyAccessor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/propertyAccessor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/propertyAccessor.kt", this::doTest);
         }
 
         @TestMetadata("propertyInitializer.kt")
         public void testPropertyInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/propertyInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/propertyInitializer.kt", this::doTest);
         }
 
         @TestMetadata("topLevelPropertyInitializer.kt")
         public void testTopLevelPropertyInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/topLevelPropertyInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/topLevelPropertyInitializer.kt", this::doTest);
         }
 
         @TestMetadata("trait.kt")
         public void testTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/trait.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/trait.kt", this::doTest);
         }
 
         @TestMetadata("twoClasses.kt")
         public void testTwoClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/twoClasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/twoClasses.kt", this::doTest);
         }
 
         @TestMetadata("_DefaultPackage.kt")
         public void test_DefaultPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/_DefaultPackage.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/_DefaultPackage.kt", this::doTest);
         }
     }
 
@@ -158,14 +138,12 @@ public class PositionManagerTestGenerated extends AbstractPositionManagerTest {
 
         @TestMetadata("multiFilePackage")
         public void testMultiFilePackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/multiFilePackage/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/multiFilePackage/", this::doTest);
         }
 
         @TestMetadata("multiFileSameName")
         public void testMultiFileSameName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/positionManager/multiFileSameName/");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/positionManager/multiFileSameName/", this::doTest);
         }
     }
 }

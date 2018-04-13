@@ -27,277 +27,231 @@ public class QuickDocProviderTestGenerated extends AbstractQuickDocProviderTest 
 
     @TestMetadata("AnonymousObjectLocalVariable.kt")
     public void testAnonymousObjectLocalVariable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/AnonymousObjectLocalVariable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/AnonymousObjectLocalVariable.kt", this::doTest);
     }
 
     @TestMetadata("AtConstantWithUnderscore.kt")
     public void testAtConstantWithUnderscore() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/AtConstantWithUnderscore.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/AtConstantWithUnderscore.kt", this::doTest);
     }
 
     @TestMetadata("AtFunctionParameter.kt")
     public void testAtFunctionParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/AtFunctionParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/AtFunctionParameter.kt", this::doTest);
     }
 
     @TestMetadata("AtImplicitLambdaParametEnd.kt")
     public void testAtImplicitLambdaParametEnd() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/AtImplicitLambdaParametEnd.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/AtImplicitLambdaParametEnd.kt", this::doTest);
     }
 
     @TestMetadata("AtImplicitLambdaParameter.kt")
     public void testAtImplicitLambdaParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/AtImplicitLambdaParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/AtImplicitLambdaParameter.kt", this::doTest);
     }
 
     @TestMetadata("AtLocalFunction.kt")
     public void testAtLocalFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/AtLocalFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/AtLocalFunction.kt", this::doTest);
     }
 
     @TestMetadata("AtTypeParameter.kt")
     public void testAtTypeParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/AtTypeParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/AtTypeParameter.kt", this::doTest);
     }
 
     @TestMetadata("AtVariableDeclaration.kt")
     public void testAtVariableDeclaration() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/AtVariableDeclaration.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/AtVariableDeclaration.kt", this::doTest);
     }
 
     @TestMetadata("ConstructorVarParameter.kt")
     public void testConstructorVarParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/ConstructorVarParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/ConstructorVarParameter.kt", this::doTest);
     }
 
     @TestMetadata("DeprecationWithReplaceInfo.kt")
     public void testDeprecationWithReplaceInfo() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/DeprecationWithReplaceInfo.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/DeprecationWithReplaceInfo.kt", this::doTest);
     }
 
     @TestMetadata("EscapeHtmlInsideCodeBlocks.kt")
     public void testEscapeHtmlInsideCodeBlocks() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/EscapeHtmlInsideCodeBlocks.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/EscapeHtmlInsideCodeBlocks.kt", this::doTest);
     }
 
     @TestMetadata("ExtensionReceiver.kt")
     public void testExtensionReceiver() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/ExtensionReceiver.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/ExtensionReceiver.kt", this::doTest);
     }
 
     @TestMetadata("ExtensionReceiverEnd.kt")
     public void testExtensionReceiverEnd() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/ExtensionReceiverEnd.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/ExtensionReceiverEnd.kt", this::doTest);
     }
 
     @TestMetadata("IndentedCodeBlock.kt")
     public void testIndentedCodeBlock() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/IndentedCodeBlock.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/IndentedCodeBlock.kt", this::doTest);
     }
 
     @TestMetadata("JavaClassUsedInKotlin.kt")
     public void testJavaClassUsedInKotlin() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/JavaClassUsedInKotlin.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/JavaClassUsedInKotlin.kt", this::doTest);
     }
 
     @TestMetadata("JavaDocFromOverridenClass.kt")
     public void testJavaDocFromOverridenClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/JavaDocFromOverridenClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/JavaDocFromOverridenClass.kt", this::doTest);
     }
 
     @TestMetadata("JavaDocFromOverridenInterface.kt")
     public void testJavaDocFromOverridenInterface() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/JavaDocFromOverridenInterface.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/JavaDocFromOverridenInterface.kt", this::doTest);
     }
 
     @TestMetadata("JavaMethodUsedInKotlin.kt")
     public void testJavaMethodUsedInKotlin() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/JavaMethodUsedInKotlin.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/JavaMethodUsedInKotlin.kt", this::doTest);
     }
 
     @TestMetadata("KotlinClassUsedFromJava.java")
     public void testKotlinClassUsedFromJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/KotlinClassUsedFromJava.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/KotlinClassUsedFromJava.java", this::doTest);
     }
 
     @TestMetadata("KotlinPackageClassUsedFromJava.java")
     public void testKotlinPackageClassUsedFromJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/KotlinPackageClassUsedFromJava.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/KotlinPackageClassUsedFromJava.java", this::doTest);
     }
 
     @TestMetadata("MethodFromStdLib.kt")
     public void testMethodFromStdLib() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/MethodFromStdLib.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/MethodFromStdLib.kt", this::doTest);
     }
 
     @TestMetadata("OnClassDeclarationWithNoPackage.kt")
     public void testOnClassDeclarationWithNoPackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnClassDeclarationWithNoPackage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnClassDeclarationWithNoPackage.kt", this::doTest);
     }
 
     @TestMetadata("OnEnumClassReference.kt")
     public void testOnEnumClassReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnEnumClassReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnEnumClassReference.kt", this::doTest);
     }
 
     @TestMetadata("OnEnumDeclaration.kt")
     public void testOnEnumDeclaration() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnEnumDeclaration.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnEnumDeclaration.kt", this::doTest);
     }
 
     @TestMetadata("OnEnumEntry.kt")
     public void testOnEnumEntry() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnEnumEntry.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnEnumEntry.kt", this::doTest);
     }
 
     @TestMetadata("OnEnumEntryUsage.kt")
     public void testOnEnumEntryUsage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnEnumEntryUsage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnEnumEntryUsage.kt", this::doTest);
     }
 
     @TestMetadata("OnEnumUsage.kt")
     public void testOnEnumUsage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnEnumUsage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnEnumUsage.kt", this::doTest);
     }
 
     @TestMetadata("OnEnumValueOfFunction.kt")
     public void testOnEnumValueOfFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnEnumValueOfFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnEnumValueOfFunction.kt", this::doTest);
     }
 
     @TestMetadata("OnEnumValuesFunction.kt")
     public void testOnEnumValuesFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnEnumValuesFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnEnumValuesFunction.kt", this::doTest);
     }
 
     @TestMetadata("OnFunctionDeclarationWithPackage.kt")
     public void testOnFunctionDeclarationWithPackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnFunctionDeclarationWithPackage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnFunctionDeclarationWithPackage.kt", this::doTest);
     }
 
     @TestMetadata("OnInheritedMethodUsage.kt")
     public void testOnInheritedMethodUsage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnInheritedMethodUsage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnInheritedMethodUsage.kt", this::doTest);
     }
 
     @TestMetadata("OnInheritedPropertyUsage.kt")
     public void testOnInheritedPropertyUsage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnInheritedPropertyUsage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnInheritedPropertyUsage.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsage.kt")
     public void testOnMethodUsage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsage.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageMultiline.kt")
     public void testOnMethodUsageMultiline() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageMultiline.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageMultiline.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageWithBracketsInParam.kt")
     public void testOnMethodUsageWithBracketsInParam() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageWithBracketsInParam.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageWithBracketsInParam.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageWithCodeBlock.kt")
     public void testOnMethodUsageWithCodeBlock() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageWithCodeBlock.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageWithCodeBlock.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageWithMarkdown.kt")
     public void testOnMethodUsageWithMarkdown() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageWithMarkdown.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageWithMarkdown.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageWithMultilineParam.kt")
     public void testOnMethodUsageWithMultilineParam() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageWithMultilineParam.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageWithMultilineParam.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageWithReceiver.kt")
     public void testOnMethodUsageWithReceiver() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageWithReceiver.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageWithReceiver.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageWithReturnAndLink.kt")
     public void testOnMethodUsageWithReturnAndLink() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageWithReturnAndLink.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageWithReturnAndLink.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageWithReturnAndThrows.kt")
     public void testOnMethodUsageWithReturnAndThrows() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageWithReturnAndThrows.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageWithReturnAndThrows.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageWithSee.kt")
     public void testOnMethodUsageWithSee() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageWithSee.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageWithSee.kt", this::doTest);
     }
 
     @TestMetadata("OnMethodUsageWithTypeParameter.kt")
     public void testOnMethodUsageWithTypeParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/OnMethodUsageWithTypeParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/OnMethodUsageWithTypeParameter.kt", this::doTest);
     }
 
     @TestMetadata("Samples.kt")
     public void testSamples() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/Samples.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/Samples.kt", this::doTest);
     }
 
     @TestMetadata("TopLevelMethodFromJava.java")
     public void testTopLevelMethodFromJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/TopLevelMethodFromJava.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/TopLevelMethodFromJava.java", this::doTest);
     }
 
     @TestMetadata("TypeNamesFromStdLibNavigation.kt")
     public void testTypeNamesFromStdLibNavigation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/quickDoc/TypeNamesFromStdLibNavigation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/editor/quickDoc/TypeNamesFromStdLibNavigation.kt", this::doTest);
     }
 }

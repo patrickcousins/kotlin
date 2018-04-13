@@ -27,85 +27,71 @@ public class BreadcrumbsTestGenerated extends AbstractBreadcrumbsTest {
 
     @TestMetadata("AnonymousObjects.kt")
     public void testAnonymousObjects() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/AnonymousObjects.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/AnonymousObjects.kt", this::doTest);
     }
 
     @TestMetadata("Declarations.kt")
     public void testDeclarations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/Declarations.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/Declarations.kt", this::doTest);
     }
 
     @TestMetadata("For.kt")
     public void testFor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/For.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/For.kt", this::doTest);
     }
 
     @TestMetadata("FunctionalType.kt")
     public void testFunctionalType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/FunctionalType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/FunctionalType.kt", this::doTest);
     }
 
     @TestMetadata("If.kt")
     public void testIf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/If.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/If.kt", this::doTest);
     }
 
     @TestMetadata("LabeledStatements.kt")
     public void testLabeledStatements() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/LabeledStatements.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/LabeledStatements.kt", this::doTest);
     }
 
     @TestMetadata("Lambdas.kt")
     public void testLambdas() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/Lambdas.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/Lambdas.kt", this::doTest);
     }
 
     @TestMetadata("OnIfCondition.kt")
     public void testOnIfCondition() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/OnIfCondition.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/OnIfCondition.kt", this::doTest);
     }
 
     @TestMetadata("OnWhenEntryCondition.kt")
     public void testOnWhenEntryCondition() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/OnWhenEntryCondition.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/OnWhenEntryCondition.kt", this::doTest);
     }
 
     @TestMetadata("PropertyAccessor.kt")
     public void testPropertyAccessor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/PropertyAccessor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/PropertyAccessor.kt", this::doTest);
     }
 
     @TestMetadata("StarProjection.kt")
     public void testStarProjection() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/StarProjection.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/StarProjection.kt", this::doTest);
     }
 
     @TestMetadata("Try.kt")
     public void testTry() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/Try.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/Try.kt", this::doTest);
     }
 
     @TestMetadata("When.kt")
     public void testWhen() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/When.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/When.kt", this::doTest);
     }
 
     @TestMetadata("While.kt")
     public void testWhile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/breadcrumbs/While.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/breadcrumbs/While.kt", this::doTest);
     }
 }

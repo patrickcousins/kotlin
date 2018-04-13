@@ -23,44 +23,37 @@ import java.util.regex.Pattern;
 public class JavaToKotlinCopyPasteConversionTestGenerated extends AbstractJavaToKotlinCopyPasteConversionTest {
     @TestMetadata("AddImports.java")
     public void testAddImports() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/AddImports.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/AddImports.java", this::doTest);
     }
 
     @TestMetadata("AddImportsButNoConversion.java")
     public void testAddImportsButNoConversion() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/AddImportsButNoConversion.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/AddImportsButNoConversion.java", this::doTest);
     }
 
     @TestMetadata("AddImportsButNoConversion2.java")
     public void testAddImportsButNoConversion2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/AddImportsButNoConversion2.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/AddImportsButNoConversion2.java", this::doTest);
     }
 
     @TestMetadata("AddImportsClassInSamePackage.java")
     public void testAddImportsClassInSamePackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/AddImportsClassInSamePackage.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/AddImportsClassInSamePackage.java", this::doTest);
     }
 
     @TestMetadata("AddImportsDummyConflict.java")
     public void testAddImportsDummyConflict() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/AddImportsDummyConflict.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/AddImportsDummyConflict.java", this::doTest);
     }
 
     @TestMetadata("AddImportsWithExplicitImports.java")
     public void testAddImportsWithExplicitImports() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/AddImportsWithExplicitImports.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/AddImportsWithExplicitImports.java", this::doTest);
     }
 
     @TestMetadata("AddKClassImport.java")
     public void testAddKClassImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/AddKClassImport.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/AddKClassImport.java", this::doTest);
     }
 
     public void testAllFilesPresentInConversion() throws Exception {
@@ -69,187 +62,156 @@ public class JavaToKotlinCopyPasteConversionTestGenerated extends AbstractJavaTo
 
     @TestMetadata("Arithmetic.java")
     public void testArithmetic() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/Arithmetic.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/Arithmetic.java", this::doTest);
     }
 
     @TestMetadata("ClassWithNoDocComment.java")
     public void testClassWithNoDocComment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/ClassWithNoDocComment.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/ClassWithNoDocComment.java", this::doTest);
     }
 
     @TestMetadata("ClassWithOverrides.java")
     public void testClassWithOverrides() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/ClassWithOverrides.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/ClassWithOverrides.java", this::doTest);
     }
 
     @TestMetadata("Constructor.java")
     public void testConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/Constructor.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/Constructor.java", this::doTest);
     }
 
     @TestMetadata("ConversionInCorrectContext.java")
     public void testConversionInCorrectContext() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/ConversionInCorrectContext.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/ConversionInCorrectContext.java", this::doTest);
     }
 
     @TestMetadata("CopyAnnotation.java")
     public void testCopyAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/CopyAnnotation.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/CopyAnnotation.java", this::doTest);
     }
 
     @TestMetadata("ExtendsTypeRef.java")
     public void testExtendsTypeRef() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/ExtendsTypeRef.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/ExtendsTypeRef.java", this::doTest);
     }
 
     @TestMetadata("FieldWithNoEndComment.java")
     public void testFieldWithNoEndComment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/FieldWithNoEndComment.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/FieldWithNoEndComment.java", this::doTest);
     }
 
     @TestMetadata("FieldWithNoModifierAndNoSemicolon.java")
     public void testFieldWithNoModifierAndNoSemicolon() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/FieldWithNoModifierAndNoSemicolon.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/FieldWithNoModifierAndNoSemicolon.java", this::doTest);
     }
 
     @TestMetadata("FileWithNoPackageStatement.java")
     public void testFileWithNoPackageStatement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/FileWithNoPackageStatement.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/FileWithNoPackageStatement.java", this::doTest);
     }
 
     @TestMetadata("HalfTheWhiteSpace.java")
     public void testHalfTheWhiteSpace() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/HalfTheWhiteSpace.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/HalfTheWhiteSpace.java", this::doTest);
     }
 
     @TestMetadata("ImplementsTypeRef.java")
     public void testImplementsTypeRef() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/ImplementsTypeRef.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/ImplementsTypeRef.java", this::doTest);
     }
 
     @TestMetadata("Imports1.java")
     public void testImports1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/Imports1.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/Imports1.java", this::doTest);
     }
 
     @TestMetadata("Imports2.java")
     public void testImports2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/Imports2.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/Imports2.java", this::doTest);
     }
 
     @TestMetadata("Imports3.java")
     public void testImports3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/Imports3.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/Imports3.java", this::doTest);
     }
 
     @TestMetadata("Indentation.java")
     public void testIndentation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/Indentation.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/Indentation.java", this::doTest);
     }
 
     @TestMetadata("InsertIntoComment.java")
     public void testInsertIntoComment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/InsertIntoComment.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/InsertIntoComment.java", this::doTest);
     }
 
     @TestMetadata("InsertIntoString.java")
     public void testInsertIntoString() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/InsertIntoString.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/InsertIntoString.java", this::doTest);
     }
 
     @TestMetadata("MethodDeclarationWithNoBody.java")
     public void testMethodDeclarationWithNoBody() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/MethodDeclarationWithNoBody.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/MethodDeclarationWithNoBody.java", this::doTest);
     }
 
     @TestMetadata("MethodReferenceWithoutQualifier.java")
     public void testMethodReferenceWithoutQualifier() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/MethodReferenceWithoutQualifier.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/MethodReferenceWithoutQualifier.java", this::doTest);
     }
 
     @TestMetadata("MethodWithNoAnnotation.java")
     public void testMethodWithNoAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/MethodWithNoAnnotation.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/MethodWithNoAnnotation.java", this::doTest);
     }
 
     @TestMetadata("MethodWithOnlyOneAnnotation.java")
     public void testMethodWithOnlyOneAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/MethodWithOnlyOneAnnotation.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/MethodWithOnlyOneAnnotation.java", this::doTest);
     }
 
     @TestMetadata("OnlyClosingBrace.java")
     public void testOnlyClosingBrace() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/OnlyClosingBrace.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/OnlyClosingBrace.java", this::doTest);
     }
 
     @TestMetadata("OnlyOneBraceFromBlock.java")
     public void testOnlyOneBraceFromBlock() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/OnlyOneBraceFromBlock.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/OnlyOneBraceFromBlock.java", this::doTest);
     }
 
     @TestMetadata("OnlyQualifier.java")
     public void testOnlyQualifier() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/OnlyQualifier.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/OnlyQualifier.java", this::doTest);
     }
 
     @TestMetadata("RawTypeRef.java")
     public void testRawTypeRef() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/RawTypeRef.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/RawTypeRef.java", this::doTest);
     }
 
     @TestMetadata("RedundantTypeCast.java")
     public void testRedundantTypeCast() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/RedundantTypeCast.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/RedundantTypeCast.java", this::doTest);
     }
 
     @TestMetadata("RedundantTypeCast2.java")
     public void testRedundantTypeCast2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/RedundantTypeCast2.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/RedundantTypeCast2.java", this::doTest);
     }
 
     @TestMetadata("SampleBlock.java")
     public void testSampleBlock() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/SampleBlock.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/SampleBlock.java", this::doTest);
     }
 
     @TestMetadata("SeveralMethodsSample.java")
     public void testSeveralMethodsSample() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/SeveralMethodsSample.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/SeveralMethodsSample.java", this::doTest);
     }
 
     @TestMetadata("SingleWordFromIdentifier.java")
     public void testSingleWordFromIdentifier() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/conversion/SingleWordFromIdentifier.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/conversion/SingleWordFromIdentifier.java", this::doTest);
     }
 }

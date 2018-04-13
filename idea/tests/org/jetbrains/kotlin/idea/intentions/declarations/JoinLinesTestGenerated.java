@@ -35,104 +35,87 @@ public class JoinLinesTestGenerated extends AbstractJoinLinesTest {
 
         @TestMetadata("ClassDeclarations.kt")
         public void testClassDeclarations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/ClassDeclarations.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/ClassDeclarations.kt", this::doTest);
         }
 
         @TestMetadata("FunctionCalls.kt")
         public void testFunctionCalls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/FunctionCalls.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/FunctionCalls.kt", this::doTest);
         }
 
         @TestMetadata("FunctionCallsAndAComment.kt")
         public void testFunctionCallsAndAComment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/FunctionCallsAndAComment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/FunctionCallsAndAComment.kt", this::doTest);
         }
 
         @TestMetadata("FunctionCallsAndAMultilineComment.kt")
         public void testFunctionCallsAndAMultilineComment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/FunctionCallsAndAMultilineComment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/FunctionCallsAndAMultilineComment.kt", this::doTest);
         }
 
         @TestMetadata("FunctionCallsAndSeveralComments.kt")
         public void testFunctionCallsAndSeveralComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/FunctionCallsAndSeveralComments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/FunctionCallsAndSeveralComments.kt", this::doTest);
         }
 
         @TestMetadata("FunctionCallsWithMutlineSeparator.kt")
         public void testFunctionCallsWithMutlineSeparator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/FunctionCallsWithMutlineSeparator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/FunctionCallsWithMutlineSeparator.kt", this::doTest);
         }
 
         @TestMetadata("FunctionDeclarations.kt")
         public void testFunctionDeclarations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/FunctionDeclarations.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/FunctionDeclarations.kt", this::doTest);
         }
 
         @TestMetadata("InsideBraces.kt")
         public void testInsideBraces() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/InsideBraces.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/InsideBraces.kt", this::doTest);
         }
 
         @TestMetadata("InsideIfBlock.kt")
         public void testInsideIfBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/InsideIfBlock.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/InsideIfBlock.kt", this::doTest);
         }
 
         @TestMetadata("LocalAssingments.kt")
         public void testLocalAssingments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/LocalAssingments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/LocalAssingments.kt", this::doTest);
         }
 
         @TestMetadata("LocalAssingmentsWithSemicolon.kt")
         public void testLocalAssingmentsWithSemicolon() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/LocalAssingmentsWithSemicolon.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/LocalAssingmentsWithSemicolon.kt", this::doTest);
         }
 
         @TestMetadata("LocalClasses.kt")
         public void testLocalClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/LocalClasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/LocalClasses.kt", this::doTest);
         }
 
         @TestMetadata("LocalFunctions.kt")
         public void testLocalFunctions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/LocalFunctions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/LocalFunctions.kt", this::doTest);
         }
 
         @TestMetadata("MemberFunctions.kt")
         public void testMemberFunctions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/MemberFunctions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/MemberFunctions.kt", this::doTest);
         }
 
         @TestMetadata("WhileAndACall.kt")
         public void testWhileAndACall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/WhileAndACall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/WhileAndACall.kt", this::doTest);
         }
 
         @TestMetadata("WhileBlockAndACall.kt")
         public void testWhileBlockAndACall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/WhileBlockAndACall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/WhileBlockAndACall.kt", this::doTest);
         }
 
         @TestMetadata("WhileBlockAndACall2.kt")
         public void testWhileBlockAndACall2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/addSemicolon/WhileBlockAndACall2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/addSemicolon/WhileBlockAndACall2.kt", this::doTest);
         }
     }
 
@@ -146,104 +129,87 @@ public class JoinLinesTestGenerated extends AbstractJoinLinesTest {
 
         @TestMetadata("blankLineBetween.kt")
         public void testBlankLineBetween() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/blankLineBetween.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/blankLineBetween.kt", this::doTest);
         }
 
         @TestMetadata("commentBetween.kt")
         public void testCommentBetween() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/commentBetween.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/commentBetween.kt", this::doTest);
         }
 
         @TestMetadata("longInit.kt")
         public void testLongInit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/longInit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/longInit.kt", this::doTest);
         }
 
         @TestMetadata("longInit2.kt")
         public void testLongInit2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/longInit2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/longInit2.kt", this::doTest);
         }
 
         @TestMetadata("propertyWithAnnotation.kt")
         public void testPropertyWithAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/propertyWithAnnotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/propertyWithAnnotation.kt", this::doTest);
         }
 
         @TestMetadata("simpleInit.kt")
         public void testSimpleInit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInit.kt", this::doTest);
         }
 
         @TestMetadata("simpleInit2.kt")
         public void testSimpleInit2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInit2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInit2.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithBackticks.kt")
         public void testSimpleInitWithBackticks() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithBackticks.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithBackticks.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithBackticks2.kt")
         public void testSimpleInitWithBackticks2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithBackticks2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithBackticks2.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithBackticks3.kt")
         public void testSimpleInitWithBackticks3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithBackticks3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithBackticks3.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithComments.kt")
         public void testSimpleInitWithComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithComments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithComments.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithComments2.kt")
         public void testSimpleInitWithComments2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithComments2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithComments2.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithSemicolons.kt")
         public void testSimpleInitWithSemicolons() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithSemicolons.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithSemicolons.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithSemicolons2.kt")
         public void testSimpleInitWithSemicolons2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithSemicolons2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithSemicolons2.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithSemicolons3.kt")
         public void testSimpleInitWithSemicolons3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithSemicolons3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithSemicolons3.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithType.kt")
         public void testSimpleInitWithType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithType.kt", this::doTest);
         }
 
         @TestMetadata("simpleInitWithType2.kt")
         public void testSimpleInitWithType2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/declarationAndAssignment/simpleInitWithType2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/declarationAndAssignment/simpleInitWithType2.kt", this::doTest);
         }
     }
 
@@ -257,38 +223,32 @@ public class JoinLinesTestGenerated extends AbstractJoinLinesTest {
 
         @TestMetadata("BlockBody.kt")
         public void testBlockBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/nestedIfs/BlockBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/nestedIfs/BlockBody.kt", this::doTest);
         }
 
         @TestMetadata("ComplexCondition1.kt")
         public void testComplexCondition1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/nestedIfs/ComplexCondition1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/nestedIfs/ComplexCondition1.kt", this::doTest);
         }
 
         @TestMetadata("ComplexCondition2.kt")
         public void testComplexCondition2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/nestedIfs/ComplexCondition2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/nestedIfs/ComplexCondition2.kt", this::doTest);
         }
 
         @TestMetadata("InnerWithElse.kt")
         public void testInnerWithElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/nestedIfs/InnerWithElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/nestedIfs/InnerWithElse.kt", this::doTest);
         }
 
         @TestMetadata("OuterWithElse.kt")
         public void testOuterWithElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/nestedIfs/OuterWithElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/nestedIfs/OuterWithElse.kt", this::doTest);
         }
 
         @TestMetadata("Simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/nestedIfs/Simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/nestedIfs/Simple.kt", this::doTest);
         }
     }
 
@@ -302,116 +262,97 @@ public class JoinLinesTestGenerated extends AbstractJoinLinesTest {
 
         @TestMetadata("CommentAfterStatement.kt")
         public void testCommentAfterStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/CommentAfterStatement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/CommentAfterStatement.kt", this::doTest);
         }
 
         @TestMetadata("CommentAfterStatement2.kt")
         public void testCommentAfterStatement2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/CommentAfterStatement2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/CommentAfterStatement2.kt", this::doTest);
         }
 
         @TestMetadata("CommentBeforeStatement.kt")
         public void testCommentBeforeStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/CommentBeforeStatement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/CommentBeforeStatement.kt", this::doTest);
         }
 
         @TestMetadata("CommentBeforeStatement2.kt")
         public void testCommentBeforeStatement2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/CommentBeforeStatement2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/CommentBeforeStatement2.kt", this::doTest);
         }
 
         @TestMetadata("DoWhile.kt")
         public void testDoWhile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/DoWhile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/DoWhile.kt", this::doTest);
         }
 
         @TestMetadata("Else.kt")
         public void testElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/Else.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/Else.kt", this::doTest);
         }
 
         @TestMetadata("For.kt")
         public void testFor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/For.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/For.kt", this::doTest);
         }
 
         @TestMetadata("FunctionBody.kt")
         public void testFunctionBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/FunctionBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/FunctionBody.kt", this::doTest);
         }
 
         @TestMetadata("FunctionWithOneLineReturn.kt")
         public void testFunctionWithOneLineReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/FunctionWithOneLineReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/FunctionWithOneLineReturn.kt", this::doTest);
         }
 
         @TestMetadata("If.kt")
         public void testIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/If.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/If.kt", this::doTest);
         }
 
         @TestMetadata("IfWithElse.kt")
         public void testIfWithElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/IfWithElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/IfWithElse.kt", this::doTest);
         }
 
         @TestMetadata("IfWithElseBlockInAssignment.kt")
         public void testIfWithElseBlockInAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/IfWithElseBlockInAssignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/IfWithElseBlockInAssignment.kt", this::doTest);
         }
 
         @TestMetadata("IfWithPostfixAfterElseBlock.kt")
         public void testIfWithPostfixAfterElseBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/IfWithPostfixAfterElseBlock.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/IfWithPostfixAfterElseBlock.kt", this::doTest);
         }
 
         @TestMetadata("IfWithQualifiedAfterElseBlock.kt")
         public void testIfWithQualifiedAfterElseBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/IfWithQualifiedAfterElseBlock.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/IfWithQualifiedAfterElseBlock.kt", this::doTest);
         }
 
         @TestMetadata("LambdaBody.kt")
         public void testLambdaBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/LambdaBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/LambdaBody.kt", this::doTest);
         }
 
         @TestMetadata("NotSingleLineStatement.kt")
         public void testNotSingleLineStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/NotSingleLineStatement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/NotSingleLineStatement.kt", this::doTest);
         }
 
         @TestMetadata("TwoStatements.kt")
         public void testTwoStatements() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/TwoStatements.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/TwoStatements.kt", this::doTest);
         }
 
         @TestMetadata("WhenEntry.kt")
         public void testWhenEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/WhenEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/WhenEntry.kt", this::doTest);
         }
 
         @TestMetadata("While.kt")
         public void testWhile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/removeBraces/While.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/removeBraces/While.kt", this::doTest);
         }
     }
 
@@ -425,44 +366,37 @@ public class JoinLinesTestGenerated extends AbstractJoinLinesTest {
 
         @TestMetadata("firstLineVariable.kt")
         public void testFirstLineVariable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/stringTemplate/firstLineVariable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/stringTemplate/firstLineVariable.kt", this::doTest);
         }
 
         @TestMetadata("lineWithMultiStringLiteral.kt")
         public void testLineWithMultiStringLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/stringTemplate/lineWithMultiStringLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/stringTemplate/lineWithMultiStringLiteral.kt", this::doTest);
         }
 
         @TestMetadata("lineWithMultiStringLiteralAndVariable.kt")
         public void testLineWithMultiStringLiteralAndVariable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/stringTemplate/lineWithMultiStringLiteralAndVariable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/stringTemplate/lineWithMultiStringLiteralAndVariable.kt", this::doTest);
         }
 
         @TestMetadata("secondLineVariable.kt")
         public void testSecondLineVariable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/stringTemplate/secondLineVariable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/stringTemplate/secondLineVariable.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/stringTemplate/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/stringTemplate/simple.kt", this::doTest);
         }
 
         @TestMetadata("threeLines.kt")
         public void testThreeLines() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/stringTemplate/threeLines.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/stringTemplate/threeLines.kt", this::doTest);
         }
 
         @TestMetadata("threeLines2.kt")
         public void testThreeLines2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/joinLines/stringTemplate/threeLines2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/joinLines/stringTemplate/threeLines2.kt", this::doTest);
         }
     }
 }

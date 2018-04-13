@@ -23,80 +23,67 @@ import java.util.regex.Pattern;
 public class KeywordCompletionTestGenerated extends AbstractKeywordCompletionTest {
     @TestMetadata("AfterClassProperty.kt")
     public void testAfterClassProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterClassProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterClassProperty.kt", this::doTest);
     }
 
     @TestMetadata("AfterClasses.kt")
     public void testAfterClasses() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterClasses.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterClasses.kt", this::doTest);
     }
 
     @TestMetadata("AfterClasses_LangLevel10.kt")
     public void testAfterClasses_LangLevel10() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterClasses_LangLevel10.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterClasses_LangLevel10.kt", this::doTest);
     }
 
     @TestMetadata("AfterClasses_LangLevel11.kt")
     public void testAfterClasses_LangLevel11() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterClasses_LangLevel11.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterClasses_LangLevel11.kt", this::doTest);
     }
 
     @TestMetadata("AfterDot.kt")
     public void testAfterDot() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterDot.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterDot.kt", this::doTest);
     }
 
     @TestMetadata("AfterFuns.kt")
     public void testAfterFuns() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterFuns.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterFuns.kt", this::doTest);
     }
 
     @TestMetadata("AfterIf.kt")
     public void testAfterIf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterIf.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterIf.kt", this::doTest);
     }
 
     @TestMetadata("AfterSafeDot.kt")
     public void testAfterSafeDot() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterSafeDot.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterSafeDot.kt", this::doTest);
     }
 
     @TestMetadata("AfterSpaceAndDot.kt")
     public void testAfterSpaceAndDot() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterSpaceAndDot.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterSpaceAndDot.kt", this::doTest);
     }
 
     @TestMetadata("AfterTry.kt")
     public void testAfterTry() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterTry.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterTry.kt", this::doTest);
     }
 
     @TestMetadata("AfterTryCatch.kt")
     public void testAfterTryCatch() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterTryCatch.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterTryCatch.kt", this::doTest);
     }
 
     @TestMetadata("AfterTryFinally.kt")
     public void testAfterTryFinally() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterTryFinally.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterTryFinally.kt", this::doTest);
     }
 
     @TestMetadata("AfterTryInAssignment.kt")
     public void testAfterTryInAssignment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/AfterTryInAssignment.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/AfterTryInAssignment.kt", this::doTest);
     }
 
     public void testAllFilesPresentInKeywords() throws Exception {
@@ -105,517 +92,431 @@ public class KeywordCompletionTestGenerated extends AbstractKeywordCompletionTes
 
     @TestMetadata("BeforeClass.kt")
     public void testBeforeClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/BeforeClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/BeforeClass.kt", this::doTest);
     }
 
     @TestMetadata("BeforeDelegationCall.kt")
     public void testBeforeDelegationCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/BeforeDelegationCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/BeforeDelegationCall.kt", this::doTest);
     }
 
     @TestMetadata("BreakContinue.kt")
     public void testBreakContinue() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/BreakContinue.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/BreakContinue.kt", this::doTest);
     }
 
     @TestMetadata("BreakWithLabel.kt")
     public void testBreakWithLabel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/BreakWithLabel.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/BreakWithLabel.kt", this::doTest);
     }
 
     @TestMetadata("CommaExpected.kt")
     public void testCommaExpected() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/CommaExpected.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/CommaExpected.kt", this::doTest);
     }
 
     @TestMetadata("CompanionObjectBeforeObject.kt")
     public void testCompanionObjectBeforeObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/CompanionObjectBeforeObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/CompanionObjectBeforeObject.kt", this::doTest);
     }
 
     @TestMetadata("ContinueWithLabel.kt")
     public void testContinueWithLabel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ContinueWithLabel.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ContinueWithLabel.kt", this::doTest);
     }
 
     @TestMetadata("Else1.kt")
     public void testElse1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Else1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Else1.kt", this::doTest);
     }
 
     @TestMetadata("Else2.kt")
     public void testElse2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Else2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Else2.kt", this::doTest);
     }
 
     @TestMetadata("FileKeyword.kt")
     public void testFileKeyword() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/FileKeyword.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/FileKeyword.kt", this::doTest);
     }
 
     @TestMetadata("GlobalPropertyAccessors.kt")
     public void testGlobalPropertyAccessors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/GlobalPropertyAccessors.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/GlobalPropertyAccessors.kt", this::doTest);
     }
 
     @TestMetadata("IfTry.kt")
     public void testIfTry() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/IfTry.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/IfTry.kt", this::doTest);
     }
 
     @TestMetadata("IfTryCatch.kt")
     public void testIfTryCatch() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/IfTryCatch.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/IfTryCatch.kt", this::doTest);
     }
 
     @TestMetadata("InAnnotationClassScope.kt")
     public void testInAnnotationClassScope() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InAnnotationClassScope.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InAnnotationClassScope.kt", this::doTest);
     }
 
     @TestMetadata("InArgumentList.kt")
     public void testInArgumentList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InArgumentList.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InArgumentList.kt", this::doTest);
     }
 
     @TestMetadata("InBlockComment.kt")
     public void testInBlockComment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InBlockComment.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InBlockComment.kt", this::doTest);
     }
 
     @TestMetadata("InChar.kt")
     public void testInChar() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InChar.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InChar.kt", this::doTest);
     }
 
     @TestMetadata("InClassBeforeFun.kt")
     public void testInClassBeforeFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InClassBeforeFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassBeforeFun.kt", this::doTest);
     }
 
     @TestMetadata("InClassNoCompletionInValName.kt")
     public void testInClassNoCompletionInValName() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InClassNoCompletionInValName.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassNoCompletionInValName.kt", this::doTest);
     }
 
     @TestMetadata("InClassProperty.kt")
     public void testInClassProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InClassProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassProperty.kt", this::doTest);
     }
 
     @TestMetadata("InClassScope.kt")
     public void testInClassScope() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InClassScope.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassScope.kt", this::doTest);
     }
 
     @TestMetadata("InClassTypeParameters.kt")
     public void testInClassTypeParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InClassTypeParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InClassTypeParameters.kt", this::doTest);
     }
 
     @TestMetadata("InCodeBlock.kt")
     public void testInCodeBlock() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InCodeBlock.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InCodeBlock.kt", this::doTest);
     }
 
     @TestMetadata("InElse.kt")
     public void testInElse() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InElse.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InElse.kt", this::doTest);
     }
 
     @TestMetadata("InEnumScope1.kt")
     public void testInEnumScope1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InEnumScope1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InEnumScope1.kt", this::doTest);
     }
 
     @TestMetadata("InEnumScope2.kt")
     public void testInEnumScope2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InEnumScope2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InEnumScope2.kt", this::doTest);
     }
 
     @TestMetadata("InFunctionExpressionBody.kt")
     public void testInFunctionExpressionBody() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InFunctionExpressionBody.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InFunctionExpressionBody.kt", this::doTest);
     }
 
     @TestMetadata("InFunctionName.kt")
     public void testInFunctionName() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InFunctionName.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InFunctionName.kt", this::doTest);
     }
 
     @TestMetadata("InFunctionRecieverType.kt")
     public void testInFunctionRecieverType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InFunctionRecieverType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InFunctionRecieverType.kt", this::doTest);
     }
 
     @TestMetadata("InFunctionTypePosition.kt")
     public void testInFunctionTypePosition() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InFunctionTypePosition.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InFunctionTypePosition.kt", this::doTest);
     }
 
     @TestMetadata("InGetterExpressionBody.kt")
     public void testInGetterExpressionBody() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InGetterExpressionBody.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InGetterExpressionBody.kt", this::doTest);
     }
 
     @TestMetadata("InIf.kt")
     public void testInIf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InIf.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InIf.kt", this::doTest);
     }
 
     @TestMetadata("InInterfaceScope.kt")
     public void testInInterfaceScope() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InInterfaceScope.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InInterfaceScope.kt", this::doTest);
     }
 
     @TestMetadata("InMemberFunParametersList.kt")
     public void testInMemberFunParametersList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InMemberFunParametersList.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InMemberFunParametersList.kt", this::doTest);
     }
 
     @TestMetadata("InModifierListInsideClass.kt")
     public void testInModifierListInsideClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InModifierListInsideClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InModifierListInsideClass.kt", this::doTest);
     }
 
     @TestMetadata("InNotFinishedGenericWithFunAfter.kt")
     public void testInNotFinishedGenericWithFunAfter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InNotFinishedGenericWithFunAfter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InNotFinishedGenericWithFunAfter.kt", this::doTest);
     }
 
     @TestMetadata("InObjectScope.kt")
     public void testInObjectScope() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InObjectScope.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InObjectScope.kt", this::doTest);
     }
 
     @TestMetadata("InParameterDefaultValue.kt")
     public void testInParameterDefaultValue() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InParameterDefaultValue.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InParameterDefaultValue.kt", this::doTest);
     }
 
     @TestMetadata("InPrimaryConstructorParametersList.kt")
     public void testInPrimaryConstructorParametersList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InPrimaryConstructorParametersList.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InPrimaryConstructorParametersList.kt", this::doTest);
     }
 
     @TestMetadata("InPropertyInitializer.kt")
     public void testInPropertyInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InPropertyInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InPropertyInitializer.kt", this::doTest);
     }
 
     @TestMetadata("InPropertyTypeReference.kt")
     public void testInPropertyTypeReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InPropertyTypeReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InPropertyTypeReference.kt", this::doTest);
     }
 
     @TestMetadata("InString.kt")
     public void testInString() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InString.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InString.kt", this::doTest);
     }
 
     @TestMetadata("InTopFunParametersList.kt")
     public void testInTopFunParametersList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InTopFunParametersList.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InTopFunParametersList.kt", this::doTest);
     }
 
     @TestMetadata("InTopScopeAfterPackage.kt")
     public void testInTopScopeAfterPackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InTopScopeAfterPackage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InTopScopeAfterPackage.kt", this::doTest);
     }
 
     @TestMetadata("InTypePosition.kt")
     public void testInTypePosition() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/InTypePosition.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/InTypePosition.kt", this::doTest);
     }
 
     @TestMetadata("LabeledLambdaThis.kt")
     public void testLabeledLambdaThis() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/LabeledLambdaThis.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/LabeledLambdaThis.kt", this::doTest);
     }
 
     @TestMetadata("LineComment.kt")
     public void testLineComment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/LineComment.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/LineComment.kt", this::doTest);
     }
 
     @TestMetadata("NoBreak1.kt")
     public void testNoBreak1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/NoBreak1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoBreak1.kt", this::doTest);
     }
 
     @TestMetadata("NoBreak2.kt")
     public void testNoBreak2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/NoBreak2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoBreak2.kt", this::doTest);
     }
 
     @TestMetadata("NoCompanionThis.kt")
     public void testNoCompanionThis() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/NoCompanionThis.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoCompanionThis.kt", this::doTest);
     }
 
     @TestMetadata("NoCompletionForCapitalPrefix.kt")
     public void testNoCompletionForCapitalPrefix() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/NoCompletionForCapitalPrefix.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoCompletionForCapitalPrefix.kt", this::doTest);
     }
 
     @TestMetadata("NoContinue.kt")
     public void testNoContinue() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/NoContinue.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoContinue.kt", this::doTest);
     }
 
     @TestMetadata("NoFinalInParameterList.kt")
     public void testNoFinalInParameterList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/NoFinalInParameterList.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NoFinalInParameterList.kt", this::doTest);
     }
 
     @TestMetadata("NotInNotIs.kt")
     public void testNotInNotIs() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/NotInNotIs.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NotInNotIs.kt", this::doTest);
     }
 
     @TestMetadata("NotInNotIs2.kt")
     public void testNotInNotIs2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/NotInNotIs2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/NotInNotIs2.kt", this::doTest);
     }
 
     @TestMetadata("PrefixMatcher.kt")
     public void testPrefixMatcher() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/PrefixMatcher.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/PrefixMatcher.kt", this::doTest);
     }
 
     @TestMetadata("PropertyAccessors.kt")
     public void testPropertyAccessors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/PropertyAccessors.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/PropertyAccessors.kt", this::doTest);
     }
 
     @TestMetadata("PropertyAccessors2.kt")
     public void testPropertyAccessors2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/PropertyAccessors2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/PropertyAccessors2.kt", this::doTest);
     }
 
     @TestMetadata("PropertySetter.kt")
     public void testPropertySetter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/PropertySetter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/PropertySetter.kt", this::doTest);
     }
 
     @TestMetadata("QualifiedThis.kt")
     public void testQualifiedThis() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/QualifiedThis.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/QualifiedThis.kt", this::doTest);
     }
 
     @TestMetadata("QualifiedThisInAccessor.kt")
     public void testQualifiedThisInAccessor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/QualifiedThisInAccessor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/QualifiedThisInAccessor.kt", this::doTest);
     }
 
     @TestMetadata("Receiver.kt")
     public void testReceiver() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Receiver.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Receiver.kt", this::doTest);
     }
 
     @TestMetadata("Return1.kt")
     public void testReturn1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Return1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return1.kt", this::doTest);
     }
 
     @TestMetadata("Return2.kt")
     public void testReturn2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Return2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return2.kt", this::doTest);
     }
 
     @TestMetadata("Return3.kt")
     public void testReturn3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Return3.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return3.kt", this::doTest);
     }
 
     @TestMetadata("Return4.kt")
     public void testReturn4() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Return4.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return4.kt", this::doTest);
     }
 
     @TestMetadata("Return5.kt")
     public void testReturn5() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Return5.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return5.kt", this::doTest);
     }
 
     @TestMetadata("Return6.kt")
     public void testReturn6() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Return6.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return6.kt", this::doTest);
     }
 
     @TestMetadata("Return7.kt")
     public void testReturn7() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Return7.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return7.kt", this::doTest);
     }
 
     @TestMetadata("Return8.kt")
     public void testReturn8() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Return8.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return8.kt", this::doTest);
     }
 
     @TestMetadata("Return9.kt")
     public void testReturn9() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/Return9.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/Return9.kt", this::doTest);
     }
 
     @TestMetadata("ReturnBoolean.kt")
     public void testReturnBoolean() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ReturnBoolean.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnBoolean.kt", this::doTest);
     }
 
     @TestMetadata("ReturnCollection.kt")
     public void testReturnCollection() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ReturnCollection.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnCollection.kt", this::doTest);
     }
 
     @TestMetadata("ReturnIterable.kt")
     public void testReturnIterable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ReturnIterable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnIterable.kt", this::doTest);
     }
 
     @TestMetadata("ReturnKeywordName.kt")
     public void testReturnKeywordName() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ReturnKeywordName.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnKeywordName.kt", this::doTest);
     }
 
     @TestMetadata("ReturnList.kt")
     public void testReturnList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ReturnList.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnList.kt", this::doTest);
     }
 
     @TestMetadata("ReturnNotNull.kt")
     public void testReturnNotNull() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ReturnNotNull.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnNotNull.kt", this::doTest);
     }
 
     @TestMetadata("ReturnNull.kt")
     public void testReturnNull() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ReturnNull.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnNull.kt", this::doTest);
     }
 
     @TestMetadata("ReturnNullableBoolean.kt")
     public void testReturnNullableBoolean() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ReturnNullableBoolean.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnNullableBoolean.kt", this::doTest);
     }
 
     @TestMetadata("ReturnSet.kt")
     public void testReturnSet() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ReturnSet.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ReturnSet.kt", this::doTest);
     }
 
     @TestMetadata("SuspendInsideTypeArguments.kt")
     public void testSuspendInsideTypeArguments() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/SuspendInsideTypeArguments.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/SuspendInsideTypeArguments.kt", this::doTest);
     }
 
     @TestMetadata("SuspendInsideTypeArguments1.kt")
     public void testSuspendInsideTypeArguments1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/SuspendInsideTypeArguments1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/SuspendInsideTypeArguments1.kt", this::doTest);
     }
 
     @TestMetadata("This.kt")
     public void testThis() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/This.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/This.kt", this::doTest);
     }
 
     @TestMetadata("ThisPrefixMatching.kt")
     public void testThisPrefixMatching() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/ThisPrefixMatching.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/ThisPrefixMatching.kt", this::doTest);
     }
 
     @TestMetadata("TopScope.kt")
     public void testTopScope() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/TopScope.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/TopScope.kt", this::doTest);
     }
 
     @TestMetadata("UseSiteTargetForPrimaryConstructorParameter.kt")
     public void testUseSiteTargetForPrimaryConstructorParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/keywords/UseSiteTargetForPrimaryConstructorParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/keywords/UseSiteTargetForPrimaryConstructorParameter.kt", this::doTest);
     }
 }

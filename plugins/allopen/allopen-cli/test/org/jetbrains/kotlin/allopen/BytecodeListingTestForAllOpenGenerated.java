@@ -27,79 +27,66 @@ public class BytecodeListingTestForAllOpenGenerated extends AbstractBytecodeList
 
     @TestMetadata("allOpenOnNotClasses.kt")
     public void testAllOpenOnNotClasses() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/allOpenOnNotClasses.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/allOpenOnNotClasses.kt", this::doTest);
     }
 
     @TestMetadata("alreadyOpen.kt")
     public void testAlreadyOpen() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/alreadyOpen.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/alreadyOpen.kt", this::doTest);
     }
 
     @TestMetadata("anonymousObject.kt")
     public void testAnonymousObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/anonymousObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/anonymousObject.kt", this::doTest);
     }
 
     @TestMetadata("explicitFinal.kt")
     public void testExplicitFinal() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/explicitFinal.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/explicitFinal.kt", this::doTest);
     }
 
     @TestMetadata("metaAnnotation.kt")
     public void testMetaAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/metaAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/metaAnnotation.kt", this::doTest);
     }
 
     @TestMetadata("nestedInner.kt")
     public void testNestedInner() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/nestedInner.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/nestedInner.kt", this::doTest);
     }
 
     @TestMetadata("noAllOpen.kt")
     public void testNoAllOpen() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/noAllOpen.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/noAllOpen.kt", this::doTest);
     }
 
     @TestMetadata("privateMembers.kt")
     public void testPrivateMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/privateMembers.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/privateMembers.kt", this::doTest);
     }
 
     @TestMetadata("sealed.kt")
     public void testSealed() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/sealed.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/sealed.kt", this::doTest);
     }
 
     @TestMetadata("severalAllOpen.kt")
     public void testSeveralAllOpen() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/severalAllOpen.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/severalAllOpen.kt", this::doTest);
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/simple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/simple.kt", this::doTest);
     }
 
     @TestMetadata("springAnnotations.kt")
     public void testSpringAnnotations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/springAnnotations.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/springAnnotations.kt", this::doTest);
     }
 
     @TestMetadata("superClassAnnotation.kt")
     public void testSuperClassAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/allopen/allopen-cli/testData/bytecodeListing/superClassAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/allopen/allopen-cli/testData/bytecodeListing/superClassAnnotation.kt", this::doTest);
     }
 }

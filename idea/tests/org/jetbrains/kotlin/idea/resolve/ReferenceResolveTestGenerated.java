@@ -27,452 +27,377 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
 
     @TestMetadata("AnnotationForClass.kt")
     public void testAnnotationForClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/AnnotationForClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/AnnotationForClass.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationInsideFunction.kt")
     public void testAnnotationInsideFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/AnnotationInsideFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/AnnotationInsideFunction.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationOnFile.kt")
     public void testAnnotationOnFile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/AnnotationOnFile.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/AnnotationOnFile.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationOnFileWithImport.kt")
     public void testAnnotationOnFileWithImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/AnnotationOnFileWithImport.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/AnnotationOnFileWithImport.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationParameter.kt")
     public void testAnnotationParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/AnnotationParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/AnnotationParameter.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationTypeParameter.kt")
     public void testAnnotationTypeParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/AnnotationTypeParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/AnnotationTypeParameter.kt", this::doTest);
     }
 
     @TestMetadata("ClassInTypeConstraint.kt")
     public void testClassInTypeConstraint() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ClassInTypeConstraint.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ClassInTypeConstraint.kt", this::doTest);
     }
 
     @TestMetadata("ClassNameBeforeDot.kt")
     public void testClassNameBeforeDot() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ClassNameBeforeDot.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ClassNameBeforeDot.kt", this::doTest);
     }
 
     @TestMetadata("ClassObjectClassLiteralReference.kt")
     public void testClassObjectClassLiteralReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ClassObjectClassLiteralReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ClassObjectClassLiteralReference.kt", this::doTest);
     }
 
     @TestMetadata("ClassObjectClassLiteralReferenceWithField.kt")
     public void testClassObjectClassLiteralReferenceWithField() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ClassObjectClassLiteralReferenceWithField.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ClassObjectClassLiteralReferenceWithField.kt", this::doTest);
     }
 
     @TestMetadata("ClassQualifierForNestedClassConstructorCall.kt")
     public void testClassQualifierForNestedClassConstructorCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ClassQualifierForNestedClassConstructorCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ClassQualifierForNestedClassConstructorCall.kt", this::doTest);
     }
 
     @TestMetadata("ClassReferenceInImport.kt")
     public void testClassReferenceInImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ClassReferenceInImport.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ClassReferenceInImport.kt", this::doTest);
     }
 
     @TestMetadata("CollectionLiteralLeft.kt")
     public void testCollectionLiteralLeft() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/CollectionLiteralLeft.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/CollectionLiteralLeft.kt", this::doTest);
     }
 
     @TestMetadata("CollectionLiteralRight.kt")
     public void testCollectionLiteralRight() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/CollectionLiteralRight.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/CollectionLiteralRight.kt", this::doTest);
     }
 
     @TestMetadata("CoroutineSuspensionPoint.kt")
     public void testCoroutineSuspensionPoint() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/CoroutineSuspensionPoint.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/CoroutineSuspensionPoint.kt", this::doTest);
     }
 
     @TestMetadata("CtrlClickResolve.kt")
     public void testCtrlClickResolve() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/CtrlClickResolve.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/CtrlClickResolve.kt", this::doTest);
     }
 
     @TestMetadata("DataClassCopy.kt")
     public void testDataClassCopy() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/DataClassCopy.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/DataClassCopy.kt", this::doTest);
     }
 
     @TestMetadata("DefaultObjectAsExtensionReceiverForFunction.kt")
     public void testDefaultObjectAsExtensionReceiverForFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/DefaultObjectAsExtensionReceiverForFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/DefaultObjectAsExtensionReceiverForFunction.kt", this::doTest);
     }
 
     @TestMetadata("DefaultObjectAsExtensionReceiverForProperty.kt")
     public void testDefaultObjectAsExtensionReceiverForProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/DefaultObjectAsExtensionReceiverForProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/DefaultObjectAsExtensionReceiverForProperty.kt", this::doTest);
     }
 
     @TestMetadata("DefaultObjectAsReceiverForExtensionFunctionOnSuperType.kt")
     public void testDefaultObjectAsReceiverForExtensionFunctionOnSuperType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/DefaultObjectAsReceiverForExtensionFunctionOnSuperType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/DefaultObjectAsReceiverForExtensionFunctionOnSuperType.kt", this::doTest);
     }
 
     @TestMetadata("DefaultObjectAsReceiverForMemberPropertyInSuperType.kt")
     public void testDefaultObjectAsReceiverForMemberPropertyInSuperType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/DefaultObjectAsReceiverForMemberPropertyInSuperType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/DefaultObjectAsReceiverForMemberPropertyInSuperType.kt", this::doTest);
     }
 
     @TestMetadata("DefaultObjectInShortReferenceFormCall.kt")
     public void testDefaultObjectInShortReferenceFormCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/DefaultObjectInShortReferenceFormCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/DefaultObjectInShortReferenceFormCall.kt", this::doTest);
     }
 
     @TestMetadata("EnumValues.kt")
     public void testEnumValues() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/EnumValues.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/EnumValues.kt", this::doTest);
     }
 
     @TestMetadata("FakeJavaLang1.kt")
     public void testFakeJavaLang1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/FakeJavaLang1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/FakeJavaLang1.kt", this::doTest);
     }
 
     @TestMetadata("FakeJavaLang2.kt")
     public void testFakeJavaLang2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/FakeJavaLang2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/FakeJavaLang2.kt", this::doTest);
     }
 
     @TestMetadata("FakeJavaLang3.kt")
     public void testFakeJavaLang3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/FakeJavaLang3.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/FakeJavaLang3.kt", this::doTest);
     }
 
     @TestMetadata("FakeJavaLang4.kt")
     public void testFakeJavaLang4() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/FakeJavaLang4.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/FakeJavaLang4.kt", this::doTest);
     }
 
     @TestMetadata("fileRefInRawStringLiteral.kt")
     public void testFileRefInRawStringLiteral() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/fileRefInRawStringLiteral.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/fileRefInRawStringLiteral.kt", this::doTest);
     }
 
     @TestMetadata("fileRefInStringLiteral.kt")
     public void testFileRefInStringLiteral() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/fileRefInStringLiteral.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/fileRefInStringLiteral.kt", this::doTest);
     }
 
     @TestMetadata("GenericFunctionParameter.kt")
     public void testGenericFunctionParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/GenericFunctionParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/GenericFunctionParameter.kt", this::doTest);
     }
 
     @TestMetadata("GenericTypeInFunctionParameter.kt")
     public void testGenericTypeInFunctionParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/GenericTypeInFunctionParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/GenericTypeInFunctionParameter.kt", this::doTest);
     }
 
     @TestMetadata("ImportFromRootScope.kt")
     public void testImportFromRootScope() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ImportFromRootScope.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ImportFromRootScope.kt", this::doTest);
     }
 
     @TestMetadata("InClassParameter.kt")
     public void testInClassParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/InClassParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/InClassParameter.kt", this::doTest);
     }
 
     @TestMetadata("InClassParameterField.kt")
     public void testInClassParameterField() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/InClassParameterField.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/InClassParameterField.kt", this::doTest);
     }
 
     @TestMetadata("InEnumEntry.kt")
     public void testInEnumEntry() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/InEnumEntry.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/InEnumEntry.kt", this::doTest);
     }
 
     @TestMetadata("InFunctionParameterType.kt")
     public void testInFunctionParameterType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/InFunctionParameterType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/InFunctionParameterType.kt", this::doTest);
     }
 
     @TestMetadata("InMethodParameter.kt")
     public void testInMethodParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/InMethodParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/InMethodParameter.kt", this::doTest);
     }
 
     @TestMetadata("InObjectClassObject.kt")
     public void testInObjectClassObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/InObjectClassObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/InObjectClassObject.kt", this::doTest);
     }
 
     @TestMetadata("InSecondClassObject.kt")
     public void testInSecondClassObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/InSecondClassObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/InSecondClassObject.kt", this::doTest);
     }
 
     @TestMetadata("JavaAnnotationParameter.kt")
     public void testJavaAnnotationParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/JavaAnnotationParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/JavaAnnotationParameter.kt", this::doTest);
     }
 
     @TestMetadata("JavaConstructorNotNullParameter.kt")
     public void testJavaConstructorNotNullParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/JavaConstructorNotNullParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/JavaConstructorNotNullParameter.kt", this::doTest);
     }
 
     @TestMetadata("JavaEnumEntry.kt")
     public void testJavaEnumEntry() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/JavaEnumEntry.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/JavaEnumEntry.kt", this::doTest);
     }
 
     @TestMetadata("JavaEnumValueOf.kt")
     public void testJavaEnumValueOf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/JavaEnumValueOf.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/JavaEnumValueOf.kt", this::doTest);
     }
 
     @TestMetadata("JavaParameter.kt")
     public void testJavaParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/JavaParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/JavaParameter.kt", this::doTest);
     }
 
     @TestMetadata("JavaReference.kt")
     public void testJavaReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/JavaReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/JavaReference.kt", this::doTest);
     }
 
     @TestMetadata("MultiDeclarationExtension.kt")
     public void testMultiDeclarationExtension() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/MultiDeclarationExtension.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/MultiDeclarationExtension.kt", this::doTest);
     }
 
     @TestMetadata("MultiDeclarationMember.kt")
     public void testMultiDeclarationMember() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/MultiDeclarationMember.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/MultiDeclarationMember.kt", this::doTest);
     }
 
     @TestMetadata("NamedClassObject.kt")
     public void testNamedClassObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/NamedClassObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/NamedClassObject.kt", this::doTest);
     }
 
     @TestMetadata("PackageReference.kt")
     public void testPackageReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/PackageReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/PackageReference.kt", this::doTest);
     }
 
     @TestMetadata("PackageReferenceInImport.kt")
     public void testPackageReferenceInImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/PackageReferenceInImport.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/PackageReferenceInImport.kt", this::doTest);
     }
 
     @TestMetadata("PropertyPlaceInClassObjectInObject.kt")
     public void testPropertyPlaceInClassObjectInObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/PropertyPlaceInClassObjectInObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/PropertyPlaceInClassObjectInObject.kt", this::doTest);
     }
 
     @TestMetadata("ReferenceInClassWhereConstraint.kt")
     public void testReferenceInClassWhereConstraint() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ReferenceInClassWhereConstraint.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ReferenceInClassWhereConstraint.kt", this::doTest);
     }
 
     @TestMetadata("ReferenceInFunWhereConstraint.kt")
     public void testReferenceInFunWhereConstraint() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ReferenceInFunWhereConstraint.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ReferenceInFunWhereConstraint.kt", this::doTest);
     }
 
     @TestMetadata("ReferenceToSam.kt")
     public void testReferenceToSam() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ReferenceToSam.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ReferenceToSam.kt", this::doTest);
     }
 
     @TestMetadata("ResolveClass.kt")
     public void testResolveClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ResolveClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ResolveClass.kt", this::doTest);
     }
 
     @TestMetadata("ResolvePackageInProperty.kt")
     public void testResolvePackageInProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ResolvePackageInProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ResolvePackageInProperty.kt", this::doTest);
     }
 
     @TestMetadata("SamAdapter.kt")
     public void testSamAdapter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/SamAdapter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/SamAdapter.kt", this::doTest);
     }
 
     @TestMetadata("SamConstructor.kt")
     public void testSamConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/SamConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/SamConstructor.kt", this::doTest);
     }
 
     @TestMetadata("SamConstructorTypeArguments.kt")
     public void testSamConstructorTypeArguments() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/SamConstructorTypeArguments.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/SamConstructorTypeArguments.kt", this::doTest);
     }
 
     @TestMetadata("SeveralOverrides.kt")
     public void testSeveralOverrides() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/SeveralOverrides.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/SeveralOverrides.kt", this::doTest);
     }
 
     @TestMetadata("SyntheticProperty.kt")
     public void testSyntheticProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/SyntheticProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/SyntheticProperty.kt", this::doTest);
     }
 
     @TestMetadata("TypeAlias.kt")
     public void testTypeAlias() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeAlias.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeAlias.kt", this::doTest);
     }
 
     @TestMetadata("TypeAliasAsSupertypeConstructor.kt")
     public void testTypeAliasAsSupertypeConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeAliasAsSupertypeConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeAliasAsSupertypeConstructor.kt", this::doTest);
     }
 
     @TestMetadata("TypeAliasRHS.kt")
     public void testTypeAliasRHS() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeAliasRHS.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeAliasRHS.kt", this::doTest);
     }
 
     @TestMetadata("TypeArgumentBeforeDot.kt")
     public void testTypeArgumentBeforeDot() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeArgumentBeforeDot.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeArgumentBeforeDot.kt", this::doTest);
     }
 
     @TestMetadata("TypeArgumentBeforeDot2.kt")
     public void testTypeArgumentBeforeDot2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeArgumentBeforeDot2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeArgumentBeforeDot2.kt", this::doTest);
     }
 
     @TestMetadata("TypeArgumentUnresolvedClass.kt")
     public void testTypeArgumentUnresolvedClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeArgumentUnresolvedClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeArgumentUnresolvedClass.kt", this::doTest);
     }
 
     @TestMetadata("TypeArgumentUnresolvedConstructor.kt")
     public void testTypeArgumentUnresolvedConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeArgumentUnresolvedConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeArgumentUnresolvedConstructor.kt", this::doTest);
     }
 
     @TestMetadata("TypeArgumentWrongNumber.kt")
     public void testTypeArgumentWrongNumber() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeArgumentWrongNumber.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeArgumentWrongNumber.kt", this::doTest);
     }
 
     @TestMetadata("TypeParameterInAnonymousObject.kt")
     public void testTypeParameterInAnonymousObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeParameterInAnonymousObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeParameterInAnonymousObject.kt", this::doTest);
     }
 
     @TestMetadata("TypeParameterInFunctionLiteral.kt")
     public void testTypeParameterInFunctionLiteral() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/TypeParameterInFunctionLiteral.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/TypeParameterInFunctionLiteral.kt", this::doTest);
     }
 
     @TestMetadata("ValueParameter.kt")
     public void testValueParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/ValueParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/ValueParameter.kt", this::doTest);
     }
 
     @TestMetadata("WrongNumberOfTypeArguments.kt")
     public void testWrongNumberOfTypeArguments() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/WrongNumberOfTypeArguments.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/WrongNumberOfTypeArguments.kt", this::doTest);
     }
 
     @TestMetadata("WrongNumberOfTypeArguments2.kt")
     public void testWrongNumberOfTypeArguments2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/WrongNumberOfTypeArguments2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/WrongNumberOfTypeArguments2.kt", this::doTest);
     }
 
     @TestMetadata("WrongNumberOfTypeArgumentsInSupertype.kt")
     public void testWrongNumberOfTypeArgumentsInSupertype() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/WrongNumberOfTypeArgumentsInSupertype.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/references/WrongNumberOfTypeArgumentsInSupertype.kt", this::doTest);
     }
 
     @TestMetadata("idea/testData/resolve/references/delegatedPropertyAccessors")
@@ -485,8 +410,7 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
 
         @TestMetadata("unresolved.kt")
         public void testUnresolved() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/delegatedPropertyAccessors/unresolved.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/delegatedPropertyAccessors/unresolved.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/resolve/references/delegatedPropertyAccessors/inSource")
@@ -499,26 +423,22 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
 
             @TestMetadata("getExtension.kt")
             public void testGetExtension() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/delegatedPropertyAccessors/inSource/getExtension.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/delegatedPropertyAccessors/inSource/getExtension.kt", this::doTest);
             }
 
             @TestMetadata("getMember.kt")
             public void testGetMember() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/delegatedPropertyAccessors/inSource/getMember.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/delegatedPropertyAccessors/inSource/getMember.kt", this::doTest);
             }
 
             @TestMetadata("getMultipleDeclarations.kt")
             public void testGetMultipleDeclarations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/delegatedPropertyAccessors/inSource/getMultipleDeclarations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/delegatedPropertyAccessors/inSource/getMultipleDeclarations.kt", this::doTest);
             }
 
             @TestMetadata("getOneFakeOverride.kt")
             public void testGetOneFakeOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/delegatedPropertyAccessors/inSource/getOneFakeOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/delegatedPropertyAccessors/inSource/getOneFakeOverride.kt", this::doTest);
             }
         }
 
@@ -532,14 +452,12 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
 
             @TestMetadata("lazy.kt")
             public void testLazy() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/delegatedPropertyAccessors/inStandardLibrary/lazy.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/delegatedPropertyAccessors/inStandardLibrary/lazy.kt", this::doTest);
             }
 
             @TestMetadata("notNull.kt")
             public void testNotNull() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/delegatedPropertyAccessors/inStandardLibrary/notNull.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/delegatedPropertyAccessors/inStandardLibrary/notNull.kt", this::doTest);
             }
         }
     }
@@ -554,8 +472,7 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
 
         @TestMetadata("unresolvedIterator.kt")
         public void testUnresolvedIterator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/forLoopIn/unresolvedIterator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/forLoopIn/unresolvedIterator.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/resolve/references/forLoopIn/inBuiltIns")
@@ -568,14 +485,12 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
 
             @TestMetadata("extension.kt")
             public void testExtension() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/forLoopIn/inBuiltIns/extension.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/forLoopIn/inBuiltIns/extension.kt", this::doTest);
             }
 
             @TestMetadata("member.kt")
             public void testMember() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/forLoopIn/inBuiltIns/member.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/forLoopIn/inBuiltIns/member.kt", this::doTest);
             }
         }
 
@@ -589,8 +504,7 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
 
             @TestMetadata("extension.kt")
             public void testExtension() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/forLoopIn/inLibrary/extension.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/forLoopIn/inLibrary/extension.kt", this::doTest);
             }
         }
 
@@ -600,8 +514,7 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
         public static class InSource extends AbstractReferenceResolveTest {
             @TestMetadata("allExtensions.kt")
             public void testAllExtensions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/forLoopIn/inSource/allExtensions.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/forLoopIn/inSource/allExtensions.kt", this::doTest);
             }
 
             public void testAllFilesPresentInInSource() throws Exception {
@@ -610,14 +523,12 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
 
             @TestMetadata("allMembers.kt")
             public void testAllMembers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/forLoopIn/inSource/allMembers.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/forLoopIn/inSource/allMembers.kt", this::doTest);
             }
 
             @TestMetadata("nextMissing.kt")
             public void testNextMissing() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/forLoopIn/inSource/nextMissing.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/resolve/references/forLoopIn/inSource/nextMissing.kt", this::doTest);
             }
         }
     }
@@ -632,56 +543,47 @@ public class ReferenceResolveTestGenerated extends AbstractReferenceResolveTest 
 
         @TestMetadata("lambdaAndParens.kt")
         public void testLambdaAndParens() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/invoke/lambdaAndParens.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/invoke/lambdaAndParens.kt", this::doTest);
         }
 
         @TestMetadata("lambdaNoPar.kt")
         public void testLambdaNoPar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/invoke/lambdaNoPar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/invoke/lambdaNoPar.kt", this::doTest);
         }
 
         @TestMetadata("lambdaNoParLabel.kt")
         public void testLambdaNoParLabel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/invoke/lambdaNoParLabel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/invoke/lambdaNoParLabel.kt", this::doTest);
         }
 
         @TestMetadata("lambdaNoParRCurly.kt")
         public void testLambdaNoParRCurly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/invoke/lambdaNoParRCurly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/invoke/lambdaNoParRCurly.kt", this::doTest);
         }
 
         @TestMetadata("noParams.kt")
         public void testNoParams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/invoke/noParams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/invoke/noParams.kt", this::doTest);
         }
 
         @TestMetadata("noParamsRPar.kt")
         public void testNoParamsRPar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/invoke/noParamsRPar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/invoke/noParamsRPar.kt", this::doTest);
         }
 
         @TestMetadata("nonemptyLambdaRPar.kt")
         public void testNonemptyLambdaRPar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/invoke/nonemptyLambdaRPar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/invoke/nonemptyLambdaRPar.kt", this::doTest);
         }
 
         @TestMetadata("oneParam.kt")
         public void testOneParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/invoke/oneParam.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/invoke/oneParam.kt", this::doTest);
         }
 
         @TestMetadata("oneParamRPar.kt")
         public void testOneParamRPar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/references/invoke/oneParamRPar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/references/invoke/oneParamRPar.kt", this::doTest);
         }
     }
 }

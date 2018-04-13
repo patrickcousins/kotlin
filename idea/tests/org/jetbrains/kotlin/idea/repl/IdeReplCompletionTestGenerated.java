@@ -27,43 +27,36 @@ public class IdeReplCompletionTestGenerated extends AbstractIdeReplCompletionTes
 
     @TestMetadata("builtInMember.kt")
     public void testBuiltInMember() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/repl/completion/builtInMember.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/repl/completion/builtInMember.kt", this::doTest);
     }
 
     @TestMetadata("definedClass.kt")
     public void testDefinedClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/repl/completion/definedClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/repl/completion/definedClass.kt", this::doTest);
     }
 
     @TestMetadata("definedClassMember.kt")
     public void testDefinedClassMember() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/repl/completion/definedClassMember.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/repl/completion/definedClassMember.kt", this::doTest);
     }
 
     @TestMetadata("definedExtension.kt")
     public void testDefinedExtension() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/repl/completion/definedExtension.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/repl/completion/definedExtension.kt", this::doTest);
     }
 
     @TestMetadata("functions.kt")
     public void testFunctions() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/repl/completion/functions.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/repl/completion/functions.kt", this::doTest);
     }
 
     @TestMetadata("stdlib.kt")
     public void testStdlib() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/repl/completion/stdlib.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/repl/completion/stdlib.kt", this::doTest);
     }
 
     @TestMetadata("variables.kt")
     public void testVariables() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/repl/completion/variables.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/repl/completion/variables.kt", this::doTest);
     }
 }

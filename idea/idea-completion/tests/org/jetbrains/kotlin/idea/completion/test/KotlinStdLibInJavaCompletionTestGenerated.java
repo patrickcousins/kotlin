@@ -27,7 +27,6 @@ public class KotlinStdLibInJavaCompletionTestGenerated extends AbstractKotlinStd
 
     @TestMetadata("List.java")
     public void testList() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/injava/stdlib/List.java");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/injava/stdlib/List.java", this::doTest);
     }
 }

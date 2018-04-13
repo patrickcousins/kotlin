@@ -29,98 +29,82 @@ public class KotlinSteppingTestGenerated extends AbstractKotlinSteppingTest {
 
         @TestMetadata("classObjectFunFromClass.kt")
         public void testClassObjectFunFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/classObjectFunFromClass.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/classObjectFunFromClass.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("classObjectFunFromTopLevel.kt")
         public void testClassObjectFunFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/classObjectFunFromTopLevel.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/classObjectFunFromTopLevel.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("extFun.kt")
         public void testExtFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/extFun.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/extFun.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("javaFun.kt")
         public void testJavaFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaFun.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaFun.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("javaSamConstructor.kt")
         public void testJavaSamConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaSamConstructor.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaSamConstructor.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("javaSamFunction.kt")
         public void testJavaSamFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaSamFunction.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaSamFunction.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("kotlinSamFunction.kt")
         public void testKotlinSamFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/kotlinSamFunction.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/kotlinSamFunction.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("memberFunFromClass.kt")
         public void testMemberFunFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberFunFromClass.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberFunFromClass.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("memberFunFromTopLevel.kt")
         public void testMemberFunFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberFunFromTopLevel.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberFunFromTopLevel.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("memberGetterFromClass.kt")
         public void testMemberGetterFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberGetterFromClass.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberGetterFromClass.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("memberGetterFromTopLevel.kt")
         public void testMemberGetterFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberGetterFromTopLevel.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberGetterFromTopLevel.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("objectFun.kt")
         public void testObjectFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/objectFun.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/objectFun.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("topLevelFunFromClass.kt")
         public void testTopLevelFunFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelFunFromClass.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelFunFromClass.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("topLevelFunFromTopLevel.kt")
         public void testTopLevelFunFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelFunFromTopLevel.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelFunFromTopLevel.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("topLevelGetterFromClass.kt")
         public void testTopLevelGetterFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelGetterFromClass.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelGetterFromClass.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("topLevelGetterFromTopLevel.kt")
         public void testTopLevelGetterFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelGetterFromTopLevel.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelGetterFromTopLevel.kt", this::doStepIntoTest);
         }
     }
 
@@ -134,98 +118,82 @@ public class KotlinSteppingTestGenerated extends AbstractKotlinSteppingTest {
 
         @TestMetadata("classObjectFunFromClass.kt")
         public void testClassObjectFunFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/classObjectFunFromClass.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/classObjectFunFromClass.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("classObjectFunFromTopLevel.kt")
         public void testClassObjectFunFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/classObjectFunFromTopLevel.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/classObjectFunFromTopLevel.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("extFun.kt")
         public void testExtFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/extFun.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/extFun.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("javaFun.kt")
         public void testJavaFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaFun.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaFun.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("javaSamConstructor.kt")
         public void testJavaSamConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaSamConstructor.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaSamConstructor.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("javaSamFunction.kt")
         public void testJavaSamFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaSamFunction.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/javaSamFunction.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("kotlinSamFunction.kt")
         public void testKotlinSamFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/kotlinSamFunction.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/kotlinSamFunction.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("memberFunFromClass.kt")
         public void testMemberFunFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberFunFromClass.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberFunFromClass.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("memberFunFromTopLevel.kt")
         public void testMemberFunFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberFunFromTopLevel.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberFunFromTopLevel.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("memberGetterFromClass.kt")
         public void testMemberGetterFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberGetterFromClass.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberGetterFromClass.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("memberGetterFromTopLevel.kt")
         public void testMemberGetterFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberGetterFromTopLevel.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/memberGetterFromTopLevel.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("objectFun.kt")
         public void testObjectFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/objectFun.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/objectFun.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("topLevelFunFromClass.kt")
         public void testTopLevelFunFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelFunFromClass.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelFunFromClass.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("topLevelFunFromTopLevel.kt")
         public void testTopLevelFunFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelFunFromTopLevel.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelFunFromTopLevel.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("topLevelGetterFromClass.kt")
         public void testTopLevelGetterFromClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelGetterFromClass.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelGetterFromClass.kt", this::doSmartStepIntoTest);
         }
 
         @TestMetadata("topLevelGetterFromTopLevel.kt")
         public void testTopLevelGetterFromTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelGetterFromTopLevel.kt");
-            doSmartStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepIntoAndSmartStepInto/topLevelGetterFromTopLevel.kt", this::doSmartStepIntoTest);
         }
     }
 
@@ -235,8 +203,7 @@ public class KotlinSteppingTestGenerated extends AbstractKotlinSteppingTest {
     public static class StepIntoOnly extends AbstractKotlinSteppingTest {
         @TestMetadata("accessors.kt")
         public void testAccessors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/accessors.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/accessors.kt", this::doStepIntoTest);
         }
 
         public void testAllFilesPresentInStepIntoOnly() throws Exception {
@@ -245,128 +212,107 @@ public class KotlinSteppingTestGenerated extends AbstractKotlinSteppingTest {
 
         @TestMetadata("continueLabel.kt")
         public void testContinueLabel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/continueLabel.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/continueLabel.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("defaultAccessors.kt")
         public void testDefaultAccessors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/defaultAccessors.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/defaultAccessors.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("forLoop.kt")
         public void testForLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/forLoop.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/forLoop.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("functionReference.kt")
         public void testFunctionReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/functionReference.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/functionReference.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("inlineDex.kt")
         public void testInlineDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/inlineDex.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/inlineDex.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("inlineOnly.kt")
         public void testInlineOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/inlineOnly.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/inlineOnly.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("propertyReference.kt")
         public void testPropertyReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/propertyReference.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/propertyReference.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("returnVoid.kt")
         public void testReturnVoid() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/returnVoid.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/returnVoid.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("samAdapter.kt")
         public void testSamAdapter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/samAdapter.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/samAdapter.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("siSuspendFun.kt")
         public void testSiSuspendFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/siSuspendFun.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/siSuspendFun.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("skipSimpleGetter.kt")
         public void testSkipSimpleGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/skipSimpleGetter.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/skipSimpleGetter.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("skipSimpleGetterLocalVal.kt")
         public void testSkipSimpleGetterLocalVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/skipSimpleGetterLocalVal.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/skipSimpleGetterLocalVal.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("skipSimpleGetterMethodWithProperty.kt")
         public void testSkipSimpleGetterMethodWithProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/skipSimpleGetterMethodWithProperty.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/skipSimpleGetterMethodWithProperty.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("stepIntoFromInlineFun.kt")
         public void testStepIntoFromInlineFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/stepIntoFromInlineFun.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/stepIntoFromInlineFun.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("stepIntoInlineFun.kt")
         public void testStepIntoInlineFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/stepIntoInlineFun.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/stepIntoInlineFun.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("stepIntoStdLibInlineFun.kt")
         public void testStepIntoStdLibInlineFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/stepIntoStdLibInlineFun.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/stepIntoStdLibInlineFun.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("stepIntoSuspendFunctionSimple.kt")
         public void testStepIntoSuspendFunctionSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/stepIntoSuspendFunctionSimple.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/stepIntoSuspendFunctionSimple.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("syntheticMethods.kt")
         public void testSyntheticMethods() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/syntheticMethods.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/syntheticMethods.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("syntheticMethodsSkip.kt")
         public void testSyntheticMethodsSkip() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/syntheticMethodsSkip.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/syntheticMethodsSkip.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("traits.kt")
         public void testTraits() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/traits.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/traits.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("whenExpr.kt")
         public void testWhenExpr() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepInto/whenExpr.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepInto/whenExpr.kt", this::doStepIntoTest);
         }
     }
 
@@ -380,56 +326,47 @@ public class KotlinSteppingTestGenerated extends AbstractKotlinSteppingTest {
 
         @TestMetadata("fwBackingField.kt")
         public void testFwBackingField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOut/fwBackingField.kt");
-            doStepOutTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOut/fwBackingField.kt", this::doStepOutTest);
         }
 
         @TestMetadata("inapplicableFieldWatchpoints.kt")
         public void testInapplicableFieldWatchpoints() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOut/inapplicableFieldWatchpoints.kt");
-            doStepOutTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOut/inapplicableFieldWatchpoints.kt", this::doStepOutTest);
         }
 
         @TestMetadata("souSuspendFun.kt")
         public void testSouSuspendFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOut/souSuspendFun.kt");
-            doStepOutTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOut/souSuspendFun.kt", this::doStepOutTest);
         }
 
         @TestMetadata("stepOutInlineFunction.kt")
         public void testStepOutInlineFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutInlineFunction.kt");
-            doStepOutTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutInlineFunction.kt", this::doStepOutTest);
         }
 
         @TestMetadata("stepOutInlinedLambdaArgument.kt")
         public void testStepOutInlinedLambdaArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutInlinedLambdaArgument.kt");
-            doStepOutTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutInlinedLambdaArgument.kt", this::doStepOutTest);
         }
 
         @TestMetadata("stepOutInlinedLambdaArgumentOneLine.kt")
         public void testStepOutInlinedLambdaArgumentOneLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutInlinedLambdaArgumentOneLine.kt");
-            doStepOutTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutInlinedLambdaArgumentOneLine.kt", this::doStepOutTest);
         }
 
         @TestMetadata("stepOutSeveralInlineArgumentDeepest.kt")
         public void testStepOutSeveralInlineArgumentDeepest() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutSeveralInlineArgumentDeepest.kt");
-            doStepOutTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutSeveralInlineArgumentDeepest.kt", this::doStepOutTest);
         }
 
         @TestMetadata("stepOutSeveralInlineFunctions.kt")
         public void testStepOutSeveralInlineFunctions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutSeveralInlineFunctions.kt");
-            doStepOutTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutSeveralInlineFunctions.kt", this::doStepOutTest);
         }
 
         @TestMetadata("stepOutSeveralInlineFunctionsDeepest.kt")
         public void testStepOutSeveralInlineFunctionsDeepest() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutSeveralInlineFunctionsDeepest.kt");
-            doStepOutTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOut/stepOutSeveralInlineFunctionsDeepest.kt", this::doStepOutTest);
         }
     }
 
@@ -443,614 +380,512 @@ public class KotlinSteppingTestGenerated extends AbstractKotlinSteppingTest {
 
         @TestMetadata("asIterableInFor.kt")
         public void testAsIterableInFor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/asIterableInFor.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/asIterableInFor.kt", this::doStepOverTest);
         }
 
         @TestMetadata("ifCapturedVariableKt9118.kt")
         public void testIfCapturedVariableKt9118() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/ifCapturedVariableKt9118.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/ifCapturedVariableKt9118.kt", this::doStepOverTest);
         }
 
         @TestMetadata("inlineCallInForRangeExpression.kt")
         public void testInlineCallInForRangeExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineCallInForRangeExpression.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineCallInForRangeExpression.kt", this::doStepOverTest);
         }
 
         @TestMetadata("inlineFunctionSameLines.kt")
         public void testInlineFunctionSameLines() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineFunctionSameLines.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineFunctionSameLines.kt", this::doStepOverTest);
         }
 
         @TestMetadata("inlineInClassDex.kt")
         public void testInlineInClassDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInClassDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInClassDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("inlineInIfFalse.kt")
         public void testInlineInIfFalse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInIfFalse.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInIfFalse.kt", this::doStepOverTest);
         }
 
         @TestMetadata("inlineInIfFalseDex.kt")
         public void testInlineInIfFalseDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInIfFalseDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInIfFalseDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("inlineInIfTrue.kt")
         public void testInlineInIfTrue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInIfTrue.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInIfTrue.kt", this::doStepOverTest);
         }
 
         @TestMetadata("inlineInIfTrueDex.kt")
         public void testInlineInIfTrueDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInIfTrueDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInIfTrueDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("inlineInObjectDex.kt")
         public void testInlineInObjectDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInObjectDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/inlineInObjectDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("noParameterLambdaArgumentCallInInline.kt")
         public void testNoParameterLambdaArgumentCallInInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/noParameterLambdaArgumentCallInInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/noParameterLambdaArgumentCallInInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("noParameterLambdaArgumentCallInLambda.kt")
         public void testNoParameterLambdaArgumentCallInLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/noParameterLambdaArgumentCallInLambda.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/noParameterLambdaArgumentCallInLambda.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soBreakpointWithInline.kt")
         public void testSoBreakpointWithInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soBreakpointWithInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soBreakpointWithInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soBreakpointWithOrdinalOnInlineCallsInOneLine.kt")
         public void testSoBreakpointWithOrdinalOnInlineCallsInOneLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soBreakpointWithOrdinalOnInlineCallsInOneLine.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soBreakpointWithOrdinalOnInlineCallsInOneLine.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineAnonymousFunctionArgument.kt")
         public void testSoInlineAnonymousFunctionArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineAnonymousFunctionArgument.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineAnonymousFunctionArgument.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineAnonymousFunctionArgumentDex.kt")
         public void testSoInlineAnonymousFunctionArgumentDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineAnonymousFunctionArgumentDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineAnonymousFunctionArgumentDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineCallInLastStatementInInline.kt")
         public void testSoInlineCallInLastStatementInInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineCallInLastStatementInInlineDex.kt")
         public void testSoInlineCallInLastStatementInInlineDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInlineDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInlineDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineCallInLastStatementInInlineFunctionArgument.kt")
         public void testSoInlineCallInLastStatementInInlineFunctionArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInlineFunctionArgument.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInlineFunctionArgument.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineCallInLastStatementInInlineFunctionArgumentDex.kt")
         public void testSoInlineCallInLastStatementInInlineFunctionArgumentDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInlineFunctionArgumentDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInlineFunctionArgumentDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineCallInLastStatementInInlineInInline.kt")
         public void testSoInlineCallInLastStatementInInlineInInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInlineInInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallInLastStatementInInlineInInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineCallsInOneLine.kt")
         public void testSoInlineCallsInOneLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallsInOneLine.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineCallsInOneLine.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineFunCallInLastStatementOfInlineWithArgumentFromCalleeAndOwn.kt")
         public void testSoInlineFunCallInLastStatementOfInlineWithArgumentFromCalleeAndOwn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunCallInLastStatementOfInlineWithArgumentFromCalleeAndOwn.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunCallInLastStatementOfInlineWithArgumentFromCalleeAndOwn.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineFunDex.kt")
         public void testSoInlineFunDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineFunOnOneLineFor.kt")
         public void testSoInlineFunOnOneLineFor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunOnOneLineFor.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunOnOneLineFor.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineFunOnOneLineForDex.kt")
         public void testSoInlineFunOnOneLineForDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunOnOneLineForDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunOnOneLineForDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineFunWithFor.kt")
         public void testSoInlineFunWithFor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunWithFor.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunWithFor.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineFunWithLastStatementMultilineArgumentCall.kt")
         public void testSoInlineFunWithLastStatementMultilineArgumentCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunWithLastStatementMultilineArgumentCall.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunWithLastStatementMultilineArgumentCall.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineFunWithLastStatementOneLineArgumentCall.kt")
         public void testSoInlineFunWithLastStatementOneLineArgumentCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunWithLastStatementOneLineArgumentCall.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineFunWithLastStatementOneLineArgumentCall.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineIfConditionLambdaFalse.kt")
         public void testSoInlineIfConditionLambdaFalse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineIfConditionLambdaFalse.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineIfConditionLambdaFalse.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineIfConditionLambdaTrue.kt")
         public void testSoInlineIfConditionLambdaTrue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineIfConditionLambdaTrue.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineIfConditionLambdaTrue.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineIterableFunDex.kt")
         public void testSoInlineIterableFunDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineIterableFunDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineIterableFunDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineLibFunDex.kt")
         public void testSoInlineLibFunDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineLibFunDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineLibFunDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineOperatorIterator.kt")
         public void testSoInlineOperatorIterator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineOperatorIterator.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineOperatorIterator.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineUnitFunDex.kt")
         public void testSoInlineUnitFunDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineUnitFunDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineUnitFunDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineWhileCondition.kt")
         public void testSoInlineWhileCondition() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineWhileCondition.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineWhileCondition.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soInlineWhileConditionDex.kt")
         public void testSoInlineWhileConditionDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineWhileConditionDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soInlineWhileConditionDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soLastStatementInInlineFunctionArgumenBeforeOtherArgument.kt")
         public void testSoLastStatementInInlineFunctionArgumenBeforeOtherArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumenBeforeOtherArgument.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumenBeforeOtherArgument.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soLastStatementInInlineFunctionArgumentAsAnonymous.kt")
         public void testSoLastStatementInInlineFunctionArgumentAsAnonymous() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentAsAnonymous.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentAsAnonymous.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soLastStatementInInlineFunctionArgumentAsAnonymousParNextLine.kt")
         public void testSoLastStatementInInlineFunctionArgumentAsAnonymousParNextLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentAsAnonymousParNextLine.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentAsAnonymousParNextLine.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soLastStatementInInlineFunctionArgumentInGetOperator.kt")
         public void testSoLastStatementInInlineFunctionArgumentInGetOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentInGetOperator.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentInGetOperator.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soLastStatementInInlineFunctionArgumentInNonInlineCall.kt")
         public void testSoLastStatementInInlineFunctionArgumentInNonInlineCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentInNonInlineCall.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentInNonInlineCall.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soLastStatementInInlineFunctionArgumentInPars.kt")
         public void testSoLastStatementInInlineFunctionArgumentInPars() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentInPars.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soLastStatementInInlineFunctionArgumentInPars.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soNonSuspendableSuspendCall.kt")
         public void testSoNonSuspendableSuspendCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soNonSuspendableSuspendCall.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soNonSuspendableSuspendCall.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soReifiedInlineIfConditionFalse.kt")
         public void testSoReifiedInlineIfConditionFalse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soReifiedInlineIfConditionFalse.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soReifiedInlineIfConditionFalse.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soSimpleInlineIfCondition.kt")
         public void testSoSimpleInlineIfCondition() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSimpleInlineIfCondition.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSimpleInlineIfCondition.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soSuspendableCallInEndOfFun.kt")
         public void testSoSuspendableCallInEndOfFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInEndOfFun.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInEndOfFun.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soSuspendableCallInEndOfLambda.kt")
         public void testSoSuspendableCallInEndOfLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInEndOfLambda.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInEndOfLambda.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soSuspendableCallInFun.kt")
         public void testSoSuspendableCallInFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInFun.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInFun.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soSuspendableCallInFunFromOtherStepping.kt")
         public void testSoSuspendableCallInFunFromOtherStepping() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInFunFromOtherStepping.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInFunFromOtherStepping.kt", this::doStepOverTest);
         }
 
         @TestMetadata("soSuspendableCallInLambda.kt")
         public void testSoSuspendableCallInLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInLambda.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/soSuspendableCallInLambda.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverCatchClause.kt")
         public void testStepOverCatchClause() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverCatchClause.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverCatchClause.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverDeclarationInInlineFun.kt")
         public void testStepOverDeclarationInInlineFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverDeclarationInInlineFun.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverDeclarationInInlineFun.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverFalseConditionInLastIfInWhile.kt")
         public void testStepOverFalseConditionInLastIfInWhile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverFalseConditionInLastIfInWhile.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverFalseConditionInLastIfInWhile.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverForWithInline.kt")
         public void testStepOverForWithInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverForWithInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverForWithInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverIfWithInline.kt")
         public void testStepOverIfWithInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverIfWithInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverIfWithInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverInlineFunWithRecursionCall.kt")
         public void testStepOverInlineFunWithRecursionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInlineFunWithRecursionCall.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInlineFunWithRecursionCall.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverInlineFunctionInReturn.kt")
         public void testStepOverInlineFunctionInReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInlineFunctionInReturn.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInlineFunctionInReturn.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverInlinedLambda.kt")
         public void testStepOverInlinedLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInlinedLambda.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInlinedLambda.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverInlinedLambdaStdlib.kt")
         public void testStepOverInlinedLambdaStdlib() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInlinedLambdaStdlib.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInlinedLambdaStdlib.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverInsideInlineFun.kt")
         public void testStepOverInsideInlineFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInsideInlineFun.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverInsideInlineFun.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverReifiedParam.kt")
         public void testStepOverReifiedParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverReifiedParam.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverReifiedParam.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverSimpleFun.kt")
         public void testStepOverSimpleFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverSimpleFun.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverSimpleFun.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverTryCatchWithInline.kt")
         public void testStepOverTryCatchWithInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverTryCatchWithInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverTryCatchWithInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverWhenInReturn.kt")
         public void testStepOverWhenInReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverWhenInReturn.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverWhenInReturn.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverWhenWithInline.kt")
         public void testStepOverWhenWithInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverWhenWithInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverWhenWithInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stepOverWhileWithInline.kt")
         public void testStepOverWhileWithInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverWhileWithInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stepOverWhileWithInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInAnonymousFunctionInInlinedCallWithCrossInline.kt")
         public void testStopInAnonymousFunctionInInlinedCallWithCrossInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInAnonymousFunctionInInlinedCallWithCrossInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInAnonymousFunctionInInlinedCallWithCrossInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInAnonymousFunctionInInlinedCallWithCrossInlineDex.kt")
         public void testStopInAnonymousFunctionInInlinedCallWithCrossInlineDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInAnonymousFunctionInInlinedCallWithCrossInlineDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInAnonymousFunctionInInlinedCallWithCrossInlineDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInCrossinlineInSuspend.kt")
         public void testStopInCrossinlineInSuspend() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInCrossinlineInSuspend.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInCrossinlineInSuspend.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInExtensionInlineCall.kt")
         public void testStopInExtensionInlineCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInExtensionInlineCall.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInExtensionInlineCall.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineCallInField.kt")
         public void testStopInInlineCallInField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallInField.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallInField.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineCallInFieldInClassWithNonDefaultPrimary.kt")
         public void testStopInInlineCallInFieldInClassWithNonDefaultPrimary() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallInFieldInClassWithNonDefaultPrimary.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallInFieldInClassWithNonDefaultPrimary.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineCallInFieldInDelegate.kt")
         public void testStopInInlineCallInFieldInDelegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallInFieldInDelegate.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallInFieldInDelegate.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineCallInFieldInLocalClass.kt")
         public void testStopInInlineCallInFieldInLocalClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallInFieldInLocalClass.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallInFieldInLocalClass.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineCallLocalFunLambda.kt")
         public void testStopInInlineCallLocalFunLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallLocalFunLambda.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineCallLocalFunLambda.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineFunDex.kt")
         public void testStopInInlineFunDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineFunDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineFunDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineInOtherFileDex.kt")
         public void testStopInInlineInOtherFileDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineInOtherFileDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineInOtherFileDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineInOtherFileWithLambdaArgumentDex.kt")
         public void testStopInInlineInOtherFileWithLambdaArgumentDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineInOtherFileWithLambdaArgumentDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineInOtherFileWithLambdaArgumentDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineUnderOtherCall.kt")
         public void testStopInInlineUnderOtherCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineUnderOtherCall.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineUnderOtherCall.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlineUnderSamConversion.kt")
         public void testStopInInlineUnderSamConversion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineUnderSamConversion.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlineUnderSamConversion.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlinedInSpecialNamedFun.kt")
         public void testStopInInlinedInSpecialNamedFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlinedInSpecialNamedFun.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlinedInSpecialNamedFun.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlinedInSpecialNamedFunWithGet.kt")
         public void testStopInInlinedInSpecialNamedFunWithGet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlinedInSpecialNamedFunWithGet.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlinedInSpecialNamedFunWithGet.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInInlinedLambdaInSuspendFunctionWithSuspendPointsInObjectLiteral.kt")
         public void testStopInInlinedLambdaInSuspendFunctionWithSuspendPointsInObjectLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlinedLambdaInSuspendFunctionWithSuspendPointsInObjectLiteral.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInInlinedLambdaInSuspendFunctionWithSuspendPointsInObjectLiteral.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInLabdaOfCrossinlineCalledInAnonymous.kt")
         public void testStopInLabdaOfCrossinlineCalledInAnonymous() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLabdaOfCrossinlineCalledInAnonymous.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLabdaOfCrossinlineCalledInAnonymous.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInLambdaInInlinedCallWithCrossInline.kt")
         public void testStopInLambdaInInlinedCallWithCrossInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLambdaInInlinedCallWithCrossInline.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLambdaInInlinedCallWithCrossInline.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInLambdaInInlinedCallWithCrossInlineDex.kt")
         public void testStopInLambdaInInlinedCallWithCrossInlineDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLambdaInInlinedCallWithCrossInlineDex.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLambdaInInlinedCallWithCrossInlineDex.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInLambdaInlineCallLambda.kt")
         public void testStopInLambdaInlineCallLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLambdaInlineCallLambda.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLambdaInlineCallLambda.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInLocalFunInSecondaryConstructor.kt")
         public void testStopInLocalFunInSecondaryConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLocalFunInSecondaryConstructor.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLocalFunInSecondaryConstructor.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInLocalFunInlineCallLambda.kt")
         public void testStopInLocalFunInlineCallLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLocalFunInlineCallLambda.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInLocalFunInlineCallLambda.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInNamelessFunInInlineCall.kt")
         public void testStopInNamelessFunInInlineCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInNamelessFunInInlineCall.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInNamelessFunInInlineCall.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInNonInlinedLambdaInInlineCallWithClosure.kt")
         public void testStopInNonInlinedLambdaInInlineCallWithClosure() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInNonInlinedLambdaInInlineCallWithClosure.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInNonInlinedLambdaInInlineCallWithClosure.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInNonInlinedLambdaInInlineCallWithoutClosure.kt")
         public void testStopInNonInlinedLambdaInInlineCallWithoutClosure() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInNonInlinedLambdaInInlineCallWithoutClosure.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInNonInlinedLambdaInInlineCallWithoutClosure.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInObjectLiteralInInlineCallNoClosure.kt")
         public void testStopInObjectLiteralInInlineCallNoClosure() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInObjectLiteralInInlineCallNoClosure.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInObjectLiteralInInlineCallNoClosure.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInObjectLiteralInInlineCallWithClosure.kt")
         public void testStopInObjectLiteralInInlineCallWithClosure() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInObjectLiteralInInlineCallWithClosure.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInObjectLiteralInInlineCallWithClosure.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInObjectLiteralInInlineCallWithClosureInAnonymous.kt")
         public void testStopInObjectLiteralInInlineCallWithClosureInAnonymous() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInObjectLiteralInInlineCallWithClosureInAnonymous.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInObjectLiteralInInlineCallWithClosureInAnonymous.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInSuspendFunctionWithSuspendPoints.kt")
         public void testStopInSuspendFunctionWithSuspendPoints() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInSuspendFunctionWithSuspendPoints.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInSuspendFunctionWithSuspendPoints.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInSuspendFunctionWithSuspendPointsInAnonymousObject.kt")
         public void testStopInSuspendFunctionWithSuspendPointsInAnonymousObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInSuspendFunctionWithSuspendPointsInAnonymousObject.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInSuspendFunctionWithSuspendPointsInAnonymousObject.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInSuspendFunctionWithSuspendPointsInObjectLiteralInInlineCallWithClosure.kt")
         public void testStopInSuspendFunctionWithSuspendPointsInObjectLiteralInInlineCallWithClosure() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInSuspendFunctionWithSuspendPointsInObjectLiteralInInlineCallWithClosure.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInSuspendFunctionWithSuspendPointsInObjectLiteralInInlineCallWithClosure.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInSuspendFunctionWithoutSuspendPoints.kt")
         public void testStopInSuspendFunctionWithoutSuspendPoints() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInSuspendFunctionWithoutSuspendPoints.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInSuspendFunctionWithoutSuspendPoints.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInWrongClass.kt")
         public void testStopInWrongClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInWrongClass.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInWrongClass.kt", this::doStepOverTest);
         }
 
         @TestMetadata("stopInlineCallInLocalFunInSecondaryConstructor.kt")
         public void testStopInlineCallInLocalFunInSecondaryConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInlineCallInLocalFunInSecondaryConstructor.kt");
-            doStepOverTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOver/stopInlineCallInLocalFunInSecondaryConstructor.kt", this::doStepOverTest);
         }
     }
 
@@ -1064,8 +899,7 @@ public class KotlinSteppingTestGenerated extends AbstractKotlinSteppingTest {
 
         @TestMetadata("sofSuspendableCallInFun.kt")
         public void testSofSuspendableCallInFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/stepOverForce/sofSuspendableCallInFun.kt");
-            doStepOverForceTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/stepOverForce/sofSuspendableCallInFun.kt", this::doStepOverForceTest);
         }
     }
 
@@ -1079,74 +913,62 @@ public class KotlinSteppingTestGenerated extends AbstractKotlinSteppingTest {
 
         @TestMetadata("checkNotNull.kt")
         public void testCheckNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/checkNotNull.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/checkNotNull.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("doNotSkipClassloader.kt")
         public void testDoNotSkipClassloader() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/doNotSkipClassloader.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/doNotSkipClassloader.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("doNotSkipConstructors.kt")
         public void testDoNotSkipConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/doNotSkipConstructors.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/doNotSkipConstructors.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("npe.kt")
         public void testNpe() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/npe.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/npe.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("reflectKClass.kt")
         public void testReflectKClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/reflectKClass.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/reflectKClass.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("skipClassloader.kt")
         public void testSkipClassloader() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/skipClassloader.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/skipClassloader.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("skipConstructors.kt")
         public void testSkipConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/skipConstructors.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/skipConstructors.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("stdlibStep.kt")
         public void testStdlibStep() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/stdlibStep.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/stdlibStep.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("stepIntoMultiFileFacade.kt")
         public void testStepIntoMultiFileFacade() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/stepIntoMultiFileFacade.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/stepIntoMultiFileFacade.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("stepIntoSpecificKotlinClasses.kt")
         public void testStepIntoSpecificKotlinClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/stepIntoSpecificKotlinClasses.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/stepIntoSpecificKotlinClasses.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("stepIntoStdlib.kt")
         public void testStepIntoStdlib() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/stepIntoStdlib.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/stepIntoStdlib.kt", this::doStepIntoTest);
         }
 
         @TestMetadata("stepIntoStdlibFacadeClass.kt")
         public void testStepIntoStdlibFacadeClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/filters/stepIntoStdlibFacadeClass.kt");
-            doStepIntoTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/filters/stepIntoStdlibFacadeClass.kt", this::doStepIntoTest);
         }
     }
 
@@ -1160,254 +982,212 @@ public class KotlinSteppingTestGenerated extends AbstractKotlinSteppingTest {
 
         @TestMetadata("anonymousFunAsParamDefaultValue.kt")
         public void testAnonymousFunAsParamDefaultValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/anonymousFunAsParamDefaultValue.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/anonymousFunAsParamDefaultValue.kt", this::doCustomTest);
         }
 
         @TestMetadata("coroutine.kt")
         public void testCoroutine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/coroutine.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/coroutine.kt", this::doCustomTest);
         }
 
         @TestMetadata("crossinlineLiteral.kt")
         public void testCrossinlineLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/crossinlineLiteral.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/crossinlineLiteral.kt", this::doCustomTest);
         }
 
         @TestMetadata("finallyBlock.kt")
         public void testFinallyBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/finallyBlock.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/finallyBlock.kt", this::doCustomTest);
         }
 
         @TestMetadata("funLiteral.kt")
         public void testFunLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/funLiteral.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/funLiteral.kt", this::doCustomTest);
         }
 
         @TestMetadata("functionCallStoredToVariable.kt")
         public void testFunctionCallStoredToVariable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/functionCallStoredToVariable.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/functionCallStoredToVariable.kt", this::doCustomTest);
         }
 
         @TestMetadata("fwAbstractProperty.kt")
         public void testFwAbstractProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/fwAbstractProperty.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/fwAbstractProperty.kt", this::doCustomTest);
         }
 
         @TestMetadata("fwInitializer.kt")
         public void testFwInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/fwInitializer.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/fwInitializer.kt", this::doCustomTest);
         }
 
         @TestMetadata("fwPropertyInInterface.kt")
         public void testFwPropertyInInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/fwPropertyInInterface.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/fwPropertyInInterface.kt", this::doCustomTest);
         }
 
         @TestMetadata("inlineInObject.kt")
         public void testInlineInObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/inlineInObject.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/inlineInObject.kt", this::doCustomTest);
         }
 
         @TestMetadata("inlineInObjectSameFileDex.kt")
         public void testInlineInObjectSameFileDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/inlineInObjectSameFileDex.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/inlineInObjectSameFileDex.kt", this::doCustomTest);
         }
 
         @TestMetadata("inlineOnlyLambdas.kt")
         public void testInlineOnlyLambdas() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/inlineOnlyLambdas.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/inlineOnlyLambdas.kt", this::doCustomTest);
         }
 
         @TestMetadata("inlineOnlyLambdasStepping.kt")
         public void testInlineOnlyLambdasStepping() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/inlineOnlyLambdasStepping.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/inlineOnlyLambdasStepping.kt", this::doCustomTest);
         }
 
         @TestMetadata("inlineProperties.kt")
         public void testInlineProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/inlineProperties.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/inlineProperties.kt", this::doCustomTest);
         }
 
         @TestMetadata("inlinePropertyAccessors.kt")
         public void testInlinePropertyAccessors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/inlinePropertyAccessors.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/inlinePropertyAccessors.kt", this::doCustomTest);
         }
 
         @TestMetadata("kt15823.kt")
         public void testKt15823() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/kt15823.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/kt15823.kt", this::doCustomTest);
         }
 
         @TestMetadata("kt17144.kt")
         public void testKt17144() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/kt17144.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/kt17144.kt", this::doCustomTest);
         }
 
         @TestMetadata("kt17295.kt")
         public void testKt17295() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/kt17295.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/kt17295.kt", this::doCustomTest);
         }
 
         @TestMetadata("manyFilesWithInlineCalls1Dex.kt")
         public void testManyFilesWithInlineCalls1Dex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/manyFilesWithInlineCalls1Dex.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/manyFilesWithInlineCalls1Dex.kt", this::doCustomTest);
         }
 
         @TestMetadata("manyFilesWithInlineCalls2Dex.kt")
         public void testManyFilesWithInlineCalls2Dex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/manyFilesWithInlineCalls2Dex.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/manyFilesWithInlineCalls2Dex.kt", this::doCustomTest);
         }
 
         @TestMetadata("severalFunLiterals.kt")
         public void testSeveralFunLiterals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/severalFunLiterals.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/severalFunLiterals.kt", this::doCustomTest);
         }
 
         @TestMetadata("severalFunLiteralsInClass.kt")
         public void testSeveralFunLiteralsInClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/severalFunLiteralsInClass.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/severalFunLiteralsInClass.kt", this::doCustomTest);
         }
 
         @TestMetadata("severalInlineCallsFromOtherFileDex.kt")
         public void testSeveralInlineCallsFromOtherFileDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/severalInlineCallsFromOtherFileDex.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/severalInlineCallsFromOtherFileDex.kt", this::doCustomTest);
         }
 
         @TestMetadata("severalInlineFunctionsInOneFileDex.kt")
         public void testSeveralInlineFunctionsInOneFileDex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/severalInlineFunctionsInOneFileDex.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/severalInlineFunctionsInOneFileDex.kt", this::doCustomTest);
         }
 
         @TestMetadata("simpleConditionalBreakpoint.kt")
         public void testSimpleConditionalBreakpoint() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/simpleConditionalBreakpoint.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/simpleConditionalBreakpoint.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoComponentFunction.kt")
         public void testSmartStepIntoComponentFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoComponentFunction.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoComponentFunction.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoConstructor.kt")
         public void testSmartStepIntoConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoConstructor.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoConstructor.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoFunWithDefaultArgs.kt")
         public void testSmartStepIntoFunWithDefaultArgs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoFunWithDefaultArgs.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoFunWithDefaultArgs.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoInlinedFunLiteral.kt")
         public void testSmartStepIntoInlinedFunLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInlinedFunLiteral.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInlinedFunLiteral.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoInlinedFunctionalExpression.kt")
         public void testSmartStepIntoInlinedFunctionalExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInlinedFunctionalExpression.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInlinedFunctionalExpression.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoInsideLambda.kt")
         public void testSmartStepIntoInsideLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInsideLambda.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInsideLambda.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoInterfaceFun.kt")
         public void testSmartStepIntoInterfaceFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInterfaceFun.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInterfaceFun.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoInterfaceImpl.kt")
         public void testSmartStepIntoInterfaceImpl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInterfaceImpl.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoInterfaceImpl.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoStoredLambda.kt")
         public void testSmartStepIntoStoredLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoStoredLambda.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoStoredLambda.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoSubClass.kt")
         public void testSmartStepIntoSubClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoSubClass.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoSubClass.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoToLambdaParameter.kt")
         public void testSmartStepIntoToLambdaParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoToLambdaParameter.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoToLambdaParameter.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoWithDelegates.kt")
         public void testSmartStepIntoWithDelegates() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoWithDelegates.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoWithDelegates.kt", this::doCustomTest);
         }
 
         @TestMetadata("smartStepIntoWithOverrides.kt")
         public void testSmartStepIntoWithOverrides() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoWithOverrides.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/smartStepIntoWithOverrides.kt", this::doCustomTest);
         }
 
         @TestMetadata("stepIntoStdlibInlineFun2step.kt")
         public void testStepIntoStdlibInlineFun2step() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/stepIntoStdlibInlineFun2step.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/stepIntoStdlibInlineFun2step.kt", this::doCustomTest);
         }
 
         @TestMetadata("stepOutInlineFunctionStdlib.kt")
         public void testStepOutInlineFunctionStdlib() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/stepOutInlineFunctionStdlib.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/stepOutInlineFunctionStdlib.kt", this::doCustomTest);
         }
 
         @TestMetadata("stepOverNonLocalReturnInLambda.kt")
         public void testStepOverNonLocalReturnInLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/stepOverNonLocalReturnInLambda.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/stepOverNonLocalReturnInLambda.kt", this::doCustomTest);
         }
 
         @TestMetadata("syntheticProvider.kt")
         public void testSyntheticProvider() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/stepping/custom/syntheticProvider.kt");
-            doCustomTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/stepping/custom/syntheticProvider.kt", this::doCustomTest);
         }
     }
 }

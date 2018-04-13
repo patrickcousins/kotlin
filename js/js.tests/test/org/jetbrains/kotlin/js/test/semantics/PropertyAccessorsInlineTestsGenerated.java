@@ -27,67 +27,56 @@ public class PropertyAccessorsInlineTestsGenerated extends AbstractPropertyAcces
 
     @TestMetadata("augAssignmentAndInc.kt")
     public void testAugAssignmentAndInc() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/augAssignmentAndInc.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndInc.kt", this::doTest);
     }
 
     @TestMetadata("augAssignmentAndIncInClass.kt")
     public void testAugAssignmentAndIncInClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClass.kt", this::doTest);
     }
 
     @TestMetadata("augAssignmentAndIncInClassViaConvention.kt")
     public void testAugAssignmentAndIncInClassViaConvention() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClassViaConvention.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncInClassViaConvention.kt", this::doTest);
     }
 
     @TestMetadata("augAssignmentAndIncOnExtension.kt")
     public void testAugAssignmentAndIncOnExtension() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtension.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtension.kt", this::doTest);
     }
 
     @TestMetadata("augAssignmentAndIncOnExtensionInClass.kt")
     public void testAugAssignmentAndIncOnExtensionInClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtensionInClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncOnExtensionInClass.kt", this::doTest);
     }
 
     @TestMetadata("augAssignmentAndIncViaConvention.kt")
     public void testAugAssignmentAndIncViaConvention() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/augAssignmentAndIncViaConvention.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/augAssignmentAndIncViaConvention.kt", this::doTest);
     }
 
     @TestMetadata("property.kt")
     public void testProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/property.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/property.kt", this::doTest);
     }
 
     @TestMetadata("reifiedVal.kt")
     public void testReifiedVal() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/reifiedVal.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/reifiedVal.kt", this::doTest);
     }
 
     @TestMetadata("reifiedVar.kt")
     public void testReifiedVar() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/reifiedVar.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/reifiedVar.kt", this::doTest);
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/simple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/simple.kt", this::doTest);
     }
 
     @TestMetadata("simpleExtension.kt")
     public void testSimpleExtension() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/property/simpleExtension.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/property/simpleExtension.kt", this::doTest);
     }
 }

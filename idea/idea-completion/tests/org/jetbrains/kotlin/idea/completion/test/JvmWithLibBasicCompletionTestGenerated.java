@@ -27,49 +27,41 @@ public class JvmWithLibBasicCompletionTestGenerated extends AbstractJvmWithLibBa
 
     @TestMetadata("NamedArgumentsJava.kt")
     public void testNamedArgumentsJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/withLib/NamedArgumentsJava.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/NamedArgumentsJava.kt", this::doTest);
     }
 
     @TestMetadata("NamedArgumentsKotlin.kt")
     public void testNamedArgumentsKotlin() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/withLib/NamedArgumentsKotlin.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/NamedArgumentsKotlin.kt", this::doTest);
     }
 
     @TestMetadata("SamAdapter.kt")
     public void testSamAdapter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/withLib/SamAdapter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/SamAdapter.kt", this::doTest);
     }
 
     @TestMetadata("SamAdapterAndGenerics.kt")
     public void testSamAdapterAndGenerics() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/withLib/SamAdapterAndGenerics.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/SamAdapterAndGenerics.kt", this::doTest);
     }
 
     @TestMetadata("TopLevelNonImportedExtFun.kt")
     public void testTopLevelNonImportedExtFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedExtFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedExtFun.kt", this::doTest);
     }
 
     @TestMetadata("TopLevelNonImportedExtProp.kt")
     public void testTopLevelNonImportedExtProp() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedExtProp.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedExtProp.kt", this::doTest);
     }
 
     @TestMetadata("TopLevelNonImportedFun.kt")
     public void testTopLevelNonImportedFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedFun.kt", this::doTest);
     }
 
     @TestMetadata("TopLevelNonImportedProperty.kt")
     public void testTopLevelNonImportedProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/withLib/TopLevelNonImportedProperty.kt", this::doTest);
     }
 }

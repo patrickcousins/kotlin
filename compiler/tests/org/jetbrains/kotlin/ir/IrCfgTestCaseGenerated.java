@@ -27,38 +27,32 @@ public class IrCfgTestCaseGenerated extends AbstractIrCfgTestCase {
 
     @TestMetadata("expressionFun.kt")
     public void testExpressionFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/expressionFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/expressionFun.kt", this::doTest);
     }
 
     @TestMetadata("expressionUnit.kt")
     public void testExpressionUnit() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/expressionUnit.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/expressionUnit.kt", this::doTest);
     }
 
     @TestMetadata("returnUnit.kt")
     public void testReturnUnit() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/returnUnit.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/returnUnit.kt", this::doTest);
     }
 
     @TestMetadata("sequentialFun.kt")
     public void testSequentialFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/sequentialFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/sequentialFun.kt", this::doTest);
     }
 
     @TestMetadata("simpleFun.kt")
     public void testSimpleFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/simpleFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/simpleFun.kt", this::doTest);
     }
 
     @TestMetadata("simpleReturn.kt")
     public void testSimpleReturn() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/simpleReturn.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/ir/irCfg/simpleReturn.kt", this::doTest);
     }
 
     @TestMetadata("compiler/testData/ir/irCfg/loop")
@@ -71,20 +65,17 @@ public class IrCfgTestCaseGenerated extends AbstractIrCfgTestCase {
 
         @TestMetadata("digitCount.kt")
         public void testDigitCount() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/loop/digitCount.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/loop/digitCount.kt", this::doTest);
         }
 
         @TestMetadata("factorial.kt")
         public void testFactorial() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/loop/factorial.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/loop/factorial.kt", this::doTest);
         }
 
         @TestMetadata("isPerfect.kt")
         public void testIsPerfect() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/loop/isPerfect.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/loop/isPerfect.kt", this::doTest);
         }
     }
 
@@ -98,32 +89,27 @@ public class IrCfgTestCaseGenerated extends AbstractIrCfgTestCase {
 
         @TestMetadata("cascadeIf.kt")
         public void testCascadeIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/when/cascadeIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/cascadeIf.kt", this::doTest);
         }
 
         @TestMetadata("emptyWhen.kt")
         public void testEmptyWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/when/emptyWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/emptyWhen.kt", this::doTest);
         }
 
         @TestMetadata("expressionIf.kt")
         public void testExpressionIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/when/expressionIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/expressionIf.kt", this::doTest);
         }
 
         @TestMetadata("ifChain.kt")
         public void testIfChain() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/when/ifChain.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/ifChain.kt", this::doTest);
         }
 
         @TestMetadata("whenReturn.kt")
         public void testWhenReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/ir/irCfg/when/whenReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/ir/irCfg/when/whenReturn.kt", this::doTest);
         }
     }
 }

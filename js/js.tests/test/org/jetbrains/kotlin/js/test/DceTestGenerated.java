@@ -27,37 +27,31 @@ public class DceTestGenerated extends AbstractDceTest {
 
     @TestMetadata("amd.js")
     public void testAmd() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("js/js.translator/testData/dce/amd.js");
-        doTest(fileName);
+        KotlinTestUtils.runTest("js/js.translator/testData/dce/amd.js", this::doTest);
     }
 
     @TestMetadata("arrayAccess.js")
     public void testArrayAccess() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("js/js.translator/testData/dce/arrayAccess.js");
-        doTest(fileName);
+        KotlinTestUtils.runTest("js/js.translator/testData/dce/arrayAccess.js", this::doTest);
     }
 
     @TestMetadata("commonjs.js")
     public void testCommonjs() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("js/js.translator/testData/dce/commonjs.js");
-        doTest(fileName);
+        KotlinTestUtils.runTest("js/js.translator/testData/dce/commonjs.js", this::doTest);
     }
 
     @TestMetadata("cycle.js")
     public void testCycle() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("js/js.translator/testData/dce/cycle.js");
-        doTest(fileName);
+        KotlinTestUtils.runTest("js/js.translator/testData/dce/cycle.js", this::doTest);
     }
 
     @TestMetadata("localVarAndFunction.js")
     public void testLocalVarAndFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("js/js.translator/testData/dce/localVarAndFunction.js");
-        doTest(fileName);
+        KotlinTestUtils.runTest("js/js.translator/testData/dce/localVarAndFunction.js", this::doTest);
     }
 
     @TestMetadata("typeOf.js")
     public void testTypeOf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("js/js.translator/testData/dce/typeOf.js");
-        doTest(fileName);
+        KotlinTestUtils.runTest("js/js.translator/testData/dce/typeOf.js", this::doTest);
     }
 }

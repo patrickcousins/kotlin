@@ -27,61 +27,51 @@ public class AnnotatedMembersSearchTestGenerated extends AbstractAnnotatedMember
 
     @TestMetadata("annotationAliased.kt")
     public void testAnnotationAliased() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/annotationAliased.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/annotationAliased.kt", this::doTest);
     }
 
     @TestMetadata("testAmbiguousNestedNonAnnotationClass.kt")
     public void testTestAmbiguousNestedNonAnnotationClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/testAmbiguousNestedNonAnnotationClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/testAmbiguousNestedNonAnnotationClass.kt", this::doTest);
     }
 
     @TestMetadata("testAmbiguousNestedPrivateAnnotationClass.kt")
     public void testTestAmbiguousNestedPrivateAnnotationClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/testAmbiguousNestedPrivateAnnotationClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/testAmbiguousNestedPrivateAnnotationClass.kt", this::doTest);
     }
 
     @TestMetadata("testAnnotationsOnClass.kt")
     public void testTestAnnotationsOnClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/testAnnotationsOnClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/testAnnotationsOnClass.kt", this::doTest);
     }
 
     @TestMetadata("testAnnotationsOnFunction.kt")
     public void testTestAnnotationsOnFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/testAnnotationsOnFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/testAnnotationsOnFunction.kt", this::doTest);
     }
 
     @TestMetadata("testAnnotationsWithParameters.kt")
     public void testTestAnnotationsWithParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/testAnnotationsWithParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/testAnnotationsWithParameters.kt", this::doTest);
     }
 
     @TestMetadata("testDefaultImport.kt")
     public void testTestDefaultImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/testDefaultImport.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/testDefaultImport.kt", this::doTest);
     }
 
     @TestMetadata("testNestedClassAsAnnotation.kt")
     public void testTestNestedClassAsAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/testNestedClassAsAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/testNestedClassAsAnnotation.kt", this::doTest);
     }
 
     @TestMetadata("testNestedPrivateAnnotationClass.kt")
     public void testTestNestedPrivateAnnotationClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/testNestedPrivateAnnotationClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/testNestedPrivateAnnotationClass.kt", this::doTest);
     }
 
     @TestMetadata("testTypeAlias.kt")
     public void testTestTypeAlias() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/annotations/testTypeAlias.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/annotations/testTypeAlias.kt", this::doTest);
     }
 }

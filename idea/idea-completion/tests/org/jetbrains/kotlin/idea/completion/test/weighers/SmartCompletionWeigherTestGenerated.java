@@ -27,223 +27,186 @@ public class SmartCompletionWeigherTestGenerated extends AbstractSmartCompletion
 
     @TestMetadata("BooleanExpected.kt")
     public void testBooleanExpected() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/BooleanExpected.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/BooleanExpected.kt", this::doTest);
     }
 
     @TestMetadata("CallableReference_NothingLast.kt")
     public void testCallableReference_NothingLast() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/CallableReference_NothingLast.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/CallableReference_NothingLast.kt", this::doTest);
     }
 
     @TestMetadata("CallableReference_NothingLast2.kt")
     public void testCallableReference_NothingLast2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/CallableReference_NothingLast2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/CallableReference_NothingLast2.kt", this::doTest);
     }
 
     @TestMetadata("FunctionExpected.kt")
     public void testFunctionExpected() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/FunctionExpected.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/FunctionExpected.kt", this::doTest);
     }
 
     @TestMetadata("It.kt")
     public void testIt() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/It.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/It.kt", this::doTest);
     }
 
     @TestMetadata("MultipleArgsItem.kt")
     public void testMultipleArgsItem() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/MultipleArgsItem.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/MultipleArgsItem.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarity1.kt")
     public void testNameSimilarity1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarity1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarity1.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarity2.kt")
     public void testNameSimilarity2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarity2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarity2.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarity3.kt")
     public void testNameSimilarity3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarity3.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarity3.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityAndCompiledParameters.kt")
     public void testNameSimilarityAndCompiledParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityAndCompiledParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityAndCompiledParameters.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForAssignment.kt")
     public void testNameSimilarityForAssignment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForAssignment.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForAssignment.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForBlock.kt")
     public void testNameSimilarityForBlock() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForBlock.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForBlock.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForElse.kt")
     public void testNameSimilarityForElse() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForElse.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForElse.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForElvis.kt")
     public void testNameSimilarityForElvis() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForElvis.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForElvis.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForEq1.kt")
     public void testNameSimilarityForEq1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForEq1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForEq1.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForEq2.kt")
     public void testNameSimilarityForEq2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForEq2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForEq2.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForEq3.kt")
     public void testNameSimilarityForEq3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForEq3.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForEq3.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForEq4.kt")
     public void testNameSimilarityForEq4() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForEq4.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForEq4.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForExpressionBody.kt")
     public void testNameSimilarityForExpressionBody() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForExpressionBody.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForExpressionBody.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForGetterExpressionBody.kt")
     public void testNameSimilarityForGetterExpressionBody() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForGetterExpressionBody.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForGetterExpressionBody.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForGetterReturn.kt")
     public void testNameSimilarityForGetterReturn() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForGetterReturn.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForGetterReturn.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForInitializer.kt")
     public void testNameSimilarityForInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForInitializer.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForReturn.kt")
     public void testNameSimilarityForReturn() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForReturn.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForReturn.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForThen.kt")
     public void testNameSimilarityForThen() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForThen.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForThen.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityForVararg.kt")
     public void testNameSimilarityForVararg() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityForVararg.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityForVararg.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilarityInImplicitlyTypedVarInitializer.kt")
     public void testNameSimilarityInImplicitlyTypedVarInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilarityInImplicitlyTypedVarInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilarityInImplicitlyTypedVarInitializer.kt", this::doTest);
     }
 
     @TestMetadata("NameSimilaritySorterPlacement.kt")
     public void testNameSimilaritySorterPlacement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NameSimilaritySorterPlacement.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NameSimilaritySorterPlacement.kt", this::doTest);
     }
 
     @TestMetadata("NoExpectedType.kt")
     public void testNoExpectedType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NoExpectedType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NoExpectedType.kt", this::doTest);
     }
 
     @TestMetadata("NoNameSimilarityForQualifier.kt")
     public void testNoNameSimilarityForQualifier() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NoNameSimilarityForQualifier.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NoNameSimilarityForQualifier.kt", this::doTest);
     }
 
     @TestMetadata("NullableExpected.kt")
     public void testNullableExpected() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/NullableExpected.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/NullableExpected.kt", this::doTest);
     }
 
     @TestMetadata("ReturnValue1.kt")
     public void testReturnValue1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/ReturnValue1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/ReturnValue1.kt", this::doTest);
     }
 
     @TestMetadata("ReturnValue2.kt")
     public void testReturnValue2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/ReturnValue2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/ReturnValue2.kt", this::doTest);
     }
 
     @TestMetadata("SmartPriority.kt")
     public void testSmartPriority() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/SmartPriority.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/SmartPriority.kt", this::doTest);
     }
 
     @TestMetadata("SmartPriority2.kt")
     public void testSmartPriority2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/SmartPriority2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/SmartPriority2.kt", this::doTest);
     }
 
     @TestMetadata("SmartPriority3.kt")
     public void testSmartPriority3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/SmartPriority3.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/SmartPriority3.kt", this::doTest);
     }
 
     @TestMetadata("StaticMemberAndPrefix.kt")
     public void testStaticMemberAndPrefix() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/StaticMemberAndPrefix.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/StaticMemberAndPrefix.kt", this::doTest);
     }
 
     @TestMetadata("SuperMembers.kt")
     public void testSuperMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/smart/SuperMembers.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/smart/SuperMembers.kt", this::doTest);
     }
 }

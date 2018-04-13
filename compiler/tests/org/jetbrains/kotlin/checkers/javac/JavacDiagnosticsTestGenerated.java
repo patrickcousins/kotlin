@@ -29,8 +29,7 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
         @TestMetadata("Annotations.kt")
         public void testAnnotations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/Annotations.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/Annotations.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/javac/diagnostics/tests/imports")
@@ -43,104 +42,87 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("AllUnderImportsAmbiguity.kt")
             public void testAllUnderImportsAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/AllUnderImportsAmbiguity.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/AllUnderImportsAmbiguity.kt", this::doTest);
             }
 
             @TestMetadata("AllUnderImportsLessPriority.kt")
             public void testAllUnderImportsLessPriority() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/AllUnderImportsLessPriority.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/AllUnderImportsLessPriority.kt", this::doTest);
             }
 
             @TestMetadata("ClassImportsConflicting.kt")
             public void testClassImportsConflicting() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ClassImportsConflicting.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ClassImportsConflicting.kt", this::doTest);
             }
 
             @TestMetadata("CurrentPackageAndAllUnderImport.kt")
             public void testCurrentPackageAndAllUnderImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndAllUnderImport.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndAllUnderImport.kt", this::doTest);
             }
 
             @TestMetadata("CurrentPackageAndExplicitImport.kt")
             public void testCurrentPackageAndExplicitImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndExplicitImport.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndExplicitImport.kt", this::doTest);
             }
 
             @TestMetadata("CurrentPackageAndExplicitNestedImport.kt")
             public void testCurrentPackageAndExplicitNestedImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndExplicitNestedImport.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndExplicitNestedImport.kt", this::doTest);
             }
 
             @TestMetadata("CurrentPackageAndNestedAsteriskImport.kt")
             public void testCurrentPackageAndNestedAsteriskImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndNestedAsteriskImport.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndNestedAsteriskImport.kt", this::doTest);
             }
 
             @TestMetadata("ImportGenericVsPackage.kt")
             public void testImportGenericVsPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ImportGenericVsPackage.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ImportGenericVsPackage.kt", this::doTest);
             }
 
             @TestMetadata("ImportProtectedClass.kt")
             public void testImportProtectedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ImportProtectedClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ImportProtectedClass.kt", this::doTest);
             }
 
             @TestMetadata("ImportTwoTimes.kt")
             public void testImportTwoTimes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ImportTwoTimes.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ImportTwoTimes.kt", this::doTest);
             }
 
             @TestMetadata("ImportTwoTimesStar.kt")
             public void testImportTwoTimesStar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ImportTwoTimesStar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ImportTwoTimesStar.kt", this::doTest);
             }
 
             @TestMetadata("NestedAndTopLevelClassClash.kt")
             public void testNestedAndTopLevelClassClash() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/NestedAndTopLevelClassClash.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/NestedAndTopLevelClassClash.kt", this::doTest);
             }
 
             @TestMetadata("NestedClassClash.kt")
             public void testNestedClassClash() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/NestedClassClash.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/NestedClassClash.kt", this::doTest);
             }
 
             @TestMetadata("PackageExplicitAndStartImport.kt")
             public void testPackageExplicitAndStartImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/PackageExplicitAndStartImport.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/PackageExplicitAndStartImport.kt", this::doTest);
             }
 
             @TestMetadata("PackagePrivateAndPublicNested.kt")
             public void testPackagePrivateAndPublicNested() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/PackagePrivateAndPublicNested.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/PackagePrivateAndPublicNested.kt", this::doTest);
             }
 
             @TestMetadata("TopLevelClassVsPackage.kt")
             public void testTopLevelClassVsPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/TopLevelClassVsPackage.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/TopLevelClassVsPackage.kt", this::doTest);
             }
 
             @TestMetadata("TopLevelClassVsPackage2.kt")
             public void testTopLevelClassVsPackage2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/TopLevelClassVsPackage2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/TopLevelClassVsPackage2.kt", this::doTest);
             }
         }
 
@@ -154,116 +136,97 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("IheritanceOfInner.kt")
             public void testIheritanceOfInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/IheritanceOfInner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/IheritanceOfInner.kt", this::doTest);
             }
 
             @TestMetadata("InheritanceAmbiguity.kt")
             public void testInheritanceAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity.kt", this::doTest);
             }
 
             @TestMetadata("InheritanceAmbiguity2.kt")
             public void testInheritanceAmbiguity2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity2.kt", this::doTest);
             }
 
             @TestMetadata("InheritanceAmbiguity3.kt")
             public void testInheritanceAmbiguity3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity3.kt", this::doTest);
             }
 
             @TestMetadata("InheritanceAmbiguity4.kt")
             public void testInheritanceAmbiguity4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity4.kt", this::doTest);
             }
 
             @TestMetadata("InheritanceWithKotlin.kt")
             public void testInheritanceWithKotlin() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceWithKotlin.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceWithKotlin.kt", this::doTest);
             }
 
             @TestMetadata("InheritanceWithKotlinClasses.kt")
             public void testInheritanceWithKotlinClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceWithKotlinClasses.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceWithKotlinClasses.kt", this::doTest);
             }
 
             @TestMetadata("InheritedInner.kt")
             public void testInheritedInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInner.kt", this::doTest);
             }
 
             @TestMetadata("InheritedInner2.kt")
             public void testInheritedInner2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInner2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInner2.kt", this::doTest);
             }
 
             @TestMetadata("InheritedInnerAndSupertypeWithSameName.kt")
             public void testInheritedInnerAndSupertypeWithSameName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInnerAndSupertypeWithSameName.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInnerAndSupertypeWithSameName.kt", this::doTest);
             }
 
             @TestMetadata("InheritedInnerUsageInInner.kt")
             public void testInheritedInnerUsageInInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInnerUsageInInner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInnerUsageInInner.kt", this::doTest);
             }
 
             @TestMetadata("InheritedKotlinInner.kt")
             public void testInheritedKotlinInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedKotlinInner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedKotlinInner.kt", this::doTest);
             }
 
             @TestMetadata("InnerAndInheritedInner.kt")
             public void testInnerAndInheritedInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InnerAndInheritedInner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InnerAndInheritedInner.kt", this::doTest);
             }
 
             @TestMetadata("ManyInheritedClasses.kt")
             public void testManyInheritedClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/ManyInheritedClasses.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/ManyInheritedClasses.kt", this::doTest);
             }
 
             @TestMetadata("NoAmbiguity.kt")
             public void testNoAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/NoAmbiguity.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/NoAmbiguity.kt", this::doTest);
             }
 
             @TestMetadata("NoAmbiguity2.kt")
             public void testNoAmbiguity2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/NoAmbiguity2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/NoAmbiguity2.kt", this::doTest);
             }
 
             @TestMetadata("SameInnersInSupertypeAndSupertypesSupertype.kt")
             public void testSameInnersInSupertypeAndSupertypesSupertype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/SameInnersInSupertypeAndSupertypesSupertype.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/SameInnersInSupertypeAndSupertypesSupertype.kt", this::doTest);
             }
 
             @TestMetadata("SuperTypeWithSameInner.kt")
             public void testSuperTypeWithSameInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/SuperTypeWithSameInner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/SuperTypeWithSameInner.kt", this::doTest);
             }
 
             @TestMetadata("SupertypeInnerAndTypeParameterWithSameNames.kt")
             public void testSupertypeInnerAndTypeParameterWithSameNames() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/SupertypeInnerAndTypeParameterWithSameNames.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/SupertypeInnerAndTypeParameterWithSameNames.kt", this::doTest);
             }
         }
 
@@ -277,44 +240,37 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("ComplexCase.kt")
             public void testComplexCase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/ComplexCase.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/ComplexCase.kt", this::doTest);
             }
 
             @TestMetadata("ComplexCase2.kt")
             public void testComplexCase2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/ComplexCase2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/ComplexCase2.kt", this::doTest);
             }
 
             @TestMetadata("CurrentPackageAndInner.kt")
             public void testCurrentPackageAndInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/CurrentPackageAndInner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/CurrentPackageAndInner.kt", this::doTest);
             }
 
             @TestMetadata("ImportThriceNestedClass.kt")
             public void testImportThriceNestedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/ImportThriceNestedClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/ImportThriceNestedClass.kt", this::doTest);
             }
 
             @TestMetadata("InnerInInner.kt")
             public void testInnerInInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/InnerInInner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/InnerInInner.kt", this::doTest);
             }
 
             @TestMetadata("Nested.kt")
             public void testNested() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/Nested.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/Nested.kt", this::doTest);
             }
 
             @TestMetadata("ThriceNestedClass.kt")
             public void testThriceNestedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/ThriceNestedClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/ThriceNestedClass.kt", this::doTest);
             }
         }
 
@@ -328,32 +284,27 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("GenericClassVsPackage.kt")
             public void testGenericClassVsPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/GenericClassVsPackage.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/GenericClassVsPackage.kt", this::doTest);
             }
 
             @TestMetadata("PackageVsClass.kt")
             public void testPackageVsClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsClass.kt", this::doTest);
             }
 
             @TestMetadata("PackageVsClass2.kt")
             public void testPackageVsClass2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsClass2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsClass2.kt", this::doTest);
             }
 
             @TestMetadata("PackageVsRootClass.kt")
             public void testPackageVsRootClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsRootClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsRootClass.kt", this::doTest);
             }
 
             @TestMetadata("visibleClassVsQualifiedClass.kt")
             public void testVisibleClassVsQualifiedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/visibleClassVsQualifiedClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/visibleClassVsQualifiedClass.kt", this::doTest);
             }
         }
 
@@ -367,44 +318,37 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("Clash.kt")
             public void testClash() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/Clash.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/Clash.kt", this::doTest);
             }
 
             @TestMetadata("ComplexCase.kt")
             public void testComplexCase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/ComplexCase.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/ComplexCase.kt", this::doTest);
             }
 
             @TestMetadata("InheritedInnerAndTypeParameterWithSameNames.kt")
             public void testInheritedInnerAndTypeParameterWithSameNames() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/InheritedInnerAndTypeParameterWithSameNames.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/InheritedInnerAndTypeParameterWithSameNames.kt", this::doTest);
             }
 
             @TestMetadata("InnerWithTypeParameter.kt")
             public void testInnerWithTypeParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/InnerWithTypeParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/InnerWithTypeParameter.kt", this::doTest);
             }
 
             @TestMetadata("NestedWithInner.kt")
             public void testNestedWithInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/NestedWithInner.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/NestedWithInner.kt", this::doTest);
             }
 
             @TestMetadata("SeveralInnersWithTypeParameters.kt")
             public void testSeveralInnersWithTypeParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/SeveralInnersWithTypeParameters.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/SeveralInnersWithTypeParameters.kt", this::doTest);
             }
 
             @TestMetadata("TypeParametersInInnerAndOuterWithSameNames.kt")
             public void testTypeParametersInInnerAndOuterWithSameNames() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/TypeParametersInInnerAndOuterWithSameNames.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/TypeParametersInInnerAndOuterWithSameNames.kt", this::doTest);
             }
         }
     }
@@ -419,8 +363,7 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
         @TestMetadata("Annotations.kt")
         public void testAnnotations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/Annotations.kt");
-            doTestWithoutJavacWrapper(fileName);
+            KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/Annotations.kt", this::doTestWithoutJavacWrapper);
         }
 
         @TestMetadata("compiler/testData/javac/diagnostics/tests/imports")
@@ -433,104 +376,87 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("AllUnderImportsAmbiguity.kt")
             public void testAllUnderImportsAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/AllUnderImportsAmbiguity.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/AllUnderImportsAmbiguity.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("AllUnderImportsLessPriority.kt")
             public void testAllUnderImportsLessPriority() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/AllUnderImportsLessPriority.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/AllUnderImportsLessPriority.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ClassImportsConflicting.kt")
             public void testClassImportsConflicting() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ClassImportsConflicting.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ClassImportsConflicting.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("CurrentPackageAndAllUnderImport.kt")
             public void testCurrentPackageAndAllUnderImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndAllUnderImport.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndAllUnderImport.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("CurrentPackageAndExplicitImport.kt")
             public void testCurrentPackageAndExplicitImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndExplicitImport.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndExplicitImport.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("CurrentPackageAndExplicitNestedImport.kt")
             public void testCurrentPackageAndExplicitNestedImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndExplicitNestedImport.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndExplicitNestedImport.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("CurrentPackageAndNestedAsteriskImport.kt")
             public void testCurrentPackageAndNestedAsteriskImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndNestedAsteriskImport.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/CurrentPackageAndNestedAsteriskImport.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ImportGenericVsPackage.kt")
             public void testImportGenericVsPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ImportGenericVsPackage.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ImportGenericVsPackage.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ImportProtectedClass.kt")
             public void testImportProtectedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ImportProtectedClass.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ImportProtectedClass.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ImportTwoTimes.kt")
             public void testImportTwoTimes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ImportTwoTimes.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ImportTwoTimes.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ImportTwoTimesStar.kt")
             public void testImportTwoTimesStar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/ImportTwoTimesStar.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/ImportTwoTimesStar.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("NestedAndTopLevelClassClash.kt")
             public void testNestedAndTopLevelClassClash() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/NestedAndTopLevelClassClash.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/NestedAndTopLevelClassClash.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("NestedClassClash.kt")
             public void testNestedClassClash() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/NestedClassClash.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/NestedClassClash.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("PackageExplicitAndStartImport.kt")
             public void testPackageExplicitAndStartImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/PackageExplicitAndStartImport.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/PackageExplicitAndStartImport.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("PackagePrivateAndPublicNested.kt")
             public void testPackagePrivateAndPublicNested() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/PackagePrivateAndPublicNested.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/PackagePrivateAndPublicNested.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("TopLevelClassVsPackage.kt")
             public void testTopLevelClassVsPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/TopLevelClassVsPackage.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/TopLevelClassVsPackage.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("TopLevelClassVsPackage2.kt")
             public void testTopLevelClassVsPackage2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/imports/TopLevelClassVsPackage2.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/imports/TopLevelClassVsPackage2.kt", this::doTestWithoutJavacWrapper);
             }
         }
 
@@ -544,116 +470,97 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("IheritanceOfInner.kt")
             public void testIheritanceOfInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/IheritanceOfInner.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/IheritanceOfInner.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritanceAmbiguity.kt")
             public void testInheritanceAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritanceAmbiguity2.kt")
             public void testInheritanceAmbiguity2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity2.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity2.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritanceAmbiguity3.kt")
             public void testInheritanceAmbiguity3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity3.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity3.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritanceAmbiguity4.kt")
             public void testInheritanceAmbiguity4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity4.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceAmbiguity4.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritanceWithKotlin.kt")
             public void testInheritanceWithKotlin() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceWithKotlin.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceWithKotlin.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritanceWithKotlinClasses.kt")
             public void testInheritanceWithKotlinClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceWithKotlinClasses.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritanceWithKotlinClasses.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritedInner.kt")
             public void testInheritedInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInner.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInner.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritedInner2.kt")
             public void testInheritedInner2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInner2.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInner2.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritedInnerAndSupertypeWithSameName.kt")
             public void testInheritedInnerAndSupertypeWithSameName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInnerAndSupertypeWithSameName.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInnerAndSupertypeWithSameName.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritedInnerUsageInInner.kt")
             public void testInheritedInnerUsageInInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInnerUsageInInner.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedInnerUsageInInner.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritedKotlinInner.kt")
             public void testInheritedKotlinInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InheritedKotlinInner.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InheritedKotlinInner.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InnerAndInheritedInner.kt")
             public void testInnerAndInheritedInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/InnerAndInheritedInner.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/InnerAndInheritedInner.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ManyInheritedClasses.kt")
             public void testManyInheritedClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/ManyInheritedClasses.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/ManyInheritedClasses.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("NoAmbiguity.kt")
             public void testNoAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/NoAmbiguity.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/NoAmbiguity.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("NoAmbiguity2.kt")
             public void testNoAmbiguity2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/NoAmbiguity2.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/NoAmbiguity2.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("SameInnersInSupertypeAndSupertypesSupertype.kt")
             public void testSameInnersInSupertypeAndSupertypesSupertype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/SameInnersInSupertypeAndSupertypesSupertype.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/SameInnersInSupertypeAndSupertypesSupertype.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("SuperTypeWithSameInner.kt")
             public void testSuperTypeWithSameInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/SuperTypeWithSameInner.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/SuperTypeWithSameInner.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("SupertypeInnerAndTypeParameterWithSameNames.kt")
             public void testSupertypeInnerAndTypeParameterWithSameNames() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inheritance/SupertypeInnerAndTypeParameterWithSameNames.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inheritance/SupertypeInnerAndTypeParameterWithSameNames.kt", this::doTestWithoutJavacWrapper);
             }
         }
 
@@ -667,44 +574,37 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("ComplexCase.kt")
             public void testComplexCase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/ComplexCase.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/ComplexCase.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ComplexCase2.kt")
             public void testComplexCase2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/ComplexCase2.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/ComplexCase2.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("CurrentPackageAndInner.kt")
             public void testCurrentPackageAndInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/CurrentPackageAndInner.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/CurrentPackageAndInner.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ImportThriceNestedClass.kt")
             public void testImportThriceNestedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/ImportThriceNestedClass.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/ImportThriceNestedClass.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InnerInInner.kt")
             public void testInnerInInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/InnerInInner.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/InnerInInner.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("Nested.kt")
             public void testNested() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/Nested.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/Nested.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ThriceNestedClass.kt")
             public void testThriceNestedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/inners/ThriceNestedClass.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/inners/ThriceNestedClass.kt", this::doTestWithoutJavacWrapper);
             }
         }
 
@@ -718,32 +618,27 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("GenericClassVsPackage.kt")
             public void testGenericClassVsPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/GenericClassVsPackage.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/GenericClassVsPackage.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("PackageVsClass.kt")
             public void testPackageVsClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsClass.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsClass.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("PackageVsClass2.kt")
             public void testPackageVsClass2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsClass2.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsClass2.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("PackageVsRootClass.kt")
             public void testPackageVsRootClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsRootClass.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/PackageVsRootClass.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("visibleClassVsQualifiedClass.kt")
             public void testVisibleClassVsQualifiedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/qualifiedExpression/visibleClassVsQualifiedClass.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/qualifiedExpression/visibleClassVsQualifiedClass.kt", this::doTestWithoutJavacWrapper);
             }
         }
 
@@ -757,44 +652,37 @@ public class JavacDiagnosticsTestGenerated extends AbstractJavacDiagnosticsTest 
 
             @TestMetadata("Clash.kt")
             public void testClash() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/Clash.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/Clash.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("ComplexCase.kt")
             public void testComplexCase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/ComplexCase.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/ComplexCase.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InheritedInnerAndTypeParameterWithSameNames.kt")
             public void testInheritedInnerAndTypeParameterWithSameNames() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/InheritedInnerAndTypeParameterWithSameNames.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/InheritedInnerAndTypeParameterWithSameNames.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("InnerWithTypeParameter.kt")
             public void testInnerWithTypeParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/InnerWithTypeParameter.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/InnerWithTypeParameter.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("NestedWithInner.kt")
             public void testNestedWithInner() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/NestedWithInner.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/NestedWithInner.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("SeveralInnersWithTypeParameters.kt")
             public void testSeveralInnersWithTypeParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/SeveralInnersWithTypeParameters.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/SeveralInnersWithTypeParameters.kt", this::doTestWithoutJavacWrapper);
             }
 
             @TestMetadata("TypeParametersInInnerAndOuterWithSameNames.kt")
             public void testTypeParametersInInnerAndOuterWithSameNames() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/javac/diagnostics/tests/typeParameters/TypeParametersInInnerAndOuterWithSameNames.kt");
-                doTestWithoutJavacWrapper(fileName);
+                KotlinTestUtils.runTest("compiler/testData/javac/diagnostics/tests/typeParameters/TypeParametersInInnerAndOuterWithSameNames.kt", this::doTestWithoutJavacWrapper);
             }
         }
     }

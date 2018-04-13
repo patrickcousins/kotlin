@@ -35,20 +35,17 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("collectionRemoveIf.kt")
         public void testCollectionRemoveIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionRemoveIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionRemoveIf.kt", this::doTest);
         }
 
         @TestMetadata("collectionSpliterator.kt")
         public void testCollectionSpliterator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionSpliterator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionSpliterator.kt", this::doTest);
         }
 
         @TestMetadata("collectionStream.kt")
         public void testCollectionStream() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionStream.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/collection/collectionStream.kt", this::doTest);
         }
     }
 
@@ -62,8 +59,7 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("iterableSpliterator.kt")
         public void testIterableSpliterator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/iterable/iterableSpliterator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/iterable/iterableSpliterator.kt", this::doTest);
         }
     }
 
@@ -77,8 +73,7 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("iteratorForEachRemaining.kt")
         public void testIteratorForEachRemaining() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/iterator/iteratorForEachRemaining.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/iterator/iteratorForEachRemaining.kt", this::doTest);
         }
     }
 
@@ -92,14 +87,12 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("listReplaceAll.kt")
         public void testListReplaceAll() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/list/listReplaceAll.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/list/listReplaceAll.kt", this::doTest);
         }
 
         @TestMetadata("listStream.kt")
         public void testListStream() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/list/listStream.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/list/listStream.kt", this::doTest);
         }
     }
 
@@ -113,44 +106,37 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("mapCompute.kt")
         public void testMapCompute() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/map/mapCompute.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapCompute.kt", this::doTest);
         }
 
         @TestMetadata("mapComputeIfAbsent.kt")
         public void testMapComputeIfAbsent() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/map/mapComputeIfAbsent.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapComputeIfAbsent.kt", this::doTest);
         }
 
         @TestMetadata("mapComputeIfPresent.kt")
         public void testMapComputeIfPresent() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/map/mapComputeIfPresent.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapComputeIfPresent.kt", this::doTest);
         }
 
         @TestMetadata("mapForEach.kt")
         public void testMapForEach() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/map/mapForEach.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapForEach.kt", this::doTest);
         }
 
         @TestMetadata("mapMerge.kt")
         public void testMapMerge() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/map/mapMerge.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapMerge.kt", this::doTest);
         }
 
         @TestMetadata("mapPutIfAbsent.kt")
         public void testMapPutIfAbsent() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/map/mapPutIfAbsent.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapPutIfAbsent.kt", this::doTest);
         }
 
         @TestMetadata("mapReplace.kt")
         public void testMapReplace() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/map/mapReplace.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/map/mapReplace.kt", this::doTest);
         }
     }
 
@@ -164,26 +150,22 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("optionalEmpty.kt")
         public void testOptionalEmpty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalEmpty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalEmpty.kt", this::doTest);
         }
 
         @TestMetadata("optionalGet.kt")
         public void testOptionalGet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalGet.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalGet.kt", this::doTest);
         }
 
         @TestMetadata("optionalIfPresent.kt")
         public void testOptionalIfPresent() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalIfPresent.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalIfPresent.kt", this::doTest);
         }
 
         @TestMetadata("optionalOf.kt")
         public void testOptionalOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/optional/optionalOf.kt", this::doTest);
         }
     }
 
@@ -197,14 +179,12 @@ public class EnhancedSignaturesResolvedCallsTestGenerated extends AbstractEnhanc
 
         @TestMetadata("softReference.kt")
         public void testSoftReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/references/softReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/references/softReference.kt", this::doTest);
         }
 
         @TestMetadata("weakReference.kt")
         public void testWeakReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolvedCalls/enhancedSignatures/references/weakReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolvedCalls/enhancedSignatures/references/weakReference.kt", this::doTest);
         }
     }
 }

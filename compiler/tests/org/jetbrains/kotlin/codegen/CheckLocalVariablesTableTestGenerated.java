@@ -27,97 +27,81 @@ public class CheckLocalVariablesTableTestGenerated extends AbstractCheckLocalVar
 
     @TestMetadata("catchClause.kt")
     public void testCatchClause() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/catchClause.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/catchClause.kt", this::doTest);
     }
 
     @TestMetadata("copyFunction.kt")
     public void testCopyFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/copyFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/copyFunction.kt", this::doTest);
     }
 
     @TestMetadata("destructuringInLambdas.kt")
     public void testDestructuringInLambdas() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/destructuringInLambdas.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/destructuringInLambdas.kt", this::doTest);
     }
 
     @TestMetadata("destructuringInlineLambda.kt")
     public void testDestructuringInlineLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/destructuringInlineLambda.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/destructuringInlineLambda.kt", this::doTest);
     }
 
     @TestMetadata("inlineLambdaWithItParam.kt")
     public void testInlineLambdaWithItParam() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/inlineLambdaWithItParam.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/inlineLambdaWithItParam.kt", this::doTest);
     }
 
     @TestMetadata("inlineLambdaWithParam.kt")
     public void testInlineLambdaWithParam() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/inlineLambdaWithParam.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/inlineLambdaWithParam.kt", this::doTest);
     }
 
     @TestMetadata("inlineProperty.kt")
     public void testInlineProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/inlineProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/inlineProperty.kt", this::doTest);
     }
 
     @TestMetadata("inlineSimple.kt")
     public void testInlineSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/inlineSimple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/inlineSimple.kt", this::doTest);
     }
 
     @TestMetadata("inlineSimpleChain.kt")
     public void testInlineSimpleChain() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/inlineSimpleChain.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/inlineSimpleChain.kt", this::doTest);
     }
 
     @TestMetadata("itInLambda.kt")
     public void testItInLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/itInLambda.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/itInLambda.kt", this::doTest);
     }
 
     @TestMetadata("itInReturnedLambda.kt")
     public void testItInReturnedLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/itInReturnedLambda.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/itInReturnedLambda.kt", this::doTest);
     }
 
     @TestMetadata("jvmOverloads.kt")
     public void testJvmOverloads() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/jvmOverloads.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/jvmOverloads.kt", this::doTest);
     }
 
     @TestMetadata("kt11117.kt")
     public void testKt11117() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/kt11117.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/kt11117.kt", this::doTest);
     }
 
     @TestMetadata("lambdaAsVar.kt")
     public void testLambdaAsVar() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/lambdaAsVar.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/lambdaAsVar.kt", this::doTest);
     }
 
     @TestMetadata("localFun.kt")
     public void testLocalFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/localFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/localFun.kt", this::doTest);
     }
 
     @TestMetadata("underscoreNames.kt")
     public void testUnderscoreNames() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/checkLocalVariablesTable/underscoreNames.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/checkLocalVariablesTable/underscoreNames.kt", this::doTest);
     }
 }

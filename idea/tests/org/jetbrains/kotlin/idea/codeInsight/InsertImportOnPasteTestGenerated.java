@@ -29,362 +29,302 @@ public class InsertImportOnPasteTestGenerated extends AbstractInsertImportOnPast
 
         @TestMetadata("AlreadyImportedExtensions.kt")
         public void testAlreadyImportedExtensions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/AlreadyImportedExtensions.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/AlreadyImportedExtensions.kt", this::doTestCopy);
         }
 
         @TestMetadata("AlreadyImportedViaStar.kt")
         public void testAlreadyImportedViaStar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/AlreadyImportedViaStar.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/AlreadyImportedViaStar.kt", this::doTestCopy);
         }
 
         @TestMetadata("ClassAlreadyImported.kt")
         public void testClassAlreadyImported() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassAlreadyImported.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassAlreadyImported.kt", this::doTestCopy);
         }
 
         @TestMetadata("ClassMember.kt")
         public void testClassMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassMember.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassMember.kt", this::doTestCopy);
         }
 
         @TestMetadata("ClassObject.kt")
         public void testClassObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassObject.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassObject.kt", this::doTestCopy);
         }
 
         @TestMetadata("ClassObjectFunInsideClass.kt")
         public void testClassObjectFunInsideClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassObjectFunInsideClass.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassObjectFunInsideClass.kt", this::doTestCopy);
         }
 
         @TestMetadata("ClassObjectInner.kt")
         public void testClassObjectInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassObjectInner.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassObjectInner.kt", this::doTestCopy);
         }
 
         @TestMetadata("ClassResolvedToPackage.kt")
         public void testClassResolvedToPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassResolvedToPackage.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassResolvedToPackage.kt", this::doTestCopy);
         }
 
         @TestMetadata("ClassType.kt")
         public void testClassType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassType.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassType.kt", this::doTestCopy);
         }
 
         @TestMetadata("ConflictForTypeWithTypeParameter.kt")
         public void testConflictForTypeWithTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ConflictForTypeWithTypeParameter.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ConflictForTypeWithTypeParameter.kt", this::doTestCopy);
         }
 
         @TestMetadata("ConflictWithClass.kt")
         public void testConflictWithClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ConflictWithClass.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ConflictWithClass.kt", this::doTestCopy);
         }
 
         @TestMetadata("Constructor.kt")
         public void testConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Constructor.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Constructor.kt", this::doTestCopy);
         }
 
         @TestMetadata("DeepInnerClasses.kt")
         public void testDeepInnerClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DeepInnerClasses.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DeepInnerClasses.kt", this::doTestCopy);
         }
 
         @TestMetadata("DefaultPackage.kt")
         public void testDefaultPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DefaultPackage.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DefaultPackage.kt", this::doTestCopy);
         }
 
         @TestMetadata("DelegatedProperty.kt")
         public void testDelegatedProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DelegatedProperty.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DelegatedProperty.kt", this::doTestCopy);
         }
 
         @TestMetadata("DependenciesNotAccessibleOnPaste.kt")
         public void testDependenciesNotAccessibleOnPaste() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DependenciesNotAccessibleOnPaste.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DependenciesNotAccessibleOnPaste.kt", this::doTestCopy);
         }
 
         @TestMetadata("DependencyOnJava.kt")
         public void testDependencyOnJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DependencyOnJava.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DependencyOnJava.kt", this::doTestCopy);
         }
 
         @TestMetadata("DependencyOnKotlinLibrary.kt")
         public void testDependencyOnKotlinLibrary() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DependencyOnKotlinLibrary.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DependencyOnKotlinLibrary.kt", this::doTestCopy);
         }
 
         @TestMetadata("DependencyOnStdLib.kt")
         public void testDependencyOnStdLib() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DependencyOnStdLib.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DependencyOnStdLib.kt", this::doTestCopy);
         }
 
         @TestMetadata("EnumEntries.kt")
         public void testEnumEntries() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/EnumEntries.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/EnumEntries.kt", this::doTestCopy);
         }
 
         @TestMetadata("Extension.kt")
         public void testExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Extension.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Extension.kt", this::doTestCopy);
         }
 
         @TestMetadata("ExtensionAsInfixOrOperator.kt")
         public void testExtensionAsInfixOrOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ExtensionAsInfixOrOperator.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ExtensionAsInfixOrOperator.kt", this::doTestCopy);
         }
 
         @TestMetadata("ExtensionCannotBeImportedOrLengthened.kt")
         public void testExtensionCannotBeImportedOrLengthened() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ExtensionCannotBeImportedOrLengthened.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ExtensionCannotBeImportedOrLengthened.kt", this::doTestCopy);
         }
 
         @TestMetadata("ExtensionConflict.kt")
         public void testExtensionConflict() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ExtensionConflict.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ExtensionConflict.kt", this::doTestCopy);
         }
 
         @TestMetadata("ForLoop.kt")
         public void testForLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ForLoop.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ForLoop.kt", this::doTestCopy);
         }
 
         @TestMetadata("FullyQualified.kt")
         public void testFullyQualified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/FullyQualified.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/FullyQualified.kt", this::doTestCopy);
         }
 
         @TestMetadata("Function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Function.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Function.kt", this::doTestCopy);
         }
 
         @TestMetadata("FunctionAlreadyImported.kt")
         public void testFunctionAlreadyImported() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/FunctionAlreadyImported.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/FunctionAlreadyImported.kt", this::doTestCopy);
         }
 
         @TestMetadata("FunctionParameter.kt")
         public void testFunctionParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/FunctionParameter.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/FunctionParameter.kt", this::doTestCopy);
         }
 
         @TestMetadata("GetExpression.kt")
         public void testGetExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/GetExpression.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/GetExpression.kt", this::doTestCopy);
         }
 
         @TestMetadata("ImportDependency.kt")
         public void testImportDependency() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ImportDependency.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ImportDependency.kt", this::doTestCopy);
         }
 
         @TestMetadata("ImportDirective.kt")
         public void testImportDirective() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ImportDirective.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ImportDirective.kt", this::doTestCopy);
         }
 
         @TestMetadata("ImportableEntityInExtensionLiteral.kt")
         public void testImportableEntityInExtensionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ImportableEntityInExtensionLiteral.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ImportableEntityInExtensionLiteral.kt", this::doTestCopy);
         }
 
         @TestMetadata("ImportedElementCopied.kt")
         public void testImportedElementCopied() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ImportedElementCopied.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ImportedElementCopied.kt", this::doTestCopy);
         }
 
         @TestMetadata("Inner.kt")
         public void testInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Inner.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Inner.kt", this::doTestCopy);
         }
 
         @TestMetadata("Invoke.kt")
         public void testInvoke() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Invoke.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Invoke.kt", this::doTestCopy);
         }
 
         @TestMetadata("JavaStaticViaClass.kt")
         public void testJavaStaticViaClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/JavaStaticViaClass.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/JavaStaticViaClass.kt", this::doTestCopy);
         }
 
         @TestMetadata("KT10433.kt")
         public void testKT10433() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/KT10433.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/KT10433.kt", this::doTestCopy);
         }
 
         @TestMetadata("KeywordClassName.kt")
         public void testKeywordClassName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/KeywordClassName.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/KeywordClassName.kt", this::doTestCopy);
         }
 
         @TestMetadata("Local.kt")
         public void testLocal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Local.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Local.kt", this::doTestCopy);
         }
 
         @TestMetadata("MultiDeclaration.kt")
         public void testMultiDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/MultiDeclaration.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/MultiDeclaration.kt", this::doTestCopy);
         }
 
         @TestMetadata("MultiReferencePartiallyCopied.kt")
         public void testMultiReferencePartiallyCopied() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/MultiReferencePartiallyCopied.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/MultiReferencePartiallyCopied.kt", this::doTestCopy);
         }
 
         @TestMetadata("NoImportForBuiltIns.kt")
         public void testNoImportForBuiltIns() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/NoImportForBuiltIns.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/NoImportForBuiltIns.kt", this::doTestCopy);
         }
 
         @TestMetadata("NoImportForSamePackage.kt")
         public void testNoImportForSamePackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/NoImportForSamePackage.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/NoImportForSamePackage.kt", this::doTestCopy);
         }
 
         @TestMetadata("NotReferencePosition.kt")
         public void testNotReferencePosition() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/NotReferencePosition.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/NotReferencePosition.kt", this::doTestCopy);
         }
 
         @TestMetadata("NotReferencePosition2.kt")
         public void testNotReferencePosition2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/NotReferencePosition2.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/NotReferencePosition2.kt", this::doTestCopy);
         }
 
         @TestMetadata("Object.kt")
         public void testObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Object.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Object.kt", this::doTestCopy);
         }
 
         @TestMetadata("OnlyKDocReferenced.kt")
         public void testOnlyKDocReferenced() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/OnlyKDocReferenced.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/OnlyKDocReferenced.kt", this::doTestCopy);
         }
 
         @TestMetadata("OverloadedExtensionFunction.kt")
         public void testOverloadedExtensionFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/OverloadedExtensionFunction.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/OverloadedExtensionFunction.kt", this::doTestCopy);
         }
 
         @TestMetadata("PackageView.kt")
         public void testPackageView() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/PackageView.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/PackageView.kt", this::doTestCopy);
         }
 
         @TestMetadata("PartiallyQualified.kt")
         public void testPartiallyQualified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/PartiallyQualified.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/PartiallyQualified.kt", this::doTestCopy);
         }
 
         @TestMetadata("QualifiedTypeConflict.kt")
         public void testQualifiedTypeConflict() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/QualifiedTypeConflict.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/QualifiedTypeConflict.kt", this::doTestCopy);
         }
 
         @TestMetadata("ReferencedElementAlsoCopied.kt")
         public void testReferencedElementAlsoCopied() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ReferencedElementAlsoCopied.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ReferencedElementAlsoCopied.kt", this::doTestCopy);
         }
 
         @TestMetadata("Super.kt")
         public void testSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Super.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Super.kt", this::doTestCopy);
         }
 
         @TestMetadata("ThisReference.kt")
         public void testThisReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ThisReference.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ThisReference.kt", this::doTestCopy);
         }
 
         @TestMetadata("TopLevelProperty.kt")
         public void testTopLevelProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/TopLevelProperty.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/TopLevelProperty.kt", this::doTestCopy);
         }
 
         @TestMetadata("Trait.kt")
         public void testTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Trait.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Trait.kt", this::doTestCopy);
         }
 
         @TestMetadata("TypeArgForUnresolvedCall.kt")
         public void testTypeArgForUnresolvedCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/TypeArgForUnresolvedCall.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/TypeArgForUnresolvedCall.kt", this::doTestCopy);
         }
 
         @TestMetadata("TypeParameter.kt")
         public void testTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/TypeParameter.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/TypeParameter.kt", this::doTestCopy);
         }
 
         @TestMetadata("UnresolvedOverload.kt")
         public void testUnresolvedOverload() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/UnresolvedOverload.kt");
-            doTestCopy(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/UnresolvedOverload.kt", this::doTestCopy);
         }
     }
 
@@ -398,362 +338,302 @@ public class InsertImportOnPasteTestGenerated extends AbstractInsertImportOnPast
 
         @TestMetadata("AlreadyImportedExtensions.kt")
         public void testAlreadyImportedExtensions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/AlreadyImportedExtensions.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/AlreadyImportedExtensions.kt", this::doTestCut);
         }
 
         @TestMetadata("AlreadyImportedViaStar.kt")
         public void testAlreadyImportedViaStar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/AlreadyImportedViaStar.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/AlreadyImportedViaStar.kt", this::doTestCut);
         }
 
         @TestMetadata("ClassAlreadyImported.kt")
         public void testClassAlreadyImported() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassAlreadyImported.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassAlreadyImported.kt", this::doTestCut);
         }
 
         @TestMetadata("ClassMember.kt")
         public void testClassMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassMember.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassMember.kt", this::doTestCut);
         }
 
         @TestMetadata("ClassObject.kt")
         public void testClassObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassObject.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassObject.kt", this::doTestCut);
         }
 
         @TestMetadata("ClassObjectFunInsideClass.kt")
         public void testClassObjectFunInsideClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassObjectFunInsideClass.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassObjectFunInsideClass.kt", this::doTestCut);
         }
 
         @TestMetadata("ClassObjectInner.kt")
         public void testClassObjectInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassObjectInner.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassObjectInner.kt", this::doTestCut);
         }
 
         @TestMetadata("ClassResolvedToPackage.kt")
         public void testClassResolvedToPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassResolvedToPackage.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassResolvedToPackage.kt", this::doTestCut);
         }
 
         @TestMetadata("ClassType.kt")
         public void testClassType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ClassType.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ClassType.kt", this::doTestCut);
         }
 
         @TestMetadata("ConflictForTypeWithTypeParameter.kt")
         public void testConflictForTypeWithTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ConflictForTypeWithTypeParameter.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ConflictForTypeWithTypeParameter.kt", this::doTestCut);
         }
 
         @TestMetadata("ConflictWithClass.kt")
         public void testConflictWithClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ConflictWithClass.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ConflictWithClass.kt", this::doTestCut);
         }
 
         @TestMetadata("Constructor.kt")
         public void testConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Constructor.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Constructor.kt", this::doTestCut);
         }
 
         @TestMetadata("DeepInnerClasses.kt")
         public void testDeepInnerClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DeepInnerClasses.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DeepInnerClasses.kt", this::doTestCut);
         }
 
         @TestMetadata("DefaultPackage.kt")
         public void testDefaultPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DefaultPackage.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DefaultPackage.kt", this::doTestCut);
         }
 
         @TestMetadata("DelegatedProperty.kt")
         public void testDelegatedProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DelegatedProperty.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DelegatedProperty.kt", this::doTestCut);
         }
 
         @TestMetadata("DependenciesNotAccessibleOnPaste.kt")
         public void testDependenciesNotAccessibleOnPaste() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DependenciesNotAccessibleOnPaste.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DependenciesNotAccessibleOnPaste.kt", this::doTestCut);
         }
 
         @TestMetadata("DependencyOnJava.kt")
         public void testDependencyOnJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DependencyOnJava.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DependencyOnJava.kt", this::doTestCut);
         }
 
         @TestMetadata("DependencyOnKotlinLibrary.kt")
         public void testDependencyOnKotlinLibrary() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DependencyOnKotlinLibrary.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DependencyOnKotlinLibrary.kt", this::doTestCut);
         }
 
         @TestMetadata("DependencyOnStdLib.kt")
         public void testDependencyOnStdLib() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/DependencyOnStdLib.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/DependencyOnStdLib.kt", this::doTestCut);
         }
 
         @TestMetadata("EnumEntries.kt")
         public void testEnumEntries() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/EnumEntries.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/EnumEntries.kt", this::doTestCut);
         }
 
         @TestMetadata("Extension.kt")
         public void testExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Extension.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Extension.kt", this::doTestCut);
         }
 
         @TestMetadata("ExtensionAsInfixOrOperator.kt")
         public void testExtensionAsInfixOrOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ExtensionAsInfixOrOperator.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ExtensionAsInfixOrOperator.kt", this::doTestCut);
         }
 
         @TestMetadata("ExtensionCannotBeImportedOrLengthened.kt")
         public void testExtensionCannotBeImportedOrLengthened() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ExtensionCannotBeImportedOrLengthened.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ExtensionCannotBeImportedOrLengthened.kt", this::doTestCut);
         }
 
         @TestMetadata("ExtensionConflict.kt")
         public void testExtensionConflict() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ExtensionConflict.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ExtensionConflict.kt", this::doTestCut);
         }
 
         @TestMetadata("ForLoop.kt")
         public void testForLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ForLoop.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ForLoop.kt", this::doTestCut);
         }
 
         @TestMetadata("FullyQualified.kt")
         public void testFullyQualified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/FullyQualified.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/FullyQualified.kt", this::doTestCut);
         }
 
         @TestMetadata("Function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Function.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Function.kt", this::doTestCut);
         }
 
         @TestMetadata("FunctionAlreadyImported.kt")
         public void testFunctionAlreadyImported() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/FunctionAlreadyImported.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/FunctionAlreadyImported.kt", this::doTestCut);
         }
 
         @TestMetadata("FunctionParameter.kt")
         public void testFunctionParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/FunctionParameter.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/FunctionParameter.kt", this::doTestCut);
         }
 
         @TestMetadata("GetExpression.kt")
         public void testGetExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/GetExpression.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/GetExpression.kt", this::doTestCut);
         }
 
         @TestMetadata("ImportDependency.kt")
         public void testImportDependency() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ImportDependency.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ImportDependency.kt", this::doTestCut);
         }
 
         @TestMetadata("ImportDirective.kt")
         public void testImportDirective() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ImportDirective.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ImportDirective.kt", this::doTestCut);
         }
 
         @TestMetadata("ImportableEntityInExtensionLiteral.kt")
         public void testImportableEntityInExtensionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ImportableEntityInExtensionLiteral.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ImportableEntityInExtensionLiteral.kt", this::doTestCut);
         }
 
         @TestMetadata("ImportedElementCopied.kt")
         public void testImportedElementCopied() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ImportedElementCopied.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ImportedElementCopied.kt", this::doTestCut);
         }
 
         @TestMetadata("Inner.kt")
         public void testInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Inner.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Inner.kt", this::doTestCut);
         }
 
         @TestMetadata("Invoke.kt")
         public void testInvoke() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Invoke.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Invoke.kt", this::doTestCut);
         }
 
         @TestMetadata("JavaStaticViaClass.kt")
         public void testJavaStaticViaClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/JavaStaticViaClass.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/JavaStaticViaClass.kt", this::doTestCut);
         }
 
         @TestMetadata("KT10433.kt")
         public void testKT10433() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/KT10433.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/KT10433.kt", this::doTestCut);
         }
 
         @TestMetadata("KeywordClassName.kt")
         public void testKeywordClassName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/KeywordClassName.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/KeywordClassName.kt", this::doTestCut);
         }
 
         @TestMetadata("Local.kt")
         public void testLocal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Local.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Local.kt", this::doTestCut);
         }
 
         @TestMetadata("MultiDeclaration.kt")
         public void testMultiDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/MultiDeclaration.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/MultiDeclaration.kt", this::doTestCut);
         }
 
         @TestMetadata("MultiReferencePartiallyCopied.kt")
         public void testMultiReferencePartiallyCopied() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/MultiReferencePartiallyCopied.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/MultiReferencePartiallyCopied.kt", this::doTestCut);
         }
 
         @TestMetadata("NoImportForBuiltIns.kt")
         public void testNoImportForBuiltIns() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/NoImportForBuiltIns.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/NoImportForBuiltIns.kt", this::doTestCut);
         }
 
         @TestMetadata("NoImportForSamePackage.kt")
         public void testNoImportForSamePackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/NoImportForSamePackage.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/NoImportForSamePackage.kt", this::doTestCut);
         }
 
         @TestMetadata("NotReferencePosition.kt")
         public void testNotReferencePosition() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/NotReferencePosition.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/NotReferencePosition.kt", this::doTestCut);
         }
 
         @TestMetadata("NotReferencePosition2.kt")
         public void testNotReferencePosition2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/NotReferencePosition2.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/NotReferencePosition2.kt", this::doTestCut);
         }
 
         @TestMetadata("Object.kt")
         public void testObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Object.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Object.kt", this::doTestCut);
         }
 
         @TestMetadata("OnlyKDocReferenced.kt")
         public void testOnlyKDocReferenced() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/OnlyKDocReferenced.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/OnlyKDocReferenced.kt", this::doTestCut);
         }
 
         @TestMetadata("OverloadedExtensionFunction.kt")
         public void testOverloadedExtensionFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/OverloadedExtensionFunction.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/OverloadedExtensionFunction.kt", this::doTestCut);
         }
 
         @TestMetadata("PackageView.kt")
         public void testPackageView() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/PackageView.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/PackageView.kt", this::doTestCut);
         }
 
         @TestMetadata("PartiallyQualified.kt")
         public void testPartiallyQualified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/PartiallyQualified.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/PartiallyQualified.kt", this::doTestCut);
         }
 
         @TestMetadata("QualifiedTypeConflict.kt")
         public void testQualifiedTypeConflict() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/QualifiedTypeConflict.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/QualifiedTypeConflict.kt", this::doTestCut);
         }
 
         @TestMetadata("ReferencedElementAlsoCopied.kt")
         public void testReferencedElementAlsoCopied() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ReferencedElementAlsoCopied.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ReferencedElementAlsoCopied.kt", this::doTestCut);
         }
 
         @TestMetadata("Super.kt")
         public void testSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Super.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Super.kt", this::doTestCut);
         }
 
         @TestMetadata("ThisReference.kt")
         public void testThisReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/ThisReference.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/ThisReference.kt", this::doTestCut);
         }
 
         @TestMetadata("TopLevelProperty.kt")
         public void testTopLevelProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/TopLevelProperty.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/TopLevelProperty.kt", this::doTestCut);
         }
 
         @TestMetadata("Trait.kt")
         public void testTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/Trait.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/Trait.kt", this::doTestCut);
         }
 
         @TestMetadata("TypeArgForUnresolvedCall.kt")
         public void testTypeArgForUnresolvedCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/TypeArgForUnresolvedCall.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/TypeArgForUnresolvedCall.kt", this::doTestCut);
         }
 
         @TestMetadata("TypeParameter.kt")
         public void testTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/TypeParameter.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/TypeParameter.kt", this::doTestCut);
         }
 
         @TestMetadata("UnresolvedOverload.kt")
         public void testUnresolvedOverload() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/imports/UnresolvedOverload.kt");
-            doTestCut(fileName);
+            KotlinTestUtils.runTest("idea/testData/copyPaste/imports/UnresolvedOverload.kt", this::doTestCut);
         }
     }
 }

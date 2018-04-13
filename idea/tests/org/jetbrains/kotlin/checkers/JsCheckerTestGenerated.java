@@ -27,19 +27,16 @@ public class JsCheckerTestGenerated extends AbstractJsCheckerTest {
 
     @TestMetadata("basic.kt")
     public void testBasic() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/checker/js/basic.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/checker/js/basic.kt", this::doTest);
     }
 
     @TestMetadata("dynamic.kt")
     public void testDynamic() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/checker/js/dynamic.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/checker/js/dynamic.kt", this::doTest);
     }
 
     @TestMetadata("helloWorld.kt")
     public void testHelloWorld() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/checker/js/helloWorld.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/checker/js/helloWorld.kt", this::doTest);
     }
 }

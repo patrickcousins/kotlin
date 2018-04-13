@@ -29,50 +29,42 @@ public class KotlinFoldingTestGenerated extends AbstractKotlinFoldingTest {
 
         @TestMetadata("class.kt")
         public void testClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/noCollapse/class.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/noCollapse/class.kt", this::doTest);
         }
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/noCollapse/function.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/noCollapse/function.kt", this::doTest);
         }
 
         @TestMetadata("imports.kt")
         public void testImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/noCollapse/imports.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/noCollapse/imports.kt", this::doTest);
         }
 
         @TestMetadata("kdocComments.kt")
         public void testKdocComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/noCollapse/kdocComments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/noCollapse/kdocComments.kt", this::doTest);
         }
 
         @TestMetadata("multilineComments.kt")
         public void testMultilineComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/noCollapse/multilineComments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/noCollapse/multilineComments.kt", this::doTest);
         }
 
         @TestMetadata("object.kt")
         public void testObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/noCollapse/object.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/noCollapse/object.kt", this::doTest);
         }
 
         @TestMetadata("oneImport.kt")
         public void testOneImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/noCollapse/oneImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/noCollapse/oneImport.kt", this::doTest);
         }
 
         @TestMetadata("singleLineString.kt")
         public void testSingleLineString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/noCollapse/singleLineString.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/noCollapse/singleLineString.kt", this::doTest);
         }
     }
 
@@ -86,50 +78,42 @@ public class KotlinFoldingTestGenerated extends AbstractKotlinFoldingTest {
 
         @TestMetadata("customRegions.kt")
         public void testCustomRegions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/checkCollapse/customRegions.kt");
-            doSettingsFoldingTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/checkCollapse/customRegions.kt", this::doSettingsFoldingTest);
         }
 
         @TestMetadata("customRegionsNotFullBlock.kt")
         public void testCustomRegionsNotFullBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/checkCollapse/customRegionsNotFullBlock.kt");
-            doSettingsFoldingTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/checkCollapse/customRegionsNotFullBlock.kt", this::doSettingsFoldingTest);
         }
 
         @TestMetadata("functionLiteral.kt")
         public void testFunctionLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/checkCollapse/functionLiteral.kt");
-            doSettingsFoldingTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/checkCollapse/functionLiteral.kt", this::doSettingsFoldingTest);
         }
 
         @TestMetadata("headerKDoc.kt")
         public void testHeaderKDoc() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/checkCollapse/headerKDoc.kt");
-            doSettingsFoldingTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/checkCollapse/headerKDoc.kt", this::doSettingsFoldingTest);
         }
 
         @TestMetadata("headerMultilineComment.kt")
         public void testHeaderMultilineComment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/checkCollapse/headerMultilineComment.kt");
-            doSettingsFoldingTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/checkCollapse/headerMultilineComment.kt", this::doSettingsFoldingTest);
         }
 
         @TestMetadata("imports.kt")
         public void testImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/checkCollapse/imports.kt");
-            doSettingsFoldingTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/checkCollapse/imports.kt", this::doSettingsFoldingTest);
         }
 
         @TestMetadata("multilineStrings.kt")
         public void testMultilineStrings() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/checkCollapse/multilineStrings.kt");
-            doSettingsFoldingTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/checkCollapse/multilineStrings.kt", this::doSettingsFoldingTest);
         }
 
         @TestMetadata("primaryConstructor.kt")
         public void testPrimaryConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/folding/checkCollapse/primaryConstructor.kt");
-            doSettingsFoldingTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/folding/checkCollapse/primaryConstructor.kt", this::doSettingsFoldingTest);
         }
     }
 }

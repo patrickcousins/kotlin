@@ -27,13 +27,11 @@ public class ReferenceToJavaWithWrongFileStructureTestGenerated extends Abstract
 
     @TestMetadata("ClassStatics.kt")
     public void testClassStatics() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceToJavaWithWrongFileStructure/ClassStatics.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/referenceToJavaWithWrongFileStructure/ClassStatics.kt", this::doTest);
     }
 
     @TestMetadata("SimpleClass.kt")
     public void testSimpleClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceToJavaWithWrongFileStructure/SimpleClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/referenceToJavaWithWrongFileStructure/SimpleClass.kt", this::doTest);
     }
 }

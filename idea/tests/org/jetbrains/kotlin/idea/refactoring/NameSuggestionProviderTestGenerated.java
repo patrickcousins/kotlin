@@ -27,7 +27,6 @@ public class NameSuggestionProviderTestGenerated extends AbstractNameSuggestionP
 
     @TestMetadata("localVarAsCallArgument.kt")
     public void testLocalVarAsCallArgument() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/nameSuggestionProvider/localVarAsCallArgument.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/nameSuggestionProvider/localVarAsCallArgument.kt", this::doTest);
     }
 }

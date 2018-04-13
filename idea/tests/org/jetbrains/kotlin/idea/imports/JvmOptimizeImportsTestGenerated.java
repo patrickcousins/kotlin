@@ -29,146 +29,122 @@ public class JvmOptimizeImportsTestGenerated extends AbstractJvmOptimizeImportsT
 
         @TestMetadata("AlreadyOptimized.kt")
         public void testAlreadyOptimized() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/AlreadyOptimized.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/AlreadyOptimized.kt", this::doTest);
         }
 
         @TestMetadata("CallableReference.kt")
         public void testCallableReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/CallableReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/CallableReference.kt", this::doTest);
         }
 
         @TestMetadata("CallableReference2.kt")
         public void testCallableReference2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/CallableReference2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/CallableReference2.kt", this::doTest);
         }
 
         @TestMetadata("ClassFromSameFileImportAddedBug.kt")
         public void testClassFromSameFileImportAddedBug() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/ClassFromSameFileImportAddedBug.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/ClassFromSameFileImportAddedBug.kt", this::doTest);
         }
 
         @TestMetadata("DoNotTouchIfNoChanges.kt")
         public void testDoNotTouchIfNoChanges() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/DoNotTouchIfNoChanges.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/DoNotTouchIfNoChanges.kt", this::doTest);
         }
 
         @TestMetadata("DuplicatedImports.kt")
         public void testDuplicatedImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/DuplicatedImports.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/DuplicatedImports.kt", this::doTest);
         }
 
         @TestMetadata("FromCompanionObject.kt")
         public void testFromCompanionObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/FromCompanionObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/FromCompanionObject.kt", this::doTest);
         }
 
         @TestMetadata("FromCompanionObjectGeneric.kt")
         public void testFromCompanionObjectGeneric() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/FromCompanionObjectGeneric.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/FromCompanionObjectGeneric.kt", this::doTest);
         }
 
         @TestMetadata("JavaStaticField.kt")
         public void testJavaStaticField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/JavaStaticField.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/JavaStaticField.kt", this::doTest);
         }
 
         @TestMetadata("KDocReference.kt")
         public void testKDocReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/KDocReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/KDocReference.kt", this::doTest);
         }
 
         @TestMetadata("KT10226.kt")
         public void testKT10226() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/KT10226.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/KT10226.kt", this::doTest);
         }
 
         @TestMetadata("Kt1850FullQualified.kt")
         public void testKt1850FullQualified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/Kt1850FullQualified.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/Kt1850FullQualified.kt", this::doTest);
         }
 
         @TestMetadata("Kt1850InnerClass.kt")
         public void testKt1850InnerClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/Kt1850InnerClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/Kt1850InnerClass.kt", this::doTest);
         }
 
         @TestMetadata("NestedClassInObject.kt")
         public void testNestedClassInObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/NestedClassInObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/NestedClassInObject.kt", this::doTest);
         }
 
         @TestMetadata("Operators.kt")
         public void testOperators() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/Operators.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/Operators.kt", this::doTest);
         }
 
         @TestMetadata("PlusAndPlusAssign.kt")
         public void testPlusAndPlusAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/PlusAndPlusAssign.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/PlusAndPlusAssign.kt", this::doTest);
         }
 
         @TestMetadata("RemoveImportsIfGeneral.kt")
         public void testRemoveImportsIfGeneral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/RemoveImportsIfGeneral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/RemoveImportsIfGeneral.kt", this::doTest);
         }
 
         @TestMetadata("RemoveImportsIfGeneralBefore.kt")
         public void testRemoveImportsIfGeneralBefore() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/RemoveImportsIfGeneralBefore.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/RemoveImportsIfGeneralBefore.kt", this::doTest);
         }
 
         @TestMetadata("SamConstructor.kt")
         public void testSamConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/SamConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/SamConstructor.kt", this::doTest);
         }
 
         @TestMetadata("StaticMethodFromSuper.kt")
         public void testStaticMethodFromSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/StaticMethodFromSuper.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/StaticMethodFromSuper.kt", this::doTest);
         }
 
         @TestMetadata("ThisAndSuper.kt")
         public void testThisAndSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/ThisAndSuper.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/ThisAndSuper.kt", this::doTest);
         }
 
         @TestMetadata("TrivialAlias.kt")
         public void testTrivialAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/TrivialAlias.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/TrivialAlias.kt", this::doTest);
         }
 
         @TestMetadata("UnusedImports.kt")
         public void testUnusedImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/UnusedImports.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/UnusedImports.kt", this::doTest);
         }
 
         @TestMetadata("WithAliases.kt")
         public void testWithAliases() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/WithAliases.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/WithAliases.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports")
@@ -181,56 +157,47 @@ public class JvmOptimizeImportsTestGenerated extends AbstractJvmOptimizeImportsT
 
             @TestMetadata("ClassNameConflict.kt")
             public void testClassNameConflict() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflict.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflict.kt", this::doTest);
             }
 
             @TestMetadata("ClassNameConflict2.kt")
             public void testClassNameConflict2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflict2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflict2.kt", this::doTest);
             }
 
             @TestMetadata("ClassNameConflictWithCurrentPackage.kt")
             public void testClassNameConflictWithCurrentPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflictWithCurrentPackage.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflictWithCurrentPackage.kt", this::doTest);
             }
 
             @TestMetadata("ClassNameConflictWithCurrentPackage2.kt")
             public void testClassNameConflictWithCurrentPackage2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflictWithCurrentPackage2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflictWithCurrentPackage2.kt", this::doTest);
             }
 
             @TestMetadata("ClassNameConflictWithDefault.kt")
             public void testClassNameConflictWithDefault() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflictWithDefault.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflictWithDefault.kt", this::doTest);
             }
 
             @TestMetadata("ClassNameConflictWithinDefaultImports.kt")
             public void testClassNameConflictWithinDefaultImports() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflictWithinDefaultImports.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/allUnderImports/ClassNameConflictWithinDefaultImports.kt", this::doTest);
             }
 
             @TestMetadata("NameCountSetting.kt")
             public void testNameCountSetting() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports/NameCountSetting.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/allUnderImports/NameCountSetting.kt", this::doTest);
             }
 
             @TestMetadata("PackagesToUseStarImport.kt")
             public void testPackagesToUseStarImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports/PackagesToUseStarImport.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/allUnderImports/PackagesToUseStarImport.kt", this::doTest);
             }
 
             @TestMetadata("Simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/jvm/allUnderImports/Simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/jvm/allUnderImports/Simple.kt", this::doTest);
             }
         }
     }
@@ -245,146 +212,122 @@ public class JvmOptimizeImportsTestGenerated extends AbstractJvmOptimizeImportsT
 
         @TestMetadata("ArrayAccessExpression.kt")
         public void testArrayAccessExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/ArrayAccessExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/ArrayAccessExpression.kt", this::doTest);
         }
 
         @TestMetadata("ClassMemberImported.kt")
         public void testClassMemberImported() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/ClassMemberImported.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/ClassMemberImported.kt", this::doTest);
         }
 
         @TestMetadata("ComponentFunction.kt")
         public void testComponentFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/ComponentFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/ComponentFunction.kt", this::doTest);
         }
 
         @TestMetadata("CurrentPackage.kt")
         public void testCurrentPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/CurrentPackage.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/CurrentPackage.kt", this::doTest);
         }
 
         @TestMetadata("DefaultObjectReference.kt")
         public void testDefaultObjectReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/DefaultObjectReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/DefaultObjectReference.kt", this::doTest);
         }
 
         @TestMetadata("Enums.kt")
         public void testEnums() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/Enums.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/Enums.kt", this::doTest);
         }
 
         @TestMetadata("ExtensionFunctionalTypeValFromCompanionObject.kt")
         public void testExtensionFunctionalTypeValFromCompanionObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/ExtensionFunctionalTypeValFromCompanionObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/ExtensionFunctionalTypeValFromCompanionObject.kt", this::doTest);
         }
 
         @TestMetadata("ExtensionFunctionalTypeValFromCompanionObjectCallOnCompanion.kt")
         public void testExtensionFunctionalTypeValFromCompanionObjectCallOnCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/ExtensionFunctionalTypeValFromCompanionObjectCallOnCompanion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/ExtensionFunctionalTypeValFromCompanionObjectCallOnCompanion.kt", this::doTest);
         }
 
         @TestMetadata("ExtensionFunctionalTypeValFromCompanionObjectNonExtCall.kt")
         public void testExtensionFunctionalTypeValFromCompanionObjectNonExtCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/ExtensionFunctionalTypeValFromCompanionObjectNonExtCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/ExtensionFunctionalTypeValFromCompanionObjectNonExtCall.kt", this::doTest);
         }
 
         @TestMetadata("InvokeFunction.kt")
         public void testInvokeFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/InvokeFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/InvokeFunction.kt", this::doTest);
         }
 
         @TestMetadata("IteratorFunction.kt")
         public void testIteratorFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/IteratorFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/IteratorFunction.kt", this::doTest);
         }
 
         @TestMetadata("KT11640.kt")
         public void testKT11640() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/KT11640.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/KT11640.kt", this::doTest);
         }
 
         @TestMetadata("KT11640_1.kt")
         public void testKT11640_1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/KT11640_1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/KT11640_1.kt", this::doTest);
         }
 
         @TestMetadata("KT13689.kt")
         public void testKT13689() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/KT13689.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/KT13689.kt", this::doTest);
         }
 
         @TestMetadata("KT9875.kt")
         public void testKT9875() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/KT9875.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/KT9875.kt", this::doTest);
         }
 
         @TestMetadata("KeywordNames.kt")
         public void testKeywordNames() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/KeywordNames.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/KeywordNames.kt", this::doTest);
         }
 
         @TestMetadata("Kt2488EnumEntry.kt")
         public void testKt2488EnumEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/Kt2488EnumEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/Kt2488EnumEntry.kt", this::doTest);
         }
 
         @TestMetadata("Kt2709.kt")
         public void testKt2709() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/Kt2709.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/Kt2709.kt", this::doTest);
         }
 
         @TestMetadata("MemberImports.kt")
         public void testMemberImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/MemberImports.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/MemberImports.kt", this::doTest);
         }
 
         @TestMetadata("MembersInScope.kt")
         public void testMembersInScope() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/MembersInScope.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/MembersInScope.kt", this::doTest);
         }
 
         @TestMetadata("NestedClassReferenceOutsideClassBody.kt")
         public void testNestedClassReferenceOutsideClassBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/NestedClassReferenceOutsideClassBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/NestedClassReferenceOutsideClassBody.kt", this::doTest);
         }
 
         @TestMetadata("Overloads.kt")
         public void testOverloads() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/Overloads.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/Overloads.kt", this::doTest);
         }
 
         @TestMetadata("TwoConstructors.kt")
         public void testTwoConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/TwoConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/TwoConstructors.kt", this::doTest);
         }
 
         @TestMetadata("TypeAliasUsage.kt")
         public void testTypeAliasUsage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/TypeAliasUsage.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/TypeAliasUsage.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/editor/optimizeImports/common/kt21515")
@@ -397,32 +340,27 @@ public class JvmOptimizeImportsTestGenerated extends AbstractJvmOptimizeImportsT
 
             @TestMetadata("callableReferenceOnClass.kt")
             public void testCallableReferenceOnClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/kt21515/callableReferenceOnClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/kt21515/callableReferenceOnClass.kt", this::doTest);
             }
 
             @TestMetadata("callableReferenceOnClassWithCompanion.kt")
             public void testCallableReferenceOnClassWithCompanion() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/kt21515/callableReferenceOnClassWithCompanion.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/kt21515/callableReferenceOnClassWithCompanion.kt", this::doTest);
             }
 
             @TestMetadata("callableReferenceOnObject.kt")
             public void testCallableReferenceOnObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/kt21515/callableReferenceOnObject.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/kt21515/callableReferenceOnObject.kt", this::doTest);
             }
 
             @TestMetadata("constructor.kt")
             public void testConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/kt21515/constructor.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/kt21515/constructor.kt", this::doTest);
             }
 
             @TestMetadata("typeReference.kt")
             public void testTypeReference() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/editor/optimizeImports/common/kt21515/typeReference.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/editor/optimizeImports/common/kt21515/typeReference.kt", this::doTest);
             }
         }
     }

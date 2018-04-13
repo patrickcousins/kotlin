@@ -35,14 +35,12 @@ public class BytecodeTextJava8TestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("dataClass.kt")
         public void testDataClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/bytecodeText/hashCode/dataClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/bytecodeText/hashCode/dataClass.kt", this::doTest);
         }
 
         @TestMetadata("hashCode.kt")
         public void testHashCode() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/bytecodeText/hashCode/hashCode.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/bytecodeText/hashCode/hashCode.kt", this::doTest);
         }
     }
 }

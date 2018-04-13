@@ -23,8 +23,7 @@ import java.util.regex.Pattern;
 public class AndroidBytecodeShapeTestGenerated extends AbstractAndroidBytecodeShapeTest {
     @TestMetadata("activityWithEntityOptionsNoCache")
     public void testActivityWithEntityOptionsNoCache() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/activityWithEntityOptionsNoCache/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/activityWithEntityOptionsNoCache/", this::doTest);
     }
 
     public void testAllFilesPresentInBytecodeShape() throws Exception {
@@ -33,193 +32,161 @@ public class AndroidBytecodeShapeTestGenerated extends AbstractAndroidBytecodeSh
 
     @TestMetadata("baseClass")
     public void testBaseClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/baseClass/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/baseClass/", this::doTest);
     }
 
     @TestMetadata("baseClassFragment")
     public void testBaseClassFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/baseClassFragment/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/baseClassFragment/", this::doTest);
     }
 
     @TestMetadata("clearCache")
     public void testClearCache() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/clearCache/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/clearCache/", this::doTest);
     }
 
     @TestMetadata("clearCacheBaseClass")
     public void testClearCacheBaseClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/clearCacheBaseClass/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/clearCacheBaseClass/", this::doTest);
     }
 
     @TestMetadata("dialog")
     public void testDialog() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/dialog/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/dialog/", this::doTest);
     }
 
     @TestMetadata("extensionFunctions")
     public void testExtensionFunctions() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctions/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctions/", this::doTest);
     }
 
     @TestMetadata("extensionFunctionsFragment")
     public void testExtensionFunctionsFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctionsFragment/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctionsFragment/", this::doTest);
     }
 
     @TestMetadata("extensionFunctionsView")
     public void testExtensionFunctionsView() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctionsView/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/extensionFunctionsView/", this::doTest);
     }
 
     @TestMetadata("fqNameInAttr")
     public void testFqNameInAttr() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInAttr/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInAttr/", this::doTest);
     }
 
     @TestMetadata("fqNameInAttrFragment")
     public void testFqNameInAttrFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInAttrFragment/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInAttrFragment/", this::doTest);
     }
 
     @TestMetadata("fqNameInTag")
     public void testFqNameInTag() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInTag/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInTag/", this::doTest);
     }
 
     @TestMetadata("fqNameInTagFragment")
     public void testFqNameInTagFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInTagFragment/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fqNameInTagFragment/", this::doTest);
     }
 
     @TestMetadata("fragmentWithEntityOptionsNoCache")
     public void testFragmentWithEntityOptionsNoCache() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fragmentWithEntityOptionsNoCache/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/fragmentWithEntityOptionsNoCache/", this::doTest);
     }
 
     @TestMetadata("kt18545")
     public void testKt18545() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/kt18545/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/kt18545/", this::doTest);
     }
 
     @TestMetadata("multiFile")
     public void testMultiFile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/multiFile/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/multiFile/", this::doTest);
     }
 
     @TestMetadata("multiFileFragment")
     public void testMultiFileFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/multiFileFragment/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/multiFileFragment/", this::doTest);
     }
 
     @TestMetadata("onDestroyFragment")
     public void testOnDestroyFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/onDestroyFragment/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/onDestroyFragment/", this::doTest);
     }
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simple/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simple/", this::doTest);
     }
 
     @TestMetadata("simpleFragment")
     public void testSimpleFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleFragment/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleFragment/", this::doTest);
     }
 
     @TestMetadata("simpleFragmentProperty")
     public void testSimpleFragmentProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleFragmentProperty/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleFragmentProperty/", this::doTest);
     }
 
     @TestMetadata("simpleHashMapCacheImplementation")
     public void testSimpleHashMapCacheImplementation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleHashMapCacheImplementation/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleHashMapCacheImplementation/", this::doTest);
     }
 
     @TestMetadata("simpleView")
     public void testSimpleView() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleView/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/simpleView/", this::doTest);
     }
 
     @TestMetadata("supportExtensionFunctionsFragment")
     public void testSupportExtensionFunctionsFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportExtensionFunctionsFragment/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportExtensionFunctionsFragment/", this::doTest);
     }
 
     @TestMetadata("supportExtensionFunctionsFragmentAndroidx")
     public void testSupportExtensionFunctionsFragmentAndroidx() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportExtensionFunctionsFragmentAndroidx/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportExtensionFunctionsFragmentAndroidx/", this::doTest);
     }
 
     @TestMetadata("supportSimpleFragment")
     public void testSupportSimpleFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragment/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragment/", this::doTest);
     }
 
     @TestMetadata("supportSimpleFragmentAndroidx")
     public void testSupportSimpleFragmentAndroidx() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentAndroidx/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentAndroidx/", this::doTest);
     }
 
     @TestMetadata("supportSimpleFragmentProperty")
     public void testSupportSimpleFragmentProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentProperty/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentProperty/", this::doTest);
     }
 
     @TestMetadata("supportSimpleFragmentPropertyAndroidx")
     public void testSupportSimpleFragmentPropertyAndroidx() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentPropertyAndroidx/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/supportSimpleFragmentPropertyAndroidx/", this::doTest);
     }
 
     @TestMetadata("viewStub")
     public void testViewStub() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewStub/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewStub/", this::doTest);
     }
 
     @TestMetadata("viewWithCache")
     public void testViewWithCache() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithCache/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithCache/", this::doTest);
     }
 
     @TestMetadata("viewWithDefaultNoCache")
     public void testViewWithDefaultNoCache() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithDefaultNoCache/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithDefaultNoCache/", this::doTest);
     }
 
     @TestMetadata("viewWithEntityOptionsNoCache")
     public void testViewWithEntityOptionsNoCache() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithEntityOptionsNoCache/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-compiler/testData/codegen/bytecodeShape/viewWithEntityOptionsNoCache/", this::doTest);
     }
 }

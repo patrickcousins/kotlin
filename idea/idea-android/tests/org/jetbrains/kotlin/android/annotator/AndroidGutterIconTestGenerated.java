@@ -27,38 +27,32 @@ public class AndroidGutterIconTestGenerated extends AbstractAndroidGutterIconTes
 
     @TestMetadata("color.kt")
     public void testColor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/gutterIcon/color.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/color.kt", this::doTest);
     }
 
     @TestMetadata("drawable.kt")
     public void testDrawable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/gutterIcon/drawable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/drawable.kt", this::doTest);
     }
 
     @TestMetadata("mipmap.kt")
     public void testMipmap() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/gutterIcon/mipmap.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/mipmap.kt", this::doTest);
     }
 
     @TestMetadata("relatedFiles.kt")
     public void testRelatedFiles() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/gutterIcon/relatedFiles.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/relatedFiles.kt", this::doTest);
     }
 
     @TestMetadata("systemColor.kt")
     public void testSystemColor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/gutterIcon/systemColor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/systemColor.kt", this::doTest);
     }
 
     @TestMetadata("systemDrawable.kt")
     public void testSystemDrawable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/gutterIcon/systemDrawable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/gutterIcon/systemDrawable.kt", this::doTest);
     }
 
     @TestMetadata("idea/testData/android/gutterIcon/res")

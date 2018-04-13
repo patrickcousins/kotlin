@@ -27,170 +27,142 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
     @TestMetadata("Basic.resolve")
     public void testBasic() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/Basic.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/Basic.resolve", this::doTest);
     }
 
     @TestMetadata("ClassObjects.resolve")
     public void testClassObjects() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ClassObjects.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ClassObjects.resolve", this::doTest);
     }
 
     @TestMetadata("Classifiers.resolve")
     public void testClassifiers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/Classifiers.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/Classifiers.resolve", this::doTest);
     }
 
     @TestMetadata("DefaultParamsOfLocalFunctions.resolve")
     public void testDefaultParamsOfLocalFunctions() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/DefaultParamsOfLocalFunctions.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/DefaultParamsOfLocalFunctions.resolve", this::doTest);
     }
 
     @TestMetadata("ErrorSupertype.resolve")
     public void testErrorSupertype() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ErrorSupertype.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ErrorSupertype.resolve", this::doTest);
     }
 
     @TestMetadata("ExtensionFunctions.resolve")
     public void testExtensionFunctions() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ExtensionFunctions.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ExtensionFunctions.resolve", this::doTest);
     }
 
     @TestMetadata("FunctionVariable.resolve")
     public void testFunctionVariable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/FunctionVariable.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/FunctionVariable.resolve", this::doTest);
     }
 
     @TestMetadata("ImportFromRootScope.resolve")
     public void testImportFromRootScope() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ImportFromRootScope.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ImportFromRootScope.resolve", this::doTest);
     }
 
     @TestMetadata("ImportingRootScopeWhenProcessingImports.resolve")
     public void testImportingRootScopeWhenProcessingImports() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ImportingRootScopeWhenProcessingImports.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ImportingRootScopeWhenProcessingImports.resolve", this::doTest);
     }
 
     @TestMetadata("kt304.resolve")
     public void testKt304() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/kt304.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/kt304.resolve", this::doTest);
     }
 
     @TestMetadata("LocalObjects.resolve")
     public void testLocalObjects() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/LocalObjects.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/LocalObjects.resolve", this::doTest);
     }
 
     @TestMetadata("NestedObjects.resolve")
     public void testNestedObjects() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/NestedObjects.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/NestedObjects.resolve", this::doTest);
     }
 
     @TestMetadata("NoReferenceForErrorAnnotation.resolve")
     public void testNoReferenceForErrorAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/NoReferenceForErrorAnnotation.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/NoReferenceForErrorAnnotation.resolve", this::doTest);
     }
 
     @TestMetadata("Objects.resolve")
     public void testObjects() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/Objects.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/Objects.resolve", this::doTest);
     }
 
     @TestMetadata("Packages.resolve")
     public void testPackages() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/Packages.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/Packages.resolve", this::doTest);
     }
 
     @TestMetadata("PrimaryConstructorParameters.resolve")
     public void testPrimaryConstructorParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/PrimaryConstructorParameters.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/PrimaryConstructorParameters.resolve", this::doTest);
     }
 
     @TestMetadata("PrimaryConstructors.resolve")
     public void testPrimaryConstructors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/PrimaryConstructors.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/PrimaryConstructors.resolve", this::doTest);
     }
 
     @TestMetadata("Projections.resolve")
     public void testProjections() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/Projections.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/Projections.resolve", this::doTest);
     }
 
     @TestMetadata("PropertyAndFunctionNameClash.resolve")
     public void testPropertyAndFunctionNameClash() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/PropertyAndFunctionNameClash.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/PropertyAndFunctionNameClash.resolve", this::doTest);
     }
 
     @TestMetadata("ResolveOfInfixExpressions.resolve")
     public void testResolveOfInfixExpressions() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ResolveOfInfixExpressions.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveOfInfixExpressions.resolve", this::doTest);
     }
 
     @TestMetadata("ResolveToJava.resolve")
     public void testResolveToJava() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ResolveToJava.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveToJava.resolve", this::doTest);
     }
 
     @TestMetadata("ResolveToJava2.resolve")
     public void testResolveToJava2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ResolveToJava2.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveToJava2.resolve", this::doTest);
     }
 
     @TestMetadata("ResolveToJava3.resolve")
     public void testResolveToJava3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ResolveToJava3.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveToJava3.resolve", this::doTest);
     }
 
     @TestMetadata("ResolveToJavaTypeTransform.resolve")
     public void testResolveToJavaTypeTransform() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ResolveToJavaTypeTransform.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ResolveToJavaTypeTransform.resolve", this::doTest);
     }
 
     @TestMetadata("ScopeInteraction.resolve")
     public void testScopeInteraction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/ScopeInteraction.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/ScopeInteraction.resolve", this::doTest);
     }
 
     @TestMetadata("StringTemplates.resolve")
     public void testStringTemplates() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/StringTemplates.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/StringTemplates.resolve", this::doTest);
     }
 
     @TestMetadata("Super.resolve")
     public void testSuper() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/Super.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/Super.resolve", this::doTest);
     }
 
     @TestMetadata("TryCatch.resolve")
     public void testTryCatch() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/TryCatch.resolve");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/resolve/TryCatch.resolve", this::doTest);
     }
 
     @TestMetadata("compiler/testData/resolve/candidatesPriority")
@@ -203,104 +175,87 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("classObjectOuterResolve.resolve")
         public void testClassObjectOuterResolve() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/classObjectOuterResolve.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/classObjectOuterResolve.resolve", this::doTest);
         }
 
         @TestMetadata("closerReceiver1.resolve")
         public void testCloserReceiver1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/closerReceiver1.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/closerReceiver1.resolve", this::doTest);
         }
 
         @TestMetadata("closerReceiver2.resolve")
         public void testCloserReceiver2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/closerReceiver2.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/closerReceiver2.resolve", this::doTest);
         }
 
         @TestMetadata("closerReceiver3.resolve")
         public void testCloserReceiver3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/closerReceiver3.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/closerReceiver3.resolve", this::doTest);
         }
 
         @TestMetadata("closerScope.resolve")
         public void testCloserScope() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/closerScope.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/closerScope.resolve", this::doTest);
         }
 
         @TestMetadata("dispatchReceiverVsExtensionReceiver.resolve")
         public void testDispatchReceiverVsExtensionReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/dispatchReceiverVsExtensionReceiver.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/dispatchReceiverVsExtensionReceiver.resolve", this::doTest);
         }
 
         @TestMetadata("dispatchReceiverVsExtensionReceiver2.resolve")
         public void testDispatchReceiverVsExtensionReceiver2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/dispatchReceiverVsExtensionReceiver2.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/dispatchReceiverVsExtensionReceiver2.resolve", this::doTest);
         }
 
         @TestMetadata("extensionToCloserReceiverVsMember.resolve")
         public void testExtensionToCloserReceiverVsMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/extensionToCloserReceiverVsMember.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/extensionToCloserReceiverVsMember.resolve", this::doTest);
         }
 
         @TestMetadata("implicitThisVsNoReceiver.resolve")
         public void testImplicitThisVsNoReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/implicitThisVsNoReceiver.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/implicitThisVsNoReceiver.resolve", this::doTest);
         }
 
         @TestMetadata("implicitThisVsNoReceiver2.resolve")
         public void testImplicitThisVsNoReceiver2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/implicitThisVsNoReceiver2.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/implicitThisVsNoReceiver2.resolve", this::doTest);
         }
 
         @TestMetadata("localVsImplicitThis.resolve")
         public void testLocalVsImplicitThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/localVsImplicitThis.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/localVsImplicitThis.resolve", this::doTest);
         }
 
         @TestMetadata("memberVsExtension1.resolve")
         public void testMemberVsExtension1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/memberVsExtension1.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberVsExtension1.resolve", this::doTest);
         }
 
         @TestMetadata("memberVsExtension2.resolve")
         public void testMemberVsExtension2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/memberVsExtension2.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberVsExtension2.resolve", this::doTest);
         }
 
         @TestMetadata("memberVsExtension3.resolve")
         public void testMemberVsExtension3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/memberVsExtension3.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberVsExtension3.resolve", this::doTest);
         }
 
         @TestMetadata("memberVsLocalExtension.resolve")
         public void testMemberVsLocalExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/memberVsLocalExtension.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberVsLocalExtension.resolve", this::doTest);
         }
 
         @TestMetadata("memberWithInvokeVsNonLocal.resolve")
         public void testMemberWithInvokeVsNonLocal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/memberWithInvokeVsNonLocal.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/memberWithInvokeVsNonLocal.resolve", this::doTest);
         }
 
         @TestMetadata("wrongReceiverVsOtherError.resolve")
         public void testWrongReceiverVsOtherError() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/candidatesPriority/wrongReceiverVsOtherError.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/candidatesPriority/wrongReceiverVsOtherError.resolve", this::doTest);
         }
     }
 
@@ -314,44 +269,37 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("delegationByCall.resolve")
         public void testDelegationByCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/delegatedProperty/delegationByCall.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByCall.resolve", this::doTest);
         }
 
         @TestMetadata("delegationByConstructor.resolve")
         public void testDelegationByConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/delegatedProperty/delegationByConstructor.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByConstructor.resolve", this::doTest);
         }
 
         @TestMetadata("delegationByFun.resolve")
         public void testDelegationByFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/delegatedProperty/delegationByFun.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByFun.resolve", this::doTest);
         }
 
         @TestMetadata("delegationByObject.resolve")
         public void testDelegationByObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/delegatedProperty/delegationByObject.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByObject.resolve", this::doTest);
         }
 
         @TestMetadata("delegationByProperty.resolve")
         public void testDelegationByProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/delegatedProperty/delegationByProperty.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationByProperty.resolve", this::doTest);
         }
 
         @TestMetadata("delegationInClass.resolve")
         public void testDelegationInClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/delegatedProperty/delegationInClass.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/delegationInClass.resolve", this::doTest);
         }
 
         @TestMetadata("localDelegation.resolve")
         public void testLocalDelegation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/delegatedProperty/localDelegation.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/delegatedProperty/localDelegation.resolve", this::doTest);
         }
     }
 
@@ -365,74 +313,62 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("ImportConflictAllPackage.resolve")
         public void testImportConflictAllPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictAllPackage.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictAllPackage.resolve", this::doTest);
         }
 
         @TestMetadata("ImportConflictBetweenImportedAndRootPackage.resolve")
         public void testImportConflictBetweenImportedAndRootPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictBetweenImportedAndRootPackage.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictBetweenImportedAndRootPackage.resolve", this::doTest);
         }
 
         @TestMetadata("ImportConflictBetweenImportedAndSamePackage.resolve")
         public void testImportConflictBetweenImportedAndSamePackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictBetweenImportedAndSamePackage.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictBetweenImportedAndSamePackage.resolve", this::doTest);
         }
 
         @TestMetadata("ImportConflictForFunctions.resolve")
         public void testImportConflictForFunctions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictForFunctions.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictForFunctions.resolve", this::doTest);
         }
 
         @TestMetadata("ImportConflictPackageAndClass.resolve")
         public void testImportConflictPackageAndClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictPackageAndClass.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictPackageAndClass.resolve", this::doTest);
         }
 
         @TestMetadata("ImportConflictSameNameClass.resolve")
         public void testImportConflictSameNameClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictSameNameClass.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictSameNameClass.resolve", this::doTest);
         }
 
         @TestMetadata("ImportConflictWithClassObject.resolve")
         public void testImportConflictWithClassObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictWithClassObject.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictWithClassObject.resolve", this::doTest);
         }
 
         @TestMetadata("ImportConflictWithInFileClass.resolve")
         public void testImportConflictWithInFileClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictWithInFileClass.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictWithInFileClass.resolve", this::doTest);
         }
 
         @TestMetadata("ImportConflictWithInnerClass.resolve")
         public void testImportConflictWithInnerClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictWithInnerClass.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictWithInnerClass.resolve", this::doTest);
         }
 
         @TestMetadata("ImportConflictsWithMappedToJava.resolve")
         public void testImportConflictsWithMappedToJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportConflictsWithMappedToJava.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportConflictsWithMappedToJava.resolve", this::doTest);
         }
 
         @TestMetadata("ImportNonBlockingAnalysis.resolve")
         public void testImportNonBlockingAnalysis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportNonBlockingAnalysis.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportNonBlockingAnalysis.resolve", this::doTest);
         }
 
         @TestMetadata("ImportResolveOrderStable.resolve")
         public void testImportResolveOrderStable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/imports/ImportResolveOrderStable.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/imports/ImportResolveOrderStable.resolve", this::doTest);
         }
     }
 
@@ -446,14 +382,12 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("labelForPropertyInGetter.resolve")
         public void testLabelForPropertyInGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/labels/labelForPropertyInGetter.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/labels/labelForPropertyInGetter.resolve", this::doTest);
         }
 
         @TestMetadata("labelForPropertyInSetter.resolve")
         public void testLabelForPropertyInSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/labels/labelForPropertyInSetter.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/labels/labelForPropertyInSetter.resolve", this::doTest);
         }
     }
 
@@ -467,14 +401,12 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("kt300.resolve")
         public void testKt300() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/regressions/kt300.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/regressions/kt300.resolve", this::doTest);
         }
 
         @TestMetadata("objectInsideFun.resolve")
         public void testObjectInsideFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/regressions/objectInsideFun.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/regressions/objectInsideFun.resolve", this::doTest);
         }
     }
 
@@ -488,20 +420,17 @@ public class ResolveTestGenerated extends AbstractResolveTest {
 
         @TestMetadata("MoreSpecificVarargsOfEqualLength.resolve")
         public void testMoreSpecificVarargsOfEqualLength() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/varargs/MoreSpecificVarargsOfEqualLength.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/varargs/MoreSpecificVarargsOfEqualLength.resolve", this::doTest);
         }
 
         @TestMetadata("NilaryVsVararg.resolve")
         public void testNilaryVsVararg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/varargs/NilaryVsVararg.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/varargs/NilaryVsVararg.resolve", this::doTest);
         }
 
         @TestMetadata("UnaryVsVararg.resolve")
         public void testUnaryVsVararg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/resolve/varargs/UnaryVsVararg.resolve");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/resolve/varargs/UnaryVsVararg.resolve", this::doTest);
         }
     }
 }

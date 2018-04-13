@@ -27,37 +27,31 @@ public class LiteralKotlinToKotlinCopyPasteTestGenerated extends AbstractLiteral
 
     @TestMetadata("CollectionLiteralReference.kt")
     public void testCollectionLiteralReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/literal/CollectionLiteralReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/CollectionLiteralReference.kt", this::doTest);
     }
 
     @TestMetadata("DontEscapeEntries.kt")
     public void testDontEscapeEntries() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/literal/DontEscapeEntries.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/DontEscapeEntries.kt", this::doTest);
     }
 
     @TestMetadata("DontEscapeEntries2.kt")
     public void testDontEscapeEntries2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/literal/DontEscapeEntries2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/DontEscapeEntries2.kt", this::doTest);
     }
 
     @TestMetadata("DontEscapeThis.kt")
     public void testDontEscapeThis() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/literal/DontEscapeThis.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/DontEscapeThis.kt", this::doTest);
     }
 
     @TestMetadata("DontUnescapeLiteralWIthCode.kt")
     public void testDontUnescapeLiteralWIthCode() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/literal/DontUnescapeLiteralWIthCode.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/DontUnescapeLiteralWIthCode.kt", this::doTest);
     }
 
     @TestMetadata("UnescapeFullSelection.kt")
     public void testUnescapeFullSelection() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/copyPaste/literal/UnescapeFullSelection.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/copyPaste/literal/UnescapeFullSelection.kt", this::doTest);
     }
 }

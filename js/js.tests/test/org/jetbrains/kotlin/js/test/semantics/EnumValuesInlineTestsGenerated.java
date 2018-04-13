@@ -27,79 +27,66 @@ public class EnumValuesInlineTestsGenerated extends AbstractEnumValuesInlineTest
 
     @TestMetadata("kt10569.kt")
     public void testKt10569() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/kt10569.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/kt10569.kt", this::doTest);
     }
 
     @TestMetadata("kt18254.kt")
     public void testKt18254() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/kt18254.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/kt18254.kt", this::doTest);
     }
 
     @TestMetadata("valueOf.kt")
     public void testValueOf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valueOf.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOf.kt", this::doTest);
     }
 
     @TestMetadata("valueOfCapturedType.kt")
     public void testValueOfCapturedType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valueOfCapturedType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOfCapturedType.kt", this::doTest);
     }
 
     @TestMetadata("valueOfChain.kt")
     public void testValueOfChain() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valueOfChain.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOfChain.kt", this::doTest);
     }
 
     @TestMetadata("valueOfChainCapturedType.kt")
     public void testValueOfChainCapturedType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valueOfChainCapturedType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOfChainCapturedType.kt", this::doTest);
     }
 
     @TestMetadata("valueOfNonReified.kt")
     public void testValueOfNonReified() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valueOfNonReified.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valueOfNonReified.kt", this::doTest);
     }
 
     @TestMetadata("values.kt")
     public void testValues() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/values.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/values.kt", this::doTest);
     }
 
     @TestMetadata("valuesAsArray.kt")
     public void testValuesAsArray() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valuesAsArray.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesAsArray.kt", this::doTest);
     }
 
     @TestMetadata("valuesCapturedType.kt")
     public void testValuesCapturedType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valuesCapturedType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesCapturedType.kt", this::doTest);
     }
 
     @TestMetadata("valuesChain.kt")
     public void testValuesChain() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valuesChain.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesChain.kt", this::doTest);
     }
 
     @TestMetadata("valuesChainCapturedType.kt")
     public void testValuesChainCapturedType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valuesChainCapturedType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesChainCapturedType.kt", this::doTest);
     }
 
     @TestMetadata("valuesNonReified.kt")
     public void testValuesNonReified() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/boxInline/enum/valuesNonReified.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/boxInline/enum/valuesNonReified.kt", this::doTest);
     }
 }

@@ -27,110 +27,92 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
     @TestMetadata("async.kt")
     public void testAsync() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/async.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/async.kt", this::doTest);
     }
 
     @TestMetadata("asyncException.kt")
     public void testAsyncException() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/asyncException.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/asyncException.kt", this::doTest);
     }
 
     @TestMetadata("capturedSuperCall.kt")
     public void testCapturedSuperCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/capturedSuperCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/capturedSuperCall.kt", this::doTest);
     }
 
     @TestMetadata("defaultMethodCallFromInterface.kt")
     public void testDefaultMethodCallFromInterface() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/defaultMethodCallFromInterface.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/defaultMethodCallFromInterface.kt", this::doTest);
     }
 
     @TestMetadata("defaultMethodCallViaClass.kt")
     public void testDefaultMethodCallViaClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/defaultMethodCallViaClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/defaultMethodCallViaClass.kt", this::doTest);
     }
 
     @TestMetadata("defaultMethodCallViaInterface.kt")
     public void testDefaultMethodCallViaInterface() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/defaultMethodCallViaInterface.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/defaultMethodCallViaInterface.kt", this::doTest);
     }
 
     @TestMetadata("defaultMethodOverride.kt")
     public void testDefaultMethodOverride() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/defaultMethodOverride.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/defaultMethodOverride.kt", this::doTest);
     }
 
     @TestMetadata("dontDelegateToDefaultMethods.kt")
     public void testDontDelegateToDefaultMethods() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/dontDelegateToDefaultMethods.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/dontDelegateToDefaultMethods.kt", this::doTest);
     }
 
     @TestMetadata("functionAssertion.kt")
     public void testFunctionAssertion() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/functionAssertion.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/functionAssertion.kt", this::doTest);
     }
 
     @TestMetadata("inheritKotlin.kt")
     public void testInheritKotlin() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/inheritKotlin.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/inheritKotlin.kt", this::doTest);
     }
 
     @TestMetadata("invokeDefaultViaSuper.kt")
     public void testInvokeDefaultViaSuper() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/invokeDefaultViaSuper.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/invokeDefaultViaSuper.kt", this::doTest);
     }
 
     @TestMetadata("invokeDefaultViaSuper_16.kt")
     public void testInvokeDefaultViaSuper_16() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/invokeDefaultViaSuper_16.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/invokeDefaultViaSuper_16.kt", this::doTest);
     }
 
     @TestMetadata("longChainOfKotlinExtendsFromJavaWithDefault.kt")
     public void testLongChainOfKotlinExtendsFromJavaWithDefault() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/longChainOfKotlinExtendsFromJavaWithDefault.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/longChainOfKotlinExtendsFromJavaWithDefault.kt", this::doTest);
     }
 
     @TestMetadata("removeIf.kt")
     public void testRemoveIf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/removeIf.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/removeIf.kt", this::doTest);
     }
 
     @TestMetadata("samOnInterfaceWithDefaultMethod.kt")
     public void testSamOnInterfaceWithDefaultMethod() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/samOnInterfaceWithDefaultMethod.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/samOnInterfaceWithDefaultMethod.kt", this::doTest);
     }
 
     @TestMetadata("stream.kt")
     public void testStream() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/stream.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/stream.kt", this::doTest);
     }
 
     @TestMetadata("streamBackwardCompatibility.kt")
     public void testStreamBackwardCompatibility() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/streamBackwardCompatibility.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/streamBackwardCompatibility.kt", this::doTest);
     }
 
     @TestMetadata("useStream.kt")
     public void testUseStream() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/useStream.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/useStream.kt", this::doTest);
     }
 
     @TestMetadata("compiler/testData/codegen/java8/box/builtinStubMethods")
@@ -143,8 +125,7 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
         @TestMetadata("immutableRemove.kt")
         public void testImmutableRemove() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/builtinStubMethods/immutableRemove.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/builtinStubMethods/immutableRemove.kt", this::doTest);
         }
     }
 
@@ -158,56 +139,47 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
         @TestMetadata("byMiddleInterface.kt")
         public void testByMiddleInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/delegationBy/byMiddleInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/delegationBy/byMiddleInterface.kt", this::doTest);
         }
 
         @TestMetadata("defaultOverride.kt")
         public void testDefaultOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/delegationBy/defaultOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/delegationBy/defaultOverride.kt", this::doTest);
         }
 
         @TestMetadata("delegationToMap.kt")
         public void testDelegationToMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/delegationBy/delegationToMap.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/delegationBy/delegationToMap.kt", this::doTest);
         }
 
         @TestMetadata("diamond.kt")
         public void testDiamond() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/delegationBy/diamond.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/delegationBy/diamond.kt", this::doTest);
         }
 
         @TestMetadata("diamond2.kt")
         public void testDiamond2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/delegationBy/diamond2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/delegationBy/diamond2.kt", this::doTest);
         }
 
         @TestMetadata("inClassDeclaration.kt")
         public void testInClassDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/delegationBy/inClassDeclaration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/delegationBy/inClassDeclaration.kt", this::doTest);
         }
 
         @TestMetadata("mixed.kt")
         public void testMixed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/delegationBy/mixed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/delegationBy/mixed.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/delegationBy/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/delegationBy/simple.kt", this::doTest);
         }
 
         @TestMetadata("simple1.0.kt")
         public void testSimple1_0() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/delegationBy/simple1.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/delegationBy/simple1.0.kt", this::doTest);
         }
     }
 
@@ -221,116 +193,97 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
         @TestMetadata("bridgeInClass.kt")
         public void testBridgeInClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/bridgeInClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/bridgeInClass.kt", this::doTest);
         }
 
         @TestMetadata("bridgeInInterface.kt")
         public void testBridgeInInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/bridgeInInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/bridgeInInterface.kt", this::doTest);
         }
 
         @TestMetadata("capturedSuperCall.kt")
         public void testCapturedSuperCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/capturedSuperCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/capturedSuperCall.kt", this::doTest);
         }
 
         @TestMetadata("defaultArgs.kt")
         public void testDefaultArgs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaultArgs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaultArgs.kt", this::doTest);
         }
 
         @TestMetadata("inlineFromAnotherFile.kt")
         public void testInlineFromAnotherFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/inlineFromAnotherFile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/inlineFromAnotherFile.kt", this::doTest);
         }
 
         @TestMetadata("inlineFromStdlib.kt")
         public void testInlineFromStdlib() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/inlineFromStdlib.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/inlineFromStdlib.kt", this::doTest);
         }
 
         @TestMetadata("kt11969.kt")
         public void testKt11969() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/kt11969.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/kt11969.kt", this::doTest);
         }
 
         @TestMetadata("kt14243.kt")
         public void testKt14243() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/kt14243.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/kt14243.kt", this::doTest);
         }
 
         @TestMetadata("kt14243_2.kt")
         public void testKt14243_2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/kt14243_2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/kt14243_2.kt", this::doTest);
         }
 
         @TestMetadata("kt14243_prop.kt")
         public void testKt14243_prop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/kt14243_prop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/kt14243_prop.kt", this::doTest);
         }
 
         @TestMetadata("kt16581.kt")
         public void testKt16581() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/kt16581.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/kt16581.kt", this::doTest);
         }
 
         @TestMetadata("kt16581_2.kt")
         public void testKt16581_2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/kt16581_2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/kt16581_2.kt", this::doTest);
         }
 
         @TestMetadata("kt16588.kt")
         public void testKt16588() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/kt16588.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/kt16588.kt", this::doTest);
         }
 
         @TestMetadata("kt6301.kt")
         public void testKt6301() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/kt6301.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/kt6301.kt", this::doTest);
         }
 
         @TestMetadata("kt6301_2.kt")
         public void testKt6301_2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/kt6301_2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/kt6301_2.kt", this::doTest);
         }
 
         @TestMetadata("oneImplementation.kt")
         public void testOneImplementation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/oneImplementation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/oneImplementation.kt", this::doTest);
         }
 
         @TestMetadata("oneImplementation2.kt")
         public void testOneImplementation2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/oneImplementation2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/oneImplementation2.kt", this::doTest);
         }
 
         @TestMetadata("simpleCall.kt")
         public void testSimpleCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/simpleCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/simpleCall.kt", this::doTest);
         }
 
         @TestMetadata("simpleProperty.kt")
         public void testSimpleProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/simpleProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/simpleProperty.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/codegen/java8/box/jvm8/defaults")
@@ -339,20 +292,17 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
         public static class Defaults extends AbstractBlackBoxCodegenTest {
             @TestMetadata("accessor.kt")
             public void testAccessor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/accessor.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/accessor.kt", this::doTest);
             }
 
             @TestMetadata("accessorFromCompanion.kt")
             public void testAccessorFromCompanion() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/accessorFromCompanion.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/accessorFromCompanion.kt", this::doTest);
             }
 
             @TestMetadata("accessorsFromDefaultImpls.kt")
             public void testAccessorsFromDefaultImpls() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/accessorsFromDefaultImpls.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/accessorsFromDefaultImpls.kt", this::doTest);
             }
 
             public void testAllFilesPresentInDefaults() throws Exception {
@@ -361,140 +311,117 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
             @TestMetadata("bridgeInClass.kt")
             public void testBridgeInClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInClass.kt", this::doTest);
             }
 
             @TestMetadata("bridgeInInterface.kt")
             public void testBridgeInInterface() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInInterface.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInInterface.kt", this::doTest);
             }
 
             @TestMetadata("bridgeInInterface2.kt")
             public void testBridgeInInterface2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInInterface2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInInterface2.kt", this::doTest);
             }
 
             @TestMetadata("bridgeInInterfaceWithProperties.kt")
             public void testBridgeInInterfaceWithProperties() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInInterfaceWithProperties.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInInterfaceWithProperties.kt", this::doTest);
             }
 
             @TestMetadata("bridgeInInterfaceWithProperties2.kt")
             public void testBridgeInInterfaceWithProperties2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInInterfaceWithProperties2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeInInterfaceWithProperties2.kt", this::doTest);
             }
 
             @TestMetadata("bridgeWithJava.kt")
             public void testBridgeWithJava() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeWithJava.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/bridgeWithJava.kt", this::doTest);
             }
 
             @TestMetadata("callableReference.kt")
             public void testCallableReference() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/callableReference.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/callableReference.kt", this::doTest);
             }
 
             @TestMetadata("capturedSuperCall.kt")
             public void testCapturedSuperCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/capturedSuperCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/capturedSuperCall.kt", this::doTest);
             }
 
             @TestMetadata("defaultArgs.kt")
             public void testDefaultArgs() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/defaultArgs.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/defaultArgs.kt", this::doTest);
             }
 
             @TestMetadata("diamond.kt")
             public void testDiamond() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/diamond.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/diamond.kt", this::doTest);
             }
 
             @TestMetadata("inline.kt")
             public void testInline() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/inline.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/inline.kt", this::doTest);
             }
 
             @TestMetadata("inlineProperty.kt")
             public void testInlineProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/inlineProperty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/inlineProperty.kt", this::doTest);
             }
 
             @TestMetadata("kt11969.kt")
             public void testKt11969() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/kt11969.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/kt11969.kt", this::doTest);
             }
 
             @TestMetadata("kt14243.kt")
             public void testKt14243() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/kt14243.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/kt14243.kt", this::doTest);
             }
 
             @TestMetadata("kt14243_2.kt")
             public void testKt14243_2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/kt14243_2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/kt14243_2.kt", this::doTest);
             }
 
             @TestMetadata("kt14243_prop.kt")
             public void testKt14243_prop() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/kt14243_prop.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/kt14243_prop.kt", this::doTest);
             }
 
             @TestMetadata("oneImplementation.kt")
             public void testOneImplementation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/oneImplementation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/oneImplementation.kt", this::doTest);
             }
 
             @TestMetadata("oneImplementation2.kt")
             public void testOneImplementation2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/oneImplementation2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/oneImplementation2.kt", this::doTest);
             }
 
             @TestMetadata("privateDefaultFromDefaultImpl.kt")
             public void testPrivateDefaultFromDefaultImpl() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/privateDefaultFromDefaultImpl.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/privateDefaultFromDefaultImpl.kt", this::doTest);
             }
 
             @TestMetadata("privateInDefaultImpls.kt")
             public void testPrivateInDefaultImpls() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/privateInDefaultImpls.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/privateInDefaultImpls.kt", this::doTest);
             }
 
             @TestMetadata("simpleCall.kt")
             public void testSimpleCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/simpleCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/simpleCall.kt", this::doTest);
             }
 
             @TestMetadata("simpleProperty.kt")
             public void testSimpleProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/simpleProperty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/simpleProperty.kt", this::doTest);
             }
 
             @TestMetadata("superCall.kt")
             public void testSuperCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/superCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/superCall.kt", this::doTest);
             }
 
             @TestMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/delegationBy")
@@ -507,14 +434,12 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
                 @TestMetadata("simple.kt")
                 public void testSimple() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/delegationBy/simple.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/delegationBy/simple.kt", this::doTest);
                 }
 
                 @TestMetadata("simpleProperty.kt")
                 public void testSimpleProperty() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/delegationBy/simpleProperty.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/delegationBy/simpleProperty.kt", this::doTest);
                 }
             }
 
@@ -528,20 +453,17 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
                 @TestMetadata("noDelegationToDefaultMethodInClass.kt")
                 public void testNoDelegationToDefaultMethodInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/noDelegation/noDelegationToDefaultMethodInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/noDelegation/noDelegationToDefaultMethodInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("noDelegationToDefaultMethodInInterface.kt")
                 public void testNoDelegationToDefaultMethodInInterface() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/noDelegation/noDelegationToDefaultMethodInInterface.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/noDelegation/noDelegationToDefaultMethodInInterface.kt", this::doTest);
                 }
 
                 @TestMetadata("noDelegationToDefaultMethodInInterface2.kt")
                 public void testNoDelegationToDefaultMethodInInterface2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/noDelegation/noDelegationToDefaultMethodInInterface2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/noDelegation/noDelegationToDefaultMethodInInterface2.kt", this::doTest);
                 }
             }
 
@@ -555,8 +477,7 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
                 @TestMetadata("propertyAnnotations.kt")
                 public void testPropertyAnnotations() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/defaults/reflection/propertyAnnotations.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/defaults/reflection/propertyAnnotations.kt", this::doTest);
                 }
             }
         }
@@ -571,14 +492,12 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
             @TestMetadata("superCall.kt")
             public void testSuperCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/interfaceFlag/superCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/interfaceFlag/superCall.kt", this::doTest);
             }
 
             @TestMetadata("superCallIndirect.kt")
             public void testSuperCallIndirect() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/interfaceFlag/superCallIndirect.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/interfaceFlag/superCallIndirect.kt", this::doTest);
             }
         }
 
@@ -592,8 +511,7 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
             @TestMetadata("hashCode.kt")
             public void testHashCode() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/jvm8/optimizations/hashCode.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/jvm8/optimizations/hashCode.kt", this::doTest);
             }
         }
     }
@@ -608,20 +526,17 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
         @TestMetadata("noTypeSafeBridge.kt")
         public void testNoTypeSafeBridge() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/mapGetOrDefault/noTypeSafeBridge.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/mapGetOrDefault/noTypeSafeBridge.kt", this::doTest);
         }
 
         @TestMetadata("typeSafeBridge.kt")
         public void testTypeSafeBridge() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/mapGetOrDefault/typeSafeBridge.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/mapGetOrDefault/typeSafeBridge.kt", this::doTest);
         }
 
         @TestMetadata("typeSafeBridgeNotNullAny.kt")
         public void testTypeSafeBridgeNotNullAny() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/mapGetOrDefault/typeSafeBridgeNotNullAny.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/mapGetOrDefault/typeSafeBridgeNotNullAny.kt", this::doTest);
         }
     }
 
@@ -635,26 +550,22 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
         @TestMetadata("noDefaultImpls.kt")
         public void testNoDefaultImpls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/mapRemove/noDefaultImpls.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/mapRemove/noDefaultImpls.kt", this::doTest);
         }
 
         @TestMetadata("readOnlyMap.kt")
         public void testReadOnlyMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/mapRemove/readOnlyMap.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/mapRemove/readOnlyMap.kt", this::doTest);
         }
 
         @TestMetadata("typeSafeBridge.kt")
         public void testTypeSafeBridge() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/mapRemove/typeSafeBridge.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/mapRemove/typeSafeBridge.kt", this::doTest);
         }
 
         @TestMetadata("typeSafeBridgeNotNullAny.kt")
         public void testTypeSafeBridgeNotNullAny() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/mapRemove/typeSafeBridgeNotNullAny.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/mapRemove/typeSafeBridgeNotNullAny.kt", this::doTest);
         }
     }
 
@@ -668,38 +579,32 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
         @TestMetadata("defaultImpls.kt")
         public void testDefaultImpls() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/parametersMetadata/defaultImpls.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/parametersMetadata/defaultImpls.kt", this::doTest);
         }
 
         @TestMetadata("enum.kt")
         public void testEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/parametersMetadata/enum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/parametersMetadata/enum.kt", this::doTest);
         }
 
         @TestMetadata("extensionFunction.kt")
         public void testExtensionFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/parametersMetadata/extensionFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/parametersMetadata/extensionFunction.kt", this::doTest);
         }
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/parametersMetadata/function.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/parametersMetadata/function.kt", this::doTest);
         }
 
         @TestMetadata("innerClass.kt")
         public void testInnerClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/parametersMetadata/innerClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/parametersMetadata/innerClass.kt", this::doTest);
         }
 
         @TestMetadata("superParams.kt")
         public void testSuperParams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/parametersMetadata/superParams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/parametersMetadata/superParams.kt", this::doTest);
         }
     }
 
@@ -713,14 +618,12 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
         @TestMetadata("realParameterNames.kt")
         public void testRealParameterNames() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/reflection/realParameterNames.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/reflection/realParameterNames.kt", this::doTest);
         }
 
         @TestMetadata("synthesizedParameterNames.kt")
         public void testSynthesizedParameterNames() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/reflection/synthesizedParameterNames.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/reflection/synthesizedParameterNames.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/codegen/java8/box/reflection/parameters")
@@ -733,8 +636,7 @@ public class BlackBoxWithJava8CodegenTestGenerated extends AbstractBlackBoxCodeg
 
             @TestMetadata("javaParametersHaveDefaultNames.kt")
             public void testJavaParametersHaveDefaultNames() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/java8/box/reflection/parameters/javaParametersHaveDefaultNames.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/java8/box/reflection/parameters/javaParametersHaveDefaultNames.kt", this::doTest);
             }
         }
     }

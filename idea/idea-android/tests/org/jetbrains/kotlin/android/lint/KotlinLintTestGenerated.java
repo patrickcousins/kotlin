@@ -23,8 +23,7 @@ import java.util.regex.Pattern;
 public class KotlinLintTestGenerated extends AbstractKotlinLintTest {
     @TestMetadata("alarm.kt")
     public void testAlarm() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/alarm.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/alarm.kt", this::doTest);
     }
 
     public void testAllFilesPresentInLint() throws Exception {
@@ -33,163 +32,136 @@ public class KotlinLintTestGenerated extends AbstractKotlinLintTest {
 
     @TestMetadata("apiCheck.kt")
     public void testApiCheck() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/apiCheck.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/apiCheck.kt", this::doTest);
     }
 
     @TestMetadata("callSuper.kt")
     public void testCallSuper() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/callSuper.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/callSuper.kt", this::doTest);
     }
 
     @TestMetadata("closeCursor.kt")
     public void testCloseCursor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/closeCursor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/closeCursor.kt", this::doTest);
     }
 
     @TestMetadata("commitFragment.kt")
     public void testCommitFragment() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/commitFragment.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/commitFragment.kt", this::doTest);
     }
 
     @TestMetadata("findViewById.kt")
     public void testFindViewById() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/findViewById.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/findViewById.kt", this::doTest);
     }
 
     @TestMetadata("javaPerformance.kt")
     public void testJavaPerformance() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/javaPerformance.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/javaPerformance.kt", this::doTest);
     }
 
     @TestMetadata("javaScriptInterface.kt")
     public void testJavaScriptInterface() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/javaScriptInterface.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/javaScriptInterface.kt", this::doTest);
     }
 
     @TestMetadata("layoutInflation.kt")
     public void testLayoutInflation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/layoutInflation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/layoutInflation.kt", this::doTest);
     }
 
     @TestMetadata("log.kt")
     public void testLog() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/log.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/log.kt", this::doTest);
     }
 
     @TestMetadata("noInternationalSms.kt")
     public void testNoInternationalSms() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/noInternationalSms.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/noInternationalSms.kt", this::doTest);
     }
 
     @TestMetadata("overrideConcrete.kt")
     public void testOverrideConcrete() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/overrideConcrete.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/overrideConcrete.kt", this::doTest);
     }
 
     @TestMetadata("parcel.kt")
     public void testParcel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/parcel.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/parcel.kt", this::doTest);
     }
 
     @TestMetadata("sdCardTest.kt")
     public void testSdCardTest() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/sdCardTest.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/sdCardTest.kt", this::doTest);
     }
 
     @TestMetadata("setJavaScriptEnabled.kt")
     public void testSetJavaScriptEnabled() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/setJavaScriptEnabled.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/setJavaScriptEnabled.kt", this::doTest);
     }
 
     @TestMetadata("sharedPrefs.kt")
     public void testSharedPrefs() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/sharedPrefs.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/sharedPrefs.kt", this::doTest);
     }
 
     @TestMetadata("showDiagnosticsWhenFileIsRed.kt")
     public void testShowDiagnosticsWhenFileIsRed() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/showDiagnosticsWhenFileIsRed.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/showDiagnosticsWhenFileIsRed.kt", this::doTest);
     }
 
     @TestMetadata("sqlite.kt")
     public void testSqlite() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/sqlite.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/sqlite.kt", this::doTest);
     }
 
     @TestMetadata("supportAnnotation.kt")
     public void testSupportAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/supportAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/supportAnnotation.kt", this::doTest);
     }
 
     @TestMetadata("systemServices.kt")
     public void testSystemServices() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/systemServices.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/systemServices.kt", this::doTest);
     }
 
     @TestMetadata("toast.kt")
     public void testToast() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/toast.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/toast.kt", this::doTest);
     }
 
     @TestMetadata("valueOf.kt")
     public void testValueOf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/valueOf.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/valueOf.kt", this::doTest);
     }
 
     @TestMetadata("velocityTrackerRecycle.kt")
     public void testVelocityTrackerRecycle() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/velocityTrackerRecycle.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/velocityTrackerRecycle.kt", this::doTest);
     }
 
     @TestMetadata("viewConstructor.kt")
     public void testViewConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/viewConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/viewConstructor.kt", this::doTest);
     }
 
     @TestMetadata("viewHolder.kt")
     public void testViewHolder() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/viewHolder.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/viewHolder.kt", this::doTest);
     }
 
     @TestMetadata("wrongAnnotation.kt")
     public void testWrongAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/wrongAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/wrongAnnotation.kt", this::doTest);
     }
 
     @TestMetadata("wrongImport.kt")
     public void testWrongImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/wrongImport.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/wrongImport.kt", this::doTest);
     }
 
     @TestMetadata("wrongViewCall.kt")
     public void testWrongViewCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/lint/wrongViewCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/lint/wrongViewCall.kt", this::doTest);
     }
 }

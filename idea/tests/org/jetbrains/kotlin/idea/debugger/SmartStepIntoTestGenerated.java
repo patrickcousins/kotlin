@@ -27,187 +27,156 @@ public class SmartStepIntoTestGenerated extends AbstractSmartStepIntoTest {
 
     @TestMetadata("annotation.kt")
     public void testAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/annotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/annotation.kt", this::doTest);
     }
 
     @TestMetadata("arrayAccess.kt")
     public void testArrayAccess() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/arrayAccess.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/arrayAccess.kt", this::doTest);
     }
 
     @TestMetadata("callChain.kt")
     public void testCallChain() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/callChain.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/callChain.kt", this::doTest);
     }
 
     @TestMetadata("constructor.kt")
     public void testConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/constructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/constructor.kt", this::doTest);
     }
 
     @TestMetadata("conventionMethod.kt")
     public void testConventionMethod() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/conventionMethod.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/conventionMethod.kt", this::doTest);
     }
 
     @TestMetadata("delegatedPropertyGetter.kt")
     public void testDelegatedPropertyGetter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/delegatedPropertyGetter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/delegatedPropertyGetter.kt", this::doTest);
     }
 
     @TestMetadata("doWhile.kt")
     public void testDoWhile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/doWhile.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/doWhile.kt", this::doTest);
     }
 
     @TestMetadata("dotQualified.kt")
     public void testDotQualified() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/dotQualified.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/dotQualified.kt", this::doTest);
     }
 
     @TestMetadata("dotQualifiedInParam.kt")
     public void testDotQualifiedInParam() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/dotQualifiedInParam.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/dotQualifiedInParam.kt", this::doTest);
     }
 
     @TestMetadata("empty.kt")
     public void testEmpty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/empty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/empty.kt", this::doTest);
     }
 
     @TestMetadata("for.kt")
     public void testFor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/for.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/for.kt", this::doTest);
     }
 
     @TestMetadata("funLiteral.kt")
     public void testFunLiteral() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/funLiteral.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/funLiteral.kt", this::doTest);
     }
 
     @TestMetadata("funWithExpressionBody.kt")
     public void testFunWithExpressionBody() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/funWithExpressionBody.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/funWithExpressionBody.kt", this::doTest);
     }
 
     @TestMetadata("if.kt")
     public void testIf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/if.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/if.kt", this::doTest);
     }
 
     @TestMetadata("infixCall.kt")
     public void testInfixCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/infixCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/infixCall.kt", this::doTest);
     }
 
     @TestMetadata("inlinedFunLiteral.kt")
     public void testInlinedFunLiteral() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/inlinedFunLiteral.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/inlinedFunLiteral.kt", this::doTest);
     }
 
     @TestMetadata("inlinedFunctionalExpression.kt")
     public void testInlinedFunctionalExpression() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/inlinedFunctionalExpression.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/inlinedFunctionalExpression.kt", this::doTest);
     }
 
     @TestMetadata("invoke.kt")
     public void testInvoke() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/invoke.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/invoke.kt", this::doTest);
     }
 
     @TestMetadata("libraryFun.kt")
     public void testLibraryFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/libraryFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/libraryFun.kt", this::doTest);
     }
 
     @TestMetadata("multiline.kt")
     public void testMultiline() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/multiline.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/multiline.kt", this::doTest);
     }
 
     @TestMetadata("multilineCallChain.kt")
     public void testMultilineCallChain() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/multilineCallChain.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/multilineCallChain.kt", this::doTest);
     }
 
     @TestMetadata("object.kt")
     public void testObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/object.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/object.kt", this::doTest);
     }
 
     @TestMetadata("param.kt")
     public void testParam() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/param.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/param.kt", this::doTest);
     }
 
     @TestMetadata("parantesized.kt")
     public void testParantesized() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/parantesized.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/parantesized.kt", this::doTest);
     }
 
     @TestMetadata("propertyGetter.kt")
     public void testPropertyGetter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/propertyGetter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/propertyGetter.kt", this::doTest);
     }
 
     @TestMetadata("renderer.kt")
     public void testRenderer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/renderer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/renderer.kt", this::doTest);
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/simple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/simple.kt", this::doTest);
     }
 
     @TestMetadata("stringTemplate.kt")
     public void testStringTemplate() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/stringTemplate.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/stringTemplate.kt", this::doTest);
     }
 
     @TestMetadata("unary.kt")
     public void testUnary() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/unary.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/unary.kt", this::doTest);
     }
 
     @TestMetadata("when.kt")
     public void testWhen() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/when.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/when.kt", this::doTest);
     }
 
     @TestMetadata("while.kt")
     public void testWhile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/smartStepInto/while.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/debugger/smartStepInto/while.kt", this::doTest);
     }
 }

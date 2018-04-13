@@ -27,61 +27,51 @@ public class GotoDeclarationTestGenerated extends AbstractGotoDeclarationTest {
 
     @TestMetadata("itExtensionLambda.test")
     public void testItExtensionLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/itExtensionLambda.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itExtensionLambda.test", this::doTest);
     }
 
     @TestMetadata("itExtensionLambdaInBrackets.test")
     public void testItExtensionLambdaInBrackets() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/itExtensionLambdaInBrackets.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itExtensionLambdaInBrackets.test", this::doTest);
     }
 
     @TestMetadata("itInLambdaAsDefaultArgument.test")
     public void testItInLambdaAsDefaultArgument() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/itInLambdaAsDefaultArgument.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itInLambdaAsDefaultArgument.test", this::doTest);
     }
 
     @TestMetadata("itInLambdaWithoutCall.test")
     public void testItInLambdaWithoutCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/itInLambdaWithoutCall.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itInLambdaWithoutCall.test", this::doTest);
     }
 
     @TestMetadata("itParameterInLambda.test")
     public void testItParameterInLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/itParameterInLambda.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/itParameterInLambda.test", this::doTest);
     }
 
     @TestMetadata("labeledThisToClass.test")
     public void testLabeledThisToClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/labeledThisToClass.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/labeledThisToClass.test", this::doTest);
     }
 
     @TestMetadata("labeledThisToMemberExtension.test")
     public void testLabeledThisToMemberExtension() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/labeledThisToMemberExtension.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/labeledThisToMemberExtension.test", this::doTest);
     }
 
     @TestMetadata("thisExtensionFunction.test")
     public void testThisExtensionFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/thisExtensionFunction.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/thisExtensionFunction.test", this::doTest);
     }
 
     @TestMetadata("thisExtensionLambda.test")
     public void testThisExtensionLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/thisExtensionLambda.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/thisExtensionLambda.test", this::doTest);
     }
 
     @TestMetadata("thisInExtensionPropertyAccessor.test")
     public void testThisInExtensionPropertyAccessor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoDeclaration/thisInExtensionPropertyAccessor.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoDeclaration/thisInExtensionPropertyAccessor.test", this::doTest);
     }
 }

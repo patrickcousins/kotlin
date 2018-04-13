@@ -29,56 +29,47 @@ public class MavenConfigureProjectByChangingFileTestGenerated extends AbstractMa
 
         @TestMetadata("fixExisting")
         public void testFixExisting() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/jvm/fixExisting/");
-            doTestWithMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/fixExisting/", this::doTestWithMaven);
         }
 
         @TestMetadata("jreLib")
         public void testJreLib() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/jvm/jreLib/");
-            doTestWithMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/jreLib/", this::doTestWithMaven);
         }
 
         @TestMetadata("libraryMissed")
         public void testLibraryMissed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/jvm/libraryMissed/");
-            doTestWithMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/libraryMissed/", this::doTestWithMaven);
         }
 
         @TestMetadata("pluginMissed")
         public void testPluginMissed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/jvm/pluginMissed/");
-            doTestWithMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/pluginMissed/", this::doTestWithMaven);
         }
 
         @TestMetadata("simpleProject")
         public void testSimpleProject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/jvm/simpleProject/");
-            doTestWithMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/simpleProject/", this::doTestWithMaven);
         }
 
         @TestMetadata("simpleProjectEAP")
         public void testSimpleProjectEAP() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/jvm/simpleProjectEAP/");
-            doTestWithMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/simpleProjectEAP/", this::doTestWithMaven);
         }
 
         @TestMetadata("simpleProjectRc")
         public void testSimpleProjectRc() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/jvm/simpleProjectRc/");
-            doTestWithMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/simpleProjectRc/", this::doTestWithMaven);
         }
 
         @TestMetadata("simpleProjectSnapshot")
         public void testSimpleProjectSnapshot() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/jvm/simpleProjectSnapshot/");
-            doTestWithMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/simpleProjectSnapshot/", this::doTestWithMaven);
         }
 
         @TestMetadata("withJava9ModuleInfo")
         public void testWithJava9ModuleInfo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/jvm/withJava9ModuleInfo/");
-            doTestWithMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/jvm/withJava9ModuleInfo/", this::doTestWithMaven);
         }
     }
 
@@ -92,26 +83,22 @@ public class MavenConfigureProjectByChangingFileTestGenerated extends AbstractMa
 
         @TestMetadata("libraryMissed")
         public void testLibraryMissed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/js/libraryMissed/");
-            doTestWithJSMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/js/libraryMissed/", this::doTestWithJSMaven);
         }
 
         @TestMetadata("pluginMissed")
         public void testPluginMissed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/js/pluginMissed/");
-            doTestWithJSMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/js/pluginMissed/", this::doTestWithJSMaven);
         }
 
         @TestMetadata("simpleProject")
         public void testSimpleProject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/js/simpleProject/");
-            doTestWithJSMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/js/simpleProject/", this::doTestWithJSMaven);
         }
 
         @TestMetadata("simpleProjectSnapshot")
         public void testSimpleProjectSnapshot() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-maven/testData/configurator/js/simpleProjectSnapshot/");
-            doTestWithJSMaven(fileName);
+            KotlinTestUtils.runTest("idea/idea-maven/testData/configurator/js/simpleProjectSnapshot/", this::doTestWithJSMaven);
         }
     }
 }

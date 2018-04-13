@@ -31,110 +31,92 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class Abstract extends AbstractQuickFixTest {
         @TestMetadata("abstractFunctionInNonAbstractClass.kt")
         public void testAbstractFunctionInNonAbstractClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractFunctionInNonAbstractClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractFunctionInNonAbstractClass.kt", this::doTest);
         }
 
         @TestMetadata("abstractFunctionWithBody.kt")
         public void testAbstractFunctionWithBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractFunctionWithBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractFunctionWithBody.kt", this::doTest);
         }
 
         @TestMetadata("abstractFunctionWithBody2.kt")
         public void testAbstractFunctionWithBody2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractFunctionWithBody2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractFunctionWithBody2.kt", this::doTest);
         }
 
         @TestMetadata("abstractFunctionWithBody3.kt")
         public void testAbstractFunctionWithBody3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractFunctionWithBody3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractFunctionWithBody3.kt", this::doTest);
         }
 
         @TestMetadata("abstractFunctionWithBodyWithComments.kt")
         public void testAbstractFunctionWithBodyWithComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractFunctionWithBodyWithComments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractFunctionWithBodyWithComments.kt", this::doTest);
         }
 
         @TestMetadata("abstractFunctionWithBodyWithComments2.kt")
         public void testAbstractFunctionWithBodyWithComments2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractFunctionWithBodyWithComments2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractFunctionWithBodyWithComments2.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyInCompanionObject.kt")
         public void testAbstractPropertyInCompanionObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyInCompanionObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyInCompanionObject.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyInNonAbstractClass1.kt")
         public void testAbstractPropertyInNonAbstractClass1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyInNonAbstractClass1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyInNonAbstractClass1.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyInNonAbstractClass2.kt")
         public void testAbstractPropertyInNonAbstractClass2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyInNonAbstractClass2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyInNonAbstractClass2.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyInNonAbstractClass3.kt")
         public void testAbstractPropertyInNonAbstractClass3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyInNonAbstractClass3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyInNonAbstractClass3.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyInPrimaryConstructorParameters.kt")
         public void testAbstractPropertyInPrimaryConstructorParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyInPrimaryConstructorParameters.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyInPrimaryConstructorParameters.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyNotInClass.kt")
         public void testAbstractPropertyNotInClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyNotInClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyNotInClass.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyWIthInitializer2.kt")
         public void testAbstractPropertyWIthInitializer2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyWIthInitializer2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyWIthInitializer2.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyWIthInitializer3.kt")
         public void testAbstractPropertyWIthInitializer3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyWIthInitializer3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyWIthInitializer3.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyWithGetter1.kt")
         public void testAbstractPropertyWithGetter1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyWithGetter1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyWithGetter1.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyWithGetter2.kt")
         public void testAbstractPropertyWithGetter2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyWithGetter2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyWithGetter2.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyWithInitializer1.kt")
         public void testAbstractPropertyWithInitializer1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyWithInitializer1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyWithInitializer1.kt", this::doTest);
         }
 
         @TestMetadata("abstractPropertyWithSetter.kt")
         public void testAbstractPropertyWithSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/abstractPropertyWithSetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/abstractPropertyWithSetter.kt", this::doTest);
         }
 
         public void testAllFilesPresentInAbstract() throws Exception {
@@ -143,86 +125,72 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("makeEnumEntryAbstract.kt")
         public void testMakeEnumEntryAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/makeEnumEntryAbstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/makeEnumEntryAbstract.kt", this::doTest);
         }
 
         @TestMetadata("makeObjectMemberAbstract.kt")
         public void testMakeObjectMemberAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/makeObjectMemberAbstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/makeObjectMemberAbstract.kt", this::doTest);
         }
 
         @TestMetadata("makeTopLevelAbstract.kt")
         public void testMakeTopLevelAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/makeTopLevelAbstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/makeTopLevelAbstract.kt", this::doTest);
         }
 
         @TestMetadata("manyImpl.kt")
         public void testManyImpl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/manyImpl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/manyImpl.kt", this::doTest);
         }
 
         @TestMetadata("mustBeInitializedOrBeAbstract.kt")
         public void testMustBeInitializedOrBeAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/mustBeInitializedOrBeAbstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/mustBeInitializedOrBeAbstract.kt", this::doTest);
         }
 
         @TestMetadata("mustBeInitializedOrBeAbstractInFinalClass.kt")
         public void testMustBeInitializedOrBeAbstractInFinalClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/mustBeInitializedOrBeAbstractInFinalClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/mustBeInitializedOrBeAbstractInFinalClass.kt", this::doTest);
         }
 
         @TestMetadata("mustBeInitializedOrBeAbstractInOpenClass.kt")
         public void testMustBeInitializedOrBeAbstractInOpenClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/mustBeInitializedOrBeAbstractInOpenClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/mustBeInitializedOrBeAbstractInOpenClass.kt", this::doTest);
         }
 
         @TestMetadata("mustBeInitializedOrBeAbstractInSealedClass.kt")
         public void testMustBeInitializedOrBeAbstractInSealedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/mustBeInitializedOrBeAbstractInSealedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/mustBeInitializedOrBeAbstractInSealedClass.kt", this::doTest);
         }
 
         @TestMetadata("nonAbstractFunctionWithNoBody.kt")
         public void testNonAbstractFunctionWithNoBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/nonAbstractFunctionWithNoBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/nonAbstractFunctionWithNoBody.kt", this::doTest);
         }
 
         @TestMetadata("nonMemberAbstractFunction.kt")
         public void testNonMemberAbstractFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/nonMemberAbstractFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/nonMemberAbstractFunction.kt", this::doTest);
         }
 
         @TestMetadata("nonMemberFunctionNoBody.kt")
         public void testNonMemberFunctionNoBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/nonMemberFunctionNoBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/nonMemberFunctionNoBody.kt", this::doTest);
         }
 
         @TestMetadata("notImplementedMember.kt")
         public void testNotImplementedMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/notImplementedMember.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/notImplementedMember.kt", this::doTest);
         }
 
         @TestMetadata("notImplementedMemberFromAbstractClass.kt")
         public void testNotImplementedMemberFromAbstractClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/notImplementedMemberFromAbstractClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/notImplementedMemberFromAbstractClass.kt", this::doTest);
         }
 
         @TestMetadata("replaceOpen.kt")
         public void testReplaceOpen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/abstract/replaceOpen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/abstract/replaceOpen.kt", this::doTest);
         }
     }
 
@@ -236,158 +204,132 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic1.kt")
         public void testBasic1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/basic1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/basic1.kt", this::doTest);
         }
 
         @TestMetadata("basic2.kt")
         public void testBasic2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/basic2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/basic2.kt", this::doTest);
         }
 
         @TestMetadata("basic3.kt")
         public void testBasic3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/basic3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/basic3.kt", this::doTest);
         }
 
         @TestMetadata("basic4.kt")
         public void testBasic4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/basic4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/basic4.kt", this::doTest);
         }
 
         @TestMetadata("expression.kt")
         public void testExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/expression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/expression.kt", this::doTest);
         }
 
         @TestMetadata("file.kt")
         public void testFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/file.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/file.kt", this::doTest);
         }
 
         @TestMetadata("fromLib.kt")
         public void testFromLib() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/fromLib.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/fromLib.kt", this::doTest);
         }
 
         @TestMetadata("hasAnnotationTarget1.kt")
         public void testHasAnnotationTarget1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/hasAnnotationTarget1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/hasAnnotationTarget1.kt", this::doTest);
         }
 
         @TestMetadata("hasAnnotationTarget2.kt")
         public void testHasAnnotationTarget2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/hasAnnotationTarget2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/hasAnnotationTarget2.kt", this::doTest);
         }
 
         @TestMetadata("noBackingField.kt")
         public void testNoBackingField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/noBackingField.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/noBackingField.kt", this::doTest);
         }
 
         @TestMetadata("use-site_delegate.kt")
         public void testUse_site_delegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_delegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_delegate.kt", this::doTest);
         }
 
         @TestMetadata("use-site_field.kt")
         public void testUse_site_field() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_field.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_field.kt", this::doTest);
         }
 
         @TestMetadata("use-site_field_member.kt")
         public void testUse_site_field_member() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_field_member.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_field_member.kt", this::doTest);
         }
 
         @TestMetadata("use-site_field_member_with_delegate.kt")
         public void testUse_site_field_member_with_delegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_field_member_with_delegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_field_member_with_delegate.kt", this::doTest);
         }
 
         @TestMetadata("use-site_field_member_without_backing.kt")
         public void testUse_site_field_member_without_backing() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_field_member_without_backing.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_field_member_without_backing.kt", this::doTest);
         }
 
         @TestMetadata("use-site_field_toplevel.kt")
         public void testUse_site_field_toplevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_field_toplevel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_field_toplevel.kt", this::doTest);
         }
 
         @TestMetadata("use-site_field_toplevel_with_delegate.kt")
         public void testUse_site_field_toplevel_with_delegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_field_toplevel_with_delegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_field_toplevel_with_delegate.kt", this::doTest);
         }
 
         @TestMetadata("use-site_field_toplevel_without_backing.kt")
         public void testUse_site_field_toplevel_without_backing() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_field_toplevel_without_backing.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_field_toplevel_without_backing.kt", this::doTest);
         }
 
         @TestMetadata("use-site_file.kt")
         public void testUse_site_file() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_file.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_file.kt", this::doTest);
         }
 
         @TestMetadata("use-site_get.kt")
         public void testUse_site_get() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_get.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_get.kt", this::doTest);
         }
 
         @TestMetadata("use-site_invalid.kt")
         public void testUse_site_invalid() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_invalid.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_invalid.kt", this::doTest);
         }
 
         @TestMetadata("use-site_param.kt")
         public void testUse_site_param() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_param.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_param.kt", this::doTest);
         }
 
         @TestMetadata("use-site_property.kt")
         public void testUse_site_property() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_property.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_property.kt", this::doTest);
         }
 
         @TestMetadata("use-site_receiver.kt")
         public void testUse_site_receiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_receiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_receiver.kt", this::doTest);
         }
 
         @TestMetadata("use-site_set.kt")
         public void testUse_site_set() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_set.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_set.kt", this::doTest);
         }
 
         @TestMetadata("use-site_setparam.kt")
         public void testUse_site_setparam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addAnnotationTarget/use-site_setparam.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addAnnotationTarget/use-site_setparam.kt", this::doTest);
         }
     }
 
@@ -401,14 +343,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addCrossinline/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addCrossinline/basic.kt", this::doTest);
         }
 
         @TestMetadata("suspend.kt")
         public void testSuspend() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addCrossinline/suspend.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addCrossinline/suspend.kt", this::doTest);
         }
     }
 
@@ -418,8 +358,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class AddDataModifier extends AbstractQuickFixTest {
         @TestMetadata("abstract.kt")
         public void testAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/abstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/abstract.kt", this::doTest);
         }
 
         public void testAllFilesPresentInAddDataModifier() throws Exception {
@@ -428,92 +367,77 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("inner.kt")
         public void testInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/inner.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/inner.kt", this::doTest);
         }
 
         @TestMetadata("invisibleParameter.kt")
         public void testInvisibleParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/invisibleParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/invisibleParameter.kt", this::doTest);
         }
 
         @TestMetadata("invisibleParameter2.kt")
         public void testInvisibleParameter2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/invisibleParameter2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/invisibleParameter2.kt", this::doTest);
         }
 
         @TestMetadata("noParameter.kt")
         public void testNoParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/noParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/noParameter.kt", this::doTest);
         }
 
         @TestMetadata("notVarVal.kt")
         public void testNotVarVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/notVarVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/notVarVal.kt", this::doTest);
         }
 
         @TestMetadata("open.kt")
         public void testOpen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/open.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/open.kt", this::doTest);
         }
 
         @TestMetadata("sealed.kt")
         public void testSealed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/sealed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/sealed.kt", this::doTest);
         }
 
         @TestMetadata("test1.kt")
         public void testTest1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/test1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/test1.kt", this::doTest);
         }
 
         @TestMetadata("test2.kt")
         public void testTest2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/test2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/test2.kt", this::doTest);
         }
 
         @TestMetadata("test3.kt")
         public void testTest3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/test3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/test3.kt", this::doTest);
         }
 
         @TestMetadata("test4.kt")
         public void testTest4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/test4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/test4.kt", this::doTest);
         }
 
         @TestMetadata("test5.kt")
         public void testTest5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/test5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/test5.kt", this::doTest);
         }
 
         @TestMetadata("test6.kt")
         public void testTest6() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/test6.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/test6.kt", this::doTest);
         }
 
         @TestMetadata("test7.kt")
         public void testTest7() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/test7.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/test7.kt", this::doTest);
         }
 
         @TestMetadata("vararg.kt")
         public void testVararg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addDataModifier/vararg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addDataModifier/vararg.kt", this::doTest);
         }
     }
 
@@ -527,44 +451,37 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("implicit.kt")
         public void testImplicit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addExclExclCall/implicit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addExclExclCall/implicit.kt", this::doTest);
         }
 
         @TestMetadata("implicitFunctionCall.kt")
         public void testImplicitFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addExclExclCall/implicitFunctionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addExclExclCall/implicitFunctionCall.kt", this::doTest);
         }
 
         @TestMetadata("normal.kt")
         public void testNormal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addExclExclCall/normal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addExclExclCall/normal.kt", this::doTest);
         }
 
         @TestMetadata("normal2.kt")
         public void testNormal2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addExclExclCall/normal2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addExclExclCall/normal2.kt", this::doTest);
         }
 
         @TestMetadata("null.kt")
         public void testNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addExclExclCall/null.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addExclExclCall/null.kt", this::doTest);
         }
 
         @TestMetadata("nullExpression.kt")
         public void testNullExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addExclExclCall/nullExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addExclExclCall/nullExpression.kt", this::doTest);
         }
 
         @TestMetadata("operationIn.kt")
         public void testOperationIn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addExclExclCall/operationIn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addExclExclCall/operationIn.kt", this::doTest);
         }
     }
 
@@ -578,38 +495,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addGenericUpperBound/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addGenericUpperBound/basic.kt", this::doTest);
         }
 
         @TestMetadata("boundAlreadyExists.kt")
         public void testBoundAlreadyExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addGenericUpperBound/boundAlreadyExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addGenericUpperBound/boundAlreadyExists.kt", this::doTest);
         }
 
         @TestMetadata("inferenceTwoParams.kt")
         public void testInferenceTwoParams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addGenericUpperBound/inferenceTwoParams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addGenericUpperBound/inferenceTwoParams.kt", this::doTest);
         }
 
         @TestMetadata("kClassRuntime.kt")
         public void testKClassRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addGenericUpperBound/kClassRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addGenericUpperBound/kClassRuntime.kt", this::doTest);
         }
 
         @TestMetadata("paramAsBound.kt")
         public void testParamAsBound() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addGenericUpperBound/paramAsBound.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addGenericUpperBound/paramAsBound.kt", this::doTest);
         }
 
         @TestMetadata("withinDeclaration.kt")
         public void testWithinDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addGenericUpperBound/withinDeclaration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addGenericUpperBound/withinDeclaration.kt", this::doTest);
         }
     }
 
@@ -623,98 +534,82 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("localVar.kt")
         public void testLocalVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/localVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/localVar.kt", this::doTest);
         }
 
         @TestMetadata("memberExtensionProperty.kt")
         public void testMemberExtensionProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/memberExtensionProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/memberExtensionProperty.kt", this::doTest);
         }
 
         @TestMetadata("memberExtensionPropertyVarGetterOnly.kt")
         public void testMemberExtensionPropertyVarGetterOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/memberExtensionPropertyVarGetterOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/memberExtensionPropertyVarGetterOnly.kt", this::doTest);
         }
 
         @TestMetadata("memberExtensionPropertyVarSetterOnly.kt")
         public void testMemberExtensionPropertyVarSetterOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/memberExtensionPropertyVarSetterOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/memberExtensionPropertyVarSetterOnly.kt", this::doTest);
         }
 
         @TestMetadata("memberProperty.kt")
         public void testMemberProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/memberProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/memberProperty.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyVarGetterOnly.kt")
         public void testMemberPropertyVarGetterOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/memberPropertyVarGetterOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/memberPropertyVarGetterOnly.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyVarSetterOnly.kt")
         public void testMemberPropertyVarSetterOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/memberPropertyVarSetterOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/memberPropertyVarSetterOnly.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyWithAccessor.kt")
         public void testMemberPropertyWithAccessor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/memberPropertyWithAccessor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/memberPropertyWithAccessor.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyWithDelegateRuntime.kt")
         public void testMemberPropertyWithDelegateRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/memberPropertyWithDelegateRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/memberPropertyWithDelegateRuntime.kt", this::doTest);
         }
 
         @TestMetadata("topLevelExtensionProperty.kt")
         public void testTopLevelExtensionProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/topLevelExtensionProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/topLevelExtensionProperty.kt", this::doTest);
         }
 
         @TestMetadata("topLevelExtensionPropertySetterOnly.kt")
         public void testTopLevelExtensionPropertySetterOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/topLevelExtensionPropertySetterOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/topLevelExtensionPropertySetterOnly.kt", this::doTest);
         }
 
         @TestMetadata("topLevelProperty.kt")
         public void testTopLevelProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/topLevelProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/topLevelProperty.kt", this::doTest);
         }
 
         @TestMetadata("topLevelPropertyVarGetterOnly.kt")
         public void testTopLevelPropertyVarGetterOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/topLevelPropertyVarGetterOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/topLevelPropertyVarGetterOnly.kt", this::doTest);
         }
 
         @TestMetadata("topLevelPropertyVarSetterOnly.kt")
         public void testTopLevelPropertyVarSetterOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/topLevelPropertyVarSetterOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/topLevelPropertyVarSetterOnly.kt", this::doTest);
         }
 
         @TestMetadata("topLevelPropertyWithDelegateRuntime.kt")
         public void testTopLevelPropertyWithDelegateRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/topLevelPropertyWithDelegateRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/topLevelPropertyWithDelegateRuntime.kt", this::doTest);
         }
 
         @TestMetadata("topLevelPropertyWithGetter.kt")
         public void testTopLevelPropertyWithGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInitializer/topLevelPropertyWithGetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInitializer/topLevelPropertyWithGetter.kt", this::doTest);
         }
     }
 
@@ -728,14 +623,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInline/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInline/basic.kt", this::doTest);
         }
 
         @TestMetadata("local.kt")
         public void testLocal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInline/local.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInline/local.kt", this::doTest);
         }
     }
 
@@ -749,8 +642,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addInlineToReifiedFunctionFix/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addInlineToReifiedFunctionFix/basic.kt", this::doTest);
         }
     }
 
@@ -764,14 +656,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("functionOverride.kt")
         public void testFunctionOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addJvmDefault/functionOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addJvmDefault/functionOverride.kt", this::doTest);
         }
 
         @TestMetadata("propertyOverride.kt")
         public void testPropertyOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addJvmDefault/propertyOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addJvmDefault/propertyOverride.kt", this::doTest);
         }
     }
 
@@ -785,26 +675,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addNewLineAfterAnnotations/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addNewLineAfterAnnotations/basic.kt", this::doTest);
         }
 
         @TestMetadata("manyAnnotations.kt")
         public void testManyAnnotations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addNewLineAfterAnnotations/manyAnnotations.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addNewLineAfterAnnotations/manyAnnotations.kt", this::doTest);
         }
 
         @TestMetadata("poorlyFormattedExpression.kt")
         public void testPoorlyFormattedExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addNewLineAfterAnnotations/poorlyFormattedExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addNewLineAfterAnnotations/poorlyFormattedExpression.kt", this::doTest);
         }
 
         @TestMetadata("preserveComments.kt")
         public void testPreserveComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addNewLineAfterAnnotations/preserveComments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addNewLineAfterAnnotations/preserveComments.kt", this::doTest);
         }
     }
 
@@ -818,14 +704,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addNoinline/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addNoinline/basic.kt", this::doTest);
         }
 
         @TestMetadata("suspend.kt")
         public void testSuspend() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addNoinline/suspend.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addNoinline/suspend.kt", this::doTest);
         }
     }
 
@@ -839,20 +723,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("doubleColonClass.kt")
         public void testDoubleColonClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addReifiedToTypeParameterOfFunctionFix/doubleColonClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addReifiedToTypeParameterOfFunctionFix/doubleColonClass.kt", this::doTest);
         }
 
         @TestMetadata("secondTypeParameter.kt")
         public void testSecondTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addReifiedToTypeParameterOfFunctionFix/secondTypeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addReifiedToTypeParameterOfFunctionFix/secondTypeParameter.kt", this::doTest);
         }
 
         @TestMetadata("toTypedArray.kt")
         public void testToTypedArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addReifiedToTypeParameterOfFunctionFix/toTypedArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addReifiedToTypeParameterOfFunctionFix/toTypedArray.kt", this::doTest);
         }
     }
 
@@ -866,8 +747,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addRunBeforeLambda/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addRunBeforeLambda/basic.kt", this::doTest);
         }
     }
 
@@ -881,38 +761,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("qualifiedArrayList.kt")
         public void testQualifiedArrayList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/qualifiedArrayList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/qualifiedArrayList.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedList.kt")
         public void testQualifiedList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/qualifiedList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/qualifiedList.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedMap.kt")
         public void testQualifiedMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/qualifiedMap.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/qualifiedMap.kt", this::doTest);
         }
 
         @TestMetadata("unqualifiedList.kt")
         public void testUnqualifiedList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/unqualifiedList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/unqualifiedList.kt", this::doTest);
         }
 
         @TestMetadata("unqualifiedMap.kt")
         public void testUnqualifiedMap() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/unqualifiedMap.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/unqualifiedMap.kt", this::doTest);
         }
 
         @TestMetadata("unqualifiedMapOneArg.kt")
         public void testUnqualifiedMapOneArg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/unqualifiedMapOneArg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/unqualifiedMapOneArg.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/addStarProjections/cast")
@@ -925,26 +799,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("changeFunctionalToStarProjection.kt")
             public void testChangeFunctionalToStarProjection() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/cast/changeFunctionalToStarProjection.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/cast/changeFunctionalToStarProjection.kt", this::doTest);
             }
 
             @TestMetadata("changeToStarProjection.kt")
             public void testChangeToStarProjection() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/cast/changeToStarProjection.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/cast/changeToStarProjection.kt", this::doTest);
             }
 
             @TestMetadata("changeToStarProjectionNullable.kt")
             public void testChangeToStarProjectionNullable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/cast/changeToStarProjectionNullable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/cast/changeToStarProjectionNullable.kt", this::doTest);
             }
 
             @TestMetadata("uncheckedCastOnTypeParameter.kt")
             public void testUncheckedCastOnTypeParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/cast/uncheckedCastOnTypeParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/cast/uncheckedCastOnTypeParameter.kt", this::doTest);
             }
         }
 
@@ -958,20 +828,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("changeToStarProjectionMultipleParameters.kt")
             public void testChangeToStarProjectionMultipleParameters() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/checkType/changeToStarProjectionMultipleParameters.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/checkType/changeToStarProjectionMultipleParameters.kt", this::doTest);
             }
 
             @TestMetadata("changeToStarProjectionNullable.kt")
             public void testChangeToStarProjectionNullable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/checkType/changeToStarProjectionNullable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/checkType/changeToStarProjectionNullable.kt", this::doTest);
             }
 
             @TestMetadata("changeToStarProjectionSingleParameter.kt")
             public void testChangeToStarProjectionSingleParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/checkType/changeToStarProjectionSingleParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/checkType/changeToStarProjectionSingleParameter.kt", this::doTest);
             }
         }
 
@@ -985,50 +852,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("inner1.kt")
             public void testInner1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/inner/inner1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/inner/inner1.kt", this::doTest);
             }
 
             @TestMetadata("inner2.kt")
             public void testInner2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/inner/inner2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/inner/inner2.kt", this::doTest);
             }
 
             @TestMetadata("inner3.kt")
             public void testInner3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/inner/inner3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/inner/inner3.kt", this::doTest);
             }
 
             @TestMetadata("inner4.kt")
             public void testInner4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/inner/inner4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/inner/inner4.kt", this::doTest);
             }
 
             @TestMetadata("inner5.kt")
             public void testInner5() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/inner/inner5.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/inner/inner5.kt", this::doTest);
             }
 
             @TestMetadata("inner6.kt")
             public void testInner6() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/inner/inner6.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/inner/inner6.kt", this::doTest);
             }
 
             @TestMetadata("inner7.kt")
             public void testInner7() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/inner/inner7.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/inner/inner7.kt", this::doTest);
             }
 
             @TestMetadata("inner8.kt")
             public void testInner8() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/inner/inner8.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/inner/inner8.kt", this::doTest);
             }
         }
 
@@ -1042,38 +901,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("qualifiedArrayList.kt")
             public void testQualifiedArrayList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/when/qualifiedArrayList.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/when/qualifiedArrayList.kt", this::doTest);
             }
 
             @TestMetadata("qualifiedList.kt")
             public void testQualifiedList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/when/qualifiedList.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/when/qualifiedList.kt", this::doTest);
             }
 
             @TestMetadata("qualifiedMap.kt")
             public void testQualifiedMap() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/when/qualifiedMap.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/when/qualifiedMap.kt", this::doTest);
             }
 
             @TestMetadata("unqualifiedList.kt")
             public void testUnqualifiedList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/when/unqualifiedList.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/when/unqualifiedList.kt", this::doTest);
             }
 
             @TestMetadata("unqualifiedMap.kt")
             public void testUnqualifiedMap() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/when/unqualifiedMap.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/when/unqualifiedMap.kt", this::doTest);
             }
 
             @TestMetadata("unqualifiedMapOneArg.kt")
             public void testUnqualifiedMapOneArg() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addStarProjections/when/unqualifiedMapOneArg.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/addStarProjections/when/unqualifiedMapOneArg.kt", this::doTest);
             }
         }
     }
@@ -1088,38 +941,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("fakeOverride.kt")
         public void testFakeOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addSuspend/fakeOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addSuspend/fakeOverride.kt", this::doTest);
         }
 
         @TestMetadata("fakeOverride2.kt")
         public void testFakeOverride2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addSuspend/fakeOverride2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addSuspend/fakeOverride2.kt", this::doTest);
         }
 
         @TestMetadata("middleClass.kt")
         public void testMiddleClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addSuspend/middleClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addSuspend/middleClass.kt", this::doTest);
         }
 
         @TestMetadata("middleClass2.kt")
         public void testMiddleClass2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addSuspend/middleClass2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addSuspend/middleClass2.kt", this::doTest);
         }
 
         @TestMetadata("nonOverridden.kt")
         public void testNonOverridden() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addSuspend/nonOverridden.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addSuspend/nonOverridden.kt", this::doTest);
         }
 
         @TestMetadata("nonOverridden2.kt")
         public void testNonOverridden2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addSuspend/nonOverridden2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addSuspend/nonOverridden2.kt", this::doTest);
         }
     }
 
@@ -1133,62 +980,52 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("annotationWithArrayLiteralDouble.kt")
         public void testAnnotationWithArrayLiteralDouble() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithArrayLiteralDouble.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithArrayLiteralDouble.kt", this::doTest);
         }
 
         @TestMetadata("annotationWithArrayLiteralInt.kt")
         public void testAnnotationWithArrayLiteralInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithArrayLiteralInt.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithArrayLiteralInt.kt", this::doTest);
         }
 
         @TestMetadata("annotationWithArrayLiteralString.kt")
         public void testAnnotationWithArrayLiteralString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithArrayLiteralString.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithArrayLiteralString.kt", this::doTest);
         }
 
         @TestMetadata("annotationWithVarargArrayLiteralDouble.kt")
         public void testAnnotationWithVarargArrayLiteralDouble() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargArrayLiteralDouble.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargArrayLiteralDouble.kt", this::doTest);
         }
 
         @TestMetadata("annotationWithVarargArrayLiteralInt.kt")
         public void testAnnotationWithVarargArrayLiteralInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargArrayLiteralInt.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargArrayLiteralInt.kt", this::doTest);
         }
 
         @TestMetadata("annotationWithVarargArrayLiteralString.kt")
         public void testAnnotationWithVarargArrayLiteralString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargArrayLiteralString.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargArrayLiteralString.kt", this::doTest);
         }
 
         @TestMetadata("annotationWithVarargDoubleArray.kt")
         public void testAnnotationWithVarargDoubleArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargDoubleArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargDoubleArray.kt", this::doTest);
         }
 
         @TestMetadata("annotationWithVarargIntArray.kt")
         public void testAnnotationWithVarargIntArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargIntArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/annotationWithVarargIntArray.kt", this::doTest);
         }
 
         @TestMetadata("noDefaultValue.kt")
         public void testNoDefaultValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/noDefaultValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/noDefaultValue.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addTypeAnnotationToValueParameter/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addTypeAnnotationToValueParameter/simple.kt", this::doTest);
         }
     }
 
@@ -1198,14 +1035,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class AddValVar extends AbstractQuickFixTest {
         @TestMetadata("addVal.kt")
         public void testAddVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addValVar/addVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addValVar/addVal.kt", this::doTest);
         }
 
         @TestMetadata("addValAfterVarArg.kt")
         public void testAddValAfterVarArg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addValVar/addValAfterVarArg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addValVar/addValAfterVarArg.kt", this::doTest);
         }
 
         public void testAllFilesPresentInAddValVar() throws Exception {
@@ -1219,14 +1054,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class AddVarianceModifier extends AbstractQuickFixTest {
         @TestMetadata("abstractIn.kt")
         public void testAbstractIn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addVarianceModifier/abstractIn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addVarianceModifier/abstractIn.kt", this::doTest);
         }
 
         @TestMetadata("abstractOut.kt")
         public void testAbstractOut() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addVarianceModifier/abstractOut.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addVarianceModifier/abstractOut.kt", this::doTest);
         }
 
         public void testAllFilesPresentInAddVarianceModifier() throws Exception {
@@ -1235,8 +1068,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("emptyTest.kt")
         public void testEmptyTest() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/addVarianceModifier/emptyTest.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/addVarianceModifier/emptyTest.kt", this::doTest);
         }
     }
 
@@ -1250,74 +1082,62 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("differentNameProperty.kt")
         public void testDifferentNameProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/differentNameProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/differentNameProperty.kt", this::doTest);
         }
 
         @TestMetadata("differentNameProperty2.kt")
         public void testDifferentNameProperty2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/differentNameProperty2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/differentNameProperty2.kt", this::doTest);
         }
 
         @TestMetadata("differentTypeProperty.kt")
         public void testDifferentTypeProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/differentTypeProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/differentTypeProperty.kt", this::doTest);
         }
 
         @TestMetadata("differentTypeProperty2.kt")
         public void testDifferentTypeProperty2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/differentTypeProperty2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/differentTypeProperty2.kt", this::doTest);
         }
 
         @TestMetadata("inSecondaryConstructor.kt")
         public void testInSecondaryConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/inSecondaryConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/inSecondaryConstructor.kt", this::doTest);
         }
 
         @TestMetadata("noProperty.kt")
         public void testNoProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/noProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/noProperty.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedThis.kt")
         public void testQualifiedThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/qualifiedThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/qualifiedThis.kt", this::doTest);
         }
 
         @TestMetadata("sameProperty.kt")
         public void testSameProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/sameProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/sameProperty.kt", this::doTest);
         }
 
         @TestMetadata("sameProperty2.kt")
         public void testSameProperty2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/sameProperty2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/sameProperty2.kt", this::doTest);
         }
 
         @TestMetadata("sameProperty3.kt")
         public void testSameProperty3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/sameProperty3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/sameProperty3.kt", this::doTest);
         }
 
         @TestMetadata("valProperty.kt")
         public void testValProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/valProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/valProperty.kt", this::doTest);
         }
 
         @TestMetadata("valProperty2.kt")
         public void testValProperty2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/assignToProperty/valProperty2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/assignToProperty/valProperty2.kt", this::doTest);
         }
     }
 
@@ -1331,140 +1151,117 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("checkNoStackOverflowInImportInnerClassInCurrentFile.kt")
         public void testCheckNoStackOverflowInImportInnerClassInCurrentFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/checkNoStackOverflowInImportInnerClassInCurrentFile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/checkNoStackOverflowInImportInnerClassInCurrentFile.kt", this::doTest);
         }
 
         @TestMetadata("enumEntries.kt")
         public void testEnumEntries() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/enumEntries.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/enumEntries.kt", this::doTest);
         }
 
         @TestMetadata("enumEntriesJsRuntime.kt")
         public void testEnumEntriesJsRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/enumEntriesJsRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/enumEntriesJsRuntime.kt", this::doTest);
         }
 
         @TestMetadata("excludedCoroutineImpl.kt")
         public void testExcludedCoroutineImpl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/excludedCoroutineImpl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/excludedCoroutineImpl.kt", this::doTest);
         }
 
         @TestMetadata("excludedCoroutineIntrinsics.kt")
         public void testExcludedCoroutineIntrinsics() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/excludedCoroutineIntrinsics.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/excludedCoroutineIntrinsics.kt", this::doTest);
         }
 
         @TestMetadata("excludedFromImport.kt")
         public void testExcludedFromImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/excludedFromImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/excludedFromImport.kt", this::doTest);
         }
 
         @TestMetadata("infixCallAndObject.kt")
         public void testInfixCallAndObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/infixCallAndObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/infixCallAndObject.kt", this::doTest);
         }
 
         @TestMetadata("kt17525.kt")
         public void testKt17525() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/kt17525.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/kt17525.kt", this::doTest);
         }
 
         @TestMetadata("libraryPropertyJsRuntime.kt")
         public void testLibraryPropertyJsRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/libraryPropertyJsRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/libraryPropertyJsRuntime.kt", this::doTest);
         }
 
         @TestMetadata("libraryPropertyRuntime.kt")
         public void testLibraryPropertyRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/libraryPropertyRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/libraryPropertyRuntime.kt", this::doTest);
         }
 
         @TestMetadata("libraryTopLevelFunctionImportJsRuntime.kt")
         public void testLibraryTopLevelFunctionImportJsRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/libraryTopLevelFunctionImportJsRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/libraryTopLevelFunctionImportJsRuntime.kt", this::doTest);
         }
 
         @TestMetadata("libraryTopLevelFunctionImportRuntime.kt")
         public void testLibraryTopLevelFunctionImportRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/libraryTopLevelFunctionImportRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/libraryTopLevelFunctionImportRuntime.kt", this::doTest);
         }
 
         @TestMetadata("namelessClass.kt")
         public void testNamelessClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/namelessClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/namelessClass.kt", this::doTest);
         }
 
         @TestMetadata("namelessFunction.kt")
         public void testNamelessFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/namelessFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/namelessFunction.kt", this::doTest);
         }
 
         @TestMetadata("namelessObject.kt")
         public void testNamelessObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/namelessObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/namelessObject.kt", this::doTest);
         }
 
         @TestMetadata("namelessParameter.kt")
         public void testNamelessParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/namelessParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/namelessParameter.kt", this::doTest);
         }
 
         @TestMetadata("namelessProperty.kt")
         public void testNamelessProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/namelessProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/namelessProperty.kt", this::doTest);
         }
 
         @TestMetadata("noImportForAlreadyImported.kt")
         public void testNoImportForAlreadyImported() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportForAlreadyImported.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportForAlreadyImported.kt", this::doTest);
         }
 
         @TestMetadata("noImportForIndex.kt")
         public void testNoImportForIndex() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/noImportForIndex.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/noImportForIndex.kt", this::doTest);
         }
 
         @TestMetadata("notExcludedFromImportWhenInternalUse.kt")
         public void testNotExcludedFromImportWhenInternalUse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/notExcludedFromImportWhenInternalUse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/notExcludedFromImportWhenInternalUse.kt", this::doTest);
         }
 
         @TestMetadata("notForThisLabel.kt")
         public void testNotForThisLabel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/notForThisLabel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/notForThisLabel.kt", this::doTest);
         }
 
         @TestMetadata("sAMConstructorFromLambda.kt")
         public void testSAMConstructorFromLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/sAMConstructorFromLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/sAMConstructorFromLambda.kt", this::doTest);
         }
 
         @TestMetadata("unresolvedReferenceInCall.kt")
         public void testUnresolvedReferenceInCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/unresolvedReferenceInCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/unresolvedReferenceInCall.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/autoImports/kt21515")
@@ -1477,20 +1274,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("callableReferenceFromDeprecated.kt")
             public void testCallableReferenceFromDeprecated() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/kt21515/callableReferenceFromDeprecated.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/kt21515/callableReferenceFromDeprecated.kt", this::doTest);
             }
 
             @TestMetadata("classifierFromCompanionObjectDeprecationEnabled.kt")
             public void testClassifierFromCompanionObjectDeprecationEnabled() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/kt21515/classifierFromCompanionObjectDeprecationEnabled.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/kt21515/classifierFromCompanionObjectDeprecationEnabled.kt", this::doTest);
             }
 
             @TestMetadata("constructorFromDeprecated.kt")
             public void testConstructorFromDeprecated() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/autoImports/kt21515/constructorFromDeprecated.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/autoImports/kt21515/constructorFromDeprecated.kt", this::doTest);
             }
         }
     }
@@ -1505,26 +1299,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("usedInDerivedClass.kt")
         public void testUsedInDerivedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/canBeParameter/usedInDerivedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/canBeParameter/usedInDerivedClass.kt", this::doTest);
         }
 
         @TestMetadata("usedInProperty.kt")
         public void testUsedInProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/canBeParameter/usedInProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/canBeParameter/usedInProperty.kt", this::doTest);
         }
 
         @TestMetadata("usedPrivateInInitializer.kt")
         public void testUsedPrivateInInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/canBeParameter/usedPrivateInInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/canBeParameter/usedPrivateInInitializer.kt", this::doTest);
         }
 
         @TestMetadata("usedVarArg.kt")
         public void testUsedVarArg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/canBeParameter/usedVarArg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/canBeParameter/usedVarArg.kt", this::doTest);
         }
     }
 
@@ -1538,32 +1328,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("commentAfter.kt")
         public void testCommentAfter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/canBePrimaryConstructorProperty/commentAfter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/canBePrimaryConstructorProperty/commentAfter.kt", this::doTest);
         }
 
         @TestMetadata("commentAhead.kt")
         public void testCommentAhead() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/canBePrimaryConstructorProperty/commentAhead.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/canBePrimaryConstructorProperty/commentAhead.kt", this::doTest);
         }
 
         @TestMetadata("protectedOpenVar.kt")
         public void testProtectedOpenVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/canBePrimaryConstructorProperty/protectedOpenVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/canBePrimaryConstructorProperty/protectedOpenVar.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/canBePrimaryConstructorProperty/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/canBePrimaryConstructorProperty/simple.kt", this::doTest);
         }
 
         @TestMetadata("vararg.kt")
         public void testVararg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/canBePrimaryConstructorProperty/vararg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/canBePrimaryConstructorProperty/vararg.kt", this::doTest);
         }
     }
 
@@ -1573,50 +1358,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class ChangeSignature extends AbstractQuickFixTest {
         @TestMetadata("addConstructorParameter.kt")
         public void testAddConstructorParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addConstructorParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addConstructorParameter.kt", this::doTest);
         }
 
         @TestMetadata("addFunctionParameter.kt")
         public void testAddFunctionParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addFunctionParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addFunctionParameter.kt", this::doTest);
         }
 
         @TestMetadata("addFunctionParameterAndChangeTypes.kt")
         public void testAddFunctionParameterAndChangeTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addFunctionParameterAndChangeTypes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addFunctionParameterAndChangeTypes.kt", this::doTest);
         }
 
         @TestMetadata("addFunctionParameterLongNameRuntime.kt")
         public void testAddFunctionParameterLongNameRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addFunctionParameterLongNameRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addFunctionParameterLongNameRuntime.kt", this::doTest);
         }
 
         @TestMetadata("addNothingReturnType.kt")
         public void testAddNothingReturnType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addNothingReturnType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addNothingReturnType.kt", this::doTest);
         }
 
         @TestMetadata("addParameterNotAvailableForBuiltins.kt")
         public void testAddParameterNotAvailableForBuiltins() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addParameterNotAvailableForBuiltins.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addParameterNotAvailableForBuiltins.kt", this::doTest);
         }
 
         @TestMetadata("addParameterNotAvailableForLibrary.kt")
         public void testAddParameterNotAvailableForLibrary() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addParameterNotAvailableForLibrary.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addParameterNotAvailableForLibrary.kt", this::doTest);
         }
 
         @TestMetadata("addParameterToFakeOverride.kt")
         public void testAddParameterToFakeOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/addParameterToFakeOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/addParameterToFakeOverride.kt", this::doTest);
         }
 
         public void testAllFilesPresentInChangeSignature() throws Exception {
@@ -1625,140 +1402,117 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("changeFunctionLiteralParameters1.kt")
         public void testChangeFunctionLiteralParameters1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/changeFunctionLiteralParameters1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/changeFunctionLiteralParameters1.kt", this::doTest);
         }
 
         @TestMetadata("changeFunctionLiteralParameters2.kt")
         public void testChangeFunctionLiteralParameters2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/changeFunctionLiteralParameters2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/changeFunctionLiteralParameters2.kt", this::doTest);
         }
 
         @TestMetadata("complexHierarchy.kt")
         public void testComplexHierarchy() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/complexHierarchy.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/complexHierarchy.kt", this::doTest);
         }
 
         @TestMetadata("complexHierarchyHead.kt")
         public void testComplexHierarchyHead() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/complexHierarchyHead.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/complexHierarchyHead.kt", this::doTest);
         }
 
         @TestMetadata("complexHierarchyTail.kt")
         public void testComplexHierarchyTail() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/complexHierarchyTail.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/complexHierarchyTail.kt", this::doTest);
         }
 
         @TestMetadata("fixExtensionLambdaSignature.kt")
         public void testFixExtensionLambdaSignature() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/fixExtensionLambdaSignature.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/fixExtensionLambdaSignature.kt", this::doTest);
         }
 
         @TestMetadata("linearHierarchy.kt")
         public void testLinearHierarchy() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/linearHierarchy.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/linearHierarchy.kt", this::doTest);
         }
 
         @TestMetadata("notAvailableForSynthesized.kt")
         public void testNotAvailableForSynthesized() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/notAvailableForSynthesized.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/notAvailableForSynthesized.kt", this::doTest);
         }
 
         @TestMetadata("notEditable.kt")
         public void testNotEditable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/notEditable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/notEditable.kt", this::doTest);
         }
 
         @TestMetadata("removeConstructorParameter.kt")
         public void testRemoveConstructorParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeConstructorParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeConstructorParameter.kt", this::doTest);
         }
 
         @TestMetadata("removeFunctionFirstParameter.kt")
         public void testRemoveFunctionFirstParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeFunctionFirstParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeFunctionFirstParameter.kt", this::doTest);
         }
 
         @TestMetadata("removeFunctionSecondParameter1.kt")
         public void testRemoveFunctionSecondParameter1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeFunctionSecondParameter1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeFunctionSecondParameter1.kt", this::doTest);
         }
 
         @TestMetadata("removeFunctionSecondParameter2.kt")
         public void testRemoveFunctionSecondParameter2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeFunctionSecondParameter2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeFunctionSecondParameter2.kt", this::doTest);
         }
 
         @TestMetadata("removeNamedParameter.kt")
         public void testRemoveNamedParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeNamedParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeNamedParameter.kt", this::doTest);
         }
 
         @TestMetadata("removeParameterFromExtension.kt")
         public void testRemoveParameterFromExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeParameterFromExtension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeParameterFromExtension.kt", this::doTest);
         }
 
         @TestMetadata("removeParameterFromFakeOverride.kt")
         public void testRemoveParameterFromFakeOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeParameterFromFakeOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeParameterFromFakeOverride.kt", this::doTest);
         }
 
         @TestMetadata("removeParameterNotAvailableForBuiltins.kt")
         public void testRemoveParameterNotAvailableForBuiltins() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeParameterNotAvailableForBuiltins.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeParameterNotAvailableForBuiltins.kt", this::doTest);
         }
 
         @TestMetadata("removeUnusedConstructorParameterWithUsage.kt")
         public void testRemoveUnusedConstructorParameterWithUsage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeUnusedConstructorParameterWithUsage.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeUnusedConstructorParameterWithUsage.kt", this::doTest);
         }
 
         @TestMetadata("removeUnusedExtensionParameter.kt")
         public void testRemoveUnusedExtensionParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeUnusedExtensionParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeUnusedExtensionParameter.kt", this::doTest);
         }
 
         @TestMetadata("removeUnusedInternalConstructorParameter.kt")
         public void testRemoveUnusedInternalConstructorParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeUnusedInternalConstructorParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeUnusedInternalConstructorParameter.kt", this::doTest);
         }
 
         @TestMetadata("removeUnusedParameter.kt")
         public void testRemoveUnusedParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeUnusedParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeUnusedParameter.kt", this::doTest);
         }
 
         @TestMetadata("removeUnusedPrimaryConstructorParameter.kt")
         public void testRemoveUnusedPrimaryConstructorParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeUnusedPrimaryConstructorParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeUnusedPrimaryConstructorParameter.kt", this::doTest);
         }
 
         @TestMetadata("removeUnusedPrimaryConstructorParameter2.kt")
         public void testRemoveUnusedPrimaryConstructorParameter2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeSignature/removeUnusedPrimaryConstructorParameter2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeSignature/removeUnusedPrimaryConstructorParameter2.kt", this::doTest);
         }
     }
 
@@ -1772,26 +1526,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("multipleInner.kt")
         public void testMultipleInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToLabeledReturn/multipleInner.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToLabeledReturn/multipleInner.kt", this::doTest);
         }
 
         @TestMetadata("multipleOuter.kt")
         public void testMultipleOuter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToLabeledReturn/multipleOuter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToLabeledReturn/multipleOuter.kt", this::doTest);
         }
 
         @TestMetadata("noCandidates.kt")
         public void testNoCandidates() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToLabeledReturn/noCandidates.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToLabeledReturn/noCandidates.kt", this::doTest);
         }
 
         @TestMetadata("normal.kt")
         public void testNormal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToLabeledReturn/normal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToLabeledReturn/normal.kt", this::doTest);
         }
     }
 
@@ -1805,50 +1555,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("differentTypeParameter.kt")
         public void testDifferentTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToUseSpreadOperator/differentTypeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToUseSpreadOperator/differentTypeParameter.kt", this::doTest);
         }
 
         @TestMetadata("mapOf.kt")
         public void testMapOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToUseSpreadOperator/mapOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToUseSpreadOperator/mapOf.kt", this::doTest);
         }
 
         @TestMetadata("mapOfBug.kt")
         public void testMapOfBug() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToUseSpreadOperator/mapOfBug.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToUseSpreadOperator/mapOfBug.kt", this::doTest);
         }
 
         @TestMetadata("multipleParams.kt")
         public void testMultipleParams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToUseSpreadOperator/multipleParams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToUseSpreadOperator/multipleParams.kt", this::doTest);
         }
 
         @TestMetadata("nonArray.kt")
         public void testNonArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToUseSpreadOperator/nonArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToUseSpreadOperator/nonArray.kt", this::doTest);
         }
 
         @TestMetadata("nonVarArg.kt")
         public void testNonVarArg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToUseSpreadOperator/nonVarArg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToUseSpreadOperator/nonVarArg.kt", this::doTest);
         }
 
         @TestMetadata("normal.kt")
         public void testNormal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToUseSpreadOperator/normal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToUseSpreadOperator/normal.kt", this::doTest);
         }
 
         @TestMetadata("vararg.kt")
         public void testVararg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/changeToUseSpreadOperator/vararg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/changeToUseSpreadOperator/vararg.kt", this::doTest);
         }
     }
 
@@ -1862,8 +1604,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("nonVarargSpread.kt")
         public void testNonVarargSpread() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/checkArguments/nonVarargSpread.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/checkArguments/nonVarargSpread.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/checkArguments/addNameToArgument")
@@ -1876,44 +1617,37 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("invokeOnString.kt")
             public void testInvokeOnString() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/checkArguments/addNameToArgument/invokeOnString.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/checkArguments/addNameToArgument/invokeOnString.kt", this::doTest);
             }
 
             @TestMetadata("mixedNamedAndPositionalArguments.kt")
             public void testMixedNamedAndPositionalArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArguments.kt", this::doTest);
             }
 
             @TestMetadata("mixedNamedAndPositionalArgumentsConstructor.kt")
             public void testMixedNamedAndPositionalArgumentsConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsConstructor.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsConstructor.kt", this::doTest);
             }
 
             @TestMetadata("mixedNamedAndPositionalArgumentsMultiple.kt")
             public void testMixedNamedAndPositionalArgumentsMultiple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsMultiple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsMultiple.kt", this::doTest);
             }
 
             @TestMetadata("mixedNamedAndPositionalArgumentsSubtype.kt")
             public void testMixedNamedAndPositionalArgumentsSubtype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsSubtype.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsSubtype.kt", this::doTest);
             }
 
             @TestMetadata("mixedNamedAndPositionalArgumentsUsedNamed.kt")
             public void testMixedNamedAndPositionalArgumentsUsedNamed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsUsedNamed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsUsedNamed.kt", this::doTest);
             }
 
             @TestMetadata("mixedNamedAndPositionalArgumentsUsedPositional.kt")
             public void testMixedNamedAndPositionalArgumentsUsedPositional() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsUsedPositional.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/checkArguments/addNameToArgument/mixedNamedAndPositionalArgumentsUsedPositional.kt", this::doTest);
             }
         }
     }
@@ -1928,20 +1662,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("removeConflictingImport.kt")
         public void testRemoveConflictingImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/conflictingImports/removeConflictingImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/conflictingImports/removeConflictingImport.kt", this::doTest);
         }
 
         @TestMetadata("removeDuplicateImport.kt")
         public void testRemoveDuplicateImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/conflictingImports/removeDuplicateImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/conflictingImports/removeDuplicateImport.kt", this::doTest);
         }
 
         @TestMetadata("removeDuplicateImportWithAlias.kt")
         public void testRemoveDuplicateImportWithAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/conflictingImports/removeDuplicateImportWithAlias.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/conflictingImports/removeDuplicateImportWithAlias.kt", this::doTest);
         }
     }
 
@@ -1955,20 +1686,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("val.kt")
         public void testVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/convertPropertyInitializerToGetter/val.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/convertPropertyInitializerToGetter/val.kt", this::doTest);
         }
 
         @TestMetadata("var.kt")
         public void testVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/convertPropertyInitializerToGetter/var.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/convertPropertyInitializerToGetter/var.kt", this::doTest);
         }
 
         @TestMetadata("varWithSetter.kt")
         public void testVarWithSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/convertPropertyInitializerToGetter/varWithSetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/convertPropertyInitializerToGetter/varWithSetter.kt", this::doTest);
         }
     }
 
@@ -1998,50 +1726,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("annotationNoBrackets.kt")
                 public void testAnnotationNoBrackets() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationNoBrackets.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationNoBrackets.kt", this::doTest);
                 }
 
                 @TestMetadata("annotationNoParamList.kt")
                 public void testAnnotationNoParamList() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationNoParamList.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationNoParamList.kt", this::doTest);
                 }
 
                 @TestMetadata("annotationNoParams.kt")
                 public void testAnnotationNoParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationNoParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationNoParams.kt", this::doTest);
                 }
 
                 @TestMetadata("annotationWithParams.kt")
                 public void testAnnotationWithParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationWithParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationWithParams.kt", this::doTest);
                 }
 
                 @TestMetadata("annotationWithTypeParams.kt")
                 public void testAnnotationWithTypeParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationWithTypeParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/annotationWithTypeParams.kt", this::doTest);
                 }
 
                 @TestMetadata("notAnnotation.kt")
                 public void testNotAnnotation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/notAnnotation.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/notAnnotation.kt", this::doTest);
                 }
 
                 @TestMetadata("singleArgAnnotation.kt")
                 public void testSingleArgAnnotation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/singleArgAnnotation.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/singleArgAnnotation.kt", this::doTest);
                 }
 
                 @TestMetadata("singleNamedArgAnnotation.kt")
                 public void testSingleNamedArgAnnotation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/singleNamedArgAnnotation.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/annotationEntry/singleNamedArgAnnotation.kt", this::doTest);
                 }
             }
 
@@ -2055,212 +1775,177 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("callInAnnotationEntry.kt")
                 public void testCallInAnnotationEntry() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInAnnotationEntry.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInAnnotationEntry.kt", this::doTest);
                 }
 
                 @TestMetadata("callInLambda.kt")
                 public void testCallInLambda() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInLambda.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInLambda.kt", this::doTest);
                 }
 
                 @TestMetadata("callInLocalFunNoReceiver.kt")
                 public void testCallInLocalFunNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInLocalFunNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInLocalFunNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("callInMemberFunNoReceiver.kt")
                 public void testCallInMemberFunNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInMemberFunNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInMemberFunNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("callInMemberValDelegateRuntime.kt")
                 public void testCallInMemberValDelegateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInMemberValDelegateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInMemberValDelegateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("callInMemberVarDelegateRuntime.kt")
                 public void testCallInMemberVarDelegateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInMemberVarDelegateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInMemberVarDelegateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("callInWhenEntry.kt")
                 public void testCallInWhenEntry() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInWhenEntry.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callInWhenEntry.kt", this::doTest);
                 }
 
                 @TestMetadata("callNoReceiver.kt")
                 public void testCallNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithClassQualifier.kt")
                 public void testCallWithClassQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithClassQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithClassQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithExplicitParamNames.kt")
                 public void testCallWithExplicitParamNames() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithExplicitParamNames.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithExplicitParamNames.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithExtraArgs.kt")
                 public void testCallWithExtraArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithExtraArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithExtraArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithFinalSupertype.kt")
                 public void testCallWithFinalSupertype() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithFinalSupertype.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithFinalSupertype.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithGenericReceiver.kt")
                 public void testCallWithGenericReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithGenericReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithGenericReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithLambdaArg.kt")
                 public void testCallWithLambdaArg() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithLambdaArg.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithLambdaArg.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithLambdaArgOnly.kt")
                 public void testCallWithLambdaArgOnly() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithLambdaArgOnly.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithLambdaArgOnly.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithLibClassQualifier.kt")
                 public void testCallWithLibClassQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithLibClassQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithLibClassQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithMissingArgs.kt")
                 public void testCallWithMissingArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithMissingArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithMissingArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithObjectQualifier.kt")
                 public void testCallWithObjectQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithObjectQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithObjectQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithPackageName.kt")
                 public void testCallWithPackageName() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithPackageName.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithPackageName.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithReceiver.kt")
                 public void testCallWithReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithSuperclassNoConstructorParams.kt")
                 public void testCallWithSuperclassNoConstructorParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSuperclassNoConstructorParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSuperclassNoConstructorParams.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithSuperclassWithConstructorParams.kt")
                 public void testCallWithSuperclassWithConstructorParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSuperclassWithConstructorParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSuperclassWithConstructorParams.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithSupertrait.kt")
                 public void testCallWithSupertrait() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSupertrait.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithSupertrait.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithThisReceiverInClass.kt")
                 public void testCallWithThisReceiverInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithThisReceiverInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithThisReceiverInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithThisReceiverInExtension.kt")
                 public void testCallWithThisReceiverInExtension() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithThisReceiverInExtension.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithThisReceiverInExtension.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithThisReceiverInNestedClass1.kt")
                 public void testCallWithThisReceiverInNestedClass1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithThisReceiverInNestedClass1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithThisReceiverInNestedClass1.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithThisReceiverInNestedClass2.kt")
                 public void testCallWithThisReceiverInNestedClass2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithThisReceiverInNestedClass2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithThisReceiverInNestedClass2.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithTypeArgsInAnnotationEntry.kt")
                 public void testCallWithTypeArgsInAnnotationEntry() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithTypeArgsInAnnotationEntry.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/callWithTypeArgsInAnnotationEntry.kt", this::doTest);
                 }
 
                 @TestMetadata("createNestedClass.kt")
                 public void testCreateNestedClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/createNestedClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/createNestedClass.kt", this::doTest);
                 }
 
                 @TestMetadata("createNestedClassInInner.kt")
                 public void testCreateNestedClassInInner() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/createNestedClassInInner.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/createNestedClassInInner.kt", this::doTest);
                 }
 
                 @TestMetadata("expectedTypeBySuperFunction.kt")
                 public void testExpectedTypeBySuperFunction() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/expectedTypeBySuperFunction.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/expectedTypeBySuperFunction.kt", this::doTest);
                 }
 
                 @TestMetadata("quotedName.kt")
                 public void testQuotedName() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/quotedName.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/quotedName.kt", this::doTest);
                 }
 
                 @TestMetadata("singleArgCallInAnnotationEntry.kt")
                 public void testSingleArgCallInAnnotationEntry() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/singleArgCallInAnnotationEntry.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/singleArgCallInAnnotationEntry.kt", this::doTest);
                 }
 
                 @TestMetadata("singleNamedArgCallInAnnotationEntry.kt")
                 public void testSingleNamedArgCallInAnnotationEntry() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/singleNamedArgCallInAnnotationEntry.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/singleNamedArgCallInAnnotationEntry.kt", this::doTest);
                 }
 
                 @TestMetadata("unusedCallResult.kt")
                 public void testUnusedCallResult() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/unusedCallResult.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/unusedCallResult.kt", this::doTest);
                 }
 
                 @TestMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments")
@@ -2273,74 +1958,62 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                     @TestMetadata("callWithStarProjection.kt")
                     public void testCallWithStarProjection() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/callWithStarProjection.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/callWithStarProjection.kt", this::doTest);
                     }
 
                     @TestMetadata("classMember.kt")
                     public void testClassMember() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMember.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMember.kt", this::doTest);
                     }
 
                     @TestMetadata("classMemberInner.kt")
                     public void testClassMemberInner() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMemberInner.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMemberInner.kt", this::doTest);
                     }
 
                     @TestMetadata("classMemberInnerPartialSubstitution.kt")
                     public void testClassMemberInnerPartialSubstitution() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMemberInnerPartialSubstitution.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMemberInnerPartialSubstitution.kt", this::doTest);
                     }
 
                     @TestMetadata("classMemberInnerWithReceiverArg.kt")
                     public void testClassMemberInnerWithReceiverArg() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMemberInnerWithReceiverArg.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMemberInnerWithReceiverArg.kt", this::doTest);
                     }
 
                     @TestMetadata("classMemberPartialSubstitution.kt")
                     public void testClassMemberPartialSubstitution() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMemberPartialSubstitution.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/classMemberPartialSubstitution.kt", this::doTest);
                     }
 
                     @TestMetadata("extension.kt")
                     public void testExtension() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/extension.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/extension.kt", this::doTest);
                     }
 
                     @TestMetadata("noReceiver.kt")
                     public void testNoReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/noReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/noReceiver.kt", this::doTest);
                     }
 
                     @TestMetadata("noReceiverExtraArgs.kt")
                     public void testNoReceiverExtraArgs() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/noReceiverExtraArgs.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/noReceiverExtraArgs.kt", this::doTest);
                     }
 
                     @TestMetadata("noReceiverLongName.kt")
                     public void testNoReceiverLongName() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/noReceiverLongName.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/noReceiverLongName.kt", this::doTest);
                     }
 
                     @TestMetadata("noReceiverPartialSubstitution.kt")
                     public void testNoReceiverPartialSubstitution() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/noReceiverPartialSubstitution.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/noReceiverPartialSubstitution.kt", this::doTest);
                     }
 
                     @TestMetadata("withExpectedTypeNoReceiver.kt")
                     public void testWithExpectedTypeNoReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/withExpectedTypeNoReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/callExpression/typeArguments/withExpectedTypeNoReceiver.kt", this::doTest);
                     }
                 }
             }
@@ -2355,50 +2028,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("classDelegatorToSuperclass.kt")
                 public void testClassDelegatorToSuperclass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/classDelegatorToSuperclass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/classDelegatorToSuperclass.kt", this::doTest);
                 }
 
                 @TestMetadata("delegatorToSupercallNoReceiver.kt")
                 public void testDelegatorToSupercallNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("delegatorToSupercallWithClassQualifier.kt")
                 public void testDelegatorToSupercallWithClassQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallWithClassQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallWithClassQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("delegatorToSupercallWithPackageQualifier.kt")
                 public void testDelegatorToSupercallWithPackageQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallWithPackageQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallWithPackageQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("delegatorToSupercallWithParamNames.kt")
                 public void testDelegatorToSupercallWithParamNames() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallWithParamNames.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallWithParamNames.kt", this::doTest);
                 }
 
                 @TestMetadata("delegatorToSupercallWithTypeParams.kt")
                 public void testDelegatorToSupercallWithTypeParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallWithTypeParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/delegatorToSupercallWithTypeParams.kt", this::doTest);
                 }
 
                 @TestMetadata("traitDelegatorToSuperclass.kt")
                 public void testTraitDelegatorToSuperclass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/traitDelegatorToSuperclass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/traitDelegatorToSuperclass.kt", this::doTest);
                 }
 
                 @TestMetadata("traitDelegatorToSuperclass2.kt")
                 public void testTraitDelegatorToSuperclass2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/traitDelegatorToSuperclass2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/delegationSpecifier/traitDelegatorToSuperclass2.kt", this::doTest);
                 }
             }
 
@@ -2412,80 +2077,67 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("annotationInPackage.kt")
                 public void testAnnotationInPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/annotationInPackage.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/annotationInPackage.kt", this::doTest);
                 }
 
                 @TestMetadata("annotationWithQualifier.kt")
                 public void testAnnotationWithQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/annotationWithQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/annotationWithQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("classInPackage.kt")
                 public void testClassInPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/classInPackage.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/classInPackage.kt", this::doTest);
                 }
 
                 @TestMetadata("classWithQualifier.kt")
                 public void testClassWithQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/classWithQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/classWithQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryInEnum.kt")
                 public void testEnumEntryInEnum() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumEntryInEnum.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumEntryInEnum.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryInPackage.kt")
                 public void testEnumEntryInPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumEntryInPackage.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumEntryInPackage.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryWithQualifier.kt")
                 public void testEnumEntryWithQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumEntryWithQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumEntryWithQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("enumInPackage.kt")
                 public void testEnumInPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumInPackage.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumInPackage.kt", this::doTest);
                 }
 
                 @TestMetadata("enumWithQualifier.kt")
                 public void testEnumWithQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumWithQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/enumWithQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("objectInPackage.kt")
                 public void testObjectInPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/objectInPackage.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/objectInPackage.kt", this::doTest);
                 }
 
                 @TestMetadata("objectWithQualifier.kt")
                 public void testObjectWithQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/objectWithQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/objectWithQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("traitInPackage.kt")
                 public void testTraitInPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/traitInPackage.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/traitInPackage.kt", this::doTest);
                 }
 
                 @TestMetadata("traitWithQualifier.kt")
                 public void testTraitWithQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/traitWithQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/traitWithQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515")
@@ -2498,32 +2150,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                     @TestMetadata("callableReferenceOnClass.kt")
                     public void testCallableReferenceOnClass() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/callableReferenceOnClass.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/callableReferenceOnClass.kt", this::doTest);
                     }
 
                     @TestMetadata("callableReferenceOnClassWithCompanion.kt")
                     public void testCallableReferenceOnClassWithCompanion() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/callableReferenceOnClassWithCompanion.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/callableReferenceOnClassWithCompanion.kt", this::doTest);
                     }
 
                     @TestMetadata("callableReferenceOnObject.kt")
                     public void testCallableReferenceOnObject() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/callableReferenceOnObject.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/callableReferenceOnObject.kt", this::doTest);
                     }
 
                     @TestMetadata("constructor.kt")
                     public void testConstructor() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/constructor.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/constructor.kt", this::doTest);
                     }
 
                     @TestMetadata("typeReference.kt")
                     public void testTypeReference() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/typeReference.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/importDirective/kt21515/typeReference.kt", this::doTest);
                     }
                 }
             }
@@ -2538,230 +2185,192 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("annotationByClassLiteral.kt")
                 public void testAnnotationByClassLiteral() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/annotationByClassLiteral.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/annotationByClassLiteral.kt", this::doTest);
                 }
 
                 @TestMetadata("annotationNoReceiver.kt")
                 public void testAnnotationNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/annotationNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/annotationNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("classByClassLiteral.kt")
                 public void testClassByClassLiteral() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByClassLiteral.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByClassLiteral.kt", this::doTest);
                 }
 
                 @TestMetadata("classByNestedQualifier.kt")
                 public void testClassByNestedQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByNestedQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByNestedQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("classByQualifier.kt")
                 public void testClassByQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classByQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("classInPackage.kt")
                 public void testClassInPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classInPackage.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classInPackage.kt", this::doTest);
                 }
 
                 @TestMetadata("classNoReceiver.kt")
                 public void testClassNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("classWithQualifier.kt")
                 public void testClassWithQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classWithQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classWithQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("classWithReceiver.kt")
                 public void testClassWithReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classWithReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/classWithReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("createNestedObject.kt")
                 public void testCreateNestedObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/createNestedObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/createNestedObject.kt", this::doTest);
                 }
 
                 @TestMetadata("createNestedObjectInInner.kt")
                 public void testCreateNestedObjectInInner() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/createNestedObjectInInner.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/createNestedObjectInInner.kt", this::doTest);
                 }
 
                 @TestMetadata("enumByClassLiteral.kt")
                 public void testEnumByClassLiteral() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumByClassLiteral.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumByClassLiteral.kt", this::doTest);
                 }
 
                 @TestMetadata("enumByQualifier.kt")
                 public void testEnumByQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumByQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumByQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryAddComma.kt")
                 public void testEnumEntryAddComma() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryAddComma.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryAddComma.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryHasComma.kt")
                 public void testEnumEntryHasComma() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryHasComma.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryHasComma.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryNoReceiver.kt")
                 public void testEnumEntryNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryWithEnumQualifier.kt")
                 public void testEnumEntryWithEnumQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithEnumQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithEnumQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryWithEnumQualifierAndParams.kt")
                 public void testEnumEntryWithEnumQualifierAndParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithEnumQualifierAndParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithEnumQualifierAndParams.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryWithEnumSuperclass.kt")
                 public void testEnumEntryWithEnumSuperclass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithEnumSuperclass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithEnumSuperclass.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryWithQualifier.kt")
                 public void testEnumEntryWithQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryWithReceiver.kt")
                 public void testEnumEntryWithReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryWithSuperclass.kt")
                 public void testEnumEntryWithSuperclass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithSuperclass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumEntryWithSuperclass.kt", this::doTest);
                 }
 
                 @TestMetadata("enumNoReceiver.kt")
                 public void testEnumNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/enumNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("interfaceByClassLiteral.kt")
                 public void testInterfaceByClassLiteral() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/interfaceByClassLiteral.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/interfaceByClassLiteral.kt", this::doTest);
                 }
 
                 @TestMetadata("objectByClassLiteral.kt")
                 public void testObjectByClassLiteral() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectByClassLiteral.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectByClassLiteral.kt", this::doTest);
                 }
 
                 @TestMetadata("objectByQualifier.kt")
                 public void testObjectByQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectByQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectByQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("objectInPackage.kt")
                 public void testObjectInPackage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectInPackage.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectInPackage.kt", this::doTest);
                 }
 
                 @TestMetadata("objectNoReceiver.kt")
                 public void testObjectNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("objectWithQualifier.kt")
                 public void testObjectWithQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("objectWithReceiver.kt")
                 public void testObjectWithReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("objectWithSuperclass.kt")
                 public void testObjectWithSuperclass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithSuperclass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithSuperclass.kt", this::doTest);
                 }
 
                 @TestMetadata("objectWithSupertrait.kt")
                 public void testObjectWithSupertrait() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithSupertrait.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/objectWithSupertrait.kt", this::doTest);
                 }
 
                 @TestMetadata("recursiveBound.kt")
                 public void testRecursiveBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/recursiveBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/recursiveBound.kt", this::doTest);
                 }
 
                 @TestMetadata("traitByQualifier.kt")
                 public void testTraitByQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/traitByQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/traitByQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("traitNoReceiver.kt")
                 public void testTraitNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/traitNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/traitNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("unusedReference.kt")
                 public void testUnusedReference() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/unusedReference.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/unusedReference.kt", this::doTest);
                 }
 
                 @TestMetadata("valDelegateExpressionRuntime.kt")
                 public void testValDelegateExpressionRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/valDelegateExpressionRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/valDelegateExpressionRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("varDelegateExpressionRuntime.kt")
                 public void testVarDelegateExpressionRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/varDelegateExpressionRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/referenceExpression/varDelegateExpressionRuntime.kt", this::doTest);
                 }
             }
 
@@ -2775,182 +2384,152 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("annotationNotQualifierNoTypeArgs.kt")
                 public void testAnnotationNotQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/annotationNotQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/annotationNotQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("annotationNotQualifierWithTypeArgs.kt")
                 public void testAnnotationNotQualifierWithTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/annotationNotQualifierWithTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/annotationNotQualifierWithTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("annotationQualifierNoTypeArgs.kt")
                 public void testAnnotationQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/annotationQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/annotationQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("classCurrentPackageReceiver.kt")
                 public void testClassCurrentPackageReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classCurrentPackageReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classCurrentPackageReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("classLibTypeReceiver.kt")
                 public void testClassLibTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classLibTypeReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classLibTypeReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("classNotQualifierNoTypeArgs.kt")
                 public void testClassNotQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classNotQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classNotQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("classNotQualifierWithStarProjection.kt")
                 public void testClassNotQualifierWithStarProjection() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classNotQualifierWithStarProjection.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classNotQualifierWithStarProjection.kt", this::doTest);
                 }
 
                 @TestMetadata("classNotQualifierWithTypeArgs.kt")
                 public void testClassNotQualifierWithTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classNotQualifierWithTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classNotQualifierWithTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("classQualifierNoTypeArgs.kt")
                 public void testClassQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("classUserTypeReceiver.kt")
                 public void testClassUserTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classUserTypeReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classUserTypeReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("classUserTypeReceiverNoBody.kt")
                 public void testClassUserTypeReceiverNoBody() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/classUserTypeReceiverNoBody.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/classUserTypeReceiverNoBody.kt", this::doTest);
                 }
 
                 @TestMetadata("createNestedClass.kt")
                 public void testCreateNestedClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/createNestedClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/createNestedClass.kt", this::doTest);
                 }
 
                 @TestMetadata("createNestedClassInInner.kt")
                 public void testCreateNestedClassInInner() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/createNestedClassInInner.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/createNestedClassInInner.kt", this::doTest);
                 }
 
                 @TestMetadata("enumEntryNotQualifierNoTypeArgs.kt")
                 public void testEnumEntryNotQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumEntryNotQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumEntryNotQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("enumNotQualifierNoTypeArgs.kt")
                 public void testEnumNotQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumNotQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumNotQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("enumNotQualifierWithTypeArgs.kt")
                 public void testEnumNotQualifierWithTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumNotQualifierWithTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/enumNotQualifierWithTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("nestedClassByTypeArgumentRefNoBody.kt")
                 public void testNestedClassByTypeArgumentRefNoBody() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/nestedClassByTypeArgumentRefNoBody.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/nestedClassByTypeArgumentRefNoBody.kt", this::doTest);
                 }
 
                 @TestMetadata("nestedClassByTypeArgumentRefWithBody.kt")
                 public void testNestedClassByTypeArgumentRefWithBody() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/nestedClassByTypeArgumentRefWithBody.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/nestedClassByTypeArgumentRefWithBody.kt", this::doTest);
                 }
 
                 @TestMetadata("noAnnotationForTypeBound.kt")
                 public void testNoAnnotationForTypeBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/noAnnotationForTypeBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/noAnnotationForTypeBound.kt", this::doTest);
                 }
 
                 @TestMetadata("noAnnotationForTypeConstraint.kt")
                 public void testNoAnnotationForTypeConstraint() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/noAnnotationForTypeConstraint.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/noAnnotationForTypeConstraint.kt", this::doTest);
                 }
 
                 @TestMetadata("noEnumForTypeBound.kt")
                 public void testNoEnumForTypeBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/noEnumForTypeBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/noEnumForTypeBound.kt", this::doTest);
                 }
 
                 @TestMetadata("noEnumForTypeConstraint.kt")
                 public void testNoEnumForTypeConstraint() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/noEnumForTypeConstraint.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/noEnumForTypeConstraint.kt", this::doTest);
                 }
 
                 @TestMetadata("noObjectForTypeBound.kt")
                 public void testNoObjectForTypeBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/noObjectForTypeBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/noObjectForTypeBound.kt", this::doTest);
                 }
 
                 @TestMetadata("noObjectForTypeConstraint.kt")
                 public void testNoObjectForTypeConstraint() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/noObjectForTypeConstraint.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/noObjectForTypeConstraint.kt", this::doTest);
                 }
 
                 @TestMetadata("objectNotQualifierNoTypeArgs.kt")
                 public void testObjectNotQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/objectNotQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/objectNotQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("objectNotQualifierWithTypeArgs.kt")
                 public void testObjectNotQualifierWithTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/objectNotQualifierWithTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/objectNotQualifierWithTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("objectQualifierNoTypeArgs.kt")
                 public void testObjectQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/objectQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/objectQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("traitNotQualifierNoTypeArgs.kt")
                 public void testTraitNotQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/traitNotQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/traitNotQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("typeArgumentWithBound.kt")
                 public void testTypeArgumentWithBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/typeArgumentWithBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/typeArgumentWithBound.kt", this::doTest);
                 }
 
                 @TestMetadata("typeArgumentWithMultipleBounds.kt")
                 public void testTypeArgumentWithMultipleBounds() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createClass/typeReference/typeArgumentWithMultipleBounds.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createClass/typeReference/typeArgumentWithMultipleBounds.kt", this::doTest);
                 }
             }
         }
@@ -2973,98 +2552,82 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("customOperationOnUserType.kt")
                 public void testCustomOperationOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/customOperationOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/customOperationOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("greaterOrEqualOnUserType.kt")
                 public void testGreaterOrEqualOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/greaterOrEqualOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/greaterOrEqualOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("inOnUserType.kt")
                 public void testInOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/inOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/inOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("lessOnUserType.kt")
                 public void testLessOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/lessOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/lessOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("notInOnUserType.kt")
                 public void testNotInOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/notInOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/notInOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("plusAssignOnUserType.kt")
                 public void testPlusAssignOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusAssignOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusAssignOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("plusExtraArgs.kt")
                 public void testPlusExtraArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusExtraArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusExtraArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("plusForAssignmentOnUserType.kt")
                 public void testPlusForAssignmentOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusForAssignmentOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusForAssignmentOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("plusMissingArgs.kt")
                 public void testPlusMissingArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusMissingArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusMissingArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("plusOnLibType.kt")
                 public void testPlusOnLibType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusOnLibType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusOnLibType.kt", this::doTest);
                 }
 
                 @TestMetadata("plusOnUserType.kt")
                 public void testPlusOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("plusOnUserTypeWithTypeParams.kt")
                 public void testPlusOnUserTypeWithTypeParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusOnUserTypeWithTypeParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/plusOnUserTypeWithTypeParams.kt", this::doTest);
                 }
 
                 @TestMetadata("quotedName.kt")
                 public void testQuotedName() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/quotedName.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/quotedName.kt", this::doTest);
                 }
 
                 @TestMetadata("typeMismatch.kt")
                 public void testTypeMismatch() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/typeMismatch.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/typeMismatch.kt", this::doTest);
                 }
 
                 @TestMetadata("whenInOnUserType.kt")
                 public void testWhenInOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/whenInOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/whenInOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("whenNotInOnUserType.kt")
                 public void testWhenNotInOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/whenNotInOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/binaryOperations/whenNotInOnUserType.kt", this::doTest);
                 }
             }
 
@@ -3078,356 +2641,297 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("approximateAnonymousObjectRuntime.kt")
                 public void testApproximateAnonymousObjectRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/approximateAnonymousObjectRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/approximateAnonymousObjectRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("approximateLocalClassRuntime.kt")
                 public void testApproximateLocalClassRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/approximateLocalClassRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/approximateLocalClassRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("argumentTypeMismatch.kt")
                 public void testArgumentTypeMismatch() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/argumentTypeMismatch.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/argumentTypeMismatch.kt", this::doTest);
                 }
 
                 @TestMetadata("callInAnnotationEntry.kt")
                 public void testCallInAnnotationEntry() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/callInAnnotationEntry.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/callInAnnotationEntry.kt", this::doTest);
                 }
 
                 @TestMetadata("callInStringTemplateRuntime.kt")
                 public void testCallInStringTemplateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/callInStringTemplateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/callInStringTemplateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithClassLiteral.kt")
                 public void testCallWithClassLiteral() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/callWithClassLiteral.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/callWithClassLiteral.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithLambdaArg.kt")
                 public void testCallWithLambdaArg() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/callWithLambdaArg.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/callWithLambdaArg.kt", this::doTest);
                 }
 
                 @TestMetadata("callWithLambdaArgOnly.kt")
                 public void testCallWithLambdaArgOnly() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/callWithLambdaArgOnly.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/callWithLambdaArgOnly.kt", this::doTest);
                 }
 
                 @TestMetadata("doNotStripPrefix.kt")
                 public void testDoNotStripPrefix() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/doNotStripPrefix.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/doNotStripPrefix.kt", this::doTest);
                 }
 
                 @TestMetadata("extensionFunOnTrait.kt")
                 public void testExtensionFunOnTrait() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionFunOnTrait.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionFunOnTrait.kt", this::doTest);
                 }
 
                 @TestMetadata("extensionRefInImport.kt")
                 public void testExtensionRefInImport() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionRefInImport.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionRefInImport.kt", this::doTest);
                 }
 
                 @TestMetadata("funExtraArgs.kt")
                 public void testFunExtraArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funExtraArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funExtraArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("funMissingArgs.kt")
                 public void testFunMissingArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funMissingArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funMissingArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("funOnClassNoClassObject.kt")
                 public void testFunOnClassNoClassObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnClassNoClassObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnClassNoClassObject.kt", this::doTest);
                 }
 
                 @TestMetadata("funOnClassObject.kt")
                 public void testFunOnClassObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnClassObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnClassObject.kt", this::doTest);
                 }
 
                 @TestMetadata("funOnLibObject.kt")
                 public void testFunOnLibObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnLibObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnLibObject.kt", this::doTest);
                 }
 
                 @TestMetadata("funOnLibType.kt")
                 public void testFunOnLibType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnLibType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnLibType.kt", this::doTest);
                 }
 
                 @TestMetadata("funOnTrait.kt")
                 public void testFunOnTrait() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnTrait.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnTrait.kt", this::doTest);
                 }
 
                 @TestMetadata("funOnUserObject.kt")
                 public void testFunOnUserObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnUserObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnUserObject.kt", this::doTest);
                 }
 
                 @TestMetadata("funOnUserType.kt")
                 public void testFunOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("funOnUserTypeWithDeclarations.kt")
                 public void testFunOnUserTypeWithDeclarations() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnUserTypeWithDeclarations.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnUserTypeWithDeclarations.kt", this::doTest);
                 }
 
                 @TestMetadata("funOnUserTypeWithTypeParams.kt")
                 public void testFunOnUserTypeWithTypeParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funOnUserTypeWithTypeParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funOnUserTypeWithTypeParams.kt", this::doTest);
                 }
 
                 @TestMetadata("funPlacement.kt")
                 public void testFunPlacement() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funPlacement.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funPlacement.kt", this::doTest);
                 }
 
                 @TestMetadata("funWithExplicitParamNamesOnUserType.kt")
                 public void testFunWithExplicitParamNamesOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funWithExplicitParamNamesOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funWithExplicitParamNamesOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("funWithNullableParamType.kt")
                 public void testFunWithNullableParamType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funWithNullableParamType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funWithNullableParamType.kt", this::doTest);
                 }
 
                 @TestMetadata("funWithNullableType.kt")
                 public void testFunWithNullableType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funWithNullableType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funWithNullableType.kt", this::doTest);
                 }
 
                 @TestMetadata("funWithNullableTypeParameter.kt")
                 public void testFunWithNullableTypeParameter() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funWithNullableTypeParameter.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funWithNullableTypeParameter.kt", this::doTest);
                 }
 
                 @TestMetadata("funWithPackageName.kt")
                 public void testFunWithPackageName() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/funWithPackageName.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/funWithPackageName.kt", this::doTest);
                 }
 
                 @TestMetadata("functionalType.kt")
                 public void testFunctionalType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/functionalType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/functionalType.kt", this::doTest);
                 }
 
                 @TestMetadata("functionalTypeInReceiver.kt")
                 public void testFunctionalTypeInReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/functionalTypeInReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/functionalTypeInReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("inAnonymousFunBlockWithExpectedType.kt")
                 public void testInAnonymousFunBlockWithExpectedType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/inAnonymousFunBlockWithExpectedType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/inAnonymousFunBlockWithExpectedType.kt", this::doTest);
                 }
 
                 @TestMetadata("inAnonymousFunExprWithExpectedType.kt")
                 public void testInAnonymousFunExprWithExpectedType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/inAnonymousFunExprWithExpectedType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/inAnonymousFunExprWithExpectedType.kt", this::doTest);
                 }
 
                 @TestMetadata("inLambda.kt")
                 public void testInLambda() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/inLambda.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/inLambda.kt", this::doTest);
                 }
 
                 @TestMetadata("inLambdaWithExpectedType.kt")
                 public void testInLambdaWithExpectedType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/inLambdaWithExpectedType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/inLambdaWithExpectedType.kt", this::doTest);
                 }
 
                 @TestMetadata("inconsistentTypes.kt")
                 public void testInconsistentTypes() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/inconsistentTypes.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/inconsistentTypes.kt", this::doTest);
                 }
 
                 @TestMetadata("insideIfCondition.kt")
                 public void testInsideIfCondition() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/insideIfCondition.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/insideIfCondition.kt", this::doTest);
                 }
 
                 @TestMetadata("kt10983.kt")
                 public void testKt10983() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/kt10983.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/kt10983.kt", this::doTest);
                 }
 
                 @TestMetadata("localFunNoReceiver.kt")
                 public void testLocalFunNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/localFunNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/localFunNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("memberFunNoReceiver.kt")
                 public void testMemberFunNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/memberFunNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/memberFunNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("memberValDelegateRuntime.kt")
                 public void testMemberValDelegateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/memberValDelegateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/memberValDelegateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("memberVarDelegateRuntime.kt")
                 public void testMemberVarDelegateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/memberVarDelegateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/memberVarDelegateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("notExactArgument.kt")
                 public void testNotExactArgument() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/notExactArgument.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/notExactArgument.kt", this::doTest);
                 }
 
                 @TestMetadata("objectMemberFunNoReceiver.kt")
                 public void testObjectMemberFunNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/objectMemberFunNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/objectMemberFunNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("privateForMembers.kt")
                 public void testPrivateForMembers() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/privateForMembers.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/privateForMembers.kt", this::doTest);
                 }
 
                 @TestMetadata("propertyOnUserType.kt")
                 public void testPropertyOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/propertyOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/propertyOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("qualifiedCallInStringTemplateRuntime.kt")
                 public void testQualifiedCallInStringTemplateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/qualifiedCallInStringTemplateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/qualifiedCallInStringTemplateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("refInImport.kt")
                 public void testRefInImport() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/refInImport.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/refInImport.kt", this::doTest);
                 }
 
                 @TestMetadata("smartCastWithIs.kt")
                 public void testSmartCastWithIs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/smartCastWithIs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/smartCastWithIs.kt", this::doTest);
                 }
 
                 @TestMetadata("smartCastWithNullCheck.kt")
                 public void testSmartCastWithNullCheck() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/smartCastWithNullCheck.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/smartCastWithNullCheck.kt", this::doTest);
                 }
 
                 @TestMetadata("stripPrefix.kt")
                 public void testStripPrefix() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/stripPrefix.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/stripPrefix.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInClass.kt")
                 public void testThisInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/thisInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/thisInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInExtension.kt")
                 public void testThisInExtension() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/thisInExtension.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/thisInExtension.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInNestedClass1.kt")
                 public void testThisInNestedClass1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/thisInNestedClass1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/thisInNestedClass1.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInNestedClass2.kt")
                 public void testThisInNestedClass2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/thisInNestedClass2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/thisInNestedClass2.kt", this::doTest);
                 }
 
                 @TestMetadata("topLevelFunNoReceiver.kt")
                 public void testTopLevelFunNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/topLevelFunNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/topLevelFunNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("topLevelFunPlacement.kt")
                 public void testTopLevelFunPlacement() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/topLevelFunPlacement.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/topLevelFunPlacement.kt", this::doTest);
                 }
 
                 @TestMetadata("unitFun.kt")
                 public void testUnitFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/unitFun.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/unitFun.kt", this::doTest);
                 }
 
                 @TestMetadata("unknownType.kt")
                 public void testUnknownType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/unknownType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/unknownType.kt", this::doTest);
                 }
 
                 @TestMetadata("unresolvedSupertype.kt")
                 public void testUnresolvedSupertype() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/unresolvedSupertype.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/unresolvedSupertype.kt", this::doTest);
                 }
 
                 @TestMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/abstract")
@@ -3440,50 +2944,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                     @TestMetadata("classNoExplicitReceiver.kt")
                     public void testClassNoExplicitReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/classNoExplicitReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/classNoExplicitReceiver.kt", this::doTest);
                     }
 
                     @TestMetadata("explicitReceiverOfContainingClass.kt")
                     public void testExplicitReceiverOfContainingClass() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/explicitReceiverOfContainingClass.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/explicitReceiverOfContainingClass.kt", this::doTest);
                     }
 
                     @TestMetadata("inAbstractSuperclass.kt")
                     public void testInAbstractSuperclass() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/inAbstractSuperclass.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/inAbstractSuperclass.kt", this::doTest);
                     }
 
                     @TestMetadata("inBaseInterface.kt")
                     public void testInBaseInterface() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/inBaseInterface.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/inBaseInterface.kt", this::doTest);
                     }
 
                     @TestMetadata("interfaceNoExplicitReceiver.kt")
                     public void testInterfaceNoExplicitReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/interfaceNoExplicitReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/interfaceNoExplicitReceiver.kt", this::doTest);
                     }
 
                     @TestMetadata("noAbstractSuperclass.kt")
                     public void testNoAbstractSuperclass() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/noAbstractSuperclass.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/noAbstractSuperclass.kt", this::doTest);
                     }
 
                     @TestMetadata("notAbstractClass.kt")
                     public void testNotAbstractClass() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/notAbstractClass.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/notAbstractClass.kt", this::doTest);
                     }
 
                     @TestMetadata("otherExplicitReceiver.kt")
                     public void testOtherExplicitReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/otherExplicitReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/abstract/otherExplicitReceiver.kt", this::doTest);
                     }
                 }
 
@@ -3497,32 +2993,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                     @TestMetadata("extensionFunction.kt")
                     public void testExtensionFunction() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/extensionFunction.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/extensionFunction.kt", this::doTest);
                     }
 
                     @TestMetadata("extensionLambda.kt")
                     public void testExtensionLambda() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/extensionLambda.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/extensionLambda.kt", this::doTest);
                     }
 
                     @TestMetadata("extensionPropertyGetter.kt")
                     public void testExtensionPropertyGetter() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/extensionPropertyGetter.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/extensionPropertyGetter.kt", this::doTest);
                     }
 
                     @TestMetadata("extensionPropertySetter.kt")
                     public void testExtensionPropertySetter() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/extensionPropertySetter.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/extensionPropertySetter.kt", this::doTest);
                     }
 
                     @TestMetadata("notExtensionCallable.kt")
                     public void testNotExtensionCallable() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/notExtensionCallable.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/extensionByExtensionReceiver/notExtensionCallable.kt", this::doTest);
                     }
                 }
 
@@ -3536,86 +3027,72 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                     @TestMetadata("callWithStarProjection.kt")
                     public void testCallWithStarProjection() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/callWithStarProjection.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/callWithStarProjection.kt", this::doTest);
                     }
 
                     @TestMetadata("classMember.kt")
                     public void testClassMember() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/classMember.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/classMember.kt", this::doTest);
                     }
 
                     @TestMetadata("classMemberInFunctionLiteralWithReceiver.kt")
                     public void testClassMemberInFunctionLiteralWithReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/classMemberInFunctionLiteralWithReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/classMemberInFunctionLiteralWithReceiver.kt", this::doTest);
                     }
 
                     @TestMetadata("classMemberPartialSubstitution.kt")
                     public void testClassMemberPartialSubstitution() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/classMemberPartialSubstitution.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/classMemberPartialSubstitution.kt", this::doTest);
                     }
 
                     @TestMetadata("classMemberWithReceiverArg.kt")
                     public void testClassMemberWithReceiverArg() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/classMemberWithReceiverArg.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/classMemberWithReceiverArg.kt", this::doTest);
                     }
 
                     @TestMetadata("extension.kt")
                     public void testExtension() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/extension.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/extension.kt", this::doTest);
                     }
 
                     @TestMetadata("extensionPartialSubstitution.kt")
                     public void testExtensionPartialSubstitution() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/extensionPartialSubstitution.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/extensionPartialSubstitution.kt", this::doTest);
                     }
 
                     @TestMetadata("extensionWithReceiverArg.kt")
                     public void testExtensionWithReceiverArg() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/extensionWithReceiverArg.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/extensionWithReceiverArg.kt", this::doTest);
                     }
 
                     @TestMetadata("extensionWithTypeParameterAsReceiver.kt")
                     public void testExtensionWithTypeParameterAsReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/extensionWithTypeParameterAsReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/extensionWithTypeParameterAsReceiver.kt", this::doTest);
                     }
 
                     @TestMetadata("memberWithTypeParameterAsReceiver.kt")
                     public void testMemberWithTypeParameterAsReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/memberWithTypeParameterAsReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/memberWithTypeParameterAsReceiver.kt", this::doTest);
                     }
 
                     @TestMetadata("noReceiver.kt")
                     public void testNoReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/noReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/noReceiver.kt", this::doTest);
                     }
 
                     @TestMetadata("noReceiverExtraArgs.kt")
                     public void testNoReceiverExtraArgs() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/noReceiverExtraArgs.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/noReceiverExtraArgs.kt", this::doTest);
                     }
 
                     @TestMetadata("noReceiverLongName.kt")
                     public void testNoReceiverLongName() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/noReceiverLongName.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/noReceiverLongName.kt", this::doTest);
                     }
 
                     @TestMetadata("noReceiverPartialSubstitution.kt")
                     public void testNoReceiverPartialSubstitution() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/noReceiverPartialSubstitution.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/call/typeArguments/noReceiverPartialSubstitution.kt", this::doTest);
                     }
                 }
             }
@@ -3630,38 +3107,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("extensionNoReceiverInCallableRef.kt")
                 public void testExtensionNoReceiverInCallableRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/extensionNoReceiverInCallableRef.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/extensionNoReceiverInCallableRef.kt", this::doTest);
                 }
 
                 @TestMetadata("extensionWithReceiverInCallableRef.kt")
                 public void testExtensionWithReceiverInCallableRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/extensionWithReceiverInCallableRef.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/extensionWithReceiverInCallableRef.kt", this::doTest);
                 }
 
                 @TestMetadata("noExpectedReturnType.kt")
                 public void testNoExpectedReturnType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/noExpectedReturnType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/noExpectedReturnType.kt", this::doTest);
                 }
 
                 @TestMetadata("noFunctionalType.kt")
                 public void testNoFunctionalType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/noFunctionalType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/noFunctionalType.kt", this::doTest);
                 }
 
                 @TestMetadata("nonExtensionWithReceiverInCallableRef.kt")
                 public void testNonExtensionWithReceiverInCallableRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/nonExtensionWithReceiverInCallableRef.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/nonExtensionWithReceiverInCallableRef.kt", this::doTest);
                 }
 
                 @TestMetadata("withExpectedReturnType.kt")
                 public void testWithExpectedReturnType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/withExpectedReturnType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/callableReferences/withExpectedReturnType.kt", this::doTest);
                 }
             }
 
@@ -3675,20 +3146,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("createComponentFromUsage1.kt")
                 public void testCreateComponentFromUsage1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/component/createComponentFromUsage1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/component/createComponentFromUsage1.kt", this::doTest);
                 }
 
                 @TestMetadata("createComponentFromUsage2.kt")
                 public void testCreateComponentFromUsage2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/component/createComponentFromUsage2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/component/createComponentFromUsage2.kt", this::doTest);
                 }
 
                 @TestMetadata("createComponentFromUsage3.kt")
                 public void testCreateComponentFromUsage3() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/component/createComponentFromUsage3.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/component/createComponentFromUsage3.kt", this::doTest);
                 }
             }
 
@@ -3702,38 +3170,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("localVal.kt")
                 public void testLocalVal() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/localVal.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/localVal.kt", this::doTest);
                 }
 
                 @TestMetadata("localVar.kt")
                 public void testLocalVar() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/localVar.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/localVar.kt", this::doTest);
                 }
 
                 @TestMetadata("val.kt")
                 public void testVal() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/val.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/val.kt", this::doTest);
                 }
 
                 @TestMetadata("var.kt")
                 public void testVar() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/var.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/var.kt", this::doTest);
                 }
 
                 @TestMetadata("varMissingGet.kt")
                 public void testVarMissingGet() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/varMissingGet.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/varMissingGet.kt", this::doTest);
                 }
 
                 @TestMetadata("varMissingSet.kt")
                 public void testVarMissingSet() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/varMissingSet.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/delegateAccessors/varMissingSet.kt", this::doTest);
                 }
             }
 
@@ -3747,80 +3209,67 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("createGetFromUsage1.kt")
                 public void testCreateGetFromUsage1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage1.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage10.kt")
                 public void testCreateGetFromUsage10() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage10.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage10.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage11.kt")
                 public void testCreateGetFromUsage11() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage11.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage11.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage12.kt")
                 public void testCreateGetFromUsage12() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage12.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage12.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage13.kt")
                 public void testCreateGetFromUsage13() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage13.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage13.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage2.kt")
                 public void testCreateGetFromUsage2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage2.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage3.kt")
                 public void testCreateGetFromUsage3() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage3.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage3.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage4.kt")
                 public void testCreateGetFromUsage4() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage4.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage4.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage5.kt")
                 public void testCreateGetFromUsage5() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage5.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage5.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage7.kt")
                 public void testCreateGetFromUsage7() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage7.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage7.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage8.kt")
                 public void testCreateGetFromUsage8() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage8.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage8.kt", this::doTest);
                 }
 
                 @TestMetadata("createGetFromUsage9.kt")
                 public void testCreateGetFromUsage9() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage9.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/createGetFromUsage9.kt", this::doTest);
                 }
 
                 @TestMetadata("typeMismatch.kt")
                 public void testTypeMismatch() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/get/typeMismatch.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/get/typeMismatch.kt", this::doTest);
                 }
             }
 
@@ -3834,14 +3283,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("createHasNextFromUsage1.kt")
                 public void testCreateHasNextFromUsage1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/hasNext/createHasNextFromUsage1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/hasNext/createHasNextFromUsage1.kt", this::doTest);
                 }
 
                 @TestMetadata("createHasNextFromUsage2.kt")
                 public void testCreateHasNextFromUsage2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/hasNext/createHasNextFromUsage2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/hasNext/createHasNextFromUsage2.kt", this::doTest);
                 }
             }
 
@@ -3855,32 +3302,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("invokeOnLibType.kt")
                 public void testInvokeOnLibType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/invoke/invokeOnLibType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/invoke/invokeOnLibType.kt", this::doTest);
                 }
 
                 @TestMetadata("invokeOnUserType.kt")
                 public void testInvokeOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/invoke/invokeOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/invoke/invokeOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("invokeOnUserTypeWithTypeParams.kt")
                 public void testInvokeOnUserTypeWithTypeParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/invoke/invokeOnUserTypeWithTypeParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/invoke/invokeOnUserTypeWithTypeParams.kt", this::doTest);
                 }
 
                 @TestMetadata("invokeWithExplicitParamNamesOnUserType.kt")
                 public void testInvokeWithExplicitParamNamesOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/invoke/invokeWithExplicitParamNamesOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/invoke/invokeWithExplicitParamNamesOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("lambdaArgument.kt")
                 public void testLambdaArgument() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/invoke/lambdaArgument.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/invoke/lambdaArgument.kt", this::doTest);
                 }
             }
 
@@ -3894,20 +3336,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("createIteratorFromUsage1.kt")
                 public void testCreateIteratorFromUsage1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/iterator/createIteratorFromUsage1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/iterator/createIteratorFromUsage1.kt", this::doTest);
                 }
 
                 @TestMetadata("createIteratorFromUsage2.kt")
                 public void testCreateIteratorFromUsage2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/iterator/createIteratorFromUsage2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/iterator/createIteratorFromUsage2.kt", this::doTest);
                 }
 
                 @TestMetadata("createIteratorFromUsage3.kt")
                 public void testCreateIteratorFromUsage3() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/iterator/createIteratorFromUsage3.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/iterator/createIteratorFromUsage3.kt", this::doTest);
                 }
             }
 
@@ -3921,14 +3360,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("createNextFromUsage1.kt")
                 public void testCreateNextFromUsage1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/next/createNextFromUsage1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/next/createNextFromUsage1.kt", this::doTest);
                 }
 
                 @TestMetadata("createNextFromUsage2.kt")
                 public void testCreateNextFromUsage2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/next/createNextFromUsage2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/next/createNextFromUsage2.kt", this::doTest);
                 }
             }
 
@@ -3942,26 +3379,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("createSetFromUsage1.kt")
                 public void testCreateSetFromUsage1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/set/createSetFromUsage1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/set/createSetFromUsage1.kt", this::doTest);
                 }
 
                 @TestMetadata("createSetFromUsage2.kt")
                 public void testCreateSetFromUsage2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/set/createSetFromUsage2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/set/createSetFromUsage2.kt", this::doTest);
                 }
 
                 @TestMetadata("setterForIncrement.kt")
                 public void testSetterForIncrement() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/set/setterForIncrement.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/set/setterForIncrement.kt", this::doTest);
                 }
 
                 @TestMetadata("typeMismatch.kt")
                 public void testTypeMismatch() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/set/typeMismatch.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/set/typeMismatch.kt", this::doTest);
                 }
             }
 
@@ -3975,32 +3408,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("incOnUserType.kt")
                 public void testIncOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/incOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/incOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("minusMissingArgs.kt")
                 public void testMinusMissingArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/minusMissingArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/minusMissingArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("minusOnLibType.kt")
                 public void testMinusOnLibType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/minusOnLibType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/minusOnLibType.kt", this::doTest);
                 }
 
                 @TestMetadata("minusOnUserType.kt")
                 public void testMinusOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/minusOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/minusOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("minusOnUserTypeWithTypeParams.kt")
                 public void testMinusOnUserTypeWithTypeParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/minusOnUserTypeWithTypeParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createFunction/unaryOperations/minusOnUserTypeWithTypeParams.kt", this::doTest);
                 }
             }
         }
@@ -4015,92 +3443,77 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("argumentTypeMismatch.kt")
             public void testArgumentTypeMismatch() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/argumentTypeMismatch.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/argumentTypeMismatch.kt", this::doTest);
             }
 
             @TestMetadata("callWithExpectedType.kt")
             public void testCallWithExpectedType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/callWithExpectedType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/callWithExpectedType.kt", this::doTest);
             }
 
             @TestMetadata("callWithTypeArguments.kt")
             public void testCallWithTypeArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/callWithTypeArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/callWithTypeArguments.kt", this::doTest);
             }
 
             @TestMetadata("classWithBody.kt")
             public void testClassWithBody() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/classWithBody.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/classWithBody.kt", this::doTest);
             }
 
             @TestMetadata("classWithoutBody.kt")
             public void testClassWithoutBody() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/classWithoutBody.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/classWithoutBody.kt", this::doTest);
             }
 
             @TestMetadata("delegatorToSuperCall.kt")
             public void testDelegatorToSuperCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/delegatorToSuperCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/delegatorToSuperCall.kt", this::doTest);
             }
 
             @TestMetadata("delegatorToSuperCallNoClass.kt")
             public void testDelegatorToSuperCallNoClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/delegatorToSuperCallNoClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/delegatorToSuperCallNoClass.kt", this::doTest);
             }
 
             @TestMetadata("noParametersImplicitSuperCall.kt")
             public void testNoParametersImplicitSuperCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/noParametersImplicitSuperCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/noParametersImplicitSuperCall.kt", this::doTest);
             }
 
             @TestMetadata("noParametersSuperCall.kt")
             public void testNoParametersSuperCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/noParametersSuperCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/noParametersSuperCall.kt", this::doTest);
             }
 
             @TestMetadata("noParametersThisCall.kt")
             public void testNoParametersThisCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/noParametersThisCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/noParametersThisCall.kt", this::doTest);
             }
 
             @TestMetadata("noneApplicable.kt")
             public void testNoneApplicable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/noneApplicable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/noneApplicable.kt", this::doTest);
             }
 
             @TestMetadata("superCall.kt")
             public void testSuperCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/superCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/superCall.kt", this::doTest);
             }
 
             @TestMetadata("superCallNoClass.kt")
             public void testSuperCallNoClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/superCallNoClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/superCallNoClass.kt", this::doTest);
             }
 
             @TestMetadata("thisCall.kt")
             public void testThisCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/thisCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/thisCall.kt", this::doTest);
             }
 
             @TestMetadata("wrongExpectedType.kt")
             public void testWrongExpectedType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/wrongExpectedType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createSecondaryConstructor/wrongExpectedType.kt", this::doTest);
             }
         }
 
@@ -4122,68 +3535,57 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("currentPackageReceiver.kt")
                 public void testCurrentPackageReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/currentPackageReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/currentPackageReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("libTypeReceiver.kt")
                 public void testLibTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/libTypeReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/libTypeReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("notQualifierNoTypeArgs.kt")
                 public void testNotQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/notQualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/notQualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("notQualifierWithStarProjection.kt")
                 public void testNotQualifierWithStarProjection() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/notQualifierWithStarProjection.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/notQualifierWithStarProjection.kt", this::doTest);
                 }
 
                 @TestMetadata("notQualifierWithTypeArgs.kt")
                 public void testNotQualifierWithTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/notQualifierWithTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/notQualifierWithTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("qualifierNoTypeArgs.kt")
                 public void testQualifierNoTypeArgs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/qualifierNoTypeArgs.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/qualifierNoTypeArgs.kt", this::doTest);
                 }
 
                 @TestMetadata("recursiveTypeBound1.kt")
                 public void testRecursiveTypeBound1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/recursiveTypeBound1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/recursiveTypeBound1.kt", this::doTest);
                 }
 
                 @TestMetadata("recursiveTypeBound2.kt")
                 public void testRecursiveTypeBound2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/recursiveTypeBound2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/recursiveTypeBound2.kt", this::doTest);
                 }
 
                 @TestMetadata("typeParameterDependency.kt")
                 public void testTypeParameterDependency() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/typeParameterDependency.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/typeParameterDependency.kt", this::doTest);
                 }
 
                 @TestMetadata("userTypeReceiver.kt")
                 public void testUserTypeReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/userTypeReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/userTypeReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("userTypeReceiverNoBody.kt")
                 public void testUserTypeReceiverNoBody() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/userTypeReceiverNoBody.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeAlias/typeReference/userTypeReceiverNoBody.kt", this::doTest);
                 }
             }
         }
@@ -4206,80 +3608,67 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("classNoExplication.kt")
                 public void testClassNoExplication() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/classNoExplication.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/classNoExplication.kt", this::doTest);
                 }
 
                 @TestMetadata("classWithExplication.kt")
                 public void testClassWithExplication() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/classWithExplication.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/classWithExplication.kt", this::doTest);
                 }
 
                 @TestMetadata("classWithExplicationAndRecursiveUpperBound.kt")
                 public void testClassWithExplicationAndRecursiveUpperBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/classWithExplicationAndRecursiveUpperBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/classWithExplicationAndRecursiveUpperBound.kt", this::doTest);
                 }
 
                 @TestMetadata("classWithExplicationAndUpperBound.kt")
                 public void testClassWithExplicationAndUpperBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/classWithExplicationAndUpperBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/classWithExplicationAndUpperBound.kt", this::doTest);
                 }
 
                 @TestMetadata("functionNoExplication.kt")
                 public void testFunctionNoExplication() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/functionNoExplication.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/functionNoExplication.kt", this::doTest);
                 }
 
                 @TestMetadata("functionWithExplication.kt")
                 public void testFunctionWithExplication() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/functionWithExplication.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/functionWithExplication.kt", this::doTest);
                 }
 
                 @TestMetadata("functionWithExplicationAndRecursiveUpperBound.kt")
                 public void testFunctionWithExplicationAndRecursiveUpperBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/functionWithExplicationAndRecursiveUpperBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/functionWithExplicationAndRecursiveUpperBound.kt", this::doTest);
                 }
 
                 @TestMetadata("functionWithExplicationAndUpperBound.kt")
                 public void testFunctionWithExplicationAndUpperBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/functionWithExplicationAndUpperBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/functionWithExplicationAndUpperBound.kt", this::doTest);
                 }
 
                 @TestMetadata("inAnnotation.kt")
                 public void testInAnnotation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/inAnnotation.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/inAnnotation.kt", this::doTest);
                 }
 
                 @TestMetadata("inSuperTypeEntry.kt")
                 public void testInSuperTypeEntry() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/inSuperTypeEntry.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/inSuperTypeEntry.kt", this::doTest);
                 }
 
                 @TestMetadata("qualifiedType.kt")
                 public void testQualifiedType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/qualifiedType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/qualifiedType.kt", this::doTest);
                 }
 
                 @TestMetadata("typeQualifier.kt")
                 public void testTypeQualifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/typeQualifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/typeQualifier.kt", this::doTest);
                 }
 
                 @TestMetadata("withTypeArguments.kt")
                 public void testWithTypeArguments() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/withTypeArguments.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inContainingDeclaration/withTypeArguments.kt", this::doTest);
                 }
             }
 
@@ -4289,20 +3678,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
             public static class InReferencedDeclaration extends AbstractQuickFixTest {
                 @TestMetadata("addMultiple.kt")
                 public void testAddMultiple() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/addMultiple.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/addMultiple.kt", this::doTest);
                 }
 
                 @TestMetadata("addSingle.kt")
                 public void testAddSingle() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/addSingle.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/addSingle.kt", this::doTest);
                 }
 
                 @TestMetadata("addToFunction.kt")
                 public void testAddToFunction() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/addToFunction.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/addToFunction.kt", this::doTest);
                 }
 
                 public void testAllFilesPresentInInReferencedDeclaration() throws Exception {
@@ -4311,14 +3697,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("missingArguments.kt")
                 public void testMissingArguments() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/missingArguments.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/missingArguments.kt", this::doTest);
                 }
 
                 @TestMetadata("notOnTypeArgumentList.kt")
                 public void testNotOnTypeArgumentList() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/notOnTypeArgumentList.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createTypeParameter/inReferencedDeclaration/notOnTypeArgumentList.kt", this::doTest);
                 }
             }
         }
@@ -4341,128 +3725,107 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("assignedInFun.kt")
                 public void testAssignedInFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/assignedInFun.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/assignedInFun.kt", this::doTest);
                 }
 
                 @TestMetadata("callableRef.kt")
                 public void testCallableRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/callableRef.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/callableRef.kt", this::doTest);
                 }
 
                 @TestMetadata("inAccessor.kt")
                 public void testInAccessor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inAccessor.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inAccessor.kt", this::doTest);
                 }
 
                 @TestMetadata("inAccessorWithExpressionBody.kt")
                 public void testInAccessorWithExpressionBody() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inAccessorWithExpressionBody.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inAccessorWithExpressionBody.kt", this::doTest);
                 }
 
                 @TestMetadata("inBinaryOperation.kt")
                 public void testInBinaryOperation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inBinaryOperation.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inBinaryOperation.kt", this::doTest);
                 }
 
                 @TestMetadata("inClass.kt")
                 public void testInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inFun.kt")
                 public void testInFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inFun.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inFun.kt", this::doTest);
                 }
 
                 @TestMetadata("inFunWithExpressionBody.kt")
                 public void testInFunWithExpressionBody() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inFunWithExpressionBody.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inFunWithExpressionBody.kt", this::doTest);
                 }
 
                 @TestMetadata("inLabelRef.kt")
                 public void testInLabelRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inLabelRef.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inLabelRef.kt", this::doTest);
                 }
 
                 @TestMetadata("inLambdaNoParams.kt")
                 public void testInLambdaNoParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inLambdaNoParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inLambdaNoParams.kt", this::doTest);
                 }
 
                 @TestMetadata("inLambdaWithParams.kt")
                 public void testInLambdaWithParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inLambdaWithParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inLambdaWithParams.kt", this::doTest);
                 }
 
                 @TestMetadata("inMultiLineLambdaNoParams.kt")
                 public void testInMultiLineLambdaNoParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inMultiLineLambdaNoParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inMultiLineLambdaNoParams.kt", this::doTest);
                 }
 
                 @TestMetadata("inMultiLineLambdaWithParams.kt")
                 public void testInMultiLineLambdaWithParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inMultiLineLambdaWithParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inMultiLineLambdaWithParams.kt", this::doTest);
                 }
 
                 @TestMetadata("inWhen.kt")
                 public void testInWhen() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inWhen.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/inWhen.kt", this::doTest);
                 }
 
                 @TestMetadata("localWithPackageName.kt")
                 public void testLocalWithPackageName() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/localWithPackageName.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/localWithPackageName.kt", this::doTest);
                 }
 
                 @TestMetadata("nonIdentifier.kt")
                 public void testNonIdentifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/nonIdentifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/nonIdentifier.kt", this::doTest);
                 }
 
                 @TestMetadata("nullableType.kt")
                 public void testNullableType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/nullableType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/nullableType.kt", this::doTest);
                 }
 
                 @TestMetadata("onTopLevel.kt")
                 public void testOnTopLevel() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/onTopLevel.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/onTopLevel.kt", this::doTest);
                 }
 
                 @TestMetadata("positionNextToUsage.kt")
                 public void testPositionNextToUsage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/positionNextToUsage.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/positionNextToUsage.kt", this::doTest);
                 }
 
                 @TestMetadata("qualifiedInFun.kt")
                 public void testQualifiedInFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/qualifiedInFun.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/qualifiedInFun.kt", this::doTest);
                 }
 
                 @TestMetadata("unitTypedInFun.kt")
                 public void testUnitTypedInFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/localVariable/unitTypedInFun.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/localVariable/unitTypedInFun.kt", this::doTest);
                 }
             }
 
@@ -4476,320 +3839,267 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("assignedInFun.kt")
                 public void testAssignedInFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/assignedInFun.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/assignedInFun.kt", this::doTest);
                 }
 
                 @TestMetadata("assignedInFunInClass.kt")
                 public void testAssignedInFunInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/assignedInFunInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/assignedInFunInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("callableRef.kt")
                 public void testCallableRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/callableRef.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/callableRef.kt", this::doTest);
                 }
 
                 @TestMetadata("dataClassPropertyByDestructuringEntry.kt")
                 public void testDataClassPropertyByDestructuringEntry() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/dataClassPropertyByDestructuringEntry.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/dataClassPropertyByDestructuringEntry.kt", this::doTest);
                 }
 
                 @TestMetadata("dataClassPropertyByDestructuringEntryWithSkippedIndex.kt")
                 public void testDataClassPropertyByDestructuringEntryWithSkippedIndex() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/dataClassPropertyByDestructuringEntryWithSkippedIndex.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/dataClassPropertyByDestructuringEntryWithSkippedIndex.kt", this::doTest);
                 }
 
                 @TestMetadata("dataClassPropertyByDestructuringEntryWithType.kt")
                 public void testDataClassPropertyByDestructuringEntryWithType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/dataClassPropertyByDestructuringEntryWithType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/dataClassPropertyByDestructuringEntryWithType.kt", this::doTest);
                 }
 
                 @TestMetadata("dataClassPropertyByNamedArgument.kt")
                 public void testDataClassPropertyByNamedArgument() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/dataClassPropertyByNamedArgument.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/dataClassPropertyByNamedArgument.kt", this::doTest);
                 }
 
                 @TestMetadata("inAccessorInClass.kt")
                 public void testInAccessorInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inAccessorInClassObject.kt")
                 public void testInAccessorInClassObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInClassObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInClassObject.kt", this::doTest);
                 }
 
                 @TestMetadata("inAccessorInGenClass.kt")
                 public void testInAccessorInGenClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInGenClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInGenClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inAccessorInObject.kt")
                 public void testInAccessorInObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInObject.kt", this::doTest);
                 }
 
                 @TestMetadata("inAccessorInTrait.kt")
                 public void testInAccessorInTrait() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInTrait.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorInTrait.kt", this::doTest);
                 }
 
                 @TestMetadata("inAccessorNoClass.kt")
                 public void testInAccessorNoClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorNoClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorNoClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inAccessorWithExpressionBodyInClass.kt")
                 public void testInAccessorWithExpressionBodyInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorWithExpressionBodyInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAccessorWithExpressionBodyInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inAnonymousObject.kt")
                 public void testInAnonymousObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAnonymousObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAnonymousObject.kt", this::doTest);
                 }
 
                 @TestMetadata("inAnonymousObjectInSecondaryConstructor.kt")
                 public void testInAnonymousObjectInSecondaryConstructor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAnonymousObjectInSecondaryConstructor.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inAnonymousObjectInSecondaryConstructor.kt", this::doTest);
                 }
 
                 @TestMetadata("inBinaryOperation.kt")
                 public void testInBinaryOperation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inBinaryOperation.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inBinaryOperation.kt", this::doTest);
                 }
 
                 @TestMetadata("inClassInitializer.kt")
                 public void testInClassInitializer() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inClassInitializer.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inClassInitializer.kt", this::doTest);
                 }
 
                 @TestMetadata("inClassObjectInitializer.kt")
                 public void testInClassObjectInitializer() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inClassObjectInitializer.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inClassObjectInitializer.kt", this::doTest);
                 }
 
                 @TestMetadata("inFun.kt")
                 public void testInFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inFun.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inFun.kt", this::doTest);
                 }
 
                 @TestMetadata("inFunInClass.kt")
                 public void testInFunInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inFunInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inFunInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inFunInGenClass.kt")
                 public void testInFunInGenClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inFunInGenClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inFunInGenClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inGenAccessorInClass.kt")
                 public void testInGenAccessorInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inGenAccessorInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inGenAccessorInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inGenAccessorInGenClass.kt")
                 public void testInGenAccessorInGenClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inGenAccessorInGenClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inGenAccessorInGenClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inGenFunInClass.kt")
                 public void testInGenFunInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inGenFunInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inGenFunInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inGenFunInGenClass.kt")
                 public void testInGenFunInGenClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inGenFunInGenClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inGenFunInGenClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inLabelRef.kt")
                 public void testInLabelRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLabelRef.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLabelRef.kt", this::doTest);
                 }
 
                 @TestMetadata("inLambdaNoParams.kt")
                 public void testInLambdaNoParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLambdaNoParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLambdaNoParams.kt", this::doTest);
                 }
 
                 @TestMetadata("inLambdaWithIt.kt")
                 public void testInLambdaWithIt() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLambdaWithIt.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLambdaWithIt.kt", this::doTest);
                 }
 
                 @TestMetadata("inLambdaWithParams.kt")
                 public void testInLambdaWithParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLambdaWithParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLambdaWithParams.kt", this::doTest);
                 }
 
                 @TestMetadata("inLambdaWithTypedParams.kt")
                 public void testInLambdaWithTypedParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLambdaWithTypedParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inLambdaWithTypedParams.kt", this::doTest);
                 }
 
                 @TestMetadata("inMultiLineLambdaNoParams.kt")
                 public void testInMultiLineLambdaNoParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inMultiLineLambdaNoParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inMultiLineLambdaNoParams.kt", this::doTest);
                 }
 
                 @TestMetadata("inPropertyInitializerInClass.kt")
                 public void testInPropertyInitializerInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inPropertyInitializerInClassObject.kt")
                 public void testInPropertyInitializerInClassObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInClassObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInClassObject.kt", this::doTest);
                 }
 
                 @TestMetadata("inPropertyInitializerInEnumClass.kt")
                 public void testInPropertyInitializerInEnumClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInEnumClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInEnumClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inPropertyInitializerInEnumEntry.kt")
                 public void testInPropertyInitializerInEnumEntry() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInEnumEntry.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInEnumEntry.kt", this::doTest);
                 }
 
                 @TestMetadata("inPropertyInitializerInGenClass.kt")
                 public void testInPropertyInitializerInGenClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInGenClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInGenClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inPropertyInitializerInNestedClass.kt")
                 public void testInPropertyInitializerInNestedClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInNestedClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInNestedClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inPropertyInitializerInObject.kt")
                 public void testInPropertyInitializerInObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerInObject.kt", this::doTest);
                 }
 
                 @TestMetadata("inPropertyInitializerNoClass.kt")
                 public void testInPropertyInitializerNoClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerNoClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inPropertyInitializerNoClass.kt", this::doTest);
                 }
 
                 @TestMetadata("inSecondaryConstructor.kt")
                 public void testInSecondaryConstructor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/inSecondaryConstructor.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/inSecondaryConstructor.kt", this::doTest);
                 }
 
                 @TestMetadata("namedArgInConstructorCall.kt")
                 public void testNamedArgInConstructorCall() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/namedArgInConstructorCall.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/namedArgInConstructorCall.kt", this::doTest);
                 }
 
                 @TestMetadata("namedArgInFunctionCall.kt")
                 public void testNamedArgInFunctionCall() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/namedArgInFunctionCall.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/namedArgInFunctionCall.kt", this::doTest);
                 }
 
                 @TestMetadata("nonIdentifier.kt")
                 public void testNonIdentifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/nonIdentifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/nonIdentifier.kt", this::doTest);
                 }
 
                 @TestMetadata("nullableType.kt")
                 public void testNullableType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/nullableType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/nullableType.kt", this::doTest);
                 }
 
                 @TestMetadata("parameterFromClassDelegationSpecifier.kt")
                 public void testParameterFromClassDelegationSpecifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/parameterFromClassDelegationSpecifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/parameterFromClassDelegationSpecifier.kt", this::doTest);
                 }
 
                 @TestMetadata("parameterFromEnumEntryDelegationSpecifier.kt")
                 public void testParameterFromEnumEntryDelegationSpecifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/parameterFromEnumEntryDelegationSpecifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/parameterFromEnumEntryDelegationSpecifier.kt", this::doTest);
                 }
 
                 @TestMetadata("parameterFromObjectDelegationSpecifier.kt")
                 public void testParameterFromObjectDelegationSpecifier() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/parameterFromObjectDelegationSpecifier.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/parameterFromObjectDelegationSpecifier.kt", this::doTest);
                 }
 
                 @TestMetadata("qualifiedInFun.kt")
                 public void testQualifiedInFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/qualifiedInFun.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/qualifiedInFun.kt", this::doTest);
                 }
 
                 @TestMetadata("quotedName.kt")
                 public void testQuotedName() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/quotedName.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/quotedName.kt", this::doTest);
                 }
 
                 @TestMetadata("recursiveBound.kt")
                 public void testRecursiveBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/recursiveBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/recursiveBound.kt", this::doTest);
                 }
 
                 @TestMetadata("withPackageName.kt")
                 public void testWithPackageName() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/withPackageName.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/withPackageName.kt", this::doTest);
                 }
 
                 @TestMetadata("wrongReceiver.kt")
                 public void testWrongReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/parameter/wrongReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/parameter/wrongReceiver.kt", this::doTest);
                 }
             }
 
@@ -4803,80 +4113,67 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("localValNoReceiver.kt")
                 public void testLocalValNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/localValNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/localValNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("memberValNoReceiver.kt")
                 public void testMemberValNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/memberValNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/memberValNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("memberVarNoReceiver.kt")
                 public void testMemberVarNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/memberVarNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/memberVarNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("objectMemberValNoReceiver.kt")
                 public void testObjectMemberValNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/objectMemberValNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/objectMemberValNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInClass.kt")
                 public void testThisInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/thisInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/thisInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInExtension.kt")
                 public void testThisInExtension() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/thisInExtension.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/thisInExtension.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInNestedClass1.kt")
                 public void testThisInNestedClass1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/thisInNestedClass1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/thisInNestedClass1.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInNestedClass2.kt")
                 public void testThisInNestedClass2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/thisInNestedClass2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/thisInNestedClass2.kt", this::doTest);
                 }
 
                 @TestMetadata("topLevelValNoReceiver.kt")
                 public void testTopLevelValNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/topLevelValNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/topLevelValNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnCompanionObject.kt")
                 public void testValOnCompanionObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/valOnCompanionObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/valOnCompanionObject.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnLibType.kt")
                 public void testValOnLibType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/valOnLibType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/valOnLibType.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnUserType.kt")
                 public void testValOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/valOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/valOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("varOnUserType.kt")
                 public void testVarOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/varOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/primaryParameter/varOnUserType.kt", this::doTest);
                 }
             }
 
@@ -4890,224 +4187,187 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("callOnUserType.kt")
                 public void testCallOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/callOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/callOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("callableRef.kt")
                 public void testCallableRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/callableRef.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/callableRef.kt", this::doTest);
                 }
 
                 @TestMetadata("extensionRefInImport.kt")
                 public void testExtensionRefInImport() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/extensionRefInImport.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/extensionRefInImport.kt", this::doTest);
                 }
 
                 @TestMetadata("extensionWithTypeParameterAsReceiver.kt")
                 public void testExtensionWithTypeParameterAsReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/extensionWithTypeParameterAsReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/extensionWithTypeParameterAsReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("inBinaryOperation.kt")
                 public void testInBinaryOperation() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/inBinaryOperation.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/inBinaryOperation.kt", this::doTest);
                 }
 
                 @TestMetadata("inLabelRef.kt")
                 public void testInLabelRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/inLabelRef.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/inLabelRef.kt", this::doTest);
                 }
 
                 @TestMetadata("inconsistentTypes.kt")
                 public void testInconsistentTypes() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/inconsistentTypes.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/inconsistentTypes.kt", this::doTest);
                 }
 
                 @TestMetadata("localValDelegateRuntime.kt")
                 public void testLocalValDelegateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/localValDelegateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/localValDelegateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("localValNoReceiver.kt")
                 public void testLocalValNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/localValNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/localValNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("memberValDelegateRuntime.kt")
                 public void testMemberValDelegateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/memberValDelegateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/memberValDelegateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("memberValNoReceiver.kt")
                 public void testMemberValNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/memberValNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/memberValNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("memberVarDelegateRuntime.kt")
                 public void testMemberVarDelegateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/memberVarDelegateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/memberVarDelegateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("memberWithTypeParameterAsReceiver.kt")
                 public void testMemberWithTypeParameterAsReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/memberWithTypeParameterAsReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/memberWithTypeParameterAsReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("nonAbstractInInterface.kt")
                 public void testNonAbstractInInterface() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/nonAbstractInInterface.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/nonAbstractInInterface.kt", this::doTest);
                 }
 
                 @TestMetadata("objectMemberValNoReceiver.kt")
                 public void testObjectMemberValNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/objectMemberValNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/objectMemberValNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("privateForMembers.kt")
                 public void testPrivateForMembers() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/privateForMembers.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/privateForMembers.kt", this::doTest);
                 }
 
                 @TestMetadata("qualifiedRefInStringTemplateRuntime.kt")
                 public void testQualifiedRefInStringTemplateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/qualifiedRefInStringTemplateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/qualifiedRefInStringTemplateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("quotedName.kt")
                 public void testQuotedName() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/quotedName.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/quotedName.kt", this::doTest);
                 }
 
                 @TestMetadata("recursiveBound.kt")
                 public void testRecursiveBound() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/recursiveBound.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/recursiveBound.kt", this::doTest);
                 }
 
                 @TestMetadata("refInImport.kt")
                 public void testRefInImport() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/refInImport.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/refInImport.kt", this::doTest);
                 }
 
                 @TestMetadata("refInStringTemplateRuntime.kt")
                 public void testRefInStringTemplateRuntime() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/refInStringTemplateRuntime.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/refInStringTemplateRuntime.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInClass.kt")
                 public void testThisInClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/thisInClass.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/thisInClass.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInExtension.kt")
                 public void testThisInExtension() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/thisInExtension.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/thisInExtension.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInNestedClass1.kt")
                 public void testThisInNestedClass1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/thisInNestedClass1.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/thisInNestedClass1.kt", this::doTest);
                 }
 
                 @TestMetadata("thisInNestedClass2.kt")
                 public void testThisInNestedClass2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/thisInNestedClass2.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/thisInNestedClass2.kt", this::doTest);
                 }
 
                 @TestMetadata("topLevelValNoReceiver.kt")
                 public void testTopLevelValNoReceiver() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/topLevelValNoReceiver.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/topLevelValNoReceiver.kt", this::doTest);
                 }
 
                 @TestMetadata("topLevelValWithPackageName.kt")
                 public void testTopLevelValWithPackageName() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/topLevelValWithPackageName.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/topLevelValWithPackageName.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnClassNoClassObject.kt")
                 public void testValOnClassNoClassObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnClassNoClassObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnClassNoClassObject.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnClassObject.kt")
                 public void testValOnClassObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnClassObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnClassObject.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnLibObject.kt")
                 public void testValOnLibObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnLibObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnLibObject.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnLibType.kt")
                 public void testValOnLibType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnLibType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnLibType.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnUserObject.kt")
                 public void testValOnUserObject() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnUserObject.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnUserObject.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnUserType.kt")
                 public void testValOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("valOnUserTypeWithTypeParams.kt")
                 public void testValOnUserTypeWithTypeParams() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valOnUserTypeWithTypeParams.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valOnUserTypeWithTypeParams.kt", this::doTest);
                 }
 
                 @TestMetadata("valWithNullableType.kt")
                 public void testValWithNullableType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/valWithNullableType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/valWithNullableType.kt", this::doTest);
                 }
 
                 @TestMetadata("varOnLibType.kt")
                 public void testVarOnLibType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/varOnLibType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/varOnLibType.kt", this::doTest);
                 }
 
                 @TestMetadata("varOnUserType.kt")
                 public void testVarOnUserType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/varOnUserType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/varOnUserType.kt", this::doTest);
                 }
 
                 @TestMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/abstract")
@@ -5120,32 +4380,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                     @TestMetadata("classNoExplicitReceiver.kt")
                     public void testClassNoExplicitReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/classNoExplicitReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/classNoExplicitReceiver.kt", this::doTest);
                     }
 
                     @TestMetadata("explicitReceiverOfContainingClass.kt")
                     public void testExplicitReceiverOfContainingClass() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/explicitReceiverOfContainingClass.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/explicitReceiverOfContainingClass.kt", this::doTest);
                     }
 
                     @TestMetadata("interfaceNoExplicitReceiver.kt")
                     public void testInterfaceNoExplicitReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/interfaceNoExplicitReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/interfaceNoExplicitReceiver.kt", this::doTest);
                     }
 
                     @TestMetadata("notAbstractClass.kt")
                     public void testNotAbstractClass() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/notAbstractClass.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/notAbstractClass.kt", this::doTest);
                     }
 
                     @TestMetadata("otherExplicitReceiver.kt")
                     public void testOtherExplicitReceiver() throws Exception {
-                        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/otherExplicitReceiver.kt");
-                        doTest(fileName);
+                        KotlinTestUtils.runTest("idea/testData/quickfix/createFromUsage/createVariable/property/abstract/otherExplicitReceiver.kt", this::doTest);
                     }
                 }
             }
@@ -5162,56 +4417,47 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("breakInLoop.kt")
         public void testBreakInLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createLabel/breakInLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/createLabel/breakInLoop.kt", this::doTest);
         }
 
         @TestMetadata("breakInOuterLoop.kt")
         public void testBreakInOuterLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createLabel/breakInOuterLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/createLabel/breakInOuterLoop.kt", this::doTest);
         }
 
         @TestMetadata("breakInlambdaBeforeLoop.kt")
         public void testBreakInlambdaBeforeLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createLabel/breakInlambdaBeforeLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/createLabel/breakInlambdaBeforeLoop.kt", this::doTest);
         }
 
         @TestMetadata("breakNoLoop.kt")
         public void testBreakNoLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createLabel/breakNoLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/createLabel/breakNoLoop.kt", this::doTest);
         }
 
         @TestMetadata("continueInLoop.kt")
         public void testContinueInLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createLabel/continueInLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/createLabel/continueInLoop.kt", this::doTest);
         }
 
         @TestMetadata("continueNoLoop.kt")
         public void testContinueNoLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createLabel/continueNoLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/createLabel/continueNoLoop.kt", this::doTest);
         }
 
         @TestMetadata("returnInLambda.kt")
         public void testReturnInLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createLabel/returnInLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/createLabel/returnInLambda.kt", this::doTest);
         }
 
         @TestMetadata("returnInOuterLambda.kt")
         public void testReturnInOuterLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createLabel/returnInOuterLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/createLabel/returnInOuterLambda.kt", this::doTest);
         }
 
         @TestMetadata("returnNoLambda.kt")
         public void testReturnNoLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/createLabel/returnNoLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/createLabel/returnNoLambda.kt", this::doTest);
         }
     }
 
@@ -5225,62 +4471,52 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("exposedParameterType.kt")
         public void testExposedParameterType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedParameterType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedParameterType.kt", this::doTest);
         }
 
         @TestMetadata("exposedPropertyType.kt")
         public void testExposedPropertyType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedPropertyType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedPropertyType.kt", this::doTest);
         }
 
         @TestMetadata("exposedReceiverType.kt")
         public void testExposedReceiverType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedReceiverType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedReceiverType.kt", this::doTest);
         }
 
         @TestMetadata("exposedReturnType.kt")
         public void testExposedReturnType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedReturnType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedReturnType.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperClass.kt")
         public void testExposedSuperClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedSuperClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedSuperClass.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperClassProtectedBase.kt")
         public void testExposedSuperClassProtectedBase() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedSuperClassProtectedBase.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedSuperClassProtectedBase.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperClassProtectedInAnother.kt")
         public void testExposedSuperClassProtectedInAnother() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedSuperClassProtectedInAnother.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedSuperClassProtectedInAnother.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperInterface.kt")
         public void testExposedSuperInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedSuperInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedSuperInterface.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperInterfacePrivate.kt")
         public void testExposedSuperInterfacePrivate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedSuperInterfacePrivate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedSuperInterfacePrivate.kt", this::doTest);
         }
 
         @TestMetadata("exposedTypeParameterBound.kt")
         public void testExposedTypeParameterBound() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/decreaseVisibility/exposedTypeParameterBound.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/decreaseVisibility/exposedTypeParameterBound.kt", this::doTest);
         }
     }
 
@@ -5290,8 +4526,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class DeprecatedSymbolUsage extends AbstractQuickFixTest {
         @TestMetadata("addImplicitReceiverNested.kt")
         public void testAddImplicitReceiverNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/addImplicitReceiverNested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/addImplicitReceiverNested.kt", this::doTest);
         }
 
         public void testAllFilesPresentInDeprecatedSymbolUsage() throws Exception {
@@ -5300,272 +4535,227 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("callChainBug.kt")
         public void testCallChainBug() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/callChainBug.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/callChainBug.kt", this::doTest);
         }
 
         @TestMetadata("callWithError.kt")
         public void testCallWithError() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/callWithError.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/callWithError.kt", this::doTest);
         }
 
         @TestMetadata("changeThis1.kt")
         public void testChangeThis1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/changeThis1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/changeThis1.kt", this::doTest);
         }
 
         @TestMetadata("changeThis2.kt")
         public void testChangeThis2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/changeThis2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/changeThis2.kt", this::doTest);
         }
 
         @TestMetadata("changeThisToOuterThis.kt")
         public void testChangeThisToOuterThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/changeThisToOuterThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/changeThisToOuterThis.kt", this::doTest);
         }
 
         @TestMetadata("classLiteralAndTypeArgsRuntime.kt")
         public void testClassLiteralAndTypeArgsRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classLiteralAndTypeArgsRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classLiteralAndTypeArgsRuntime.kt", this::doTest);
         }
 
         @TestMetadata("deprecationLevel.kt")
         public void testDeprecationLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/deprecationLevel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/deprecationLevel.kt", this::doTest);
         }
 
         @TestMetadata("doNotShortenUserReferences.kt")
         public void testDoNotShortenUserReferences() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/doNotShortenUserReferences.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/doNotShortenUserReferences.kt", this::doTest);
         }
 
         @TestMetadata("doNotShortenUsersExplicitThis.kt")
         public void testDoNotShortenUsersExplicitThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/doNotShortenUsersExplicitThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/doNotShortenUsersExplicitThis.kt", this::doTest);
         }
 
         @TestMetadata("dropReceiver.kt")
         public void testDropReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/dropReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/dropReceiver.kt", this::doTest);
         }
 
         @TestMetadata("extensionForGenericClass.kt")
         public void testExtensionForGenericClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/extensionForGenericClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/extensionForGenericClass.kt", this::doTest);
         }
 
         @TestMetadata("implicitCompanionObjectThis.kt")
         public void testImplicitCompanionObjectThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/implicitCompanionObjectThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/implicitCompanionObjectThis.kt", this::doTest);
         }
 
         @TestMetadata("implicitQualifiedThisRuntime.kt")
         public void testImplicitQualifiedThisRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/implicitQualifiedThisRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/implicitQualifiedThisRuntime.kt", this::doTest);
         }
 
         @TestMetadata("incorrectArgs.kt")
         public void testIncorrectArgs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/incorrectArgs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/incorrectArgs.kt", this::doTest);
         }
 
         @TestMetadata("incorrectReplacement.kt")
         public void testIncorrectReplacement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/incorrectReplacement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/incorrectReplacement.kt", this::doTest);
         }
 
         @TestMetadata("infixCall.kt")
         public void testInfixCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/infixCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/infixCall.kt", this::doTest);
         }
 
         @TestMetadata("keepArgumentNamed.kt")
         public void testKeepArgumentNamed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepArgumentNamed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepArgumentNamed.kt", this::doTest);
         }
 
         @TestMetadata("keepInfixCall.kt")
         public void testKeepInfixCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepInfixCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepInfixCall.kt", this::doTest);
         }
 
         @TestMetadata("localFun.kt")
         public void testLocalFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/localFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/localFun.kt", this::doTest);
         }
 
         @TestMetadata("mailformedExpression.kt")
         public void testMailformedExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/mailformedExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/mailformedExpression.kt", this::doTest);
         }
 
         @TestMetadata("memberFunction.kt")
         public void testMemberFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/memberFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/memberFunction.kt", this::doTest);
         }
 
         @TestMetadata("memberFunctionImplicitReceiver.kt")
         public void testMemberFunctionImplicitReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/memberFunctionImplicitReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/memberFunctionImplicitReceiver.kt", this::doTest);
         }
 
         @TestMetadata("memberFunctionInGenericClass.kt")
         public void testMemberFunctionInGenericClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/memberFunctionInGenericClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/memberFunctionInGenericClass.kt", this::doTest);
         }
 
         @TestMetadata("methodToProperty.kt")
         public void testMethodToProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/methodToProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/methodToProperty.kt", this::doTest);
         }
 
         @TestMetadata("noReplacement.kt")
         public void testNoReplacement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/noReplacement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/noReplacement.kt", this::doTest);
         }
 
         @TestMetadata("operatorCall.kt")
         public void testOperatorCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/operatorCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/operatorCall.kt", this::doTest);
         }
 
         @TestMetadata("operatorCall2.kt")
         public void testOperatorCall2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/operatorCall2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/operatorCall2.kt", this::doTest);
         }
 
         @TestMetadata("parameters.kt")
         public void testParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/parameters.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/parameters.kt", this::doTest);
         }
 
         @TestMetadata("propertyAssignment.kt")
         public void testPropertyAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/propertyAssignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/propertyAssignment.kt", this::doTest);
         }
 
         @TestMetadata("propertyAssignmentDefaultSetter.kt")
         public void testPropertyAssignmentDefaultSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/propertyAssignmentDefaultSetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/propertyAssignmentDefaultSetter.kt", this::doTest);
         }
 
         @TestMetadata("propertyAssignmentNoReceiver.kt")
         public void testPropertyAssignmentNoReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/propertyAssignmentNoReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/propertyAssignmentNoReceiver.kt", this::doTest);
         }
 
         @TestMetadata("propertyAssignmentNoSetter.kt")
         public void testPropertyAssignmentNoSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/propertyAssignmentNoSetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/propertyAssignmentNoSetter.kt", this::doTest);
         }
 
         @TestMetadata("propertyModification.kt")
         public void testPropertyModification() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/propertyModification.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/propertyModification.kt", this::doTest);
         }
 
         @TestMetadata("propertyToMethod.kt")
         public void testPropertyToMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/propertyToMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/propertyToMethod.kt", this::doTest);
         }
 
         @TestMetadata("propertyToSyntheticExtension.kt")
         public void testPropertyToSyntheticExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/propertyToSyntheticExtension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/propertyToSyntheticExtension.kt", this::doTest);
         }
 
         @TestMetadata("replaceCallWithArgument.kt")
         public void testReplaceCallWithArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/replaceCallWithArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/replaceCallWithArgument.kt", this::doTest);
         }
 
         @TestMetadata("replaceCallWithReceiver.kt")
         public void testReplaceCallWithReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/replaceCallWithReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/replaceCallWithReceiver.kt", this::doTest);
         }
 
         @TestMetadata("replaceModToRem.kt")
         public void testReplaceModToRem() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/replaceModToRem.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/replaceModToRem.kt", this::doTest);
         }
 
         @TestMetadata("shortenReferences.kt")
         public void testShortenReferences() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/shortenReferences.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/shortenReferences.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/simple.kt", this::doTest);
         }
 
         @TestMetadata("stringTemplate.kt")
         public void testStringTemplate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/stringTemplate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/stringTemplate.kt", this::doTest);
         }
 
         @TestMetadata("toOuterClassMethod.kt")
         public void testToOuterClassMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/toOuterClassMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/toOuterClassMethod.kt", this::doTest);
         }
 
         @TestMetadata("twoValuesCombined.kt")
         public void testTwoValuesCombined() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/twoValuesCombined.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/twoValuesCombined.kt", this::doTest);
         }
 
         @TestMetadata("usageInDerivedClass.kt")
         public void testUsageInDerivedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/usageInDerivedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/usageInDerivedClass.kt", this::doTest);
         }
 
         @TestMetadata("usageInDerivedClassGeneric.kt")
         public void testUsageInDerivedClassGeneric() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/usageInDerivedClassGeneric.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/usageInDerivedClassGeneric.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects")
@@ -5578,116 +4768,97 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("complexExpressionNotUsed1.kt")
             public void testComplexExpressionNotUsed1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed1.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionNotUsed2.kt")
             public void testComplexExpressionNotUsed2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed2.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionNotUsed3Runtime.kt")
             public void testComplexExpressionNotUsed3Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed3Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed3Runtime.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionNotUsed4Runtime.kt")
             public void testComplexExpressionNotUsed4Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed4Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed4Runtime.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionNotUsed5Runtime.kt")
             public void testComplexExpressionNotUsed5Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed5Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsed5Runtime.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionNotUsedSafeCall.kt")
             public void testComplexExpressionNotUsedSafeCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsedSafeCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsedSafeCall.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionNotUsedSafeCall2Runtime.kt")
             public void testComplexExpressionNotUsedSafeCall2Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsedSafeCall2Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsedSafeCall2Runtime.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionNotUsedShortenRefsRuntime.kt")
             public void testComplexExpressionNotUsedShortenRefsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsedShortenRefsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionNotUsedShortenRefsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionUsedTwice.kt")
             public void testComplexExpressionUsedTwice() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionUsedTwice2.kt")
             public void testComplexExpressionUsedTwice2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice2.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionUsedTwice3Runtime.kt")
             public void testComplexExpressionUsedTwice3Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice3Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice3Runtime.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionUsedTwice4.kt")
             public void testComplexExpressionUsedTwice4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice4.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionUsedTwice5Runtime.kt")
             public void testComplexExpressionUsedTwice5Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice5Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice5Runtime.kt", this::doTest);
             }
 
             @TestMetadata("complexExpressionUsedTwice6Runtime.kt")
             public void testComplexExpressionUsedTwice6Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice6Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/complexExpressionUsedTwice6Runtime.kt", this::doTest);
             }
 
             @TestMetadata("simpleExpressionNotUsed.kt")
             public void testSimpleExpressionNotUsed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/simpleExpressionNotUsed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/simpleExpressionNotUsed.kt", this::doTest);
             }
 
             @TestMetadata("simpleExpressionUsedTwice.kt")
             public void testSimpleExpressionUsedTwice() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/simpleExpressionUsedTwice.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/simpleExpressionUsedTwice.kt", this::doTest);
             }
 
             @TestMetadata("stringLiteralUsedTwice.kt")
             public void testStringLiteralUsedTwice() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/stringLiteralUsedTwice.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/stringLiteralUsedTwice.kt", this::doTest);
             }
 
             @TestMetadata("stringTemplateUsedTwice.kt")
             public void testStringTemplateUsedTwice() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/stringTemplateUsedTwice.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/stringTemplateUsedTwice.kt", this::doTest);
             }
 
             @TestMetadata("stringTemplateUsedTwice2.kt")
             public void testStringTemplateUsedTwice2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/stringTemplateUsedTwice2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/argumentSideEffects/stringTemplateUsedTwice2.kt", this::doTest);
             }
         }
 
@@ -5701,134 +4872,112 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("annotation1.kt")
             public void testAnnotation1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotation1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotation1.kt", this::doTest);
             }
 
             @TestMetadata("annotation2.kt")
             public void testAnnotation2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotation2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotation2.kt", this::doTest);
             }
 
             @TestMetadata("annotation3.kt")
             public void testAnnotation3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotation3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotation3.kt", this::doTest);
             }
 
             @TestMetadata("annotation4.kt")
             public void testAnnotation4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotation4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotation4.kt", this::doTest);
             }
 
             @TestMetadata("annotationKeepNamedArgs.kt")
             public void testAnnotationKeepNamedArgs() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotationKeepNamedArgs.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/annotationKeepNamedArgs.kt", this::doTest);
             }
 
             @TestMetadata("constructorUsage1.kt")
             public void testConstructorUsage1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/constructorUsage1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/constructorUsage1.kt", this::doTest);
             }
 
             @TestMetadata("constructorUsage2.kt")
             public void testConstructorUsage2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/constructorUsage2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/constructorUsage2.kt", this::doTest);
             }
 
             @TestMetadata("constructorUsage3.kt")
             public void testConstructorUsage3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/constructorUsage3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/constructorUsage3.kt", this::doTest);
             }
 
             @TestMetadata("constructorUsage4.kt")
             public void testConstructorUsage4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/constructorUsage4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/constructorUsage4.kt", this::doTest);
             }
 
             @TestMetadata("imports.kt")
             public void testImports() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/imports.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/imports.kt", this::doTest);
             }
 
             @TestMetadata("inAliasSimple.kt")
             public void testInAliasSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasSimple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasSimple.kt", this::doTest);
             }
 
             @TestMetadata("inAliasWithOwnReplaceForConstructorForAliasArguments.kt")
             public void testInAliasWithOwnReplaceForConstructorForAliasArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForConstructorForAliasArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForConstructorForAliasArguments.kt", this::doTest);
             }
 
             @TestMetadata("inAliasWithOwnReplaceForConstructorUnused.kt")
             public void testInAliasWithOwnReplaceForConstructorUnused() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForConstructorUnused.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForConstructorUnused.kt", this::doTest);
             }
 
             @TestMetadata("inAliasWithOwnReplaceForConstructorUsed.kt")
             public void testInAliasWithOwnReplaceForConstructorUsed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForConstructorUsed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForConstructorUsed.kt", this::doTest);
             }
 
             @TestMetadata("inAliasWithOwnReplaceForSecondaryConstructorUnused.kt")
             public void testInAliasWithOwnReplaceForSecondaryConstructorUnused() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForSecondaryConstructorUnused.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForSecondaryConstructorUnused.kt", this::doTest);
             }
 
             @TestMetadata("inAliasWithOwnReplaceForSecondaryConstructorUsed.kt")
             public void testInAliasWithOwnReplaceForSecondaryConstructorUsed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForSecondaryConstructorUsed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inAliasWithOwnReplaceForSecondaryConstructorUsed.kt", this::doTest);
             }
 
             @TestMetadata("inTypeArgument.kt")
             public void testInTypeArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inTypeArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/inTypeArgument.kt", this::doTest);
             }
 
             @TestMetadata("nestedClassToNestedClass.kt")
             public void testNestedClassToNestedClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/nestedClassToNestedClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/nestedClassToNestedClass.kt", this::doTest);
             }
 
             @TestMetadata("noAnnotationConstructorUsage.kt")
             public void testNoAnnotationConstructorUsage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/noAnnotationConstructorUsage.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/noAnnotationConstructorUsage.kt", this::doTest);
             }
 
             @TestMetadata("qualifiedClassName.kt")
             public void testQualifiedClassName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/qualifiedClassName.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/qualifiedClassName.kt", this::doTest);
             }
 
             @TestMetadata("qualifiedClassNameInPattern.kt")
             public void testQualifiedClassNameInPattern() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/qualifiedClassNameInPattern.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/qualifiedClassNameInPattern.kt", this::doTest);
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/simple.kt", this::doTest);
             }
 
             @TestMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/wholeProject")
@@ -5841,8 +4990,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("inheritance.kt")
                 public void testInheritance() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/wholeProject/inheritance.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/classUsages/wholeProject/inheritance.kt", this::doTest);
                 }
             }
         }
@@ -5857,20 +5005,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("cannotKeepOutside.kt")
             public void testCannotKeepOutside() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/functionLiteralArguments/cannotKeepOutside.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/functionLiteralArguments/cannotKeepOutside.kt", this::doTest);
             }
 
             @TestMetadata("keepInside.kt")
             public void testKeepInside() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/functionLiteralArguments/keepInside.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/functionLiteralArguments/keepInside.kt", this::doTest);
             }
 
             @TestMetadata("keepOutside.kt")
             public void testKeepOutside() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/functionLiteralArguments/keepOutside.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/functionLiteralArguments/keepOutside.kt", this::doTest);
             }
         }
 
@@ -5880,8 +5025,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
         public static class KeepComments extends AbstractQuickFixTest {
             @TestMetadata("addArguments.kt")
             public void testAddArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/addArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/addArguments.kt", this::doTest);
             }
 
             public void testAllFilesPresentInKeepComments() throws Exception {
@@ -5890,38 +5034,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("commentBeforeArgument.kt")
             public void testCommentBeforeArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/commentBeforeArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/commentBeforeArgument.kt", this::doTest);
             }
 
             @TestMetadata("dropArgument.kt")
             public void testDropArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/dropArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/dropArgument.kt", this::doTest);
             }
 
             @TestMetadata("multipleArguments.kt")
             public void testMultipleArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/multipleArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/multipleArguments.kt", this::doTest);
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/simple.kt", this::doTest);
             }
 
             @TestMetadata("usedTwice.kt")
             public void testUsedTwice() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/usedTwice.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/usedTwice.kt", this::doTest);
             }
 
             @TestMetadata("variableForArgument.kt")
             public void testVariableForArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/variableForArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepComments/variableForArgument.kt", this::doTest);
             }
         }
 
@@ -5931,8 +5069,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
         public static class KeepLineBreaks extends AbstractQuickFixTest {
             @TestMetadata("addArgument.kt")
             public void testAddArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepLineBreaks/addArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepLineBreaks/addArgument.kt", this::doTest);
             }
 
             public void testAllFilesPresentInKeepLineBreaks() throws Exception {
@@ -5941,14 +5078,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("lineBreakAfterReceiverRuntime.kt")
             public void testLineBreakAfterReceiverRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepLineBreaks/lineBreakAfterReceiverRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepLineBreaks/lineBreakAfterReceiverRuntime.kt", this::doTest);
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/keepLineBreaks/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/keepLineBreaks/simple.kt", this::doTest);
             }
         }
 
@@ -5962,14 +5097,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("in.kt")
             public void testIn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/operatorCalls/in.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/operatorCalls/in.kt", this::doTest);
             }
 
             @TestMetadata("plusAssign.kt")
             public void testPlusAssign() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/operatorCalls/plusAssign.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/operatorCalls/plusAssign.kt", this::doTest);
             }
         }
 
@@ -5983,68 +5116,57 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("dropAll.kt")
             public void testDropAll() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/dropAll.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/dropAll.kt", this::doTest);
             }
 
             @TestMetadata("functionalLiteralArgument.kt")
             public void testFunctionalLiteralArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/functionalLiteralArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/functionalLiteralArgument.kt", this::doTest);
             }
 
             @TestMetadata("namedArgument.kt")
             public void testNamedArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/namedArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/namedArgument.kt", this::doTest);
             }
 
             @TestMetadata("optionalParameters1.kt")
             public void testOptionalParameters1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters1.kt", this::doTest);
             }
 
             @TestMetadata("optionalParameters2.kt")
             public void testOptionalParameters2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters2.kt", this::doTest);
             }
 
             @TestMetadata("optionalParameters3.kt")
             public void testOptionalParameters3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters3.kt", this::doTest);
             }
 
             @TestMetadata("optionalParameters4.kt")
             public void testOptionalParameters4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters4.kt", this::doTest);
             }
 
             @TestMetadata("optionalParameters5.kt")
             public void testOptionalParameters5() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters5.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters5.kt", this::doTest);
             }
 
             @TestMetadata("optionalParameters7.kt")
             public void testOptionalParameters7() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters7.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters7.kt", this::doTest);
             }
 
             @TestMetadata("optionalParameters9.kt")
             public void testOptionalParameters9() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters9.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/optionalParameters9.kt", this::doTest);
             }
 
             @TestMetadata("overridingMethod.kt")
             public void testOverridingMethod() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/overridingMethod.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/optionalParameters/overridingMethod.kt", this::doTest);
             }
         }
 
@@ -6058,62 +5180,52 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("existingStub.kt")
             public void testExistingStub() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/existingStub.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/existingStub.kt", this::doTest);
             }
 
             @TestMetadata("existingStubForVar.kt")
             public void testExistingStubForVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/existingStubForVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/existingStubForVar.kt", this::doTest);
             }
 
             @TestMetadata("extension.kt")
             public void testExtension() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/extension.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/extension.kt", this::doTest);
             }
 
             @TestMetadata("extensionVar.kt")
             public void testExtensionVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/extensionVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/extensionVar.kt", this::doTest);
             }
 
             @TestMetadata("generic.kt")
             public void testGeneric() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/generic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/generic.kt", this::doTest);
             }
 
             @TestMetadata("genericDerived.kt")
             public void testGenericDerived() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/genericDerived.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/genericDerived.kt", this::doTest);
             }
 
             @TestMetadata("genericFunction.kt")
             public void testGenericFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/genericFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/genericFunction.kt", this::doTest);
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/simple.kt", this::doTest);
             }
 
             @TestMetadata("simpleVal.kt")
             public void testSimpleVal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/simpleVal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/simpleVal.kt", this::doTest);
             }
 
             @TestMetadata("simpleVar.kt")
             public void testSimpleVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/simpleVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/publishedApi/simpleVar.kt", this::doTest);
             }
         }
 
@@ -6127,50 +5239,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("changeThisSafeCall.kt")
             public void testChangeThisSafeCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCall.kt", this::doTest);
             }
 
             @TestMetadata("changeThisSafeCallWithValue1Runtime.kt")
             public void testChangeThisSafeCallWithValue1Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValue1Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValue1Runtime.kt", this::doTest);
             }
 
             @TestMetadata("changeThisSafeCallWithValue2Runtime.kt")
             public void testChangeThisSafeCallWithValue2Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValue2Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValue2Runtime.kt", this::doTest);
             }
 
             @TestMetadata("changeThisSafeCallWithValue3Runtime.kt")
             public void testChangeThisSafeCallWithValue3Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValue3Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValue3Runtime.kt", this::doTest);
             }
 
             @TestMetadata("changeThisSafeCallWithValue4Runtime.kt")
             public void testChangeThisSafeCallWithValue4Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValue4Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValue4Runtime.kt", this::doTest);
             }
 
             @TestMetadata("changeThisSafeCallWithValueRuntime.kt")
             public void testChangeThisSafeCallWithValueRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValueRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/changeThisSafeCallWithValueRuntime.kt", this::doTest);
             }
 
             @TestMetadata("dropReceiverSafeCall.kt")
             public void testDropReceiverSafeCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/dropReceiverSafeCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/dropReceiverSafeCall.kt", this::doTest);
             }
 
             @TestMetadata("safeCall.kt")
             public void testSafeCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/safeCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/safeCall/safeCall.kt", this::doTest);
             }
         }
 
@@ -6184,56 +5288,47 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("compoundWithDeprecatedArgumentsAndConstructor.kt")
             public void testCompoundWithDeprecatedArgumentsAndConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/compoundWithDeprecatedArgumentsAndConstructor.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/compoundWithDeprecatedArgumentsAndConstructor.kt", this::doTest);
             }
 
             @TestMetadata("conflictOnTypeAndAlias.kt")
             public void testConflictOnTypeAndAlias() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/conflictOnTypeAndAlias.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/conflictOnTypeAndAlias.kt", this::doTest);
             }
 
             @TestMetadata("constructorUsage.kt")
             public void testConstructorUsage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/constructorUsage.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/constructorUsage.kt", this::doTest);
             }
 
             @TestMetadata("constructorUsageWithConflict.kt")
             public void testConstructorUsageWithConflict() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/constructorUsageWithConflict.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/constructorUsageWithConflict.kt", this::doTest);
             }
 
             @TestMetadata("constructorUsageWithConflict1.kt")
             public void testConstructorUsageWithConflict1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/constructorUsageWithConflict1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/constructorUsageWithConflict1.kt", this::doTest);
             }
 
             @TestMetadata("onlyAliasDeprecated.kt")
             public void testOnlyAliasDeprecated() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/onlyAliasDeprecated.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/onlyAliasDeprecated.kt", this::doTest);
             }
 
             @TestMetadata("transitiveFromClass.kt")
             public void testTransitiveFromClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/transitiveFromClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/transitiveFromClass.kt", this::doTest);
             }
 
             @TestMetadata("transitiveLong.kt")
             public void testTransitiveLong() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/transitiveLong.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/transitiveLong.kt", this::doTest);
             }
 
             @TestMetadata("typeAliasWithAllGenericParams.kt")
             public void testTypeAliasWithAllGenericParams() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/typeAliasWithAllGenericParams.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeAliases/typeAliasWithAllGenericParams.kt", this::doTest);
             }
         }
 
@@ -6247,44 +5342,37 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("emptyVarargRuntime.kt")
             public void testEmptyVarargRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/emptyVarargRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/emptyVarargRuntime.kt", this::doTest);
             }
 
             @TestMetadata("explicitInPatternImplicitInUsage.kt")
             public void testExplicitInPatternImplicitInUsage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/explicitInPatternImplicitInUsage.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/explicitInPatternImplicitInUsage.kt", this::doTest);
             }
 
             @TestMetadata("explicitTypeArg.kt")
             public void testExplicitTypeArg() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/explicitTypeArg.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/explicitTypeArg.kt", this::doTest);
             }
 
             @TestMetadata("keepInUserCodeRuntime.kt")
             public void testKeepInUserCodeRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/keepInUserCodeRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/keepInUserCodeRuntime.kt", this::doTest);
             }
 
             @TestMetadata("keepOriginalIfQualified.kt")
             public void testKeepOriginalIfQualified() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/keepOriginalIfQualified.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/keepOriginalIfQualified.kt", this::doTest);
             }
 
             @TestMetadata("noImplicitTypeArgImportRuntime.kt")
             public void testNoImplicitTypeArgImportRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/noImplicitTypeArgImportRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/noImplicitTypeArgImportRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nonEmptyVarargRuntime.kt")
             public void testNonEmptyVarargRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/nonEmptyVarargRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/typeArguments/nonEmptyVarargRuntime.kt", this::doTest);
             }
         }
 
@@ -6294,20 +5382,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
         public static class Vararg extends AbstractQuickFixTest {
             @TestMetadata("addedNamedArgumentAfterRuntime.kt")
             public void testAddedNamedArgumentAfterRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/addedNamedArgumentAfterRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/addedNamedArgumentAfterRuntime.kt", this::doTest);
             }
 
             @TestMetadata("addedPositionalArgumentAfterRuntime.kt")
             public void testAddedPositionalArgumentAfterRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/addedPositionalArgumentAfterRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/addedPositionalArgumentAfterRuntime.kt", this::doTest);
             }
 
             @TestMetadata("addedSpreadArgumentAfterRuntime.kt")
             public void testAddedSpreadArgumentAfterRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/addedSpreadArgumentAfterRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/addedSpreadArgumentAfterRuntime.kt", this::doTest);
             }
 
             public void testAllFilesPresentInVararg() throws Exception {
@@ -6316,122 +5401,102 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("booleanArrayRuntime.kt")
             public void testBooleanArrayRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/booleanArrayRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/booleanArrayRuntime.kt", this::doTest);
             }
 
             @TestMetadata("byteArrayRuntime.kt")
             public void testByteArrayRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/byteArrayRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/byteArrayRuntime.kt", this::doTest);
             }
 
             @TestMetadata("doNotShortenUserReferences2Runtime.kt")
             public void testDoNotShortenUserReferences2Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/doNotShortenUserReferences2Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/doNotShortenUserReferences2Runtime.kt", this::doTest);
             }
 
             @TestMetadata("doNotShortenUserReferencesRuntime.kt")
             public void testDoNotShortenUserReferencesRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/doNotShortenUserReferencesRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/doNotShortenUserReferencesRuntime.kt", this::doTest);
             }
 
             @TestMetadata("doNotSimplifyOriginalCallRuntime.kt")
             public void testDoNotSimplifyOriginalCallRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/doNotSimplifyOriginalCallRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/doNotSimplifyOriginalCallRuntime.kt", this::doTest);
             }
 
             @TestMetadata("doubleArrayRuntime.kt")
             public void testDoubleArrayRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/doubleArrayRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/doubleArrayRuntime.kt", this::doTest);
             }
 
             @TestMetadata("floatArrayRuntime.kt")
             public void testFloatArrayRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/floatArrayRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/floatArrayRuntime.kt", this::doTest);
             }
 
             @TestMetadata("longArrayRuntime.kt")
             public void testLongArrayRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/longArrayRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/longArrayRuntime.kt", this::doTest);
             }
 
             @TestMetadata("multipleSpreadArguments2Runtime.kt")
             public void testMultipleSpreadArguments2Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/multipleSpreadArguments2Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/multipleSpreadArguments2Runtime.kt", this::doTest);
             }
 
             @TestMetadata("multipleSpreadArgumentsRuntime.kt")
             public void testMultipleSpreadArgumentsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/multipleSpreadArgumentsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/multipleSpreadArgumentsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("noImportRuntime.kt")
             public void testNoImportRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/noImportRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/noImportRuntime.kt", this::doTest);
             }
 
             @TestMetadata("shortArrayRuntime.kt")
             public void testShortArrayRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/shortArrayRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/shortArrayRuntime.kt", this::doTest);
             }
 
             @TestMetadata("vararg1Runtime.kt")
             public void testVararg1Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg1Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg1Runtime.kt", this::doTest);
             }
 
             @TestMetadata("vararg2Runtime.kt")
             public void testVararg2Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg2Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg2Runtime.kt", this::doTest);
             }
 
             @TestMetadata("vararg3Runtime.kt")
             public void testVararg3Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg3Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg3Runtime.kt", this::doTest);
             }
 
             @TestMetadata("vararg4.kt")
             public void testVararg4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg4.kt", this::doTest);
             }
 
             @TestMetadata("vararg5.kt")
             public void testVararg5() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg5.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg5.kt", this::doTest);
             }
 
             @TestMetadata("vararg6Runtime.kt")
             public void testVararg6Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg6Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg6Runtime.kt", this::doTest);
             }
 
             @TestMetadata("vararg7.kt")
             public void testVararg7() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg7.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg7.kt", this::doTest);
             }
 
             @TestMetadata("vararg8Runtime.kt")
             public void testVararg8Runtime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg8Runtime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/deprecatedSymbolUsage/vararg/vararg8Runtime.kt", this::doTest);
             }
         }
     }
@@ -6446,170 +5511,142 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("fixNullableBinaryWithExclExcl.kt")
         public void testFixNullableBinaryWithExclExcl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/fixNullableBinaryWithExclExcl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/fixNullableBinaryWithExclExcl.kt", this::doTest);
         }
 
         @TestMetadata("fixNullableInfixWithExclExcl.kt")
         public void testFixNullableInfixWithExclExcl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/fixNullableInfixWithExclExcl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/fixNullableInfixWithExclExcl.kt", this::doTest);
         }
 
         @TestMetadata("fixNullableIterableGenericWithExclExcl.kt")
         public void testFixNullableIterableGenericWithExclExcl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/fixNullableIterableGenericWithExclExcl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/fixNullableIterableGenericWithExclExcl.kt", this::doTest);
         }
 
         @TestMetadata("fixNullableIterableWithExclExcl.kt")
         public void testFixNullableIterableWithExclExcl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/fixNullableIterableWithExclExcl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/fixNullableIterableWithExclExcl.kt", this::doTest);
         }
 
         @TestMetadata("fixNullableUnaryWithExclExcl.kt")
         public void testFixNullableUnaryWithExclExcl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/fixNullableUnaryWithExclExcl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/fixNullableUnaryWithExclExcl.kt", this::doTest);
         }
 
         @TestMetadata("fixNullableWithExclExclAbsentWithBadIterator.kt")
         public void testFixNullableWithExclExclAbsentWithBadIterator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/fixNullableWithExclExclAbsentWithBadIterator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/fixNullableWithExclExclAbsentWithBadIterator.kt", this::doTest);
         }
 
         @TestMetadata("fixNullableWithIteratorWithExclExcl.kt")
         public void testFixNullableWithIteratorWithExclExcl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/fixNullableWithIteratorWithExclExcl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/fixNullableWithIteratorWithExclExcl.kt", this::doTest);
         }
 
         @TestMetadata("kt11594.kt")
         public void testKt11594() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/kt11594.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/kt11594.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessCast.kt")
         public void testRemoveUselessCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/removeUselessCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/removeUselessCast.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessCastInParens.kt")
         public void testRemoveUselessCastInParens() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/removeUselessCastInParens.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/removeUselessCastInParens.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessCastUnderSmartCast.kt")
         public void testRemoveUselessCastUnderSmartCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/removeUselessCastUnderSmartCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/removeUselessCastUnderSmartCast.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessIsCheck.kt")
         public void testRemoveUselessIsCheck() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/removeUselessIsCheck.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/removeUselessIsCheck.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessIsCheckInWhen.kt")
         public void testRemoveUselessIsCheckInWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/removeUselessIsCheckInWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/removeUselessIsCheckInWhen.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessIsCheckInWhenExpressionless.kt")
         public void testRemoveUselessIsCheckInWhenExpressionless() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/removeUselessIsCheckInWhenExpressionless.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/removeUselessIsCheckInWhenExpressionless.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessIsCheckInWhenExpressionlessNegate.kt")
         public void testRemoveUselessIsCheckInWhenExpressionlessNegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/removeUselessIsCheckInWhenExpressionlessNegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/removeUselessIsCheckInWhenExpressionlessNegate.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessIsCheckInWhenNegate.kt")
         public void testRemoveUselessIsCheckInWhenNegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/removeUselessIsCheckInWhenNegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/removeUselessIsCheckInWhenNegate.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessIsCheckNegate.kt")
         public void testRemoveUselessIsCheckNegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/removeUselessIsCheckNegate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/removeUselessIsCheckNegate.kt", this::doTest);
         }
 
         @TestMetadata("unnecessaryNonNullAssertion1.kt")
         public void testUnnecessaryNonNullAssertion1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/unnecessaryNonNullAssertion1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/unnecessaryNonNullAssertion1.kt", this::doTest);
         }
 
         @TestMetadata("unnecessaryNonNullAssertion2.kt")
         public void testUnnecessaryNonNullAssertion2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/unnecessaryNonNullAssertion2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/unnecessaryNonNullAssertion2.kt", this::doTest);
         }
 
         @TestMetadata("unnecessaryNonNullAssertion3.kt")
         public void testUnnecessaryNonNullAssertion3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/unnecessaryNonNullAssertion3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/unnecessaryNonNullAssertion3.kt", this::doTest);
         }
 
         @TestMetadata("unnecessarySafeCall1.kt")
         public void testUnnecessarySafeCall1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/unnecessarySafeCall1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/unnecessarySafeCall1.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCall1.kt")
         public void testUnsafeCall1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/unsafeCall1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/unsafeCall1.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCall2.kt")
         public void testUnsafeCall2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/unsafeCall2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/unsafeCall2.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCall3.kt")
         public void testUnsafeCall3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/unsafeCall3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/unsafeCall3.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCall4.kt")
         public void testUnsafeCall4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/unsafeCall4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/unsafeCall4.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCall5.kt")
         public void testUnsafeCall5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/unsafeCall5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/unsafeCall5.kt", this::doTest);
         }
 
         @TestMetadata("uselessCastStaticAssertIsFine.kt")
         public void testUselessCastStaticAssertIsFine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/uselessCastStaticAssertIsFine.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/uselessCastStaticAssertIsFine.kt", this::doTest);
         }
 
         @TestMetadata("uselessElvis.kt")
         public void testUselessElvis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/expressions/uselessElvis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/expressions/uselessElvis.kt", this::doTest);
         }
     }
 
@@ -6623,32 +5660,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("conditional.kt")
         public void testConditional() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/foldTryCatch/conditional.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/foldTryCatch/conditional.kt", this::doTest);
         }
 
         @TestMetadata("emptyFinally.kt")
         public void testEmptyFinally() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/foldTryCatch/emptyFinally.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/foldTryCatch/emptyFinally.kt", this::doTest);
         }
 
         @TestMetadata("multipleExceptions.kt")
         public void testMultipleExceptions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/foldTryCatch/multipleExceptions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/foldTryCatch/multipleExceptions.kt", this::doTest);
         }
 
         @TestMetadata("shadow.kt")
         public void testShadow() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/foldTryCatch/shadow.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/foldTryCatch/shadow.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/foldTryCatch/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/foldTryCatch/simple.kt", this::doTest);
         }
     }
 
@@ -6658,8 +5690,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class Implement extends AbstractQuickFixTest {
         @TestMetadata("abstract.kt")
         public void testAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/abstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/abstract.kt", this::doTest);
         }
 
         public void testAllFilesPresentInImplement() throws Exception {
@@ -6668,170 +5699,142 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("annotation.kt")
         public void testAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/annotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/annotation.kt", this::doTest);
         }
 
         @TestMetadata("doNotAddExpectForVal.kt")
         public void testDoNotAddExpectForVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/doNotAddExpectForVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/doNotAddExpectForVal.kt", this::doTest);
         }
 
         @TestMetadata("doNotAddHeader.kt")
         public void testDoNotAddHeader() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/doNotAddHeader.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/doNotAddHeader.kt", this::doTest);
         }
 
         @TestMetadata("enum.kt")
         public void testEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/enum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/enum.kt", this::doTest);
         }
 
         @TestMetadata("finalClass.kt")
         public void testFinalClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/finalClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/finalClass.kt", this::doTest);
         }
 
         @TestMetadata("inCompanion.kt")
         public void testInCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/inCompanion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/inCompanion.kt", this::doTest);
         }
 
         @TestMetadata("inInternalCompanion.kt")
         public void testInInternalCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/inInternalCompanion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/inInternalCompanion.kt", this::doTest);
         }
 
         @TestMetadata("inPrivateCompanion.kt")
         public void testInPrivateCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/inPrivateCompanion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/inPrivateCompanion.kt", this::doTest);
         }
 
         @TestMetadata("inProtectedCompanion.kt")
         public void testInProtectedCompanion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/inProtectedCompanion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/inProtectedCompanion.kt", this::doTest);
         }
 
         @TestMetadata("incorrectRange.kt")
         public void testIncorrectRange() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/incorrectRange.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/incorrectRange.kt", this::doTest);
         }
 
         @TestMetadata("inner.kt")
         public void testInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/inner.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/inner.kt", this::doTest);
         }
 
         @TestMetadata("interface.kt")
         public void testInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/interface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/interface.kt", this::doTest);
         }
 
         @TestMetadata("local.kt")
         public void testLocal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/local.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/local.kt", this::doTest);
         }
 
         @TestMetadata("nested.kt")
         public void testNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/nested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/nested.kt", this::doTest);
         }
 
         @TestMetadata("nestedPrivateInterface.kt")
         public void testNestedPrivateInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/nestedPrivateInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/nestedPrivateInterface.kt", this::doTest);
         }
 
         @TestMetadata("noDefaultConstructor.kt")
         public void testNoDefaultConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/noDefaultConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/noDefaultConstructor.kt", this::doTest);
         }
 
         @TestMetadata("private.kt")
         public void testPrivate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/private.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/private.kt", this::doTest);
         }
 
         @TestMetadata("privateConstructor.kt")
         public void testPrivateConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/privateConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/privateConstructor.kt", this::doTest);
         }
 
         @TestMetadata("privateNested.kt")
         public void testPrivateNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/privateNested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/privateNested.kt", this::doTest);
         }
 
         @TestMetadata("privateNestedWithConflict.kt")
         public void testPrivateNestedWithConflict() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/privateNestedWithConflict.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/privateNestedWithConflict.kt", this::doTest);
         }
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/protected.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/protected.kt", this::doTest);
         }
 
         @TestMetadata("sealed.kt")
         public void testSealed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/sealed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/sealed.kt", this::doTest);
         }
 
         @TestMetadata("sealedEmpty.kt")
         public void testSealedEmpty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/sealedEmpty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/sealedEmpty.kt", this::doTest);
         }
 
         @TestMetadata("sealedWithConflict.kt")
         public void testSealedWithConflict() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/sealedWithConflict.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/sealedWithConflict.kt", this::doTest);
         }
 
         @TestMetadata("typeParameter.kt")
         public void testTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/typeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/typeParameter.kt", this::doTest);
         }
 
         @TestMetadata("typeParameterOut.kt")
         public void testTypeParameterOut() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/typeParameterOut.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/typeParameterOut.kt", this::doTest);
         }
 
         @TestMetadata("typeParameterWhere.kt")
         public void testTypeParameterWhere() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/typeParameterWhere.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/typeParameterWhere.kt", this::doTest);
         }
 
         @TestMetadata("typeParametersClass.kt")
         public void testTypeParametersClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/implement/typeParametersClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/implement/typeParametersClass.kt", this::doTest);
         }
     }
 
@@ -6845,110 +5848,92 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("exposedParameterType.kt")
         public void testExposedParameterType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedParameterType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedParameterType.kt", this::doTest);
         }
 
         @TestMetadata("exposedParameterTypePublic.kt")
         public void testExposedParameterTypePublic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedParameterTypePublic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedParameterTypePublic.kt", this::doTest);
         }
 
         @TestMetadata("exposedPropertyType.kt")
         public void testExposedPropertyType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedPropertyType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedPropertyType.kt", this::doTest);
         }
 
         @TestMetadata("exposedReceiverType.kt")
         public void testExposedReceiverType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedReceiverType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedReceiverType.kt", this::doTest);
         }
 
         @TestMetadata("exposedReturnType.kt")
         public void testExposedReturnType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedReturnType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedReturnType.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperClass.kt")
         public void testExposedSuperClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedSuperClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedSuperClass.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperClassProtectedBase.kt")
         public void testExposedSuperClassProtectedBase() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedSuperClassProtectedBase.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedSuperClassProtectedBase.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperClassProtectedInAnother.kt")
         public void testExposedSuperClassProtectedInAnother() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedSuperClassProtectedInAnother.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedSuperClassProtectedInAnother.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperClassProtectedInAnotherFromPrivate.kt")
         public void testExposedSuperClassProtectedInAnotherFromPrivate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedSuperClassProtectedInAnotherFromPrivate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedSuperClassProtectedInAnotherFromPrivate.kt", this::doTest);
         }
 
         @TestMetadata("exposedSuperInterface.kt")
         public void testExposedSuperInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedSuperInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedSuperInterface.kt", this::doTest);
         }
 
         @TestMetadata("exposedTypeParameterBound.kt")
         public void testExposedTypeParameterBound() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/exposedTypeParameterBound.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/exposedTypeParameterBound.kt", this::doTest);
         }
 
         @TestMetadata("invalidSealedClassInheritance.kt")
         public void testInvalidSealedClassInheritance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invalidSealedClassInheritance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invalidSealedClassInheritance.kt", this::doTest);
         }
 
         @TestMetadata("overriddenProtectedMemberToPublicSingleFile.kt")
         public void testOverriddenProtectedMemberToPublicSingleFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/overriddenProtectedMemberToPublicSingleFile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/overriddenProtectedMemberToPublicSingleFile.kt", this::doTest);
         }
 
         @TestMetadata("privateMemberToInternalSingleFile.kt")
         public void testPrivateMemberToInternalSingleFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/privateMemberToInternalSingleFile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/privateMemberToInternalSingleFile.kt", this::doTest);
         }
 
         @TestMetadata("privateMemberToInternalWithExposed.kt")
         public void testPrivateMemberToInternalWithExposed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/privateMemberToInternalWithExposed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/privateMemberToInternalWithExposed.kt", this::doTest);
         }
 
         @TestMetadata("privateMemberToPublicSingleFile.kt")
         public void testPrivateMemberToPublicSingleFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/privateMemberToPublicSingleFile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/privateMemberToPublicSingleFile.kt", this::doTest);
         }
 
         @TestMetadata("privateSealedClassInheritance.kt")
         public void testPrivateSealedClassInheritance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/privateSealedClassInheritance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/privateSealedClassInheritance.kt", this::doTest);
         }
 
         @TestMetadata("protectedMemberToPublicSingleFile.kt")
         public void testProtectedMemberToPublicSingleFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/protectedMemberToPublicSingleFile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/protectedMemberToPublicSingleFile.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake")
@@ -6961,62 +5946,52 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("methodToInternal.kt")
             public void testMethodToInternal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToInternal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToInternal.kt", this::doTest);
             }
 
             @TestMetadata("methodToNotProtected.kt")
             public void testMethodToNotProtected() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToNotProtected.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToNotProtected.kt", this::doTest);
             }
 
             @TestMetadata("methodToProtected.kt")
             public void testMethodToProtected() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToProtected.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToProtected.kt", this::doTest);
             }
 
             @TestMetadata("methodToProtected2.kt")
             public void testMethodToProtected2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToProtected2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToProtected2.kt", this::doTest);
             }
 
             @TestMetadata("methodToPublic.kt")
             public void testMethodToPublic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToPublic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/methodToPublic.kt", this::doTest);
             }
 
             @TestMetadata("propertyToInternal.kt")
             public void testPropertyToInternal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToInternal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToInternal.kt", this::doTest);
             }
 
             @TestMetadata("propertyToNotProtected.kt")
             public void testPropertyToNotProtected() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToNotProtected.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToNotProtected.kt", this::doTest);
             }
 
             @TestMetadata("propertyToProtected.kt")
             public void testPropertyToProtected() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToProtected.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToProtected.kt", this::doTest);
             }
 
             @TestMetadata("propertyToProtected2.kt")
             public void testPropertyToProtected2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToProtected2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToProtected2.kt", this::doTest);
             }
 
             @TestMetadata("propertyToPublic.kt")
             public void testPropertyToPublic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToPublic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/increaseVisibility/invisibleFake/propertyToPublic.kt", this::doTest);
             }
         }
     }
@@ -7031,98 +6006,82 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("constructorWithThisDelegation.kt")
         public void testConstructorWithThisDelegation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/constructorWithThisDelegation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/constructorWithThisDelegation.kt", this::doTest);
         }
 
         @TestMetadata("genericParameterInScope.kt")
         public void testGenericParameterInScope() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/genericParameterInScope.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/genericParameterInScope.kt", this::doTest);
         }
 
         @TestMetadata("localVar.kt")
         public void testLocalVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/localVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/localVar.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassNameClashInPrimaryConstructor.kt")
         public void testMemberPropertyInClassNameClashInPrimaryConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassNameClashInPrimaryConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassNameClashInPrimaryConstructor.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassNameClashInSecondaryConstructor.kt")
         public void testMemberPropertyInClassNameClashInSecondaryConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassNameClashInSecondaryConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassNameClashInSecondaryConstructor.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassNoConstructors.kt")
         public void testMemberPropertyInClassNoConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassNoConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassNoConstructors.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassPrimaryAndSecondaryConstructors.kt")
         public void testMemberPropertyInClassPrimaryAndSecondaryConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassPrimaryAndSecondaryConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassPrimaryAndSecondaryConstructors.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassPrimaryConstructorOnly.kt")
         public void testMemberPropertyInClassPrimaryConstructorOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassPrimaryConstructorOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassPrimaryConstructorOnly.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassSecondaryConstructorsOnly.kt")
         public void testMemberPropertyInClassSecondaryConstructorsOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassSecondaryConstructorsOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInClassSecondaryConstructorsOnly.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInInterface.kt")
         public void testMemberPropertyInInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInInterface.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInObject.kt")
         public void testMemberPropertyInObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyInObject.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyNoAccessorsInClassNoConstructors.kt")
         public void testMemberPropertyNoAccessorsInClassNoConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyNoAccessorsInClassNoConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyNoAccessorsInClassNoConstructors.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyNoAccessorsInClassPrimaryAndSecondaryConstructors.kt")
         public void testMemberPropertyNoAccessorsInClassPrimaryAndSecondaryConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyNoAccessorsInClassPrimaryAndSecondaryConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyNoAccessorsInClassPrimaryAndSecondaryConstructors.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyNoAccessorsInClassPrimaryConstructorOnly.kt")
         public void testMemberPropertyNoAccessorsInClassPrimaryConstructorOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyNoAccessorsInClassPrimaryConstructorOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyNoAccessorsInClassPrimaryConstructorOnly.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyWithDelegateRuntime.kt")
         public void testMemberPropertyWithDelegateRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyWithDelegateRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/memberPropertyWithDelegateRuntime.kt", this::doTest);
         }
 
         @TestMetadata("topLevelProperty.kt")
         public void testTopLevelProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/initializeWithConstructorParameter/topLevelProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/initializeWithConstructorParameter/topLevelProperty.kt", this::doTest);
         }
     }
 
@@ -7136,20 +6095,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/inlineTypeParameterFix/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/inlineTypeParameterFix/basic.kt", this::doTest);
         }
 
         @TestMetadata("basicMultipleDef.kt")
         public void testBasicMultipleDef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/inlineTypeParameterFix/basicMultipleDef.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/inlineTypeParameterFix/basicMultipleDef.kt", this::doTest);
         }
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/inlineTypeParameterFix/function.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/inlineTypeParameterFix/function.kt", this::doTest);
         }
     }
 
@@ -7163,50 +6119,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("nonApplicableInsertSuper.kt")
         public void testNonApplicableInsertSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/insertDelegationCall/nonApplicableInsertSuper.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/insertDelegationCall/nonApplicableInsertSuper.kt", this::doTest);
         }
 
         @TestMetadata("nonApplicableInsertThis.kt")
         public void testNonApplicableInsertThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/insertDelegationCall/nonApplicableInsertThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/insertDelegationCall/nonApplicableInsertThis.kt", this::doTest);
         }
 
         @TestMetadata("nonApplicableOnEmpty.kt")
         public void testNonApplicableOnEmpty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/insertDelegationCall/nonApplicableOnEmpty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/insertDelegationCall/nonApplicableOnEmpty.kt", this::doTest);
         }
 
         @TestMetadata("nonApplicableWithOneConstructor.kt")
         public void testNonApplicableWithOneConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/insertDelegationCall/nonApplicableWithOneConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/insertDelegationCall/nonApplicableWithOneConstructor.kt", this::doTest);
         }
 
         @TestMetadata("primaryRequiredNoSuper.kt")
         public void testPrimaryRequiredNoSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/insertDelegationCall/primaryRequiredNoSuper.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/insertDelegationCall/primaryRequiredNoSuper.kt", this::doTest);
         }
 
         @TestMetadata("primaryRequiredParameterless.kt")
         public void testPrimaryRequiredParameterless() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/insertDelegationCall/primaryRequiredParameterless.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/insertDelegationCall/primaryRequiredParameterless.kt", this::doTest);
         }
 
         @TestMetadata("primaryRequiredWithBody.kt")
         public void testPrimaryRequiredWithBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/insertDelegationCall/primaryRequiredWithBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/insertDelegationCall/primaryRequiredWithBody.kt", this::doTest);
         }
 
         @TestMetadata("primaryRequiredWithParameter.kt")
         public void testPrimaryRequiredWithParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/insertDelegationCall/primaryRequiredWithParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/insertDelegationCall/primaryRequiredWithParameter.kt", this::doTest);
         }
     }
 
@@ -7220,14 +6168,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/kdocMissingDocumentation/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/kdocMissingDocumentation/simple.kt", this::doTest);
         }
 
         @TestMetadata("withIndentation.kt")
         public void testWithIndentation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/kdocMissingDocumentation/withIndentation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/kdocMissingDocumentation/withIndentation.kt", this::doTest);
         }
     }
 
@@ -7241,38 +6187,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("nullable.kt")
         public void testNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/lateinit/nullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/lateinit/nullable.kt", this::doTest);
         }
 
         @TestMetadata("val.kt")
         public void testVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/lateinit/val.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/lateinit/val.kt", this::doTest);
         }
 
         @TestMetadata("withGetter.kt")
         public void testWithGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/lateinit/withGetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/lateinit/withGetter.kt", this::doTest);
         }
 
         @TestMetadata("withGetterSetter.kt")
         public void testWithGetterSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/lateinit/withGetterSetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/lateinit/withGetterSetter.kt", this::doTest);
         }
 
         @TestMetadata("withInitializer.kt")
         public void testWithInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/lateinit/withInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/lateinit/withInitializer.kt", this::doTest);
         }
 
         @TestMetadata("withSetter.kt")
         public void testWithSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/lateinit/withSetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/lateinit/withSetter.kt", this::doTest);
         }
     }
 
@@ -7282,20 +6222,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class LeakingThis extends AbstractQuickFixTest {
         @TestMetadata("accessOpenProperty.kt")
         public void testAccessOpenProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/leakingThis/accessOpenProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/leakingThis/accessOpenProperty.kt", this::doTest);
         }
 
         @TestMetadata("accessOpenPropertyClass.kt")
         public void testAccessOpenPropertyClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/leakingThis/accessOpenPropertyClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/leakingThis/accessOpenPropertyClass.kt", this::doTest);
         }
 
         @TestMetadata("accessOverriddenProperty.kt")
         public void testAccessOverriddenProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/leakingThis/accessOverriddenProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/leakingThis/accessOverriddenProperty.kt", this::doTest);
         }
 
         public void testAllFilesPresentInLeakingThis() throws Exception {
@@ -7304,32 +6241,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("callOpenMethod.kt")
         public void testCallOpenMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/leakingThis/callOpenMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/leakingThis/callOpenMethod.kt", this::doTest);
         }
 
         @TestMetadata("callOpenMethodClass.kt")
         public void testCallOpenMethodClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/leakingThis/callOpenMethodClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/leakingThis/callOpenMethodClass.kt", this::doTest);
         }
 
         @TestMetadata("inAbstract.kt")
         public void testInAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/leakingThis/inAbstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/leakingThis/inAbstract.kt", this::doTest);
         }
 
         @TestMetadata("inNonFinal.kt")
         public void testInNonFinal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/leakingThis/inNonFinal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/leakingThis/inNonFinal.kt", this::doTest);
         }
 
         @TestMetadata("inOverridden.kt")
         public void testInOverridden() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/leakingThis/inOverridden.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/leakingThis/inOverridden.kt", this::doTest);
         }
     }
 
@@ -7343,14 +6275,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("junit.kt")
         public void testJunit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/libraries/junit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/libraries/junit.kt", this::doTest);
         }
 
         @TestMetadata("testNG.kt")
         public void testTestNG() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/libraries/testNG.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/libraries/testNG.kt", this::doTest);
         }
     }
 
@@ -7364,26 +6294,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("inner.kt")
         public void testInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/makeConstructorParameterProperty/inner.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/makeConstructorParameterProperty/inner.kt", this::doTest);
         }
 
         @TestMetadata("override.kt")
         public void testOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/makeConstructorParameterProperty/override.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/makeConstructorParameterProperty/override.kt", this::doTest);
         }
 
         @TestMetadata("val.kt")
         public void testVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/makeConstructorParameterProperty/val.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/makeConstructorParameterProperty/val.kt", this::doTest);
         }
 
         @TestMetadata("var.kt")
         public void testVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/makeConstructorParameterProperty/var.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/makeConstructorParameterProperty/var.kt", this::doTest);
         }
     }
 
@@ -7397,20 +6323,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("noTypeParameter.kt")
         public void testNoTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/makeTypeParameterReified/noTypeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/makeTypeParameterReified/noTypeParameter.kt", this::doTest);
         }
 
         @TestMetadata("noTypeParameter2.kt")
         public void testNoTypeParameter2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/makeTypeParameterReified/noTypeParameter2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/makeTypeParameterReified/noTypeParameter2.kt", this::doTest);
         }
 
         @TestMetadata("typeParameter.kt")
         public void testTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/makeTypeParameterReified/typeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/makeTypeParameterReified/typeParameter.kt", this::doTest);
         }
     }
 
@@ -7424,32 +6347,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("constructorParam.kt")
         public void testConstructorParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/memberVisibilityCanBePrivate/constructorParam.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/memberVisibilityCanBePrivate/constructorParam.kt", this::doTest);
         }
 
         @TestMetadata("internal.kt")
         public void testInternal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/memberVisibilityCanBePrivate/internal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/memberVisibilityCanBePrivate/internal.kt", this::doTest);
         }
 
         @TestMetadata("noModifier.kt")
         public void testNoModifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/memberVisibilityCanBePrivate/noModifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/memberVisibilityCanBePrivate/noModifier.kt", this::doTest);
         }
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/memberVisibilityCanBePrivate/protected.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/memberVisibilityCanBePrivate/protected.kt", this::doTest);
         }
 
         @TestMetadata("public.kt")
         public void testPublic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/memberVisibilityCanBePrivate/public.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/memberVisibilityCanBePrivate/public.kt", this::doTest);
         }
     }
 
@@ -7471,14 +6389,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("commasInConditionWithNoArguments.kt")
             public void testCommasInConditionWithNoArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/commasInWhenWithoutArgument/commasInConditionWithNoArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/commasInWhenWithoutArgument/commasInConditionWithNoArguments.kt", this::doTest);
             }
 
             @TestMetadata("commasInConditionWithNoArguments2.kt")
             public void testCommasInConditionWithNoArguments2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/commasInWhenWithoutArgument/commasInConditionWithNoArguments2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/commasInWhenWithoutArgument/commasInConditionWithNoArguments2.kt", this::doTest);
             }
         }
 
@@ -7492,86 +6408,72 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("explicitThis.kt")
             public void testExplicitThis() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/explicitThis.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/explicitThis.kt", this::doTest);
             }
 
             @TestMetadata("markHiddenAndDeprecated.kt")
             public void testMarkHiddenAndDeprecated() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/markHiddenAndDeprecated.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/markHiddenAndDeprecated.kt", this::doTest);
             }
 
             @TestMetadata("memberExtension.kt")
             public void testMemberExtension() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/memberExtension.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/memberExtension.kt", this::doTest);
             }
 
             @TestMetadata("returnInGetter.kt")
             public void testReturnInGetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/returnInGetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/returnInGetter.kt", this::doTest);
             }
 
             @TestMetadata("setterWithExpressionBody.kt")
             public void testSetterWithExpressionBody() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/setterWithExpressionBody.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/setterWithExpressionBody.kt", this::doTest);
             }
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/simple.kt", this::doTest);
             }
 
             @TestMetadata("valInsteadOfVar.kt")
             public void testValInsteadOfVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/valInsteadOfVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/valInsteadOfVar.kt", this::doTest);
             }
 
             @TestMetadata("varInsteadOfVal.kt")
             public void testVarInsteadOfVal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/varInsteadOfVal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/varInsteadOfVal.kt", this::doTest);
             }
 
             @TestMetadata("withSetter.kt")
             public void testWithSetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/withSetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/withSetter.kt", this::doTest);
             }
 
             @TestMetadata("wrongExplicitThis.kt")
             public void testWrongExplicitThis() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/wrongExplicitThis.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/wrongExplicitThis.kt", this::doTest);
             }
 
             @TestMetadata("wrongExplicitThis2.kt")
             public void testWrongExplicitThis2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/wrongExplicitThis2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/wrongExplicitThis2.kt", this::doTest);
             }
 
             @TestMetadata("wrongGetter.kt")
             public void testWrongGetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/wrongGetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/wrongGetter.kt", this::doTest);
             }
 
             @TestMetadata("wrongGetter2.kt")
             public void testWrongGetter2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/wrongGetter2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/wrongGetter2.kt", this::doTest);
             }
 
             @TestMetadata("wrongSetter.kt")
             public void testWrongSetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/conflictingExtension/wrongSetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/conflictingExtension/wrongSetter.kt", this::doTest);
             }
         }
 
@@ -7585,152 +6487,127 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("externalExtensionFunJsRuntime.kt")
             public void testExternalExtensionFunJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/externalExtensionFunJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/externalExtensionFunJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("externalExtensionFunParamsJsRuntime.kt")
             public void testExternalExtensionFunParamsJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/externalExtensionFunParamsJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/externalExtensionFunParamsJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("externalExtensionVarJsRuntime.kt")
             public void testExternalExtensionVarJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/externalExtensionVarJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/externalExtensionVarJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("funPlacementOnCompanionObjectJsRuntime.kt")
             public void testFunPlacementOnCompanionObjectJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/funPlacementOnCompanionObjectJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/funPlacementOnCompanionObjectJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("funPlacementOnExternalClassJsRuntime.kt")
             public void testFunPlacementOnExternalClassJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/funPlacementOnExternalClassJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/funPlacementOnExternalClassJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("funPlacementOnExternalObjectJsRuntime.kt")
             public void testFunPlacementOnExternalObjectJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/funPlacementOnExternalObjectJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/funPlacementOnExternalObjectJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nativeExtensionFunBlockBodyJsRuntime.kt")
             public void testNativeExtensionFunBlockBodyJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeExtensionFunBlockBodyJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeExtensionFunBlockBodyJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nativeExtensionFunJsName.kt")
             public void testNativeExtensionFunJsName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeExtensionFunJsName.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeExtensionFunJsName.kt", this::doTest);
             }
 
             @TestMetadata("nativeExtensionFunJsRuntime.kt")
             public void testNativeExtensionFunJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeExtensionFunJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeExtensionFunJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nativeExtensionFunParamsJsRuntime.kt")
             public void testNativeExtensionFunParamsJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeExtensionFunParamsJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeExtensionFunParamsJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nativeExtensionVaslJsRuntime.kt")
             public void testNativeExtensionVaslJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeExtensionVaslJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeExtensionVaslJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nativeGetterExtensionFunJsRuntime.kt")
             public void testNativeGetterExtensionFunJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeGetterExtensionFunJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeGetterExtensionFunJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nativeInvokeExtensionFunJsRuntime.kt")
             public void testNativeInvokeExtensionFunJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeInvokeExtensionFunJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeInvokeExtensionFunJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberAll01.kt")
             public void testNativeMemberAll01() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberAll01.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberAll01.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberAll02.kt")
             public void testNativeMemberAll02() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberAll02.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberAll02.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberAll03.kt")
             public void testNativeMemberAll03() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberAll03.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberAll03.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberGetter.kt")
             public void testNativeMemberGetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberGetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberGetter.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberInvoke.kt")
             public void testNativeMemberInvoke() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberInvoke.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberInvoke.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberInvokeGenericClass.kt")
             public void testNativeMemberInvokeGenericClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberInvokeGenericClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberInvokeGenericClass.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberInvokeGenericClassAndFun.kt")
             public void testNativeMemberInvokeGenericClassAndFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberInvokeGenericClassAndFun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberInvokeGenericClassAndFun.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberInvokeGenericFun.kt")
             public void testNativeMemberInvokeGenericFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberInvokeGenericFun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberInvokeGenericFun.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberNative.kt")
             public void testNativeMemberNative() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberNative.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberNative.kt", this::doTest);
             }
 
             @TestMetadata("nativeMemberSetter.kt")
             public void testNativeMemberSetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeMemberSetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeMemberSetter.kt", this::doTest);
             }
 
             @TestMetadata("nativeSetterExtensionFunJsRuntime.kt")
             public void testNativeSetterExtensionFunJsRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nativeSetterExtensionFunJsRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nativeSetterExtensionFunJsRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nestedExtension01.kt")
             public void testNestedExtension01() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/jsExternal/nestedExtension01.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/jsExternal/nestedExtension01.kt", this::doTest);
             }
         }
 
@@ -7744,8 +6621,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("basic.kt")
             public void testBasic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/missingConstructorKeyword/basic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/missingConstructorKeyword/basic.kt", this::doTest);
             }
         }
 
@@ -7759,14 +6635,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("lambda.kt")
             public void testLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/obsoleteLabelSyntax/lambda.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/obsoleteLabelSyntax/lambda.kt", this::doTest);
             }
 
             @TestMetadata("loop.kt")
             public void testLoop() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/obsoleteLabelSyntax/loop.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/obsoleteLabelSyntax/loop.kt", this::doTest);
             }
         }
 
@@ -7780,8 +6654,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("basic.kt")
             public void testBasic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/removeNameFromFunctionExpression/basic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/removeNameFromFunctionExpression/basic.kt", this::doTest);
             }
         }
 
@@ -7795,14 +6668,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("basic.kt")
             public void testBasic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/typeParameterList/basic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/typeParameterList/basic.kt", this::doTest);
             }
 
             @TestMetadata("extension.kt")
             public void testExtension() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/migration/typeParameterList/extension.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/migration/typeParameterList/extension.kt", this::doTest);
             }
         }
     }
@@ -7817,8 +6688,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/missingConstructorBrackets/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/missingConstructorBrackets/basic.kt", this::doTest);
         }
     }
 
@@ -7828,14 +6698,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class Modifiers extends AbstractQuickFixTest {
         @TestMetadata("abstractModifierInEnum.kt")
         public void testAbstractModifierInEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/abstractModifierInEnum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/abstractModifierInEnum.kt", this::doTest);
         }
 
         @TestMetadata("addLateinit.kt")
         public void testAddLateinit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addLateinit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addLateinit.kt", this::doTest);
         }
 
         public void testAllFilesPresentInModifiers() throws Exception {
@@ -7844,302 +6712,252 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("cannotMakeClassAnnotation.kt")
         public void testCannotMakeClassAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/cannotMakeClassAnnotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/cannotMakeClassAnnotation.kt", this::doTest);
         }
 
         @TestMetadata("finalTrait.kt")
         public void testFinalTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/finalTrait.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/finalTrait.kt", this::doTest);
         }
 
         @TestMetadata("illegalEnumAnnotation1.kt")
         public void testIllegalEnumAnnotation1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/illegalEnumAnnotation1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/illegalEnumAnnotation1.kt", this::doTest);
         }
 
         @TestMetadata("illegalEnumAnnotation2.kt")
         public void testIllegalEnumAnnotation2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/illegalEnumAnnotation2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/illegalEnumAnnotation2.kt", this::doTest);
         }
 
         @TestMetadata("infixModifier.kt")
         public void testInfixModifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/infixModifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/infixModifier.kt", this::doTest);
         }
 
         @TestMetadata("kt10409.kt")
         public void testKt10409() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/kt10409.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/kt10409.kt", this::doTest);
         }
 
         @TestMetadata("nestedAbstractClass.kt")
         public void testNestedAbstractClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/nestedAbstractClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/nestedAbstractClass.kt", this::doTest);
         }
 
         @TestMetadata("nestedAnnotationClass.kt")
         public void testNestedAnnotationClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/nestedAnnotationClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/nestedAnnotationClass.kt", this::doTest);
         }
 
         @TestMetadata("nestedClassNotAllowed.kt")
         public void testNestedClassNotAllowed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/nestedClassNotAllowed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/nestedClassNotAllowed.kt", this::doTest);
         }
 
         @TestMetadata("nestedDataClass.kt")
         public void testNestedDataClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/nestedDataClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/nestedDataClass.kt", this::doTest);
         }
 
         @TestMetadata("nestedEnumClass.kt")
         public void testNestedEnumClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/nestedEnumClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/nestedEnumClass.kt", this::doTest);
         }
 
         @TestMetadata("nestedInterface.kt")
         public void testNestedInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/nestedInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/nestedInterface.kt", this::doTest);
         }
 
         @TestMetadata("nestedObject.kt")
         public void testNestedObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/nestedObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/nestedObject.kt", this::doTest);
         }
 
         @TestMetadata("nestedSealedClass.kt")
         public void testNestedSealedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/nestedSealedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/nestedSealedClass.kt", this::doTest);
         }
 
         @TestMetadata("noAbstractForAnonymousObject.kt")
         public void testNoAbstractForAnonymousObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/noAbstractForAnonymousObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/noAbstractForAnonymousObject.kt", this::doTest);
         }
 
         @TestMetadata("noAbstractForObject.kt")
         public void testNoAbstractForObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/noAbstractForObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/noAbstractForObject.kt", this::doTest);
         }
 
         @TestMetadata("noLateinitOnNullable.kt")
         public void testNoLateinitOnNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/noLateinitOnNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/noLateinitOnNullable.kt", this::doTest);
         }
 
         @TestMetadata("noLateinitOnPrimitive.kt")
         public void testNoLateinitOnPrimitive() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/noLateinitOnPrimitive.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/noLateinitOnPrimitive.kt", this::doTest);
         }
 
         @TestMetadata("notAnAnnotationClass.kt")
         public void testNotAnAnnotationClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/notAnAnnotationClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/notAnAnnotationClass.kt", this::doTest);
         }
 
         @TestMetadata("openMemberInFinalClass1.kt")
         public void testOpenMemberInFinalClass1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/openMemberInFinalClass1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/openMemberInFinalClass1.kt", this::doTest);
         }
 
         @TestMetadata("openMemberInFinalClass2.kt")
         public void testOpenMemberInFinalClass2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/openMemberInFinalClass2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/openMemberInFinalClass2.kt", this::doTest);
         }
 
         @TestMetadata("openMemberInFinalClass3.kt")
         public void testOpenMemberInFinalClass3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/openMemberInFinalClass3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/openMemberInFinalClass3.kt", this::doTest);
         }
 
         @TestMetadata("openMemberInFinalClass4.kt")
         public void testOpenMemberInFinalClass4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/openMemberInFinalClass4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/openMemberInFinalClass4.kt", this::doTest);
         }
 
         @TestMetadata("openModifierInEnum.kt")
         public void testOpenModifierInEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/openModifierInEnum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/openModifierInEnum.kt", this::doTest);
         }
 
         @TestMetadata("openVarWithPrivateSetter.kt")
         public void testOpenVarWithPrivateSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/openVarWithPrivateSetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/openVarWithPrivateSetter.kt", this::doTest);
         }
 
         @TestMetadata("operatorModifier.kt")
         public void testOperatorModifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/operatorModifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/operatorModifier.kt", this::doTest);
         }
 
         @TestMetadata("operatorModifierCollection.kt")
         public void testOperatorModifierCollection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/operatorModifierCollection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/operatorModifierCollection.kt", this::doTest);
         }
 
         @TestMetadata("operatorModifierComponent.kt")
         public void testOperatorModifierComponent() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/operatorModifierComponent.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/operatorModifierComponent.kt", this::doTest);
         }
 
         @TestMetadata("operatorModifierGet.kt")
         public void testOperatorModifierGet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/operatorModifierGet.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/operatorModifierGet.kt", this::doTest);
         }
 
         @TestMetadata("operatorModifierInherited.kt")
         public void testOperatorModifierInherited() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/operatorModifierInherited.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/operatorModifierInherited.kt", this::doTest);
         }
 
         @TestMetadata("overrideWithPrivateSetter.kt")
         public void testOverrideWithPrivateSetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/overrideWithPrivateSetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/overrideWithPrivateSetter.kt", this::doTest);
         }
 
         @TestMetadata("packageMemberCannotBeProtected.kt")
         public void testPackageMemberCannotBeProtected() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/packageMemberCannotBeProtected.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/packageMemberCannotBeProtected.kt", this::doTest);
         }
 
         @TestMetadata("redundantOpenInInterface.kt")
         public void testRedundantOpenInInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/redundantOpenInInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/redundantOpenInInterface.kt", this::doTest);
         }
 
         @TestMetadata("removeAbstractModifier.kt")
         public void testRemoveAbstractModifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeAbstractModifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeAbstractModifier.kt", this::doTest);
         }
 
         @TestMetadata("removeIncompatibleModifier.kt")
         public void testRemoveIncompatibleModifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeIncompatibleModifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeIncompatibleModifier.kt", this::doTest);
         }
 
         @TestMetadata("removeInnerForClassInTrait.kt")
         public void testRemoveInnerForClassInTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeInnerForClassInTrait.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeInnerForClassInTrait.kt", this::doTest);
         }
 
         @TestMetadata("removeModifierFromOperatorMod.kt")
         public void testRemoveModifierFromOperatorMod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeModifierFromOperatorMod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeModifierFromOperatorMod.kt", this::doTest);
         }
 
         @TestMetadata("removeModifierFromOperatorModAssign.kt")
         public void testRemoveModifierFromOperatorModAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeModifierFromOperatorModAssign.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeModifierFromOperatorModAssign.kt", this::doTest);
         }
 
         @TestMetadata("removeProtectedModifier.kt")
         public void testRemoveProtectedModifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeProtectedModifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeProtectedModifier.kt", this::doTest);
         }
 
         @TestMetadata("removeRedundantModifier1.kt")
         public void testRemoveRedundantModifier1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeRedundantModifier1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeRedundantModifier1.kt", this::doTest);
         }
 
         @TestMetadata("removeRedundantModifier2.kt")
         public void testRemoveRedundantModifier2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeRedundantModifier2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeRedundantModifier2.kt", this::doTest);
         }
 
         @TestMetadata("removeRedundantModifier3.kt")
         public void testRemoveRedundantModifier3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeRedundantModifier3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeRedundantModifier3.kt", this::doTest);
         }
 
         @TestMetadata("removeSupertype1.kt")
         public void testRemoveSupertype1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeSupertype1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeSupertype1.kt", this::doTest);
         }
 
         @TestMetadata("removeSupertype2.kt")
         public void testRemoveSupertype2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeSupertype2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeSupertype2.kt", this::doTest);
         }
 
         @TestMetadata("removeSupertype3.kt")
         public void testRemoveSupertype3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeSupertype3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeSupertype3.kt", this::doTest);
         }
 
         @TestMetadata("removeSupertype4.kt")
         public void testRemoveSupertype4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/removeSupertype4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/removeSupertype4.kt", this::doTest);
         }
 
         @TestMetadata("visibilityModifer1.kt")
         public void testVisibilityModifer1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/visibilityModifer1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/visibilityModifer1.kt", this::doTest);
         }
 
         @TestMetadata("visibilityModifer2.kt")
         public void testVisibilityModifer2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/visibilityModifer2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/visibilityModifer2.kt", this::doTest);
         }
 
         @TestMetadata("visibilityModiferOverrideJavaRuntime.kt")
         public void testVisibilityModiferOverrideJavaRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/visibilityModiferOverrideJavaRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/visibilityModiferOverrideJavaRuntime.kt", this::doTest);
         }
 
         @TestMetadata("visibilityModiferParameter.kt")
         public void testVisibilityModiferParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/visibilityModiferParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/visibilityModiferParameter.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration")
@@ -8152,86 +6970,72 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("enumSupertype.kt")
             public void testEnumSupertype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/enumSupertype.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/enumSupertype.kt", this::doTest);
             }
 
             @TestMetadata("enumUpperBound.kt")
             public void testEnumUpperBound() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/enumUpperBound.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/enumUpperBound.kt", this::doTest);
             }
 
             @TestMetadata("explicitlyFinalSupertype.kt")
             public void testExplicitlyFinalSupertype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/explicitlyFinalSupertype.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/explicitlyFinalSupertype.kt", this::doTest);
             }
 
             @TestMetadata("explicitlyFinalUpperBound.kt")
             public void testExplicitlyFinalUpperBound() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/explicitlyFinalUpperBound.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/explicitlyFinalUpperBound.kt", this::doTest);
             }
 
             @TestMetadata("finalLibrarySupertype.kt")
             public void testFinalLibrarySupertype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalLibrarySupertype.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalLibrarySupertype.kt", this::doTest);
             }
 
             @TestMetadata("finalLibraryUpperBound.kt")
             public void testFinalLibraryUpperBound() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalLibraryUpperBound.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalLibraryUpperBound.kt", this::doTest);
             }
 
             @TestMetadata("finalSupertype.kt")
             public void testFinalSupertype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalSupertype.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalSupertype.kt", this::doTest);
             }
 
             @TestMetadata("finalUpperBound.kt")
             public void testFinalUpperBound() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalUpperBound.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/finalUpperBound.kt", this::doTest);
             }
 
             @TestMetadata("implementTraitFinalSupertype.kt")
             public void testImplementTraitFinalSupertype() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/implementTraitFinalSupertype.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/implementTraitFinalSupertype.kt", this::doTest);
             }
 
             @TestMetadata("nestedFinalClass.kt")
             public void testNestedFinalClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/nestedFinalClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/nestedFinalClass.kt", this::doTest);
             }
 
             @TestMetadata("openInCompanion.kt")
             public void testOpenInCompanion() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/openInCompanion.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/openInCompanion.kt", this::doTest);
             }
 
             @TestMetadata("secondaryCtrDelegationInHeader.kt")
             public void testSecondaryCtrDelegationInHeader() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/secondaryCtrDelegationInHeader.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/secondaryCtrDelegationInHeader.kt", this::doTest);
             }
 
             @TestMetadata("secondaryCtrDelegationInSecondary.kt")
             public void testSecondaryCtrDelegationInSecondary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/secondaryCtrDelegationInSecondary.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/secondaryCtrDelegationInSecondary.kt", this::doTest);
             }
 
             @TestMetadata("withConstructor.kt")
             public void testWithConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/withConstructor.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/addOpenToClassDeclaration/withConstructor.kt", this::doTest);
             }
         }
 
@@ -8245,56 +7049,47 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("base.kt")
             public void testBase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/suspend/base.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/suspend/base.kt", this::doTest);
             }
 
             @TestMetadata("createCoroutine.kt")
             public void testCreateCoroutine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/suspend/createCoroutine.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/suspend/createCoroutine.kt", this::doTest);
             }
 
             @TestMetadata("init.kt")
             public void testInit() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/suspend/init.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/suspend/init.kt", this::doTest);
             }
 
             @TestMetadata("open.kt")
             public void testOpen() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/suspend/open.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/suspend/open.kt", this::doTest);
             }
 
             @TestMetadata("override.kt")
             public void testOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/suspend/override.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/suspend/override.kt", this::doTest);
             }
 
             @TestMetadata("public.kt")
             public void testPublic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/suspend/public.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/suspend/public.kt", this::doTest);
             }
 
             @TestMetadata("startCoroutine.kt")
             public void testStartCoroutine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/suspend/startCoroutine.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/suspend/startCoroutine.kt", this::doTest);
             }
 
             @TestMetadata("startCoroutineNoImport.kt")
             public void testStartCoroutineNoImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/suspend/startCoroutineNoImport.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/suspend/startCoroutineNoImport.kt", this::doTest);
             }
 
             @TestMetadata("topLevel.kt")
             public void testTopLevel() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/modifiers/suspend/topLevel.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/modifiers/suspend/topLevel.kt", this::doTest);
             }
         }
     }
@@ -8309,26 +7104,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("fun.kt")
         public void testFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveReceiverAnnotation/fun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveReceiverAnnotation/fun.kt", this::doTest);
         }
 
         @TestMetadata("notExtensionFun.kt")
         public void testNotExtensionFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveReceiverAnnotation/notExtensionFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveReceiverAnnotation/notExtensionFun.kt", this::doTest);
         }
 
         @TestMetadata("notExtensionVal.kt")
         public void testNotExtensionVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveReceiverAnnotation/notExtensionVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveReceiverAnnotation/notExtensionVal.kt", this::doTest);
         }
 
         @TestMetadata("val.kt")
         public void testVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveReceiverAnnotation/val.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveReceiverAnnotation/val.kt", this::doTest);
         }
     }
 
@@ -8342,74 +7133,62 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("localVar.kt")
         public void testLocalVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/localVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/localVar.kt", this::doTest);
         }
 
         @TestMetadata("memberExtensionProperty.kt")
         public void testMemberExtensionProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/memberExtensionProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/memberExtensionProperty.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassNameClash.kt")
         public void testMemberPropertyInClassNameClash() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassNameClash.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassNameClash.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassNoPrimaryConstructor.kt")
         public void testMemberPropertyInClassNoPrimaryConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassNoPrimaryConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassNoPrimaryConstructor.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassWithConstructorDelegatingToSuper.kt")
         public void testMemberPropertyInClassWithConstructorDelegatingToSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassWithConstructorDelegatingToSuper.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassWithConstructorDelegatingToSuper.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassWithImplicitlyDelegatingConstructor.kt")
         public void testMemberPropertyInClassWithImplicitlyDelegatingConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassWithImplicitlyDelegatingConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassWithImplicitlyDelegatingConstructor.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInClassWithPrimaryConstructor.kt")
         public void testMemberPropertyInClassWithPrimaryConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassWithPrimaryConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInClassWithPrimaryConstructor.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInInterface.kt")
         public void testMemberPropertyInInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInInterface.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyInObject.kt")
         public void testMemberPropertyInObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/memberPropertyInObject.kt", this::doTest);
         }
 
         @TestMetadata("memberPropertyWithDelegateRuntime.kt")
         public void testMemberPropertyWithDelegateRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/memberPropertyWithDelegateRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/memberPropertyWithDelegateRuntime.kt", this::doTest);
         }
 
         @TestMetadata("propertyWithModifiersAndComments.kt")
         public void testPropertyWithModifiersAndComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/propertyWithModifiersAndComments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/propertyWithModifiersAndComments.kt", this::doTest);
         }
 
         @TestMetadata("topLevelProperty.kt")
         public void testTopLevelProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/moveToConstructorParameters/topLevelProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/moveToConstructorParameters/topLevelProperty.kt", this::doTest);
         }
     }
 
@@ -8423,26 +7202,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("removeRedundantNullable.kt")
         public void testRemoveRedundantNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/removeRedundantNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/nullables/removeRedundantNullable.kt", this::doTest);
         }
 
         @TestMetadata("removeSupertypeNullable1.kt")
         public void testRemoveSupertypeNullable1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/removeSupertypeNullable1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/nullables/removeSupertypeNullable1.kt", this::doTest);
         }
 
         @TestMetadata("removeSupertypeNullable2.kt")
         public void testRemoveSupertypeNullable2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/removeSupertypeNullable2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/nullables/removeSupertypeNullable2.kt", this::doTest);
         }
 
         @TestMetadata("removeUselessNullable.kt")
         public void testRemoveUselessNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/removeUselessNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/nullables/removeUselessNullable.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/nullables/unsafeInfixCall")
@@ -8455,74 +7230,62 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("noComparison.kt")
             public void testNoComparison() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/noComparison.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/noComparison.kt", this::doTest);
             }
 
             @TestMetadata("unsafeComparisonInCondition.kt")
             public void testUnsafeComparisonInCondition() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeComparisonInCondition.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeComparisonInCondition.kt", this::doTest);
             }
 
             @TestMetadata("unsafeComparisonInLogic.kt")
             public void testUnsafeComparisonInLogic() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeComparisonInLogic.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeComparisonInLogic.kt", this::doTest);
             }
 
             @TestMetadata("unsafeComparisonInWhen.kt")
             public void testUnsafeComparisonInWhen() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeComparisonInWhen.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeComparisonInWhen.kt", this::doTest);
             }
 
             @TestMetadata("unsafeComparisonInWhile.kt")
             public void testUnsafeComparisonInWhile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeComparisonInWhile.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeComparisonInWhile.kt", this::doTest);
             }
 
             @TestMetadata("unsafeGet.kt")
             public void testUnsafeGet() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeGet.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeGet.kt", this::doTest);
             }
 
             @TestMetadata("unsafeInfixCall.kt")
             public void testUnsafeInfixCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeInfixCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeInfixCall.kt", this::doTest);
             }
 
             @TestMetadata("unsafeInvoke.kt")
             public void testUnsafeInvoke() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeInvoke.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeInvoke.kt", this::doTest);
             }
 
             @TestMetadata("unsafeInvokeWithImplicitReceiver.kt")
             public void testUnsafeInvokeWithImplicitReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeInvokeWithImplicitReceiver.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeInvokeWithImplicitReceiver.kt", this::doTest);
             }
 
             @TestMetadata("unsafeInvokeWithReceiver.kt")
             public void testUnsafeInvokeWithReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeInvokeWithReceiver.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeInvokeWithReceiver.kt", this::doTest);
             }
 
             @TestMetadata("unsafePlus.kt")
             public void testUnsafePlus() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafePlus.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafePlus.kt", this::doTest);
             }
 
             @TestMetadata("unsafeSet.kt")
             public void testUnsafeSet() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeSet.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/nullables/unsafeInfixCall/unsafeSet.kt", this::doTest);
             }
         }
     }
@@ -8537,14 +7300,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("destructuringAtTop.kt")
         public void testDestructuringAtTop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/optimizeImports/destructuringAtTop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/optimizeImports/destructuringAtTop.kt", this::doTest);
         }
 
         @TestMetadata("fileRuntime.kt")
         public void testFileRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/optimizeImports/fileRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/optimizeImports/fileRuntime.kt", this::doTest);
         }
     }
 
@@ -8558,116 +7319,97 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("changeToInvocation.kt")
         public void testChangeToInvocation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/changeToInvocation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/changeToInvocation.kt", this::doTest);
         }
 
         @TestMetadata("dontOfferToImplementMembersForExpectedClass.kt")
         public void testDontOfferToImplementMembersForExpectedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/dontOfferToImplementMembersForExpectedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/dontOfferToImplementMembersForExpectedClass.kt", this::doTest);
         }
 
         @TestMetadata("implemenAsConstructorParameter.kt")
         public void testImplemenAsConstructorParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/implemenAsConstructorParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/implemenAsConstructorParameter.kt", this::doTest);
         }
 
         @TestMetadata("implemenAsConstructorParameterFunction.kt")
         public void testImplemenAsConstructorParameterFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/implemenAsConstructorParameterFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/implemenAsConstructorParameterFunction.kt", this::doTest);
         }
 
         @TestMetadata("implemenAsConstructorParameterInObject.kt")
         public void testImplemenAsConstructorParameterInObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/implemenAsConstructorParameterInObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/implemenAsConstructorParameterInObject.kt", this::doTest);
         }
 
         @TestMetadata("implementMember.kt")
         public void testImplementMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/implementMember.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/implementMember.kt", this::doTest);
         }
 
         @TestMetadata("implementMemberFromAbstractClass.kt")
         public void testImplementMemberFromAbstractClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/implementMemberFromAbstractClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/implementMemberFromAbstractClass.kt", this::doTest);
         }
 
         @TestMetadata("overriddingMultipleFinalMethods.kt")
         public void testOverriddingMultipleFinalMethods() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/overriddingMultipleFinalMethods.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/overriddingMultipleFinalMethods.kt", this::doTest);
         }
 
         @TestMetadata("overridingDelegatedMethod.kt")
         public void testOverridingDelegatedMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/overridingDelegatedMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/overridingDelegatedMethod.kt", this::doTest);
         }
 
         @TestMetadata("overridingFakeOverride.kt")
         public void testOverridingFakeOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/overridingFakeOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/overridingFakeOverride.kt", this::doTest);
         }
 
         @TestMetadata("overridingFinalJavaMethod.kt")
         public void testOverridingFinalJavaMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/overridingFinalJavaMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/overridingFinalJavaMethod.kt", this::doTest);
         }
 
         @TestMetadata("overridingFinalMethod.kt")
         public void testOverridingFinalMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/overridingFinalMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/overridingFinalMethod.kt", this::doTest);
         }
 
         @TestMetadata("overridingFinalMethodInLocal.kt")
         public void testOverridingFinalMethodInLocal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/overridingFinalMethodInLocal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/overridingFinalMethodInLocal.kt", this::doTest);
         }
 
         @TestMetadata("overridingFinalProperty.kt")
         public void testOverridingFinalProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/overridingFinalProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/overridingFinalProperty.kt", this::doTest);
         }
 
         @TestMetadata("overridingOpenMethodInFinalClass.kt")
         public void testOverridingOpenMethodInFinalClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/overridingOpenMethodInFinalClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/overridingOpenMethodInFinalClass.kt", this::doTest);
         }
 
         @TestMetadata("parameterNameChangedAmbiguousRename.kt")
         public void testParameterNameChangedAmbiguousRename() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/parameterNameChangedAmbiguousRename.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/parameterNameChangedAmbiguousRename.kt", this::doTest);
         }
 
         @TestMetadata("parameterNameChangedMultipleOverrideRenamePossible.kt")
         public void testParameterNameChangedMultipleOverrideRenamePossible() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/parameterNameChangedMultipleOverrideRenamePossible.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/parameterNameChangedMultipleOverrideRenamePossible.kt", this::doTest);
         }
 
         @TestMetadata("parameterNameChangedRenamePossible.kt")
         public void testParameterNameChangedRenamePossible() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/parameterNameChangedRenamePossible.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/parameterNameChangedRenamePossible.kt", this::doTest);
         }
 
         @TestMetadata("virtualMethodHidden.kt")
         public void testVirtualMethodHidden() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/virtualMethodHidden.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/override/virtualMethodHidden.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/override/nothingToOverride")
@@ -8676,86 +7418,72 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
         public static class NothingToOverride extends AbstractQuickFixTest {
             @TestMetadata("addFunction.kt")
             public void testAddFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addFunction.kt", this::doTest);
             }
 
             @TestMetadata("addFunctionAbstractClass.kt")
             public void testAddFunctionAbstractClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addFunctionAbstractClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addFunctionAbstractClass.kt", this::doTest);
             }
 
             @TestMetadata("addFunctionInLocalDeclaration.kt")
             public void testAddFunctionInLocalDeclaration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addFunctionInLocalDeclaration.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addFunctionInLocalDeclaration.kt", this::doTest);
             }
 
             @TestMetadata("addFunctionNoBody.kt")
             public void testAddFunctionNoBody() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addFunctionNoBody.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addFunctionNoBody.kt", this::doTest);
             }
 
             @TestMetadata("addFunctionNonUnitReturnType.kt")
             public void testAddFunctionNonUnitReturnType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addFunctionNonUnitReturnType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addFunctionNonUnitReturnType.kt", this::doTest);
             }
 
             @TestMetadata("addFunctionTrait.kt")
             public void testAddFunctionTrait() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addFunctionTrait.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addFunctionTrait.kt", this::doTest);
             }
 
             @TestMetadata("addFunctionTwoSuperclasses.kt")
             public void testAddFunctionTwoSuperclasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addFunctionTwoSuperclasses.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addFunctionTwoSuperclasses.kt", this::doTest);
             }
 
             @TestMetadata("addFunctionTwoTraits.kt")
             public void testAddFunctionTwoTraits() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addFunctionTwoTraits.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addFunctionTwoTraits.kt", this::doTest);
             }
 
             @TestMetadata("addParameter.kt")
             public void testAddParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addParameter.kt", this::doTest);
             }
 
             @TestMetadata("addParameterGenericClass.kt")
             public void testAddParameterGenericClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addParameterGenericClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addParameterGenericClass.kt", this::doTest);
             }
 
             @TestMetadata("addParameterMultiple.kt")
             public void testAddParameterMultiple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addParameterMultiple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addParameterMultiple.kt", this::doTest);
             }
 
             @TestMetadata("addParameterPreserveVisibility.kt")
             public void testAddParameterPreserveVisibility() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addParameterPreserveVisibility.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addParameterPreserveVisibility.kt", this::doTest);
             }
 
             @TestMetadata("addParameterTwoSupertraits.kt")
             public void testAddParameterTwoSupertraits() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addParameterTwoSupertraits.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addParameterTwoSupertraits.kt", this::doTest);
             }
 
             @TestMetadata("addParameterTwoSupertypes.kt")
             public void testAddParameterTwoSupertypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/addParameterTwoSupertypes.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/addParameterTwoSupertypes.kt", this::doTest);
             }
 
             public void testAllFilesPresentInNothingToOverride() throws Exception {
@@ -8764,104 +7492,87 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("changeParameterType.kt")
             public void testChangeParameterType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/changeParameterType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/changeParameterType.kt", this::doTest);
             }
 
             @TestMetadata("changeParameterTypeAbstractSuperclass.kt")
             public void testChangeParameterTypeAbstractSuperclass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeAbstractSuperclass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeAbstractSuperclass.kt", this::doTest);
             }
 
             @TestMetadata("changeParameterTypeInTrait.kt")
             public void testChangeParameterTypeInTrait() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeInTrait.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeInTrait.kt", this::doTest);
             }
 
             @TestMetadata("changeParameterTypeMatchNames.kt")
             public void testChangeParameterTypeMatchNames() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeMatchNames.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeMatchNames.kt", this::doTest);
             }
 
             @TestMetadata("changeParameterTypeModifyOrder.kt")
             public void testChangeParameterTypeModifyOrder() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeModifyOrder.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeModifyOrder.kt", this::doTest);
             }
 
             @TestMetadata("changeParameterTypeOpenOverride.kt")
             public void testChangeParameterTypeOpenOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeOpenOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeOpenOverride.kt", this::doTest);
             }
 
             @TestMetadata("changeParameterTypeSingleExpressionFunction.kt")
             public void testChangeParameterTypeSingleExpressionFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeSingleExpressionFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeSingleExpressionFunction.kt", this::doTest);
             }
 
             @TestMetadata("changeParameterTypeSuperTrait.kt")
             public void testChangeParameterTypeSuperTrait() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeSuperTrait.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/changeParameterTypeSuperTrait.kt", this::doTest);
             }
 
             @TestMetadata("changeReturnType.kt")
             public void testChangeReturnType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/changeReturnType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/changeReturnType.kt", this::doTest);
             }
 
             @TestMetadata("doNotLooseAnnotations.kt")
             public void testDoNotLooseAnnotations() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/doNotLooseAnnotations.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/doNotLooseAnnotations.kt", this::doTest);
             }
 
             @TestMetadata("noDefaultValuesInOverride.kt")
             public void testNoDefaultValuesInOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/noDefaultValuesInOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/noDefaultValuesInOverride.kt", this::doTest);
             }
 
             @TestMetadata("noOpenSuperFunction.kt")
             public void testNoOpenSuperFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/noOpenSuperFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/noOpenSuperFunction.kt", this::doTest);
             }
 
             @TestMetadata("overrideJavaMethod.kt")
             public void testOverrideJavaMethod() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/overrideJavaMethod.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/overrideJavaMethod.kt", this::doTest);
             }
 
             @TestMetadata("removeOverride.kt")
             public void testRemoveOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/removeOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/removeOverride.kt", this::doTest);
             }
 
             @TestMetadata("removeParameter.kt")
             public void testRemoveParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/removeParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/removeParameter.kt", this::doTest);
             }
 
             @TestMetadata("removeParameterTwoTraits.kt")
             public void testRemoveParameterTwoTraits() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/removeParameterTwoTraits.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/removeParameterTwoTraits.kt", this::doTest);
             }
 
             @TestMetadata("swapParametersGenericClass.kt")
             public void testSwapParametersGenericClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/nothingToOverride/swapParametersGenericClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/nothingToOverride/swapParametersGenericClass.kt", this::doTest);
             }
         }
 
@@ -8875,110 +7586,92 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("cantChangeMultipleOverriddenPropertiesTypes.kt")
             public void testCantChangeMultipleOverriddenPropertiesTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/cantChangeMultipleOverriddenPropertiesTypes.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/cantChangeMultipleOverriddenPropertiesTypes.kt", this::doTest);
             }
 
             @TestMetadata("cantChangeOverriddenPropertyTypeToMatchOverridingProperty.kt")
             public void testCantChangeOverriddenPropertyTypeToMatchOverridingProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/cantChangeOverriddenPropertyTypeToMatchOverridingProperty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/cantChangeOverriddenPropertyTypeToMatchOverridingProperty.kt", this::doTest);
             }
 
             @TestMetadata("cantChangePropertyTypeToMatchOverridenProperties.kt")
             public void testCantChangePropertyTypeToMatchOverridenProperties() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/cantChangePropertyTypeToMatchOverridenProperties.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/cantChangePropertyTypeToMatchOverridenProperties.kt", this::doTest);
             }
 
             @TestMetadata("cantChangeReturnTypeOfOverriddenFunction.kt")
             public void testCantChangeReturnTypeOfOverriddenFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/cantChangeReturnTypeOfOverriddenFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/cantChangeReturnTypeOfOverriddenFunction.kt", this::doTest);
             }
 
             @TestMetadata("changeOverriddenPropertyType1.kt")
             public void testChangeOverriddenPropertyType1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/changeOverriddenPropertyType1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/changeOverriddenPropertyType1.kt", this::doTest);
             }
 
             @TestMetadata("changeOverriddenPropertyType2.kt")
             public void testChangeOverriddenPropertyType2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/changeOverriddenPropertyType2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/changeOverriddenPropertyType2.kt", this::doTest);
             }
 
             @TestMetadata("changeOverridingPropertyTypeToFunctionType.kt")
             public void testChangeOverridingPropertyTypeToFunctionType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/changeOverridingPropertyTypeToFunctionType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/changeOverridingPropertyTypeToFunctionType.kt", this::doTest);
             }
 
             @TestMetadata("changeReturnTypeOfOverriddenFunction.kt")
             public void testChangeReturnTypeOfOverriddenFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/changeReturnTypeOfOverriddenFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/changeReturnTypeOfOverriddenFunction.kt", this::doTest);
             }
 
             @TestMetadata("namedFunctionReturnOverrideInsideVariableInitializer.kt")
             public void testNamedFunctionReturnOverrideInsideVariableInitializer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/namedFunctionReturnOverrideInsideVariableInitializer.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/namedFunctionReturnOverrideInsideVariableInitializer.kt", this::doTest);
             }
 
             @TestMetadata("objectInsideBody.kt")
             public void testObjectInsideBody() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/objectInsideBody.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/objectInsideBody.kt", this::doTest);
             }
 
             @TestMetadata("propertyReturnTypeMismatchOnOverride.kt")
             public void testPropertyReturnTypeMismatchOnOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/propertyReturnTypeMismatchOnOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/propertyReturnTypeMismatchOnOverride.kt", this::doTest);
             }
 
             @TestMetadata("propertyTypeMismatchOnOverrideIntLong.kt")
             public void testPropertyTypeMismatchOnOverrideIntLong() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/propertyTypeMismatchOnOverrideIntLong.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/propertyTypeMismatchOnOverrideIntLong.kt", this::doTest);
             }
 
             @TestMetadata("propertyTypeMismatchOnOverrideIntUnit.kt")
             public void testPropertyTypeMismatchOnOverrideIntUnit() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/propertyTypeMismatchOnOverrideIntUnit.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/propertyTypeMismatchOnOverrideIntUnit.kt", this::doTest);
             }
 
             @TestMetadata("returnTypeMismatchOnMultipleOverride.kt")
             public void testReturnTypeMismatchOnMultipleOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnMultipleOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnMultipleOverride.kt", this::doTest);
             }
 
             @TestMetadata("returnTypeMismatchOnMultipleOverrideAmbiguity.kt")
             public void testReturnTypeMismatchOnMultipleOverrideAmbiguity() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnMultipleOverrideAmbiguity.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnMultipleOverrideAmbiguity.kt", this::doTest);
             }
 
             @TestMetadata("returnTypeMismatchOnOverrideIntLong.kt")
             public void testReturnTypeMismatchOnOverrideIntLong() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnOverrideIntLong.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnOverrideIntLong.kt", this::doTest);
             }
 
             @TestMetadata("returnTypeMismatchOnOverrideIntUnit.kt")
             public void testReturnTypeMismatchOnOverrideIntUnit() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnOverrideIntUnit.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnOverrideIntUnit.kt", this::doTest);
             }
 
             @TestMetadata("returnTypeMismatchOnOverrideUnitInt.kt")
             public void testReturnTypeMismatchOnOverrideUnitInt() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnOverrideUnitInt.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/override/typeMismatchOnOverride/returnTypeMismatchOnOverrideUnitInt.kt", this::doTest);
             }
         }
     }
@@ -8993,26 +7686,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("mapPlatformClassToKotlin1.kt")
         public void testMapPlatformClassToKotlin1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/platformClasses/mapPlatformClassToKotlin1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/platformClasses/mapPlatformClassToKotlin1.kt", this::doTest);
         }
 
         @TestMetadata("mapPlatformClassToKotlin2.kt")
         public void testMapPlatformClassToKotlin2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/platformClasses/mapPlatformClassToKotlin2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/platformClasses/mapPlatformClassToKotlin2.kt", this::doTest);
         }
 
         @TestMetadata("mapPlatformClassToKotlin3.kt")
         public void testMapPlatformClassToKotlin3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/platformClasses/mapPlatformClassToKotlin3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/platformClasses/mapPlatformClassToKotlin3.kt", this::doTest);
         }
 
         @TestMetadata("mapPlatformClassToKotlin4.kt")
         public void testMapPlatformClassToKotlin4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/platformClasses/mapPlatformClassToKotlin4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/platformClasses/mapPlatformClassToKotlin4.kt", this::doTest);
         }
     }
 
@@ -9026,26 +7715,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("nestedNoAssertRuntime.kt")
         public void testNestedNoAssertRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/platformTypesInspection/nestedNoAssertRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/platformTypesInspection/nestedNoAssertRuntime.kt", this::doTest);
         }
 
         @TestMetadata("nestedRuntime.kt")
         public void testNestedRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/platformTypesInspection/nestedRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/platformTypesInspection/nestedRuntime.kt", this::doTest);
         }
 
         @TestMetadata("nullableAssertRuntime.kt")
         public void testNullableAssertRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/platformTypesInspection/nullableAssertRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/platformTypesInspection/nullableAssertRuntime.kt", this::doTest);
         }
 
         @TestMetadata("nullableRuntime.kt")
         public void testNullableRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/platformTypesInspection/nullableRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/platformTypesInspection/nullableRuntime.kt", this::doTest);
         }
     }
 
@@ -9059,26 +7744,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("boolean.kt")
         public void testBoolean() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/primitiveCastToConversion/boolean.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/primitiveCastToConversion/boolean.kt", this::doTest);
         }
 
         @TestMetadata("charToShort.kt")
         public void testCharToShort() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/primitiveCastToConversion/charToShort.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/primitiveCastToConversion/charToShort.kt", this::doTest);
         }
 
         @TestMetadata("intToByte.kt")
         public void testIntToByte() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/primitiveCastToConversion/intToByte.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/primitiveCastToConversion/intToByte.kt", this::doTest);
         }
 
         @TestMetadata("longToFloat.kt")
         public void testLongToFloat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/primitiveCastToConversion/longToFloat.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/primitiveCastToConversion/longToFloat.kt", this::doTest);
         }
     }
 
@@ -9100,32 +7781,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("baseCase.kt")
             public void testBaseCase() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/baseCase.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/baseCase.kt", this::doTest);
             }
 
             @TestMetadata("baseCaseVar.kt")
             public void testBaseCaseVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/baseCaseVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/baseCaseVar.kt", this::doTest);
             }
 
             @TestMetadata("baseCaseWithoutTypeAnnotation.kt")
             public void testBaseCaseWithoutTypeAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/baseCaseWithoutTypeAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/baseCaseWithoutTypeAnnotation.kt", this::doTest);
             }
 
             @TestMetadata("dontShowQuickfixOnExistingAccessors.kt")
             public void testDontShowQuickfixOnExistingAccessors() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/dontShowQuickfixOnExistingAccessors.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/dontShowQuickfixOnExistingAccessors.kt", this::doTest);
             }
 
             @TestMetadata("insertGetterBeforeExistingSetter.kt")
             public void testInsertGetterBeforeExistingSetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/insertGetterBeforeExistingSetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/properties/extensionPropertyInitializerToGetter/insertGetterBeforeExistingSetter.kt", this::doTest);
             }
         }
     }
@@ -9140,14 +7816,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/protectedInFinal/protected.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/protectedInFinal/protected.kt", this::doTest);
         }
 
         @TestMetadata("protected2.kt")
         public void testProtected2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/protectedInFinal/protected2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/protectedInFinal/protected2.kt", this::doTest);
         }
     }
 
@@ -9161,50 +7835,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("assignExpression.kt")
         public void testAssignExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantIf/assignExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantIf/assignExpression.kt", this::doTest);
         }
 
         @TestMetadata("assignment.kt")
         public void testAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantIf/assignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantIf/assignment.kt", this::doTest);
         }
 
         @TestMetadata("assignmentFake.kt")
         public void testAssignmentFake() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantIf/assignmentFake.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantIf/assignmentFake.kt", this::doTest);
         }
 
         @TestMetadata("expression.kt")
         public void testExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantIf/expression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantIf/expression.kt", this::doTest);
         }
 
         @TestMetadata("expressionBody.kt")
         public void testExpressionBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantIf/expressionBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantIf/expressionBody.kt", this::doTest);
         }
 
         @TestMetadata("labeledReturn.kt")
         public void testLabeledReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantIf/labeledReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantIf/labeledReturn.kt", this::doTest);
         }
 
         @TestMetadata("negate.kt")
         public void testNegate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantIf/negate.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantIf/negate.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantIf/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantIf/simple.kt", this::doTest);
         }
     }
 
@@ -9218,14 +7884,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("redundantAbstract.kt")
         public void testRedundantAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantModalityModifier/redundantAbstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantModalityModifier/redundantAbstract.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantModalityModifier/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantModalityModifier/simple.kt", this::doTest);
         }
     }
 
@@ -9235,14 +7899,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class RedundantSemicolon extends AbstractQuickFixTest {
         @TestMetadata("afterImport.kt")
         public void testAfterImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantSemicolon/afterImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantSemicolon/afterImport.kt", this::doTest);
         }
 
         @TestMetadata("afterStatement.kt")
         public void testAfterStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantSemicolon/afterStatement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantSemicolon/afterStatement.kt", this::doTest);
         }
 
         public void testAllFilesPresentInRedundantSemicolon() throws Exception {
@@ -9260,8 +7922,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("inline.kt")
         public void testInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantSuspend/inline.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantSuspend/inline.kt", this::doTest);
         }
     }
 
@@ -9275,8 +7936,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/redundantVisibilityModifier/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/redundantVisibilityModifier/simple.kt", this::doTest);
         }
     }
 
@@ -9290,8 +7950,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("jvmOverloads.kt")
         public void testJvmOverloads() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeAnnotation/jvmOverloads.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeAnnotation/jvmOverloads.kt", this::doTest);
         }
     }
 
@@ -9305,20 +7964,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("arrayParam.kt")
         public void testArrayParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeAtFromAnnotationArgument/arrayParam.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeAtFromAnnotationArgument/arrayParam.kt", this::doTest);
         }
 
         @TestMetadata("namedParam.kt")
         public void testNamedParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeAtFromAnnotationArgument/namedParam.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeAtFromAnnotationArgument/namedParam.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeAtFromAnnotationArgument/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeAtFromAnnotationArgument/simple.kt", this::doTest);
         }
     }
 
@@ -9332,14 +7988,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeFinalUpperBound/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeFinalUpperBound/basic.kt", this::doTest);
         }
 
         @TestMetadata("function.kt")
         public void testFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeFinalUpperBound/function.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeFinalUpperBound/function.kt", this::doTest);
         }
     }
 
@@ -9353,8 +8007,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("basic.kt")
         public void testBasic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeNoConstructor/basic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeNoConstructor/basic.kt", this::doTest);
         }
     }
 
@@ -9368,26 +8021,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("constant.kt")
         public void testConstant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeRedundantAssignment/constant.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeRedundantAssignment/constant.kt", this::doTest);
         }
 
         @TestMetadata("functionCall.kt")
         public void testFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeRedundantAssignment/functionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeRedundantAssignment/functionCall.kt", this::doTest);
         }
 
         @TestMetadata("notRedundant.kt")
         public void testNotRedundant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeRedundantAssignment/notRedundant.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeRedundantAssignment/notRedundant.kt", this::doTest);
         }
 
         @TestMetadata("simpleRef.kt")
         public void testSimpleRef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeRedundantAssignment/simpleRef.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeRedundantAssignment/simpleRef.kt", this::doTest);
         }
     }
 
@@ -9401,8 +8050,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeRedundantInitializer/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeRedundantInitializer/simple.kt", this::doTest);
         }
     }
 
@@ -9416,14 +8064,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("multiple.kt")
         public void testMultiple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeSingleLambdaParameter/multiple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeSingleLambdaParameter/multiple.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeSingleLambdaParameter/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeSingleLambdaParameter/simple.kt", this::doTest);
         }
     }
 
@@ -9437,38 +8083,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("fakeOverride.kt")
         public void testFakeOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeSuspend/fakeOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeSuspend/fakeOverride.kt", this::doTest);
         }
 
         @TestMetadata("fakeOverride2.kt")
         public void testFakeOverride2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeSuspend/fakeOverride2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeSuspend/fakeOverride2.kt", this::doTest);
         }
 
         @TestMetadata("middleClass.kt")
         public void testMiddleClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeSuspend/middleClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeSuspend/middleClass.kt", this::doTest);
         }
 
         @TestMetadata("middleClass2.kt")
         public void testMiddleClass2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeSuspend/middleClass2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeSuspend/middleClass2.kt", this::doTest);
         }
 
         @TestMetadata("nonOverridden.kt")
         public void testNonOverridden() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeSuspend/nonOverridden.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeSuspend/nonOverridden.kt", this::doTest);
         }
 
         @TestMetadata("nonOverridden2.kt")
         public void testNonOverridden2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeSuspend/nonOverridden2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeSuspend/nonOverridden2.kt", this::doTest);
         }
     }
 
@@ -9482,38 +8122,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("call.kt")
         public void testCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeToStringInStringTemplate/call.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeToStringInStringTemplate/call.kt", this::doTest);
         }
 
         @TestMetadata("name.kt")
         public void testName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeToStringInStringTemplate/name.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeToStringInStringTemplate/name.kt", this::doTest);
         }
 
         @TestMetadata("nameWithPostfix.kt")
         public void testNameWithPostfix() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeToStringInStringTemplate/nameWithPostfix.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeToStringInStringTemplate/nameWithPostfix.kt", this::doTest);
         }
 
         @TestMetadata("necessaryBrackets1.kt")
         public void testNecessaryBrackets1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeToStringInStringTemplate/necessaryBrackets1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeToStringInStringTemplate/necessaryBrackets1.kt", this::doTest);
         }
 
         @TestMetadata("necessaryBrackets2.kt")
         public void testNecessaryBrackets2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeToStringInStringTemplate/necessaryBrackets2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeToStringInStringTemplate/necessaryBrackets2.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeToStringInStringTemplate/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeToStringInStringTemplate/simple.kt", this::doTest);
         }
     }
 
@@ -9527,116 +8161,97 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("deledage.kt")
         public void testDeledage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/deledage.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/deledage.kt", this::doTest);
         }
 
         @TestMetadata("importEnumValues.kt")
         public void testImportEnumValues() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/importEnumValues.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/importEnumValues.kt", this::doTest);
         }
 
         @TestMetadata("importObjectFun.kt")
         public void testImportObjectFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/importObjectFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/importObjectFun.kt", this::doTest);
         }
 
         @TestMetadata("notTriangle.kt")
         public void testNotTriangle() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/notTriangle.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/notTriangle.kt", this::doTest);
         }
 
         @TestMetadata("triangle.kt")
         public void testTriangle() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/triangle.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/triangle.kt", this::doTest);
         }
 
         @TestMetadata("triangle2.kt")
         public void testTriangle2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/triangle2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/triangle2.kt", this::doTest);
         }
 
         @TestMetadata("unusedClass.kt")
         public void testUnusedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/unusedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/unusedClass.kt", this::doTest);
         }
 
         @TestMetadata("unusedConstructor.kt")
         public void testUnusedConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/unusedConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/unusedConstructor.kt", this::doTest);
         }
 
         @TestMetadata("unusedDelegatedConstructor.kt")
         public void testUnusedDelegatedConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/unusedDelegatedConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/unusedDelegatedConstructor.kt", this::doTest);
         }
 
         @TestMetadata("unusedDelegatedConstructorSuper.kt")
         public void testUnusedDelegatedConstructorSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/unusedDelegatedConstructorSuper.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/unusedDelegatedConstructorSuper.kt", this::doTest);
         }
 
         @TestMetadata("unusedFunction.kt")
         public void testUnusedFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/unusedFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/unusedFunction.kt", this::doTest);
         }
 
         @TestMetadata("unusedProperty.kt")
         public void testUnusedProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/unusedProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/unusedProperty.kt", this::doTest);
         }
 
         @TestMetadata("unusedPropertyAsConstructorParameter.kt")
         public void testUnusedPropertyAsConstructorParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/unusedPropertyAsConstructorParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/unusedPropertyAsConstructorParameter.kt", this::doTest);
         }
 
         @TestMetadata("unusedPropertyAsConstructorParameter2.kt")
         public void testUnusedPropertyAsConstructorParameter2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/unusedPropertyAsConstructorParameter2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/unusedPropertyAsConstructorParameter2.kt", this::doTest);
         }
 
         @TestMetadata("unusedTypeParameter.kt")
         public void testUnusedTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/unusedTypeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/unusedTypeParameter.kt", this::doTest);
         }
 
         @TestMetadata("usedClassAsAlias.kt")
         public void testUsedClassAsAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/usedClassAsAlias.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/usedClassAsAlias.kt", this::doTest);
         }
 
         @TestMetadata("usedFunAsAlias.kt")
         public void testUsedFunAsAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/usedFunAsAlias.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/usedFunAsAlias.kt", this::doTest);
         }
 
         @TestMetadata("usedObjectAsAlias.kt")
         public void testUsedObjectAsAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/usedObjectAsAlias.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/usedObjectAsAlias.kt", this::doTest);
         }
 
         @TestMetadata("usedVarAsAlias.kt")
         public void testUsedVarAsAlias() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnused/usedVarAsAlias.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnused/usedVarAsAlias.kt", this::doTest);
         }
     }
 
@@ -9650,14 +8265,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("inFunction.kt")
         public void testInFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnusedReceiver/inFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnusedReceiver/inFunction.kt", this::doTest);
         }
 
         @TestMetadata("inProperty.kt")
         public void testInProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/removeUnusedReceiver/inProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/removeUnusedReceiver/inProperty.kt", this::doTest);
         }
     }
 
@@ -9671,20 +8284,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("modAsExtension.kt")
         public void testModAsExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToRem/modAsExtension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToRem/modAsExtension.kt", this::doTest);
         }
 
         @TestMetadata("modAsMember.kt")
         public void testModAsMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToRem/modAsMember.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToRem/modAsMember.kt", this::doTest);
         }
 
         @TestMetadata("modAssignAsMember.kt")
         public void testModAssignAsMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToRem/modAssignAsMember.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToRem/modAssignAsMember.kt", this::doTest);
         }
     }
 
@@ -9698,50 +8308,42 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("commonDestructuring.kt")
         public void testCommonDestructuring() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToUnderscore/commonDestructuring.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToUnderscore/commonDestructuring.kt", this::doTest);
         }
 
         @TestMetadata("forDestructuring.kt")
         public void testForDestructuring() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToUnderscore/forDestructuring.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToUnderscore/forDestructuring.kt", this::doTest);
         }
 
         @TestMetadata("functionExpressionParameterNoRemoveParameter.kt")
         public void testFunctionExpressionParameterNoRemoveParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToUnderscore/functionExpressionParameterNoRemoveParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToUnderscore/functionExpressionParameterNoRemoveParameter.kt", this::doTest);
         }
 
         @TestMetadata("lambdaDestructuring.kt")
         public void testLambdaDestructuring() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToUnderscore/lambdaDestructuring.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToUnderscore/lambdaDestructuring.kt", this::doTest);
         }
 
         @TestMetadata("lambdaParameter.kt")
         public void testLambdaParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToUnderscore/lambdaParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToUnderscore/lambdaParameter.kt", this::doTest);
         }
 
         @TestMetadata("lambdaParameterNoRemoveParameter.kt")
         public void testLambdaParameterNoRemoveParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToUnderscore/lambdaParameterNoRemoveParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToUnderscore/lambdaParameterNoRemoveParameter.kt", this::doTest);
         }
 
         @TestMetadata("noActionForCommonFunction.kt")
         public void testNoActionForCommonFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToUnderscore/noActionForCommonFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToUnderscore/noActionForCommonFunction.kt", this::doTest);
         }
 
         @TestMetadata("noActionForCommonVal.kt")
         public void testNoActionForCommonVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameToUnderscore/noActionForCommonVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameToUnderscore/noActionForCommonVal.kt", this::doTest);
         }
     }
 
@@ -9755,38 +8357,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("qualifiedFunRef.kt")
         public void testQualifiedFunRef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameUnresolvedReference/qualifiedFunRef.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameUnresolvedReference/qualifiedFunRef.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedPropertyRef.kt")
         public void testQualifiedPropertyRef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameUnresolvedReference/qualifiedPropertyRef.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameUnresolvedReference/qualifiedPropertyRef.kt", this::doTest);
         }
 
         @TestMetadata("typeRef.kt")
         public void testTypeRef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameUnresolvedReference/typeRef.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameUnresolvedReference/typeRef.kt", this::doTest);
         }
 
         @TestMetadata("unqualifiedFunRef.kt")
         public void testUnqualifiedFunRef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameUnresolvedReference/unqualifiedFunRef.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameUnresolvedReference/unqualifiedFunRef.kt", this::doTest);
         }
 
         @TestMetadata("unqualifiedPropertyRef.kt")
         public void testUnqualifiedPropertyRef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameUnresolvedReference/unqualifiedPropertyRef.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameUnresolvedReference/unqualifiedPropertyRef.kt", this::doTest);
         }
 
         @TestMetadata("unqualifiedPropertyRefWithPackageError.kt")
         public void testUnqualifiedPropertyRefWithPackageError() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/renameUnresolvedReference/unqualifiedPropertyRefWithPackageError.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/renameUnresolvedReference/unqualifiedPropertyRefWithPackageError.kt", this::doTest);
         }
     }
 
@@ -9800,56 +8396,47 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("array.kt")
         public void testArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceInfixOrOperatorCall/array.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceInfixOrOperatorCall/array.kt", this::doTest);
         }
 
         @TestMetadata("arraySet.kt")
         public void testArraySet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceInfixOrOperatorCall/arraySet.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceInfixOrOperatorCall/arraySet.kt", this::doTest);
         }
 
         @TestMetadata("assignmentArray.kt")
         public void testAssignmentArray() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceInfixOrOperatorCall/assignmentArray.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceInfixOrOperatorCall/assignmentArray.kt", this::doTest);
         }
 
         @TestMetadata("assignmentBinaryOperator.kt")
         public void testAssignmentBinaryOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceInfixOrOperatorCall/assignmentBinaryOperator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceInfixOrOperatorCall/assignmentBinaryOperator.kt", this::doTest);
         }
 
         @TestMetadata("assignmentCallExpression.kt")
         public void testAssignmentCallExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceInfixOrOperatorCall/assignmentCallExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceInfixOrOperatorCall/assignmentCallExpression.kt", this::doTest);
         }
 
         @TestMetadata("assignmentList.kt")
         public void testAssignmentList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceInfixOrOperatorCall/assignmentList.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceInfixOrOperatorCall/assignmentList.kt", this::doTest);
         }
 
         @TestMetadata("binaryOperator.kt")
         public void testBinaryOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceInfixOrOperatorCall/binaryOperator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceInfixOrOperatorCall/binaryOperator.kt", this::doTest);
         }
 
         @TestMetadata("callExpression.kt")
         public void testCallExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceInfixOrOperatorCall/callExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceInfixOrOperatorCall/callExpression.kt", this::doTest);
         }
 
         @TestMetadata("list.kt")
         public void testList() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceInfixOrOperatorCall/list.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceInfixOrOperatorCall/list.kt", this::doTest);
         }
     }
 
@@ -9863,56 +8450,47 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("class.kt")
         public void testClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceJvmFieldWithConst/class.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceJvmFieldWithConst/class.kt", this::doTest);
         }
 
         @TestMetadata("companionInInterface.kt")
         public void testCompanionInInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceJvmFieldWithConst/companionInInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceJvmFieldWithConst/companionInInterface.kt", this::doTest);
         }
 
         @TestMetadata("getter.kt")
         public void testGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceJvmFieldWithConst/getter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceJvmFieldWithConst/getter.kt", this::doTest);
         }
 
         @TestMetadata("nonConstantInitializer.kt")
         public void testNonConstantInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceJvmFieldWithConst/nonConstantInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceJvmFieldWithConst/nonConstantInitializer.kt", this::doTest);
         }
 
         @TestMetadata("nullable.kt")
         public void testNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceJvmFieldWithConst/nullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceJvmFieldWithConst/nullable.kt", this::doTest);
         }
 
         @TestMetadata("object.kt")
         public void testObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceJvmFieldWithConst/object.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceJvmFieldWithConst/object.kt", this::doTest);
         }
 
         @TestMetadata("stringTemplateWithConstants.kt")
         public void testStringTemplateWithConstants() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceJvmFieldWithConst/stringTemplateWithConstants.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceJvmFieldWithConst/stringTemplateWithConstants.kt", this::doTest);
         }
 
         @TestMetadata("stringTemplateWithVal.kt")
         public void testStringTemplateWithVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceJvmFieldWithConst/stringTemplateWithVal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceJvmFieldWithConst/stringTemplateWithVal.kt", this::doTest);
         }
 
         @TestMetadata("toplevel.kt")
         public void testToplevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceJvmFieldWithConst/toplevel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceJvmFieldWithConst/toplevel.kt", this::doTest);
         }
     }
 
@@ -9926,20 +8504,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("emptyLiteral.kt")
         public void testEmptyLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithArrayCallInAnnotation/emptyLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithArrayCallInAnnotation/emptyLiteral.kt", this::doTest);
         }
 
         @TestMetadata("literalWithValues.kt")
         public void testLiteralWithValues() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithArrayCallInAnnotation/literalWithValues.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithArrayCallInAnnotation/literalWithValues.kt", this::doTest);
         }
 
         @TestMetadata("replaceSingleElementInNamedForm.kt")
         public void testReplaceSingleElementInNamedForm() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithArrayCallInAnnotation/replaceSingleElementInNamedForm.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithArrayCallInAnnotation/replaceSingleElementInNamedForm.kt", this::doTest);
         }
     }
 
@@ -9953,14 +8528,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("functionCall.kt")
         public void testFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithDotCall/functionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithDotCall/functionCall.kt", this::doTest);
         }
 
         @TestMetadata("normal.kt")
         public void testNormal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithDotCall/normal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithDotCall/normal.kt", this::doTest);
         }
     }
 
@@ -9974,92 +8547,77 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("apply.kt")
         public void testApply() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/apply.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/apply.kt", this::doTest);
         }
 
         @TestMetadata("applyWithImplicitParameter.kt")
         public void testApplyWithImplicitParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/applyWithImplicitParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/applyWithImplicitParameter.kt", this::doTest);
         }
 
         @TestMetadata("applyWithImplicitParameterFunctionCall.kt")
         public void testApplyWithImplicitParameterFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/applyWithImplicitParameterFunctionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/applyWithImplicitParameterFunctionCall.kt", this::doTest);
         }
 
         @TestMetadata("assignment.kt")
         public void testAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/assignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/assignment.kt", this::doTest);
         }
 
         @TestMetadata("assignmentFromImplicitParameter.kt")
         public void testAssignmentFromImplicitParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/assignmentFromImplicitParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/assignmentFromImplicitParameter.kt", this::doTest);
         }
 
         @TestMetadata("assignmentToNullable.kt")
         public void testAssignmentToNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/assignmentToNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/assignmentToNullable.kt", this::doTest);
         }
 
         @TestMetadata("assignmentToProperty.kt")
         public void testAssignmentToProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/assignmentToProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/assignmentToProperty.kt", this::doTest);
         }
 
         @TestMetadata("expression.kt")
         public void testExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/expression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/expression.kt", this::doTest);
         }
 
         @TestMetadata("extFunction.kt")
         public void testExtFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/extFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/extFunction.kt", this::doTest);
         }
 
         @TestMetadata("functionCall.kt")
         public void testFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/functionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/functionCall.kt", this::doTest);
         }
 
         @TestMetadata("invokeOperator.kt")
         public void testInvokeOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/invokeOperator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/invokeOperator.kt", this::doTest);
         }
 
         @TestMetadata("let.kt")
         public void testLet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/let.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/let.kt", this::doTest);
         }
 
         @TestMetadata("letWithParameter.kt")
         public void testLetWithParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/letWithParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/letWithParameter.kt", this::doTest);
         }
 
         @TestMetadata("noReplaceWithSafeCallForImplicitReceiver.kt")
         public void testNoReplaceWithSafeCallForImplicitReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/noReplaceWithSafeCallForImplicitReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/noReplaceWithSafeCallForImplicitReceiver.kt", this::doTest);
         }
 
         @TestMetadata("normal.kt")
         public void testNormal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCall/normal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCall/normal.kt", this::doTest);
         }
     }
 
@@ -10073,92 +8631,77 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("also.kt")
         public void testAlso() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/also.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/also.kt", this::doTest);
         }
 
         @TestMetadata("applyWithFake.kt")
         public void testApplyWithFake() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithFake.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithFake.kt", this::doTest);
         }
 
         @TestMetadata("applyWithThis.kt")
         public void testApplyWithThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithThis.kt", this::doTest);
         }
 
         @TestMetadata("applyWithThisAndArrow.kt")
         public void testApplyWithThisAndArrow() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithThisAndArrow.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithThisAndArrow.kt", this::doTest);
         }
 
         @TestMetadata("applyWithThisLabeled.kt")
         public void testApplyWithThisLabeled() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithThisLabeled.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithThisLabeled.kt", this::doTest);
         }
 
         @TestMetadata("applyWithThisLabeledFake.kt")
         public void testApplyWithThisLabeledFake() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithThisLabeledFake.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithThisLabeledFake.kt", this::doTest);
         }
 
         @TestMetadata("applyWithoutThis.kt")
         public void testApplyWithoutThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithoutThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithoutThis.kt", this::doTest);
         }
 
         @TestMetadata("applyWithoutThisMethodCall.kt")
         public void testApplyWithoutThisMethodCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithoutThisMethodCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/applyWithoutThisMethodCall.kt", this::doTest);
         }
 
         @TestMetadata("assignment.kt")
         public void testAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/assignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/assignment.kt", this::doTest);
         }
 
         @TestMetadata("let.kt")
         public void testLet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/let.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/let.kt", this::doTest);
         }
 
         @TestMetadata("letWithParam.kt")
         public void testLetWithParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/letWithParam.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/letWithParam.kt", this::doTest);
         }
 
         @TestMetadata("letWithWrongImplicitThis.kt")
         public void testLetWithWrongImplicitThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/letWithWrongImplicitThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/letWithWrongImplicitThis.kt", this::doTest);
         }
 
         @TestMetadata("letWithWrongParam.kt")
         public void testLetWithWrongParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/letWithWrongParam.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/letWithWrongParam.kt", this::doTest);
         }
 
         @TestMetadata("notInsideScope.kt")
         public void testNotInsideScope() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/notInsideScope.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/notInsideScope.kt", this::doTest);
         }
 
         @TestMetadata("run.kt")
         public void testRun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/run.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/replaceWithSafeCallForScopeFunction/run.kt", this::doTest);
         }
     }
 
@@ -10172,44 +8715,37 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("doubleNull.kt")
         public void testDoubleNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/simplifyComparison/doubleNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/simplifyComparison/doubleNull.kt", this::doTest);
         }
 
         @TestMetadata("notNull.kt")
         public void testNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/simplifyComparison/notNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/simplifyComparison/notNull.kt", this::doTest);
         }
 
         @TestMetadata("nullOrNotNull.kt")
         public void testNullOrNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/simplifyComparison/nullOrNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/simplifyComparison/nullOrNotNull.kt", this::doTest);
         }
 
         @TestMetadata("somethingAndNotNull.kt")
         public void testSomethingAndNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/simplifyComparison/somethingAndNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/simplifyComparison/somethingAndNotNull.kt", this::doTest);
         }
 
         @TestMetadata("withAssertion.kt")
         public void testWithAssertion() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/simplifyComparison/withAssertion.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/simplifyComparison/withAssertion.kt", this::doTest);
         }
 
         @TestMetadata("withAssertion2.kt")
         public void testWithAssertion2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/simplifyComparison/withAssertion2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/simplifyComparison/withAssertion2.kt", this::doTest);
         }
 
         @TestMetadata("withAssertion3.kt")
         public void testWithAssertion3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/simplifyComparison/withAssertion3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/simplifyComparison/withAssertion3.kt", this::doTest);
         }
     }
 
@@ -10223,44 +8759,37 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("base.kt")
         public void testBase() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/specifyOverrideExplicitly/base.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/specifyOverrideExplicitly/base.kt", this::doTest);
         }
 
         @TestMetadata("global.kt")
         public void testGlobal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/specifyOverrideExplicitly/global.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/specifyOverrideExplicitly/global.kt", this::doTest);
         }
 
         @TestMetadata("lists.kt")
         public void testLists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/specifyOverrideExplicitly/lists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/specifyOverrideExplicitly/lists.kt", this::doTest);
         }
 
         @TestMetadata("lists2.kt")
         public void testLists2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/specifyOverrideExplicitly/lists2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/specifyOverrideExplicitly/lists2.kt", this::doTest);
         }
 
         @TestMetadata("notPossible.kt")
         public void testNotPossible() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/specifyOverrideExplicitly/notPossible.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/specifyOverrideExplicitly/notPossible.kt", this::doTest);
         }
 
         @TestMetadata("outer.kt")
         public void testOuter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/specifyOverrideExplicitly/outer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/specifyOverrideExplicitly/outer.kt", this::doTest);
         }
 
         @TestMetadata("property.kt")
         public void testProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/specifyOverrideExplicitly/property.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/specifyOverrideExplicitly/property.kt", this::doTest);
         }
     }
 
@@ -10274,20 +8803,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("typeWith1Argument.kt")
         public void testTypeWith1Argument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/superTypeIsExtensionType/typeWith1Argument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/superTypeIsExtensionType/typeWith1Argument.kt", this::doTest);
         }
 
         @TestMetadata("typeWithNoArgument.kt")
         public void testTypeWithNoArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/superTypeIsExtensionType/typeWithNoArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/superTypeIsExtensionType/typeWithNoArgument.kt", this::doTest);
         }
 
         @TestMetadata("typeWithTypeArgument.kt")
         public void testTypeWithTypeArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/superTypeIsExtensionType/typeWithTypeArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/superTypeIsExtensionType/typeWithTypeArgument.kt", this::doTest);
         }
     }
 
@@ -10301,8 +8827,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("typeArgumentsRedundantInSuperQualifier.kt")
         public void testTypeArgumentsRedundantInSuperQualifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supercalls/typeArgumentsRedundantInSuperQualifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supercalls/typeArgumentsRedundantInSuperQualifier.kt", this::doTest);
         }
     }
 
@@ -10312,62 +8837,52 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class SupertypeInitialization extends AbstractQuickFixTest {
         @TestMetadata("addImport.kt")
         public void testAddImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addImport.kt", this::doTest);
         }
 
         @TestMetadata("addParameters.kt")
         public void testAddParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addParameters.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addParameters.kt", this::doTest);
         }
 
         @TestMetadata("addParenthesis.kt")
         public void testAddParenthesis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addParenthesis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addParenthesis.kt", this::doTest);
         }
 
         @TestMetadata("addParenthesisDefaultParameters.kt")
         public void testAddParenthesisDefaultParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addParenthesisDefaultParameters.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addParenthesisDefaultParameters.kt", this::doTest);
         }
 
         @TestMetadata("addParenthesisEmptyConstructor.kt")
         public void testAddParenthesisEmptyConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addParenthesisEmptyConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addParenthesisEmptyConstructor.kt", this::doTest);
         }
 
         @TestMetadata("addParenthesisForInvalidSealedClass.kt")
         public void testAddParenthesisForInvalidSealedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addParenthesisForInvalidSealedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addParenthesisForInvalidSealedClass.kt", this::doTest);
         }
 
         @TestMetadata("addParenthesisForInvalidSealedClass2.kt")
         public void testAddParenthesisForInvalidSealedClass2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addParenthesisForInvalidSealedClass2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addParenthesisForInvalidSealedClass2.kt", this::doTest);
         }
 
         @TestMetadata("addParenthesisForLocalClass.kt")
         public void testAddParenthesisForLocalClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addParenthesisForLocalClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addParenthesisForLocalClass.kt", this::doTest);
         }
 
         @TestMetadata("addParenthesisForObjectExpression.kt")
         public void testAddParenthesisForObjectExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addParenthesisForObjectExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addParenthesisForObjectExpression.kt", this::doTest);
         }
 
         @TestMetadata("addParenthesisForSealedClass.kt")
         public void testAddParenthesisForSealedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/addParenthesisForSealedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/addParenthesisForSealedClass.kt", this::doTest);
         }
 
         public void testAllFilesPresentInSupertypeInitialization() throws Exception {
@@ -10376,92 +8891,77 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("baseConstructorError.kt")
         public void testBaseConstructorError() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/baseConstructorError.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/baseConstructorError.kt", this::doTest);
         }
 
         @TestMetadata("createConstructor.kt")
         public void testCreateConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/createConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/createConstructor.kt", this::doTest);
         }
 
         @TestMetadata("displayLongSignatures1.kt")
         public void testDisplayLongSignatures1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/displayLongSignatures1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/displayLongSignatures1.kt", this::doTest);
         }
 
         @TestMetadata("displayLongSignatures2.kt")
         public void testDisplayLongSignatures2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/displayLongSignatures2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/displayLongSignatures2.kt", this::doTest);
         }
 
         @TestMetadata("genericClass.kt")
         public void testGenericClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/genericClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/genericClass.kt", this::doTest);
         }
 
         @TestMetadata("incompleteConstructor.kt")
         public void testIncompleteConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/incompleteConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/incompleteConstructor.kt", this::doTest);
         }
 
         @TestMetadata("keywordName.kt")
         public void testKeywordName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/keywordName.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/keywordName.kt", this::doTest);
         }
 
         @TestMetadata("multipleConstructors.kt")
         public void testMultipleConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/multipleConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/multipleConstructors.kt", this::doTest);
         }
 
         @TestMetadata("noAccessibleConstructors.kt")
         public void testNoAccessibleConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/noAccessibleConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/noAccessibleConstructors.kt", this::doTest);
         }
 
         @TestMetadata("noParameters.kt")
         public void testNoParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/noParameters.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/noParameters.kt", this::doTest);
         }
 
         @TestMetadata("primaryConstructorInaccessible.kt")
         public void testPrimaryConstructorInaccessible() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/primaryConstructorInaccessible.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/primaryConstructorInaccessible.kt", this::doTest);
         }
 
         @TestMetadata("someParametersAlreadyExist.kt")
         public void testSomeParametersAlreadyExist() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/someParametersAlreadyExist.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/someParametersAlreadyExist.kt", this::doTest);
         }
 
         @TestMetadata("vararg1.kt")
         public void testVararg1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/vararg1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/vararg1.kt", this::doTest);
         }
 
         @TestMetadata("vararg2.kt")
         public void testVararg2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/vararg2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/vararg2.kt", this::doTest);
         }
 
         @TestMetadata("vararg3.kt")
         public void testVararg3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/supertypeInitialization/vararg3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/supertypeInitialization/vararg3.kt", this::doTest);
         }
     }
 
@@ -10483,98 +8983,82 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("paramWithModifier.kt")
             public void testParamWithModifier() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/paramWithModifier.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/paramWithModifier.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionModifierOnThePreviousLine.kt")
             public void testTopLevelFunctionModifierOnThePreviousLine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionModifierOnThePreviousLine.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionModifierOnThePreviousLine.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionModifierOnTheSameLine.kt")
             public void testTopLevelFunctionModifierOnTheSameLine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionModifierOnTheSameLine.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionModifierOnTheSameLine.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionNoModifiers.kt")
             public void testTopLevelFunctionNoModifiers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionNoModifiers.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionNoModifiers.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressAnotherPreviousLine.kt")
             public void testTopLevelFunctionSuppressAnotherPreviousLine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressAnotherPreviousLine.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressAnotherPreviousLine.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressEmptyArgsPreviousLine.kt")
             public void testTopLevelFunctionSuppressEmptyArgsPreviousLine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressEmptyArgsPreviousLine.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressEmptyArgsPreviousLine.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressNoArgsPreviousLine.kt")
             public void testTopLevelFunctionSuppressNoArgsPreviousLine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressNoArgsPreviousLine.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressNoArgsPreviousLine.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressNoArgsPreviousLineBare.kt")
             public void testTopLevelFunctionSuppressNoArgsPreviousLineBare() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressNoArgsPreviousLineBare.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressNoArgsPreviousLineBare.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressNoArgsTheSameLine.kt")
             public void testTopLevelFunctionSuppressNoArgsTheSameLine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressNoArgsTheSameLine.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressNoArgsTheSameLine.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressNoArgsTheSameLineBare.kt")
             public void testTopLevelFunctionSuppressNoArgsTheSameLineBare() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressNoArgsTheSameLineBare.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressNoArgsTheSameLineBare.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressOnFile.kt")
             public void testTopLevelFunctionSuppressOnFile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressOnFile.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressOnFile.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressOnFileOtherAnnotation.kt")
             public void testTopLevelFunctionSuppressOnFileOtherAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressOnFileOtherAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressOnFileOtherAnnotation.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressOnFileWithPackage.kt")
             public void testTopLevelFunctionSuppressOnFileWithPackage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressOnFileWithPackage.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressOnFileWithPackage.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionSuppressOnFileWithSuppress.kt")
             public void testTopLevelFunctionSuppressOnFileWithSuppress() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressOnFileWithSuppress.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionSuppressOnFileWithSuppress.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionUnrelatedAnnotation.kt")
             public void testTopLevelFunctionUnrelatedAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionUnrelatedAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionUnrelatedAnnotation.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionUnrelatedAnnotationBare.kt")
             public void testTopLevelFunctionUnrelatedAnnotationBare() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionUnrelatedAnnotationBare.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/annotationPosition/topLevelFunctionUnrelatedAnnotationBare.kt", this::doTest);
             }
         }
 
@@ -10588,62 +9072,52 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("localFunSuppressForLocal.kt")
             public void testLocalFunSuppressForLocal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/localFunSuppressForLocal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/localFunSuppressForLocal.kt", this::doTest);
             }
 
             @TestMetadata("localFunSuppressForOuter.kt")
             public void testLocalFunSuppressForOuter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/localFunSuppressForOuter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/localFunSuppressForOuter.kt", this::doTest);
             }
 
             @TestMetadata("localValSuppressForFun.kt")
             public void testLocalValSuppressForFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/localValSuppressForFun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/localValSuppressForFun.kt", this::doTest);
             }
 
             @TestMetadata("localValSuppressForVal.kt")
             public void testLocalValSuppressForVal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/localValSuppressForVal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/localValSuppressForVal.kt", this::doTest);
             }
 
             @TestMetadata("memberOfNestedSuppressForMember.kt")
             public void testMemberOfNestedSuppressForMember() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/memberOfNestedSuppressForMember.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/memberOfNestedSuppressForMember.kt", this::doTest);
             }
 
             @TestMetadata("memberOfNestedSuppressForNested.kt")
             public void testMemberOfNestedSuppressForNested() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/memberOfNestedSuppressForNested.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/memberOfNestedSuppressForNested.kt", this::doTest);
             }
 
             @TestMetadata("memberOfNestedSuppressForOuter.kt")
             public void testMemberOfNestedSuppressForOuter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/memberOfNestedSuppressForOuter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/memberOfNestedSuppressForOuter.kt", this::doTest);
             }
 
             @TestMetadata("memberSuppressForClass.kt")
             public void testMemberSuppressForClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/memberSuppressForClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/memberSuppressForClass.kt", this::doTest);
             }
 
             @TestMetadata("memberSuppressForMember.kt")
             public void testMemberSuppressForMember() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/memberSuppressForMember.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/memberSuppressForMember.kt", this::doTest);
             }
 
             @TestMetadata("topLevelFunctionAlreadySuppressed.kt")
             public void testTopLevelFunctionAlreadySuppressed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/availability/topLevelFunctionAlreadySuppressed.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/availability/topLevelFunctionAlreadySuppressed.kt", this::doTest);
             }
         }
 
@@ -10657,74 +9131,62 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("class.kt")
             public void testClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/class.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/class.kt", this::doTest);
             }
 
             @TestMetadata("classObject.kt")
             public void testClassObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/classObject.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/classObject.kt", this::doTest);
             }
 
             @TestMetadata("enumEntry.kt")
             public void testEnumEntry() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/enumEntry.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/enumEntry.kt", this::doTest);
             }
 
             @TestMetadata("fun.kt")
             public void testFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/fun.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/fun.kt", this::doTest);
             }
 
             @TestMetadata("multiVal.kt")
             public void testMultiVal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/multiVal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/multiVal.kt", this::doTest);
             }
 
             @TestMetadata("multiVar.kt")
             public void testMultiVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/multiVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/multiVar.kt", this::doTest);
             }
 
             @TestMetadata("object.kt")
             public void testObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/object.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/object.kt", this::doTest);
             }
 
             @TestMetadata("param.kt")
             public void testParam() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/param.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/param.kt", this::doTest);
             }
 
             @TestMetadata("secondaryConstructor.kt")
             public void testSecondaryConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/secondaryConstructor.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/secondaryConstructor.kt", this::doTest);
             }
 
             @TestMetadata("trait.kt")
             public void testTrait() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/trait.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/trait.kt", this::doTest);
             }
 
             @TestMetadata("val.kt")
             public void testVal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/val.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/val.kt", this::doTest);
             }
 
             @TestMetadata("var.kt")
             public void testVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/declarationKinds/var.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/declarationKinds/var.kt", this::doTest);
             }
         }
 
@@ -10738,14 +9200,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("nonStringInSuppress.kt")
             public void testNonStringInSuppress() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/errorRecovery/nonStringInSuppress.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/errorRecovery/nonStringInSuppress.kt", this::doTest);
             }
 
             @TestMetadata("unresolvedAnnotation.kt")
             public void testUnresolvedAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/errorRecovery/unresolvedAnnotation.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/errorRecovery/unresolvedAnnotation.kt", this::doTest);
             }
         }
 
@@ -10759,230 +9219,192 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("andAnd.kt")
             public void testAndAnd() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/andAnd.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/andAnd.kt", this::doTest);
             }
 
             @TestMetadata("annotatedExpr.kt")
             public void testAnnotatedExpr() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/annotatedExpr.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/annotatedExpr.kt", this::doTest);
             }
 
             @TestMetadata("annotatedExprWithSuppress.kt")
             public void testAnnotatedExprWithSuppress() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/annotatedExprWithSuppress.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/annotatedExprWithSuppress.kt", this::doTest);
             }
 
             @TestMetadata("arrayRead.kt")
             public void testArrayRead() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/arrayRead.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/arrayRead.kt", this::doTest);
             }
 
             @TestMetadata("as.kt")
             public void testAs() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/as.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/as.kt", this::doTest);
             }
 
             @TestMetadata("asSafe.kt")
             public void testAsSafe() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/asSafe.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/asSafe.kt", this::doTest);
             }
 
             @TestMetadata("assign.kt")
             public void testAssign() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/assign.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/assign.kt", this::doTest);
             }
 
             @TestMetadata("call.kt")
             public void testCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/call.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/call.kt", this::doTest);
             }
 
             @TestMetadata("doWhile.kt")
             public void testDoWhile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/doWhile.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/doWhile.kt", this::doTest);
             }
 
             @TestMetadata("dotQualified.kt")
             public void testDotQualified() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/dotQualified.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/dotQualified.kt", this::doTest);
             }
 
             @TestMetadata("elvis.kt")
             public void testElvis() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/elvis.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/elvis.kt", this::doTest);
             }
 
             @TestMetadata("eqEq.kt")
             public void testEqEq() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/eqEq.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/eqEq.kt", this::doTest);
             }
 
             @TestMetadata("for.kt")
             public void testFor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/for.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/for.kt", this::doTest);
             }
 
             @TestMetadata("if.kt")
             public void testIf() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/if.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/if.kt", this::doTest);
             }
 
             @TestMetadata("in.kt")
             public void testIn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/in.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/in.kt", this::doTest);
             }
 
             @TestMetadata("infix.kt")
             public void testInfix() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/infix.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/infix.kt", this::doTest);
             }
 
             @TestMetadata("is.kt")
             public void testIs() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/is.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/is.kt", this::doTest);
             }
 
             @TestMetadata("labeled.kt")
             public void testLabeled() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/labeled.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/labeled.kt", this::doTest);
             }
 
             @TestMetadata("less.kt")
             public void testLess() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/less.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/less.kt", this::doTest);
             }
 
             @TestMetadata("mul.kt")
             public void testMul() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/mul.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/mul.kt", this::doTest);
             }
 
             @TestMetadata("orOr.kt")
             public void testOrOr() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/orOr.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/orOr.kt", this::doTest);
             }
 
             @TestMetadata("parenthesized.kt")
             public void testParenthesized() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/parenthesized.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/parenthesized.kt", this::doTest);
             }
 
             @TestMetadata("plus.kt")
             public void testPlus() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/plus.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/plus.kt", this::doTest);
             }
 
             @TestMetadata("postfix.kt")
             public void testPostfix() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/postfix.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/postfix.kt", this::doTest);
             }
 
             @TestMetadata("postfixPlusPlus.kt")
             public void testPostfixPlusPlus() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/postfixPlusPlus.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/postfixPlusPlus.kt", this::doTest);
             }
 
             @TestMetadata("prefixPlusPlus.kt")
             public void testPrefixPlusPlus() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/prefixPlusPlus.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/prefixPlusPlus.kt", this::doTest);
             }
 
             @TestMetadata("range.kt")
             public void testRange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/range.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/range.kt", this::doTest);
             }
 
             @TestMetadata("return.kt")
             public void testReturn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/return.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/return.kt", this::doTest);
             }
 
             @TestMetadata("safeQualified.kt")
             public void testSafeQualified() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/safeQualified.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/safeQualified.kt", this::doTest);
             }
 
             @TestMetadata("simpleName.kt")
             public void testSimpleName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/simpleName.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/simpleName.kt", this::doTest);
             }
 
             @TestMetadata("stringTemplate.kt")
             public void testStringTemplate() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/stringTemplate.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/stringTemplate.kt", this::doTest);
             }
 
             @TestMetadata("throw.kt")
             public void testThrow() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/throw.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/throw.kt", this::doTest);
             }
 
             @TestMetadata("try.kt")
             public void testTry() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/try.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/try.kt", this::doTest);
             }
 
             @TestMetadata("whenExpressionEntry.kt")
             public void testWhenExpressionEntry() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/whenExpressionEntry.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/whenExpressionEntry.kt", this::doTest);
             }
 
             @TestMetadata("whenInEntry.kt")
             public void testWhenInEntry() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/whenInEntry.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/whenInEntry.kt", this::doTest);
             }
 
             @TestMetadata("whenIsEntry.kt")
             public void testWhenIsEntry() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/whenIsEntry.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/whenIsEntry.kt", this::doTest);
             }
 
             @TestMetadata("whenSubject.kt")
             public void testWhenSubject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/whenSubject.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/whenSubject.kt", this::doTest);
             }
 
             @TestMetadata("while.kt")
             public void testWhile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/while.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/while.kt", this::doTest);
             }
 
             @TestMetadata("idea/testData/quickfix/suppress/forStatement/unavailable")
@@ -10995,68 +9417,57 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("inAnnotationArgument.kt")
                 public void testInAnnotationArgument() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/inAnnotationArgument.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/inAnnotationArgument.kt", this::doTest);
                 }
 
                 @TestMetadata("inClassHeader.kt")
                 public void testInClassHeader() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/inClassHeader.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/inClassHeader.kt", this::doTest);
                 }
 
                 @TestMetadata("inDefaultArgument.kt")
                 public void testInDefaultArgument() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/inDefaultArgument.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/inDefaultArgument.kt", this::doTest);
                 }
 
                 @TestMetadata("inExpressionBody.kt")
                 public void testInExpressionBody() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/inExpressionBody.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/inExpressionBody.kt", this::doTest);
                 }
 
                 @TestMetadata("inLocalValInitializer.kt")
                 public void testInLocalValInitializer() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/inLocalValInitializer.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/inLocalValInitializer.kt", this::doTest);
                 }
 
                 @TestMetadata("inParameterType.kt")
                 public void testInParameterType() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/inParameterType.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/inParameterType.kt", this::doTest);
                 }
 
                 @TestMetadata("inParameterTypeInFunctionLiteral.kt")
                 public void testInParameterTypeInFunctionLiteral() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/inParameterTypeInFunctionLiteral.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/inParameterTypeInFunctionLiteral.kt", this::doTest);
                 }
 
                 @TestMetadata("inPropertyInitializer.kt")
                 public void testInPropertyInitializer() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/inPropertyInitializer.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/inPropertyInitializer.kt", this::doTest);
                 }
 
                 @TestMetadata("objectLiteral.kt")
                 public void testObjectLiteral() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/objectLiteral.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/objectLiteral.kt", this::doTest);
                 }
 
                 @TestMetadata("objectLiteralInsideExpression.kt")
                 public void testObjectLiteralInsideExpression() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/objectLiteralInsideExpression.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/objectLiteralInsideExpression.kt", this::doTest);
                 }
 
                 @TestMetadata("supretype.kt")
                 public void testSupretype() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/forStatement/unavailable/supretype.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/suppress/forStatement/unavailable/supretype.kt", this::doTest);
                 }
             }
         }
@@ -11071,14 +9482,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("ifNullToElvis.kt")
             public void testIfNullToElvis() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/inspections/ifNullToElvis.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/inspections/ifNullToElvis.kt", this::doTest);
             }
 
             @TestMetadata("unusedImports.kt")
             public void testUnusedImports() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/suppress/inspections/unusedImports.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/suppress/inspections/unusedImports.kt", this::doTest);
             }
         }
     }
@@ -11093,26 +9502,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("replaceForVarargOfAny.kt")
         public void testReplaceForVarargOfAny() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithArrayOfForNamedArgumentsToVarargs/replaceForVarargOfAny.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithArrayOfForNamedArgumentsToVarargs/replaceForVarargOfAny.kt", this::doTest);
         }
 
         @TestMetadata("replaceToArrayOfPrimitiveTypes.kt")
         public void testReplaceToArrayOfPrimitiveTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithArrayOfForNamedArgumentsToVarargs/replaceToArrayOfPrimitiveTypes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithArrayOfForNamedArgumentsToVarargs/replaceToArrayOfPrimitiveTypes.kt", this::doTest);
         }
 
         @TestMetadata("simpleNamedArgumentToVararg.kt")
         public void testSimpleNamedArgumentToVararg() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithArrayOfForNamedArgumentsToVarargs/simpleNamedArgumentToVararg.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithArrayOfForNamedArgumentsToVarargs/simpleNamedArgumentToVararg.kt", this::doTest);
         }
 
         @TestMetadata("surroundWithSpreadForConstructorCall.kt")
         public void testSurroundWithSpreadForConstructorCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithArrayOfForNamedArgumentsToVarargs/surroundWithSpreadForConstructorCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithArrayOfForNamedArgumentsToVarargs/surroundWithSpreadForConstructorCall.kt", this::doTest);
         }
     }
 
@@ -11126,116 +9531,97 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("argumentNullable.kt")
         public void testArgumentNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/argumentNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/argumentNullable.kt", this::doTest);
         }
 
         @TestMetadata("chainedUnsafeCall.kt")
         public void testChainedUnsafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/chainedUnsafeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/chainedUnsafeCall.kt", this::doTest);
         }
 
         @TestMetadata("expressionUnsafeCall.kt")
         public void testExpressionUnsafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/expressionUnsafeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/expressionUnsafeCall.kt", this::doTest);
         }
 
         @TestMetadata("infixUnsafeCall.kt")
         public void testInfixUnsafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/infixUnsafeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/infixUnsafeCall.kt", this::doTest);
         }
 
         @TestMetadata("invokeFuncUnsafe.kt")
         public void testInvokeFuncUnsafe() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/invokeFuncUnsafe.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/invokeFuncUnsafe.kt", this::doTest);
         }
 
         @TestMetadata("invokeUnsafe.kt")
         public void testInvokeUnsafe() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/invokeUnsafe.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/invokeUnsafe.kt", this::doTest);
         }
 
         @TestMetadata("iteratorUnsafe.kt")
         public void testIteratorUnsafe() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/iteratorUnsafe.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/iteratorUnsafe.kt", this::doTest);
         }
 
         @TestMetadata("nullableInCondition.kt")
         public void testNullableInCondition() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/nullableInCondition.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/nullableInCondition.kt", this::doTest);
         }
 
         @TestMetadata("objectNestedQualifiers.kt")
         public void testObjectNestedQualifiers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/objectNestedQualifiers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/objectNestedQualifiers.kt", this::doTest);
         }
 
         @TestMetadata("objectQualifier.kt")
         public void testObjectQualifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/objectQualifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/objectQualifier.kt", this::doTest);
         }
 
         @TestMetadata("simpleUnsafeCall.kt")
         public void testSimpleUnsafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/simpleUnsafeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/simpleUnsafeCall.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCallInBinary.kt")
         public void testUnsafeCallInBinary() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInBinary.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInBinary.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCallInDeclaration.kt")
         public void testUnsafeCallInDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInDeclaration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInDeclaration.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCallInGetter.kt")
         public void testUnsafeCallInGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInGetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInGetter.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCallInsideAnonymous.kt")
         public void testUnsafeCallInsideAnonymous() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInsideAnonymous.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInsideAnonymous.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCallInsideIf.kt")
         public void testUnsafeCallInsideIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInsideIf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInsideIf.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCallInsideWhen.kt")
         public void testUnsafeCallInsideWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInsideWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInsideWhen.kt", this::doTest);
         }
 
         @TestMetadata("unsafeCallInsideWhile.kt")
         public void testUnsafeCallInsideWhile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInsideWhile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/unsafeCallInsideWhile.kt", this::doTest);
         }
 
         @TestMetadata("unstableValue.kt")
         public void testUnstableValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/surroundWithNullCheck/unstableValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/surroundWithNullCheck/unstableValue.kt", this::doTest);
         }
     }
 
@@ -11249,26 +9635,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("notNullableExpectedNullable.kt")
         public void testNotNullableExpectedNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/toString/notNullableExpectedNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/toString/notNullableExpectedNullable.kt", this::doTest);
         }
 
         @TestMetadata("nullableExpectedNotNullable.kt")
         public void testNullableExpectedNotNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/toString/nullableExpectedNotNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/toString/nullableExpectedNotNullable.kt", this::doTest);
         }
 
         @TestMetadata("nullableExpectedNullable.kt")
         public void testNullableExpectedNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/toString/nullableExpectedNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/toString/nullableExpectedNullable.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/toString/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/toString/simple.kt", this::doTest);
         }
     }
 
@@ -11282,26 +9664,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("backslashShouldNotBeEscaped.kt")
         public void testBackslashShouldNotBeEscaped() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/tooLongCharLiteralToString/backslashShouldNotBeEscaped.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/tooLongCharLiteralToString/backslashShouldNotBeEscaped.kt", this::doTest);
         }
 
         @TestMetadata("dollarShouldNotBeEscaped.kt")
         public void testDollarShouldNotBeEscaped() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/tooLongCharLiteralToString/dollarShouldNotBeEscaped.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/tooLongCharLiteralToString/dollarShouldNotBeEscaped.kt", this::doTest);
         }
 
         @TestMetadata("doubleQuotesShouldBeEscaped.kt")
         public void testDoubleQuotesShouldBeEscaped() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/tooLongCharLiteralToString/doubleQuotesShouldBeEscaped.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/tooLongCharLiteralToString/doubleQuotesShouldBeEscaped.kt", this::doTest);
         }
 
         @TestMetadata("ecapedDoubleQuotesShouldNotBeEscaped.kt")
         public void testEcapedDoubleQuotesShouldNotBeEscaped() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/tooLongCharLiteralToString/ecapedDoubleQuotesShouldNotBeEscaped.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/tooLongCharLiteralToString/ecapedDoubleQuotesShouldNotBeEscaped.kt", this::doTest);
         }
     }
 
@@ -11315,116 +9693,97 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("ambiguousFunctionReturnType.kt")
         public void testAmbiguousFunctionReturnType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/ambiguousFunctionReturnType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/ambiguousFunctionReturnType.kt", this::doTest);
         }
 
         @TestMetadata("ambiguousPropertyReturnType.kt")
         public void testAmbiguousPropertyReturnType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/ambiguousPropertyReturnType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/ambiguousPropertyReturnType.kt", this::doTest);
         }
 
         @TestMetadata("changeAccessorTypeToFunctionType.kt")
         public void testChangeAccessorTypeToFunctionType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/changeAccessorTypeToFunctionType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/changeAccessorTypeToFunctionType.kt", this::doTest);
         }
 
         @TestMetadata("noAddErrorType.kt")
         public void testNoAddErrorType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/noAddErrorType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/noAddErrorType.kt", this::doTest);
         }
 
         @TestMetadata("propertyHasType.kt")
         public void testPropertyHasType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/propertyHasType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/propertyHasType.kt", this::doTest);
         }
 
         @TestMetadata("propertyWithGetterWithBlockBody.kt")
         public void testPropertyWithGetterWithBlockBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/propertyWithGetterWithBlockBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/propertyWithGetterWithBlockBody.kt", this::doTest);
         }
 
         @TestMetadata("propertyWithGetterWithInferredType.kt")
         public void testPropertyWithGetterWithInferredType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/propertyWithGetterWithInferredType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/propertyWithGetterWithInferredType.kt", this::doTest);
         }
 
         @TestMetadata("propertyWithGetterWithoutType.kt")
         public void testPropertyWithGetterWithoutType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/propertyWithGetterWithoutType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/propertyWithGetterWithoutType.kt", this::doTest);
         }
 
         @TestMetadata("propertyWithRecursiveGetter.kt")
         public void testPropertyWithRecursiveGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/propertyWithRecursiveGetter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/propertyWithRecursiveGetter.kt", this::doTest);
         }
 
         @TestMetadata("propertyWithSetterWithoutType.kt")
         public void testPropertyWithSetterWithoutType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/propertyWithSetterWithoutType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/propertyWithSetterWithoutType.kt", this::doTest);
         }
 
         @TestMetadata("protectedFunWithoutReturnType.kt")
         public void testProtectedFunWithoutReturnType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/protectedFunWithoutReturnType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/protectedFunWithoutReturnType.kt", this::doTest);
         }
 
         @TestMetadata("publicFunWithoutBody.kt")
         public void testPublicFunWithoutBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/publicFunWithoutBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/publicFunWithoutBody.kt", this::doTest);
         }
 
         @TestMetadata("publicFunWithoutReturnType.kt")
         public void testPublicFunWithoutReturnType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/publicFunWithoutReturnType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/publicFunWithoutReturnType.kt", this::doTest);
         }
 
         @TestMetadata("publicFunWithoutReturnTypeCaretOnParameter.kt")
         public void testPublicFunWithoutReturnTypeCaretOnParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/publicFunWithoutReturnTypeCaretOnParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/publicFunWithoutReturnTypeCaretOnParameter.kt", this::doTest);
         }
 
         @TestMetadata("publicValWithoutReturnType.kt")
         public void testPublicValWithoutReturnType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/publicValWithoutReturnType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/publicValWithoutReturnType.kt", this::doTest);
         }
 
         @TestMetadata("publicValWithoutReturnTypeCaretOnPublic.kt")
         public void testPublicValWithoutReturnTypeCaretOnPublic() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/publicValWithoutReturnTypeCaretOnPublic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/publicValWithoutReturnTypeCaretOnPublic.kt", this::doTest);
         }
 
         @TestMetadata("wrongGetterParameterType.kt")
         public void testWrongGetterParameterType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/wrongGetterParameterType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/wrongGetterParameterType.kt", this::doTest);
         }
 
         @TestMetadata("wrongGetterParameterTypeLongNameRuntime.kt")
         public void testWrongGetterParameterTypeLongNameRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/wrongGetterParameterTypeLongNameRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/wrongGetterParameterTypeLongNameRuntime.kt", this::doTest);
         }
 
         @TestMetadata("wrongSetterParameterType.kt")
         public void testWrongSetterParameterType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeAddition/wrongSetterParameterType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeAddition/wrongSetterParameterType.kt", this::doTest);
         }
     }
 
@@ -11438,32 +9797,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("hasThisImport.kt")
         public void testHasThisImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeImports/hasThisImport.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeImports/hasThisImport.kt", this::doTest);
         }
 
         @TestMetadata("noImportFromTheSameFile.kt")
         public void testNoImportFromTheSameFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeImports/noImportFromTheSameFile.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeImports/noImportFromTheSameFile.kt", this::doTest);
         }
 
         @TestMetadata("noImportJavaLang.kt")
         public void testNoImportJavaLang() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeImports/noImportJavaLang.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeImports/noImportJavaLang.kt", this::doTest);
         }
 
         @TestMetadata("noImportJetStandard.kt")
         public void testNoImportJetStandard() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeImports/noImportJetStandard.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeImports/noImportJetStandard.kt", this::doTest);
         }
 
         @TestMetadata("toImport1.kt")
         public void testToImport1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeImports/toImport1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeImports/toImport1.kt", this::doTest);
         }
     }
 
@@ -11477,8 +9831,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("convertClassToKClass1Runtime.kt")
         public void testConvertClassToKClass1Runtime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeInferenceExpectedTypeMismatch/convertClassToKClass1Runtime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeInferenceExpectedTypeMismatch/convertClassToKClass1Runtime.kt", this::doTest);
         }
     }
 
@@ -11488,62 +9841,52 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class TypeMismatch extends AbstractQuickFixTest {
         @TestMetadata("accessibleLocalClassInReturn.kt")
         public void testAccessibleLocalClassInReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/accessibleLocalClassInReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/accessibleLocalClassInReturn.kt", this::doTest);
         }
 
         @TestMetadata("addArrayOfType.kt")
         public void testAddArrayOfType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addArrayOfType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addArrayOfType.kt", this::doTest);
         }
 
         @TestMetadata("addArrayOfTypeForNamedParameter.kt")
         public void testAddArrayOfTypeForNamedParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addArrayOfTypeForNamedParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addArrayOfTypeForNamedParameter.kt", this::doTest);
         }
 
         @TestMetadata("addExclExclToQualifiedArgument.kt")
         public void testAddExclExclToQualifiedArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addExclExclToQualifiedArgument.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addExclExclToQualifiedArgument.kt", this::doTest);
         }
 
         @TestMetadata("addExclExclToRemoveNullability.kt")
         public void testAddExclExclToRemoveNullability() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addExclExclToRemoveNullability.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addExclExclToRemoveNullability.kt", this::doTest);
         }
 
         @TestMetadata("addExclExclToRemoveNullabilityDisabledWhenItCannotHelp.kt")
         public void testAddExclExclToRemoveNullabilityDisabledWhenItCannotHelp() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addExclExclToRemoveNullabilityDisabledWhenItCannotHelp.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addExclExclToRemoveNullabilityDisabledWhenItCannotHelp.kt", this::doTest);
         }
 
         @TestMetadata("addExclExclToRemoveNullabilityForGeneric.kt")
         public void testAddExclExclToRemoveNullabilityForGeneric() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addExclExclToRemoveNullabilityForGeneric.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addExclExclToRemoveNullabilityForGeneric.kt", this::doTest);
         }
 
         @TestMetadata("addExclExclToRemoveNullabilityForSubclass.kt")
         public void testAddExclExclToRemoveNullabilityForSubclass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addExclExclToRemoveNullabilityForSubclass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addExclExclToRemoveNullabilityForSubclass.kt", this::doTest);
         }
 
         @TestMetadata("addExclExclWhenSmartCastImpossible.kt")
         public void testAddExclExclWhenSmartCastImpossible() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addExclExclWhenSmartCastImpossible.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addExclExclWhenSmartCastImpossible.kt", this::doTest);
         }
 
         @TestMetadata("addIntArrayOf.kt")
         public void testAddIntArrayOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/addIntArrayOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/addIntArrayOf.kt", this::doTest);
         }
 
         public void testAllFilesPresentInTypeMismatch() throws Exception {
@@ -11552,320 +9895,267 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("anonymousObjectInCall.kt")
         public void testAnonymousObjectInCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/anonymousObjectInCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/anonymousObjectInCall.kt", this::doTest);
         }
 
         @TestMetadata("anonymousObjectInInfixCall.kt")
         public void testAnonymousObjectInInfixCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/anonymousObjectInInfixCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/anonymousObjectInInfixCall.kt", this::doTest);
         }
 
         @TestMetadata("anonymousObjectInInitializer.kt")
         public void testAnonymousObjectInInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/anonymousObjectInInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/anonymousObjectInInitializer.kt", this::doTest);
         }
 
         @TestMetadata("anonymousObjectInReturn.kt")
         public void testAnonymousObjectInReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/anonymousObjectInReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/anonymousObjectInReturn.kt", this::doTest);
         }
 
         @TestMetadata("anyInReturn.kt")
         public void testAnyInReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/anyInReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/anyInReturn.kt", this::doTest);
         }
 
         @TestMetadata("changeFunctionLiteralParameterTypeToFunctionType.kt")
         public void testChangeFunctionLiteralParameterTypeToFunctionType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeFunctionLiteralParameterTypeToFunctionType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeFunctionLiteralParameterTypeToFunctionType.kt", this::doTest);
         }
 
         @TestMetadata("changeFunctionLiteralParameterTypeToFunctionTypeLongNameRuntime.kt")
         public void testChangeFunctionLiteralParameterTypeToFunctionTypeLongNameRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeFunctionLiteralParameterTypeToFunctionTypeLongNameRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeFunctionLiteralParameterTypeToFunctionTypeLongNameRuntime.kt", this::doTest);
         }
 
         @TestMetadata("changeFunctionReturnTypeToMatchExpectedTypeOfCall.kt")
         public void testChangeFunctionReturnTypeToMatchExpectedTypeOfCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeFunctionReturnTypeToMatchExpectedTypeOfCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeFunctionReturnTypeToMatchExpectedTypeOfCall.kt", this::doTest);
         }
 
         @TestMetadata("changeFunctionReturnTypeToMatchExpectedTypeOfCallLongNameRuntime.kt")
         public void testChangeFunctionReturnTypeToMatchExpectedTypeOfCallLongNameRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeFunctionReturnTypeToMatchExpectedTypeOfCallLongNameRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeFunctionReturnTypeToMatchExpectedTypeOfCallLongNameRuntime.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeForTypeInference.kt")
         public void testChangeReturnTypeForTypeInference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeForTypeInference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeForTypeInference.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeForTypeMismatch.kt")
         public void testChangeReturnTypeForTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeForTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeForTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeNoFqNameForAnonymousObject.kt")
         public void testChangeReturnTypeNoFqNameForAnonymousObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForAnonymousObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForAnonymousObject.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeNoFqNameForCompanionObject.kt")
         public void testChangeReturnTypeNoFqNameForCompanionObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForCompanionObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForCompanionObject.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeNoFqNameForLocalClass.kt")
         public void testChangeReturnTypeNoFqNameForLocalClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForLocalClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForLocalClass.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeNoFqNameForNestedClass.kt")
         public void testChangeReturnTypeNoFqNameForNestedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForNestedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForNestedClass.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeNoFqNameForTopLevelClass.kt")
         public void testChangeReturnTypeNoFqNameForTopLevelClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForTopLevelClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeNoFqNameForTopLevelClass.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeToSpecificNullable.kt")
         public void testChangeReturnTypeToSpecificNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeToSpecificNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeToSpecificNullable.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeWhenFunctionNameIsMissing.kt")
         public void testChangeReturnTypeWhenFunctionNameIsMissing() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeWhenFunctionNameIsMissing.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeWhenFunctionNameIsMissing.kt", this::doTest);
         }
 
         @TestMetadata("changeReturnTypeWhenValueParameterListIsAbsent.kt")
         public void testChangeReturnTypeWhenValueParameterListIsAbsent() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/changeReturnTypeWhenValueParameterListIsAbsent.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/changeReturnTypeWhenValueParameterListIsAbsent.kt", this::doTest);
         }
 
         @TestMetadata("compareToTypeMismatch.kt")
         public void testCompareToTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/compareToTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/compareToTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("constantTypeMismatch.kt")
         public void testConstantTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/constantTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/constantTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("dontChangeOverriddenPropertyTypeToErrorType.kt")
         public void testDontChangeOverriddenPropertyTypeToErrorType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/dontChangeOverriddenPropertyTypeToErrorType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/dontChangeOverriddenPropertyTypeToErrorType.kt", this::doTest);
         }
 
         @TestMetadata("expectedParameterTypeMismatch.kt")
         public void testExpectedParameterTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/expectedParameterTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/expectedParameterTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("expectedParameterTypeMismatchLongNameRuntime.kt")
         public void testExpectedParameterTypeMismatchLongNameRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/expectedParameterTypeMismatchLongNameRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/expectedParameterTypeMismatchLongNameRuntime.kt", this::doTest);
         }
 
         @TestMetadata("hasNextFunctionReturnTypeMismatch.kt")
         public void testHasNextFunctionReturnTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/hasNextFunctionReturnTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/hasNextFunctionReturnTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("intToShortTypeMismatch.kt")
         public void testIntToShortTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/intToShortTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/intToShortTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("kt17404.kt")
         public void testKt17404() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/kt17404.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/kt17404.kt", this::doTest);
         }
 
         @TestMetadata("letClassImplementAdditionalInterface.kt")
         public void testLetClassImplementAdditionalInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letClassImplementAdditionalInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letClassImplementAdditionalInterface.kt", this::doTest);
         }
 
         @TestMetadata("letClassImplementGenericInterface.kt")
         public void testLetClassImplementGenericInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letClassImplementGenericInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letClassImplementGenericInterface.kt", this::doTest);
         }
 
         @TestMetadata("letClassImplementGenericInterfaceTwice.kt")
         public void testLetClassImplementGenericInterfaceTwice() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letClassImplementGenericInterfaceTwice.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letClassImplementGenericInterfaceTwice.kt", this::doTest);
         }
 
         @TestMetadata("letClassImplementGenericStarInterface.kt")
         public void testLetClassImplementGenericStarInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letClassImplementGenericStarInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letClassImplementGenericStarInterface.kt", this::doTest);
         }
 
         @TestMetadata("letClassImplementIndirectlyInheritedInterface.kt")
         public void testLetClassImplementIndirectlyInheritedInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letClassImplementIndirectlyInheritedInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letClassImplementIndirectlyInheritedInterface.kt", this::doTest);
         }
 
         @TestMetadata("letClassImplementInterface.kt")
         public void testLetClassImplementInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letClassImplementInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letClassImplementInterface.kt", this::doTest);
         }
 
         @TestMetadata("letClassImplementInterfaceNullable.kt")
         public void testLetClassImplementInterfaceNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letClassImplementInterfaceNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letClassImplementInterfaceNullable.kt", this::doTest);
         }
 
         @TestMetadata("letInterfaceExtendInterface.kt")
         public void testLetInterfaceExtendInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letInterfaceExtendInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letInterfaceExtendInterface.kt", this::doTest);
         }
 
         @TestMetadata("letObjectImplementAdditionalInterface.kt")
         public void testLetObjectImplementAdditionalInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letObjectImplementAdditionalInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letObjectImplementAdditionalInterface.kt", this::doTest);
         }
 
         @TestMetadata("letObjectLiteralImplementInterface.kt")
         public void testLetObjectLiteralImplementInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letObjectLiteralImplementInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letObjectLiteralImplementInterface.kt", this::doTest);
         }
 
         @TestMetadata("letStringImplementInterface.kt")
         public void testLetStringImplementInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/letStringImplementInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/letStringImplementInterface.kt", this::doTest);
         }
 
         @TestMetadata("localClassInReturn1.kt")
         public void testLocalClassInReturn1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/localClassInReturn1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/localClassInReturn1.kt", this::doTest);
         }
 
         @TestMetadata("localClassInReturn2.kt")
         public void testLocalClassInReturn2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/localClassInReturn2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/localClassInReturn2.kt", this::doTest);
         }
 
         @TestMetadata("longToDoubleTypeMismatch.kt")
         public void testLongToDoubleTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/longToDoubleTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/longToDoubleTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("longToIntTypeMismatch.kt")
         public void testLongToIntTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/longToIntTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/longToIntTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("makeReturnTypeNullable.kt")
         public void testMakeReturnTypeNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/makeReturnTypeNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/makeReturnTypeNullable.kt", this::doTest);
         }
 
         @TestMetadata("noReturnInFunctionWithBlockBody.kt")
         public void testNoReturnInFunctionWithBlockBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/noReturnInFunctionWithBlockBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/noReturnInFunctionWithBlockBody.kt", this::doTest);
         }
 
         @TestMetadata("nullArgumentForNonNullParameter.kt")
         public void testNullArgumentForNonNullParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/nullArgumentForNonNullParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/nullArgumentForNonNullParameter.kt", this::doTest);
         }
 
         @TestMetadata("parameterDefaultValue.kt")
         public void testParameterDefaultValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/parameterDefaultValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/parameterDefaultValue.kt", this::doTest);
         }
 
         @TestMetadata("propertyTypeMismatch.kt")
         public void testPropertyTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/propertyTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/propertyTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("propertyTypeMismatchLongNameRuntime.kt")
         public void testPropertyTypeMismatchLongNameRuntime() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/propertyTypeMismatchLongNameRuntime.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/propertyTypeMismatchLongNameRuntime.kt", this::doTest);
         }
 
         @TestMetadata("resolvableTypeParams.kt")
         public void testResolvableTypeParams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/resolvableTypeParams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/resolvableTypeParams.kt", this::doTest);
         }
 
         @TestMetadata("returnTypeMismatch.kt")
         public void testReturnTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/returnTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/returnTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("shortToByteTypeMismatch.kt")
         public void testShortToByteTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/shortToByteTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/shortToByteTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("tooManyArgumentsException.kt")
         public void testTooManyArgumentsException() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/tooManyArgumentsException.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/tooManyArgumentsException.kt", this::doTest);
         }
 
         @TestMetadata("unresolvableTypeParams.kt")
         public void testUnresolvableTypeParams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/unresolvableTypeParams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/unresolvableTypeParams.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/typeMismatch/casts")
@@ -11878,68 +10168,57 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("castQualifiedArgument.kt")
             public void testCastQualifiedArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/castQualifiedArgument.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/castQualifiedArgument.kt", this::doTest);
             }
 
             @TestMetadata("castToFunctionType.kt")
             public void testCastToFunctionType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/castToFunctionType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/castToFunctionType.kt", this::doTest);
             }
 
             @TestMetadata("preferExclExcl.kt")
             public void testPreferExclExcl() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/preferExclExcl.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/preferExclExcl.kt", this::doTest);
             }
 
             @TestMetadata("smartcastImpossible1.kt")
             public void testSmartcastImpossible1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/smartcastImpossible1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/smartcastImpossible1.kt", this::doTest);
             }
 
             @TestMetadata("smartcastImpossible2.kt")
             public void testSmartcastImpossible2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/smartcastImpossible2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/smartcastImpossible2.kt", this::doTest);
             }
 
             @TestMetadata("smartcastImpossible3.kt")
             public void testSmartcastImpossible3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/smartcastImpossible3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/smartcastImpossible3.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatch1.kt")
             public void testTypeMismatch1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/typeMismatch1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/typeMismatch1.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatch2.kt")
             public void testTypeMismatch2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/typeMismatch2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/typeMismatch2.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatch3.kt")
             public void testTypeMismatch3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/typeMismatch3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/typeMismatch3.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatch4.kt")
             public void testTypeMismatch4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/typeMismatch4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/typeMismatch4.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatchLongNameRuntime.kt")
             public void testTypeMismatchLongNameRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/casts/typeMismatchLongNameRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/casts/typeMismatchLongNameRuntime.kt", this::doTest);
             }
         }
 
@@ -11953,38 +10232,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("componentFunctionReturnTypeMismatch1.kt")
             public void testComponentFunctionReturnTypeMismatch1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch1.kt", this::doTest);
             }
 
             @TestMetadata("componentFunctionReturnTypeMismatch2.kt")
             public void testComponentFunctionReturnTypeMismatch2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch2.kt", this::doTest);
             }
 
             @TestMetadata("componentFunctionReturnTypeMismatch3.kt")
             public void testComponentFunctionReturnTypeMismatch3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch3.kt", this::doTest);
             }
 
             @TestMetadata("componentFunctionReturnTypeMismatch4.kt")
             public void testComponentFunctionReturnTypeMismatch4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch4.kt", this::doTest);
             }
 
             @TestMetadata("componentFunctionReturnTypeMismatch5.kt")
             public void testComponentFunctionReturnTypeMismatch5() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch5.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/componentFunctionReturnTypeMismatch5.kt", this::doTest);
             }
 
             @TestMetadata("dataClass.kt")
             public void testDataClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/dataClass.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/componentFunctionReturnTypeMismatch/dataClass.kt", this::doTest);
             }
         }
 
@@ -11998,68 +10271,57 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("arrayToCollection.kt")
             public void testArrayToCollection() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/arrayToCollection.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/arrayToCollection.kt", this::doTest);
             }
 
             @TestMetadata("arrayToIterable.kt")
             public void testArrayToIterable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/arrayToIterable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/arrayToIterable.kt", this::doTest);
             }
 
             @TestMetadata("arrayToList.kt")
             public void testArrayToList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/arrayToList.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/arrayToList.kt", this::doTest);
             }
 
             @TestMetadata("arrayToSequence.kt")
             public void testArrayToSequence() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/arrayToSequence.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/arrayToSequence.kt", this::doTest);
             }
 
             @TestMetadata("iterableToArray.kt")
             public void testIterableToArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/iterableToArray.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/iterableToArray.kt", this::doTest);
             }
 
             @TestMetadata("listToArray.kt")
             public void testListToArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/listToArray.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/listToArray.kt", this::doTest);
             }
 
             @TestMetadata("listToArrayBinary.kt")
             public void testListToArrayBinary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/listToArrayBinary.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/listToArrayBinary.kt", this::doTest);
             }
 
             @TestMetadata("listToMutableList.kt")
             public void testListToMutableList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/listToMutableList.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/listToMutableList.kt", this::doTest);
             }
 
             @TestMetadata("listToSequence.kt")
             public void testListToSequence() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/listToSequence.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/listToSequence.kt", this::doTest);
             }
 
             @TestMetadata("sequenceToArray.kt")
             public void testSequenceToArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/sequenceToArray.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/sequenceToArray.kt", this::doTest);
             }
 
             @TestMetadata("sequenceToList.kt")
             public void testSequenceToList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/convertCollection/sequenceToList.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/convertCollection/sequenceToList.kt", this::doTest);
             }
         }
 
@@ -12073,20 +10335,17 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("changeNotFunctionReturnType.kt")
             public void testChangeNotFunctionReturnType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/fixOverloadedOperator/changeNotFunctionReturnType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/fixOverloadedOperator/changeNotFunctionReturnType.kt", this::doTest);
             }
 
             @TestMetadata("changePlusFunctionReturnType.kt")
             public void testChangePlusFunctionReturnType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/fixOverloadedOperator/changePlusFunctionReturnType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/fixOverloadedOperator/changePlusFunctionReturnType.kt", this::doTest);
             }
 
             @TestMetadata("changeTimesFunctionParameterType.kt")
             public void testChangeTimesFunctionParameterType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/fixOverloadedOperator/changeTimesFunctionParameterType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/fixOverloadedOperator/changeTimesFunctionParameterType.kt", this::doTest);
             }
         }
 
@@ -12100,14 +10359,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("convertBinaryExpression.kt")
             public void testConvertBinaryExpression() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/numberConversion/convertBinaryExpression.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/numberConversion/convertBinaryExpression.kt", this::doTest);
             }
 
             @TestMetadata("convertExpression.kt")
             public void testConvertExpression() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/numberConversion/convertExpression.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/numberConversion/convertExpression.kt", this::doTest);
             }
         }
 
@@ -12121,44 +10378,37 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("changeFunctionParameterType1.kt")
             public void testChangeFunctionParameterType1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeFunctionParameterType1.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeFunctionParameterType1.kt", this::doTest);
             }
 
             @TestMetadata("changeFunctionParameterType2.kt")
             public void testChangeFunctionParameterType2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeFunctionParameterType2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeFunctionParameterType2.kt", this::doTest);
             }
 
             @TestMetadata("changeFunctionParameterType3.kt")
             public void testChangeFunctionParameterType3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeFunctionParameterType3.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeFunctionParameterType3.kt", this::doTest);
             }
 
             @TestMetadata("changeFunctionParameterType4.kt")
             public void testChangeFunctionParameterType4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeFunctionParameterType4.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeFunctionParameterType4.kt", this::doTest);
             }
 
             @TestMetadata("changeParameterTypeLongNameRuntime.kt")
             public void testChangeParameterTypeLongNameRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeParameterTypeLongNameRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changeParameterTypeLongNameRuntime.kt", this::doTest);
             }
 
             @TestMetadata("changePrimaryConstructorParameterType.kt")
             public void testChangePrimaryConstructorParameterType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changePrimaryConstructorParameterType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/changePrimaryConstructorParameterType.kt", this::doTest);
             }
 
             @TestMetadata("multiFakeOverride.kt")
             public void testMultiFakeOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/multiFakeOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/parameterTypeMismatch/multiFakeOverride.kt", this::doTest);
             }
         }
 
@@ -12172,98 +10422,82 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("assignmentTypeMismatch.kt")
             public void testAssignmentTypeMismatch() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/assignmentTypeMismatch.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/assignmentTypeMismatch.kt", this::doTest);
             }
 
             @TestMetadata("changeFunctionReturnTypeToFunctionType.kt")
             public void testChangeFunctionReturnTypeToFunctionType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/changeFunctionReturnTypeToFunctionType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/changeFunctionReturnTypeToFunctionType.kt", this::doTest);
             }
 
             @TestMetadata("changeFunctionReturnTypeToMatchReturnTypeOfReturnedLiteral.kt")
             public void testChangeFunctionReturnTypeToMatchReturnTypeOfReturnedLiteral() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/changeFunctionReturnTypeToMatchReturnTypeOfReturnedLiteral.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/changeFunctionReturnTypeToMatchReturnTypeOfReturnedLiteral.kt", this::doTest);
             }
 
             @TestMetadata("dontChangeFunctionReturnTypeToErrorType.kt")
             public void testDontChangeFunctionReturnTypeToErrorType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/dontChangeFunctionReturnTypeToErrorType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/dontChangeFunctionReturnTypeToErrorType.kt", this::doTest);
             }
 
             @TestMetadata("literalPropertyWithGetter.kt")
             public void testLiteralPropertyWithGetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/literalPropertyWithGetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/literalPropertyWithGetter.kt", this::doTest);
             }
 
             @TestMetadata("multiFakeOverride.kt")
             public void testMultiFakeOverride() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/multiFakeOverride.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/multiFakeOverride.kt", this::doTest);
             }
 
             @TestMetadata("multiFakeOverrideForOperatorConvention.kt")
             public void testMultiFakeOverrideForOperatorConvention() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/multiFakeOverrideForOperatorConvention.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/multiFakeOverrideForOperatorConvention.kt", this::doTest);
             }
 
             @TestMetadata("nonLocalReturnRuntime.kt")
             public void testNonLocalReturnRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/nonLocalReturnRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/nonLocalReturnRuntime.kt", this::doTest);
             }
 
             @TestMetadata("nonLocalReturnWithLabelRuntime.kt")
             public void testNonLocalReturnWithLabelRuntime() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/nonLocalReturnWithLabelRuntime.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/nonLocalReturnWithLabelRuntime.kt", this::doTest);
             }
 
             @TestMetadata("notApplicableToConstructor.kt")
             public void testNotApplicableToConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/notApplicableToConstructor.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/notApplicableToConstructor.kt", this::doTest);
             }
 
             @TestMetadata("propertyGetterInitializerTypeMismatch.kt")
             public void testPropertyGetterInitializerTypeMismatch() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/propertyGetterInitializerTypeMismatch.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/propertyGetterInitializerTypeMismatch.kt", this::doTest);
             }
 
             @TestMetadata("returnedExpressionTypeMismatchFunctionParameterType.kt")
             public void testReturnedExpressionTypeMismatchFunctionParameterType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/returnedExpressionTypeMismatchFunctionParameterType.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/returnedExpressionTypeMismatchFunctionParameterType.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatchInIfStatementReturnedByFunction.kt")
             public void testTypeMismatchInIfStatementReturnedByFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/typeMismatchInIfStatementReturnedByFunction.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/typeMismatchInIfStatementReturnedByFunction.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatchInIfStatementReturnedByLiteral.kt")
             public void testTypeMismatchInIfStatementReturnedByLiteral() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/typeMismatchInIfStatementReturnedByLiteral.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/typeMismatchInIfStatementReturnedByLiteral.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatchInInitializer.kt")
             public void testTypeMismatchInInitializer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/typeMismatchInInitializer.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/typeMismatchInInitializer.kt", this::doTest);
             }
 
             @TestMetadata("typeMismatchInReturnStatement.kt")
             public void testTypeMismatchInReturnStatement() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/typeMismatchInReturnStatement.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/typeMismatchOnReturnedExpression/typeMismatchInReturnStatement.kt", this::doTest);
             }
         }
 
@@ -12277,74 +10511,62 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("doubleToIntDecimalPlaces.kt")
             public void testDoubleToIntDecimalPlaces() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/doubleToIntDecimalPlaces.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/doubleToIntDecimalPlaces.kt", this::doTest);
             }
 
             @TestMetadata("doubleToLongNotInRange.kt")
             public void testDoubleToLongNotInRange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/doubleToLongNotInRange.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/doubleToLongNotInRange.kt", this::doTest);
             }
 
             @TestMetadata("doubleToShortNotInRange.kt")
             public void testDoubleToShortNotInRange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/doubleToShortNotInRange.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/doubleToShortNotInRange.kt", this::doTest);
             }
 
             @TestMetadata("floatToDoubleWithDecimal.kt")
             public void testFloatToDoubleWithDecimal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/floatToDoubleWithDecimal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/floatToDoubleWithDecimal.kt", this::doTest);
             }
 
             @TestMetadata("floatToInt.kt")
             public void testFloatToInt() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/floatToInt.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/floatToInt.kt", this::doTest);
             }
 
             @TestMetadata("floatToInt2.kt")
             public void testFloatToInt2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/floatToInt2.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/floatToInt2.kt", this::doTest);
             }
 
             @TestMetadata("floatToLong.kt")
             public void testFloatToLong() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/floatToLong.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/floatToLong.kt", this::doTest);
             }
 
             @TestMetadata("hexToFloat.kt")
             public void testHexToFloat() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/hexToFloat.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/hexToFloat.kt", this::doTest);
             }
 
             @TestMetadata("intToFloat.kt")
             public void testIntToFloat() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/intToFloat.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/intToFloat.kt", this::doTest);
             }
 
             @TestMetadata("longToDouble.kt")
             public void testLongToDouble() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/longToDouble.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/longToDouble.kt", this::doTest);
             }
 
             @TestMetadata("longToInt.kt")
             public void testLongToInt() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/longToInt.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/longToInt.kt", this::doTest);
             }
 
             @TestMetadata("longToIntBinary.kt")
             public void testLongToIntBinary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeMismatch/wrongPrimitive/longToIntBinary.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/typeMismatch/wrongPrimitive/longToIntBinary.kt", this::doTest);
             }
         }
     }
@@ -12359,56 +10581,47 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("boolean.kt")
         public void testBoolean() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeOfAnnotationMember/boolean.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeOfAnnotationMember/boolean.kt", this::doTest);
         }
 
         @TestMetadata("byte.kt")
         public void testByte() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeOfAnnotationMember/byte.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeOfAnnotationMember/byte.kt", this::doTest);
         }
 
         @TestMetadata("char.kt")
         public void testChar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeOfAnnotationMember/char.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeOfAnnotationMember/char.kt", this::doTest);
         }
 
         @TestMetadata("float.kt")
         public void testFloat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeOfAnnotationMember/float.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeOfAnnotationMember/float.kt", this::doTest);
         }
 
         @TestMetadata("int.kt")
         public void testInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeOfAnnotationMember/int.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeOfAnnotationMember/int.kt", this::doTest);
         }
 
         @TestMetadata("long.kt")
         public void testLong() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeOfAnnotationMember/long.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeOfAnnotationMember/long.kt", this::doTest);
         }
 
         @TestMetadata("short.kt")
         public void testShort() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeOfAnnotationMember/short.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeOfAnnotationMember/short.kt", this::doTest);
         }
 
         @TestMetadata("star.kt")
         public void testStar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeOfAnnotationMember/star.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeOfAnnotationMember/star.kt", this::doTest);
         }
 
         @TestMetadata("string.kt")
         public void testString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeOfAnnotationMember/string.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeOfAnnotationMember/string.kt", this::doTest);
         }
     }
 
@@ -12422,14 +10635,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("misplacedClassTypeParameter.kt")
         public void testMisplacedClassTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeParameters/misplacedClassTypeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeParameters/misplacedClassTypeParameter.kt", this::doTest);
         }
 
         @TestMetadata("misplacedFunctionTypeParameter.kt")
         public void testMisplacedFunctionTypeParameter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeParameters/misplacedFunctionTypeParameter.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeParameters/misplacedFunctionTypeParameter.kt", this::doTest);
         }
     }
 
@@ -12443,44 +10654,37 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("conflictingProjection.kt")
         public void testConflictingProjection() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeProjection/conflictingProjection.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeProjection/conflictingProjection.kt", this::doTest);
         }
 
         @TestMetadata("projectionInImmediateArgumentToSupertype.kt")
         public void testProjectionInImmediateArgumentToSupertype() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeProjection/projectionInImmediateArgumentToSupertype.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeProjection/projectionInImmediateArgumentToSupertype.kt", this::doTest);
         }
 
         @TestMetadata("projectionOnNonClassTypeArgument1.kt")
         public void testProjectionOnNonClassTypeArgument1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeProjection/projectionOnNonClassTypeArgument1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeProjection/projectionOnNonClassTypeArgument1.kt", this::doTest);
         }
 
         @TestMetadata("projectionOnNonClassTypeArgument2.kt")
         public void testProjectionOnNonClassTypeArgument2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeProjection/projectionOnNonClassTypeArgument2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeProjection/projectionOnNonClassTypeArgument2.kt", this::doTest);
         }
 
         @TestMetadata("removeRedundantProjection1.kt")
         public void testRemoveRedundantProjection1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeProjection/removeRedundantProjection1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeProjection/removeRedundantProjection1.kt", this::doTest);
         }
 
         @TestMetadata("removeRedundantProjection2.kt")
         public void testRemoveRedundantProjection2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeProjection/removeRedundantProjection2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeProjection/removeRedundantProjection2.kt", this::doTest);
         }
 
         @TestMetadata("removeVariance.kt")
         public void testRemoveVariance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/typeProjection/removeVariance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/typeProjection/removeVariance.kt", this::doTest);
         }
     }
 
@@ -12494,38 +10698,32 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("lateinitWithConstructor.kt")
         public void testLateinitWithConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unnecessaryLateinit/lateinitWithConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unnecessaryLateinit/lateinitWithConstructor.kt", this::doTest);
         }
 
         @TestMetadata("lateinitWithInit.kt")
         public void testLateinitWithInit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unnecessaryLateinit/lateinitWithInit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unnecessaryLateinit/lateinitWithInit.kt", this::doTest);
         }
 
         @TestMetadata("lateinitWithMultipleConstructors.kt")
         public void testLateinitWithMultipleConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unnecessaryLateinit/lateinitWithMultipleConstructors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unnecessaryLateinit/lateinitWithMultipleConstructors.kt", this::doTest);
         }
 
         @TestMetadata("lateinitWithMultipleConstructorsAndDelegation.kt")
         public void testLateinitWithMultipleConstructorsAndDelegation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unnecessaryLateinit/lateinitWithMultipleConstructorsAndDelegation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unnecessaryLateinit/lateinitWithMultipleConstructorsAndDelegation.kt", this::doTest);
         }
 
         @TestMetadata("lateinitWithMultipleInit.kt")
         public void testLateinitWithMultipleInit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unnecessaryLateinit/lateinitWithMultipleInit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unnecessaryLateinit/lateinitWithMultipleInit.kt", this::doTest);
         }
 
         @TestMetadata("secondaryConstructorDelegateItself.kt")
         public void testSecondaryConstructorDelegateItself() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unnecessaryLateinit/secondaryConstructorDelegateItself.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unnecessaryLateinit/secondaryConstructorDelegateItself.kt", this::doTest);
         }
     }
 
@@ -12539,26 +10737,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("notForDeprecated.kt")
         public void testNotForDeprecated() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unusedSuppressAnnotation/notForDeprecated.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unusedSuppressAnnotation/notForDeprecated.kt", this::doTest);
         }
 
         @TestMetadata("notForJava.kt")
         public void testNotForJava() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unusedSuppressAnnotation/notForJava.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unusedSuppressAnnotation/notForJava.kt", this::doTest);
         }
 
         @TestMetadata("notForJetBrains.kt")
         public void testNotForJetBrains() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unusedSuppressAnnotation/notForJetBrains.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unusedSuppressAnnotation/notForJetBrains.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/unusedSuppressAnnotation/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/unusedSuppressAnnotation/simple.kt", this::doTest);
         }
     }
 
@@ -12572,26 +10766,22 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("unusedVariableWithConstantInitializer.kt")
         public void testUnusedVariableWithConstantInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/unusedVariableWithConstantInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/variables/unusedVariableWithConstantInitializer.kt", this::doTest);
         }
 
         @TestMetadata("unusedVariableWithInitializer.kt")
         public void testUnusedVariableWithInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/unusedVariableWithInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/variables/unusedVariableWithInitializer.kt", this::doTest);
         }
 
         @TestMetadata("unusedVariableWithNullInitializer.kt")
         public void testUnusedVariableWithNullInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/unusedVariableWithNullInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/variables/unusedVariableWithNullInitializer.kt", this::doTest);
         }
 
         @TestMetadata("unusedVariableWithoutInitializer.kt")
         public void testUnusedVariableWithoutInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/unusedVariableWithoutInitializer.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/variables/unusedVariableWithoutInitializer.kt", this::doTest);
         }
 
         @TestMetadata("idea/testData/quickfix/variables/changeMutability")
@@ -12604,68 +10794,57 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("capturedMemberValInitialization.kt")
             public void testCapturedMemberValInitialization() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/capturedMemberValInitialization.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/capturedMemberValInitialization.kt", this::doTest);
             }
 
             @TestMetadata("capturedValInitialization.kt")
             public void testCapturedValInitialization() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/capturedValInitialization.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/capturedValInitialization.kt", this::doTest);
             }
 
             @TestMetadata("funParameter.kt")
             public void testFunParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/funParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/funParameter.kt", this::doTest);
             }
 
             @TestMetadata("localInGetter.kt")
             public void testLocalInGetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/localInGetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/localInGetter.kt", this::doTest);
             }
 
             @TestMetadata("valOverrideVar.kt")
             public void testValOverrideVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/valOverrideVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/valOverrideVar.kt", this::doTest);
             }
 
             @TestMetadata("valOverrideVarConstructorParameter.kt")
             public void testValOverrideVarConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/valOverrideVarConstructorParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/valOverrideVarConstructorParameter.kt", this::doTest);
             }
 
             @TestMetadata("valReassignmentLocal.kt")
             public void testValReassignmentLocal() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/valReassignmentLocal.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/valReassignmentLocal.kt", this::doTest);
             }
 
             @TestMetadata("valReassignmentOuterDecl.kt")
             public void testValReassignmentOuterDecl() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/valReassignmentOuterDecl.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/valReassignmentOuterDecl.kt", this::doTest);
             }
 
             @TestMetadata("valReassignmentProperty.kt")
             public void testValReassignmentProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/valReassignmentProperty.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/valReassignmentProperty.kt", this::doTest);
             }
 
             @TestMetadata("valReassignmentPropertyConstructorParameter.kt")
             public void testValReassignmentPropertyConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/valReassignmentPropertyConstructorParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/valReassignmentPropertyConstructorParameter.kt", this::doTest);
             }
 
             @TestMetadata("valWithSetter.kt")
             public void testValWithSetter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/valWithSetter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/valWithSetter.kt", this::doTest);
             }
 
             @TestMetadata("idea/testData/quickfix/variables/changeMutability/canBeVal")
@@ -12678,14 +10857,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
                 @TestMetadata("multiVariable.kt")
                 public void testMultiVariable() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/canBeVal/multiVariable.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/canBeVal/multiVariable.kt", this::doTest);
                 }
 
                 @TestMetadata("singleVariable.kt")
                 public void testSingleVariable() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeMutability/canBeVal/singleVariable.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeMutability/canBeVal/singleVariable.kt", this::doTest);
                 }
             }
         }
@@ -12700,8 +10877,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("funInvWithoutParentheses.kt")
             public void testFunInvWithoutParentheses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeToFunctionInvocation/funInvWithoutParentheses.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeToFunctionInvocation/funInvWithoutParentheses.kt", this::doTest);
             }
         }
 
@@ -12715,32 +10891,27 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("enumEntryCall.kt")
             public void testEnumEntryCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeToPropertyAccess/enumEntryCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeToPropertyAccess/enumEntryCall.kt", this::doTest);
             }
 
             @TestMetadata("nonSimpleName.kt")
             public void testNonSimpleName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeToPropertyAccess/nonSimpleName.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeToPropertyAccess/nonSimpleName.kt", this::doTest);
             }
 
             @TestMetadata("objectCall.kt")
             public void testObjectCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeToPropertyAccess/objectCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeToPropertyAccess/objectCall.kt", this::doTest);
             }
 
             @TestMetadata("propertyCall.kt")
             public void testPropertyCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeToPropertyAccess/propertyCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeToPropertyAccess/propertyCall.kt", this::doTest);
             }
 
             @TestMetadata("propertyCallWithArguments.kt")
             public void testPropertyCallWithArguments() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/changeToPropertyAccess/propertyCallWithArguments.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/changeToPropertyAccess/propertyCallWithArguments.kt", this::doTest);
             }
         }
 
@@ -12754,44 +10925,37 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
             @TestMetadata("catchParameter.kt")
             public void testCatchParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/removeValVarFromParameter/catchParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/removeValVarFromParameter/catchParameter.kt", this::doTest);
             }
 
             @TestMetadata("constructorParameter.kt")
             public void testConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/removeValVarFromParameter/constructorParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/removeValVarFromParameter/constructorParameter.kt", this::doTest);
             }
 
             @TestMetadata("funParameter.kt")
             public void testFunParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/removeValVarFromParameter/funParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/removeValVarFromParameter/funParameter.kt", this::doTest);
             }
 
             @TestMetadata("loopMultiParameter.kt")
             public void testLoopMultiParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/removeValVarFromParameter/loopMultiParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/removeValVarFromParameter/loopMultiParameter.kt", this::doTest);
             }
 
             @TestMetadata("loopParameter.kt")
             public void testLoopParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/removeValVarFromParameter/loopParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/removeValVarFromParameter/loopParameter.kt", this::doTest);
             }
 
             @TestMetadata("parameterWithComment.kt")
             public void testParameterWithComment() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/removeValVarFromParameter/parameterWithComment.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/removeValVarFromParameter/parameterWithComment.kt", this::doTest);
             }
 
             @TestMetadata("secondaryConstructorParameter.kt")
             public void testSecondaryConstructorParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/variables/removeValVarFromParameter/secondaryConstructorParameter.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/quickfix/variables/removeValVarFromParameter/secondaryConstructorParameter.kt", this::doTest);
             }
         }
     }
@@ -12802,80 +10966,67 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
     public static class When extends AbstractQuickFixTest {
         @TestMetadata("addElseBranchEnumStatement.kt")
         public void testAddElseBranchEnumStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addElseBranchEnumStatement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addElseBranchEnumStatement.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesBoolean.kt")
         public void testAddRemainingBranchesBoolean() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesBoolean.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesBoolean.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesEnum.kt")
         public void testAddRemainingBranchesEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesEnum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesEnum.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesEnumBackTicks.kt")
         public void testAddRemainingBranchesEnumBackTicks() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesEnumBackTicks.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesEnumBackTicks.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesEnumImport1.kt")
         public void testAddRemainingBranchesEnumImport1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesEnumImport1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesEnumImport1.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesEnumImport2.kt")
         public void testAddRemainingBranchesEnumImport2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesEnumImport2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesEnumImport2.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesEnumImport3.kt")
         public void testAddRemainingBranchesEnumImport3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesEnumImport3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesEnumImport3.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesEnumImport4.kt")
         public void testAddRemainingBranchesEnumImport4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesEnumImport4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesEnumImport4.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesEnumStatement.kt")
         public void testAddRemainingBranchesEnumStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesEnumStatement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesEnumStatement.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesInNonDefaultPackage.kt")
         public void testAddRemainingBranchesInNonDefaultPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesInNonDefaultPackage.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesInNonDefaultPackage.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesSealed.kt")
         public void testAddRemainingBranchesSealed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesSealed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesSealed.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesSealedBackTicks.kt")
         public void testAddRemainingBranchesSealedBackTicks() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesSealedBackTicks.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesSealedBackTicks.kt", this::doTest);
         }
 
         @TestMetadata("addRemainingBranchesSealedStatement.kt")
         public void testAddRemainingBranchesSealedStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/addRemainingBranchesSealedStatement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/addRemainingBranchesSealedStatement.kt", this::doTest);
         }
 
         public void testAllFilesPresentInWhen() throws Exception {
@@ -12884,74 +11035,62 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("breakInWhen.kt")
         public void testBreakInWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/breakInWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/breakInWhen.kt", this::doTest);
         }
 
         @TestMetadata("breakInWhenInLabeled.kt")
         public void testBreakInWhenInLabeled() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/breakInWhenInLabeled.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/breakInWhenInLabeled.kt", this::doTest);
         }
 
         @TestMetadata("commasInConditionWithNoArguments.kt")
         public void testCommasInConditionWithNoArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/commasInConditionWithNoArguments.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/commasInConditionWithNoArguments.kt", this::doTest);
         }
 
         @TestMetadata("commasInConditionWithNoArguments2.kt")
         public void testCommasInConditionWithNoArguments2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/commasInConditionWithNoArguments2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/commasInConditionWithNoArguments2.kt", this::doTest);
         }
 
         @TestMetadata("continueInWhen.kt")
         public void testContinueInWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/continueInWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/continueInWhen.kt", this::doTest);
         }
 
         @TestMetadata("continueInWhenInLabeled.kt")
         public void testContinueInWhenInLabeled() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/continueInWhenInLabeled.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/continueInWhenInLabeled.kt", this::doTest);
         }
 
         @TestMetadata("continueInWhenWithLabel.kt")
         public void testContinueInWhenWithLabel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/continueInWhenWithLabel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/continueInWhenWithLabel.kt", this::doTest);
         }
 
         @TestMetadata("elseNotLastInWhen.kt")
         public void testElseNotLastInWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/elseNotLastInWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/elseNotLastInWhen.kt", this::doTest);
         }
 
         @TestMetadata("noElseInWhenWithBranches.kt")
         public void testNoElseInWhenWithBranches() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/noElseInWhenWithBranches.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/noElseInWhenWithBranches.kt", this::doTest);
         }
 
         @TestMetadata("noElseInWhenWithoutBranches.kt")
         public void testNoElseInWhenWithoutBranches() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/noElseInWhenWithoutBranches.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/noElseInWhenWithoutBranches.kt", this::doTest);
         }
 
         @TestMetadata("removeRedundantElse.kt")
         public void testRemoveRedundantElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/removeRedundantElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/removeRedundantElse.kt", this::doTest);
         }
 
         @TestMetadata("twoElseBranchesInWhen.kt")
         public void testTwoElseBranchesInWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/when/twoElseBranchesInWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/when/twoElseBranchesInWhen.kt", this::doTest);
         }
     }
 
@@ -12965,62 +11104,52 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("argumentNullable.kt")
         public void testArgumentNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/argumentNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/argumentNullable.kt", this::doTest);
         }
 
         @TestMetadata("chainedCallTypeMismatch.kt")
         public void testChainedCallTypeMismatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/chainedCallTypeMismatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/chainedCallTypeMismatch.kt", this::doTest);
         }
 
         @TestMetadata("chainedUnsafeCall.kt")
         public void testChainedUnsafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/chainedUnsafeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/chainedUnsafeCall.kt", this::doTest);
         }
 
         @TestMetadata("expressionUnsafeCall.kt")
         public void testExpressionUnsafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/expressionUnsafeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/expressionUnsafeCall.kt", this::doTest);
         }
 
         @TestMetadata("extensionMethod.kt")
         public void testExtensionMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/extensionMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/extensionMethod.kt", this::doTest);
         }
 
         @TestMetadata("insideLet.kt")
         public void testInsideLet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/insideLet.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/insideLet.kt", this::doTest);
         }
 
         @TestMetadata("invokeFuncUnsafe.kt")
         public void testInvokeFuncUnsafe() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/invokeFuncUnsafe.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/invokeFuncUnsafe.kt", this::doTest);
         }
 
         @TestMetadata("invokeUnsafe.kt")
         public void testInvokeUnsafe() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/invokeUnsafe.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/invokeUnsafe.kt", this::doTest);
         }
 
         @TestMetadata("objectQualifier.kt")
         public void testObjectQualifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/objectQualifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/objectQualifier.kt", this::doTest);
         }
 
         @TestMetadata("unstableValue.kt")
         public void testUnstableValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrapWithSafeLetCall/unstableValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrapWithSafeLetCall/unstableValue.kt", this::doTest);
         }
     }
 
@@ -13034,8 +11163,7 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/wrongLongSuffix/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/wrongLongSuffix/simple.kt", this::doTest);
         }
     }
 
@@ -13049,14 +11177,12 @@ public class QuickFixTestGenerated extends AbstractQuickFixTest {
 
         @TestMetadata("yieldAsSimpleName.kt")
         public void testYieldAsSimpleName() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/yieldUnsupported/yieldAsSimpleName.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/yieldUnsupported/yieldAsSimpleName.kt", this::doTest);
         }
 
         @TestMetadata("yieldBeforeLambda.kt")
         public void testYieldBeforeLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/quickfix/yieldUnsupported/yieldBeforeLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/quickfix/yieldUnsupported/yieldBeforeLambda.kt", this::doTest);
         }
     }
 }

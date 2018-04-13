@@ -23,8 +23,7 @@ import java.util.regex.Pattern;
 public class DiagnosticMessageTestGenerated extends AbstractDiagnosticMessageTest {
     @TestMetadata("abstractBaseClassMemberNotImplemented.kt")
     public void testAbstractBaseClassMemberNotImplemented() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/abstractBaseClassMemberNotImplemented.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/abstractBaseClassMemberNotImplemented.kt", this::doTest);
     }
 
     public void testAllFilesPresentInDiagnosticMessage() throws Exception {
@@ -33,295 +32,246 @@ public class DiagnosticMessageTestGenerated extends AbstractDiagnosticMessageTes
 
     @TestMetadata("annotationsForResolve.kt")
     public void testAnnotationsForResolve() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/annotationsForResolve.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/annotationsForResolve.kt", this::doTest);
     }
 
     @TestMetadata("assignedButNeverAccessedVariable.kt")
     public void testAssignedButNeverAccessedVariable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/assignedButNeverAccessedVariable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/assignedButNeverAccessedVariable.kt", this::doTest);
     }
 
     @TestMetadata("cannotInferVisibility.kt")
     public void testCannotInferVisibility() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/cannotInferVisibility.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/cannotInferVisibility.kt", this::doTest);
     }
 
     @TestMetadata("cannotOverrideInvisibleMember.kt")
     public void testCannotOverrideInvisibleMember() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/cannotOverrideInvisibleMember.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/cannotOverrideInvisibleMember.kt", this::doTest);
     }
 
     @TestMetadata("complexTypeMismatchWithTypeParameters.kt")
     public void testComplexTypeMismatchWithTypeParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/complexTypeMismatchWithTypeParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/complexTypeMismatchWithTypeParameters.kt", this::doTest);
     }
 
     @TestMetadata("complexTypeMismatchWithTypeParametersAndTypeAlias.kt")
     public void testComplexTypeMismatchWithTypeParametersAndTypeAlias() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/complexTypeMismatchWithTypeParametersAndTypeAlias.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/complexTypeMismatchWithTypeParametersAndTypeAlias.kt", this::doTest);
     }
 
     @TestMetadata("conflictingOverloadsClass.kt")
     public void testConflictingOverloadsClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/conflictingOverloadsClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/conflictingOverloadsClass.kt", this::doTest);
     }
 
     @TestMetadata("conflictingOverloadsDefaultPackage.kt")
     public void testConflictingOverloadsDefaultPackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/conflictingOverloadsDefaultPackage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/conflictingOverloadsDefaultPackage.kt", this::doTest);
     }
 
     @TestMetadata("conflictingSubstitutions.kt")
     public void testConflictingSubstitutions() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/conflictingSubstitutions.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/conflictingSubstitutions.kt", this::doTest);
     }
 
     @TestMetadata("constructorsRedeclaration.kt")
     public void testConstructorsRedeclaration() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/constructorsRedeclaration.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/constructorsRedeclaration.kt", this::doTest);
     }
 
     @TestMetadata("constructorsRedeclarationTopLevel.kt")
     public void testConstructorsRedeclarationTopLevel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/constructorsRedeclarationTopLevel.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/constructorsRedeclarationTopLevel.kt", this::doTest);
     }
 
     @TestMetadata("differentNamesForSameParameter.kt")
     public void testDifferentNamesForSameParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/differentNamesForSameParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/differentNamesForSameParameter.kt", this::doTest);
     }
 
     @TestMetadata("expectedNothingDueToProjections.kt")
     public void testExpectedNothingDueToProjections() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/expectedNothingDueToProjections.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/expectedNothingDueToProjections.kt", this::doTest);
     }
 
     @TestMetadata("extensionInClassReference.kt")
     public void testExtensionInClassReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/extensionInClassReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/extensionInClassReference.kt", this::doTest);
     }
 
     @TestMetadata("functionPlaceholder.kt")
     public void testFunctionPlaceholder() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/functionPlaceholder.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/functionPlaceholder.kt", this::doTest);
     }
 
     @TestMetadata("illegalSuspendCall.kt")
     public void testIllegalSuspendCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/illegalSuspendCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/illegalSuspendCall.kt", this::doTest);
     }
 
     @TestMetadata("invisibleMember.kt")
     public void testInvisibleMember() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/invisibleMember.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/invisibleMember.kt", this::doTest);
     }
 
     @TestMetadata("multipleDefaultsFromSupertypes.kt")
     public void testMultipleDefaultsFromSupertypes() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/multipleDefaultsFromSupertypes.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/multipleDefaultsFromSupertypes.kt", this::doTest);
     }
 
     @TestMetadata("nameInConstraintIsNotATypeParameter.kt")
     public void testNameInConstraintIsNotATypeParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/nameInConstraintIsNotATypeParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/nameInConstraintIsNotATypeParameter.kt", this::doTest);
     }
 
     @TestMetadata("nestedClassAcessedViaInstanceReference.kt")
     public void testNestedClassAcessedViaInstanceReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/nestedClassAcessedViaInstanceReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/nestedClassAcessedViaInstanceReference.kt", this::doTest);
     }
 
     @TestMetadata("nestedClassShouldBeQualified.kt")
     public void testNestedClassShouldBeQualified() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/nestedClassShouldBeQualified.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/nestedClassShouldBeQualified.kt", this::doTest);
     }
 
     @TestMetadata("noneApplicable.kt")
     public void testNoneApplicable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/noneApplicable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicable.kt", this::doTest);
     }
 
     @TestMetadata("noneApplicableCallableReference.kt")
     public void testNoneApplicableCallableReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/noneApplicableCallableReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableCallableReference.kt", this::doTest);
     }
 
     @TestMetadata("noneApplicableConstructor.kt")
     public void testNoneApplicableConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/noneApplicableConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableConstructor.kt", this::doTest);
     }
 
     @TestMetadata("noneApplicableGeneric.kt")
     public void testNoneApplicableGeneric() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/noneApplicableGeneric.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableGeneric.kt", this::doTest);
     }
 
     @TestMetadata("noneApplicableHtml.kt")
     public void testNoneApplicableHtml() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/noneApplicableHtml.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableHtml.kt", this::doTest);
     }
 
     @TestMetadata("noneApplicableTxt.kt")
     public void testNoneApplicableTxt() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/noneApplicableTxt.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/noneApplicableTxt.kt", this::doTest);
     }
 
     @TestMetadata("numberValueTypes.kt")
     public void testNumberValueTypes() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/numberValueTypes.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/numberValueTypes.kt", this::doTest);
     }
 
     @TestMetadata("overloadResolutionAmbiguityHtml.kt")
     public void testOverloadResolutionAmbiguityHtml() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/overloadResolutionAmbiguityHtml.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/overloadResolutionAmbiguityHtml.kt", this::doTest);
     }
 
     @TestMetadata("overloadResolutionAmbiguityTxt.kt")
     public void testOverloadResolutionAmbiguityTxt() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/overloadResolutionAmbiguityTxt.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/overloadResolutionAmbiguityTxt.kt", this::doTest);
     }
 
     @TestMetadata("renderCollectionOfTypes.kt")
     public void testRenderCollectionOfTypes() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/renderCollectionOfTypes.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/renderCollectionOfTypes.kt", this::doTest);
     }
 
     @TestMetadata("returnTypeMismatchOnOverride.kt")
     public void testReturnTypeMismatchOnOverride() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/returnTypeMismatchOnOverride.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/returnTypeMismatchOnOverride.kt", this::doTest);
     }
 
     @TestMetadata("typeInferenceCannotCaptureTypes.kt")
     public void testTypeInferenceCannotCaptureTypes() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeInferenceCannotCaptureTypes.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeInferenceCannotCaptureTypes.kt", this::doTest);
     }
 
     @TestMetadata("typeInferenceExpectedTypeMismatch.kt")
     public void testTypeInferenceExpectedTypeMismatch() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeInferenceExpectedTypeMismatch.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeInferenceExpectedTypeMismatch.kt", this::doTest);
     }
 
     @TestMetadata("typeMismatchDueToProjections.kt")
     public void testTypeMismatchDueToProjections() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeMismatchDueToProjections.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchDueToProjections.kt", this::doTest);
     }
 
     @TestMetadata("typeMismatchDueToProjectionsIn.kt")
     public void testTypeMismatchDueToProjectionsIn() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeMismatchDueToProjectionsIn.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchDueToProjectionsIn.kt", this::doTest);
     }
 
     @TestMetadata("typeMismatchDueToProjectionsTxt.kt")
     public void testTypeMismatchDueToProjectionsTxt() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeMismatchDueToProjectionsTxt.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchDueToProjectionsTxt.kt", this::doTest);
     }
 
     @TestMetadata("typeMismatchWithFunctionalType.kt")
     public void testTypeMismatchWithFunctionalType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeMismatchWithFunctionalType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchWithFunctionalType.kt", this::doTest);
     }
 
     @TestMetadata("typeMismatchWithNothing.kt")
     public void testTypeMismatchWithNothing() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeMismatchWithNothing.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchWithNothing.kt", this::doTest);
     }
 
     @TestMetadata("typeMismatchWithTypeParameters.kt")
     public void testTypeMismatchWithTypeParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeMismatchWithTypeParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeMismatchWithTypeParameters.kt", this::doTest);
     }
 
     @TestMetadata("typeParameterAsReified.kt")
     public void testTypeParameterAsReified() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeParameterAsReified.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeParameterAsReified.kt", this::doTest);
     }
 
     @TestMetadata("typeVarianceConflictInTypeAliasExpansion.kt")
     public void testTypeVarianceConflictInTypeAliasExpansion() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/typeVarianceConflictInTypeAliasExpansion.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/typeVarianceConflictInTypeAliasExpansion.kt", this::doTest);
     }
 
     @TestMetadata("unsupportedFeature.kt")
     public void testUnsupportedFeature() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/unsupportedFeature.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/unsupportedFeature.kt", this::doTest);
     }
 
     @TestMetadata("unusedParameter.kt")
     public void testUnusedParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/unusedParameter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/unusedParameter.kt", this::doTest);
     }
 
     @TestMetadata("unusedValue.kt")
     public void testUnusedValue() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/unusedValue.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/unusedValue.kt", this::doTest);
     }
 
     @TestMetadata("unusedVariable.kt")
     public void testUnusedVariable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/unusedVariable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/unusedVariable.kt", this::doTest);
     }
 
     @TestMetadata("upperBoundViolated.kt")
     public void testUpperBoundViolated() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/upperBoundViolated.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/upperBoundViolated.kt", this::doTest);
     }
 
     @TestMetadata("upperBoundViolatedInTypeAliasConstructorCall.kt")
     public void testUpperBoundViolatedInTypeAliasConstructorCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/upperBoundViolatedInTypeAliasConstructorCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/upperBoundViolatedInTypeAliasConstructorCall.kt", this::doTest);
     }
 
     @TestMetadata("urlRender.kt")
     public void testUrlRender() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/diagnosticMessage/urlRender.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/diagnosticMessage/urlRender.kt", this::doTest);
     }
 }

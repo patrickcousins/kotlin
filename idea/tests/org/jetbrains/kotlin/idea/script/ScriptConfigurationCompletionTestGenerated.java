@@ -27,13 +27,11 @@ public class ScriptConfigurationCompletionTestGenerated extends AbstractScriptCo
 
     @TestMetadata("conflictingModule")
     public void testConflictingModule() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/script/definition/completion/conflictingModule/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/script/definition/completion/conflictingModule/", this::doTest);
     }
 
     @TestMetadata("conflictingModuleJavaLib")
     public void testConflictingModuleJavaLib() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/script/definition/completion/conflictingModuleJavaLib/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/script/definition/completion/conflictingModuleJavaLib/", this::doTest);
     }
 }

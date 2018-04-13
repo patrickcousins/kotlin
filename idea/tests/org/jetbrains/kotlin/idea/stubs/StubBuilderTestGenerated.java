@@ -27,223 +27,186 @@ public class StubBuilderTestGenerated extends AbstractStubBuilderTest {
 
     @TestMetadata("AnnotationClass.kt")
     public void testAnnotationClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/AnnotationClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/AnnotationClass.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationOnClass.kt")
     public void testAnnotationOnClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/AnnotationOnClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/AnnotationOnClass.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationOnFunction.kt")
     public void testAnnotationOnFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/AnnotationOnFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/AnnotationOnFunction.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationOnLocalFunction.kt")
     public void testAnnotationOnLocalFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/AnnotationOnLocalFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/AnnotationOnLocalFunction.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationWithValue.kt")
     public void testAnnotationWithValue() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/AnnotationWithValue.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/AnnotationWithValue.kt", this::doTest);
     }
 
     @TestMetadata("AnnotationsOnPrimaryCtr.kt")
     public void testAnnotationsOnPrimaryCtr() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/AnnotationsOnPrimaryCtr.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/AnnotationsOnPrimaryCtr.kt", this::doTest);
     }
 
     @TestMetadata("AnonymousObject.kt")
     public void testAnonymousObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/AnonymousObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/AnonymousObject.kt", this::doTest);
     }
 
     @TestMetadata("ClassObject.kt")
     public void testClassObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/ClassObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/ClassObject.kt", this::doTest);
     }
 
     @TestMetadata("ClassProperty.kt")
     public void testClassProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/ClassProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/ClassProperty.kt", this::doTest);
     }
 
     @TestMetadata("ClassTypeParameters.kt")
     public void testClassTypeParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/ClassTypeParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/ClassTypeParameters.kt", this::doTest);
     }
 
     @TestMetadata("Const.kt")
     public void testConst() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/Const.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/Const.kt", this::doTest);
     }
 
     @TestMetadata("DanglingAnnotations.kt")
     public void testDanglingAnnotations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/DanglingAnnotations.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/DanglingAnnotations.kt", this::doTest);
     }
 
     @TestMetadata("DynamicType.kt")
     public void testDynamicType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/DynamicType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/DynamicType.kt", this::doTest);
     }
 
     @TestMetadata("FilePackage.kt")
     public void testFilePackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/FilePackage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/FilePackage.kt", this::doTest);
     }
 
     @TestMetadata("FunctionInNotNamedObject.kt")
     public void testFunctionInNotNamedObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/FunctionInNotNamedObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/FunctionInNotNamedObject.kt", this::doTest);
     }
 
     @TestMetadata("FunctionParameters.kt")
     public void testFunctionParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/FunctionParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/FunctionParameters.kt", this::doTest);
     }
 
     @TestMetadata("InnerClass.kt")
     public void testInnerClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/InnerClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/InnerClass.kt", this::doTest);
     }
 
     @TestMetadata("LocalClass.kt")
     public void testLocalClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/LocalClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/LocalClass.kt", this::doTest);
     }
 
     @TestMetadata("LocalClassInLocalFunction.kt")
     public void testLocalClassInLocalFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/LocalClassInLocalFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/LocalClassInLocalFunction.kt", this::doTest);
     }
 
     @TestMetadata("LocalNamedObject.kt")
     public void testLocalNamedObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/LocalNamedObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/LocalNamedObject.kt", this::doTest);
     }
 
     @TestMetadata("ManyAnnotationsOnFunction.kt")
     public void testManyAnnotationsOnFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/ManyAnnotationsOnFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/ManyAnnotationsOnFunction.kt", this::doTest);
     }
 
     @TestMetadata("MembersInLocalClass.kt")
     public void testMembersInLocalClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/MembersInLocalClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/MembersInLocalClass.kt", this::doTest);
     }
 
     @TestMetadata("MembersInLocalObject.kt")
     public void testMembersInLocalObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/MembersInLocalObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/MembersInLocalObject.kt", this::doTest);
     }
 
     @TestMetadata("NamedObject.kt")
     public void testNamedObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/NamedObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/NamedObject.kt", this::doTest);
     }
 
     @TestMetadata("NotStorePropertiesFrom.kt")
     public void testNotStorePropertiesFrom() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/NotStorePropertiesFrom.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/NotStorePropertiesFrom.kt", this::doTest);
     }
 
     @TestMetadata("NotStorePropertyFromDelegate.kt")
     public void testNotStorePropertyFromDelegate() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/NotStorePropertyFromDelegate.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/NotStorePropertyFromDelegate.kt", this::doTest);
     }
 
     @TestMetadata("NotStorePropertyFromInitializer.kt")
     public void testNotStorePropertyFromInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/NotStorePropertyFromInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/NotStorePropertyFromInitializer.kt", this::doTest);
     }
 
     @TestMetadata("ObjectInInitializer.kt")
     public void testObjectInInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/ObjectInInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/ObjectInInitializer.kt", this::doTest);
     }
 
     @TestMetadata("ObjectInPropertyDelegate.kt")
     public void testObjectInPropertyDelegate() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/ObjectInPropertyDelegate.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/ObjectInPropertyDelegate.kt", this::doTest);
     }
 
     @TestMetadata("PackageProperty.kt")
     public void testPackageProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/PackageProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/PackageProperty.kt", this::doTest);
     }
 
     @TestMetadata("ParametersWithFqName.kt")
     public void testParametersWithFqName() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/ParametersWithFqName.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/ParametersWithFqName.kt", this::doTest);
     }
 
     @TestMetadata("PropertyAsPropertyInitalizerInvalidCode.kt")
     public void testPropertyAsPropertyInitalizerInvalidCode() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/PropertyAsPropertyInitalizerInvalidCode.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/PropertyAsPropertyInitalizerInvalidCode.kt", this::doTest);
     }
 
     @TestMetadata("QualifiedAnnotationOnFunction.kt")
     public void testQualifiedAnnotationOnFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/QualifiedAnnotationOnFunction.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/QualifiedAnnotationOnFunction.kt", this::doTest);
     }
 
     @TestMetadata("SecondaryConstructors.kt")
     public void testSecondaryConstructors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/SecondaryConstructors.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/SecondaryConstructors.kt", this::doTest);
     }
 
     @TestMetadata("SimpleEnumBuild.kt")
     public void testSimpleEnumBuild() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/SimpleEnumBuild.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/SimpleEnumBuild.kt", this::doTest);
     }
 
     @TestMetadata("StarProjection.kt")
     public void testStarProjection() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/StarProjection.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/StarProjection.kt", this::doTest);
     }
 
     @TestMetadata("TypeAnnotation.kt")
     public void testTypeAnnotation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/stubs/TypeAnnotation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/stubs/TypeAnnotation.kt", this::doTest);
     }
 }

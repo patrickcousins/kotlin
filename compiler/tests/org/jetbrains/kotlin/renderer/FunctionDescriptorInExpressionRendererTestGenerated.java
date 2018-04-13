@@ -27,37 +27,31 @@ public class FunctionDescriptorInExpressionRendererTestGenerated extends Abstrac
 
     @TestMetadata("basicFunExpr.kt")
     public void testBasicFunExpr() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderFunctionDescriptorInExpression/basicFunExpr.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/basicFunExpr.kt", this::doTest);
     }
 
     @TestMetadata("basicFunExprArgs.kt")
     public void testBasicFunExprArgs() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderFunctionDescriptorInExpression/basicFunExprArgs.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/basicFunExprArgs.kt", this::doTest);
     }
 
     @TestMetadata("basicLambda.kt")
     public void testBasicLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderFunctionDescriptorInExpression/basicLambda.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/basicLambda.kt", this::doTest);
     }
 
     @TestMetadata("labeledLambda.kt")
     public void testLabeledLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderFunctionDescriptorInExpression/labeledLambda.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/labeledLambda.kt", this::doTest);
     }
 
     @TestMetadata("parenthesizedFunExpr.kt")
     public void testParenthesizedFunExpr() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderFunctionDescriptorInExpression/parenthesizedFunExpr.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/parenthesizedFunExpr.kt", this::doTest);
     }
 
     @TestMetadata("parenthesizedLambda.kt")
     public void testParenthesizedLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/renderFunctionDescriptorInExpression/parenthesizedLambda.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/renderFunctionDescriptorInExpression/parenthesizedLambda.kt", this::doTest);
     }
 }

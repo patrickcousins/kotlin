@@ -23,8 +23,7 @@ import java.util.regex.Pattern;
 public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletionWeigherTest {
     @TestMetadata("AfterNullable.kt")
     public void testAfterNullable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/AfterNullable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/AfterNullable.kt", this::doTest);
     }
 
     public void testAllFilesPresentInBasic() throws Exception {
@@ -33,176 +32,147 @@ public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletion
 
     @TestMetadata("CallableReference_NothingLast.kt")
     public void testCallableReference_NothingLast() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/CallableReference_NothingLast.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/CallableReference_NothingLast.kt", this::doTest);
     }
 
     @TestMetadata("Callables.kt")
     public void testCallables() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/Callables.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/Callables.kt", this::doTest);
     }
 
     @TestMetadata("DelegateToOtherObject.kt")
     public void testDelegateToOtherObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/DelegateToOtherObject.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DelegateToOtherObject.kt", this::doTest);
     }
 
     @TestMetadata("DeprecatedFun.kt")
     public void testDeprecatedFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/DeprecatedFun.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DeprecatedFun.kt", this::doTest);
     }
 
     @TestMetadata("DeprecatedJavaClass.kt")
     public void testDeprecatedJavaClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/DeprecatedJavaClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DeprecatedJavaClass.kt", this::doTest);
     }
 
     @TestMetadata("DslCallWithExpectedType.kt")
     public void testDslCallWithExpectedType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/DslCallWithExpectedType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DslCallWithExpectedType.kt", this::doTest);
     }
 
     @TestMetadata("DslCalls.kt")
     public void testDslCalls() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/DslCalls.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DslCalls.kt", this::doTest);
     }
 
     @TestMetadata("DslCallsWithMultipleReceivers.kt")
     public void testDslCallsWithMultipleReceivers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/DslCallsWithMultipleReceivers.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/DslCallsWithMultipleReceivers.kt", this::doTest);
     }
 
     @TestMetadata("ExactMatchForKeyword.kt")
     public void testExactMatchForKeyword() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/ExactMatchForKeyword.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ExactMatchForKeyword.kt", this::doTest);
     }
 
     @TestMetadata("ImportedFirst.kt")
     public void testImportedFirst() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/ImportedFirst.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ImportedFirst.kt", this::doTest);
     }
 
     @TestMetadata("ImportedFirstForJavaClass.kt")
     public void testImportedFirstForJavaClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/ImportedFirstForJavaClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ImportedFirstForJavaClass.kt", this::doTest);
     }
 
     @TestMetadata("ImportedOrder.kt")
     public void testImportedOrder() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/ImportedOrder.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ImportedOrder.kt", this::doTest);
     }
 
     @TestMetadata("KeywordsLast.kt")
     public void testKeywordsLast() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/KeywordsLast.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/KeywordsLast.kt", this::doTest);
     }
 
     @TestMetadata("LambdaSignature.kt")
     public void testLambdaSignature() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/LambdaSignature.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LambdaSignature.kt", this::doTest);
     }
 
     @TestMetadata("LocalFileBeforeImported.kt")
     public void testLocalFileBeforeImported() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/LocalFileBeforeImported.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LocalFileBeforeImported.kt", this::doTest);
     }
 
     @TestMetadata("LocalValuesAndParams.kt")
     public void testLocalValuesAndParams() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/LocalValuesAndParams.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LocalValuesAndParams.kt", this::doTest);
     }
 
     @TestMetadata("LocalsBeforeKeywords.kt")
     public void testLocalsBeforeKeywords() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/LocalsBeforeKeywords.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LocalsBeforeKeywords.kt", this::doTest);
     }
 
     @TestMetadata("LocalsPropertiesKeywords.kt")
     public void testLocalsPropertiesKeywords() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/LocalsPropertiesKeywords.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/LocalsPropertiesKeywords.kt", this::doTest);
     }
 
     @TestMetadata("NamedParameters.kt")
     public void testNamedParameters() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/NamedParameters.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/NamedParameters.kt", this::doTest);
     }
 
     @TestMetadata("NamedParameters2.kt")
     public void testNamedParameters2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/NamedParameters2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/NamedParameters2.kt", this::doTest);
     }
 
     @TestMetadata("NamedParameters3.kt")
     public void testNamedParameters3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/NamedParameters3.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/NamedParameters3.kt", this::doTest);
     }
 
     @TestMetadata("Packages.kt")
     public void testPackages() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/Packages.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/Packages.kt", this::doTest);
     }
 
     @TestMetadata("ParametersBeforeKeywords.kt")
     public void testParametersBeforeKeywords() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/ParametersBeforeKeywords.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/ParametersBeforeKeywords.kt", this::doTest);
     }
 
     @TestMetadata("PreferFromJdk.kt")
     public void testPreferFromJdk() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/PreferFromJdk.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/PreferFromJdk.kt", this::doTest);
     }
 
     @TestMetadata("PreferGetMethodToProperty.kt")
     public void testPreferGetMethodToProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/PreferGetMethodToProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/PreferGetMethodToProperty.kt", this::doTest);
     }
 
     @TestMetadata("Prefix.kt")
     public void testPrefix() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/Prefix.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/Prefix.kt", this::doTest);
     }
 
     @TestMetadata("PropertiesBeforeKeywords.kt")
     public void testPropertiesBeforeKeywords() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/PropertiesBeforeKeywords.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/PropertiesBeforeKeywords.kt", this::doTest);
     }
 
     @TestMetadata("StaticMembers.kt")
     public void testStaticMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/StaticMembers.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/StaticMembers.kt", this::doTest);
     }
 
     @TestMetadata("SuperMembers.kt")
     public void testSuperMembers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/SuperMembers.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/SuperMembers.kt", this::doTest);
     }
 
     @TestMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo")
@@ -211,8 +181,7 @@ public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletion
     public static class ExpectedInfo extends AbstractBasicCompletionWeigherTest {
         @TestMetadata("AfterAs.kt")
         public void testAfterAs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/AfterAs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/AfterAs.kt", this::doTest);
         }
 
         public void testAllFilesPresentInExpectedInfo() throws Exception {
@@ -221,86 +190,72 @@ public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletion
 
         @TestMetadata("CompanionObjectMethod.kt")
         public void testCompanionObjectMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/CompanionObjectMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/CompanionObjectMethod.kt", this::doTest);
         }
 
         @TestMetadata("EnumEntries.kt")
         public void testEnumEntries() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/EnumEntries.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/EnumEntries.kt", this::doTest);
         }
 
         @TestMetadata("ExpectedType.kt")
         public void testExpectedType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/ExpectedType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/ExpectedType.kt", this::doTest);
         }
 
         @TestMetadata("ExpectedType2.kt")
         public void testExpectedType2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/ExpectedType2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/ExpectedType2.kt", this::doTest);
         }
 
         @TestMetadata("LambdaValue.kt")
         public void testLambdaValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/LambdaValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/LambdaValue.kt", this::doTest);
         }
 
         @TestMetadata("MultiArgsItem.kt")
         public void testMultiArgsItem() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/MultiArgsItem.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/MultiArgsItem.kt", this::doTest);
         }
 
         @TestMetadata("NameSimilarity.kt")
         public void testNameSimilarity() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarity.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarity.kt", this::doTest);
         }
 
         @TestMetadata("NameSimilarityAndNoExpectedType.kt")
         public void testNameSimilarityAndNoExpectedType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarityAndNoExpectedType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarityAndNoExpectedType.kt", this::doTest);
         }
 
         @TestMetadata("NameSimilarityAndNoExpectedType2.kt")
         public void testNameSimilarityAndNoExpectedType2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarityAndNoExpectedType2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/NameSimilarityAndNoExpectedType2.kt", this::doTest);
         }
 
         @TestMetadata("NoStupidComparison.kt")
         public void testNoStupidComparison() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/NoStupidComparison.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/NoStupidComparison.kt", this::doTest);
         }
 
         @TestMetadata("Null.kt")
         public void testNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/Null.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/Null.kt", this::doTest);
         }
 
         @TestMetadata("PreferMatchingThis.kt")
         public void testPreferMatchingThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/PreferMatchingThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/PreferMatchingThis.kt", this::doTest);
         }
 
         @TestMetadata("TrueFalse.kt")
         public void testTrueFalse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/TrueFalse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/TrueFalse.kt", this::doTest);
         }
 
         @TestMetadata("WhenByEnum.kt")
         public void testWhenByEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/expectedInfo/WhenByEnum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/expectedInfo/WhenByEnum.kt", this::doTest);
         }
     }
 
@@ -314,44 +269,37 @@ public class BasicCompletionWeigherTestGenerated extends AbstractBasicCompletion
 
         @TestMetadata("Deprecated.kt")
         public void testDeprecated() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/parameterNameAndType/Deprecated.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/Deprecated.kt", this::doTest);
         }
 
         @TestMetadata("FromCurrentFilePriority.kt")
         public void testFromCurrentFilePriority() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/parameterNameAndType/FromCurrentFilePriority.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/FromCurrentFilePriority.kt", this::doTest);
         }
 
         @TestMetadata("ImportedFirst.kt")
         public void testImportedFirst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/parameterNameAndType/ImportedFirst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/ImportedFirst.kt", this::doTest);
         }
 
         @TestMetadata("MoreWordsMatchFirst.kt")
         public void testMoreWordsMatchFirst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/parameterNameAndType/MoreWordsMatchFirst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/MoreWordsMatchFirst.kt", this::doTest);
         }
 
         @TestMetadata("ShorterFirst.kt")
         public void testShorterFirst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/parameterNameAndType/ShorterFirst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/ShorterFirst.kt", this::doTest);
         }
 
         @TestMetadata("StartMatchFirst.kt")
         public void testStartMatchFirst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/parameterNameAndType/StartMatchFirst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/StartMatchFirst.kt", this::doTest);
         }
 
         @TestMetadata("UserPrefix.kt")
         public void testUserPrefix() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/weighers/basic/parameterNameAndType/UserPrefix.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/idea-completion/testData/weighers/basic/parameterNameAndType/UserPrefix.kt", this::doTest);
         }
     }
 }

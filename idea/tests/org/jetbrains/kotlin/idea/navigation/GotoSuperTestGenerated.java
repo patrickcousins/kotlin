@@ -27,79 +27,66 @@ public class GotoSuperTestGenerated extends AbstractGotoSuperTest {
 
     @TestMetadata("BadPositionLambdaParameter.test")
     public void testBadPositionLambdaParameter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/BadPositionLambdaParameter.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/BadPositionLambdaParameter.test", this::doTest);
     }
 
     @TestMetadata("ClassSimple.test")
     public void testClassSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/ClassSimple.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/ClassSimple.test", this::doTest);
     }
 
     @TestMetadata("DelegatedFun.test")
     public void testDelegatedFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/DelegatedFun.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/DelegatedFun.test", this::doTest);
     }
 
     @TestMetadata("DelegatedProperty.test")
     public void testDelegatedProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/DelegatedProperty.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/DelegatedProperty.test", this::doTest);
     }
 
     @TestMetadata("FakeOverrideFun.test")
     public void testFakeOverrideFun() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/FakeOverrideFun.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/FakeOverrideFun.test", this::doTest);
     }
 
     @TestMetadata("FakeOverrideFunWithMostRelevantImplementation.test")
     public void testFakeOverrideFunWithMostRelevantImplementation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/FakeOverrideFunWithMostRelevantImplementation.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/FakeOverrideFunWithMostRelevantImplementation.test", this::doTest);
     }
 
     @TestMetadata("FakeOverrideProperty.test")
     public void testFakeOverrideProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/FakeOverrideProperty.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/FakeOverrideProperty.test", this::doTest);
     }
 
     @TestMetadata("FunctionSimple.test")
     public void testFunctionSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/FunctionSimple.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/FunctionSimple.test", this::doTest);
     }
 
     @TestMetadata("ObjectSimple.test")
     public void testObjectSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/ObjectSimple.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/ObjectSimple.test", this::doTest);
     }
 
     @TestMetadata("PropertySimple.test")
     public void testPropertySimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/PropertySimple.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/PropertySimple.test", this::doTest);
     }
 
     @TestMetadata("SuperWithNativeToGenericMapping.test")
     public void testSuperWithNativeToGenericMapping() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/SuperWithNativeToGenericMapping.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/SuperWithNativeToGenericMapping.test", this::doTest);
     }
 
     @TestMetadata("TraitSimple.test")
     public void testTraitSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/TraitSimple.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/TraitSimple.test", this::doTest);
     }
 
     @TestMetadata("TypeAliasInSuperType.test")
     public void testTypeAliasInSuperType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/navigation/gotoSuper/TypeAliasInSuperType.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/navigation/gotoSuper/TypeAliasInSuperType.test", this::doTest);
     }
 }

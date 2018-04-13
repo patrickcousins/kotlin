@@ -27,43 +27,36 @@ public class Kapt3BuilderModeBytecodeShapeTestGenerated extends AbstractKapt3Bui
 
     @TestMetadata("dataClass.kt")
     public void testDataClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/kapt/dataClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/dataClass.kt", this::doTest);
     }
 
     @TestMetadata("errorTypes.kt")
     public void testErrorTypes() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/kapt/errorTypes.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/errorTypes.kt", this::doTest);
     }
 
     @TestMetadata("innerClasses.kt")
     public void testInnerClasses() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/kapt/innerClasses.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/innerClasses.kt", this::doTest);
     }
 
     @TestMetadata("interfaceImpls.kt")
     public void testInterfaceImpls() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/kapt/interfaceImpls.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/interfaceImpls.kt", this::doTest);
     }
 
     @TestMetadata("jvmOverloads.kt")
     public void testJvmOverloads() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/kapt/jvmOverloads.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/jvmOverloads.kt", this::doTest);
     }
 
     @TestMetadata("lambdas.kt")
     public void testLambdas() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/kapt/lambdas.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/lambdas.kt", this::doTest);
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/kapt/simple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/kapt/simple.kt", this::doTest);
     }
 }

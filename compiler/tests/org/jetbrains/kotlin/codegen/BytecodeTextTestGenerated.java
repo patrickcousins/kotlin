@@ -23,20 +23,17 @@ import java.util.regex.Pattern;
 public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
     @TestMetadata("accessorForOverridenVal.kt")
     public void testAccessorForOverridenVal() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/accessorForOverridenVal.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/accessorForOverridenVal.kt", this::doTest);
     }
 
     @TestMetadata("accessorForProtected.kt")
     public void testAccessorForProtected() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/accessorForProtected.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/accessorForProtected.kt", this::doTest);
     }
 
     @TestMetadata("accessorNaming.kt")
     public void testAccessorNaming() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/accessorNaming.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/accessorNaming.kt", this::doTest);
     }
 
     public void testAllFilesPresentInBytecodeText() throws Exception {
@@ -45,380 +42,317 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
     @TestMetadata("annotationDefaultValue.kt")
     public void testAnnotationDefaultValue() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/annotationDefaultValue.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/annotationDefaultValue.kt", this::doTest);
     }
 
     @TestMetadata("annotationJavaRetentionPolicyRuntime.kt")
     public void testAnnotationJavaRetentionPolicyRuntime() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/annotationJavaRetentionPolicyRuntime.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/annotationJavaRetentionPolicyRuntime.kt", this::doTest);
     }
 
     @TestMetadata("annotationRetentionPolicyClass.kt")
     public void testAnnotationRetentionPolicyClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/annotationRetentionPolicyClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/annotationRetentionPolicyClass.kt", this::doTest);
     }
 
     @TestMetadata("annotationRetentionPolicyRuntime.kt")
     public void testAnnotationRetentionPolicyRuntime() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/annotationRetentionPolicyRuntime.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/annotationRetentionPolicyRuntime.kt", this::doTest);
     }
 
     @TestMetadata("annotationRetentionPolicySource.kt")
     public void testAnnotationRetentionPolicySource() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/annotationRetentionPolicySource.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/annotationRetentionPolicySource.kt", this::doTest);
     }
 
     @TestMetadata("boxedNotNumberTypeOnUnboxing.kt")
     public void testBoxedNotNumberTypeOnUnboxing() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxedNotNumberTypeOnUnboxing.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxedNotNumberTypeOnUnboxing.kt", this::doTest);
     }
 
     @TestMetadata("bridgeForFakeOverride.kt")
     public void testBridgeForFakeOverride() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/bridgeForFakeOverride.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/bridgeForFakeOverride.kt", this::doTest);
     }
 
     @TestMetadata("charConstant.kt")
     public void testCharConstant() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/charConstant.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/charConstant.kt", this::doTest);
     }
 
     @TestMetadata("componentEvaluatesOnlyOnce.kt")
     public void testComponentEvaluatesOnlyOnce() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/componentEvaluatesOnlyOnce.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/componentEvaluatesOnlyOnce.kt", this::doTest);
     }
 
     @TestMetadata("constClosureOptimization.kt")
     public void testConstClosureOptimization() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constClosureOptimization.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constClosureOptimization.kt", this::doTest);
     }
 
     @TestMetadata("constCoroutine.kt")
     public void testConstCoroutine() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constCoroutine.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constCoroutine.kt", this::doTest);
     }
 
     @TestMetadata("defaultMethodBody.kt")
     public void testDefaultMethodBody() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/defaultMethodBody.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/defaultMethodBody.kt", this::doTest);
     }
 
     @TestMetadata("doNotStoreNullForTmpInDestructuring.kt")
     public void testDoNotStoreNullForTmpInDestructuring() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/doNotStoreNullForTmpInDestructuring.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/doNotStoreNullForTmpInDestructuring.kt", this::doTest);
     }
 
     @TestMetadata("doNotStoreNullsForCapturedVars.kt")
     public void testDoNotStoreNullsForCapturedVars() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/doNotStoreNullsForCapturedVars.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/doNotStoreNullsForCapturedVars.kt", this::doTest);
     }
 
     @TestMetadata("falseSmartCast.kt")
     public void testFalseSmartCast() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/falseSmartCast.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/falseSmartCast.kt", this::doTest);
     }
 
     @TestMetadata("inlineFromOtherModule.kt")
     public void testInlineFromOtherModule() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineFromOtherModule.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineFromOtherModule.kt", this::doTest);
     }
 
     @TestMetadata("inlineJavaConstantFromSubclass.kt")
     public void testInlineJavaConstantFromSubclass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineJavaConstantFromSubclass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineJavaConstantFromSubclass.kt", this::doTest);
     }
 
     @TestMetadata("inlineJavaStaticFields.kt")
     public void testInlineJavaStaticFields() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineJavaStaticFields.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineJavaStaticFields.kt", this::doTest);
     }
 
     @TestMetadata("inlineProtectedJavaConstantFromOtherPackage.kt")
     public void testInlineProtectedJavaConstantFromOtherPackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineProtectedJavaConstantFromOtherPackage.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineProtectedJavaConstantFromOtherPackage.kt", this::doTest);
     }
 
     @TestMetadata("intConstantNotNull.kt")
     public void testIntConstantNotNull() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intConstantNotNull.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intConstantNotNull.kt", this::doTest);
     }
 
     @TestMetadata("intConstantNullable.kt")
     public void testIntConstantNullable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intConstantNullable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intConstantNullable.kt", this::doTest);
     }
 
     @TestMetadata("intConstantNullableSafeCall.kt")
     public void testIntConstantNullableSafeCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intConstantNullableSafeCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intConstantNullableSafeCall.kt", this::doTest);
     }
 
     @TestMetadata("intConstantSafeCall.kt")
     public void testIntConstantSafeCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intConstantSafeCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intConstantSafeCall.kt", this::doTest);
     }
 
     @TestMetadata("intRangeNoBoxing.kt")
     public void testIntRangeNoBoxing() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intRangeNoBoxing.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intRangeNoBoxing.kt", this::doTest);
     }
 
     @TestMetadata("interfaceDefaultImpl.kt")
     public void testInterfaceDefaultImpl() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/interfaceDefaultImpl.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/interfaceDefaultImpl.kt", this::doTest);
     }
 
     @TestMetadata("isArrayOf.kt")
     public void testIsArrayOf() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/isArrayOf.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/isArrayOf.kt", this::doTest);
     }
 
     @TestMetadata("javaExtensionPropertyIntrinsic.kt")
     public void testJavaExtensionPropertyIntrinsic() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/javaExtensionPropertyIntrinsic.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/javaExtensionPropertyIntrinsic.kt", this::doTest);
     }
 
     @TestMetadata("javaStatics.kt")
     public void testJavaStatics() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/javaStatics.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/javaStatics.kt", this::doTest);
     }
 
     @TestMetadata("jvmField.kt")
     public void testJvmField() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/jvmField.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/jvmField.kt", this::doTest);
     }
 
     @TestMetadata("kt10259.kt")
     public void testKt10259() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt10259.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt10259.kt", this::doTest);
     }
 
     @TestMetadata("kt10259_2.kt")
     public void testKt10259_2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt10259_2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt10259_2.kt", this::doTest);
     }
 
     @TestMetadata("kt10259_3.kt")
     public void testKt10259_3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt10259_3.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt10259_3.kt", this::doTest);
     }
 
     @TestMetadata("kt2202.kt")
     public void testKt2202() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt2202.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt2202.kt", this::doTest);
     }
 
     @TestMetadata("kt2887.kt")
     public void testKt2887() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt2887.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt2887.kt", this::doTest);
     }
 
     @TestMetadata("kt3845.kt")
     public void testKt3845() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt3845.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt3845.kt", this::doTest);
     }
 
     @TestMetadata("kt5016.kt")
     public void testKt5016() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt5016.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt5016.kt", this::doTest);
     }
 
     @TestMetadata("kt5016int.kt")
     public void testKt5016int() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt5016int.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt5016int.kt", this::doTest);
     }
 
     @TestMetadata("kt5016intOrNull.kt")
     public void testKt5016intOrNull() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt5016intOrNull.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt5016intOrNull.kt", this::doTest);
     }
 
     @TestMetadata("kt7188.kt")
     public void testKt7188() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt7188.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt7188.kt", this::doTest);
     }
 
     @TestMetadata("kt7769.kt")
     public void testKt7769() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt7769.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt7769.kt", this::doTest);
     }
 
     @TestMetadata("kt9603.kt")
     public void testKt9603() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/kt9603.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/kt9603.kt", this::doTest);
     }
 
     @TestMetadata("maxStackAfterOptimizations.kt")
     public void testMaxStackAfterOptimizations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/maxStackAfterOptimizations.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/maxStackAfterOptimizations.kt", this::doTest);
     }
 
     @TestMetadata("noFlagAnnotations.kt")
     public void testNoFlagAnnotations() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/noFlagAnnotations.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/noFlagAnnotations.kt", this::doTest);
     }
 
     @TestMetadata("noInlineJavaProtectedConstants.kt")
     public void testNoInlineJavaProtectedConstants() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/noInlineJavaProtectedConstants.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/noInlineJavaProtectedConstants.kt", this::doTest);
     }
 
     @TestMetadata("noNumberCheckCast.kt")
     public void testNoNumberCheckCast() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/noNumberCheckCast.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/noNumberCheckCast.kt", this::doTest);
     }
 
     @TestMetadata("noSuperCheckInDefaultConstuctor.kt")
     public void testNoSuperCheckInDefaultConstuctor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/noSuperCheckInDefaultConstuctor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/noSuperCheckInDefaultConstuctor.kt", this::doTest);
     }
 
     @TestMetadata("noWrapperForMethodReturningPrimitive.kt")
     public void testNoWrapperForMethodReturningPrimitive() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/noWrapperForMethodReturningPrimitive.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/noWrapperForMethodReturningPrimitive.kt", this::doTest);
     }
 
     @TestMetadata("nopsInDoWhile.kt")
     public void testNopsInDoWhile() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nopsInDoWhile.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nopsInDoWhile.kt", this::doTest);
     }
 
     @TestMetadata("partMembersCall.kt")
     public void testPartMembersCall() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/partMembersCall.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/partMembersCall.kt", this::doTest);
     }
 
     @TestMetadata("partMembersInline.kt")
     public void testPartMembersInline() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/partMembersInline.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/partMembersInline.kt", this::doTest);
     }
 
     @TestMetadata("preEvaluateInlineJavaStaticFields.kt")
     public void testPreEvaluateInlineJavaStaticFields() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/preEvaluateInlineJavaStaticFields.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/preEvaluateInlineJavaStaticFields.kt", this::doTest);
     }
 
     @TestMetadata("prefixIntVarIncrement.kt")
     public void testPrefixIntVarIncrement() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/prefixIntVarIncrement.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/prefixIntVarIncrement.kt", this::doTest);
     }
 
     @TestMetadata("privateDefaultArgs.kt")
     public void testPrivateDefaultArgs() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/privateDefaultArgs.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/privateDefaultArgs.kt", this::doTest);
     }
 
     @TestMetadata("redundantGotoRemoving.kt")
     public void testRedundantGotoRemoving() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/redundantGotoRemoving.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/redundantGotoRemoving.kt", this::doTest);
     }
 
     @TestMetadata("redundantInitializer.kt")
     public void testRedundantInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/redundantInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/redundantInitializer.kt", this::doTest);
     }
 
     @TestMetadata("redundantInitializerNumber.kt")
     public void testRedundantInitializerNumber() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/redundantInitializerNumber.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/redundantInitializerNumber.kt", this::doTest);
     }
 
     @TestMetadata("reifiedAsCheck.kt")
     public void testReifiedAsCheck() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/reifiedAsCheck.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/reifiedAsCheck.kt", this::doTest);
     }
 
     @TestMetadata("reifiedAsCheckWithNullable.kt")
     public void testReifiedAsCheckWithNullable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/reifiedAsCheckWithNullable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/reifiedAsCheckWithNullable.kt", this::doTest);
     }
 
     @TestMetadata("reifiedIsCheck.kt")
     public void testReifiedIsCheck() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/reifiedIsCheck.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/reifiedIsCheck.kt", this::doTest);
     }
 
     @TestMetadata("reifiedIsCheckWithNullable.kt")
     public void testReifiedIsCheckWithNullable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/reifiedIsCheckWithNullable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/reifiedIsCheckWithNullable.kt", this::doTest);
     }
 
     @TestMetadata("safeAsWithMutable.kt")
     public void testSafeAsWithMutable() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/safeAsWithMutable.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/safeAsWithMutable.kt", this::doTest);
     }
 
     @TestMetadata("superFlagInMultiFileFacade.kt")
     public void testSuperFlagInMultiFileFacade() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/superFlagInMultiFileFacade.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/superFlagInMultiFileFacade.kt", this::doTest);
     }
 
     @TestMetadata("topLevelFunWithDefaultArgs.kt")
     public void testTopLevelFunWithDefaultArgs() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/topLevelFunWithDefaultArgs.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/topLevelFunWithDefaultArgs.kt", this::doTest);
     }
 
     @TestMetadata("compiler/testData/codegen/bytecodeText/argumentOrder")
@@ -431,26 +365,22 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("argumentReorder.kt")
         public void testArgumentReorder() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/argumentOrder/argumentReorder.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/argumentOrder/argumentReorder.kt", this::doTest);
         }
 
         @TestMetadata("argumentReorderWithDefault.kt")
         public void testArgumentReorderWithDefault() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/argumentOrder/argumentReorderWithDefault.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/argumentOrder/argumentReorderWithDefault.kt", this::doTest);
         }
 
         @TestMetadata("sameOrder.kt")
         public void testSameOrder() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/argumentOrder/sameOrder.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/argumentOrder/sameOrder.kt", this::doTest);
         }
 
         @TestMetadata("sameOrderWithDefault.kt")
         public void testSameOrderWithDefault() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/argumentOrder/sameOrderWithDefault.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/argumentOrder/sameOrderWithDefault.kt", this::doTest);
         }
     }
 
@@ -464,134 +394,112 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("boxingAndEquals.kt")
         public void testBoxingAndEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/boxingAndEquals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/boxingAndEquals.kt", this::doTest);
         }
 
         @TestMetadata("casts.kt")
         public void testCasts() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/casts.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/casts.kt", this::doTest);
         }
 
         @TestMetadata("checkcastAndInstanceOf.kt")
         public void testCheckcastAndInstanceOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/checkcastAndInstanceOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/checkcastAndInstanceOf.kt", this::doTest);
         }
 
         @TestMetadata("fold.kt")
         public void testFold() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/fold.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/fold.kt", this::doTest);
         }
 
         @TestMetadata("intCompareTo.kt")
         public void testIntCompareTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/intCompareTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/intCompareTo.kt", this::doTest);
         }
 
         @TestMetadata("kClassInAnnotation.kt")
         public void testKClassInAnnotation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/kClassInAnnotation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/kClassInAnnotation.kt", this::doTest);
         }
 
         @TestMetadata("kClassInAnnotationEscaping.kt")
         public void testKClassInAnnotationEscaping() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/kClassInAnnotationEscaping.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/kClassInAnnotationEscaping.kt", this::doTest);
         }
 
         @TestMetadata("kt15862.kt")
         public void testKt15862() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/kt15862.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/kt15862.kt", this::doTest);
         }
 
         @TestMetadata("kt15862_2.kt")
         public void testKt15862_2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/kt15862_2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/kt15862_2.kt", this::doTest);
         }
 
         @TestMetadata("kt6842.kt")
         public void testKt6842() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/kt6842.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/kt6842.kt", this::doTest);
         }
 
         @TestMetadata("kt7224.kt")
         public void testKt7224() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/kt7224.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/kt7224.kt", this::doTest);
         }
 
         @TestMetadata("maxMinBy.kt")
         public void testMaxMinBy() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/maxMinBy.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/maxMinBy.kt", this::doTest);
         }
 
         @TestMetadata("nullCheck.kt")
         public void testNullCheck() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/nullCheck.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/nullCheck.kt", this::doTest);
         }
 
         @TestMetadata("progressions.kt")
         public void testProgressions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/progressions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/progressions.kt", this::doTest);
         }
 
         @TestMetadata("safeCallToPrimitiveEquality.kt")
         public void testSafeCallToPrimitiveEquality() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/safeCallToPrimitiveEquality.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/safeCallToPrimitiveEquality.kt", this::doTest);
         }
 
         @TestMetadata("safeCallWithElvis.kt")
         public void testSafeCallWithElvis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/safeCallWithElvis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/safeCallWithElvis.kt", this::doTest);
         }
 
         @TestMetadata("severalInlines.kt")
         public void testSeveralInlines() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/severalInlines.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/severalInlines.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/simple.kt", this::doTest);
         }
 
         @TestMetadata("simpleUninitializedMerge.kt")
         public void testSimpleUninitializedMerge() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/simpleUninitializedMerge.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/simpleUninitializedMerge.kt", this::doTest);
         }
 
         @TestMetadata("unsafeRemoving.kt")
         public void testUnsafeRemoving() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/unsafeRemoving.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/unsafeRemoving.kt", this::doTest);
         }
 
         @TestMetadata("variableClash.kt")
         public void testVariableClash() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/variableClash.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/variableClash.kt", this::doTest);
         }
 
         @TestMetadata("variables.kt")
         public void testVariables() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/boxingOptimization/variables.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/boxingOptimization/variables.kt", this::doTest);
         }
     }
 
@@ -605,26 +513,22 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("charSequence.kt")
         public void testCharSequence() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/charSequence.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/charSequence.kt", this::doTest);
         }
 
         @TestMetadata("contains.kt")
         public void testContains() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/contains.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/contains.kt", this::doTest);
         }
 
         @TestMetadata("removeAt.kt")
         public void testRemoveAt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/removeAt.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/removeAt.kt", this::doTest);
         }
 
         @TestMetadata("size.kt")
         public void testSize() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/size.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/size.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge")
@@ -633,8 +537,7 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
         public static class GenericParameterBridge extends AbstractBytecodeTextTest {
             @TestMetadata("abstractList.kt")
             public void testAbstractList() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/abstractList.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/abstractList.kt", this::doTest);
             }
 
             public void testAllFilesPresentInGenericParameterBridge() throws Exception {
@@ -643,38 +546,32 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("IntMC.kt")
             public void testIntMC() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/IntMC.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/IntMC.kt", this::doTest);
             }
 
             @TestMetadata("mutableCollection.kt")
             public void testMutableCollection() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/mutableCollection.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/mutableCollection.kt", this::doTest);
             }
 
             @TestMetadata("mutableSetInterfaces.kt")
             public void testMutableSetInterfaces() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/mutableSetInterfaces.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/mutableSetInterfaces.kt", this::doTest);
             }
 
             @TestMetadata("notNullAnyMC.kt")
             public void testNotNullAnyMC() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/notNullAnyMC.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/notNullAnyMC.kt", this::doTest);
             }
 
             @TestMetadata("notNullParamMC.kt")
             public void testNotNullParamMC() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/notNullParamMC.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/notNullParamMC.kt", this::doTest);
             }
 
             @TestMetadata("nullableAnyMC.kt")
             public void testNullableAnyMC() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/nullableAnyMC.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/builtinFunctions/genericParameterBridge/nullableAnyMC.kt", this::doTest);
             }
         }
     }
@@ -689,14 +586,12 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("inline.kt")
         public void testInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/callableReference/inline.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/callableReference/inline.kt", this::doTest);
         }
 
         @TestMetadata("nameIntrinsicWithImplicitThis.kt")
         public void testNameIntrinsicWithImplicitThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/callableReference/nameIntrinsicWithImplicitThis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/callableReference/nameIntrinsicWithImplicitThis.kt", this::doTest);
         }
     }
 
@@ -710,50 +605,42 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("capturedInChainOfInlineFuns.kt")
         public void testCapturedInChainOfInlineFuns() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInChainOfInlineFuns.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInChainOfInlineFuns.kt", this::doTest);
         }
 
         @TestMetadata("capturedInInlineOnly.kt")
         public void testCapturedInInlineOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInInlineOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInInlineOnly.kt", this::doTest);
         }
 
         @TestMetadata("capturedInLocalObject.kt")
         public void testCapturedInLocalObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInLocalObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInLocalObject.kt", this::doTest);
         }
 
         @TestMetadata("capturedInNoInlineOnly.kt")
         public void testCapturedInNoInlineOnly() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInNoInlineOnly.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInNoInlineOnly.kt", this::doTest);
         }
 
         @TestMetadata("capturedInNoInlneInsideChainOfInlineFuns.kt")
         public void testCapturedInNoInlneInsideChainOfInlineFuns() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInNoInlneInsideChainOfInlineFuns.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedInNoInlneInsideChainOfInlineFuns.kt", this::doTest);
         }
 
         @TestMetadata("capturedVarsOfSize2.kt")
         public void testCapturedVarsOfSize2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedVarsOfSize2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/capturedVarsOfSize2.kt", this::doTest);
         }
 
         @TestMetadata("sharedSlotsWithCapturedVars.kt")
         public void testSharedSlotsWithCapturedVars() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/sharedSlotsWithCapturedVars.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/sharedSlotsWithCapturedVars.kt", this::doTest);
         }
 
         @TestMetadata("withStackNormalization.kt")
         public void testWithStackNormalization() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/withStackNormalization.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/capturedVarsOptimization/withStackNormalization.kt", this::doTest);
         }
     }
 
@@ -767,26 +654,22 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("kt14811.kt")
         public void testKt14811() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/checkcast/kt14811.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/checkcast/kt14811.kt", this::doTest);
         }
 
         @TestMetadata("kt14963.kt")
         public void testKt14963() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/checkcast/kt14963.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/checkcast/kt14963.kt", this::doTest);
         }
 
         @TestMetadata("kt15411.kt")
         public void testKt15411() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/checkcast/kt15411.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/checkcast/kt15411.kt", this::doTest);
         }
 
         @TestMetadata("kt22714.kt")
         public void testKt22714() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/checkcast/kt22714.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/checkcast/kt22714.kt", this::doTest);
         }
     }
 
@@ -800,56 +683,47 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("inRangeCheckWithConst.kt")
         public void testInRangeCheckWithConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/inRangeCheckWithConst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/inRangeCheckWithConst.kt", this::doTest);
         }
 
         @TestMetadata("kt14360.kt")
         public void testKt14360() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/kt14360.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/kt14360.kt", this::doTest);
         }
 
         @TestMetadata("largeMethodWithCoercionToUnit.kt")
         public void testLargeMethodWithCoercionToUnit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/largeMethodWithCoercionToUnit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/largeMethodWithCoercionToUnit.kt", this::doTest);
         }
 
         @TestMetadata("nopInlineFuns.kt")
         public void testNopInlineFuns() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/nopInlineFuns.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/nopInlineFuns.kt", this::doTest);
         }
 
         @TestMetadata("returnsUnit.kt")
         public void testReturnsUnit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/returnsUnit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/returnsUnit.kt", this::doTest);
         }
 
         @TestMetadata("safeCall.kt")
         public void testSafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/safeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/safeCall.kt", this::doTest);
         }
 
         @TestMetadata("safeCallWithReturnValue.kt")
         public void testSafeCallWithReturnValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/safeCallWithReturnValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/safeCallWithReturnValue.kt", this::doTest);
         }
 
         @TestMetadata("safeLet.kt")
         public void testSafeLet() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/safeLet.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/safeLet.kt", this::doTest);
         }
 
         @TestMetadata("tryInlined.kt")
         public void testTryInlined() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/tryInlined.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coercionToUnitOptimization/tryInlined.kt", this::doTest);
         }
     }
 
@@ -863,32 +737,27 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("kt14258_1.kt")
         public void testKt14258_1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/companion/kt14258_1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/companion/kt14258_1.kt", this::doTest);
         }
 
         @TestMetadata("kt14258_2.kt")
         public void testKt14258_2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/companion/kt14258_2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/companion/kt14258_2.kt", this::doTest);
         }
 
         @TestMetadata("kt14258_3.kt")
         public void testKt14258_3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/companion/kt14258_3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/companion/kt14258_3.kt", this::doTest);
         }
 
         @TestMetadata("kt14258_4.kt")
         public void testKt14258_4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/companion/kt14258_4.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/companion/kt14258_4.kt", this::doTest);
         }
 
         @TestMetadata("kt14258_5.kt")
         public void testKt14258_5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/companion/kt14258_5.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/companion/kt14258_5.kt", this::doTest);
         }
     }
 
@@ -902,68 +771,57 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("conjuction.kt")
         public void testConjuction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/conjuction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/conjuction.kt", this::doTest);
         }
 
         @TestMetadata("disjunction.kt")
         public void testDisjunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/disjunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/disjunction.kt", this::doTest);
         }
 
         @TestMetadata("negatedConjuction.kt")
         public void testNegatedConjuction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/negatedConjuction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/negatedConjuction.kt", this::doTest);
         }
 
         @TestMetadata("negatedDisjunction.kt")
         public void testNegatedDisjunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/negatedDisjunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/negatedDisjunction.kt", this::doTest);
         }
 
         @TestMetadata("negatedNullCompare.kt")
         public void testNegatedNullCompare() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/negatedNullCompare.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/negatedNullCompare.kt", this::doTest);
         }
 
         @TestMetadata("negatedZeroCompare.kt")
         public void testNegatedZeroCompare() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/negatedZeroCompare.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/negatedZeroCompare.kt", this::doTest);
         }
 
         @TestMetadata("noBoxingForBoxedEqPrimitive.kt")
         public void testNoBoxingForBoxedEqPrimitive() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/noBoxingForBoxedEqPrimitive.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/noBoxingForBoxedEqPrimitive.kt", this::doTest);
         }
 
         @TestMetadata("noBoxingForPrimitiveEqBoxed.kt")
         public void testNoBoxingForPrimitiveEqBoxed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/noBoxingForPrimitiveEqBoxed.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/noBoxingForPrimitiveEqBoxed.kt", this::doTest);
         }
 
         @TestMetadata("noBoxingForPrimitiveEqObject.kt")
         public void testNoBoxingForPrimitiveEqObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/noBoxingForPrimitiveEqObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/noBoxingForPrimitiveEqObject.kt", this::doTest);
         }
 
         @TestMetadata("nullCompare.kt")
         public void testNullCompare() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/nullCompare.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/nullCompare.kt", this::doTest);
         }
 
         @TestMetadata("zeroCompare.kt")
         public void testZeroCompare() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/conditions/zeroCompare.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/conditions/zeroCompare.kt", this::doTest);
         }
     }
 
@@ -973,8 +831,7 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
     public static class ConstProperty extends AbstractBytecodeTextTest {
         @TestMetadata("accessorsForPrivateConstants.kt")
         public void testAccessorsForPrivateConstants() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constProperty/accessorsForPrivateConstants.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constProperty/accessorsForPrivateConstants.kt", this::doTest);
         }
 
         public void testAllFilesPresentInConstProperty() throws Exception {
@@ -983,20 +840,17 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("noAccessorsForPrivateConstants.kt")
         public void testNoAccessorsForPrivateConstants() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constProperty/noAccessorsForPrivateConstants.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constProperty/noAccessorsForPrivateConstants.kt", this::doTest);
         }
 
         @TestMetadata("noInline.kt")
         public void testNoInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constProperty/noInline.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constProperty/noInline.kt", this::doTest);
         }
 
         @TestMetadata("noInlineInCmp.kt")
         public void testNoInlineInCmp() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constProperty/noInlineInCmp.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constProperty/noInlineInCmp.kt", this::doTest);
         }
     }
 
@@ -1010,32 +864,27 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("cmpIntWith0.kt")
         public void testCmpIntWith0() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constantConditions/cmpIntWith0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constantConditions/cmpIntWith0.kt", this::doTest);
         }
 
         @TestMetadata("constantFlag.kt")
         public void testConstantFlag() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constantConditions/constantFlag.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constantConditions/constantFlag.kt", this::doTest);
         }
 
         @TestMetadata("constantInt.kt")
         public void testConstantInt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constantConditions/constantInt.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constantConditions/constantInt.kt", this::doTest);
         }
 
         @TestMetadata("inlineIfFalse.kt")
         public void testInlineIfFalse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constantConditions/inlineIfFalse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constantConditions/inlineIfFalse.kt", this::doTest);
         }
 
         @TestMetadata("kt3098.kt")
         public void testKt3098() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constantConditions/kt3098.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constantConditions/kt3098.kt", this::doTest);
         }
     }
 
@@ -1049,62 +898,52 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("byte.kt")
         public void testByte() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/byte.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/byte.kt", this::doTest);
         }
 
         @TestMetadata("kt9532.kt")
         public void testKt9532() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/kt9532.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/kt9532.kt", this::doTest);
         }
 
         @TestMetadata("noInlineNonConst.kt")
         public void testNoInlineNonConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/noInlineNonConst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/noInlineNonConst.kt", this::doTest);
         }
 
         @TestMetadata("noInlineNonStaticJavaField.kt")
         public void testNoInlineNonStaticJavaField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/noInlineNonStaticJavaField.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/noInlineNonStaticJavaField.kt", this::doTest);
         }
 
         @TestMetadata("noInlineNonStaticJavaField_lv10.kt")
         public void testNoInlineNonStaticJavaField_lv10() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/noInlineNonStaticJavaField_lv10.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/noInlineNonStaticJavaField_lv10.kt", this::doTest);
         }
 
         @TestMetadata("noInlineNonStaticJavaField_lv11.kt")
         public void testNoInlineNonStaticJavaField_lv11() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/noInlineNonStaticJavaField_lv11.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/noInlineNonStaticJavaField_lv11.kt", this::doTest);
         }
 
         @TestMetadata("nullableByteAndShort.kt")
         public void testNullableByteAndShort() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/nullableByteAndShort.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/nullableByteAndShort.kt", this::doTest);
         }
 
         @TestMetadata("partialString.kt")
         public void testPartialString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/partialString.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/partialString.kt", this::doTest);
         }
 
         @TestMetadata("short.kt")
         public void testShort() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/short.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/short.kt", this::doTest);
         }
 
         @TestMetadata("string.kt")
         public void testString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/constants/string.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/constants/string.kt", this::doTest);
         }
     }
 
@@ -1118,8 +957,7 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("kt17110.kt")
         public void testKt17110() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/controlStructures/kt17110.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/controlStructures/kt17110.kt", this::doTest);
         }
     }
 
@@ -1133,26 +971,22 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("doNotReassignContinuation.kt")
         public void testDoNotReassignContinuation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/doNotReassignContinuation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/doNotReassignContinuation.kt", this::doTest);
         }
 
         @TestMetadata("returnUnitInLambda.kt")
         public void testReturnUnitInLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/returnUnitInLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/returnUnitInLambda.kt", this::doTest);
         }
 
         @TestMetadata("varValueConflictsWithTable.kt")
         public void testVarValueConflictsWithTable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/varValueConflictsWithTable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/varValueConflictsWithTable.kt", this::doTest);
         }
 
         @TestMetadata("varValueConflictsWithTableSameSort.kt")
         public void testVarValueConflictsWithTableSameSort() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/varValueConflictsWithTableSameSort.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/varValueConflictsWithTableSameSort.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling")
@@ -1165,62 +999,52 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("complicatedMerge.kt")
             public void testComplicatedMerge() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/complicatedMerge.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/complicatedMerge.kt", this::doTest);
             }
 
             @TestMetadata("i2bResult.kt")
             public void testI2bResult() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/i2bResult.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/i2bResult.kt", this::doTest);
             }
 
             @TestMetadata("loadFromBooleanArray.kt")
             public void testLoadFromBooleanArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/loadFromBooleanArray.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/loadFromBooleanArray.kt", this::doTest);
             }
 
             @TestMetadata("loadFromByteArray.kt")
             public void testLoadFromByteArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/loadFromByteArray.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/loadFromByteArray.kt", this::doTest);
             }
 
             @TestMetadata("noVariableInTable.kt")
             public void testNoVariableInTable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/noVariableInTable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/noVariableInTable.kt", this::doTest);
             }
 
             @TestMetadata("sameIconst1ManyVars.kt")
             public void testSameIconst1ManyVars() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/sameIconst1ManyVars.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/sameIconst1ManyVars.kt", this::doTest);
             }
 
             @TestMetadata("usedInArrayStore.kt")
             public void testUsedInArrayStore() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/usedInArrayStore.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/usedInArrayStore.kt", this::doTest);
             }
 
             @TestMetadata("usedInMethodCall.kt")
             public void testUsedInMethodCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/usedInMethodCall.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/usedInMethodCall.kt", this::doTest);
             }
 
             @TestMetadata("usedInPutfield.kt")
             public void testUsedInPutfield() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/usedInPutfield.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/usedInPutfield.kt", this::doTest);
             }
 
             @TestMetadata("usedInVarStore.kt")
             public void testUsedInVarStore() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/usedInVarStore.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/coroutines/intLikeVarSpilling/usedInVarStore.kt", this::doTest);
             }
         }
     }
@@ -1235,8 +1059,7 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("kt12330.kt")
         public void testKt12330() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/dataClasses/kt12330.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/dataClasses/kt12330.kt", this::doTest);
         }
     }
 
@@ -1250,50 +1073,42 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("arrayConstructor.kt")
         public void testArrayConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/deadCodeElimination/arrayConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/deadCodeElimination/arrayConstructor.kt", this::doTest);
         }
 
         @TestMetadata("boxing.kt")
         public void testBoxing() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/deadCodeElimination/boxing.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/deadCodeElimination/boxing.kt", this::doTest);
         }
 
         @TestMetadata("emptyVariableRange.kt")
         public void testEmptyVariableRange() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/deadCodeElimination/emptyVariableRange.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/deadCodeElimination/emptyVariableRange.kt", this::doTest);
         }
 
         @TestMetadata("kt14357.kt")
         public void testKt14357() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/deadCodeElimination/kt14357.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/deadCodeElimination/kt14357.kt", this::doTest);
         }
 
         @TestMetadata("lastReturn.kt")
         public void testLastReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/deadCodeElimination/lastReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/deadCodeElimination/lastReturn.kt", this::doTest);
         }
 
         @TestMetadata("literal.kt")
         public void testLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/deadCodeElimination/literal.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/deadCodeElimination/literal.kt", this::doTest);
         }
 
         @TestMetadata("simpleConstructor.kt")
         public void testSimpleConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/deadCodeElimination/simpleConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/deadCodeElimination/simpleConstructor.kt", this::doTest);
         }
 
         @TestMetadata("simpleConstructorNotRedundant.kt")
         public void testSimpleConstructorNotRedundant() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/deadCodeElimination/simpleConstructorNotRedundant.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/deadCodeElimination/simpleConstructorNotRedundant.kt", this::doTest);
         }
     }
 
@@ -1307,20 +1122,17 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("kt11962.kt")
         public void testKt11962() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/defaultArguments/kt11962.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/defaultArguments/kt11962.kt", this::doTest);
         }
 
         @TestMetadata("maskAndArgumentElimination.kt")
         public void testMaskAndArgumentElimination() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/defaultArguments/maskAndArgumentElimination.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/defaultArguments/maskAndArgumentElimination.kt", this::doTest);
         }
 
         @TestMetadata("methodHandlerElimination.kt")
         public void testMethodHandlerElimination() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/defaultArguments/methodHandlerElimination.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/defaultArguments/methodHandlerElimination.kt", this::doTest);
         }
     }
 
@@ -1334,20 +1146,17 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("callableReference.kt")
         public void testCallableReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/directInvoke/callableReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/directInvoke/callableReference.kt", this::doTest);
         }
 
         @TestMetadata("inplaceClosure.kt")
         public void testInplaceClosure() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/directInvoke/inplaceClosure.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/directInvoke/inplaceClosure.kt", this::doTest);
         }
 
         @TestMetadata("localFun.kt")
         public void testLocalFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/directInvoke/localFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/directInvoke/localFun.kt", this::doTest);
         }
     }
 
@@ -1361,8 +1170,7 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("kt18731.kt")
         public void testKt18731() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/enum/kt18731.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/enum/kt18731.kt", this::doTest);
         }
     }
 
@@ -1376,98 +1184,82 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("forInCharSequence.kt")
         public void testForInCharSequence() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequence.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequence.kt", this::doTest);
         }
 
         @TestMetadata("forInRangeSpecializedToUntil.kt")
         public void testForInRangeSpecializedToUntil() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInRangeSpecializedToUntil.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInRangeSpecializedToUntil.kt", this::doTest);
         }
 
         @TestMetadata("forInRangeToCharConst.kt")
         public void testForInRangeToCharConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInRangeToCharConst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInRangeToCharConst.kt", this::doTest);
         }
 
         @TestMetadata("forInRangeToConst.kt")
         public void testForInRangeToConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInRangeToConst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInRangeToConst.kt", this::doTest);
         }
 
         @TestMetadata("forInRangeToLongConst.kt")
         public void testForInRangeToLongConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInRangeToLongConst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInRangeToLongConst.kt", this::doTest);
         }
 
         @TestMetadata("forInRangeToQualifiedConst.kt")
         public void testForInRangeToQualifiedConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInRangeToQualifiedConst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInRangeToQualifiedConst.kt", this::doTest);
         }
 
         @TestMetadata("forInRangeWithImplicitReceiver.kt")
         public void testForInRangeWithImplicitReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInRangeWithImplicitReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInRangeWithImplicitReceiver.kt", this::doTest);
         }
 
         @TestMetadata("forInStringSpecialized.kt")
         public void testForInStringSpecialized() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInStringSpecialized.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInStringSpecialized.kt", this::doTest);
         }
 
         @TestMetadata("forInUntil.kt")
         public void testForInUntil() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInUntil.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInUntil.kt", this::doTest);
         }
 
         @TestMetadata("forIntInDownTo.kt")
         public void testForIntInDownTo() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forIntInDownTo.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forIntInDownTo.kt", this::doTest);
         }
 
         @TestMetadata("intrinsicArrayConstructorsUseCounterLoop.kt")
         public void testIntrinsicArrayConstructorsUseCounterLoop() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/intrinsicArrayConstructorsUseCounterLoop.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/intrinsicArrayConstructorsUseCounterLoop.kt", this::doTest);
         }
 
         @TestMetadata("loopVarInterval.kt")
         public void testLoopVarInterval() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/loopVarInterval.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/loopVarInterval.kt", this::doTest);
         }
 
         @TestMetadata("primitiveLiteralRange1.kt")
         public void testPrimitiveLiteralRange1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/primitiveLiteralRange1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/primitiveLiteralRange1.kt", this::doTest);
         }
 
         @TestMetadata("primitiveLiteralRange2.kt")
         public void testPrimitiveLiteralRange2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/primitiveLiteralRange2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/primitiveLiteralRange2.kt", this::doTest);
         }
 
         @TestMetadata("primitiveProgression.kt")
         public void testPrimitiveProgression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/primitiveProgression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/primitiveProgression.kt", this::doTest);
         }
 
         @TestMetadata("primitiveRange.kt")
         public void testPrimitiveRange() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/primitiveRange.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/primitiveRange.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex")
@@ -1480,32 +1272,27 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("forInArrrayWithIndexNoElementVar.kt")
             public void testForInArrrayWithIndexNoElementVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInArrrayWithIndexNoElementVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInArrrayWithIndexNoElementVar.kt", this::doTest);
             }
 
             @TestMetadata("forInArrrayWithIndexNoIndexVar.kt")
             public void testForInArrrayWithIndexNoIndexVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInArrrayWithIndexNoIndexVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInArrrayWithIndexNoIndexVar.kt", this::doTest);
             }
 
             @TestMetadata("forInEmptyArrrayWithIndex.kt")
             public void testForInEmptyArrrayWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInEmptyArrrayWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInEmptyArrrayWithIndex.kt", this::doTest);
             }
 
             @TestMetadata("forInIntArrrayWithIndex.kt")
             public void testForInIntArrrayWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInIntArrrayWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInIntArrrayWithIndex.kt", this::doTest);
             }
 
             @TestMetadata("forInObjectArrrayWithIndex.kt")
             public void testForInObjectArrrayWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInObjectArrrayWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInArrayWithIndex/forInObjectArrrayWithIndex.kt", this::doTest);
             }
         }
 
@@ -1519,38 +1306,32 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("forInCharSequenceWithIndex.kt")
             public void testForInCharSequenceWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInCharSequenceWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInCharSequenceWithIndex.kt", this::doTest);
             }
 
             @TestMetadata("forInEmptyStringWithIndex.kt")
             public void testForInEmptyStringWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInEmptyStringWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInEmptyStringWithIndex.kt", this::doTest);
             }
 
             @TestMetadata("forInStringWithIndex.kt")
             public void testForInStringWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInStringWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInStringWithIndex.kt", this::doTest);
             }
 
             @TestMetadata("forInStringWithIndexNoElementVar.kt")
             public void testForInStringWithIndexNoElementVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInStringWithIndexNoElementVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInStringWithIndexNoElementVar.kt", this::doTest);
             }
 
             @TestMetadata("forInStringWithIndexNoIndexVar.kt")
             public void testForInStringWithIndexNoIndexVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInStringWithIndexNoIndexVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInStringWithIndexNoIndexVar.kt", this::doTest);
             }
 
             @TestMetadata("forInStringWithIndexWithExplicitlyTypedIndexVariable.kt")
             public void testForInStringWithIndexWithExplicitlyTypedIndexVariable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInStringWithIndexWithExplicitlyTypedIndexVariable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInCharSequenceWithIndex/forInStringWithIndexWithExplicitlyTypedIndexVariable.kt", this::doTest);
             }
         }
 
@@ -1564,38 +1345,32 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("forInCharSequenceIndices.kt")
             public void testForInCharSequenceIndices() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInCharSequenceIndices.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInCharSequenceIndices.kt", this::doTest);
             }
 
             @TestMetadata("forInCollectionImplicitReceiverIndices.kt")
             public void testForInCollectionImplicitReceiverIndices() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInCollectionImplicitReceiverIndices.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInCollectionImplicitReceiverIndices.kt", this::doTest);
             }
 
             @TestMetadata("forInCollectionIndices.kt")
             public void testForInCollectionIndices() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInCollectionIndices.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInCollectionIndices.kt", this::doTest);
             }
 
             @TestMetadata("forInNonOptimizedIndices.kt")
             public void testForInNonOptimizedIndices() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInNonOptimizedIndices.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInNonOptimizedIndices.kt", this::doTest);
             }
 
             @TestMetadata("forInObjectArrayIndices.kt")
             public void testForInObjectArrayIndices() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInObjectArrayIndices.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInObjectArrayIndices.kt", this::doTest);
             }
 
             @TestMetadata("forInPrimitiveArrayIndices.kt")
             public void testForInPrimitiveArrayIndices() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInPrimitiveArrayIndices.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIndices/forInPrimitiveArrayIndices.kt", this::doTest);
             }
         }
 
@@ -1609,32 +1384,27 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("forInEmptyListWithIndex.kt")
             public void testForInEmptyListWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInEmptyListWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInEmptyListWithIndex.kt", this::doTest);
             }
 
             @TestMetadata("forInListWithIndex.kt")
             public void testForInListWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInListWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInListWithIndex.kt", this::doTest);
             }
 
             @TestMetadata("forInListWithIndexNoElementVar.kt")
             public void testForInListWithIndexNoElementVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInListWithIndexNoElementVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInListWithIndexNoElementVar.kt", this::doTest);
             }
 
             @TestMetadata("forInListWithIndexNoIndexVar.kt")
             public void testForInListWithIndexNoIndexVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInListWithIndexNoIndexVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInListWithIndexNoIndexVar.kt", this::doTest);
             }
 
             @TestMetadata("forInListWithIndexWithExplicitlyTypedIndexVariable.kt")
             public void testForInListWithIndexWithExplicitlyTypedIndexVariable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInListWithIndexWithExplicitlyTypedIndexVariable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInIterableWithIndex/forInListWithIndexWithExplicitlyTypedIndexVariable.kt", this::doTest);
             }
         }
 
@@ -1648,62 +1418,52 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("forInReversedArrayIndices.kt")
             public void testForInReversedArrayIndices() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedArrayIndices.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedArrayIndices.kt", this::doTest);
             }
 
             @TestMetadata("forInReversedCharSequenceIndices.kt")
             public void testForInReversedCharSequenceIndices() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedCharSequenceIndices.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedCharSequenceIndices.kt", this::doTest);
             }
 
             @TestMetadata("forInReversedCollectionIndices.kt")
             public void testForInReversedCollectionIndices() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedCollectionIndices.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedCollectionIndices.kt", this::doTest);
             }
 
             @TestMetadata("forInReversedDownTo.kt")
             public void testForInReversedDownTo() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedDownTo.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedDownTo.kt", this::doTest);
             }
 
             @TestMetadata("forInReversedEmptyRangeLiteral.kt")
             public void testForInReversedEmptyRangeLiteral() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedEmptyRangeLiteral.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedEmptyRangeLiteral.kt", this::doTest);
             }
 
             @TestMetadata("forInReversedRange.kt")
             public void testForInReversedRange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedRange.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedRange.kt", this::doTest);
             }
 
             @TestMetadata("forInReversedRangeLiteral.kt")
             public void testForInReversedRangeLiteral() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedRangeLiteral.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedRangeLiteral.kt", this::doTest);
             }
 
             @TestMetadata("ForInReversedReversedRange.kt")
             public void testForInReversedReversedRange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/ForInReversedReversedRange.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/ForInReversedReversedRange.kt", this::doTest);
             }
 
             @TestMetadata("forInReversedReversedReversedRange.kt")
             public void testForInReversedReversedReversedRange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedReversedReversedRange.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedReversedReversedRange.kt", this::doTest);
             }
 
             @TestMetadata("forInReversedUntil.kt")
             public void testForInReversedUntil() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedUntil.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInReversed/forInReversedUntil.kt", this::doTest);
             }
         }
 
@@ -1717,38 +1477,32 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("forInEmptySequenceWithIndex.kt")
             public void testForInEmptySequenceWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInEmptySequenceWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInEmptySequenceWithIndex.kt", this::doTest);
             }
 
             @TestMetadata("forInSequenceWithIndex.kt")
             public void testForInSequenceWithIndex() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndex.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndex.kt", this::doTest);
             }
 
             @TestMetadata("forInSequenceWithIndexNoElementVar.kt")
             public void testForInSequenceWithIndexNoElementVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndexNoElementVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndexNoElementVar.kt", this::doTest);
             }
 
             @TestMetadata("forInSequenceWithIndexNoIndexVar.kt")
             public void testForInSequenceWithIndexNoIndexVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndexNoIndexVar.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndexNoIndexVar.kt", this::doTest);
             }
 
             @TestMetadata("forInSequenceWithIndexThrowsCME.kt")
             public void testForInSequenceWithIndexThrowsCME() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndexThrowsCME.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndexThrowsCME.kt", this::doTest);
             }
 
             @TestMetadata("forInSequenceWithIndexWithExplicitlyTypedIndexVariable.kt")
             public void testForInSequenceWithIndexWithExplicitlyTypedIndexVariable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndexWithExplicitlyTypedIndexVariable.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/forLoop/forInSequenceWithIndex/forInSequenceWithIndexWithExplicitlyTypedIndexVariable.kt", this::doTest);
             }
         }
     }
@@ -1763,8 +1517,7 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("hashCode.kt")
         public void testHashCode() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/hashCode/hashCode.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/hashCode/hashCode.kt", this::doTest);
         }
     }
 
@@ -1778,98 +1531,82 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("nullableDoubleEquals.kt")
         public void testNullableDoubleEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/nullableDoubleEquals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/nullableDoubleEquals.kt", this::doTest);
         }
 
         @TestMetadata("nullableDoubleEquals10.kt")
         public void testNullableDoubleEquals10() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/nullableDoubleEquals10.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/nullableDoubleEquals10.kt", this::doTest);
         }
 
         @TestMetadata("nullableDoubleNotEquals.kt")
         public void testNullableDoubleNotEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/nullableDoubleNotEquals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/nullableDoubleNotEquals.kt", this::doTest);
         }
 
         @TestMetadata("nullableDoubleNotEquals10.kt")
         public void testNullableDoubleNotEquals10() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/nullableDoubleNotEquals10.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/nullableDoubleNotEquals10.kt", this::doTest);
         }
 
         @TestMetadata("nullableFloatEquals.kt")
         public void testNullableFloatEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/nullableFloatEquals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/nullableFloatEquals.kt", this::doTest);
         }
 
         @TestMetadata("nullableFloatEquals10.kt")
         public void testNullableFloatEquals10() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/nullableFloatEquals10.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/nullableFloatEquals10.kt", this::doTest);
         }
 
         @TestMetadata("nullableFloatNotEquals.kt")
         public void testNullableFloatNotEquals() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/nullableFloatNotEquals.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/nullableFloatNotEquals.kt", this::doTest);
         }
 
         @TestMetadata("nullableFloatNotEquals10.kt")
         public void testNullableFloatNotEquals10() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/nullableFloatNotEquals10.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/nullableFloatNotEquals10.kt", this::doTest);
         }
 
         @TestMetadata("smartCastsForDouble.kt")
         public void testSmartCastsForDouble() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/smartCastsForDouble.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/smartCastsForDouble.kt", this::doTest);
         }
 
         @TestMetadata("smartCastsForDouble10.kt")
         public void testSmartCastsForDouble10() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/smartCastsForDouble10.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/smartCastsForDouble10.kt", this::doTest);
         }
 
         @TestMetadata("smartCastsForFloat.kt")
         public void testSmartCastsForFloat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/smartCastsForFloat.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/smartCastsForFloat.kt", this::doTest);
         }
 
         @TestMetadata("smartCastsForFloat10.kt")
         public void testSmartCastsForFloat10() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/smartCastsForFloat10.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/smartCastsForFloat10.kt", this::doTest);
         }
 
         @TestMetadata("when.kt")
         public void testWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/when.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/when.kt", this::doTest);
         }
 
         @TestMetadata("when10.kt")
         public void testWhen10() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/when10.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/when10.kt", this::doTest);
         }
 
         @TestMetadata("whenNullableSmartCast.kt")
         public void testWhenNullableSmartCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/whenNullableSmartCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/whenNullableSmartCast.kt", this::doTest);
         }
 
         @TestMetadata("whenNullableSmartCast10.kt")
         public void testWhenNullableSmartCast10() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ieee754/whenNullableSmartCast10.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ieee754/whenNullableSmartCast10.kt", this::doTest);
         }
     }
 
@@ -1883,98 +1620,82 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("deleteClassOnTransfromation.kt")
         public void testDeleteClassOnTransfromation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/deleteClassOnTransfromation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/deleteClassOnTransfromation.kt", this::doTest);
         }
 
         @TestMetadata("finallyMarkers.kt")
         public void testFinallyMarkers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/finallyMarkers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/finallyMarkers.kt", this::doTest);
         }
 
         @TestMetadata("inlineReturnsNothing1.kt")
         public void testInlineReturnsNothing1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/inlineReturnsNothing1.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/inlineReturnsNothing1.kt", this::doTest);
         }
 
         @TestMetadata("inlineReturnsNothing2.kt")
         public void testInlineReturnsNothing2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/inlineReturnsNothing2.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/inlineReturnsNothing2.kt", this::doTest);
         }
 
         @TestMetadata("inlineReturnsNothing3.kt")
         public void testInlineReturnsNothing3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/inlineReturnsNothing3.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/inlineReturnsNothing3.kt", this::doTest);
         }
 
         @TestMetadata("linenumberForOneParametersArgumentCall.kt")
         public void testLinenumberForOneParametersArgumentCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/linenumberForOneParametersArgumentCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/linenumberForOneParametersArgumentCall.kt", this::doTest);
         }
 
         @TestMetadata("noSynAccessor.kt")
         public void testNoSynAccessor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/noSynAccessor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/noSynAccessor.kt", this::doTest);
         }
 
         @TestMetadata("noSynAccessorToDirectFieldAccess.kt")
         public void testNoSynAccessorToDirectFieldAccess() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/noSynAccessorToDirectFieldAccess.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/noSynAccessorToDirectFieldAccess.kt", this::doTest);
         }
 
         @TestMetadata("noSynAccessorToSuper.kt")
         public void testNoSynAccessorToSuper() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/noSynAccessorToSuper.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/noSynAccessorToSuper.kt", this::doTest);
         }
 
         @TestMetadata("notSplitedExceptionTable.kt")
         public void testNotSplitedExceptionTable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/notSplitedExceptionTable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/notSplitedExceptionTable.kt", this::doTest);
         }
 
         @TestMetadata("reifiedSafeAsWithMutable.kt")
         public void testReifiedSafeAsWithMutable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/reifiedSafeAsWithMutable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/reifiedSafeAsWithMutable.kt", this::doTest);
         }
 
         @TestMetadata("remappedLocalVar.kt")
         public void testRemappedLocalVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/remappedLocalVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/remappedLocalVar.kt", this::doTest);
         }
 
         @TestMetadata("removedFinallyMarkers.kt")
         public void testRemovedFinallyMarkers() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/removedFinallyMarkers.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/removedFinallyMarkers.kt", this::doTest);
         }
 
         @TestMetadata("specialEnumFunction.kt")
         public void testSpecialEnumFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/specialEnumFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/specialEnumFunction.kt", this::doTest);
         }
 
         @TestMetadata("splitedExceptionTable.kt")
         public void testSplitedExceptionTable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/splitedExceptionTable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/splitedExceptionTable.kt", this::doTest);
         }
 
         @TestMetadata("whenMappingOnCallSite.kt")
         public void testWhenMappingOnCallSite() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/whenMappingOnCallSite.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/whenMappingOnCallSite.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/codegen/bytecodeText/inline/property")
@@ -1987,8 +1708,7 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("simple.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inline/property/simple.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inline/property/simple.kt", this::doTest);
             }
         }
     }
@@ -2003,170 +1723,142 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("asCastForInlineClass.kt")
         public void testAsCastForInlineClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/asCastForInlineClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/asCastForInlineClass.kt", this::doTest);
         }
 
         @TestMetadata("assertionsForParametersOfInlineClassTypes.kt")
         public void testAssertionsForParametersOfInlineClassTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/assertionsForParametersOfInlineClassTypes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/assertionsForParametersOfInlineClassTypes.kt", this::doTest);
         }
 
         @TestMetadata("boxInlineClassesOnPassingToVarargs.kt")
         public void testBoxInlineClassesOnPassingToVarargs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/boxInlineClassesOnPassingToVarargs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/boxInlineClassesOnPassingToVarargs.kt", this::doTest);
         }
 
         @TestMetadata("boxResultAfterConstructorCall.kt")
         public void testBoxResultAfterConstructorCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/boxResultAfterConstructorCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/boxResultAfterConstructorCall.kt", this::doTest);
         }
 
         @TestMetadata("boxResultInlineClassOfConstructorCall.kt")
         public void testBoxResultInlineClassOfConstructorCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/boxResultInlineClassOfConstructorCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/boxResultInlineClassOfConstructorCall.kt", this::doTest);
         }
 
         @TestMetadata("boxThisOfInlineClass.kt")
         public void testBoxThisOfInlineClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/boxThisOfInlineClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/boxThisOfInlineClass.kt", this::doTest);
         }
 
         @TestMetadata("boxUnboxInlineClassFromMethodReturnType.kt")
         public void testBoxUnboxInlineClassFromMethodReturnType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/boxUnboxInlineClassFromMethodReturnType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/boxUnboxInlineClassFromMethodReturnType.kt", this::doTest);
         }
 
         @TestMetadata("boxUnboxInsideLambdaAsLastExpression.kt")
         public void testBoxUnboxInsideLambdaAsLastExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/boxUnboxInsideLambdaAsLastExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/boxUnboxInsideLambdaAsLastExpression.kt", this::doTest);
         }
 
         @TestMetadata("boxUnboxOfInlineClassesWithFunctionalTypes.kt")
         public void testBoxUnboxOfInlineClassesWithFunctionalTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/boxUnboxOfInlineClassesWithFunctionalTypes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/boxUnboxOfInlineClassesWithFunctionalTypes.kt", this::doTest);
         }
 
         @TestMetadata("boxUnboxOnInlinedParameters.kt")
         public void testBoxUnboxOnInlinedParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/boxUnboxOnInlinedParameters.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/boxUnboxOnInlinedParameters.kt", this::doTest);
         }
 
         @TestMetadata("boxingForNonLocalAndLabeledReturnsOfInlineClasses.kt")
         public void testBoxingForNonLocalAndLabeledReturnsOfInlineClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/boxingForNonLocalAndLabeledReturnsOfInlineClasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/boxingForNonLocalAndLabeledReturnsOfInlineClasses.kt", this::doTest);
         }
 
         @TestMetadata("callMemberMethodsInsideInlineClass.kt")
         public void testCallMemberMethodsInsideInlineClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/callMemberMethodsInsideInlineClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/callMemberMethodsInsideInlineClass.kt", this::doTest);
         }
 
         @TestMetadata("checkOuterInlineFunctionCall.kt")
         public void testCheckOuterInlineFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/checkOuterInlineFunctionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/checkOuterInlineFunctionCall.kt", this::doTest);
         }
 
         @TestMetadata("generationOfAccessorToUnderlyingValue.kt")
         public void testGenerationOfAccessorToUnderlyingValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/generationOfAccessorToUnderlyingValue.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/generationOfAccessorToUnderlyingValue.kt", this::doTest);
         }
 
         @TestMetadata("inlineClassBoxingOnAssignment.kt")
         public void testInlineClassBoxingOnAssignment() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/inlineClassBoxingOnAssignment.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/inlineClassBoxingOnAssignment.kt", this::doTest);
         }
 
         @TestMetadata("inlineClassBoxingOnFunctionCall.kt")
         public void testInlineClassBoxingOnFunctionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/inlineClassBoxingOnFunctionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/inlineClassBoxingOnFunctionCall.kt", this::doTest);
         }
 
         @TestMetadata("inlineClassBoxingUnboxingInsideInlinedLambda.kt")
         public void testInlineClassBoxingUnboxingInsideInlinedLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/inlineClassBoxingUnboxingInsideInlinedLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/inlineClassBoxingUnboxingInsideInlinedLambda.kt", this::doTest);
         }
 
         @TestMetadata("inlineClassesUnboxingAfterAssertionOperator.kt")
         public void testInlineClassesUnboxingAfterAssertionOperator() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/inlineClassesUnboxingAfterAssertionOperator.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/inlineClassesUnboxingAfterAssertionOperator.kt", this::doTest);
         }
 
         @TestMetadata("isCheckForInlineClass.kt")
         public void testIsCheckForInlineClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/isCheckForInlineClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/isCheckForInlineClass.kt", this::doTest);
         }
 
         @TestMetadata("noAssertionsForInlineClassesBasedOnNullableTypes.kt")
         public void testNoAssertionsForInlineClassesBasedOnNullableTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/noAssertionsForInlineClassesBasedOnNullableTypes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/noAssertionsForInlineClassesBasedOnNullableTypes.kt", this::doTest);
         }
 
         @TestMetadata("passInlineClassesWithSpreadOperatorToVarargs.kt")
         public void testPassInlineClassesWithSpreadOperatorToVarargs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/passInlineClassesWithSpreadOperatorToVarargs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/passInlineClassesWithSpreadOperatorToVarargs.kt", this::doTest);
         }
 
         @TestMetadata("skipCallToUnderlyingValueOfInlineClass.kt")
         public void testSkipCallToUnderlyingValueOfInlineClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/skipCallToUnderlyingValueOfInlineClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/skipCallToUnderlyingValueOfInlineClass.kt", this::doTest);
         }
 
         @TestMetadata("uIntArrayIteratorWithoutBoxing.kt")
         public void testUIntArrayIteratorWithoutBoxing() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/uIntArrayIteratorWithoutBoxing.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/uIntArrayIteratorWithoutBoxing.kt", this::doTest);
         }
 
         @TestMetadata("uIntArraySwapBoxing.kt")
         public void testUIntArraySwapBoxing() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/uIntArraySwapBoxing.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/uIntArraySwapBoxing.kt", this::doTest);
         }
 
         @TestMetadata("unboxInlineClassAfterElvis.kt")
         public void testUnboxInlineClassAfterElvis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/unboxInlineClassAfterElvis.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/unboxInlineClassAfterElvis.kt", this::doTest);
         }
 
         @TestMetadata("unboxInlineClassAfterSafeCall.kt")
         public void testUnboxInlineClassAfterSafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/unboxInlineClassAfterSafeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/unboxInlineClassAfterSafeCall.kt", this::doTest);
         }
 
         @TestMetadata("unboxInlineClassFromParameterizedType.kt")
         public void testUnboxInlineClassFromParameterizedType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/unboxInlineClassFromParameterizedType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/unboxInlineClassFromParameterizedType.kt", this::doTest);
         }
 
         @TestMetadata("unboxInlineClassesAfterSmartCasts.kt")
         public void testUnboxInlineClassesAfterSmartCasts() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/inlineClasses/unboxInlineClassesAfterSmartCasts.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/inlineClasses/unboxInlineClassesAfterSmartCasts.kt", this::doTest);
         }
     }
 
@@ -2180,26 +1872,22 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("firstInheritedMethodIsAbstract.kt")
         public void testFirstInheritedMethodIsAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/interfaces/firstInheritedMethodIsAbstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/interfaces/firstInheritedMethodIsAbstract.kt", this::doTest);
         }
 
         @TestMetadata("noAnyMethodsOnInterfaceInheritance.kt")
         public void testNoAnyMethodsOnInterfaceInheritance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/interfaces/noAnyMethodsOnInterfaceInheritance.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/interfaces/noAnyMethodsOnInterfaceInheritance.kt", this::doTest);
         }
 
         @TestMetadata("noPrivateMemberInJavaInterface.kt")
         public void testNoPrivateMemberInJavaInterface() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/interfaces/noPrivateMemberInJavaInterface.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/interfaces/noPrivateMemberInJavaInterface.kt", this::doTest);
         }
 
         @TestMetadata("traitImplGeneratedOnce.kt")
         public void testTraitImplGeneratedOnce() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/interfaces/traitImplGeneratedOnce.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/interfaces/traitImplGeneratedOnce.kt", this::doTest);
         }
     }
 
@@ -2213,14 +1901,12 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("javaObjectType.kt")
         public void testJavaObjectType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intrinsics/javaObjectType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intrinsics/javaObjectType.kt", this::doTest);
         }
 
         @TestMetadata("javaPrimitiveType.kt")
         public void testJavaPrimitiveType() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intrinsics/javaPrimitiveType.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intrinsics/javaPrimitiveType.kt", this::doTest);
         }
     }
 
@@ -2234,38 +1920,32 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("byteSmartCast.kt")
         public void testByteSmartCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intrinsicsCompare/byteSmartCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intrinsicsCompare/byteSmartCast.kt", this::doTest);
         }
 
         @TestMetadata("charSmartCast.kt")
         public void testCharSmartCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intrinsicsCompare/charSmartCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intrinsicsCompare/charSmartCast.kt", this::doTest);
         }
 
         @TestMetadata("differentTypes.kt")
         public void testDifferentTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intrinsicsCompare/differentTypes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intrinsicsCompare/differentTypes.kt", this::doTest);
         }
 
         @TestMetadata("intSmartCast.kt")
         public void testIntSmartCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intrinsicsCompare/intSmartCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intrinsicsCompare/intSmartCast.kt", this::doTest);
         }
 
         @TestMetadata("longSmartCast.kt")
         public void testLongSmartCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intrinsicsCompare/longSmartCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intrinsicsCompare/longSmartCast.kt", this::doTest);
         }
 
         @TestMetadata("shortSmartCast.kt")
         public void testShortSmartCast() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/intrinsicsCompare/shortSmartCast.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/intrinsicsCompare/shortSmartCast.kt", this::doTest);
         }
     }
 
@@ -2279,20 +1959,17 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("inlineDefaultBodyInClass.kt")
         public void testInlineDefaultBodyInClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/jackAndJill/inlineDefaultBodyInClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/jackAndJill/inlineDefaultBodyInClass.kt", this::doTest);
         }
 
         @TestMetadata("inlinedConstuctor.kt")
         public void testInlinedConstuctor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/jackAndJill/inlinedConstuctor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/jackAndJill/inlinedConstuctor.kt", this::doTest);
         }
 
         @TestMetadata("inlinedConstuctorWithSuperCallParams.kt")
         public void testInlinedConstuctorWithSuperCallParams() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/jackAndJill/inlinedConstuctorWithSuperCallParams.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/jackAndJill/inlinedConstuctorWithSuperCallParams.kt", this::doTest);
         }
     }
 
@@ -2306,44 +1983,37 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("inlineConstInsideComparison.kt")
         public void testInlineConstInsideComparison() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lazyCodegen/inlineConstInsideComparison.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lazyCodegen/inlineConstInsideComparison.kt", this::doTest);
         }
 
         @TestMetadata("negateConst.kt")
         public void testNegateConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lazyCodegen/negateConst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lazyCodegen/negateConst.kt", this::doTest);
         }
 
         @TestMetadata("negateConstantCompare.kt")
         public void testNegateConstantCompare() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lazyCodegen/negateConstantCompare.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lazyCodegen/negateConstantCompare.kt", this::doTest);
         }
 
         @TestMetadata("negateObjectComp.kt")
         public void testNegateObjectComp() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lazyCodegen/negateObjectComp.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lazyCodegen/negateObjectComp.kt", this::doTest);
         }
 
         @TestMetadata("negateObjectCompChaing.kt")
         public void testNegateObjectCompChaing() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lazyCodegen/negateObjectCompChaing.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lazyCodegen/negateObjectCompChaing.kt", this::doTest);
         }
 
         @TestMetadata("negateVar.kt")
         public void testNegateVar() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lazyCodegen/negateVar.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lazyCodegen/negateVar.kt", this::doTest);
         }
 
         @TestMetadata("negateVarChain.kt")
         public void testNegateVarChain() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lazyCodegen/negateVarChain.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lazyCodegen/negateVarChain.kt", this::doTest);
         }
     }
 
@@ -2357,26 +2027,22 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("ifElse.kt")
         public void testIfElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lineNumbers/ifElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lineNumbers/ifElse.kt", this::doTest);
         }
 
         @TestMetadata("singleThen.kt")
         public void testSingleThen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lineNumbers/singleThen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lineNumbers/singleThen.kt", this::doTest);
         }
 
         @TestMetadata("tryCatch.kt")
         public void testTryCatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lineNumbers/tryCatch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lineNumbers/tryCatch.kt", this::doTest);
         }
 
         @TestMetadata("when.kt")
         public void testWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/lineNumbers/when.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/lineNumbers/when.kt", this::doTest);
         }
     }
 
@@ -2390,8 +2056,7 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("optimizedMultifileClassFacadeMethods.kt")
         public void testOptimizedMultifileClassFacadeMethods() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/multifileClasses/optimizedMultifileClassFacadeMethods.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/multifileClasses/optimizedMultifileClassFacadeMethods.kt", this::doTest);
         }
     }
 
@@ -2405,92 +2070,77 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("alreadyCheckedForIs.kt")
         public void testAlreadyCheckedForIs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/alreadyCheckedForIs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/alreadyCheckedForIs.kt", this::doTest);
         }
 
         @TestMetadata("alreadyCheckedForNull.kt")
         public void testAlreadyCheckedForNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/alreadyCheckedForNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/alreadyCheckedForNull.kt", this::doTest);
         }
 
         @TestMetadata("expressionValueIsNotNull.kt")
         public void testExpressionValueIsNotNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/expressionValueIsNotNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/expressionValueIsNotNull.kt", this::doTest);
         }
 
         @TestMetadata("expressionValueIsNotNullAfterExclExcl.kt")
         public void testExpressionValueIsNotNullAfterExclExcl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/expressionValueIsNotNullAfterExclExcl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/expressionValueIsNotNullAfterExclExcl.kt", this::doTest);
         }
 
         @TestMetadata("expressionValueIsNotNullTwice.kt")
         public void testExpressionValueIsNotNullTwice() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/expressionValueIsNotNullTwice.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/expressionValueIsNotNullTwice.kt", this::doTest);
         }
 
         @TestMetadata("ifNullEqualsNull.kt")
         public void testIfNullEqualsNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/ifNullEqualsNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/ifNullEqualsNull.kt", this::doTest);
         }
 
         @TestMetadata("ifNullEqualsNullInline.kt")
         public void testIfNullEqualsNullInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/ifNullEqualsNullInline.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/ifNullEqualsNullInline.kt", this::doTest);
         }
 
         @TestMetadata("ifUnitEqualsNull.kt")
         public void testIfUnitEqualsNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/ifUnitEqualsNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/ifUnitEqualsNull.kt", this::doTest);
         }
 
         @TestMetadata("ifUnitEqualsNullInline.kt")
         public void testIfUnitEqualsNullInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/ifUnitEqualsNullInline.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/ifUnitEqualsNullInline.kt", this::doTest);
         }
 
         @TestMetadata("kt12839.kt")
         public void testKt12839() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/kt12839.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/kt12839.kt", this::doTest);
         }
 
         @TestMetadata("notNullAsNotNullable.kt")
         public void testNotNullAsNotNullable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/notNullAsNotNullable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/notNullAsNotNullable.kt", this::doTest);
         }
 
         @TestMetadata("redundantSafeCall.kt")
         public void testRedundantSafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/redundantSafeCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/redundantSafeCall.kt", this::doTest);
         }
 
         @TestMetadata("reifiedIs.kt")
         public void testReifiedIs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/reifiedIs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/reifiedIs.kt", this::doTest);
         }
 
         @TestMetadata("reifiedNullIs.kt")
         public void testReifiedNullIs() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/reifiedNullIs.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/reifiedNullIs.kt", this::doTest);
         }
 
         @TestMetadata("trivialInstanceOf.kt")
         public void testTrivialInstanceOf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/trivialInstanceOf.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/trivialInstanceOf.kt", this::doTest);
         }
 
         @TestMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/localLateinit")
@@ -2503,20 +2153,17 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
             @TestMetadata("checkedAlways.kt")
             public void testCheckedAlways() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/localLateinit/checkedAlways.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/localLateinit/checkedAlways.kt", this::doTest);
             }
 
             @TestMetadata("checkedOnce.kt")
             public void testCheckedOnce() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/localLateinit/checkedOnce.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/localLateinit/checkedOnce.kt", this::doTest);
             }
 
             @TestMetadata("initialized.kt")
             public void testInitialized() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/nullCheckOptimization/localLateinit/initialized.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/nullCheckOptimization/localLateinit/initialized.kt", this::doTest);
             }
         }
     }
@@ -2531,62 +2178,52 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("ifNotInRange.kt")
         public void testIfNotInRange() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/ifNotInRange.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/ifNotInRange.kt", this::doTest);
         }
 
         @TestMetadata("inArrayIndices.kt")
         public void testInArrayIndices() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/inArrayIndices.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/inArrayIndices.kt", this::doTest);
         }
 
         @TestMetadata("inCharSequenceIndices.kt")
         public void testInCharSequenceIndices() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/inCharSequenceIndices.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/inCharSequenceIndices.kt", this::doTest);
         }
 
         @TestMetadata("inCollectionIndices.kt")
         public void testInCollectionIndices() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/inCollectionIndices.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/inCollectionIndices.kt", this::doTest);
         }
 
         @TestMetadata("inComparableRangeLiteral.kt")
         public void testInComparableRangeLiteral() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/inComparableRangeLiteral.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/inComparableRangeLiteral.kt", this::doTest);
         }
 
         @TestMetadata("inNonMatchingRangeIntrinsified.kt")
         public void testInNonMatchingRangeIntrinsified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/inNonMatchingRangeIntrinsified.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/inNonMatchingRangeIntrinsified.kt", this::doTest);
         }
 
         @TestMetadata("inNonMatchingRangeNotIntrinsified.kt")
         public void testInNonMatchingRangeNotIntrinsified() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/inNonMatchingRangeNotIntrinsified.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/inNonMatchingRangeNotIntrinsified.kt", this::doTest);
         }
 
         @TestMetadata("inOptimizableRange.kt")
         public void testInOptimizableRange() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/inOptimizableRange.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/inOptimizableRange.kt", this::doTest);
         }
 
         @TestMetadata("inUntil.kt")
         public void testInUntil() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/inUntil.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/inUntil.kt", this::doTest);
         }
 
         @TestMetadata("noDupXForLiteralRangeContains.kt")
         public void testNoDupXForLiteralRangeContains() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/ranges/noDupXForLiteralRangeContains.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/ranges/noDupXForLiteralRangeContains.kt", this::doTest);
         }
     }
 
@@ -2600,14 +2237,12 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("samWrapperForNullInitialization.kt")
         public void testSamWrapperForNullInitialization() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/sam/samWrapperForNullInitialization.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/sam/samWrapperForNullInitialization.kt", this::doTest);
         }
 
         @TestMetadata("samWrapperForNullableInitialization.kt")
         public void testSamWrapperForNullableInitialization() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/sam/samWrapperForNullableInitialization.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/sam/samWrapperForNullableInitialization.kt", this::doTest);
         }
     }
 
@@ -2621,50 +2256,42 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("ifSingleBranch.kt")
         public void testIfSingleBranch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/statements/ifSingleBranch.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/statements/ifSingleBranch.kt", this::doTest);
         }
 
         @TestMetadata("ifThenElse.kt")
         public void testIfThenElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/statements/ifThenElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/statements/ifThenElse.kt", this::doTest);
         }
 
         @TestMetadata("ifThenElseEmpty.kt")
         public void testIfThenElseEmpty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/statements/ifThenElseEmpty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/statements/ifThenElseEmpty.kt", this::doTest);
         }
 
         @TestMetadata("labeled.kt")
         public void testLabeled() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/statements/labeled.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/statements/labeled.kt", this::doTest);
         }
 
         @TestMetadata("statementsComposition.kt")
         public void testStatementsComposition() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/statements/statementsComposition.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/statements/statementsComposition.kt", this::doTest);
         }
 
         @TestMetadata("tryCatchFinally.kt")
         public void testTryCatchFinally() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/statements/tryCatchFinally.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/statements/tryCatchFinally.kt", this::doTest);
         }
 
         @TestMetadata("when.kt")
         public void testWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/statements/when.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/statements/when.kt", this::doTest);
         }
 
         @TestMetadata("whenSubject.kt")
         public void testWhenSubject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/statements/whenSubject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/statements/whenSubject.kt", this::doTest);
         }
     }
 
@@ -2678,14 +2305,12 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("classObject.kt")
         public void testClassObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/staticFields/classObject.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/staticFields/classObject.kt", this::doTest);
         }
 
         @TestMetadata("object.kt")
         public void testObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/staticFields/object.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/staticFields/object.kt", this::doTest);
         }
     }
 
@@ -2699,32 +2324,27 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("differentTypes.kt")
         public void testDifferentTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/differentTypes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/differentTypes.kt", this::doTest);
         }
 
         @TestMetadata("primitiveMerge.kt")
         public void testPrimitiveMerge() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/primitiveMerge.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/primitiveMerge.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/simple.kt", this::doTest);
         }
 
         @TestMetadata("unreachableMarker.kt")
         public void testUnreachableMarker() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/unreachableMarker.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/unreachableMarker.kt", this::doTest);
         }
 
         @TestMetadata("withLambda.kt")
         public void testWithLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/withLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/storeStackBeforeInline/withLambda.kt", this::doTest);
         }
     }
 
@@ -2738,56 +2358,47 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("concat.kt")
         public void testConcat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/stringOperations/concat.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/stringOperations/concat.kt", this::doTest);
         }
 
         @TestMetadata("interpolation.kt")
         public void testInterpolation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/stringOperations/interpolation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/stringOperations/interpolation.kt", this::doTest);
         }
 
         @TestMetadata("kt15235.kt")
         public void testKt15235() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/stringOperations/kt15235.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/stringOperations/kt15235.kt", this::doTest);
         }
 
         @TestMetadata("kt19037.kt")
         public void testKt19037() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/stringOperations/kt19037.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/stringOperations/kt19037.kt", this::doTest);
         }
 
         @TestMetadata("nestedConcat.kt")
         public void testNestedConcat() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/stringOperations/nestedConcat.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/stringOperations/nestedConcat.kt", this::doTest);
         }
 
         @TestMetadata("nonNullableStringPlus.kt")
         public void testNonNullableStringPlus() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/stringOperations/nonNullableStringPlus.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/stringOperations/nonNullableStringPlus.kt", this::doTest);
         }
 
         @TestMetadata("nullableStringPlus.kt")
         public void testNullableStringPlus() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/stringOperations/nullableStringPlus.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/stringOperations/nullableStringPlus.kt", this::doTest);
         }
 
         @TestMetadata("plusAssign.kt")
         public void testPlusAssign() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/stringOperations/plusAssign.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/stringOperations/plusAssign.kt", this::doTest);
         }
 
         @TestMetadata("primitiveToString.kt")
         public void testPrimitiveToString() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/stringOperations/primitiveToString.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/stringOperations/primitiveToString.kt", this::doTest);
         }
     }
 
@@ -2801,8 +2412,7 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("doNotCopyImmediatelyCreatedArrays.kt")
         public void testDoNotCopyImmediatelyCreatedArrays() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/varargs/doNotCopyImmediatelyCreatedArrays.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/varargs/doNotCopyImmediatelyCreatedArrays.kt", this::doTest);
         }
     }
 
@@ -2816,80 +2426,67 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("exhaustiveWhenInitialization.kt")
         public void testExhaustiveWhenInitialization() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/exhaustiveWhenInitialization.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/exhaustiveWhenInitialization.kt", this::doTest);
         }
 
         @TestMetadata("exhaustiveWhenReturn.kt")
         public void testExhaustiveWhenReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/exhaustiveWhenReturn.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/exhaustiveWhenReturn.kt", this::doTest);
         }
 
         @TestMetadata("exhaustiveWhenUnit.kt")
         public void testExhaustiveWhenUnit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/exhaustiveWhenUnit.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/exhaustiveWhenUnit.kt", this::doTest);
         }
 
         @TestMetadata("exhaustiveWhenUnitStatement.kt")
         public void testExhaustiveWhenUnitStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/exhaustiveWhenUnitStatement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/exhaustiveWhenUnitStatement.kt", this::doTest);
         }
 
         @TestMetadata("inlineConstValsInsideWhen.kt")
         public void testInlineConstValsInsideWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/inlineConstValsInsideWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/inlineConstValsInsideWhen.kt", this::doTest);
         }
 
         @TestMetadata("integralWhenWithNoInlinedConstants.kt")
         public void testIntegralWhenWithNoInlinedConstants() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/integralWhenWithNoInlinedConstants.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/integralWhenWithNoInlinedConstants.kt", this::doTest);
         }
 
         @TestMetadata("kt18818.kt")
         public void testKt18818() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/kt18818.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/kt18818.kt", this::doTest);
         }
 
         @TestMetadata("noBoxingInDefaultWhenWithSpecialCases.kt")
         public void testNoBoxingInDefaultWhenWithSpecialCases() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/noBoxingInDefaultWhenWithSpecialCases.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/noBoxingInDefaultWhenWithSpecialCases.kt", this::doTest);
         }
 
         @TestMetadata("qualifiedConstValsInsideWhen.kt")
         public void testQualifiedConstValsInsideWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/qualifiedConstValsInsideWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/qualifiedConstValsInsideWhen.kt", this::doTest);
         }
 
         @TestMetadata("sealedWhenInitialization.kt")
         public void testSealedWhenInitialization() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/sealedWhenInitialization.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/sealedWhenInitialization.kt", this::doTest);
         }
 
         @TestMetadata("simpleConstValsInsideWhen.kt")
         public void testSimpleConstValsInsideWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/simpleConstValsInsideWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/simpleConstValsInsideWhen.kt", this::doTest);
         }
 
         @TestMetadata("whenNull.kt")
         public void testWhenNull() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/whenNull.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/whenNull.kt", this::doTest);
         }
 
         @TestMetadata("whenZero.kt")
         public void testWhenZero() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/when/whenZero.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/when/whenZero.kt", this::doTest);
         }
     }
 
@@ -2903,80 +2500,67 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("bigEnum.kt")
         public void testBigEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/bigEnum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/bigEnum.kt", this::doTest);
         }
 
         @TestMetadata("duplicatingItems.kt")
         public void testDuplicatingItems() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/duplicatingItems.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/duplicatingItems.kt", this::doTest);
         }
 
         @TestMetadata("expression.kt")
         public void testExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/expression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/expression.kt", this::doTest);
         }
 
         @TestMetadata("functionLiteralInTopLevel.kt")
         public void testFunctionLiteralInTopLevel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/functionLiteralInTopLevel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/functionLiteralInTopLevel.kt", this::doTest);
         }
 
         @TestMetadata("importedEnumEntry.kt")
         public void testImportedEnumEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/importedEnumEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/importedEnumEntry.kt", this::doTest);
         }
 
         @TestMetadata("kt14597_full.kt")
         public void testKt14597_full() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/kt14597_full.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/kt14597_full.kt", this::doTest);
         }
 
         @TestMetadata("kt14802.kt")
         public void testKt14802() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/kt14802.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/kt14802.kt", this::doTest);
         }
 
         @TestMetadata("kt15806.kt")
         public void testKt15806() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/kt15806.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/kt15806.kt", this::doTest);
         }
 
         @TestMetadata("manyWhensWithinClass.kt")
         public void testManyWhensWithinClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/manyWhensWithinClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/manyWhensWithinClass.kt", this::doTest);
         }
 
         @TestMetadata("nonConstantEnum.kt")
         public void testNonConstantEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/nonConstantEnum.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/nonConstantEnum.kt", this::doTest);
         }
 
         @TestMetadata("nullability.kt")
         public void testNullability() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/nullability.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/nullability.kt", this::doTest);
         }
 
         @TestMetadata("subjectAny.kt")
         public void testSubjectAny() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/subjectAny.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/subjectAny.kt", this::doTest);
         }
 
         @TestMetadata("withoutElse.kt")
         public void testWithoutElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenEnumOptimization/withoutElse.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenEnumOptimization/withoutElse.kt", this::doTest);
         }
     }
 
@@ -2990,56 +2574,47 @@ public class BytecodeTextTestGenerated extends AbstractBytecodeTextTest {
 
         @TestMetadata("denseHashCode.kt")
         public void testDenseHashCode() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenStringOptimization/denseHashCode.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenStringOptimization/denseHashCode.kt", this::doTest);
         }
 
         @TestMetadata("duplicatingItems.kt")
         public void testDuplicatingItems() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenStringOptimization/duplicatingItems.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenStringOptimization/duplicatingItems.kt", this::doTest);
         }
 
         @TestMetadata("duplicatingItemsSameHashCode.kt")
         public void testDuplicatingItemsSameHashCode() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenStringOptimization/duplicatingItemsSameHashCode.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenStringOptimization/duplicatingItemsSameHashCode.kt", this::doTest);
         }
 
         @TestMetadata("expression.kt")
         public void testExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenStringOptimization/expression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenStringOptimization/expression.kt", this::doTest);
         }
 
         @TestMetadata("inlineStringConstInsideWhen.kt")
         public void testInlineStringConstInsideWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenStringOptimization/inlineStringConstInsideWhen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenStringOptimization/inlineStringConstInsideWhen.kt", this::doTest);
         }
 
         @TestMetadata("nonInlinedConst.kt")
         public void testNonInlinedConst() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenStringOptimization/nonInlinedConst.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenStringOptimization/nonInlinedConst.kt", this::doTest);
         }
 
         @TestMetadata("nullability.kt")
         public void testNullability() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenStringOptimization/nullability.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenStringOptimization/nullability.kt", this::doTest);
         }
 
         @TestMetadata("sameHashCode.kt")
         public void testSameHashCode() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenStringOptimization/sameHashCode.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenStringOptimization/sameHashCode.kt", this::doTest);
         }
 
         @TestMetadata("statement.kt")
         public void testStatement() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/bytecodeText/whenStringOptimization/statement.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/codegen/bytecodeText/whenStringOptimization/statement.kt", this::doTest);
         }
     }
 }

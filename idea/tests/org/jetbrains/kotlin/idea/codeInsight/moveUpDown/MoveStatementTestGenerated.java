@@ -33,26 +33,22 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
         public static class Accessors extends AbstractMoveStatementTest {
             @TestMetadata("accessor1.kt")
             public void testAccessor1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/accessors/accessor1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/accessors/accessor1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("accessor2.kt")
             public void testAccessor2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/accessors/accessor2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/accessors/accessor2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("accessor3.kt")
             public void testAccessor3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/accessors/accessor3.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/accessors/accessor3.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("accessor4.kt")
             public void testAccessor4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/accessors/accessor4.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/accessors/accessor4.kt", this::doTestClassBodyDeclaration);
             }
 
             public void testAllFilesPresentInAccessors() throws Exception {
@@ -70,122 +66,102 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("classAtBrace1.kt")
             public void testClassAtBrace1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtBrace2.kt")
             public void testClassAtBrace2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtBrace3.kt")
             public void testClassAtBrace3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace3.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace3.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtBrace4.kt")
             public void testClassAtBrace4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace4.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace4.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtBrace5.kt")
             public void testClassAtBrace5() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace5.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace5.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtBrace6.kt")
             public void testClassAtBrace6() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace6.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtBrace6.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtClass1.kt")
             public void testClassAtClass1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtClass1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtClass1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtClass2.kt")
             public void testClassAtClass2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtClass2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtClass2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtClassInitializer1.kt")
             public void testClassAtClassInitializer1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtClassInitializer1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtClassInitializer1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtClassInitializer2.kt")
             public void testClassAtClassInitializer2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtClassInitializer2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtClassInitializer2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtEmptyLine1.kt")
             public void testClassAtEmptyLine1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtEmptyLine1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtEmptyLine1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtEmptyLine2.kt")
             public void testClassAtEmptyLine2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtEmptyLine2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtEmptyLine2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtFunction1.kt")
             public void testClassAtFunction1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtFunction1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtFunction1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtFunction2.kt")
             public void testClassAtFunction2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtFunction2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtFunction2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtProperty1.kt")
             public void testClassAtProperty1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtProperty1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtProperty1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classAtProperty2.kt")
             public void testClassAtProperty2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtProperty2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classAtProperty2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classWithoutBody1.kt")
             public void testClassWithoutBody1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classWithoutBody1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classWithoutBody1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classWithoutBody2.kt")
             public void testClassWithoutBody2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classWithoutBody2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classWithoutBody2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classWithoutBody3.kt")
             public void testClassWithoutBody3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classWithoutBody3.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classWithoutBody3.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classWithoutBody4.kt")
             public void testClassWithoutBody4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classWithoutBody4.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/class/classWithoutBody4.kt", this::doTestClassBodyDeclaration);
             }
         }
 
@@ -199,74 +175,62 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("classInitializerAtBrace1.kt")
             public void testClassInitializerAtBrace1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtBrace1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtBrace1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtBrace2.kt")
             public void testClassInitializerAtBrace2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtBrace2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtBrace2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtClass1.kt")
             public void testClassInitializerAtClass1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtClass1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtClass1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtClass2.kt")
             public void testClassInitializerAtClass2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtClass2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtClass2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtClassInitializer1.kt")
             public void testClassInitializerAtClassInitializer1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtClassInitializer1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtClassInitializer1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtClassInitializer2.kt")
             public void testClassInitializerAtClassInitializer2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtClassInitializer2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtClassInitializer2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtEmptyLine1.kt")
             public void testClassInitializerAtEmptyLine1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtEmptyLine1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtEmptyLine1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtEmptyLine2.kt")
             public void testClassInitializerAtEmptyLine2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtEmptyLine2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtEmptyLine2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtFunction1.kt")
             public void testClassInitializerAtFunction1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtFunction1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtFunction1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtFunction2.kt")
             public void testClassInitializerAtFunction2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtFunction2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtFunction2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtProperty1.kt")
             public void testClassInitializerAtProperty1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtProperty1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtProperty1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("classInitializerAtProperty2.kt")
             public void testClassInitializerAtProperty2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtProperty2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/classInitializer/classInitializerAtProperty2.kt", this::doTestClassBodyDeclaration);
             }
         }
 
@@ -280,50 +244,42 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("enum1.kt")
             public void testEnum1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("enum2.kt")
             public void testEnum2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("enum3.kt")
             public void testEnum3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum3.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum3.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("enum4.kt")
             public void testEnum4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum4.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum4.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("enum5.kt")
             public void testEnum5() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum5.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum5.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("enum6.kt")
             public void testEnum6() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum6.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum6.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("enum7.kt")
             public void testEnum7() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum7.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum7.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("enum8.kt")
             public void testEnum8() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum8.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/enums/enum8.kt", this::doTestClassBodyDeclaration);
             }
         }
 
@@ -337,104 +293,87 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("functionAtBrace1.kt")
             public void testFunctionAtBrace1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtBrace2.kt")
             public void testFunctionAtBrace2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtBrace3.kt")
             public void testFunctionAtBrace3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace3.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace3.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtBrace4.kt")
             public void testFunctionAtBrace4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace4.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace4.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtBrace5.kt")
             public void testFunctionAtBrace5() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace5.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace5.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtBrace6.kt")
             public void testFunctionAtBrace6() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace6.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtBrace6.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtClass1.kt")
             public void testFunctionAtClass1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtClass1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtClass1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtClass2.kt")
             public void testFunctionAtClass2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtClass2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtClass2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtClassInitializer1.kt")
             public void testFunctionAtClassInitializer1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtClassInitializer1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtClassInitializer1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtClassInitializer2.kt")
             public void testFunctionAtClassInitializer2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtClassInitializer2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtClassInitializer2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtEmptyLine1.kt")
             public void testFunctionAtEmptyLine1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtEmptyLine1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtEmptyLine1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtEmptyLine2.kt")
             public void testFunctionAtEmptyLine2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtEmptyLine2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtEmptyLine2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtFunction1.kt")
             public void testFunctionAtFunction1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtFunction1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtFunction1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtFunction2.kt")
             public void testFunctionAtFunction2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtFunction2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtFunction2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtProperty1.kt")
             public void testFunctionAtProperty1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtProperty1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtProperty1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtProperty2.kt")
             public void testFunctionAtProperty2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtProperty2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtProperty2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("functionAtTheScriptEnd.kts")
             public void testFunctionAtTheScriptEnd() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtTheScriptEnd.kts");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/function/functionAtTheScriptEnd.kts", this::doTestClassBodyDeclaration);
             }
         }
 
@@ -448,38 +387,32 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("keyword.kt")
             public void testKeyword() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/keyword.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/keyword.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("name.kt")
             public void testName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/name.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/name.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("returnType.kt")
             public void testReturnType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/returnType.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/returnType.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("typeParams1.kt")
             public void testTypeParams1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/typeParams1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/typeParams1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("typeParams2.kt")
             public void testTypeParams2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/typeParams2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/typeParams2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("typeParams3.kt")
             public void testTypeParams3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/typeParams3.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/functionAnchors/typeParams3.kt", this::doTestClassBodyDeclaration);
             }
         }
 
@@ -493,98 +426,82 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("propertyAtBrace1.kt")
             public void testPropertyAtBrace1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtBrace2.kt")
             public void testPropertyAtBrace2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtBrace3.kt")
             public void testPropertyAtBrace3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace3.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace3.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtBrace4.kt")
             public void testPropertyAtBrace4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace4.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace4.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtBrace5.kt")
             public void testPropertyAtBrace5() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace5.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace5.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtBrace6.kt")
             public void testPropertyAtBrace6() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace6.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtBrace6.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtClass1.kt")
             public void testPropertyAtClass1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtClass1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtClass1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtClass2.kt")
             public void testPropertyAtClass2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtClass2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtClass2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtClassInitializer1.kt")
             public void testPropertyAtClassInitializer1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtClassInitializer1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtClassInitializer1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtClassInitializer2.kt")
             public void testPropertyAtClassInitializer2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtClassInitializer2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtClassInitializer2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtEmptyLine1.kt")
             public void testPropertyAtEmptyLine1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtEmptyLine1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtEmptyLine1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtEmptyLine2.kt")
             public void testPropertyAtEmptyLine2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtEmptyLine2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtEmptyLine2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtFunction1.kt")
             public void testPropertyAtFunction1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtFunction1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtFunction1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtFunction2.kt")
             public void testPropertyAtFunction2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtFunction2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtFunction2.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtProperty1.kt")
             public void testPropertyAtProperty1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtProperty1.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtProperty1.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("propertyAtProperty2.kt")
             public void testPropertyAtProperty2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtProperty2.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/property/propertyAtProperty2.kt", this::doTestClassBodyDeclaration);
             }
         }
 
@@ -598,20 +515,17 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("keyword.kt")
             public void testKeyword() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/propertyAnchors/keyword.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/propertyAnchors/keyword.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("name.kt")
             public void testName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/propertyAnchors/name.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/propertyAnchors/name.kt", this::doTestClassBodyDeclaration);
             }
 
             @TestMetadata("returnType.kt")
             public void testReturnType() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/propertyAnchors/returnType.kt");
-                doTestClassBodyDeclaration(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/classBodyDeclarations/propertyAnchors/returnType.kt", this::doTestClassBodyDeclaration);
             }
         }
     }
@@ -634,14 +548,12 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("for1.kt")
             public void testFor1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/for/for1.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/for/for1.kt", this::doTestExpression);
             }
 
             @TestMetadata("for2.kt")
             public void testFor2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/for/for2.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/for/for2.kt", this::doTestExpression);
             }
         }
 
@@ -655,26 +567,22 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("function1.kt")
             public void testFunction1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/function/function1.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/function/function1.kt", this::doTestExpression);
             }
 
             @TestMetadata("function2.kt")
             public void testFunction2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/function/function2.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/function/function2.kt", this::doTestExpression);
             }
 
             @TestMetadata("function3.kt")
             public void testFunction3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/function/function3.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/function/function3.kt", this::doTestExpression);
             }
 
             @TestMetadata("function4.kt")
             public void testFunction4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/function/function4.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/function/function4.kt", this::doTestExpression);
             }
         }
 
@@ -688,26 +596,22 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("if1.kt")
             public void testIf1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/if/if1.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/if/if1.kt", this::doTestExpression);
             }
 
             @TestMetadata("if2.kt")
             public void testIf2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/if/if2.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/if/if2.kt", this::doTestExpression);
             }
 
             @TestMetadata("if3.kt")
             public void testIf3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/if/if3.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/if/if3.kt", this::doTestExpression);
             }
 
             @TestMetadata("if4.kt")
             public void testIf4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/if/if4.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/if/if4.kt", this::doTestExpression);
             }
         }
 
@@ -721,14 +625,12 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("nested1.kt")
             public void testNested1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/nested/nested1.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/nested/nested1.kt", this::doTestExpression);
             }
 
             @TestMetadata("nested2.kt")
             public void testNested2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/nested/nested2.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/nested/nested2.kt", this::doTestExpression);
             }
         }
 
@@ -742,38 +644,32 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("when1.kt")
             public void testWhen1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/when/when1.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/when/when1.kt", this::doTestExpression);
             }
 
             @TestMetadata("when2.kt")
             public void testWhen2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/when/when2.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/when/when2.kt", this::doTestExpression);
             }
 
             @TestMetadata("whenEntry1.kt")
             public void testWhenEntry1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/when/whenEntry1.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/when/whenEntry1.kt", this::doTestExpression);
             }
 
             @TestMetadata("whenEntry2.kt")
             public void testWhenEntry2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/when/whenEntry2.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/when/whenEntry2.kt", this::doTestExpression);
             }
 
             @TestMetadata("whenEntry3.kt")
             public void testWhenEntry3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/when/whenEntry3.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/when/whenEntry3.kt", this::doTestExpression);
             }
 
             @TestMetadata("whenEntry4.kt")
             public void testWhenEntry4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/when/whenEntry4.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/when/whenEntry4.kt", this::doTestExpression);
             }
         }
 
@@ -787,26 +683,22 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
             @TestMetadata("while1.kt")
             public void testWhile1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/while/while1.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/while/while1.kt", this::doTestExpression);
             }
 
             @TestMetadata("while2.kt")
             public void testWhile2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/while/while2.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/while/while2.kt", this::doTestExpression);
             }
 
             @TestMetadata("while3.kt")
             public void testWhile3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/while/while3.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/while/while3.kt", this::doTestExpression);
             }
 
             @TestMetadata("while4.kt")
             public void testWhile4() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/closingBraces/while/while4.kt");
-                doTestExpression(fileName);
+                KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/closingBraces/while/while4.kt", this::doTestExpression);
             }
         }
     }
@@ -821,470 +713,392 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
         @TestMetadata("binaryExpr1.kt")
         public void testBinaryExpr1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/binaryExpr1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/binaryExpr1.kt", this::doTestExpression);
         }
 
         @TestMetadata("binaryExpr2.kt")
         public void testBinaryExpr2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/binaryExpr2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/binaryExpr2.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureBlockBoundary1.kt")
         public void testClosureBlockBoundary1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureBlockBoundary1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureBlockBoundary1.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureBlockBoundary2.kt")
         public void testClosureBlockBoundary2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureBlockBoundary2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureBlockBoundary2.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureInDoWhile1.kt")
         public void testClosureInDoWhile1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureInDoWhile1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureInDoWhile1.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureInDoWhile2.kt")
         public void testClosureInDoWhile2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureInDoWhile2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureInDoWhile2.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureInFor1.kt")
         public void testClosureInFor1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureInFor1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureInFor1.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureInFor2.kt")
         public void testClosureInFor2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureInFor2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureInFor2.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureInIf1.kt")
         public void testClosureInIf1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureInIf1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureInIf1.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureInIf2.kt")
         public void testClosureInIf2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureInIf2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureInIf2.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureInWhile1.kt")
         public void testClosureInWhile1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureInWhile1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureInWhile1.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureInWhile2.kt")
         public void testClosureInWhile2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureInWhile2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureInWhile2.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureWthoutSpaces1.kt")
         public void testClosureWthoutSpaces1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureWthoutSpaces1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureWthoutSpaces1.kt", this::doTestExpression);
         }
 
         @TestMetadata("closureWthoutSpaces2.kt")
         public void testClosureWthoutSpaces2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/closureWthoutSpaces2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/closureWthoutSpaces2.kt", this::doTestExpression);
         }
 
         @TestMetadata("declaration1.kt")
         public void testDeclaration1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/declaration1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/declaration1.kt", this::doTestExpression);
         }
 
         @TestMetadata("declaration2.kt")
         public void testDeclaration2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/declaration2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/declaration2.kt", this::doTestExpression);
         }
 
         @TestMetadata("If1.kt")
         public void testIf1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/If1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/If1.kt", this::doTestExpression);
         }
 
         @TestMetadata("if2.kt")
         public void testIf2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/if2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/if2.kt", this::doTestExpression);
         }
 
         @TestMetadata("if3.kt")
         public void testIf3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/if3.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/if3.kt", this::doTestExpression);
         }
 
         @TestMetadata("if4.kt")
         public void testIf4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/if4.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/if4.kt", this::doTestExpression);
         }
 
         @TestMetadata("ifExprToBlock1.kt")
         public void testIfExprToBlock1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/ifExprToBlock1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/ifExprToBlock1.kt", this::doTestExpression);
         }
 
         @TestMetadata("ifExprToBlock2.kt")
         public void testIfExprToBlock2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/ifExprToBlock2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/ifExprToBlock2.kt", this::doTestExpression);
         }
 
         @TestMetadata("ifToBlock1.kt")
         public void testIfToBlock1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/ifToBlock1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/ifToBlock1.kt", this::doTestExpression);
         }
 
         @TestMetadata("ifToBlock2.kt")
         public void testIfToBlock2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/ifToBlock2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/ifToBlock2.kt", this::doTestExpression);
         }
 
         @TestMetadata("insideExpression1.kt")
         public void testInsideExpression1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/insideExpression1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/insideExpression1.kt", this::doTestExpression);
         }
 
         @TestMetadata("insideExpression2.kt")
         public void testInsideExpression2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/insideExpression2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/insideExpression2.kt", this::doTestExpression);
         }
 
         @TestMetadata("insideExpression3.kt")
         public void testInsideExpression3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/insideExpression3.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/insideExpression3.kt", this::doTestExpression);
         }
 
         @TestMetadata("insideExpression4.kt")
         public void testInsideExpression4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/insideExpression4.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/insideExpression4.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoCatch.kt")
         public void testIntoCatch() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoCatch.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoCatch.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoClosure1.kt")
         public void testIntoClosure1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoClosure1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoClosure1.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoClosure2.kt")
         public void testIntoClosure2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoClosure2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoClosure2.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoClosureWithParams1.kt")
         public void testIntoClosureWithParams1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoClosureWithParams1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoClosureWithParams1.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoElse1.kt")
         public void testIntoElse1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoElse1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoElse1.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoElse2.kt")
         public void testIntoElse2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoElse2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoElse2.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoElse3.kt")
         public void testIntoElse3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoElse3.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoElse3.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoElse4.kt")
         public void testIntoElse4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoElse4.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoElse4.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoElseIf.kt")
         public void testIntoElseIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoElseIf.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoElseIf.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoFinally.kt")
         public void testIntoFinally() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoFinally.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoFinally.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoNestedClosure1.kt")
         public void testIntoNestedClosure1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoNestedClosure1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoNestedClosure1.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoNestedClosure2.kt")
         public void testIntoNestedClosure2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoNestedClosure2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoNestedClosure2.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoNestedClosureWithParams1.kt")
         public void testIntoNestedClosureWithParams1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoNestedClosureWithParams1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoNestedClosureWithParams1.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoWhenElse.kt")
         public void testIntoWhenElse() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoWhenElse.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoWhenElse.kt", this::doTestExpression);
         }
 
         @TestMetadata("intoWhenEntry.kt")
         public void testIntoWhenEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/intoWhenEntry.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/intoWhenEntry.kt", this::doTestExpression);
         }
 
         @TestMetadata("lambda1.kt")
         public void testLambda1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/lambda1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/lambda1.kt", this::doTestExpression);
         }
 
         @TestMetadata("lambda2.kt")
         public void testLambda2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/lambda2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/lambda2.kt", this::doTestExpression);
         }
 
         @TestMetadata("lambda3.kt")
         public void testLambda3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/lambda3.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/lambda3.kt", this::doTestExpression);
         }
 
         @TestMetadata("multilineComment1.kt")
         public void testMultilineComment1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/multilineComment1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/multilineComment1.kt", this::doTestExpression);
         }
 
         @TestMetadata("multilineComment2.kt")
         public void testMultilineComment2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/multilineComment2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/multilineComment2.kt", this::doTestExpression);
         }
 
         @TestMetadata("multilineComment3.kt")
         public void testMultilineComment3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/multilineComment3.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/multilineComment3.kt", this::doTestExpression);
         }
 
         @TestMetadata("multilineComment4.kt")
         public void testMultilineComment4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/multilineComment4.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/multilineComment4.kt", this::doTestExpression);
         }
 
         @TestMetadata("multilineComment5.kt")
         public void testMultilineComment5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/multilineComment5.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/multilineComment5.kt", this::doTestExpression);
         }
 
         @TestMetadata("multilineComment6.kt")
         public void testMultilineComment6() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/multilineComment6.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/multilineComment6.kt", this::doTestExpression);
         }
 
         @TestMetadata("multilineExpressionWithClosure1.kt")
         public void testMultilineExpressionWithClosure1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/multilineExpressionWithClosure1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/multilineExpressionWithClosure1.kt", this::doTestExpression);
         }
 
         @TestMetadata("multilineExpressionWithClosure2.kt")
         public void testMultilineExpressionWithClosure2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/multilineExpressionWithClosure2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/multilineExpressionWithClosure2.kt", this::doTestExpression);
         }
 
         @TestMetadata("outOfClosure1.kt")
         public void testOutOfClosure1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfClosure1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfClosure1.kt", this::doTestExpression);
         }
 
         @TestMetadata("outOfClosure2.kt")
         public void testOutOfClosure2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfClosure2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfClosure2.kt", this::doTestExpression);
         }
 
         @TestMetadata("outOfClosureInScriptsDown.kts")
         public void testOutOfClosureInScriptsDown() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfClosureInScriptsDown.kts");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfClosureInScriptsDown.kts", this::doTestExpression);
         }
 
         @TestMetadata("outOfClosureInScriptsUp.kts")
         public void testOutOfClosureInScriptsUp() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfClosureInScriptsUp.kts");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfClosureInScriptsUp.kts", this::doTestExpression);
         }
 
         @TestMetadata("outOfClosureWithParams1.kt")
         public void testOutOfClosureWithParams1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfClosureWithParams1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfClosureWithParams1.kt", this::doTestExpression);
         }
 
         @TestMetadata("outOfElse1.kt")
         public void testOutOfElse1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfElse1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfElse1.kt", this::doTestExpression);
         }
 
         @TestMetadata("outOfElse2.kt")
         public void testOutOfElse2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfElse2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfElse2.kt", this::doTestExpression);
         }
 
         @TestMetadata("outOfNestedClosure1.kt")
         public void testOutOfNestedClosure1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfNestedClosure1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfNestedClosure1.kt", this::doTestExpression);
         }
 
         @TestMetadata("outOfNestedClosure2.kt")
         public void testOutOfNestedClosure2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfNestedClosure2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfNestedClosure2.kt", this::doTestExpression);
         }
 
         @TestMetadata("outOfNestedClosureWithParams1.kt")
         public void testOutOfNestedClosureWithParams1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/outOfNestedClosureWithParams1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/outOfNestedClosureWithParams1.kt", this::doTestExpression);
         }
 
         @TestMetadata("qualifiedCall1.kt")
         public void testQualifiedCall1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/qualifiedCall1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/qualifiedCall1.kt", this::doTestExpression);
         }
 
         @TestMetadata("qualifiedCall2.kt")
         public void testQualifiedCall2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/qualifiedCall2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/qualifiedCall2.kt", this::doTestExpression);
         }
 
         @TestMetadata("when1.kt")
         public void testWhen1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/when1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/when1.kt", this::doTestExpression);
         }
 
         @TestMetadata("when2.kt")
         public void testWhen2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/when2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/when2.kt", this::doTestExpression);
         }
 
         @TestMetadata("whenEntry1.kt")
         public void testWhenEntry1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/whenEntry1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/whenEntry1.kt", this::doTestExpression);
         }
 
         @TestMetadata("whenEntry2.kt")
         public void testWhenEntry2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/whenEntry2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/whenEntry2.kt", this::doTestExpression);
         }
 
         @TestMetadata("whenEntry3.kt")
         public void testWhenEntry3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/whenEntry3.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/whenEntry3.kt", this::doTestExpression);
         }
 
         @TestMetadata("whenEntry4.kt")
         public void testWhenEntry4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/whenEntry4.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/whenEntry4.kt", this::doTestExpression);
         }
 
         @TestMetadata("whenEntry5.kt")
         public void testWhenEntry5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/whenEntry5.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/whenEntry5.kt", this::doTestExpression);
         }
 
         @TestMetadata("whenEntry6.kt")
         public void testWhenEntry6() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/whenEntry6.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/whenEntry6.kt", this::doTestExpression);
         }
 
         @TestMetadata("while1.kt")
         public void testWhile1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/while1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/while1.kt", this::doTestExpression);
         }
 
         @TestMetadata("while2.kt")
         public void testWhile2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/while2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/while2.kt", this::doTestExpression);
         }
 
         @TestMetadata("whileToBlock1.kt")
         public void testWhileToBlock1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/whileToBlock1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/whileToBlock1.kt", this::doTestExpression);
         }
 
         @TestMetadata("whileToBlock2.kt")
         public void testWhileToBlock2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/expressions/whileToBlock2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/expressions/whileToBlock2.kt", this::doTestExpression);
         }
     }
 
@@ -1298,110 +1112,92 @@ public class MoveStatementTestGenerated extends AbstractMoveStatementTest {
 
         @TestMetadata("callArgs1.kt")
         public void testCallArgs1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs1.kt", this::doTestExpression);
         }
 
         @TestMetadata("callArgs2.kt")
         public void testCallArgs2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs2.kt", this::doTestExpression);
         }
 
         @TestMetadata("callArgs3.kt")
         public void testCallArgs3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs3.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs3.kt", this::doTestExpression);
         }
 
         @TestMetadata("callArgs4.kt")
         public void testCallArgs4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs4.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs4.kt", this::doTestExpression);
         }
 
         @TestMetadata("callArgs5.kt")
         public void testCallArgs5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs5.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs5.kt", this::doTestExpression);
         }
 
         @TestMetadata("callArgs6.kt")
         public void testCallArgs6() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs6.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/callArgs6.kt", this::doTestExpression);
         }
 
         @TestMetadata("classParams1.kt")
         public void testClassParams1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams1.kt", this::doTestExpression);
         }
 
         @TestMetadata("classParams2.kt")
         public void testClassParams2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams2.kt", this::doTestExpression);
         }
 
         @TestMetadata("classParams3.kt")
         public void testClassParams3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams3.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams3.kt", this::doTestExpression);
         }
 
         @TestMetadata("classParams4.kt")
         public void testClassParams4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams4.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams4.kt", this::doTestExpression);
         }
 
         @TestMetadata("classParams5.kt")
         public void testClassParams5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams5.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams5.kt", this::doTestExpression);
         }
 
         @TestMetadata("classParams6.kt")
         public void testClassParams6() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams6.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/classParams6.kt", this::doTestExpression);
         }
 
         @TestMetadata("funParams1.kt")
         public void testFunParams1() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams1.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams1.kt", this::doTestExpression);
         }
 
         @TestMetadata("funParams2.kt")
         public void testFunParams2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams2.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams2.kt", this::doTestExpression);
         }
 
         @TestMetadata("funParams3.kt")
         public void testFunParams3() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams3.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams3.kt", this::doTestExpression);
         }
 
         @TestMetadata("funParams4.kt")
         public void testFunParams4() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams4.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams4.kt", this::doTestExpression);
         }
 
         @TestMetadata("funParams5.kt")
         public void testFunParams5() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams5.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams5.kt", this::doTestExpression);
         }
 
         @TestMetadata("funParams6.kt")
         public void testFunParams6() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams6.kt");
-            doTestExpression(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/moveUpDown/parametersAndArguments/funParams6.kt", this::doTestExpression);
         }
     }
 }

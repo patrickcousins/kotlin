@@ -27,103 +27,86 @@ public class HighlightExitPointsTestGenerated extends AbstractHighlightExitPoint
 
     @TestMetadata("getter.kt")
     public void testGetter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/getter.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/getter.kt", this::doTest);
     }
 
     @TestMetadata("inline1.kt")
     public void testInline1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/inline1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/inline1.kt", this::doTest);
     }
 
     @TestMetadata("inline2.kt")
     public void testInline2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/inline2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/inline2.kt", this::doTest);
     }
 
     @TestMetadata("inline3.kt")
     public void testInline3() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/inline3.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/inline3.kt", this::doTest);
     }
 
     @TestMetadata("inlineLocalReturn1.kt")
     public void testInlineLocalReturn1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/inlineLocalReturn1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/inlineLocalReturn1.kt", this::doTest);
     }
 
     @TestMetadata("inlineLocalReturn2.kt")
     public void testInlineLocalReturn2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/inlineLocalReturn2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/inlineLocalReturn2.kt", this::doTest);
     }
 
     @TestMetadata("inlineWithNoInlineParam.kt")
     public void testInlineWithNoInlineParam() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/inlineWithNoInlineParam.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/inlineWithNoInlineParam.kt", this::doTest);
     }
 
     @TestMetadata("invalidReturn.kt")
     public void testInvalidReturn() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/invalidReturn.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/invalidReturn.kt", this::doTest);
     }
 
     @TestMetadata("invalidThrow.kt")
     public void testInvalidThrow() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/invalidThrow.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/invalidThrow.kt", this::doTest);
     }
 
     @TestMetadata("localFunction1.kt")
     public void testLocalFunction1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/localFunction1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/localFunction1.kt", this::doTest);
     }
 
     @TestMetadata("localFunction2.kt")
     public void testLocalFunction2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/localFunction2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/localFunction2.kt", this::doTest);
     }
 
     @TestMetadata("localFunctionThrow.kt")
     public void testLocalFunctionThrow() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/localFunctionThrow.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/localFunctionThrow.kt", this::doTest);
     }
 
     @TestMetadata("notInline1.kt")
     public void testNotInline1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/notInline1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/notInline1.kt", this::doTest);
     }
 
     @TestMetadata("notInline2.kt")
     public void testNotInline2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/notInline2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/notInline2.kt", this::doTest);
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/simple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/simple.kt", this::doTest);
     }
 
     @TestMetadata("throw1.kt")
     public void testThrow1() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/throw1.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/throw1.kt", this::doTest);
     }
 
     @TestMetadata("throw2.kt")
     public void testThrow2() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/exitPoints/throw2.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/exitPoints/throw2.kt", this::doTest);
     }
 }

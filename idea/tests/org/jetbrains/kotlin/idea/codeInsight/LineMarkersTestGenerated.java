@@ -27,8 +27,7 @@ public class LineMarkersTestGenerated extends AbstractLineMarkersTest {
 
     @TestMetadata("MethodSeparators.kt")
     public void testMethodSeparators() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/MethodSeparators.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/MethodSeparators.kt", this::doTest);
     }
 
     @TestMetadata("idea/testData/codeInsight/lineMarker/dslMarker")
@@ -41,8 +40,7 @@ public class LineMarkersTestGenerated extends AbstractLineMarkersTest {
 
         @TestMetadata("markerAnnotationDeclaration.kt")
         public void testMarkerAnnotationDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/dslMarker/markerAnnotationDeclaration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/dslMarker/markerAnnotationDeclaration.kt", this::doTest);
         }
     }
 
@@ -56,158 +54,132 @@ public class LineMarkersTestGenerated extends AbstractLineMarkersTest {
 
         @TestMetadata("BadCodeNoExceptions.kt")
         public void testBadCodeNoExceptions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/BadCodeNoExceptions.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/BadCodeNoExceptions.kt", this::doTest);
         }
 
         @TestMetadata("Class.kt")
         public void testClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/Class.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/Class.kt", this::doTest);
         }
 
         @TestMetadata("ClassObjectInStaticNestedClass.kt")
         public void testClassObjectInStaticNestedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/ClassObjectInStaticNestedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/ClassObjectInStaticNestedClass.kt", this::doTest);
         }
 
         @TestMetadata("DelegatedFun.kt")
         public void testDelegatedFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/DelegatedFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/DelegatedFun.kt", this::doTest);
         }
 
         @TestMetadata("DelegatedProperty.kt")
         public void testDelegatedProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/DelegatedProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/DelegatedProperty.kt", this::doTest);
         }
 
         @TestMetadata("EnumEntry.kt")
         public void testEnumEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/EnumEntry.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/EnumEntry.kt", this::doTest);
         }
 
         @TestMetadata("FakeOverrideForClasses.kt")
         public void testFakeOverrideForClasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideForClasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideForClasses.kt", this::doTest);
         }
 
         @TestMetadata("FakeOverrideFun.kt")
         public void testFakeOverrideFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideFun.kt", this::doTest);
         }
 
         @TestMetadata("FakeOverrideFunWithMostRelevantImplementation.kt")
         public void testFakeOverrideFunWithMostRelevantImplementation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideFunWithMostRelevantImplementation.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideFunWithMostRelevantImplementation.kt", this::doTest);
         }
 
         @TestMetadata("FakeOverrideProperty.kt")
         public void testFakeOverrideProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideProperty.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideProperty.kt", this::doTest);
         }
 
         @TestMetadata("FakeOverrideToStringInTrait.kt")
         public void testFakeOverrideToStringInTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideToStringInTrait.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverrideToStringInTrait.kt", this::doTest);
         }
 
         @TestMetadata("FakeOverridesForTraitFunWithImpl.kt")
         public void testFakeOverridesForTraitFunWithImpl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverridesForTraitFunWithImpl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/FakeOverridesForTraitFunWithImpl.kt", this::doTest);
         }
 
         @TestMetadata("NavigateToSeveralSuperElements.kt")
         public void testNavigateToSeveralSuperElements() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/NavigateToSeveralSuperElements.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/NavigateToSeveralSuperElements.kt", this::doTest);
         }
 
         @TestMetadata("NoOverridingMarkerOnDefaultTraitImpl.kt")
         public void testNoOverridingMarkerOnDefaultTraitImpl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/NoOverridingMarkerOnDefaultTraitImpl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/NoOverridingMarkerOnDefaultTraitImpl.kt", this::doTest);
         }
 
         @TestMetadata("Overloads.kt")
         public void testOverloads() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/Overloads.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/Overloads.kt", this::doTest);
         }
 
         @TestMetadata("OverrideFunction.kt")
         public void testOverrideFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/OverrideFunction.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/OverrideFunction.kt", this::doTest);
         }
 
         @TestMetadata("OverrideIconForOverloadMethodBug.kt")
         public void testOverrideIconForOverloadMethodBug() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/OverrideIconForOverloadMethodBug.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/OverrideIconForOverloadMethodBug.kt", this::doTest);
         }
 
         @TestMetadata("OverrideMemberOfAbstractClass.kt")
         public void testOverrideMemberOfAbstractClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/OverrideMemberOfAbstractClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/OverrideMemberOfAbstractClass.kt", this::doTest);
         }
 
         @TestMetadata("OverridenTraitDeclarations.kt")
         public void testOverridenTraitDeclarations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/OverridenTraitDeclarations.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/OverridenTraitDeclarations.kt", this::doTest);
         }
 
         @TestMetadata("OverridingTooltipOnDefaultTraitImpl.kt")
         public void testOverridingTooltipOnDefaultTraitImpl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/OverridingTooltipOnDefaultTraitImpl.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/OverridingTooltipOnDefaultTraitImpl.kt", this::doTest);
         }
 
         @TestMetadata("PrimaryConstructorOpen.kt")
         public void testPrimaryConstructorOpen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/PrimaryConstructorOpen.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/PrimaryConstructorOpen.kt", this::doTest);
         }
 
         @TestMetadata("PrimaryConstructorOverride.kt")
         public void testPrimaryConstructorOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/PrimaryConstructorOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/PrimaryConstructorOverride.kt", this::doTest);
         }
 
         @TestMetadata("PropertyOverride.kt")
         public void testPropertyOverride() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/PropertyOverride.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/PropertyOverride.kt", this::doTest);
         }
 
         @TestMetadata("SealedClass.kt")
         public void testSealedClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/SealedClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/SealedClass.kt", this::doTest);
         }
 
         @TestMetadata("ToStringInTrait.kt")
         public void testToStringInTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/ToStringInTrait.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/ToStringInTrait.kt", this::doTest);
         }
 
         @TestMetadata("Trait.kt")
         public void testTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/overrideImplement/Trait.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/overrideImplement/Trait.kt", this::doTest);
         }
     }
 
@@ -221,110 +193,92 @@ public class LineMarkersTestGenerated extends AbstractLineMarkersTest {
 
         @TestMetadata("companionInvoke.kt")
         public void testCompanionInvoke() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/companionInvoke.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/companionInvoke.kt", this::doTest);
         }
 
         @TestMetadata("conventionCall.kt")
         public void testConventionCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/conventionCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/conventionCall.kt", this::doTest);
         }
 
         @TestMetadata("differentImplicitReceiver.kt")
         public void testDifferentImplicitReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/differentImplicitReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/differentImplicitReceiver.kt", this::doTest);
         }
 
         @TestMetadata("extension.kt")
         public void testExtension() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/extension.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/extension.kt", this::doTest);
         }
 
         @TestMetadata("generic.kt")
         public void testGeneric() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/generic.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/generic.kt", this::doTest);
         }
 
         @TestMetadata("inInlinedFunctionExpression.kt")
         public void testInInlinedFunctionExpression() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/inInlinedFunctionExpression.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/inInlinedFunctionExpression.kt", this::doTest);
         }
 
         @TestMetadata("inInlinedLambda.kt")
         public void testInInlinedLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/inInlinedLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/inInlinedLambda.kt", this::doTest);
         }
 
         @TestMetadata("inLambda.kt")
         public void testInLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/inLambda.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/inLambda.kt", this::doTest);
         }
 
         @TestMetadata("localClass.kt")
         public void testLocalClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/localClass.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/localClass.kt", this::doTest);
         }
 
         @TestMetadata("localFun.kt")
         public void testLocalFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/localFun.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/localFun.kt", this::doTest);
         }
 
         @TestMetadata("methodReference.kt")
         public void testMethodReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/methodReference.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/methodReference.kt", this::doTest);
         }
 
         @TestMetadata("nested.kt")
         public void testNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/nested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/nested.kt", this::doTest);
         }
 
         @TestMetadata("otherQualifier.kt")
         public void testOtherQualifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/otherQualifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/otherQualifier.kt", this::doTest);
         }
 
         @TestMetadata("propertyAccessors.kt")
         public void testPropertyAccessors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/propertyAccessors.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/propertyAccessors.kt", this::doTest);
         }
 
         @TestMetadata("severalCallsInOneLine.kt")
         public void testSeveralCallsInOneLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/severalCallsInOneLine.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/severalCallsInOneLine.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/simple.kt", this::doTest);
         }
 
         @TestMetadata("superQualifier.kt")
         public void testSuperQualifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/superQualifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/superQualifier.kt", this::doTest);
         }
 
         @TestMetadata("thisQualifier.kt")
         public void testThisQualifier() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/recursiveCall/thisQualifier.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/recursiveCall/thisQualifier.kt", this::doTest);
         }
     }
 
@@ -338,14 +292,12 @@ public class LineMarkersTestGenerated extends AbstractLineMarkersTest {
 
         @TestMetadata("jUnitTestClassWithSubclasses.kt")
         public void testJUnitTestClassWithSubclasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/runMarkers/jUnitTestClassWithSubclasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/runMarkers/jUnitTestClassWithSubclasses.kt", this::doTest);
         }
 
         @TestMetadata("testNGTestClassWithSubclasses.kt")
         public void testTestNGTestClassWithSubclasses() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/runMarkers/testNGTestClassWithSubclasses.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/runMarkers/testNGTestClassWithSubclasses.kt", this::doTest);
         }
     }
 
@@ -359,14 +311,12 @@ public class LineMarkersTestGenerated extends AbstractLineMarkersTest {
 
         @TestMetadata("suspendCall.kt")
         public void testSuspendCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/suspendCall/suspendCall.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/suspendCall/suspendCall.kt", this::doTest);
         }
 
         @TestMetadata("suspendIteration.kt")
         public void testSuspendIteration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/lineMarker/suspendCall/suspendIteration.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/lineMarker/suspendCall/suspendIteration.kt", this::doTest);
         }
     }
 }

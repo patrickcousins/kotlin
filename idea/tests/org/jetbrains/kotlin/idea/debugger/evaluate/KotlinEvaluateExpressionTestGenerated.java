@@ -25,14 +25,12 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
     public static class SingleBreakpoint extends AbstractKotlinEvaluateExpressionTest {
         @TestMetadata("abstractFunCall.kt")
         public void testAbstractFunCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/abstractFunCall.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/abstractFunCall.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("accessToOverridenPropertyWithBackingField.kt")
         public void testAccessToOverridenPropertyWithBackingField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/accessToOverridenPropertyWithBackingField.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/accessToOverridenPropertyWithBackingField.kt", this::doSingleBreakpointTest);
         }
 
         public void testAllFilesPresentInSingleBreakpoint() throws Exception {
@@ -41,356 +39,297 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
         @TestMetadata("annotationValue.kt")
         public void testAnnotationValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/annotationValue.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/annotationValue.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("anonymousObjects.kt")
         public void testAnonymousObjects() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/anonymousObjects.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/anonymousObjects.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("arrays.kt")
         public void testArrays() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/arrays.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/arrays.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("boxParam.kt")
         public void testBoxParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/boxParam.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/boxParam.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("boxReturnValue.kt")
         public void testBoxReturnValue() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/boxReturnValue.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/boxReturnValue.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("breakpointInInlineFun.kt")
         public void testBreakpointInInlineFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/breakpointInInlineFun.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/breakpointInInlineFun.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("callableBug.kt")
         public void testCallableBug() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/callableBug.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/callableBug.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("classFromAnotherPackage.kt")
         public void testClassFromAnotherPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/classFromAnotherPackage.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/classFromAnotherPackage.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("classObjectVal.kt")
         public void testClassObjectVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/classObjectVal.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/classObjectVal.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("collections.kt")
         public void testCollections() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/collections.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/collections.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("delegatedPropertyInOtherFile.kt")
         public void testDelegatedPropertyInOtherFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/delegatedPropertyInOtherFile.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/delegatedPropertyInOtherFile.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("dependentOnFile.kt")
         public void testDependentOnFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/dependentOnFile.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/dependentOnFile.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("doubles.kt")
         public void testDoubles() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/doubles.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/doubles.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("enums.kt")
         public void testEnums() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/enums.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/enums.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("errors.kt")
         public void testErrors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/errors.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/errors.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("extractLocalVariables.kt")
         public void testExtractLocalVariables() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extractLocalVariables.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extractLocalVariables.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("extractThis.kt")
         public void testExtractThis() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extractThis.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extractThis.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("extractThisInTrait.kt")
         public void testExtractThisInTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extractThisInTrait.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extractThisInTrait.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("extractVariablesFromCall.kt")
         public void testExtractVariablesFromCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extractVariablesFromCall.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extractVariablesFromCall.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("fileWithError.kt")
         public void testFileWithError() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/fileWithError.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/fileWithError.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("funFromSuperClass.kt")
         public void testFunFromSuperClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/funFromSuperClass.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/funFromSuperClass.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("genericCrossinlineArgument.kt")
         public void testGenericCrossinlineArgument() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/genericCrossinlineArgument.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/genericCrossinlineArgument.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("imports.kt")
         public void testImports() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/imports.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/imports.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("importsLambdaContext.kt")
         public void testImportsLambdaContext() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/importsLambdaContext.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/importsLambdaContext.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("inlineFunInMultiFilePackage.kt")
         public void testInlineFunInMultiFilePackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/inlineFunInMultiFilePackage.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/inlineFunInMultiFilePackage.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("inlineFunction.kt")
         public void testInlineFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/inlineFunction.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/inlineFunction.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("inlineFunctionBreakpointAnotherFile.kt")
         public void testInlineFunctionBreakpointAnotherFile() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/inlineFunctionBreakpointAnotherFile.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/inlineFunctionBreakpointAnotherFile.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("inlineFunctionBreakpointVariants.kt")
         public void testInlineFunctionBreakpointVariants() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/inlineFunctionBreakpointVariants.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/inlineFunctionBreakpointVariants.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("innerClass.kt")
         public void testInnerClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/innerClass.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/innerClass.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("insertInBlock.kt")
         public void testInsertInBlock() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/insertInBlock.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/insertInBlock.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("internalFunctionEvaluate.kt")
         public void testInternalFunctionEvaluate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/internalFunctionEvaluate.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/internalFunctionEvaluate.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("internalProperty.kt")
         public void testInternalProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/internalProperty.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/internalProperty.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("kt12206BasePropertyWithoutBackingField.kt")
         public void testKt12206BasePropertyWithoutBackingField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/kt12206BasePropertyWithoutBackingField.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/kt12206BasePropertyWithoutBackingField.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("kt17514.kt")
         public void testKt17514() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/kt17514.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/kt17514.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("kt5554OnlyIntsShouldBeCoerced.kt")
         public void testKt5554OnlyIntsShouldBeCoerced() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/kt5554OnlyIntsShouldBeCoerced.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/kt5554OnlyIntsShouldBeCoerced.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("kt7046localVarInInline.kt")
         public void testKt7046localVarInInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/kt7046localVarInInline.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/kt7046localVarInInline.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("localClass.kt")
         public void testLocalClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/localClass.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/localClass.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("localVariables.kt")
         public void testLocalVariables() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/localVariables.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/localVariables.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("methodWithBreakpoint.kt")
         public void testMethodWithBreakpoint() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/methodWithBreakpoint.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/methodWithBreakpoint.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("multilineExpressionAtBreakpoint.kt")
         public void testMultilineExpressionAtBreakpoint() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/multilineExpressionAtBreakpoint.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/multilineExpressionAtBreakpoint.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("nestedInlineArguments.kt")
         public void testNestedInlineArguments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/nestedInlineArguments.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/nestedInlineArguments.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("onClassHeader.kt")
         public void testOnClassHeader() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/onClassHeader.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/onClassHeader.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("onGetter.kt")
         public void testOnGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/onGetter.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/onGetter.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("onObjectHeader.kt")
         public void testOnObjectHeader() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/onObjectHeader.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/onObjectHeader.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("package.kt")
         public void testPackage() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/package.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/package.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("parametersOfInlineFun.kt")
         public void testParametersOfInlineFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/parametersOfInlineFun.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/parametersOfInlineFun.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("parametersOfInlineFunSeveralOnLine.kt")
         public void testParametersOfInlineFunSeveralOnLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/parametersOfInlineFunSeveralOnLine.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/parametersOfInlineFunSeveralOnLine.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("privateClass.kt")
         public void testPrivateClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/privateClass.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/privateClass.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("privateMember.kt")
         public void testPrivateMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/privateMember.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/privateMember.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("privatePropertyWithExplicitDefaultGetter.kt")
         public void testPrivatePropertyWithExplicitDefaultGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/privatePropertyWithExplicitDefaultGetter.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/privatePropertyWithExplicitDefaultGetter.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("protectedMember.kt")
         public void testProtectedMember() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/protectedMember.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/protectedMember.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("rawTypeskt11831.kt")
         public void testRawTypeskt11831() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/rawTypeskt11831.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/rawTypeskt11831.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/simple.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/simple.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("stdlib.kt")
         public void testStdlib() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/stdlib.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/stdlib.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("typeParameterRef.kt")
         public void testTypeParameterRef() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/typeParameterRef.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/typeParameterRef.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("unboxParam.kt")
         public void testUnboxParam() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/unboxParam.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/unboxParam.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("unsafeCall.kt")
         public void testUnsafeCall() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/unsafeCall.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/unsafeCall.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("vars.kt")
         public void testVars() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/vars.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/vars.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata(".kt.kt")
         public void test_kt() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/.kt.kt");
-            doSingleBreakpointTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/.kt.kt", this::doSingleBreakpointTest);
         }
 
         @TestMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator")
@@ -403,68 +342,57 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
             @TestMetadata("ceAnonymousObject.kt")
             public void testCeAnonymousObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceAnonymousObject.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceAnonymousObject.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceAnonymousObjectCapturedInClosure.kt")
             public void testCeAnonymousObjectCapturedInClosure() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceAnonymousObjectCapturedInClosure.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceAnonymousObjectCapturedInClosure.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceAnonymousObjectThisAsReceiver.kt")
             public void testCeAnonymousObjectThisAsReceiver() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceAnonymousObjectThisAsReceiver.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceAnonymousObjectThisAsReceiver.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceLambda.kt")
             public void testCeLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceLambda.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceLambda.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceLocalClass.kt")
             public void testCeLocalClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceLocalClass.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceLocalClass.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceLocalClassMembers.kt")
             public void testCeLocalClassMembers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceLocalClassMembers.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceLocalClassMembers.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceLocalClassWithSuperClass.kt")
             public void testCeLocalClassWithSuperClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceLocalClassWithSuperClass.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceLocalClassWithSuperClass.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceMembers.kt")
             public void testCeMembers() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceMembers.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceMembers.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceObject.kt")
             public void testCeObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceObject.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceObject.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceSeveralLambdas.kt")
             public void testCeSeveralLambdas() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceSeveralLambdas.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceSeveralLambdas.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ceSuperAccess.kt")
             public void testCeSuperAccess() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceSuperAccess.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/compilingEvaluator/ceSuperAccess.kt", this::doSingleBreakpointTest);
             }
         }
 
@@ -478,20 +406,17 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
             @TestMetadata("createExpressionCastToBuiltIn.kt")
             public void testCreateExpressionCastToBuiltIn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/createExpression/createExpressionCastToBuiltIn.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/createExpression/createExpressionCastToBuiltIn.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("createExpressionSimple.kt")
             public void testCreateExpressionSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/createExpression/createExpressionSimple.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/createExpression/createExpressionSimple.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("createExpressionWithArray.kt")
             public void testCreateExpressionWithArray() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/createExpression/createExpressionWithArray.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/createExpression/createExpressionWithArray.kt", this::doSingleBreakpointTest);
             }
         }
 
@@ -505,68 +430,57 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
             @TestMetadata("evBreakpointOnPropertyDeclaration.kt")
             public void testEvBreakpointOnPropertyDeclaration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evBreakpointOnPropertyDeclaration.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evBreakpointOnPropertyDeclaration.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evDelegatedProperty.kt")
             public void testEvDelegatedProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evDelegatedProperty.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evDelegatedProperty.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evDuplicateItems.kt")
             public void testEvDuplicateItems() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evDuplicateItems.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evDuplicateItems.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evFinalProperty.kt")
             public void testEvFinalProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evFinalProperty.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evFinalProperty.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evFunctionDeclaration.kt")
             public void testEvFunctionDeclaration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evFunctionDeclaration.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evFunctionDeclaration.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evLineRange.kt")
             public void testEvLineRange() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evLineRange.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evLineRange.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evProperty.kt")
             public void testEvProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evProperty.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evProperty.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evPropertyRefExpr.kt")
             public void testEvPropertyRefExpr() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evPropertyRefExpr.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evPropertyRefExpr.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evSkipAnonymousObject.kt")
             public void testEvSkipAnonymousObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evSkipAnonymousObject.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evSkipAnonymousObject.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evSkipLambda.kt")
             public void testEvSkipLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evSkipLambda.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evSkipLambda.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("evSkipLocalClass.kt")
             public void testEvSkipLocalClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evSkipLocalClass.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/extraVariables/evSkipLocalClass.kt", this::doSingleBreakpointTest);
             }
         }
 
@@ -580,152 +494,127 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
             @TestMetadata("catchVariable.kt")
             public void testCatchVariable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/catchVariable.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/catchVariable.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("delegatedPropertyInClass.kt")
             public void testDelegatedPropertyInClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/delegatedPropertyInClass.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/delegatedPropertyInClass.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("delegatedPropertyInClassWithToString.kt")
             public void testDelegatedPropertyInClassWithToString() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/delegatedPropertyInClassWithToString.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/delegatedPropertyInClassWithToString.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("delegatedPropertyInClassWoRenderer.kt")
             public void testDelegatedPropertyInClassWoRenderer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/delegatedPropertyInClassWoRenderer.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/delegatedPropertyInClassWoRenderer.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameAnonymousObject.kt")
             public void testFrameAnonymousObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameAnonymousObject.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameAnonymousObject.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameClassObject.kt")
             public void testFrameClassObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameClassObject.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameClassObject.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameClosingBracket.kt")
             public void testFrameClosingBracket() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameClosingBracket.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameClosingBracket.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameExtFunExtFun.kt")
             public void testFrameExtFunExtFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameExtFunExtFun.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameExtFunExtFun.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameExtensionFun.kt")
             public void testFrameExtensionFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameExtensionFun.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameExtensionFun.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameInlineArgument.kt")
             public void testFrameInlineArgument() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInlineArgument.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInlineArgument.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameInlineArgumentInsideInlineFun.kt")
             public void testFrameInlineArgumentInsideInlineFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInlineArgumentInsideInlineFun.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInlineArgumentInsideInlineFun.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameInlineFun.kt")
             public void testFrameInlineFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInlineFun.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInlineFun.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameInlineFunCallInsideInlineFun.kt")
             public void testFrameInlineFunCallInsideInlineFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInlineFunCallInsideInlineFun.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInlineFunCallInsideInlineFun.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameInnerClass.kt")
             public void testFrameInnerClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInnerClass.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInnerClass.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameInnerLambda.kt")
             public void testFrameInnerLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInnerLambda.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameInnerLambda.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameLambda.kt")
             public void testFrameLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameLambda.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameLambda.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameLambdaNotUsed.kt")
             public void testFrameLambdaNotUsed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameLambdaNotUsed.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameLambdaNotUsed.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameLocalVariable.kt")
             public void testFrameLocalVariable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameLocalVariable.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameLocalVariable.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameObject.kt")
             public void testFrameObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameObject.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameObject.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameSharedVar.kt")
             public void testFrameSharedVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameSharedVar.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameSharedVar.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameSharedVarLocalVar.kt")
             public void testFrameSharedVarLocalVar() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameSharedVarLocalVar.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameSharedVarLocalVar.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameSimple.kt")
             public void testFrameSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameSimple.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameSimple.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameThis0.kt")
             public void testFrameThis0() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameThis0.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameThis0.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameThis0Ext.kt")
             public void testFrameThis0Ext() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameThis0Ext.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameThis0Ext.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("frameThis0This0.kt")
             public void testFrameThis0This0() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameThis0This0.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/frame/frameThis0This0.kt", this::doSingleBreakpointTest);
             }
         }
 
@@ -739,38 +628,32 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
             @TestMetadata("jcBlock.kt")
             public void testJcBlock() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcBlock.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcBlock.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("jcImports.kt")
             public void testJcImports() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcImports.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcImports.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("jcLocalVariable.kt")
             public void testJcLocalVariable() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcLocalVariable.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcLocalVariable.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("jcMarkedObject.kt")
             public void testJcMarkedObject() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcMarkedObject.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcMarkedObject.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("jcProperty.kt")
             public void testJcProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcProperty.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcProperty.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("jcSimple.kt")
             public void testJcSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcSimple.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/javaContext/jcSimple.kt", this::doSingleBreakpointTest);
             }
         }
 
@@ -784,32 +667,27 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
             @TestMetadata("lCallOnLabeledObj.kt")
             public void testLCallOnLabeledObj() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/lCallOnLabeledObj.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/lCallOnLabeledObj.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("lIdentifier.kt")
             public void testLIdentifier() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/lIdentifier.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/lIdentifier.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("lSeveralLabels.kt")
             public void testLSeveralLabels() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/lSeveralLabels.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/lSeveralLabels.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("lSimple.kt")
             public void testLSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/lSimple.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/lSimple.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("ldifferentTypes.kt")
             public void testLdifferentTypes() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/ldifferentTypes.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/labels/ldifferentTypes.kt", this::doSingleBreakpointTest);
             }
         }
 
@@ -823,62 +701,52 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
             @TestMetadata("destructuringParam.kt")
             public void testDestructuringParam() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/destructuringParam.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/destructuringParam.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("inlineFunctionalExpression.kt")
             public void testInlineFunctionalExpression() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/inlineFunctionalExpression.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/inlineFunctionalExpression.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("inlineLambda.kt")
             public void testInlineLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/inlineLambda.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/inlineLambda.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("lambdaOnReturn.kt")
             public void testLambdaOnReturn() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/lambdaOnReturn.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/lambdaOnReturn.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("lambdaOnSecondLine.kt")
             public void testLambdaOnSecondLine() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/lambdaOnSecondLine.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/lambdaOnSecondLine.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("oneLineFunctionalExpression.kt")
             public void testOneLineFunctionalExpression() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/oneLineFunctionalExpression.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/oneLineFunctionalExpression.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("oneLineLambda.kt")
             public void testOneLineLambda() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/oneLineLambda.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/oneLineLambda.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("twoLambdasOnOneLineFirst.kt")
             public void testTwoLambdasOnOneLineFirst() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/twoLambdasOnOneLineFirst.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/twoLambdasOnOneLineFirst.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("twoLambdasOnOneLineSecond.kt")
             public void testTwoLambdasOnOneLineSecond() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/twoLambdasOnOneLineSecond.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/twoLambdasOnOneLineSecond.kt", this::doSingleBreakpointTest);
             }
 
             @TestMetadata("underscoreNames.kt")
             public void testUnderscoreNames() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/underscoreNames.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/lambdas/underscoreNames.kt", this::doSingleBreakpointTest);
             }
         }
 
@@ -892,8 +760,7 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
             @TestMetadata("toStringRenderer.kt")
             public void testToStringRenderer() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/renderer/toStringRenderer.kt");
-                doSingleBreakpointTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/singleBreakpoint/renderer/toStringRenderer.kt", this::doSingleBreakpointTest);
             }
         }
     }
@@ -908,122 +775,102 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
         @TestMetadata("clearCache.kt")
         public void testClearCache() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/clearCache.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/clearCache.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("constructors.kt")
         public void testConstructors() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/constructors.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/constructors.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("exceptions.kt")
         public void testExceptions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/exceptions.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/exceptions.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("extensionMemberFunction.kt")
         public void testExtensionMemberFunction() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/extensionMemberFunction.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/extensionMemberFunction.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("extensionMemberFunctionInObject.kt")
         public void testExtensionMemberFunctionInObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/extensionMemberFunctionInObject.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/extensionMemberFunctionInObject.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("extensionMemberProperty.kt")
         public void testExtensionMemberProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/extensionMemberProperty.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/extensionMemberProperty.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("funFromOuterClassInLamdba.kt")
         public void testFunFromOuterClassInLamdba() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/funFromOuterClassInLamdba.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/funFromOuterClassInLamdba.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("initializer.kt")
         public void testInitializer() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/initializer.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/initializer.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("invisibleDeclarations.kt")
         public void testInvisibleDeclarations() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/invisibleDeclarations.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/invisibleDeclarations.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("isInsideInlineLambda.kt")
         public void testIsInsideInlineLambda() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/isInsideInlineLambda.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/isInsideInlineLambda.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("localFun.kt")
         public void testLocalFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/localFun.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/localFun.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("multipleBreakpointsAtLine.kt")
         public void testMultipleBreakpointsAtLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/multipleBreakpointsAtLine.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/multipleBreakpointsAtLine.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("privateMembersPriority.kt")
         public void testPrivateMembersPriority() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/privateMembersPriority.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/privateMembersPriority.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("remappedParameterInInline.kt")
         public void testRemappedParameterInInline() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/remappedParameterInInline.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/remappedParameterInInline.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("smartcasts.kt")
         public void testSmartcasts() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/smartcasts.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/smartcasts.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("whenEntry.kt")
         public void testWhenEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/whenEntry.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/whenEntry.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("withoutBodyFunctions.kt")
         public void testWithoutBodyFunctions() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/withoutBodyFunctions.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/withoutBodyFunctions.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("withoutBodyProperties.kt")
         public void testWithoutBodyProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/withoutBodyProperties.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/withoutBodyProperties.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("withoutBodyProperties2.kt")
         public void testWithoutBodyProperties2() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/withoutBodyProperties2.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/withoutBodyProperties2.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("withoutBodyTypeParameters.kt")
         public void testWithoutBodyTypeParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/withoutBodyTypeParameters.kt");
-            doMultipleBreakpointsTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/withoutBodyTypeParameters.kt", this::doMultipleBreakpointsTest);
         }
 
         @TestMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/library")
@@ -1036,14 +883,12 @@ public class KotlinEvaluateExpressionTestGenerated extends AbstractKotlinEvaluat
 
             @TestMetadata("customLibClassName.kt")
             public void testCustomLibClassName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/library/customLibClassName.kt");
-                doMultipleBreakpointsTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/library/customLibClassName.kt", this::doMultipleBreakpointsTest);
             }
 
             @TestMetadata("localFunInLibrary.kt")
             public void testLocalFunInLibrary() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/library/localFunInLibrary.kt");
-                doMultipleBreakpointsTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/debugger/tinyApp/src/evaluate/multipleBreakpoints/library/localFunInLibrary.kt", this::doMultipleBreakpointsTest);
             }
         }
     }

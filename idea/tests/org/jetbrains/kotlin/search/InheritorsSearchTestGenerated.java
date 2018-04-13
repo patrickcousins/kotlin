@@ -27,43 +27,36 @@ public class InheritorsSearchTestGenerated extends AbstractInheritorsSearchTest 
 
     @TestMetadata("annotationClass.kt")
     public void testAnnotationClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/inheritance/annotationClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/inheritance/annotationClass.kt", this::doTest);
     }
 
     @TestMetadata("enum.kt")
     public void testEnum() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/inheritance/enum.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/inheritance/enum.kt", this::doTest);
     }
 
     @TestMetadata("interfaces.kt")
     public void testInterfaces() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/inheritance/interfaces.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/inheritance/interfaces.kt", this::doTest);
     }
 
     @TestMetadata("object.kt")
     public void testObject() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/inheritance/object.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/inheritance/object.kt", this::doTest);
     }
 
     @TestMetadata("simpleClass.kt")
     public void testSimpleClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/inheritance/simpleClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/inheritance/simpleClass.kt", this::doTest);
     }
 
     @TestMetadata("testInheritanceFromJavaClass.kt")
     public void testTestInheritanceFromJavaClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/inheritance/testInheritanceFromJavaClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/inheritance/testInheritanceFromJavaClass.kt", this::doTest);
     }
 
     @TestMetadata("testInheritanceFromKotlinClass.kt")
     public void testTestInheritanceFromKotlinClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/search/inheritance/testInheritanceFromKotlinClass.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/search/inheritance/testInheritanceFromKotlinClass.kt", this::doTest);
     }
 }

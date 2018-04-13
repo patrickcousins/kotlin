@@ -27,121 +27,101 @@ public class AndroidResourceIntentionTestGenerated extends AbstractAndroidResour
 
     @TestMetadata("createColorValueResource/alreadyExists/alreadyExists.test")
     public void testCreateColorValueResource_alreadyExists_AlreadyExists() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/createColorValueResource/alreadyExists/alreadyExists.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/createColorValueResource/alreadyExists/alreadyExists.test", this::doTest);
     }
 
     @TestMetadata("createColorValueResource/simpleFunction/simpleFunction.test")
     public void testCreateColorValueResource_simpleFunction_SimpleFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/createColorValueResource/simpleFunction/simpleFunction.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/createColorValueResource/simpleFunction/simpleFunction.test", this::doTest);
     }
 
     @TestMetadata("createLayoutResourceFile/alreadyExists/alreadyExists.test")
     public void testCreateLayoutResourceFile_alreadyExists_AlreadyExists() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/createLayoutResourceFile/alreadyExists/alreadyExists.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/createLayoutResourceFile/alreadyExists/alreadyExists.test", this::doTest);
     }
 
     @TestMetadata("createLayoutResourceFile/simpleFunction/simpleFunction.test")
     public void testCreateLayoutResourceFile_simpleFunction_SimpleFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/createLayoutResourceFile/simpleFunction/simpleFunction.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/createLayoutResourceFile/simpleFunction/simpleFunction.test", this::doTest);
     }
 
     @TestMetadata("createStringValueResource/alreadyExists/alreadyExists.test")
     public void testCreateStringValueResource_alreadyExists_AlreadyExists() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/createStringValueResource/alreadyExists/alreadyExists.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/createStringValueResource/alreadyExists/alreadyExists.test", this::doTest);
     }
 
     @TestMetadata("createStringValueResource/simpleFunction/simpleFunction.test")
     public void testCreateStringValueResource_simpleFunction_SimpleFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/createStringValueResource/simpleFunction/simpleFunction.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/createStringValueResource/simpleFunction/simpleFunction.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/activityExtension/activityExtension.test")
     public void testKotlinAndroidAddStringResource_activityExtension_ActivityExtension() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/activityExtension/activityExtension.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/activityExtension/activityExtension.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/activityMethod/activityMethod.test")
     public void testKotlinAndroidAddStringResource_activityMethod_ActivityMethod() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/activityMethod/activityMethod.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/activityMethod/activityMethod.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/classInActivity/classInActivity.test")
     public void testKotlinAndroidAddStringResource_classInActivity_ClassInActivity() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/classInActivity/classInActivity.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/classInActivity/classInActivity.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/extensionLambda/extensionLambda.test")
     public void testKotlinAndroidAddStringResource_extensionLambda_ExtensionLambda() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/extensionLambda/extensionLambda.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/extensionLambda/extensionLambda.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/function/function.test")
     public void testKotlinAndroidAddStringResource_function_Function() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/function/function.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/function/function.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/genericContextExtensionFunction/genericContextExtensionFunction.test")
     public void testKotlinAndroidAddStringResource_genericContextExtensionFunction_GenericContextExtensionFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/genericContextExtensionFunction/genericContextExtensionFunction.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/genericContextExtensionFunction/genericContextExtensionFunction.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/innerClassInActivity/innerClassInActivity.test")
     public void testKotlinAndroidAddStringResource_innerClassInActivity_InnerClassInActivity() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/innerClassInActivity/innerClassInActivity.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/innerClassInActivity/innerClassInActivity.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/innerViewInActivity/innerViewInActivity.test")
     public void testKotlinAndroidAddStringResource_innerViewInActivity_InnerViewInActivity() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/innerViewInActivity/innerViewInActivity.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/innerViewInActivity/innerViewInActivity.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/objectInActivity/objectInActivity.test")
     public void testKotlinAndroidAddStringResource_objectInActivity_ObjectInActivity() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/objectInActivity/objectInActivity.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/objectInActivity/objectInActivity.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/objectInActivityMethod/objectInActivityMethod.test")
     public void testKotlinAndroidAddStringResource_objectInActivityMethod_ObjectInActivityMethod() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/objectInActivityMethod/objectInActivityMethod.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/objectInActivityMethod/objectInActivityMethod.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/objectInFunction/objectInFunction.test")
     public void testKotlinAndroidAddStringResource_objectInFunction_ObjectInFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/objectInFunction/objectInFunction.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/objectInFunction/objectInFunction.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/stringTemplate/stringTemplate.test")
     public void testKotlinAndroidAddStringResource_stringTemplate_StringTemplate() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/stringTemplate/stringTemplate.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/stringTemplate/stringTemplate.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/viewExtensionActivityMethod/viewExtensionActivityMethod.test")
     public void testKotlinAndroidAddStringResource_viewExtensionActivityMethod_ViewExtensionActivityMethod() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/viewExtensionActivityMethod/viewExtensionActivityMethod.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/viewExtensionActivityMethod/viewExtensionActivityMethod.test", this::doTest);
     }
 
     @TestMetadata("kotlinAndroidAddStringResource/viewMethod/viewMethod.test")
     public void testKotlinAndroidAddStringResource_viewMethod_ViewMethod() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/viewMethod/viewMethod.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/android/resourceIntention/kotlinAndroidAddStringResource/viewMethod/viewMethod.test", this::doTest);
     }
 }

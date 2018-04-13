@@ -27,13 +27,11 @@ public class KDocHighlightingTestGenerated extends AbstractKDocHighlightingTest 
 
     @TestMetadata("MissingDocumentation.kt")
     public void testMissingDocumentation() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/highlighting/MissingDocumentation.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/highlighting/MissingDocumentation.kt", this::doTest);
     }
 
     @TestMetadata("UnresolvedReference.kt")
     public void testUnresolvedReference() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/kdoc/highlighting/UnresolvedReference.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/kdoc/highlighting/UnresolvedReference.kt", this::doTest);
     }
 }

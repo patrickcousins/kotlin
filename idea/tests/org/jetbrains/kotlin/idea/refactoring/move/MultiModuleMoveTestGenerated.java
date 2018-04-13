@@ -27,79 +27,66 @@ public class MultiModuleMoveTestGenerated extends AbstractMultiModuleMoveTest {
 
     @TestMetadata("moveDirectoryKeepPackageDirective/moveDirectoryKeepPackageDirective.test")
     public void testMoveDirectoryKeepPackageDirective_MoveDirectoryKeepPackageDirective() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveDirectoryKeepPackageDirective/moveDirectoryKeepPackageDirective.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveDirectoryKeepPackageDirective/moveDirectoryKeepPackageDirective.test", this::doTest);
     }
 
     @TestMetadata("moveDirectoryToUnrelatedModuleConflict/moveDirectoryToUnrelatedModuleConflict.test")
     public void testMoveDirectoryToUnrelatedModuleConflict_MoveDirectoryToUnrelatedModuleConflict() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveDirectoryToUnrelatedModuleConflict/moveDirectoryToUnrelatedModuleConflict.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveDirectoryToUnrelatedModuleConflict/moveDirectoryToUnrelatedModuleConflict.test", this::doTest);
     }
 
     @TestMetadata("moveFileToNonSrc/moveFileToNonSrc.test")
     public void testMoveFileToNonSrc_MoveFileToNonSrc() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveFileToNonSrc/moveFileToNonSrc.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveFileToNonSrc/moveFileToNonSrc.test", this::doTest);
     }
 
     @TestMetadata("moveFileWithDeclarationsToUnrelatedModuleConflict/moveFileWithDeclarationsToUnrelatedModuleConflict.test")
     public void testMoveFileWithDeclarationsToUnrelatedModuleConflict_MoveFileWithDeclarationsToUnrelatedModuleConflict() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveFileWithDeclarationsToUnrelatedModuleConflict/moveFileWithDeclarationsToUnrelatedModuleConflict.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveFileWithDeclarationsToUnrelatedModuleConflict/moveFileWithDeclarationsToUnrelatedModuleConflict.test", this::doTest);
     }
 
     @TestMetadata("moveFromJsModuleToJvmModule/moveFromJsModuleToJvmModule.test")
     public void testMoveFromJsModuleToJvmModule_MoveFromJsModuleToJvmModule() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveFromJsModuleToJvmModule/moveFromJsModuleToJvmModule.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveFromJsModuleToJvmModule/moveFromJsModuleToJvmModule.test", this::doTest);
     }
 
     @TestMetadata("moveFromJvmModuleToJsModule/moveFromJvmModuleToJsModule.test")
     public void testMoveFromJvmModuleToJsModule_MoveFromJvmModuleToJsModule() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveFromJvmModuleToJsModule/moveFromJvmModuleToJsModule.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveFromJvmModuleToJsModule/moveFromJvmModuleToJsModule.test", this::doTest);
     }
 
     @TestMetadata("moveInternalToAnotherModule/moveInternalToAnotherModule.test")
     public void testMoveInternalToAnotherModule_MoveInternalToAnotherModule() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveInternalToAnotherModule/moveInternalToAnotherModule.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveInternalToAnotherModule/moveInternalToAnotherModule.test", this::doTest);
     }
 
     @TestMetadata("moveJdkDependentToJsModule/moveJdkDependentToJsModule.test")
     public void testMoveJdkDependentToJsModule_MoveJdkDependentToJsModule() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveJdkDependentToJsModule/moveJdkDependentToJsModule.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveJdkDependentToJsModule/moveJdkDependentToJsModule.test", this::doTest);
     }
 
     @TestMetadata("moveMultipleFilesToUnrelatedModuleConflict/moveMultipleFilesToUnrelatedModuleConflict.test")
     public void testMoveMultipleFilesToUnrelatedModuleConflict_MoveMultipleFilesToUnrelatedModuleConflict() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveMultipleFilesToUnrelatedModuleConflict/moveMultipleFilesToUnrelatedModuleConflict.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveMultipleFilesToUnrelatedModuleConflict/moveMultipleFilesToUnrelatedModuleConflict.test", this::doTest);
     }
 
     @TestMetadata("movePackageToUnrelatedModuleConflict/movePackageToUnrelatedModuleConflict.test")
     public void testMovePackageToUnrelatedModuleConflict_MovePackageToUnrelatedModuleConflict() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/movePackageToUnrelatedModuleConflict/movePackageToUnrelatedModuleConflict.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/movePackageToUnrelatedModuleConflict/movePackageToUnrelatedModuleConflict.test", this::doTest);
     }
 
     @TestMetadata("moveToModuleWithoutLibConflict/moveToModuleWithoutLibConflict.test")
     public void testMoveToModuleWithoutLibConflict_MoveToModuleWithoutLibConflict() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveToModuleWithoutLibConflict/moveToModuleWithoutLibConflict.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveToModuleWithoutLibConflict/moveToModuleWithoutLibConflict.test", this::doTest);
     }
 
     @TestMetadata("moveToUnrelatedModuleConflict/moveToUnrelatedModuleConflict.test")
     public void testMoveToUnrelatedModuleConflict_MoveToUnrelatedModuleConflict() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/moveToUnrelatedModuleConflict/moveToUnrelatedModuleConflict.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/moveToUnrelatedModuleConflict/moveToUnrelatedModuleConflict.test", this::doTest);
     }
 
     @TestMetadata("visibilityConflictInImport/visibilityConflictInImport.test")
     public void testVisibilityConflictInImport_VisibilityConflictInImport() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/refactoring/moveMultiModule/visibilityConflictInImport/visibilityConflictInImport.test");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/refactoring/moveMultiModule/visibilityConflictInImport/visibilityConflictInImport.test", this::doTest);
     }
 }

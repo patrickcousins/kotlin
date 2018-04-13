@@ -27,85 +27,71 @@ public class ParcelCheckerTestGenerated extends AbstractParcelCheckerTest {
 
     @TestMetadata("constructors.kt")
     public void testConstructors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/constructors.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/constructors.kt", this::doTest);
     }
 
     @TestMetadata("customCreator.kt")
     public void testCustomCreator() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/customCreator.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/customCreator.kt", this::doTest);
     }
 
     @TestMetadata("customParcelers.kt")
     public void testCustomParcelers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/customParcelers.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/customParcelers.kt", this::doTest);
     }
 
     @TestMetadata("customWriteToParcel.kt")
     public void testCustomWriteToParcel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/customWriteToParcel.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/customWriteToParcel.kt", this::doTest);
     }
 
     @TestMetadata("delegate.kt")
     public void testDelegate() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/delegate.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/delegate.kt", this::doTest);
     }
 
     @TestMetadata("emptyPrimaryConstructor.kt")
     public void testEmptyPrimaryConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/emptyPrimaryConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/emptyPrimaryConstructor.kt", this::doTest);
     }
 
     @TestMetadata("kt20062.kt")
     public void testKt20062() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/kt20062.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/kt20062.kt", this::doTest);
     }
 
     @TestMetadata("modality.kt")
     public void testModality() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/modality.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/modality.kt", this::doTest);
     }
 
     @TestMetadata("notMagicParcel.kt")
     public void testNotMagicParcel() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/notMagicParcel.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/notMagicParcel.kt", this::doTest);
     }
 
     @TestMetadata("properties.kt")
     public void testProperties() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/properties.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/properties.kt", this::doTest);
     }
 
     @TestMetadata("simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/simple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/simple.kt", this::doTest);
     }
 
     @TestMetadata("unsupportedType.kt")
     public void testUnsupportedType() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/unsupportedType.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/unsupportedType.kt", this::doTest);
     }
 
     @TestMetadata("withoutParcelableSupertype.kt")
     public void testWithoutParcelableSupertype() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/withoutParcelableSupertype.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/withoutParcelableSupertype.kt", this::doTest);
     }
 
     @TestMetadata("wrongAnnotationTarget.kt")
     public void testWrongAnnotationTarget() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/wrongAnnotationTarget.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-idea/testData/android/parcel/checker/wrongAnnotationTarget.kt", this::doTest);
     }
 }

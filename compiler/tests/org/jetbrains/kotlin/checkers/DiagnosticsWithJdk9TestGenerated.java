@@ -27,7 +27,6 @@ public class DiagnosticsWithJdk9TestGenerated extends AbstractDiagnosticsWithJdk
 
     @TestMetadata("kt11167.kt")
     public void testKt11167() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testsWithJava9/kt11167.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testsWithJava9/kt11167.kt", this::doTest);
     }
 }

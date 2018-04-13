@@ -27,43 +27,36 @@ public class TopLevelMembersInvocationTestGenerated extends AbstractTopLevelMemb
 
     @TestMetadata("extensionFunction")
     public void testExtensionFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/topLevelMemberInvocation/extensionFunction/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/extensionFunction/", this::doTest);
     }
 
     @TestMetadata("functionDifferentPackage")
     public void testFunctionDifferentPackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/topLevelMemberInvocation/functionDifferentPackage/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/functionDifferentPackage/", this::doTest);
     }
 
     @TestMetadata("functionInMultiFilePackage")
     public void testFunctionInMultiFilePackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/topLevelMemberInvocation/functionInMultiFilePackage/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/functionInMultiFilePackage/", this::doTest);
     }
 
     @TestMetadata("functionSamePackage")
     public void testFunctionSamePackage() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/topLevelMemberInvocation/functionSamePackage/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/functionSamePackage/", this::doTest);
     }
 
     @TestMetadata("property")
     public void testProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/topLevelMemberInvocation/property/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/property/", this::doTest);
     }
 
     @TestMetadata("propertyWithGetter")
     public void testPropertyWithGetter() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/topLevelMemberInvocation/propertyWithGetter/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/propertyWithGetter/", this::doTest);
     }
 
     @TestMetadata("twoModules")
     public void testTwoModules() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/codegen/topLevelMemberInvocation/twoModules/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/codegen/topLevelMemberInvocation/twoModules/", this::doTest);
     }
 }

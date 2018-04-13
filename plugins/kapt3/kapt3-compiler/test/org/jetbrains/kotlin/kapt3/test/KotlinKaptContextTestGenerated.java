@@ -27,19 +27,16 @@ public class KotlinKaptContextTestGenerated extends AbstractKotlinKaptContextTes
 
     @TestMetadata("NestedClasses.kt")
     public void testNestedClasses() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/kapt3/kapt3-compiler/testData/kotlinRunner/NestedClasses.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/kapt3/kapt3-compiler/testData/kotlinRunner/NestedClasses.kt", this::doTest);
     }
 
     @TestMetadata("Overloads.kt")
     public void testOverloads() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/kapt3/kapt3-compiler/testData/kotlinRunner/Overloads.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/kapt3/kapt3-compiler/testData/kotlinRunner/Overloads.kt", this::doTest);
     }
 
     @TestMetadata("Simple.kt")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/kapt3/kapt3-compiler/testData/kotlinRunner/Simple.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/kapt3/kapt3-compiler/testData/kotlinRunner/Simple.kt", this::doTest);
     }
 }

@@ -31,8 +31,7 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
     public static class AddActivityToManifest extends AbstractAndroidIntentionTest {
         @TestMetadata("abstract.kt")
         public void testAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/abstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/abstract.kt", this::doTest);
         }
 
         public void testAllFilesPresentInAddActivityToManifest() throws Exception {
@@ -41,56 +40,47 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("alreadyExists.kt")
         public void testAlreadyExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/alreadyExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/alreadyExists.kt", this::doTest);
         }
 
         @TestMetadata("inner.kt")
         public void testInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/inner.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/inner.kt", this::doTest);
         }
 
         @TestMetadata("insideBody.kt")
         public void testInsideBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/insideBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/insideBody.kt", this::doTest);
         }
 
         @TestMetadata("local.kt")
         public void testLocal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/local.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/local.kt", this::doTest);
         }
 
         @TestMetadata("nested.kt")
         public void testNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/nested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/nested.kt", this::doTest);
         }
 
         @TestMetadata("notActivity.kt")
         public void testNotActivity() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/notActivity.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/notActivity.kt", this::doTest);
         }
 
         @TestMetadata("private.kt")
         public void testPrivate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/private.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/private.kt", this::doTest);
         }
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/protected.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/protected.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addActivityToManifest/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addActivityToManifest/simple.kt", this::doTest);
         }
     }
 
@@ -100,8 +90,7 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
     public static class AddBroadcastReceiverToManifest extends AbstractAndroidIntentionTest {
         @TestMetadata("abstract.kt")
         public void testAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/abstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/abstract.kt", this::doTest);
         }
 
         public void testAllFilesPresentInAddBroadcastReceiverToManifest() throws Exception {
@@ -110,56 +99,47 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("alreadyExists.kt")
         public void testAlreadyExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/alreadyExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/alreadyExists.kt", this::doTest);
         }
 
         @TestMetadata("inner.kt")
         public void testInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/inner.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/inner.kt", this::doTest);
         }
 
         @TestMetadata("insideBody.kt")
         public void testInsideBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/insideBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/insideBody.kt", this::doTest);
         }
 
         @TestMetadata("local.kt")
         public void testLocal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/local.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/local.kt", this::doTest);
         }
 
         @TestMetadata("nested.kt")
         public void testNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/nested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/nested.kt", this::doTest);
         }
 
         @TestMetadata("notReceiver.kt")
         public void testNotReceiver() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/notReceiver.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/notReceiver.kt", this::doTest);
         }
 
         @TestMetadata("private.kt")
         public void testPrivate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/private.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/private.kt", this::doTest);
         }
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/protected.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/protected.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addBroadcastReceiverToManifest/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addBroadcastReceiverToManifest/simple.kt", this::doTest);
         }
     }
 
@@ -169,8 +149,7 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
     public static class AddServiceToManifest extends AbstractAndroidIntentionTest {
         @TestMetadata("abstract.kt")
         public void testAbstract() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/abstract.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/abstract.kt", this::doTest);
         }
 
         public void testAllFilesPresentInAddServiceToManifest() throws Exception {
@@ -179,56 +158,47 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("alreadyExists.kt")
         public void testAlreadyExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/alreadyExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/alreadyExists.kt", this::doTest);
         }
 
         @TestMetadata("inner.kt")
         public void testInner() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/inner.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/inner.kt", this::doTest);
         }
 
         @TestMetadata("insideBody.kt")
         public void testInsideBody() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/insideBody.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/insideBody.kt", this::doTest);
         }
 
         @TestMetadata("local.kt")
         public void testLocal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/local.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/local.kt", this::doTest);
         }
 
         @TestMetadata("nested.kt")
         public void testNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/nested.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/nested.kt", this::doTest);
         }
 
         @TestMetadata("notService.kt")
         public void testNotService() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/notService.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/notService.kt", this::doTest);
         }
 
         @TestMetadata("private.kt")
         public void testPrivate() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/private.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/private.kt", this::doTest);
         }
 
         @TestMetadata("protected.kt")
         public void testProtected() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/protected.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/protected.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/addServiceToManifest/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/addServiceToManifest/simple.kt", this::doTest);
         }
     }
 
@@ -242,62 +212,52 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("allNullableTypes.kt")
         public void testAllNullableTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/allNullableTypes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/allNullableTypes.kt", this::doTest);
         }
 
         @TestMetadata("allTypes.kt")
         public void testAllTypes() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/allTypes.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/allTypes.kt", this::doTest);
         }
 
         @TestMetadata("alreadyImplemented.kt")
         public void testAlreadyImplemented() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/alreadyImplemented.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/alreadyImplemented.kt", this::doTest);
         }
 
         @TestMetadata("constructorProperties.kt")
         public void testConstructorProperties() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/constructorProperties.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/constructorProperties.kt", this::doTest);
         }
 
         @TestMetadata("constructorPropertiesWithParameters.kt")
         public void testConstructorPropertiesWithParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/constructorPropertiesWithParameters.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/constructorPropertiesWithParameters.kt", this::doTest);
         }
 
         @TestMetadata("missingConstructor.kt")
         public void testMissingConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/missingConstructor.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/missingConstructor.kt", this::doTest);
         }
 
         @TestMetadata("missingDescribeContents.kt")
         public void testMissingDescribeContents() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/missingDescribeContents.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/missingDescribeContents.kt", this::doTest);
         }
 
         @TestMetadata("missingWriteToParcel.kt")
         public void testMissingWriteToParcel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/missingWriteToParcel.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/missingWriteToParcel.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/simple.kt", this::doTest);
         }
 
         @TestMetadata("withTransient.kt")
         public void testWithTransient() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/implementParcelable/withTransient.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/implementParcelable/withTransient.kt", this::doTest);
         }
     }
 
@@ -311,50 +271,42 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("indirectParcelable.kt")
         public void testIndirectParcelable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/redoParcelable/indirectParcelable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/indirectParcelable.kt", this::doTest);
         }
 
         @TestMetadata("init.kt")
         public void testInit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/redoParcelable/init.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/init.kt", this::doTest);
         }
 
         @TestMetadata("initWithExtraStatements.kt")
         public void testInitWithExtraStatements() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/redoParcelable/initWithExtraStatements.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/initWithExtraStatements.kt", this::doTest);
         }
 
         @TestMetadata("noParcelable.kt")
         public void testNoParcelable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/redoParcelable/noParcelable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/noParcelable.kt", this::doTest);
         }
 
         @TestMetadata("oldField.kt")
         public void testOldField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/redoParcelable/oldField.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/oldField.kt", this::doTest);
         }
 
         @TestMetadata("oldFieldSecondary.kt")
         public void testOldFieldSecondary() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/redoParcelable/oldFieldSecondary.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/oldFieldSecondary.kt", this::doTest);
         }
 
         @TestMetadata("parcelize.kt")
         public void testParcelize() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/redoParcelable/parcelize.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/parcelize.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/redoParcelable/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/redoParcelable/simple.kt", this::doTest);
         }
     }
 
@@ -368,38 +320,32 @@ public class AndroidIntentionTestGenerated extends AbstractAndroidIntentionTest 
 
         @TestMetadata("inderectParcelable.kt")
         public void testInderectParcelable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/removeParcelable/inderectParcelable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/inderectParcelable.kt", this::doTest);
         }
 
         @TestMetadata("init.kt")
         public void testInit() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/removeParcelable/init.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/init.kt", this::doTest);
         }
 
         @TestMetadata("initWithExtraStatements.kt")
         public void testInitWithExtraStatements() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/removeParcelable/initWithExtraStatements.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/initWithExtraStatements.kt", this::doTest);
         }
 
         @TestMetadata("noParcelable.kt")
         public void testNoParcelable() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/removeParcelable/noParcelable.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/noParcelable.kt", this::doTest);
         }
 
         @TestMetadata("parcelize.kt")
         public void testParcelize() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/removeParcelable/parcelize.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/parcelize.kt", this::doTest);
         }
 
         @TestMetadata("simple.kt")
         public void testSimple() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/android/intention/removeParcelable/simple.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/android/intention/removeParcelable/simple.kt", this::doTest);
         }
     }
 }

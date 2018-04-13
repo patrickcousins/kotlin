@@ -27,25 +27,21 @@ public class JvmDecompiledTextTestGenerated extends AbstractJvmDecompiledTextTes
 
     @TestMetadata("Modifiers")
     public void testModifiers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/decompiler/decompiledTextJvm/Modifiers/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledTextJvm/Modifiers/", this::doTest);
     }
 
     @TestMetadata("MultifileClass")
     public void testMultifileClass() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/decompiler/decompiledTextJvm/MultifileClass/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledTextJvm/MultifileClass/", this::doTest);
     }
 
     @TestMetadata("TestKt")
     public void testTestKt() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/decompiler/decompiledTextJvm/TestKt/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledTextJvm/TestKt/", this::doTest);
     }
 
     @TestMetadata("TypeAliases")
     public void testTypeAliases() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/decompiler/decompiledTextJvm/TypeAliases/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/decompiler/decompiledTextJvm/TypeAliases/", this::doTest);
     }
 }

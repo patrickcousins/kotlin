@@ -27,61 +27,51 @@ public class DataFlowValueRenderingTestGenerated extends AbstractDataFlowValueRe
 
     @TestMetadata("classProperty.kt")
     public void testClassProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/classProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/classProperty.kt", this::doTest);
     }
 
     @TestMetadata("complexIdentifier.kt")
     public void testComplexIdentifier() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/complexIdentifier.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/complexIdentifier.kt", this::doTest);
     }
 
     @TestMetadata("complexIdentifierWithImplicitReceiver.kt")
     public void testComplexIdentifierWithImplicitReceiver() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/complexIdentifierWithImplicitReceiver.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/complexIdentifierWithImplicitReceiver.kt", this::doTest);
     }
 
     @TestMetadata("complexIdentifierWithInitiallyNullableReceiver.kt")
     public void testComplexIdentifierWithInitiallyNullableReceiver() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/complexIdentifierWithInitiallyNullableReceiver.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/complexIdentifierWithInitiallyNullableReceiver.kt", this::doTest);
     }
 
     @TestMetadata("complexIdentifierWithReceiver.kt")
     public void testComplexIdentifierWithReceiver() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/complexIdentifierWithReceiver.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/complexIdentifierWithReceiver.kt", this::doTest);
     }
 
     @TestMetadata("multipleVariables.kt")
     public void testMultipleVariables() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/multipleVariables.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/multipleVariables.kt", this::doTest);
     }
 
     @TestMetadata("packageProperty.kt")
     public void testPackageProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/packageProperty.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/packageProperty.kt", this::doTest);
     }
 
     @TestMetadata("receivers.kt")
     public void testReceivers() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/receivers.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/receivers.kt", this::doTest);
     }
 
     @TestMetadata("smartCast.kt")
     public void testSmartCast() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/smartCast.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/smartCast.kt", this::doTest);
     }
 
     @TestMetadata("smartNotNull.kt")
     public void testSmartNotNull() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/dataFlowValueRendering/smartNotNull.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/dataFlowValueRendering/smartNotNull.kt", this::doTest);
     }
 }

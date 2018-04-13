@@ -35,38 +35,32 @@ public class KotlinFindUsagesWithLibraryTestGenerated extends AbstractKotlinFind
 
         @TestMetadata("LibraryClassUsages.0.kt")
         public void testLibraryClassUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryClassUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryClassUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryConstructorUsages.0.kt")
         public void testLibraryConstructorUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryConstructorUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryConstructorUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryFieldUsages.0.kt")
         public void testLibraryFieldUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryFieldUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryFieldUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryMethodUsages.0.kt")
         public void testLibraryMethodUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryMethodUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryMethodUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryStaticFieldUsages.0.kt")
         public void testLibraryStaticFieldUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryStaticFieldUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryStaticFieldUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryStaticMethodUsages.0.kt")
         public void testLibraryStaticMethodUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryStaticMethodUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/javaLibrary/LibraryStaticMethodUsages.0.kt", this::doTest);
         }
     }
 
@@ -80,74 +74,62 @@ public class KotlinFindUsagesWithLibraryTestGenerated extends AbstractKotlinFind
 
         @TestMetadata("LibraryClassUsages.0.kt")
         public void testLibraryClassUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryClassUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryClassUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryCompanionObjectUsages.0.kt")
         public void testLibraryCompanionObjectUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryCompanionObjectUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryCompanionObjectUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryEnumEntryUsages.0.kt")
         public void testLibraryEnumEntryUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryEnumEntryUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryEnumEntryUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryFunctionUsages.0.kt")
         public void testLibraryFunctionUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryFunctionUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryFunctionUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryMemberFunctionUsages.0.kt")
         public void testLibraryMemberFunctionUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryMemberFunctionUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryMemberFunctionUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryNestedClassMemberFunctionUsages.0.kt")
         public void testLibraryNestedClassMemberFunctionUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryNestedClassMemberFunctionUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryNestedClassMemberFunctionUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryNestedClassPrimaryConstructorUsages.0.kt")
         public void testLibraryNestedClassPrimaryConstructorUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryNestedClassPrimaryConstructorUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryNestedClassPrimaryConstructorUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryNestedClassSecondaryConstructorUsages.0.kt")
         public void testLibraryNestedClassSecondaryConstructorUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryNestedClassSecondaryConstructorUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryNestedClassSecondaryConstructorUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryNestedClassUsages.0.kt")
         public void testLibraryNestedClassUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryNestedClassUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryNestedClassUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryObjectUsages.0.kt")
         public void testLibraryObjectUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryObjectUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryObjectUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibraryPrimaryConstructorUsages.0.kt")
         public void testLibraryPrimaryConstructorUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryPrimaryConstructorUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibraryPrimaryConstructorUsages.0.kt", this::doTest);
         }
 
         @TestMetadata("LibrarySecondaryConstructorUsages.0.kt")
         public void testLibrarySecondaryConstructorUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibrarySecondaryConstructorUsages.0.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/libraryUsages/kotlinLibrary/LibrarySecondaryConstructorUsages.0.kt", this::doTest);
         }
     }
 

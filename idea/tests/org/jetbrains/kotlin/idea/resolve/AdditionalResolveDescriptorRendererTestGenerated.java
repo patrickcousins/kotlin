@@ -27,49 +27,41 @@ public class AdditionalResolveDescriptorRendererTestGenerated extends AbstractAd
 
     @TestMetadata("anonymousObjectInBaseConstructor.kt")
     public void testAnonymousObjectInBaseConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/additionalLazyResolve/anonymousObjectInBaseConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/anonymousObjectInBaseConstructor.kt", this::doTest);
     }
 
     @TestMetadata("anonymousObjectInClassInitializer.kt")
     public void testAnonymousObjectInClassInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/additionalLazyResolve/anonymousObjectInClassInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/anonymousObjectInClassInitializer.kt", this::doTest);
     }
 
     @TestMetadata("anonymousObjectInClassParameterInitializer.kt")
     public void testAnonymousObjectInClassParameterInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/additionalLazyResolve/anonymousObjectInClassParameterInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/anonymousObjectInClassParameterInitializer.kt", this::doTest);
     }
 
     @TestMetadata("functionLiteralInBaseConstructor.kt")
     public void testFunctionLiteralInBaseConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/additionalLazyResolve/functionLiteralInBaseConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/functionLiteralInBaseConstructor.kt", this::doTest);
     }
 
     @TestMetadata("localClassInClassInitializer.kt")
     public void testLocalClassInClassInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/additionalLazyResolve/localClassInClassInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/localClassInClassInitializer.kt", this::doTest);
     }
 
     @TestMetadata("localClassInClosureInClassParameterInitializer.kt")
     public void testLocalClassInClosureInClassParameterInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/additionalLazyResolve/localClassInClosureInClassParameterInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/localClassInClosureInClassParameterInitializer.kt", this::doTest);
     }
 
     @TestMetadata("localObjectInClassInitializer.kt")
     public void testLocalObjectInClassInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/additionalLazyResolve/localObjectInClassInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/localObjectInClassInitializer.kt", this::doTest);
     }
 
     @TestMetadata("localObjectInClosureInClassParameterInitializer.kt")
     public void testLocalObjectInClosureInClassParameterInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/additionalLazyResolve/localObjectInClosureInClassParameterInitializer.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/testData/resolve/additionalLazyResolve/localObjectInClosureInClassParameterInitializer.kt", this::doTest);
     }
 }

@@ -27,13 +27,11 @@ public class DiagnosticsWithModifiedMockJdkTestGenerated extends AbstractDiagnos
 
     @TestMetadata("notConsideredMethod.kt")
     public void testNotConsideredMethod() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testWithModifiedMockJdk/notConsideredMethod.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testWithModifiedMockJdk/notConsideredMethod.kt", this::doTest);
     }
 
     @TestMetadata("throwableConstructor.kt")
     public void testThrowableConstructor() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/diagnostics/testWithModifiedMockJdk/throwableConstructor.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/diagnostics/testWithModifiedMockJdk/throwableConstructor.kt", this::doTest);
     }
 }

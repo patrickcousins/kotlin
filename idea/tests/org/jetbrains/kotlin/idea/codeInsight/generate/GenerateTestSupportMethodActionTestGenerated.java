@@ -35,44 +35,37 @@ public class GenerateTestSupportMethodActionTestGenerated extends AbstractGenera
 
         @TestMetadata("dataMethod.kt")
         public void testDataMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/dataMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/dataMethod.kt", this::doTest);
         }
 
         @TestMetadata("setUp.kt")
         public void testSetUp() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/setUp.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/setUp.kt", this::doTest);
         }
 
         @TestMetadata("setUpExists.kt")
         public void testSetUpExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/setUpExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/setUpExists.kt", this::doTest);
         }
 
         @TestMetadata("setUpOverrides.kt")
         public void testSetUpOverrides() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/setUpOverrides.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/setUpOverrides.kt", this::doTest);
         }
 
         @TestMetadata("tearDown.kt")
         public void testTearDown() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/tearDown.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/tearDown.kt", this::doTest);
         }
 
         @TestMetadata("tearDownExists.kt")
         public void testTearDownExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/tearDownExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/tearDownExists.kt", this::doTest);
         }
 
         @TestMetadata("testMethod.kt")
         public void testTestMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/testMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/jUnit4/testMethod.kt", this::doTest);
         }
     }
 
@@ -86,32 +79,27 @@ public class GenerateTestSupportMethodActionTestGenerated extends AbstractGenera
 
         @TestMetadata("setUp.kt")
         public void testSetUp() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/setUp.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/setUp.kt", this::doTest);
         }
 
         @TestMetadata("setUpExists.kt")
         public void testSetUpExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/setUpExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/setUpExists.kt", this::doTest);
         }
 
         @TestMetadata("tearDown.kt")
         public void testTearDown() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/tearDown.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/tearDown.kt", this::doTest);
         }
 
         @TestMetadata("tearDownExists.kt")
         public void testTearDownExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/tearDownExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/tearDownExists.kt", this::doTest);
         }
 
         @TestMetadata("testMethod.kt")
         public void testTestMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/testMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/junit3/testMethod.kt", this::doTest);
         }
     }
 
@@ -125,44 +113,37 @@ public class GenerateTestSupportMethodActionTestGenerated extends AbstractGenera
 
         @TestMetadata("dataMethod.kt")
         public void testDataMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/dataMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/dataMethod.kt", this::doTest);
         }
 
         @TestMetadata("setUp.kt")
         public void testSetUp() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/setUp.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/setUp.kt", this::doTest);
         }
 
         @TestMetadata("setUpExists.kt")
         public void testSetUpExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/setUpExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/setUpExists.kt", this::doTest);
         }
 
         @TestMetadata("setUpOverrides.kt")
         public void testSetUpOverrides() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/setUpOverrides.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/setUpOverrides.kt", this::doTest);
         }
 
         @TestMetadata("tearDown.kt")
         public void testTearDown() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/tearDown.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/tearDown.kt", this::doTest);
         }
 
         @TestMetadata("tearDownExists.kt")
         public void testTearDownExists() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/tearDownExists.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/tearDownExists.kt", this::doTest);
         }
 
         @TestMetadata("testMethod.kt")
         public void testTestMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/testMethod.kt");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/codeInsight/generate/testFrameworkSupport/testNG/testMethod.kt", this::doTest);
         }
     }
 }

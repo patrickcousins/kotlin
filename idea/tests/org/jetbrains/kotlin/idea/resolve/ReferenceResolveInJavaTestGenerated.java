@@ -29,74 +29,62 @@ public class ReferenceResolveInJavaTestGenerated extends AbstractReferenceResolv
 
         @TestMetadata("Class.java")
         public void testClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/Class.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Class.java", this::doTest);
         }
 
         @TestMetadata("ClassObjectField.java")
         public void testClassObjectField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/ClassObjectField.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/ClassObjectField.java", this::doTest);
         }
 
         @TestMetadata("Constructor.java")
         public void testConstructor() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/Constructor.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Constructor.java", this::doTest);
         }
 
         @TestMetadata("EnumEntry.java")
         public void testEnumEntry() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/EnumEntry.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/EnumEntry.java", this::doTest);
         }
 
         @TestMetadata("Field.java")
         public void testField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/Field.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Field.java", this::doTest);
         }
 
         @TestMetadata("FileFacade.java")
         public void testFileFacade() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/FileFacade.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/FileFacade.java", this::doTest);
         }
 
         @TestMetadata("Getter.java")
         public void testGetter() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/Getter.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Getter.java", this::doTest);
         }
 
         @TestMetadata("Method.java")
         public void testMethod() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/Method.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/Method.java", this::doTest);
         }
 
         @TestMetadata("MethodOfDeeplyNested.java")
         public void testMethodOfDeeplyNested() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/MethodOfDeeplyNested.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/MethodOfDeeplyNested.java", this::doTest);
         }
 
         @TestMetadata("MethodWithParameters.java")
         public void testMethodWithParameters() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/MethodWithParameters.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/MethodWithParameters.java", this::doTest);
         }
 
         @TestMetadata("ObjectInstance.java")
         public void testObjectInstance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/ObjectInstance.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/ObjectInstance.java", this::doTest);
         }
 
         @TestMetadata("PlatformStaticFun.java")
         public void testPlatformStaticFun() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/binaryAndSource/PlatformStaticFun.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/binaryAndSource/PlatformStaticFun.java", this::doTest);
         }
     }
 
@@ -110,32 +98,27 @@ public class ReferenceResolveInJavaTestGenerated extends AbstractReferenceResolv
 
         @TestMetadata("AnnotationParameterReference.java")
         public void testAnnotationParameterReference() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/sourceOnly/AnnotationParameterReference.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/sourceOnly/AnnotationParameterReference.java", this::doTest);
         }
 
         @TestMetadata("AutoGeneratedOverloads.java")
         public void testAutoGeneratedOverloads() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/sourceOnly/AutoGeneratedOverloads.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/sourceOnly/AutoGeneratedOverloads.java", this::doTest);
         }
 
         @TestMetadata("ClassObjectStaticField.java")
         public void testClassObjectStaticField() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/sourceOnly/ClassObjectStaticField.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/sourceOnly/ClassObjectStaticField.java", this::doTest);
         }
 
         @TestMetadata("DelegatedMethodFromTraitNoImpl.java")
         public void testDelegatedMethodFromTraitNoImpl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/sourceOnly/DelegatedMethodFromTraitNoImpl.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/sourceOnly/DelegatedMethodFromTraitNoImpl.java", this::doTest);
         }
 
         @TestMetadata("DelegatedMethodFromTraitWithImpl.java")
         public void testDelegatedMethodFromTraitWithImpl() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/resolve/referenceInJava/sourceOnly/DelegatedMethodFromTraitWithImpl.java");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/resolve/referenceInJava/sourceOnly/DelegatedMethodFromTraitWithImpl.java", this::doTest);
         }
     }
 }

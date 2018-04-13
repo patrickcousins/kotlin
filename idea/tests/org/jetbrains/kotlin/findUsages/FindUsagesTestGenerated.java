@@ -37,26 +37,22 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("inContainingClass.0.kt")
             public void testInContainingClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/companionObject/inContainingClass.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/companionObject/inContainingClass.0.kt", this::doTest);
             }
 
             @TestMetadata("javaUsage.0.kt")
             public void testJavaUsage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/companionObject/javaUsage.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/companionObject/javaUsage.0.kt", this::doTest);
             }
 
             @TestMetadata("named.0.kt")
             public void testNamed() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/companionObject/named.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/companionObject/named.0.kt", this::doTest);
             }
 
             @TestMetadata("simple.0.kt")
             public void testSimple() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/companionObject/simple.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/companionObject/simple.0.kt", this::doTest);
             }
         }
 
@@ -70,104 +66,87 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("compareTo.0.kt")
             public void testCompareTo() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/compareTo.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/compareTo.0.kt", this::doTest);
             }
 
             @TestMetadata("contains.0.kt")
             public void testContains() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/contains.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/contains.0.kt", this::doTest);
             }
 
             @TestMetadata("equals.0.kt")
             public void testEquals() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/equals.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/equals.0.kt", this::doTest);
             }
 
             @TestMetadata("equalsNotAny.0.kt")
             public void testEqualsNotAny() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/equalsNotAny.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/equalsNotAny.0.kt", this::doTest);
             }
 
             @TestMetadata("forIteration.0.kt")
             public void testForIteration() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/forIteration.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/forIteration.0.kt", this::doTest);
             }
 
             @TestMetadata("get.0.kt")
             public void testGet() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/get.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/get.0.kt", this::doTest);
             }
 
             @TestMetadata("getAsPropertyDelegate.0.kt")
             public void testGetAsPropertyDelegate() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/getAsPropertyDelegate.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/getAsPropertyDelegate.0.kt", this::doTest);
             }
 
             @TestMetadata("inc.0.kt")
             public void testInc() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/inc.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/inc.0.kt", this::doTest);
             }
 
             @TestMetadata("invoke.0.kt")
             public void testInvoke() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/invoke.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/invoke.0.kt", this::doTest);
             }
 
             @TestMetadata("invokeExtension.0.kt")
             public void testInvokeExtension() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/invokeExtension.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/invokeExtension.0.kt", this::doTest);
             }
 
             @TestMetadata("invokeWithVarArg.0.kt")
             public void testInvokeWithVarArg() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/invokeWithVarArg.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/invokeWithVarArg.0.kt", this::doTest);
             }
 
             @TestMetadata("plus.0.kt")
             public void testPlus() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/plus.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/plus.0.kt", this::doTest);
             }
 
             @TestMetadata("plusAssign.0.kt")
             public void testPlusAssign() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/plusAssign.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/plusAssign.0.kt", this::doTest);
             }
 
             @TestMetadata("set.0.kt")
             public void testSet() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/set.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/set.0.kt", this::doTest);
             }
 
             @TestMetadata("setAsPropertyDelegate.0.kt")
             public void testSetAsPropertyDelegate() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/setAsPropertyDelegate.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/setAsPropertyDelegate.0.kt", this::doTest);
             }
 
             @TestMetadata("severalOperators.0.kt")
             public void testSeveralOperators() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/severalOperators.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/severalOperators.0.kt", this::doTest);
             }
 
             @TestMetadata("unaryMinus.0.kt")
             public void testUnaryMinus() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/unaryMinus.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/unaryMinus.0.kt", this::doTest);
             }
 
             @TestMetadata("idea/testData/findUsages/kotlin/conventions/components")
@@ -180,116 +159,97 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
                 @TestMetadata("callableReferences.0.kt")
                 public void testCallableReferences() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/callableReferences.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/callableReferences.0.kt", this::doTest);
                 }
 
                 @TestMetadata("companionObjectAccess.0.kt")
                 public void testCompanionObjectAccess() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/companionObjectAccess.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/companionObjectAccess.0.kt", this::doTest);
                 }
 
                 @TestMetadata("componentFunForGenericType1.0.kt")
                 public void testComponentFunForGenericType1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/componentFunForGenericType1.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/componentFunForGenericType1.0.kt", this::doTest);
                 }
 
                 @TestMetadata("componentFunForGenericType2.0.kt")
                 public void testComponentFunForGenericType2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/componentFunForGenericType2.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/componentFunForGenericType2.0.kt", this::doTest);
                 }
 
                 @TestMetadata("dataClass.0.kt")
                 public void testDataClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/dataClass.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/dataClass.0.kt", this::doTest);
                 }
 
                 @TestMetadata("dataClassComponentByRef.0.kt")
                 public void testDataClassComponentByRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/dataClassComponentByRef.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/dataClassComponentByRef.0.kt", this::doTest);
                 }
 
                 @TestMetadata("dataClassFromStdlib.0.kt")
                 public void testDataClassFromStdlib() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/dataClassFromStdlib.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/dataClassFromStdlib.0.kt", this::doTest);
                 }
 
                 @TestMetadata("dataClassInsideDataClass.0.kt")
                 public void testDataClassInsideDataClass() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/dataClassInsideDataClass.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/dataClassInsideDataClass.0.kt", this::doTest);
                 }
 
                 @TestMetadata("extensionComponentFun.0.kt")
                 public void testExtensionComponentFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/extensionComponentFun.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/extensionComponentFun.0.kt", this::doTest);
                 }
 
                 @TestMetadata("for.0.kt")
                 public void testFor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/for.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/for.0.kt", this::doTest);
                 }
 
                 @TestMetadata("isAndAs.0.kt")
                 public void testIsAndAs() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/isAndAs.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/isAndAs.0.kt", this::doTest);
                 }
 
                 @TestMetadata("lambdas.0.kt")
                 public void testLambdas() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/lambdas.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/lambdas.0.kt", this::doTest);
                 }
 
                 @TestMetadata("mayTypeAffectAncestors.0.kt")
                 public void testMayTypeAffectAncestors() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/mayTypeAffectAncestors.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/mayTypeAffectAncestors.0.kt", this::doTest);
                 }
 
                 @TestMetadata("memberComponentFun.0.kt")
                 public void testMemberComponentFun() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/memberComponentFun.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/memberComponentFun.0.kt", this::doTest);
                 }
 
                 @TestMetadata("operators.0.kt")
                 public void testOperators() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/operators.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/operators.0.kt", this::doTest);
                 }
 
                 @TestMetadata("recursiveDataClass1.0.kt")
                 public void testRecursiveDataClass1() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/recursiveDataClass1.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/recursiveDataClass1.0.kt", this::doTest);
                 }
 
                 @TestMetadata("recursiveDataClass2.0.kt")
                 public void testRecursiveDataClass2() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/recursiveDataClass2.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/recursiveDataClass2.0.kt", this::doTest);
                 }
 
                 @TestMetadata("SAM.0.kt")
                 public void testSAM() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/SAM.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/SAM.0.kt", this::doTest);
                 }
 
                 @TestMetadata("when.0.kt")
                 public void testWhen() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/conventions/components/when.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/conventions/components/when.0.kt", this::doTest);
                 }
             }
         }
@@ -304,338 +264,282 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("classUsedInPlainText.0.kt")
             public void testClassUsedInPlainText() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/classUsedInPlainText.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/classUsedInPlainText.0.kt", this::doTest);
             }
 
             @TestMetadata("classUsedInTextAsRef.0.kt")
             public void testClassUsedInTextAsRef() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/classUsedInTextAsRef.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/classUsedInTextAsRef.0.kt", this::doTest);
             }
 
             @TestMetadata("javaClassAllUsages.0.kt")
             public void testJavaClassAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaClassAllUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaClassAllUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaClassConstructorUsages.0.kt")
             public void testJavaClassConstructorUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaClassConstructorUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaClassConstructorUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaClassFunctionUsages1.0.kt")
             public void testJavaClassFunctionUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaClassFunctionUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaClassFunctionUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("javaClassFunctionUsages2.0.kt")
             public void testJavaClassFunctionUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaClassFunctionUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaClassFunctionUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("javaClassNonConstructorUsages.0.kt")
             public void testJavaClassNonConstructorUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaClassNonConstructorUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaClassNonConstructorUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaClassPropertyUsages1.0.kt")
             public void testJavaClassPropertyUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaClassPropertyUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaClassPropertyUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("javaClassPropertyUsages2.0.kt")
             public void testJavaClassPropertyUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaClassPropertyUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaClassPropertyUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("javaClassSecondaryCtrUsages.0.kt")
             public void testJavaClassSecondaryCtrUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaClassSecondaryCtrUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaClassSecondaryCtrUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaDerivedClassUsages1.0.kt")
             public void testJavaDerivedClassUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaDerivedClassUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaDerivedClassUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("javaDerivedClassUsages2.0.kt")
             public void testJavaDerivedClassUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaDerivedClassUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaDerivedClassUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("javaDerivedInterfaceUsages1.0.kt")
             public void testJavaDerivedInterfaceUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaDerivedInterfaceUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaDerivedInterfaceUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("javaDerivedInterfaceUsages2.0.kt")
             public void testJavaDerivedInterfaceUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/javaDerivedInterfaceUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/javaDerivedInterfaceUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassAllUsages.0.kt")
             public void testKotlinClassAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassAllUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassAllUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassAllUsages2.0.kt")
             public void testKotlinClassAllUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassAllUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassAllUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassAllUsages3.0.kt")
             public void testKotlinClassAllUsages3() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassAllUsages3.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassAllUsages3.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassAllUsagesNoImport.0.kt")
             public void testKotlinClassAllUsagesNoImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassAllUsagesNoImport.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassAllUsagesNoImport.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassConstructorUsages.0.kt")
             public void testKotlinClassConstructorUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassConstructorUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassConstructorUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassDerivedAnonymousObjects.0.kt")
             public void testKotlinClassDerivedAnonymousObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedAnonymousObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedAnonymousObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassDerivedClasses.0.kt")
             public void testKotlinClassDerivedClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedClasses.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedClasses.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassDerivedInnerClasses.0.kt")
             public void testKotlinClassDerivedInnerClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedInnerClasses.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedInnerClasses.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassDerivedInnerObjects.0.kt")
             public void testKotlinClassDerivedInnerObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedInnerObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedInnerObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassDerivedLocalClasses.0.kt")
             public void testKotlinClassDerivedLocalClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedLocalClasses.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedLocalClasses.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassDerivedLocalObjects.0.kt")
             public void testKotlinClassDerivedLocalObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedLocalObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedLocalObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassDerivedLocalTraits.0.kt")
             public void testKotlinClassDerivedLocalTraits() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedLocalTraits.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedLocalTraits.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassDerivedObjects.0.kt")
             public void testKotlinClassDerivedObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassDerivedTraits.0.kt")
             public void testKotlinClassDerivedTraits() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedTraits.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassDerivedTraits.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassFunctionUsages1.0.kt")
             public void testKotlinClassFunctionUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassFunctionUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassFunctionUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassFunctionUsages2.0.kt")
             public void testKotlinClassFunctionUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassFunctionUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassFunctionUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassNonConstructorUsages.0.kt")
             public void testKotlinClassNonConstructorUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassNonConstructorUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassNonConstructorUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassPropertyUsages1.0.kt")
             public void testKotlinClassPropertyUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassPropertyUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassPropertyUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassPropertyUsages2.0.kt")
             public void testKotlinClassPropertyUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassPropertyUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassPropertyUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassSecondaryCtorUsages.0.kt")
             public void testKotlinClassSecondaryCtorUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassSecondaryCtorUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinClassSecondaryCtorUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinDeeplyNestedClassAllUsages.0.kt")
             public void testKotlinDeeplyNestedClassAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinDeeplyNestedClassAllUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinDeeplyNestedClassAllUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinInnerClassAllUsages.0.kt")
             public void testKotlinInnerClassAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinInnerClassAllUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinInnerClassAllUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalClassDerivedAnonymousObjects.0.kt")
             public void testKotlinLocalClassDerivedAnonymousObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassDerivedAnonymousObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassDerivedAnonymousObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalClassDerivedLocalClasses.0.kt")
             public void testKotlinLocalClassDerivedLocalClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassDerivedLocalClasses.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassDerivedLocalClasses.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalClassDerivedLocalObjects.0.kt")
             public void testKotlinLocalClassDerivedLocalObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassDerivedLocalObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassDerivedLocalObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalClassDerivedLocalTraits.0.kt")
             public void testKotlinLocalClassDerivedLocalTraits() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassDerivedLocalTraits.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassDerivedLocalTraits.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalClassUsages1.0.kt")
             public void testKotlinLocalClassUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalClassUsages2.0.kt")
             public void testKotlinLocalClassUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinLocalClassUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinNestedClassAllUsages.0.kt")
             public void testKotlinNestedClassAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinNestedClassAllUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinNestedClassAllUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPrivateClassUsages.0.kt")
             public void testKotlinPrivateClassUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinPrivateClassUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinPrivateClassUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitDerivedAnonymousObjects.0.kt")
             public void testKotlinTraitDerivedAnonymousObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedAnonymousObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedAnonymousObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitDerivedClasses.0.kt")
             public void testKotlinTraitDerivedClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedClasses.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedClasses.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitDerivedInnerClasses.0.kt")
             public void testKotlinTraitDerivedInnerClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedInnerClasses.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedInnerClasses.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitDerivedInnerObjects.0.kt")
             public void testKotlinTraitDerivedInnerObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedInnerObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedInnerObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitDerivedLocalClasses.0.kt")
             public void testKotlinTraitDerivedLocalClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedLocalClasses.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedLocalClasses.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitDerivedLocalObjects.0.kt")
             public void testKotlinTraitDerivedLocalObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedLocalObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedLocalObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitDerivedLocalTraits.0.kt")
             public void testKotlinTraitDerivedLocalTraits() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedLocalTraits.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedLocalTraits.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitDerivedObjects.0.kt")
             public void testKotlinTraitDerivedObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedObjects.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedObjects.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitDerivedTraits.0.kt")
             public void testKotlinTraitDerivedTraits() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedTraits.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/kotlinTraitDerivedTraits.0.kt", this::doTest);
             }
 
             @TestMetadata("localAndNonLocalClass.0.kt")
             public void testLocalAndNonLocalClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/localAndNonLocalClass.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/localAndNonLocalClass.0.kt", this::doTest);
             }
 
             @TestMetadata("primaryConstructorWithDefaultParams.0.kt")
             public void testPrimaryConstructorWithDefaultParams() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/primaryConstructorWithDefaultParams.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/primaryConstructorWithDefaultParams.0.kt", this::doTest);
             }
 
             @TestMetadata("usageInTypeAlias.0.kt")
             public void testUsageInTypeAlias() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findClassUsages/usageInTypeAlias.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findClassUsages/usageInTypeAlias.0.kt", this::doTest);
             }
         }
 
@@ -649,188 +553,157 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("enumFunctionUsages.0.kt")
             public void testEnumFunctionUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/enumFunctionUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/enumFunctionUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("functionUsedInPlainText.0.kt")
             public void testFunctionUsedInPlainText() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/functionUsedInPlainText.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/functionUsedInPlainText.0.kt", this::doTest);
             }
 
             @TestMetadata("highlightingOfSuperUsages.0.kt")
             public void testHighlightingOfSuperUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/highlightingOfSuperUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/highlightingOfSuperUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaAndKotlinOverrides.0.kt")
             public void testJavaAndKotlinOverrides() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/javaAndKotlinOverrides.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/javaAndKotlinOverrides.0.kt", this::doTest);
             }
 
             @TestMetadata("javaMethodUsages.0.kt")
             public void testJavaMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/javaMethodUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/javaMethodUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("jvmOverloaded.0.kt")
             public void testJvmOverloaded() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/jvmOverloaded.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/jvmOverloaded.0.kt", this::doTest);
             }
 
             @TestMetadata("jvmStaticFun.0.kt")
             public void testJvmStaticFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/jvmStaticFun.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/jvmStaticFun.0.kt", this::doTest);
             }
 
             @TestMetadata("jvmStaticJvmOverloadsFun.0.kt")
             public void testJvmStaticJvmOverloadsFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/jvmStaticJvmOverloadsFun.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/jvmStaticJvmOverloadsFun.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinInternalMethodUsages.0.kt")
             public void testKotlinInternalMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinInternalMethodUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinInternalMethodUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalMethodUsages1.0.kt")
             public void testKotlinLocalMethodUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinLocalMethodUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinLocalMethodUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalMethodUsages2.0.kt")
             public void testKotlinLocalMethodUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinLocalMethodUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinLocalMethodUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinMethodUsages.0.kt")
             public void testKotlinMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinMethodUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinMethodUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinMultiRefInImport.0.kt")
             public void testKotlinMultiRefInImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinMultiRefInImport.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinMultiRefInImport.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinNestedClassMethodUsages.0.kt")
             public void testKotlinNestedClassMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinNestedClassMethodUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinNestedClassMethodUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinOverloadAndExtensionUsages.0.kt")
             public void testKotlinOverloadAndExtensionUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinOverloadAndExtensionUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinOverloadAndExtensionUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinOverloadAndExtensionUsages2.0.kt")
             public void testKotlinOverloadAndExtensionUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinOverloadAndExtensionUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinOverloadAndExtensionUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPrivateMethodUsages.0.kt")
             public void testKotlinPrivateMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinPrivateMethodUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinPrivateMethodUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTopLevelMethodUsages.0.kt")
             public void testKotlinTopLevelMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTopLevelMethodUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTopLevelMethodUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTopLevelMethodUsagesMultifile.0.kt")
             public void testKotlinTopLevelMethodUsagesMultifile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTopLevelMethodUsagesMultifile.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTopLevelMethodUsagesMultifile.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTopLevelMethodUsagesNoImport.0.kt")
             public void testKotlinTopLevelMethodUsagesNoImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTopLevelMethodUsagesNoImport.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTopLevelMethodUsagesNoImport.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTopLevelMethodUsagesWithRenamedFile.0.kt")
             public void testKotlinTopLevelMethodUsagesWithRenamedFile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTopLevelMethodUsagesWithRenamedFile.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTopLevelMethodUsagesWithRenamedFile.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitImplThroughDelegate.0.kt")
             public void testKotlinTraitImplThroughDelegate() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTraitImplThroughDelegate.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTraitImplThroughDelegate.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTraitNoImplThroughDelegate.0.kt")
             public void testKotlinTraitNoImplThroughDelegate() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTraitNoImplThroughDelegate.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/kotlinTraitNoImplThroughDelegate.0.kt", this::doTest);
             }
 
             @TestMetadata("labeledReturns.0.kt")
             public void testLabeledReturns() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/labeledReturns.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/labeledReturns.0.kt", this::doTest);
             }
 
             @TestMetadata("localClassMember.0.kt")
             public void testLocalClassMember() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/localClassMember.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/localClassMember.0.kt", this::doTest);
             }
 
             @TestMetadata("objectExpressionDeepMember.0.kt")
             public void testObjectExpressionDeepMember() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/objectExpressionDeepMember.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/objectExpressionDeepMember.0.kt", this::doTest);
             }
 
             @TestMetadata("objectExpressionMember.0.kt")
             public void testObjectExpressionMember() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/objectExpressionMember.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/objectExpressionMember.0.kt", this::doTest);
             }
 
             @TestMetadata("objectExpressionMember2.0.kt")
             public void testObjectExpressionMember2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/objectExpressionMember2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/objectExpressionMember2.0.kt", this::doTest);
             }
 
             @TestMetadata("objectExpressionMemberInClass.0.kt")
             public void testObjectExpressionMemberInClass() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/objectExpressionMemberInClass.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/objectExpressionMemberInClass.0.kt", this::doTest);
             }
 
             @TestMetadata("synthesizedFunction.0.kt")
             public void testSynthesizedFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/synthesizedFunction.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/synthesizedFunction.0.kt", this::doTest);
             }
 
             @TestMetadata("usagesOfBaseForFunction.0.kt")
             public void testUsagesOfBaseForFunction() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findFunctionUsages/usagesOfBaseForFunction.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findFunctionUsages/usagesOfBaseForFunction.0.kt", this::doTest);
             }
         }
 
@@ -844,20 +717,17 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("javaPropertyUsagesK.0.kt")
             public void testJavaPropertyUsagesK() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findJavaPropertyUsages/javaPropertyUsagesK.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findJavaPropertyUsages/javaPropertyUsagesK.0.kt", this::doTest);
             }
 
             @TestMetadata("javaPropertyUsagesKJK.0.kt")
             public void testJavaPropertyUsagesKJK() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findJavaPropertyUsages/javaPropertyUsagesKJK.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findJavaPropertyUsages/javaPropertyUsagesKJK.0.kt", this::doTest);
             }
 
             @TestMetadata("javaPropertyUsagesKK.0.kt")
             public void testJavaPropertyUsagesKK() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findJavaPropertyUsages/javaPropertyUsagesKK.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findJavaPropertyUsages/javaPropertyUsagesKK.0.kt", this::doTest);
             }
         }
 
@@ -871,44 +741,37 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("javaObjectUsages.0.kt")
             public void testJavaObjectUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findObjectUsages/javaObjectUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findObjectUsages/javaObjectUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinImportedObjectUsages.0.kt")
             public void testKotlinImportedObjectUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findObjectUsages/kotlinImportedObjectUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findObjectUsages/kotlinImportedObjectUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalObjectUsages1.0.kt")
             public void testKotlinLocalObjectUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findObjectUsages/kotlinLocalObjectUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findObjectUsages/kotlinLocalObjectUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalObjectUsages2.0.kt")
             public void testKotlinLocalObjectUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findObjectUsages/kotlinLocalObjectUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findObjectUsages/kotlinLocalObjectUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinNestedObjectUsages.0.kt")
             public void testKotlinNestedObjectUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findObjectUsages/kotlinNestedObjectUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findObjectUsages/kotlinNestedObjectUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinObjectUsages.0.kt")
             public void testKotlinObjectUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findObjectUsages/kotlinObjectUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findObjectUsages/kotlinObjectUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPrivateObjectUsages.0.kt")
             public void testKotlinPrivateObjectUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findObjectUsages/kotlinPrivateObjectUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findObjectUsages/kotlinPrivateObjectUsages.0.kt", this::doTest);
             }
         }
 
@@ -922,8 +785,7 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("kotlinPackageUsages.0.kt")
             public void testKotlinPackageUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPackageUsages/kotlinPackageUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPackageUsages/kotlinPackageUsages.0.kt", this::doTest);
             }
         }
 
@@ -937,44 +799,37 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("kotlinAnnotationConstructorParameterUsages.0.kt")
             public void testKotlinAnnotationConstructorParameterUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findParameterUsages/kotlinAnnotationConstructorParameterUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findParameterUsages/kotlinAnnotationConstructorParameterUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinComponentFunctionParameterUsages.0.kt")
             public void testKotlinComponentFunctionParameterUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findParameterUsages/kotlinComponentFunctionParameterUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findParameterUsages/kotlinComponentFunctionParameterUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinConstructorParameterUsages.0.kt")
             public void testKotlinConstructorParameterUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findParameterUsages/kotlinConstructorParameterUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findParameterUsages/kotlinConstructorParameterUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinDefaultAnnotationParameterUsages.0.kt")
             public void testKotlinDefaultAnnotationParameterUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findParameterUsages/kotlinDefaultAnnotationParameterUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findParameterUsages/kotlinDefaultAnnotationParameterUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinFunctionParameterUsages.0.kt")
             public void testKotlinFunctionParameterUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findParameterUsages/kotlinFunctionParameterUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findParameterUsages/kotlinFunctionParameterUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinHighlightParameterUsages.0.kt")
             public void testKotlinHighlightParameterUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findParameterUsages/kotlinHighlightParameterUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findParameterUsages/kotlinHighlightParameterUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("parameterNameInTextFile.0.kt")
             public void testParameterNameInTextFile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findParameterUsages/parameterNameInTextFile.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findParameterUsages/parameterNameInTextFile.0.kt", this::doTest);
             }
         }
 
@@ -988,44 +843,37 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("annotationEntry.0.kt")
             public void testAnnotationEntry() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/annotationEntry.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/annotationEntry.0.kt", this::doTest);
             }
 
             @TestMetadata("constructorCall.0.kt")
             public void testConstructorCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/constructorCall.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/constructorCall.0.kt", this::doTest);
             }
 
             @TestMetadata("jvmOverloaded.0.kt")
             public void testJvmOverloaded() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/jvmOverloaded.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/jvmOverloaded.0.kt", this::doTest);
             }
 
             @TestMetadata("missingName.0.kt")
             public void testMissingName() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/missingName.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/missingName.0.kt", this::doTest);
             }
 
             @TestMetadata("primaryConstructorByRef.0.kt")
             public void testPrimaryConstructorByRef() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/primaryConstructorByRef.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/primaryConstructorByRef.0.kt", this::doTest);
             }
 
             @TestMetadata("primaryConstructorNoKeyword.0.kt")
             public void testPrimaryConstructorNoKeyword() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/primaryConstructorNoKeyword.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/primaryConstructorNoKeyword.0.kt", this::doTest);
             }
 
             @TestMetadata("primaryConstructorWithKeyword.0.kt")
             public void testPrimaryConstructorWithKeyword() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/primaryConstructorWithKeyword.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPrimaryConstructorUsages/primaryConstructorWithKeyword.0.kt", this::doTest);
             }
         }
 
@@ -1039,170 +887,142 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("extensionPropertyUsages.0.kt")
             public void testExtensionPropertyUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/extensionPropertyUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/extensionPropertyUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaAndKotlinOverrides.0.kt")
             public void testJavaAndKotlinOverrides() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/javaAndKotlinOverrides.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/javaAndKotlinOverrides.0.kt", this::doTest);
             }
 
             @TestMetadata("javaAndKotlinOverrides2.0.kt")
             public void testJavaAndKotlinOverrides2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/javaAndKotlinOverrides2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/javaAndKotlinOverrides2.0.kt", this::doTest);
             }
 
             @TestMetadata("javaClassObjectPropertyUsages.0.kt")
             public void testJavaClassObjectPropertyUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/javaClassObjectPropertyUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/javaClassObjectPropertyUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaPropertyReadUsages.0.kt")
             public void testJavaPropertyReadUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyReadUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyReadUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaPropertyReadUsages2.0.kt")
             public void testJavaPropertyReadUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyReadUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyReadUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("javaPropertyUsages.0.kt")
             public void testJavaPropertyUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaPropertyUsages2.0.kt")
             public void testJavaPropertyUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("javaPropertyWriteUsages.0.kt")
             public void testJavaPropertyWriteUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyWriteUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyWriteUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("javaPropertyWriteUsages2.0.kt")
             public void testJavaPropertyWriteUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyWriteUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/javaPropertyWriteUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("jvmStaticProperty.0.kt")
             public void testJvmStaticProperty() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/jvmStaticProperty.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/jvmStaticProperty.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinClassObjectPropertyUsage.0.kt")
             public void testKotlinClassObjectPropertyUsage() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinClassObjectPropertyUsage.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinClassObjectPropertyUsage.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalPropertyUsages1.0.kt")
             public void testKotlinLocalPropertyUsages1() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinLocalPropertyUsages1.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinLocalPropertyUsages1.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinLocalPropertyUsages2.0.kt")
             public void testKotlinLocalPropertyUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinLocalPropertyUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinLocalPropertyUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinMultiRefInImport.0.kt")
             public void testKotlinMultiRefInImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinMultiRefInImport.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinMultiRefInImport.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinNestedClassPropertyUsages.0.kt")
             public void testKotlinNestedClassPropertyUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinNestedClassPropertyUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinNestedClassPropertyUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPrivatePropertyInClassObjectUsages.0.kt")
             public void testKotlinPrivatePropertyInClassObjectUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPrivatePropertyInClassObjectUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPrivatePropertyInClassObjectUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPrivatePropertyUsages.0.kt")
             public void testKotlinPrivatePropertyUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPrivatePropertyUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPrivatePropertyUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPrivatePropertyUsages2.0.kt")
             public void testKotlinPrivatePropertyUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPrivatePropertyUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPrivatePropertyUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPropertyReadUsages.0.kt")
             public void testKotlinPropertyReadUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyReadUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyReadUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPropertyReadUsages2.0.kt")
             public void testKotlinPropertyReadUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyReadUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyReadUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPropertySameNameAsMethodUsages.0.kt")
             public void testKotlinPropertySameNameAsMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertySameNameAsMethodUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertySameNameAsMethodUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPropertyUsages.0.kt")
             public void testKotlinPropertyUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPropertyUsages2.0.kt")
             public void testKotlinPropertyUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPropertyWriteUsages.0.kt")
             public void testKotlinPropertyWriteUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyWriteUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyWriteUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPropertyWriteUsages2.0.kt")
             public void testKotlinPropertyWriteUsages2() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyWriteUsages2.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinPropertyWriteUsages2.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinTopLevelPropertyUsages.0.kt")
             public void testKotlinTopLevelPropertyUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinTopLevelPropertyUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kotlinTopLevelPropertyUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kt7656.0.kt")
             public void testKt7656() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findPropertyUsages/kt7656.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findPropertyUsages/kt7656.0.kt", this::doTest);
             }
         }
 
@@ -1216,26 +1036,22 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("constructorCall.0.kt")
             public void testConstructorCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findSecondaryConstructorUsages/constructorCall.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findSecondaryConstructorUsages/constructorCall.0.kt", this::doTest);
             }
 
             @TestMetadata("defaultSecondaryConstructor.0.kt")
             public void testDefaultSecondaryConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findSecondaryConstructorUsages/defaultSecondaryConstructor.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findSecondaryConstructorUsages/defaultSecondaryConstructor.0.kt", this::doTest);
             }
 
             @TestMetadata("jvmOverloaded.0.kt")
             public void testJvmOverloaded() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findSecondaryConstructorUsages/jvmOverloaded.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findSecondaryConstructorUsages/jvmOverloaded.0.kt", this::doTest);
             }
 
             @TestMetadata("secondaryConstructor.0.kt")
             public void testSecondaryConstructor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findSecondaryConstructorUsages/secondaryConstructor.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findSecondaryConstructorUsages/secondaryConstructor.0.kt", this::doTest);
             }
         }
 
@@ -1249,8 +1065,7 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("objectAlias.0.kt")
             public void testObjectAlias() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findTypeAliasUsages/objectAlias.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findTypeAliasUsages/objectAlias.0.kt", this::doTest);
             }
         }
 
@@ -1264,20 +1079,17 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("kotlinClassTypeParameterUsages.0.kt")
             public void testKotlinClassTypeParameterUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findTypeParameterUsages/kotlinClassTypeParameterUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findTypeParameterUsages/kotlinClassTypeParameterUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinFunctionTypeParameterUsages.0.kt")
             public void testKotlinFunctionTypeParameterUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findTypeParameterUsages/kotlinFunctionTypeParameterUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findTypeParameterUsages/kotlinFunctionTypeParameterUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("propertyWithTypeParameter.0.kt")
             public void testPropertyWithTypeParameter() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findTypeParameterUsages/propertyWithTypeParameter.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findTypeParameterUsages/propertyWithTypeParameter.0.kt", this::doTest);
             }
         }
 
@@ -1291,8 +1103,7 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("findWithFilteringImports.0.kt")
             public void testFindWithFilteringImports() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findWithFilteringImports/findWithFilteringImports.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findWithFilteringImports/findWithFilteringImports.0.kt", this::doTest);
             }
         }
 
@@ -1306,20 +1117,17 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("kotlinClassAllUsages.0.kt")
             public void testKotlinClassAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findWithStructuralGrouping/kotlinClassAllUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findWithStructuralGrouping/kotlinClassAllUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinMethodUsages.0.kt")
             public void testKotlinMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findWithStructuralGrouping/kotlinMethodUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findWithStructuralGrouping/kotlinMethodUsages.0.kt", this::doTest);
             }
 
             @TestMetadata("kotlinPropertyUsages.0.kt")
             public void testKotlinPropertyUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/findWithStructuralGrouping/kotlinPropertyUsages.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/findWithStructuralGrouping/kotlinPropertyUsages.0.kt", this::doTest);
             }
         }
 
@@ -1341,44 +1149,37 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
                 @TestMetadata("enumFunctionUsages.0.kt")
                 public void testEnumFunctionUsages() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findFunctionUsages/enumFunctionUsages.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findFunctionUsages/enumFunctionUsages.0.kt", this::doTest);
                 }
 
                 @TestMetadata("kotlinMethodUsages.0.kt")
                 public void testKotlinMethodUsages() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinMethodUsages.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinMethodUsages.0.kt", this::doTest);
                 }
 
                 @TestMetadata("kotlinMultiRefInImport.0.kt")
                 public void testKotlinMultiRefInImport() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinMultiRefInImport.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinMultiRefInImport.0.kt", this::doTest);
                 }
 
                 @TestMetadata("kotlinOverloadAndExtensionUsages.0.kt")
                 public void testKotlinOverloadAndExtensionUsages() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinOverloadAndExtensionUsages.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinOverloadAndExtensionUsages.0.kt", this::doTest);
                 }
 
                 @TestMetadata("kotlinTopLevelMethodUsages.0.kt")
                 public void testKotlinTopLevelMethodUsages() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinTopLevelMethodUsages.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinTopLevelMethodUsages.0.kt", this::doTest);
                 }
 
                 @TestMetadata("kotlinTraitImplThroughDelegate.0.kt")
                 public void testKotlinTraitImplThroughDelegate() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinTraitImplThroughDelegate.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findFunctionUsages/kotlinTraitImplThroughDelegate.0.kt", this::doTest);
                 }
 
                 @TestMetadata("usagesOfBaseForFunction.0.kt")
                 public void testUsagesOfBaseForFunction() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findFunctionUsages/usagesOfBaseForFunction.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findFunctionUsages/usagesOfBaseForFunction.0.kt", this::doTest);
                 }
             }
 
@@ -1392,14 +1193,12 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
                 @TestMetadata("constructorCall.0.kt")
                 public void testConstructorCall() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findPrimaryConstructorUsages/constructorCall.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findPrimaryConstructorUsages/constructorCall.0.kt", this::doTest);
                 }
 
                 @TestMetadata("primaryConstructorByRef.0.kt")
                 public void testPrimaryConstructorByRef() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findPrimaryConstructorUsages/primaryConstructorByRef.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findPrimaryConstructorUsages/primaryConstructorByRef.0.kt", this::doTest);
                 }
             }
 
@@ -1413,26 +1212,22 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
                 @TestMetadata("kotlinClassObjectPropertyUsage.0.kt")
                 public void testKotlinClassObjectPropertyUsage() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findPropertyUsages/kotlinClassObjectPropertyUsage.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findPropertyUsages/kotlinClassObjectPropertyUsage.0.kt", this::doTest);
                 }
 
                 @TestMetadata("kotlinMultiRefInImport.0.kt")
                 public void testKotlinMultiRefInImport() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findPropertyUsages/kotlinMultiRefInImport.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findPropertyUsages/kotlinMultiRefInImport.0.kt", this::doTest);
                 }
 
                 @TestMetadata("kotlinPropertyUsages.0.kt")
                 public void testKotlinPropertyUsages() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findPropertyUsages/kotlinPropertyUsages.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findPropertyUsages/kotlinPropertyUsages.0.kt", this::doTest);
                 }
 
                 @TestMetadata("kotlinTopLevelPropertyUsages.0.kt")
                 public void testKotlinTopLevelPropertyUsages() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findPropertyUsages/kotlinTopLevelPropertyUsages.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findPropertyUsages/kotlinTopLevelPropertyUsages.0.kt", this::doTest);
                 }
             }
 
@@ -1446,20 +1241,17 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
                 @TestMetadata("constructorCall.0.kt")
                 public void testConstructorCall() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findSecondaryConstructorUsages/constructorCall.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findSecondaryConstructorUsages/constructorCall.0.kt", this::doTest);
                 }
 
                 @TestMetadata("defaultSecondaryConstructor.0.kt")
                 public void testDefaultSecondaryConstructor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findSecondaryConstructorUsages/defaultSecondaryConstructor.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findSecondaryConstructorUsages/defaultSecondaryConstructor.0.kt", this::doTest);
                 }
 
                 @TestMetadata("secondaryConstructor.0.kt")
                 public void testSecondaryConstructor() throws Exception {
-                    String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/internal/findSecondaryConstructorUsages/secondaryConstructor.0.kt");
-                    doTest(fileName);
+                    KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/internal/findSecondaryConstructorUsages/secondaryConstructor.0.kt", this::doTest);
                 }
             }
         }
@@ -1474,14 +1266,12 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("propertyFileUsagesByRef.0.kt")
             public void testPropertyFileUsagesByRef() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/propertyFiles/propertyFileUsagesByRef.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/propertyFiles/propertyFileUsagesByRef.0.kt", this::doTest);
             }
 
             @TestMetadata("propertyUsagesByRef.0.kt")
             public void testPropertyUsagesByRef() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/propertyFiles/propertyUsagesByRef.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/propertyFiles/propertyUsagesByRef.0.kt", this::doTest);
             }
         }
 
@@ -1495,8 +1285,7 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("dummy.0.kts")
             public void testDummy() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/script/dummy.0.kts");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/script/dummy.0.kts", this::doTest);
             }
         }
 
@@ -1510,8 +1299,7 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("unresolvedAnnotation.0.kt")
             public void testUnresolvedAnnotation() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/unresolvedAnnotation/unresolvedAnnotation.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/unresolvedAnnotation/unresolvedAnnotation.0.kt", this::doTest);
             }
         }
 
@@ -1525,26 +1313,22 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("plusAssignFun.0.kt")
             public void testPlusAssignFun() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/variable/plusAssignFun.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/variable/plusAssignFun.0.kt", this::doTest);
             }
 
             @TestMetadata("readAccess.0.kt")
             public void testReadAccess() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/variable/readAccess.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/variable/readAccess.0.kt", this::doTest);
             }
 
             @TestMetadata("varInDoWhile.0.kt")
             public void testVarInDoWhile() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/variable/varInDoWhile.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/variable/varInDoWhile.0.kt", this::doTest);
             }
 
             @TestMetadata("writeAccess.0.kt")
             public void testWriteAccess() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/kotlin/variable/writeAccess.0.kt");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/kotlin/variable/writeAccess.0.kt", this::doTest);
             }
         }
     }
@@ -1567,38 +1351,32 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("javaConstructorInDelegationCall.0.java")
             public void testJavaConstructorInDelegationCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findConstructorUsages/javaConstructorInDelegationCall.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findConstructorUsages/javaConstructorInDelegationCall.0.java", this::doTest);
             }
 
             @TestMetadata("javaDefaultConstructorInDelegationCall.0.java")
             public void testJavaDefaultConstructorInDelegationCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findConstructorUsages/javaDefaultConstructorInDelegationCall.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findConstructorUsages/javaDefaultConstructorInDelegationCall.0.java", this::doTest);
             }
 
             @TestMetadata("primaryConstructorByJavaRef.0.java")
             public void testPrimaryConstructorByJavaRef() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findConstructorUsages/primaryConstructorByJavaRef.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findConstructorUsages/primaryConstructorByJavaRef.0.java", this::doTest);
             }
 
             @TestMetadata("primaryConstructorByJavaSuperRef.0.java")
             public void testPrimaryConstructorByJavaSuperRef() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findConstructorUsages/primaryConstructorByJavaSuperRef.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findConstructorUsages/primaryConstructorByJavaSuperRef.0.java", this::doTest);
             }
 
             @TestMetadata("secondaryConstructorByJavaNewExpression.0.java")
             public void testSecondaryConstructorByJavaNewExpression() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findConstructorUsages/secondaryConstructorByJavaNewExpression.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findConstructorUsages/secondaryConstructorByJavaNewExpression.0.java", this::doTest);
             }
 
             @TestMetadata("secondaryConstructorByJavaSuperCall.0.java")
             public void testSecondaryConstructorByJavaSuperCall() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findConstructorUsages/secondaryConstructorByJavaSuperCall.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findConstructorUsages/secondaryConstructorByJavaSuperCall.0.java", this::doTest);
             }
         }
 
@@ -1612,134 +1390,112 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("JKClassAllUsages.0.java")
             public void testJKClassAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassAllUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassAllUsages.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassDerivedAnonymousObjects.0.java")
             public void testJKClassDerivedAnonymousObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedAnonymousObjects.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedAnonymousObjects.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassDerivedClasses.0.java")
             public void testJKClassDerivedClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedClasses.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedClasses.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassDerivedInnerClasses.0.java")
             public void testJKClassDerivedInnerClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedInnerClasses.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedInnerClasses.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassDerivedInnerObjects.0.java")
             public void testJKClassDerivedInnerObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedInnerObjects.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedInnerObjects.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassDerivedLocalClasses.0.java")
             public void testJKClassDerivedLocalClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedLocalClasses.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedLocalClasses.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassDerivedLocalObjects.0.java")
             public void testJKClassDerivedLocalObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedLocalObjects.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedLocalObjects.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassDerivedObjects.0.java")
             public void testJKClassDerivedObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedObjects.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassDerivedObjects.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassFieldsUsages.0.java")
             public void testJKClassFieldsUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassFieldsUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassFieldsUsages.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassMethodsUsages.0.java")
             public void testJKClassMethodsUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassMethodsUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassMethodsUsages.0.java", this::doTest);
             }
 
             @TestMetadata("JKClassWithImplicitConstructorAllUsages.0.java")
             public void testJKClassWithImplicitConstructorAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKClassWithImplicitConstructorAllUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKClassWithImplicitConstructorAllUsages.0.java", this::doTest);
             }
 
             @TestMetadata("JKDerivedInterfaces.0.java")
             public void testJKDerivedInterfaces() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKDerivedInterfaces.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKDerivedInterfaces.0.java", this::doTest);
             }
 
             @TestMetadata("JKInnerClassAllUsages.0.java")
             public void testJKInnerClassAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKInnerClassAllUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKInnerClassAllUsages.0.java", this::doTest);
             }
 
             @TestMetadata("JKInterfaceDerivedAnonymousObjects.0.java")
             public void testJKInterfaceDerivedAnonymousObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedAnonymousObjects.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedAnonymousObjects.0.java", this::doTest);
             }
 
             @TestMetadata("JKInterfaceDerivedClasses.0.java")
             public void testJKInterfaceDerivedClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedClasses.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedClasses.0.java", this::doTest);
             }
 
             @TestMetadata("JKInterfaceDerivedInnerClasses.0.java")
             public void testJKInterfaceDerivedInnerClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedInnerClasses.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedInnerClasses.0.java", this::doTest);
             }
 
             @TestMetadata("JKInterfaceDerivedInnerObjects.0.java")
             public void testJKInterfaceDerivedInnerObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedInnerObjects.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedInnerObjects.0.java", this::doTest);
             }
 
             @TestMetadata("JKInterfaceDerivedLocalClasses.0.java")
             public void testJKInterfaceDerivedLocalClasses() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedLocalClasses.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedLocalClasses.0.java", this::doTest);
             }
 
             @TestMetadata("JKInterfaceDerivedLocalObjects.0.java")
             public void testJKInterfaceDerivedLocalObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedLocalObjects.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedLocalObjects.0.java", this::doTest);
             }
 
             @TestMetadata("JKInterfaceDerivedLocalTraits.0.java")
             public void testJKInterfaceDerivedLocalTraits() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedLocalTraits.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedLocalTraits.0.java", this::doTest);
             }
 
             @TestMetadata("JKInterfaceDerivedObjects.0.java")
             public void testJKInterfaceDerivedObjects() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedObjects.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKInterfaceDerivedObjects.0.java", this::doTest);
             }
 
             @TestMetadata("JKNestedClassAllUsages.0.java")
             public void testJKNestedClassAllUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaClassUsages/JKNestedClassAllUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaClassUsages/JKNestedClassAllUsages.0.java", this::doTest);
             }
         }
 
@@ -1753,8 +1509,7 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("JKFieldUsages.0.java")
             public void testJKFieldUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaFieldUsages/JKFieldUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaFieldUsages/JKFieldUsages.0.java", this::doTest);
             }
         }
 
@@ -1768,74 +1523,62 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("ConventionUsages.0.java")
             public void testConventionUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/ConventionUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/ConventionUsages.0.java", this::doTest);
             }
 
             @TestMetadata("defaultJavaAnnotationMethodUsages.0.java")
             public void testDefaultJavaAnnotationMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/defaultJavaAnnotationMethodUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/defaultJavaAnnotationMethodUsages.0.java", this::doTest);
             }
 
             @TestMetadata("JKMethodOverrides.0.java")
             public void testJKMethodOverrides() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/JKMethodOverrides.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/JKMethodOverrides.0.java", this::doTest);
             }
 
             @TestMetadata("JKMethodUsages.0.java")
             public void testJKMethodUsages() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/JKMethodUsages.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/JKMethodUsages.0.java", this::doTest);
             }
 
             @TestMetadata("javaComponentFunctions.0.java")
             public void testJavaComponentFunctions() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/javaComponentFunctions.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/javaComponentFunctions.0.java", this::doTest);
             }
 
             @TestMetadata("javaInvoke.0.java")
             public void testJavaInvoke() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/javaInvoke.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/javaInvoke.0.java", this::doTest);
             }
 
             @TestMetadata("javaInvokeWithStaticImport.0.java")
             public void testJavaInvokeWithStaticImport() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/javaInvokeWithStaticImport.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/javaInvokeWithStaticImport.0.java", this::doTest);
             }
 
             @TestMetadata("JavaWithGroovyInvoke.0.java")
             public void testJavaWithGroovyInvoke() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/JavaWithGroovyInvoke.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/JavaWithGroovyInvoke.0.java", this::doTest);
             }
 
             @TestMetadata("MismatchedAccessor.0.java")
             public void testMismatchedAccessor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/MismatchedAccessor.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/MismatchedAccessor.0.java", this::doTest);
             }
 
             @TestMetadata("OverriddenMethodSyntheticAccessor.0.java")
             public void testOverriddenMethodSyntheticAccessor() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/OverriddenMethodSyntheticAccessor.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/OverriddenMethodSyntheticAccessor.0.java", this::doTest);
             }
 
             @TestMetadata("SyntheticProperties.0.java")
             public void testSyntheticProperties() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/SyntheticProperties.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/SyntheticProperties.0.java", this::doTest);
             }
 
             @TestMetadata("UnaryNot.0.java")
             public void testUnaryNot() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaMethodUsages/UnaryNot.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaMethodUsages/UnaryNot.0.java", this::doTest);
             }
         }
 
@@ -1849,14 +1592,12 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
             @TestMetadata("javaPropertyGetterUsagesKJ.0.java")
             public void testJavaPropertyGetterUsagesKJ() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaPropertyUsages/javaPropertyGetterUsagesKJ.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaPropertyUsages/javaPropertyGetterUsagesKJ.0.java", this::doTest);
             }
 
             @TestMetadata("javaPropertySetterUsagesKJ.0.java")
             public void testJavaPropertySetterUsagesKJ() throws Exception {
-                String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/java/findJavaPropertyUsages/javaPropertySetterUsagesKJ.0.java");
-                doTest(fileName);
+                KotlinTestUtils.runTest("idea/testData/findUsages/java/findJavaPropertyUsages/javaPropertySetterUsagesKJ.0.java", this::doTest);
             }
         }
     }
@@ -1871,14 +1612,12 @@ public class FindUsagesTestGenerated extends AbstractFindUsagesTest {
 
         @TestMetadata("propertyFileUsages.0.properties")
         public void testPropertyFileUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/propertyFiles/propertyFileUsages.0.properties");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/propertyFiles/propertyFileUsages.0.properties", this::doTest);
         }
 
         @TestMetadata("propertyUsages.0.properties")
         public void testPropertyUsages() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("idea/testData/findUsages/propertyFiles/propertyUsages.0.properties");
-            doTest(fileName);
+            KotlinTestUtils.runTest("idea/testData/findUsages/propertyFiles/propertyUsages.0.properties", this::doTest);
         }
     }
 }

@@ -27,116 +27,97 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
     @TestMetadata("analyzeErrors.repl")
     public void testAnalyzeErrors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/analyzeErrors.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/analyzeErrors.repl", this::doTest);
     }
 
     @TestMetadata("constants.repl")
     public void testConstants() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/constants.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/constants.repl", this::doTest);
     }
 
     @TestMetadata("destructuringDeclaration.repl")
     public void testDestructuringDeclaration() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/destructuringDeclaration.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/destructuringDeclaration.repl", this::doTest);
     }
 
     @TestMetadata("empty.repl")
     public void testEmpty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/empty.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/empty.repl", this::doTest);
     }
 
     @TestMetadata("evaluationErrors.repl")
     public void testEvaluationErrors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/evaluationErrors.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/evaluationErrors.repl", this::doTest);
     }
 
     @TestMetadata("exceptionInValueToString.repl")
     public void testExceptionInValueToString() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/exceptionInValueToString.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/exceptionInValueToString.repl", this::doTest);
     }
 
     @TestMetadata("exceptionInVariableInitializer.repl")
     public void testExceptionInVariableInitializer() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/exceptionInVariableInitializer.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/exceptionInVariableInitializer.repl", this::doTest);
     }
 
     @TestMetadata("function.repl")
     public void testFunction() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/function.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/function.repl", this::doTest);
     }
 
     @TestMetadata("functionOverloadResolution.repl")
     public void testFunctionOverloadResolution() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/functionOverloadResolution.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/functionOverloadResolution.repl", this::doTest);
     }
 
     @TestMetadata("functionOverloadResolutionAnyBeatsString.repl")
     public void testFunctionOverloadResolutionAnyBeatsString() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/functionOverloadResolutionAnyBeatsString.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/functionOverloadResolutionAnyBeatsString.repl", this::doTest);
     }
 
     @TestMetadata("functionReferencesPrev.repl")
     public void testFunctionReferencesPrev() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/functionReferencesPrev.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/functionReferencesPrev.repl", this::doTest);
     }
 
     @TestMetadata("imports.repl")
     public void testImports() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/imports.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/imports.repl", this::doTest);
     }
 
     @TestMetadata("multipleImports.repl")
     public void testMultipleImports() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/multipleImports.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/multipleImports.repl", this::doTest);
     }
 
     @TestMetadata("noWarningsWithErrors.repl")
     public void testNoWarningsWithErrors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/noWarningsWithErrors.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/noWarningsWithErrors.repl", this::doTest);
     }
 
     @TestMetadata("simple.repl")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/simple.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/simple.repl", this::doTest);
     }
 
     @TestMetadata("simpleTwoVals.repl")
     public void testSimpleTwoVals() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/simpleTwoVals.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/simpleTwoVals.repl", this::doTest);
     }
 
     @TestMetadata("syntaxErrors.repl")
     public void testSyntaxErrors() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/syntaxErrors.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/syntaxErrors.repl", this::doTest);
     }
 
     @TestMetadata("topLevelLocalDelegatedProperty.repl")
     public void testTopLevelLocalDelegatedProperty() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/topLevelLocalDelegatedProperty.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/topLevelLocalDelegatedProperty.repl", this::doTest);
     }
 
     @TestMetadata("twoClosures.repl")
     public void testTwoClosures() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/twoClosures.repl");
-        doTest(fileName);
+        KotlinTestUtils.runTest("compiler/testData/repl/twoClosures.repl", this::doTest);
     }
 
     @TestMetadata("compiler/testData/repl/classes")
@@ -149,62 +130,52 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("classInheritance.repl")
         public void testClassInheritance() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/classInheritance.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/classInheritance.repl", this::doTest);
         }
 
         @TestMetadata("classRedeclaration.repl")
         public void testClassRedeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/classRedeclaration.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/classRedeclaration.repl", this::doTest);
         }
 
         @TestMetadata("classReferencesVal.repl")
         public void testClassReferencesVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/classReferencesVal.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/classReferencesVal.repl", this::doTest);
         }
 
         @TestMetadata("emptyClass.repl")
         public void testEmptyClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/emptyClass.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/emptyClass.repl", this::doTest);
         }
 
         @TestMetadata("emptyClassRedeclaration.repl")
         public void testEmptyClassRedeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/emptyClassRedeclaration.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/emptyClassRedeclaration.repl", this::doTest);
         }
 
         @TestMetadata("enumEntrySubclass.repl")
         public void testEnumEntrySubclass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/enumEntrySubclass.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/enumEntrySubclass.repl", this::doTest);
         }
 
         @TestMetadata("import.repl")
         public void testImport() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/import.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/import.repl", this::doTest);
         }
 
         @TestMetadata("simpleClass.repl")
         public void testSimpleClass() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/simpleClass.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/simpleClass.repl", this::doTest);
         }
 
         @TestMetadata("simpleEnum.repl")
         public void testSimpleEnum() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/simpleEnum.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/simpleEnum.repl", this::doTest);
         }
 
         @TestMetadata("simpleTrait.repl")
         public void testSimpleTrait() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/classes/simpleTrait.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/classes/simpleTrait.repl", this::doTest);
         }
     }
 
@@ -218,44 +189,37 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("functionWithoutReturn.repl")
         public void testFunctionWithoutReturn() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/controlFlow/functionWithoutReturn.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/functionWithoutReturn.repl", this::doTest);
         }
 
         @TestMetadata("incompleteIf.repl")
         public void testIncompleteIf() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/controlFlow/incompleteIf.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/incompleteIf.repl", this::doTest);
         }
 
         @TestMetadata("incompleteWhen.repl")
         public void testIncompleteWhen() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/controlFlow/incompleteWhen.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/incompleteWhen.repl", this::doTest);
         }
 
         @TestMetadata("kt15407.repl")
         public void testKt15407() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/controlFlow/kt15407.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/kt15407.repl", this::doTest);
         }
 
         @TestMetadata("loopWithWrongLabel.repl")
         public void testLoopWithWrongLabel() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/controlFlow/loopWithWrongLabel.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/loopWithWrongLabel.repl", this::doTest);
         }
 
         @TestMetadata("mutateVal.repl")
         public void testMutateVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/controlFlow/mutateVal.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/mutateVal.repl", this::doTest);
         }
 
         @TestMetadata("useUninitializedVal.repl")
         public void testUseUninitializedVal() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/controlFlow/useUninitializedVal.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/controlFlow/useUninitializedVal.repl", this::doTest);
         }
     }
 
@@ -269,8 +233,7 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("kt10001.repl")
         public void testKt10001() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/modules/kt10001.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/modules/kt10001.repl", this::doTest);
         }
     }
 
@@ -284,32 +247,27 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("blankLinesAndComments.repl")
         public void testBlankLinesAndComments() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/multiline/blankLinesAndComments.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/multiline/blankLinesAndComments.repl", this::doTest);
         }
 
         @TestMetadata("functionOnSeveralLines.repl")
         public void testFunctionOnSeveralLines() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/multiline/functionOnSeveralLines.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/multiline/functionOnSeveralLines.repl", this::doTest);
         }
 
         @TestMetadata("multilineFunctionInvocation.repl")
         public void testMultilineFunctionInvocation() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/multiline/multilineFunctionInvocation.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/multiline/multilineFunctionInvocation.repl", this::doTest);
         }
 
         @TestMetadata("openParenthesisIncomplete.repl")
         public void testOpenParenthesisIncomplete() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/multiline/openParenthesisIncomplete.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/multiline/openParenthesisIncomplete.repl", this::doTest);
         }
 
         @TestMetadata("simpleFunctionBodyOnNextLine.repl")
         public void testSimpleFunctionBodyOnNextLine() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/multiline/simpleFunctionBodyOnNextLine.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/multiline/simpleFunctionBodyOnNextLine.repl", this::doTest);
         }
     }
 
@@ -323,20 +281,17 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("emptyObject.repl")
         public void testEmptyObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/objects/emptyObject.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/objects/emptyObject.repl", this::doTest);
         }
 
         @TestMetadata("localObject.repl")
         public void testLocalObject() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/objects/localObject.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/objects/localObject.repl", this::doTest);
         }
 
         @TestMetadata("simpleObjectDeclaration.repl")
         public void testSimpleObjectDeclaration() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/objects/simpleObjectDeclaration.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/objects/simpleObjectDeclaration.repl", this::doTest);
         }
     }
 
@@ -350,14 +305,12 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("arrayOfBoxed.repl")
         public void testArrayOfBoxed() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/primitiveTypes/arrayOfBoxed.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/primitiveTypes/arrayOfBoxed.repl", this::doTest);
         }
 
         @TestMetadata("boxingOnPurpose.repl")
         public void testBoxingOnPurpose() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/primitiveTypes/boxingOnPurpose.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/primitiveTypes/boxingOnPurpose.repl", this::doTest);
         }
     }
 
@@ -371,8 +324,7 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("kt6843.repl")
         public void testKt6843() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/regressions/kt6843.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/regressions/kt6843.repl", this::doTest);
         }
     }
 
@@ -386,8 +338,7 @@ public class ReplInterpreterTestGenerated extends AbstractReplInterpreterTest {
 
         @TestMetadata("syntheticProperty.repl")
         public void testSyntheticProperty() throws Exception {
-            String fileName = KotlinTestUtils.navigationMetadata("compiler/testData/repl/useJava/syntheticProperty.repl");
-            doTest(fileName);
+            KotlinTestUtils.runTest("compiler/testData/repl/useJava/syntheticProperty.repl", this::doTest);
         }
     }
 }

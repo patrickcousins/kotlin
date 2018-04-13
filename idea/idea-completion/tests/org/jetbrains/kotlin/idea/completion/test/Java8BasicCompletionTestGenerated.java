@@ -27,13 +27,11 @@ public class Java8BasicCompletionTestGenerated extends AbstractJava8BasicComplet
 
     @TestMetadata("CollectionMethods.kt")
     public void testCollectionMethods() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/java8/CollectionMethods.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/java8/CollectionMethods.kt", this::doTest);
     }
 
     @TestMetadata("StreamMethods.kt")
     public void testStreamMethods() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("idea/idea-completion/testData/basic/java8/StreamMethods.kt");
-        doTest(fileName);
+        KotlinTestUtils.runTest("idea/idea-completion/testData/basic/java8/StreamMethods.kt", this::doTest);
     }
 }

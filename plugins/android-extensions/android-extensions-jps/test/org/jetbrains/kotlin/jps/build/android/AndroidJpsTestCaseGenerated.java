@@ -27,7 +27,6 @@ public class AndroidJpsTestCaseGenerated extends AbstractAndroidJpsTestCase {
 
     @TestMetadata("simple")
     public void testSimple() throws Exception {
-        String fileName = KotlinTestUtils.navigationMetadata("plugins/android-extensions/android-extensions-jps/testData/android/simple/");
-        doTest(fileName);
+        KotlinTestUtils.runTest("plugins/android-extensions/android-extensions-jps/testData/android/simple/", this::doTest);
     }
 }
