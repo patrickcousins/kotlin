@@ -16,6 +16,8 @@
 
 package org.jetbrains.kotlin.idea.util.string
 
+import java.lang.StringBuilder
+
 fun String.collapseSpaces(): String {
     val builder = StringBuilder()
     var haveSpaces = false

@@ -24,6 +24,7 @@ import com.intellij.psi.search.UsageSearchContext
 import com.intellij.psi.search.searches.MethodReferencesSearch
 import com.intellij.util.Processor
 import org.jetbrains.kotlin.asJava.namedUnwrappedElement
+import org.jetbrains.kotlin.compatibility.QueryExecutorBaseWrapper
 import org.jetbrains.kotlin.idea.caches.resolve.util.getJavaMethodDescriptor
 import org.jetbrains.kotlin.idea.search.restrictToKotlinSources
 import org.jetbrains.kotlin.incremental.components.LookupTracker
@@ -33,8 +34,8 @@ import org.jetbrains.kotlin.synthetic.JavaSyntheticPropertiesScope
 import org.jetbrains.kotlin.synthetic.SyntheticJavaPropertyDescriptor
 import org.jetbrains.kotlin.synthetic.canBePropertyAccessor
 
-class KotlinPropertyAccessorsReferenceSearcher : QueryExecutorBase<PsiReference, MethodReferencesSearch.SearchParameters>(true) {
-    override fun processQuery(queryParameters: MethodReferencesSearch.SearchParameters, consumer: Processor<PsiReference>) {
+class KotlinPropertyAccessorsReferenceSearcher : QueryExecutorBaseWrapper<PsiReference, MethodReferencesSearch.SearchParameters>(true) {
+    override fun processQueryEx(queryParameters: MethodReferencesSearch.SearchParameters, consumer: Processor<in PsiReference>) {
         val method = queryParameters.method
         val onlyKotlinFiles = queryParameters.effectiveSearchScope.restrictToKotlinSources()
         if (onlyKotlinFiles == GlobalSearchScope.EMPTY_SCOPE) return

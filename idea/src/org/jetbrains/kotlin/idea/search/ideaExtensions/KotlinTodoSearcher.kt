@@ -16,7 +16,6 @@
 
 package org.jetbrains.kotlin.idea.search.ideaExtensions
 
-import com.intellij.openapi.application.QueryExecutorBase
 import com.intellij.openapi.util.TextRange
 import com.intellij.psi.PsiFile
 import com.intellij.psi.impl.cache.TodoCacheManager
@@ -24,6 +23,7 @@ import com.intellij.psi.search.IndexPattern
 import com.intellij.psi.search.IndexPatternOccurrence
 import com.intellij.psi.search.searches.IndexPatternSearch
 import com.intellij.util.Processor
+import org.jetbrains.kotlin.compatibility.QueryExecutorBaseWrapper
 import org.jetbrains.kotlin.psi.KtCallExpression
 import org.jetbrains.kotlin.psi.KtTreeVisitorVoid
 
@@ -33,8 +33,8 @@ data class KotlinTodoOccurrence(private val _file: PsiFile, private val _textRan
     override fun getTextRange() = _textRange
 }
 
-class KotlinTodoSearcher : QueryExecutorBase<IndexPatternOccurrence, IndexPatternSearch.SearchParameters>(true) {
-    override fun processQuery(queryParameters: IndexPatternSearch.SearchParameters, consumer: Processor<IndexPatternOccurrence>) {
+class KotlinTodoSearcher : QueryExecutorBaseWrapper<IndexPatternOccurrence, IndexPatternSearch.SearchParameters>(true) {
+    override fun processQueryEx(queryParameters: IndexPatternSearch.SearchParameters, consumer: Processor<in IndexPatternOccurrence>) {
         var pattern = queryParameters.pattern
         if (pattern != null && !pattern.patternString.contains("TODO", true)) return
         if (pattern == null) {

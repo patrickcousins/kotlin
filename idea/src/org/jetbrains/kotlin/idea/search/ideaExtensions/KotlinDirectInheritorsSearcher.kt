@@ -23,6 +23,7 @@ import com.intellij.psi.search.GlobalSearchScope
 import com.intellij.psi.search.searches.DirectClassInheritorsSearch
 import com.intellij.util.Processor
 import org.jetbrains.kotlin.asJava.toLightClassWithBuiltinMapping
+import org.jetbrains.kotlin.compatibility.QueryExecutorBaseWrapper
 import org.jetbrains.kotlin.idea.caches.lightClasses.KtFakeLightClass
 import org.jetbrains.kotlin.idea.search.fileScope
 import org.jetbrains.kotlin.idea.stubindex.KotlinSourceFilterScope
@@ -30,8 +31,8 @@ import org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex
 import org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex
 import org.jetbrains.kotlin.idea.util.application.runReadAction
 
-open class KotlinDirectInheritorsSearcher : QueryExecutorBase<PsiClass, DirectClassInheritorsSearch.SearchParameters>(true) {
-    override fun processQuery(queryParameters: DirectClassInheritorsSearch.SearchParameters, consumer: Processor<PsiClass>) {
+open class KotlinDirectInheritorsSearcher : QueryExecutorBaseWrapper<PsiClass, DirectClassInheritorsSearch.SearchParameters>(true) {
+    override fun processQueryEx(queryParameters: DirectClassInheritorsSearch.SearchParameters, consumer: Processor<in PsiClass>) {
         val baseClass = queryParameters.classToProcess
 
         val name = baseClass.name ?: return

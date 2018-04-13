@@ -16,7 +16,6 @@
 
 package org.jetbrains.kotlin.idea.search.ideaExtensions
 
-import com.intellij.openapi.application.QueryExecutorBase
 import com.intellij.psi.*
 import com.intellij.psi.impl.cache.CacheManager
 import com.intellij.psi.search.*
@@ -30,6 +29,7 @@ import org.jetbrains.kotlin.asJava.elements.KtLightParameter
 import org.jetbrains.kotlin.asJava.namedUnwrappedElement
 import org.jetbrains.kotlin.asJava.toLightClass
 import org.jetbrains.kotlin.asJava.toLightElements
+import org.jetbrains.kotlin.compatibility.QueryExecutorBaseWrapper
 import org.jetbrains.kotlin.descriptors.FunctionDescriptor
 import org.jetbrains.kotlin.idea.references.KtSimpleNameReference
 import org.jetbrains.kotlin.idea.search.*
@@ -65,14 +65,14 @@ class KotlinReferencesSearchParameters(
         val kotlinOptions: KotlinReferencesSearchOptions = KotlinReferencesSearchOptions.Empty)
     : ReferencesSearch.SearchParameters(elementToSearch, scope, ignoreAccessScope, optimizer)
 
-class KotlinReferencesSearcher : QueryExecutorBase<PsiReference, ReferencesSearch.SearchParameters>() {
-    override fun processQuery(queryParameters: ReferencesSearch.SearchParameters, consumer: Processor<PsiReference>) {
+class KotlinReferencesSearcher : QueryExecutorBaseWrapper<PsiReference, ReferencesSearch.SearchParameters>() {
+    override fun processQueryEx(queryParameters: ReferencesSearch.SearchParameters, consumer: Processor<in PsiReference>) {
         val processor = QueryProcessor(queryParameters, consumer)
         runReadAction { processor.processInReadAction() }
         processor.executeLongRunningTasks()
     }
 
-    private class QueryProcessor(val queryParameters: ReferencesSearch.SearchParameters, val consumer: Processor<PsiReference>) {
+    private class QueryProcessor(val queryParameters: ReferencesSearch.SearchParameters, val consumer: Processor<in PsiReference>) {
 
         private val kotlinOptions = (queryParameters as? KotlinReferencesSearchParameters)?.kotlinOptions
                                     ?: KotlinReferencesSearchOptions.Empty
