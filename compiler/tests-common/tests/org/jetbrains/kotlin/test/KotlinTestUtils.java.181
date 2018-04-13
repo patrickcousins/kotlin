@@ -84,6 +84,7 @@ import java.io.StringWriter;
 import java.lang.reflect.Method;
 import java.nio.charset.Charset;
 import java.util.*;
+import java.util.function.Consumer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -1009,6 +1010,14 @@ public class KotlinTestUtils {
 
     public static String navigationMetadata(@TestDataFile String testFile) {
         return testFile;
+    }
+
+    public interface DoTest {
+        void invoke(String filePath) throws Exception;
+    }
+
+    public static void runTest(@TestDataFile String testFile, DoTest entryPoint) throws Exception {
+        entryPoint.invoke(testFile);
     }
 
     public static String getTestsRoot(@NotNull Class<?> testCaseClass) {
