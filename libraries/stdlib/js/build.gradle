@@ -174,7 +174,7 @@ task compileJs(type: JavaExec) {
 
     main = "org.jetbrains.kotlin.js.FileMergerKt"
     doFirst {
-        args = [jsOutputFile, rootDir, "$jsSrcDir/wrapper.js"] + inputFiles.collect { it.path } +
+        args = [jsOutputFile, rootDir, "$jsSrcDir/wrapper.js"] + inputFiles.collect { it.path }.sort() +
                (compileBuiltinsKotlin2Js.outputs.files.collect { it.path } +
                 compileKotlin2Js.outputs.files.collect { it.path } +
                 compileExperimentalKotlin2Js.outputs.files.collect { it.path }).findAll {
